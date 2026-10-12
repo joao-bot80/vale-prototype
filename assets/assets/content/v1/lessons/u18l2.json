@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u18l2",
+  "title": "Domingo no Rastro",
+  "scenario": "Madrid · El Rastro, La Latina",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 53: Pechincha",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¿Cuánto cuesta esta lámpara?",
+          "pt": "Quanto custa esta luminária?"
+        },
+        {
+          "speaker": "Vendedor",
+          "es": "Treinta euros. Es antigua, de los años sesenta.",
+          "pt": "Trinta euros. É antiga, dos anos sessenta."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Es un poco cara. ¿Me la deja en veinte?",
+          "pt": "Está um pouco cara. Faz por vinte?"
+        },
+        {
+          "speaker": "Vendedor",
+          "es": "Veinticinco y es tuya.",
+          "pt": "Vinte e cinco e é sua."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Vale, trato hecho. ¿Aceptas tarjeta?",
+          "pt": "Beleza, fechado. Aceita cartão?"
+        },
+        {
+          "speaker": "Vendedor",
+          "es": "Solo efectivo, guapa. Hay un cajero en la esquina.",
+          "pt": "Só dinheiro, querida. Tem um caixa eletrônico na esquina."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¿Me la deja en veinte?\" significa:",
+      "options": [
+        "Faz por vinte?",
+        "Me deixa vinte?",
+        "Me empresta por vinte?"
+      ],
+      "correct": 0,
+      "explanation": "Pedindo desconto: \"¿Me lo deja en...?\""
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Faz por vinte?",
+      "answer": [
+        "¿Me",
+        "la",
+        "deja",
+        "en",
+        "veinte?"
+      ],
+      "distractors": [
+        "por",
+        "faz"
+      ],
+      "explanation": "\"Dejar en\" = baixar o preço para."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Veinticinco y es tuya.",
+      "options": [
+        "Vinte e cinco e é sua.",
+        "Vinte e é sua.",
+        "Trinta, sem desconto."
+      ],
+      "correct": 0,
+      "explanation": "Contraproposta clássica."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "lámpara",
+          "kind": "armadilha",
+          "meaning": "luminária",
+          "tip": "Lâmpada (bombilla) é outra coisa!"
+        },
+        {
+          "es": "bombilla",
+          "kind": "armadilha",
+          "meaning": "lâmpada",
+          "tip": "Também bomba de chimarrão!"
+        },
+        {
+          "es": "regatear",
+          "kind": "quase",
+          "meaning": "pechinchar",
+          "tip": "No Rastro dá para regatear."
+        },
+        {
+          "es": "ganga",
+          "kind": "armadilha",
+          "meaning": "pechincha",
+          "tip": "Não é gangue!"
+        },
+        {
+          "es": "chollo",
+          "kind": "armadilha",
+          "meaning": "pechincha / ofertão",
+          "tip": "¡Qué chollo!"
+        },
+        {
+          "es": "monedero",
+          "kind": "armadilha",
+          "meaning": "porta-moedas",
+          "tip": "Não é moedeiro."
+        },
+        {
+          "es": "tenderete",
+          "kind": "quase",
+          "meaning": "barraquinha",
+          "tip": "Tenderete do Rastro."
+        },
+        {
+          "es": "antigüedad",
+          "kind": "quase",
+          "meaning": "antiguidade",
+          "tip": "Tienda de antigüedades."
+        },
+        {
+          "es": "trato hecho",
+          "kind": "quase",
+          "meaning": "negócio fechado",
+          "tip": "Hecho = feito."
+        },
+        {
+          "es": "vinilo",
+          "kind": "quase",
+          "meaning": "disco de vinil",
+          "tip": "Muitos no Rastro."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Pagar en efectivo\" é:",
+      "options": [
+        "Pagar em dinheiro",
+        "Pagar efetivamente",
+        "Pagar com cartão"
+      ],
+      "correct": 0,
+      "explanation": "Efectivo = cash."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Só aceito dinheiro.",
+      "answer": [
+        "Solo",
+        "acepto",
+        "efectivo."
+      ],
+      "distractors": [
+        "dinero vivo",
+        "dinheiro"
+      ],
+      "explanation": "\"Efectivo\" = dinheiro em espécie."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Solo efectivo, guapa. Hay un cajero en la esquina.",
+      "options": [
+        "Só dinheiro, querida. Tem um caixa eletrônico na esquina.",
+        "Só cartão, querida.",
+        "Pode pagar como quiser."
+      ],
+      "correct": 0,
+      "explanation": "\"Guapa\" é tratamento carinhoso comum em Madrid."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Se ha fundido la ___.\" (lâmpada)",
+      "options": [
+        "bombilla",
+        "lámpara",
+        "bomba"
+      ],
+      "correct": 0,
+      "explanation": "Bombilla = lâmpada. Lámpara = luminária."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Cambia la bombilla.",
+          "options": [
+            "Troca a lâmpada.",
+            "Troca a bombinha."
+          ],
+          "correct": 0,
+          "joke": "Bombilla = lâmpada."
+        },
+        {
+          "spanish": "¿Pagas en efectivo?",
+          "options": [
+            "Paga em dinheiro?",
+            "Paga efetivamente?"
+          ],
+          "correct": 0,
+          "joke": "Efectivo = dinheiro."
+        },
+        {
+          "spanish": "Busco un cajero.",
+          "options": [
+            "Procuro um caixa eletrônico.",
+            "Procuro um caixeiro-viajante."
+          ],
+          "correct": 0,
+          "joke": "Cajero = caixa eletrônico."
+        },
+        {
+          "spanish": "Esta lámpara es preciosa.",
+          "options": [
+            "Esta luminária é linda.",
+            "Esta lâmpada é preciosa."
+          ],
+          "correct": 0,
+          "joke": "Lámpara = luminária."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Madrid",
+      "items": [
+        {
+          "emoji": "🛍️",
+          "title": "El Rastro",
+          "es": "Los domingos, al Rastro.",
+          "pt": "Mercado de rua de domingo e feriado de manhã em La Latina, em volta da Ribera de Curtidores. Antiguidades, roupas, discos e muita gente: cuidado com a carteira."
+        },
+        {
+          "emoji": "🍷",
+          "title": "Depois do Rastro",
+          "es": "Después, unas cañas en La Latina.",
+          "pt": "É tradição terminar o Rastro tomando o aperitivo nos bares da Cava Baja e arredores."
+        }
+      ]
+    }
+  ]
+}

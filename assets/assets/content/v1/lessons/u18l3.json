@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "u18l3",
+  "title": "Dia de jogo no Bernabéu",
+  "scenario": "Madrid · estadio Santiago Bernabéu",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 54: ¡Gol!",
+      "lines": [
+        {
+          "speaker": "Dani",
+          "es": "¿Eres del Madrid o del Atleti?",
+          "pt": "Você é do Madrid ou do Atleti?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Todavía no lo sé. En Brasil soy del Flamengo.",
+          "pt": "Ainda não sei. No Brasil sou Flamengo."
+        },
+        {
+          "speaker": "Dani",
+          "es": "Hoy juega el Madrid en casa. Tengo dos entradas.",
+          "pt": "Hoje o Madrid joga em casa. Tenho dois ingressos."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Genial! ¿A qué hora empieza el partido?",
+          "pt": "Ótimo! Que horas começa o jogo?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "A las nueve. Hay que llegar pronto para pasar el control.",
+          "pt": "Às nove. Tem que chegar cedo para passar pela revista."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Vamos! ¡Que meta un gol Vinícius!",
+          "pt": "Vamos! Que o Vinícius faça um gol!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Partido\" no futebol é:",
+      "options": [
+        "Jogo / partida",
+        "Partido político",
+        "Quebrado"
+      ],
+      "correct": 0,
+      "explanation": "\"El partido\" = o jogo."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Que horas começa o jogo?",
+      "answer": [
+        "¿A",
+        "qué",
+        "hora",
+        "empieza",
+        "el",
+        "partido?"
+      ],
+      "distractors": [
+        "juego",
+        "comienza a"
+      ],
+      "explanation": "\"Partido\" = jogo de futebol."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Hoy juega el Madrid en casa. Tengo dos entradas.",
+      "options": [
+        "Hoje o Madrid joga em casa. Tenho dois ingressos.",
+        "Hoje o Madrid joga fora. Não tenho ingressos.",
+        "Hoje não tem jogo."
+      ],
+      "correct": 0,
+      "explanation": "\"En casa\" = como mandante."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "partido",
+          "kind": "armadilha",
+          "meaning": "jogo (de futebol)",
+          "tip": "Também partido político."
+        },
+        {
+          "es": "equipo local",
+          "kind": "quase",
+          "meaning": "time da casa",
+          "tip": "Visitante = visitante."
+        },
+        {
+          "es": "afición",
+          "kind": "armadilha",
+          "meaning": "torcida",
+          "tip": "Aficionado = torcedor."
+        },
+        {
+          "es": "portero",
+          "kind": "armadilha",
+          "meaning": "goleiro",
+          "tip": "Também porteiro!"
+        },
+        {
+          "es": "delantero",
+          "kind": "quase",
+          "meaning": "atacante",
+          "tip": "Va delante."
+        },
+        {
+          "es": "empate",
+          "kind": "igual",
+          "meaning": "empate",
+          "tip": "Igual!"
+        },
+        {
+          "es": "árbitro",
+          "kind": "igual",
+          "meaning": "árbitro",
+          "tip": "Igual!"
+        },
+        {
+          "es": "penalti",
+          "kind": "quase",
+          "meaning": "pênalti",
+          "tip": "Sem acento no e."
+        },
+        {
+          "es": "fuera de juego",
+          "kind": "quase",
+          "meaning": "impedimento",
+          "tip": "Offside."
+        },
+        {
+          "es": "grada",
+          "kind": "quase",
+          "meaning": "arquibancada",
+          "tip": "Las gradas."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"El portero\" no futebol é:",
+      "options": [
+        "O goleiro",
+        "O porteiro do estádio",
+        "O atacante"
+      ],
+      "correct": 0,
+      "explanation": "Portero = goleiro (e porteiro de prédio)."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Que ele faça um gol!",
+      "answer": [
+        "¡Que",
+        "meta",
+        "un",
+        "gol!"
+      ],
+      "distractors": [
+        "haga",
+        "faça"
+      ],
+      "explanation": "\"Meter un gol\" = fazer um gol."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "A las nueve. Hay que llegar pronto para pasar el control.",
+      "options": [
+        "Às nove. Tem que chegar cedo para passar pela revista.",
+        "Às nove. Pode chegar atrasado.",
+        "Às duas. Não tem controle."
+      ],
+      "correct": 0,
+      "explanation": "\"Pronto\" = cedo."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"El ___ ha parado el penalti.\" (goleiro)",
+      "options": [
+        "portero",
+        "goleiro",
+        "arquero"
+      ],
+      "correct": 0,
+      "explanation": "Na Espanha: portero. \"Arquero\" é mais latino-americano."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "El portero es muy bueno.",
+          "options": [
+            "O goleiro é muito bom.",
+            "O porteiro é muito bom."
+          ],
+          "correct": 0,
+          "joke": "Portero = goleiro."
+        },
+        {
+          "spanish": "La afición canta.",
+          "options": [
+            "A torcida canta.",
+            "A afeição canta."
+          ],
+          "correct": 0,
+          "joke": "Afición = torcida."
+        },
+        {
+          "spanish": "Ha sido fuera de juego.",
+          "options": [
+            "Foi impedimento.",
+            "Foi fora do jogo, na rua."
+          ],
+          "correct": 0,
+          "joke": "Fuera de juego = impedimento."
+        },
+        {
+          "spanish": "Vamos a ver el partido.",
+          "options": [
+            "Vamos ver o jogo.",
+            "Vamos ver o partido."
+          ],
+          "correct": 0,
+          "joke": "Partido = jogo."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Madrid",
+      "items": [
+        {
+          "emoji": "⚽",
+          "title": "Madrid x Atleti",
+          "es": "¿Eres madridista o colchonero?",
+          "pt": "Madrid tem dois grandes: o Real Madrid (Santiago Bernabéu) e o Atlético de Madrid (Riyadh Air Metropolitano). Torcedores do Atleti são os \"colchoneros\"."
+        },
+        {
+          "emoji": "🇧🇷",
+          "title": "Brasileiros no Madrid",
+          "es": "Vinícius juega en el Madrid.",
+          "pt": "Vários brasileiros fizeram história no Real Madrid, como Ronaldo, Roberto Carlos, Marcelo e Vinícius Jr."
+        }
+      ]
+    }
+  ]
+}

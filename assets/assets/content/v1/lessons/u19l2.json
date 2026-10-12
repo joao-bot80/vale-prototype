@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "id": "u19l2",
+  "title": "Festa da Mercè",
+  "scenario": "Barcelona · fiestas de la Mercè",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 56: Torres humanas",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¿Qué hacen esas personas subiéndose unas encima de otras?",
+          "pt": "O que essas pessoas estão fazendo, subindo umas em cima das outras?"
+        },
+        {
+          "speaker": "Marta",
+          "es": "Son los castells, torres humanas. ¡El niño de arriba sube hasta lo más alto!",
+          "pt": "São os castells, torres humanas. A criança de cima sobe até o mais alto!"
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Qué miedo! ¿Y no se caen?",
+          "pt": "Que medo! E não caem?"
+        },
+        {
+          "speaker": "Marta",
+          "es": "A veces sí, pero el niño lleva casco y hay mucha gente abajo.",
+          "pt": "Às vezes sim, mas a criança usa capacete e tem muita gente embaixo."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y esta noche qué hay?",
+          "pt": "E hoje à noite o que tem?"
+        },
+        {
+          "speaker": "Marta",
+          "es": "El correfoc: diablos con fuego. Ponte ropa vieja y una gorra.",
+          "pt": "O correfoc: diabos com fogo. Põe roupa velha e um boné."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¡Qué miedo!\" significa:",
+      "options": [
+        "Que medo!",
+        "Que meio!",
+        "Que mentira!"
+      ],
+      "correct": 0,
+      "explanation": "Miedo = medo."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "E não caem?",
+      "answer": [
+        "¿Y",
+        "no",
+        "se",
+        "caen?"
+      ],
+      "distractors": [
+        "caem",
+        "cayen"
+      ],
+      "explanation": "\"Caerse\": se cae, se caen."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "A veces sí, pero el niño lleva casco y hay mucha gente abajo.",
+      "options": [
+        "Às vezes sim, mas a criança usa capacete e tem muita gente embaixo.",
+        "Nunca caem.",
+        "Sim, e ninguém usa proteção."
+      ],
+      "correct": 0,
+      "explanation": "Desde 2006 as crianças do topo usam capacete."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "miedo",
+          "kind": "quase",
+          "meaning": "medo",
+          "tip": "Tener miedo."
+        },
+        {
+          "es": "escalar",
+          "kind": "quase",
+          "meaning": "escalar",
+          "tip": "Escalar la torre."
+        },
+        {
+          "es": "arriba",
+          "kind": "armadilha",
+          "meaning": "em cima",
+          "tip": "Não é \"arriba\" de chegar!"
+        },
+        {
+          "es": "pólvora",
+          "kind": "quase",
+          "meaning": "pólvora",
+          "tip": "Cheiro de pólvora."
+        },
+        {
+          "es": "diablo",
+          "kind": "quase",
+          "meaning": "diabo",
+          "tip": "Ditongo ia."
+        },
+        {
+          "es": "chispa",
+          "kind": "armadilha",
+          "meaning": "faísca",
+          "tip": "Não é chispa de churrasco."
+        },
+        {
+          "es": "hombro",
+          "kind": "armadilha",
+          "meaning": "ombro",
+          "tip": "Não é homem!"
+        },
+        {
+          "es": "equilibrio",
+          "kind": "quase",
+          "meaning": "equilíbrio",
+          "tip": "Sem acento."
+        },
+        {
+          "es": "desfile",
+          "kind": "armadilha",
+          "meaning": "desfile",
+          "tip": "Igual, mas sem acento."
+        },
+        {
+          "es": "cabezudo",
+          "kind": "quase",
+          "meaning": "cabeçudo",
+          "tip": "Gigantes y cabezudos."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Sube a los hombros\" significa:",
+      "options": [
+        "Sobe nos ombros",
+        "Sobe nos homens",
+        "Sobe nas costas"
+      ],
+      "correct": 0,
+      "explanation": "Hombro = ombro."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Põe roupa velha.",
+      "answer": [
+        "Ponte",
+        "ropa",
+        "vieja."
+      ],
+      "distractors": [
+        "pon",
+        "vella"
+      ],
+      "explanation": "\"Vieja\" = velha. \"Vella\" é catalão."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "El correfoc: diablos con fuego. Ponte ropa vieja y una gorra.",
+      "options": [
+        "O correfoc: diabos com fogo. Põe roupa velha e um boné.",
+        "Um show de rock. Vá de roupa nova.",
+        "Uma corrida. Leve tênis."
+      ],
+      "correct": 0,
+      "explanation": "Faíscas queimam roupa: proteja-se."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Mira los fuegos ___.\" (fogos de artifício)",
+      "options": [
+        "artificiales",
+        "artificios",
+        "artifícios"
+      ],
+      "correct": 0,
+      "explanation": "Fuegos artificiales = fogos de artifício."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Me duele el hombro.",
+          "options": [
+            "Meu ombro dói.",
+            "O homem me dói."
+          ],
+          "correct": 0,
+          "joke": "Hombro = ombro."
+        },
+        {
+          "spanish": "El niño está arriba.",
+          "options": [
+            "A criança está em cima.",
+            "A criança chegou."
+          ],
+          "correct": 0,
+          "joke": "Arriba = em cima."
+        },
+        {
+          "spanish": "Cuidado con las chispas.",
+          "options": [
+            "Cuidado com as faíscas.",
+            "Cuidado com as chispas do carvão."
+          ],
+          "correct": 0,
+          "joke": "Chispa = faísca."
+        },
+        {
+          "spanish": "Tengo miedo del fuego.",
+          "options": [
+            "Tenho medo do fogo.",
+            "Tenho meio fogo."
+          ],
+          "correct": 0,
+          "joke": "Miedo = medo."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Cataluña",
+      "items": [
+        {
+          "emoji": "🏰",
+          "title": "Castells",
+          "es": "Los castells son Patrimonio de la Humanidad.",
+          "pt": "Torres humanas típicas da Catalunha, Patrimônio Cultural Imaterial da UNESCO desde 2010. A Mercè, festa maior de Barcelona, acontece por volta do 24 de setembro."
+        },
+        {
+          "emoji": "🔥",
+          "title": "Correfoc",
+          "es": "¡Corre, que viene el fuego!",
+          "pt": "\"Correr o fogo\" em catalão: grupos vestidos de diabos dançam com fogos de artifício pelas ruas. Use roupa de algodão, mangas longas e proteja a cabeça."
+        }
+      ]
+    }
+  ]
+}

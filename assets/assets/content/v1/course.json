@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-9",
+  "contentVersion": "2026.10.12-10",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -99,6 +99,28 @@
               "available": true
             }
           ]
+        },
+        {
+          "id": "mad-u5",
+          "title": "Cultura e lazer em Madrid",
+          "emoji": "🖼️",
+          "lessons": [
+            {
+              "id": "u18l1",
+              "title": "No Museu do Prado",
+              "available": true
+            },
+            {
+              "id": "u18l2",
+              "title": "Domingo no Rastro",
+              "available": true
+            },
+            {
+              "id": "u18l3",
+              "title": "Dia de jogo no Bernabéu",
+              "available": true
+            }
+          ]
         }
       ]
     },
@@ -173,6 +195,28 @@
             {
               "id": "u13l3",
               "title": "Na Sagrada Família",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "cat-u4",
+          "title": "Festas e mercados",
+          "emoji": "🌹",
+          "lessons": [
+            {
+              "id": "u19l1",
+              "title": "Sant Jordi",
+              "available": true
+            },
+            {
+              "id": "u19l2",
+              "title": "Festa da Mercè",
+              "available": true
+            },
+            {
+              "id": "u19l3",
+              "title": "Na Boqueria",
               "available": true
             }
           ]

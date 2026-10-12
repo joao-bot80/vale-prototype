@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "id": "u19l1",
+  "title": "Sant Jordi",
+  "scenario": "Barcelona · 23 de abril, Rambla",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 55: Livros e rosas",
+      "lines": [
+        {
+          "speaker": "Marta",
+          "es": "Hoy es Sant Jordi. ¡Toda la ciudad está llena de libros y rosas!",
+          "pt": "Hoje é Sant Jordi. A cidade toda está cheia de livros e rosas!"
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Qué se regala?",
+          "pt": "O que se dá de presente?"
+        },
+        {
+          "speaker": "Marta",
+          "es": "Tradicionalmente, una rosa y un libro. Hoy cada uno regala lo que quiere.",
+          "pt": "Tradicionalmente, uma rosa e um livro. Hoje cada um dá o que quiser."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y es festivo?",
+          "pt": "E é feriado?"
+        },
+        {
+          "speaker": "Marta",
+          "es": "No, se trabaja, pero la gente sale a la calle igual.",
+          "pt": "Não, se trabalha, mas o pessoal sai na rua do mesmo jeito."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Pues te regalo esta novela. ¡Feliz Sant Jordi!",
+          "pt": "Então te dou este romance. Feliz Sant Jordi!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¿Es festivo?\" significa:",
+      "options": [
+        "É feriado?",
+        "É festa?",
+        "É divertido?"
+      ],
+      "correct": 0,
+      "explanation": "\"Día festivo\" = feriado."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "O que se dá de presente?",
+      "answer": [
+        "¿Qué",
+        "se",
+        "regala?"
+      ],
+      "distractors": [
+        "presenta",
+        "dá"
+      ],
+      "explanation": "\"Regalar\" = dar de presente."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "No, se trabaja, pero la gente sale a la calle igual.",
+      "options": [
+        "Não, se trabalha, mas o pessoal sai na rua do mesmo jeito.",
+        "Sim, ninguém trabalha.",
+        "Não, e ninguém sai de casa."
+      ],
+      "correct": 0,
+      "explanation": "Sant Jordi não é feriado, mas a cidade vira uma festa."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "novela",
+          "kind": "armadilha",
+          "meaning": "romance (livro)",
+          "tip": "Novela de TV = telenovela."
+        },
+        {
+          "es": "librería",
+          "kind": "armadilha",
+          "meaning": "livraria",
+          "tip": "Biblioteca = biblioteca."
+        },
+        {
+          "es": "festivo",
+          "kind": "armadilha",
+          "meaning": "feriado",
+          "tip": "Día festivo."
+        },
+        {
+          "es": "rosa",
+          "kind": "igual",
+          "meaning": "rosa",
+          "tip": "Igual!"
+        },
+        {
+          "es": "dragón",
+          "kind": "quase",
+          "meaning": "dragão",
+          "tip": "São Jorge e o dragão."
+        },
+        {
+          "es": "firma de libros",
+          "kind": "quase",
+          "meaning": "sessão de autógrafos",
+          "tip": "Firma = assinatura."
+        },
+        {
+          "es": "escritor",
+          "kind": "igual",
+          "meaning": "escritor",
+          "tip": "Igual!"
+        },
+        {
+          "es": "leyenda",
+          "kind": "quase",
+          "meaning": "lenda",
+          "tip": "Ditongo ey."
+        },
+        {
+          "es": "caballero",
+          "kind": "armadilha",
+          "meaning": "cavaleiro / senhor",
+          "tip": "Também \"senhor\" educado."
+        },
+        {
+          "es": "puesto de flores",
+          "kind": "quase",
+          "meaning": "banca de flores",
+          "tip": "Puesto = banca."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Una novela\" é:",
+      "options": [
+        "Um romance (livro)",
+        "Uma novela de TV",
+        "Uma notícia"
+      ],
+      "correct": 0,
+      "explanation": "Telenovela = novela de TV."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Te dou este romance.",
+      "answer": [
+        "Te",
+        "regalo",
+        "esta",
+        "novela."
+      ],
+      "distractors": [
+        "romance",
+        "doy"
+      ],
+      "explanation": "\"Novela\" = livro de ficção."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Tradicionalmente, una rosa y un libro. Hoy cada uno regala lo que quiere.",
+      "options": [
+        "Tradicionalmente, uma rosa e um livro. Hoje cada um dá o que quiser.",
+        "Só chocolates.",
+        "Nada, é só um feriado."
+      ],
+      "correct": 0,
+      "explanation": "Antes: rosa para elas, livro para eles. Hoje, sem regras."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Compro libros en la ___.\" (livraria)",
+      "options": [
+        "librería",
+        "biblioteca",
+        "libraría"
+      ],
+      "correct": 0,
+      "explanation": "Librería = livraria. Biblioteca = biblioteca."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Estoy leyendo una novela.",
+          "options": [
+            "Estou lendo um romance.",
+            "Estou vendo uma novela."
+          ],
+          "correct": 0,
+          "joke": "Novela = romance."
+        },
+        {
+          "spanish": "Voy a la librería.",
+          "options": [
+            "Vou à livraria.",
+            "Vou à biblioteca."
+          ],
+          "correct": 0,
+          "joke": "Librería = livraria."
+        },
+        {
+          "spanish": "Mañana es festivo.",
+          "options": [
+            "Amanhã é feriado.",
+            "Amanhã é festivo, tem festa."
+          ],
+          "correct": 0,
+          "joke": "Festivo = feriado."
+        },
+        {
+          "spanish": "El caballero mató al dragón.",
+          "options": [
+            "O cavaleiro matou o dragão.",
+            "O cavalheiro matou o dragão."
+          ],
+          "correct": 0,
+          "joke": "Caballero = cavaleiro."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Cataluña",
+      "items": [
+        {
+          "emoji": "🌹",
+          "title": "Sant Jordi",
+          "es": "Un libro y una rosa.",
+          "pt": "No 23 de abril, dia de São Jorge, padroeiro da Catalunha, as ruas se enchem de bancas de livros e rosas. Em catalão: \"Diada de Sant Jordi\"."
+        },
+        {
+          "emoji": "📚",
+          "title": "Dia do Livro",
+          "es": "El 23 de abril es el Día del Libro.",
+          "pt": "A data coincide com o Dia Internacional do Livro (morte de Cervantes e Shakespeare em 1616). Autores autografam livros nas ruas."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "id": "u18l1",
+  "title": "No Museu do Prado",
+  "scenario": "Madrid · Museo del Prado",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 52: Velázquez e Goya",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Quería una entrada para el museo, por favor.",
+          "pt": "Queria um ingresso para o museu, por favor."
+        },
+        {
+          "speaker": "Taquillera",
+          "es": "¿Tienes menos de veinticinco años? Los estudiantes tienen descuento.",
+          "pt": "Você tem menos de vinte e cinco anos? Estudantes têm desconto."
+        },
+        {
+          "speaker": "Lu",
+          "es": "No, pero vuelvo más tarde, que a última hora es gratis, ¿no?",
+          "pt": "Não, mas volto mais tarde, já que no fim do dia é grátis, né?"
+        },
+        {
+          "speaker": "Taquillera",
+          "es": "Sí, las dos últimas horas. Pero suele haber cola.",
+          "pt": "Sim, nas duas últimas horas. Mas costuma ter fila."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Dónde están Las Meninas?",
+          "pt": "Onde está As Meninas?"
+        },
+        {
+          "speaker": "Taquillera",
+          "es": "En la primera planta. Está prohibido hacer fotos dentro.",
+          "pt": "No primeiro andar. É proibido tirar fotos lá dentro."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Suele haber cola\" significa:",
+      "options": [
+        "Costuma ter fila",
+        "Tem cola no chão",
+        "Raramente tem fila"
+      ],
+      "correct": 0,
+      "explanation": "\"Soler\" + infinitivo = costumar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Costuma ter fila.",
+      "answer": [
+        "Suele",
+        "haber",
+        "cola."
+      ],
+      "distractors": [
+        "fila",
+        "costuma"
+      ],
+      "explanation": "\"Cola\" = fila. \"Fila\" em espanhol é fileira."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, las dos últimas horas. Pero suele haber cola.",
+      "options": [
+        "Sim, nas duas últimas horas. Mas costuma ter fila.",
+        "Não, nunca é grátis.",
+        "Sim, o dia todo e sem fila."
+      ],
+      "correct": 0,
+      "explanation": "Confira o horário gratuito no site oficial."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "cuadro",
+          "kind": "armadilha",
+          "meaning": "quadro / pintura",
+          "tip": "Pintar un cuadro."
+        },
+        {
+          "es": "pintor",
+          "kind": "igual",
+          "meaning": "pintor",
+          "tip": "Igual!"
+        },
+        {
+          "es": "exposición",
+          "kind": "quase",
+          "meaning": "exposição",
+          "tip": "Exposición temporal."
+        },
+        {
+          "es": "descuento",
+          "kind": "quase",
+          "meaning": "desconto",
+          "tip": "Ditongo ue."
+        },
+        {
+          "es": "sala",
+          "kind": "igual",
+          "meaning": "sala",
+          "tip": "Sala 12."
+        },
+        {
+          "es": "retrato",
+          "kind": "igual",
+          "meaning": "retrato",
+          "tip": "Igual!"
+        },
+        {
+          "es": "lienzo",
+          "kind": "quase",
+          "meaning": "tela (de pintura)",
+          "tip": "Óleo sobre lienzo."
+        },
+        {
+          "es": "audioguía",
+          "kind": "quase",
+          "meaning": "audioguia",
+          "tip": "Com acento."
+        },
+        {
+          "es": "obra maestra",
+          "kind": "quase",
+          "meaning": "obra-prima",
+          "tip": "Maestra = mestra."
+        },
+        {
+          "es": "soler",
+          "kind": "armadilha",
+          "meaning": "costumar",
+          "tip": "Suelo ir = costumo ir."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Una obra maestra\" é:",
+      "options": [
+        "Uma obra-prima",
+        "Uma professora",
+        "Uma reforma grande"
+      ],
+      "correct": 0,
+      "explanation": "Las Meninas é a obra-prima de Velázquez."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "É proibido tirar fotos.",
+      "answer": [
+        "Está",
+        "prohibido",
+        "hacer",
+        "fotos."
+      ],
+      "distractors": [
+        "tirar",
+        "sacar"
+      ],
+      "explanation": "\"Tirar\" = jogar fora!"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "En la primera planta. Está prohibido hacer fotos dentro.",
+      "options": [
+        "No primeiro andar. É proibido tirar fotos lá dentro.",
+        "No térreo. Pode tirar fotos.",
+        "No porão. Não tem regras."
+      ],
+      "correct": 0,
+      "explanation": "\"Planta\" = andar."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Los domingos ___ ir al Rastro.\" (costumo)",
+      "options": [
+        "suelo",
+        "soelo",
+        "acostumbro a"
+      ],
+      "correct": 0,
+      "explanation": "\"Soler\": suelo, sueles, suele..."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Hay mucha cola en la taquilla.",
+          "options": [
+            "Tem muita fila na bilheteria.",
+            "Tem muita cola na bilheteria."
+          ],
+          "correct": 0,
+          "joke": "Cola = fila."
+        },
+        {
+          "spanish": "Me encanta este cuadro.",
+          "options": [
+            "Adoro esta pintura.",
+            "Adoro este quadrado."
+          ],
+          "correct": 0,
+          "joke": "Cuadro = quadro, pintura."
+        },
+        {
+          "spanish": "Suelo ir al museo los domingos.",
+          "options": [
+            "Costumo ir ao museu aos domingos.",
+            "Vou sozinho ao museu aos domingos."
+          ],
+          "correct": 0,
+          "joke": "Soler = costumar."
+        },
+        {
+          "spanish": "Es una obra maestra.",
+          "options": [
+            "É uma obra-prima.",
+            "É uma obra da professora."
+          ],
+          "correct": 0,
+          "joke": "Obra maestra = obra-prima."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Madrid",
+      "items": [
+        {
+          "emoji": "🖼️",
+          "title": "Museo del Prado",
+          "es": "Las Meninas de Velázquez.",
+          "pt": "Um dos grandes museus de pintura do mundo: Velázquez, Goya, El Greco. Nas duas últimas horas do dia a entrada geral costuma ser grátis; confira o horário no site oficial."
+        },
+        {
+          "emoji": "🎨",
+          "title": "Triângulo da Arte",
+          "es": "Prado, Reina Sofía y Thyssen.",
+          "pt": "Três museus perto do Paseo del Prado. No Reina Sofía está o Guernica de Picasso."
+        }
+      ]
+    }
+  ]
+}

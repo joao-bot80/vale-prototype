@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u19l3",
+  "title": "Na Boqueria",
+  "scenario": "Barcelona · Mercat de la Boqueria",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 57: No mercado",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¿Quién es el último?",
+          "pt": "Quem é o último da fila?"
+        },
+        {
+          "speaker": "Señora",
+          "es": "Yo. Después de mí vas tú.",
+          "pt": "Eu. Depois de mim vai você."
+        },
+        {
+          "speaker": "Pescadera",
+          "es": "¿Qué te pongo, guapa?",
+          "pt": "O que vai ser, querida?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Medio kilo de gambas y una docena de huevos, por favor.",
+          "pt": "Meio quilo de camarão e uma dúzia de ovos, por favor."
+        },
+        {
+          "speaker": "Pescadera",
+          "es": "Los huevos, en el puesto de al lado. ¿Algo más?",
+          "pt": "Os ovos, na banca do lado. Mais alguma coisa?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "No, nada más. ¿Me pones una bolsa?",
+          "pt": "Não, nada mais. Me dá uma sacola?"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¿Quién es el último?\" no mercado significa:",
+      "options": [
+        "Quem é o último da fila?",
+        "Quem chegou por último na festa?",
+        "Quem é o pior?"
+      ],
+      "correct": 0,
+      "explanation": "Ao chegar, pergunte isso: ninguém tira senha em muitas bancas."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Quem é o último?",
+      "answer": [
+        "¿Quién",
+        "es",
+        "el",
+        "último?"
+      ],
+      "distractors": [
+        "ultimo",
+        "cual"
+      ],
+      "explanation": "Com acento: último."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Medio kilo de gambas y una docena de huevos, por favor.",
+      "options": [
+        "Meio quilo de camarão e uma dúzia de ovos, por favor.",
+        "Um quilo de peixe e meia dúzia de ovos.",
+        "Meio quilo de carne, por favor."
+      ],
+      "correct": 0,
+      "explanation": "Gamba = camarão."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "sepia",
+          "kind": "armadilha",
+          "meaning": "choco (molusco)",
+          "tip": "Não é a cor sépia!"
+        },
+        {
+          "es": "docena",
+          "kind": "quase",
+          "meaning": "dúzia",
+          "tip": "Media docena."
+        },
+        {
+          "es": "pescado",
+          "kind": "armadilha",
+          "meaning": "peixe (para comer)",
+          "tip": "Pez = peixe vivo."
+        },
+        {
+          "es": "pescadería",
+          "kind": "quase",
+          "meaning": "peixaria",
+          "tip": "Pescadero/a."
+        },
+        {
+          "es": "carnicería",
+          "kind": "quase",
+          "meaning": "açougue",
+          "tip": "Carnicero = açougueiro."
+        },
+        {
+          "es": "fresco",
+          "kind": "igual",
+          "meaning": "fresco",
+          "tip": "Igual!"
+        },
+        {
+          "es": "zumo",
+          "kind": "armadilha",
+          "meaning": "suco",
+          "tip": "Na Espanha: zumo; na América: jugo."
+        },
+        {
+          "es": "frutería",
+          "kind": "quase",
+          "meaning": "quitanda",
+          "tip": "Frutero/a."
+        },
+        {
+          "es": "almeja",
+          "kind": "quase",
+          "meaning": "amêijoa / vôngole",
+          "tip": "Almejas a la marinera."
+        },
+        {
+          "es": "calamar",
+          "kind": "quase",
+          "meaning": "lula",
+          "tip": "Calamares a la romana."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Un zumo de naranja\" é:",
+      "options": [
+        "Um suco de laranja",
+        "Um sumo de laranja",
+        "Um doce de laranja"
+      ],
+      "correct": 0,
+      "explanation": "Na Espanha: zumo."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Me dá uma sacola?",
+      "answer": [
+        "¿Me",
+        "pones",
+        "una",
+        "bolsa?"
+      ],
+      "distractors": [
+        "sacola",
+        "das"
+      ],
+      "explanation": "\"Ponerme\" = me servir, me dar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Los huevos, en el puesto de al lado. ¿Algo más?",
+      "options": [
+        "Os ovos, na banca do lado. Mais alguma coisa?",
+        "Não temos ovos.",
+        "Os ovos acabaram ontem."
+      ],
+      "correct": 0,
+      "explanation": "\"Al lado\" = ao lado."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Un ___ de naranja, por favor.\"",
+      "options": [
+        "zumo",
+        "jugo",
+        "suco"
+      ],
+      "correct": 0,
+      "explanation": "Zumo é o termo da Espanha."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Quiero gambas a la plancha.",
+          "options": [
+            "Quero camarão na chapa.",
+            "Quero gambás na chapa."
+          ],
+          "correct": 0,
+          "joke": "Gamba = camarão."
+        },
+        {
+          "spanish": "¿Me pones media docena?",
+          "options": [
+            "Me dá meia dúzia?",
+            "Me põe na metade da fila?"
+          ],
+          "correct": 0,
+          "joke": "Media docena = meia dúzia."
+        },
+        {
+          "spanish": "Un zumo natural.",
+          "options": [
+            "Um suco natural.",
+            "Um sumo da fruta concentrado."
+          ],
+          "correct": 0,
+          "joke": "Zumo = suco."
+        },
+        {
+          "spanish": "¿Quién es el último?",
+          "options": [
+            "Quem é o último da fila?",
+            "Quem foi o último a sair?"
+          ],
+          "correct": 0,
+          "joke": "Pergunta da fila."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Cataluña",
+      "items": [
+        {
+          "emoji": "🦐",
+          "title": "La Boqueria",
+          "es": "Vamos a la Boqueria.",
+          "pt": "Mercado na Rambla, com bancas de fruta, peixe e frios. Em catalão: \"Mercat de Sant Josep de la Boqueria\". Muitos moradores preferem mercados de bairro, mais tranquilos."
+        },
+        {
+          "emoji": "🙋",
+          "title": "Pedir a vez",
+          "es": "¿Quién es el último?",
+          "pt": "Nos mercados espanhóis, quem chega pergunta quem é o último e guarda a vez mentalmente."
+        }
+      ]
+    }
+  ]
+}
