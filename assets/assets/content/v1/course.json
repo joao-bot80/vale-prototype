@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026.10.12-1",
+  "courseId": "es-ES_for_pt-BR",
+  "regions": [
+    {
+      "id": "madrid",
+      "name": "Madrid",
+      "subtitle": "A chegada",
+      "emoji": "🐻",
+      "stampText": "MADRID",
+      "lon": -3.7,
+      "lat": 40.42,
+      "stampAfterLesson": "u1l3",
+      "units": [
+        {
+          "id": "mad-u1",
+          "title": "Chegando a Madrid",
+          "emoji": "✈️",
+          "lessons": [
+            {
+              "id": "u1l1",
+              "title": "No aeroporto",
+              "available": true
+            },
+            {
+              "id": "u1l2",
+              "title": "Pegando o metrô",
+              "available": true
+            },
+            {
+              "id": "u1l3",
+              "title": "Check-in no hostal",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "mad-u2",
+          "title": "Pelas ruas de Madrid",
+          "emoji": "🚶",
+          "lessons": [
+            {
+              "id": "mad-u2-l1",
+              "title": "Perdido na Gran Vía",
+              "available": false
+            },
+            {
+              "id": "mad-u2-l2",
+              "title": "Na Puerta del Sol",
+              "available": false
+            }
+          ]
+        },
+        {
+          "id": "mad-u3",
+          "title": "De cañas e tapas",
+          "emoji": "🍻",
+          "lessons": [
+            {
+              "id": "mad-u3-l1",
+              "title": "Uma caña, por favor",
+              "available": false
+            },
+            {
+              "id": "mad-u3-l2",
+              "title": "A conta",
+              "available": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cataluna",
+      "name": "Barcelona",
+      "subtitle": "Cataluña",
+      "emoji": "🏖️",
+      "stampText": "BARCELONA",
+      "lon": 2.17,
+      "lat": 41.39,
+      "units": [
+        {
+          "id": "cat-u1",
+          "title": "Procurando piso",
+          "emoji": "🏠",
+          "lessons": [
+            {
+              "id": "cat-u1-l1",
+              "title": "O anúncio",
+              "available": false
+            },
+            {
+              "id": "cat-u1-l2",
+              "title": "A visita",
+              "available": false
+            },
+            {
+              "id": "cat-u1-l3",
+              "title": "O contrato",
+              "available": false
+            }
+          ]
+        },
+        {
+          "id": "cat-u2",
+          "title": "Horários e compras",
+          "emoji": "🛒",
+          "lessons": [
+            {
+              "id": "cat-u2-l1",
+              "title": "No supermercado",
+              "available": false
+            },
+            {
+              "id": "cat-u2-l2",
+              "title": "Que horas abre?",
+              "available": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "andalucia",
+      "name": "Andalucía",
+      "subtitle": "Sevilla e Málaga",
+      "emoji": "💃",
+      "stampText": "ANDALUCÍA",
+      "lon": -5.98,
+      "lat": 37.39,
+      "units": [
+        {
+          "id": "and-u1",
+          "title": "Tapeando em Sevilla",
+          "emoji": "🫒",
+          "lessons": [
+            {
+              "id": "and-u1-l1",
+              "title": "Na barra",
+              "available": false
+            },
+            {
+              "id": "and-u1-l2",
+              "title": "O que você fez hoje?",
+              "available": false
+            }
+          ]
+        },
+        {
+          "id": "and-u2",
+          "title": "A Feria",
+          "emoji": "🎉",
+          "lessons": [
+            {
+              "id": "and-u2-l1",
+              "title": "Sevillanas",
+              "available": false
+            },
+            {
+              "id": "and-u2-l2",
+              "title": "O sotaque andaluz",
+              "available": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valencia",
+      "name": "Valencia",
+      "subtitle": "Fallas e paella",
+      "emoji": "🥘",
+      "stampText": "VALENCIA",
+      "lon": -0.38,
+      "lat": 39.47,
+      "units": [
+        {
+          "id": "val-u1",
+          "title": "Paella de verdade",
+          "emoji": "🥘",
+          "lessons": [
+            {
+              "id": "val-u1-l1",
+              "title": "No mercado",
+              "available": false
+            },
+            {
+              "id": "val-u1-l2",
+              "title": "O almoço de domingo",
+              "available": false
+            }
+          ]
+        },
+        {
+          "id": "val-u2",
+          "title": "Las Fallas",
+          "emoji": "🔥",
+          "lessons": [
+            {
+              "id": "val-u2-l1",
+              "title": "A mascletà",
+              "available": false
+            },
+            {
+              "id": "val-u2-l2",
+              "title": "La cremà",
+              "available": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "papelada",
+      "name": "Papelada",
+      "subtitle": "De volta a Madrid",
+      "emoji": "📄",
+      "stampText": "PAPELADA",
+      "lon": -3.7,
+      "lat": 40.42,
+      "units": [
+        {
+          "id": "pap-u1",
+          "title": "A cita previa",
+          "emoji": "📅",
+          "lessons": [
+            {
+              "id": "pap-u1-l1",
+              "title": "Pedindo a cita",
+              "available": false
+            },
+            {
+              "id": "pap-u1-l2",
+              "title": "Na fila",
+              "available": false
+            }
+          ]
+        },
+        {
+          "id": "pap-u2",
+          "title": "Empadronamiento",
+          "emoji": "🏛️",
+          "lessons": [
+            {
+              "id": "pap-u2-l1",
+              "title": "Os documentos",
+              "available": false
+            },
+            {
+              "id": "pap-u2-l2",
+              "title": "No ayuntamiento",
+              "available": false
+            }
+          ]
+        },
+        {
+          "id": "pap-u3",
+          "title": "NIE e TIE",
+          "emoji": "🪪",
+          "lessons": [
+            {
+              "id": "pap-u3-l1",
+              "title": "A entrevista",
+              "available": false
+            },
+            {
+              "id": "pap-u3-l2",
+              "title": "Pegando o cartão",
+              "available": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "galicia",
+      "name": "Galicia",
+      "subtitle": "Em breve",
+      "emoji": "🐙",
+      "stampText": "GALICIA",
+      "lon": -8.54,
+      "lat": 42.88,
+      "comingSoon": true,
+      "units": []
+    },
+    {
+      "id": "paisvasco",
+      "name": "País Vasco",
+      "subtitle": "Em breve",
+      "emoji": "🍢",
+      "stampText": "EUSKADI",
+      "lon": -2.93,
+      "lat": 43.26,
+      "comingSoon": true,
+      "units": []
+    },
+    {
+      "id": "canarias",
+      "name": "Canarias",
+      "subtitle": "Em breve",
+      "emoji": "🌋",
+      "stampText": "CANARIAS",
+      "lon": -15.4,
+      "lat": 28.1,
+      "comingSoon": true,
+      "units": []
+    }
+  ]
+}

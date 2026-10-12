@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "u1l3",
+  "title": "Check-in no hostal",
+  "scenario": "Hostal en la calle de Atocha",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 3: O hostal",
+      "lines": [
+        {"speaker": "Recepcionista", "es": "¡Buenas tardes! ¿En qué te puedo ayudar?", "pt": "Boa tarde! Como posso te ajudar?"},
+        {"speaker": "Lu", "es": "Hola, tengo una reserva a nombre de Luciana.", "pt": "Oi, tenho uma reserva no nome de Luciana."},
+        {"speaker": "Recepcionista", "es": "Perfecto. ¿Me dejas tu pasaporte, por favor?", "pt": "Perfeito. Pode me passar seu passaporte, por favor?"},
+        {"speaker": "Lu", "es": "Aquí tienes. ¿A qué hora es el desayuno?", "pt": "Aqui está. Que horas é o café da manhã?"},
+        {"speaker": "Recepcionista", "es": "De ocho a diez y media. Tu habitación es la 204, en la segunda planta.", "pt": "Das oito às dez e meia. Seu quarto é o 204, no segundo andar."},
+        {"speaker": "Lu", "es": "¡Genial! ¿Y la contraseña del wifi?", "pt": "Ótimo! E a senha do wi-fi?"},
+        {"speaker": "Recepcionista", "es": "Está en la tarjeta de la llave. ¡Que descanses!", "pt": "Está no cartão da chave. Bom descanso!"}
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como se diz \"quarto\" (de hotel) na Espanha?",
+      "options": ["la habitación", "el cuarto de baño", "la sala"],
+      "correct": 0,
+      "explanation": "\"Habitación\" é o quarto. \"Cuarto de baño\" é o banheiro!"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Tenho uma reserva para duas noites.",
+      "answer": ["Tengo", "una", "reserva", "para", "dos", "noches."],
+      "distractors": ["reservación", "tienen"],
+      "explanation": "Na Espanha se diz \"reserva\". \"Reservación\" soa latino-americano."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que a recepcionista disse?",
+      "spanish": "El desayuno es de ocho a diez y media.",
+      "options": ["O café da manhã é das oito às dez e meia.", "O almoço é das oito às dez e meia.", "O café da manhã é às dez e quinze."],
+      "correct": 0,
+      "explanation": "\"Desayuno\" = café da manhã. O almoço é \"la comida\"."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {"es": "cama", "kind": "igual", "meaning": "cama", "tip": "Igualzinho!"},
+        {"es": "recepción", "kind": "quase", "meaning": "recepção", "tip": "-ción = -ção."},
+        {"es": "escritorio", "kind": "armadilha", "meaning": "escrivaninha", "tip": "Escritório (local de trabalho) é \"oficina\"."},
+        {"es": "toalla", "kind": "quase", "meaning": "toalha", "tip": "O \"lh\" vira \"ll\"."},
+        {"es": "balcón", "kind": "armadilha", "meaning": "varanda / sacada", "tip": "O balcão do bar é \"la barra\"."},
+        {"es": "taza", "kind": "armadilha", "meaning": "xícara", "tip": "Taça (de vinho) é \"copa\"."},
+        {"es": "wifi", "kind": "igual", "meaning": "wi-fi", "tip": "Mas os espanhóis falam \"uifi\"!"},
+        {"es": "salsa", "kind": "armadilha", "meaning": "molho", "tip": "Salsinha é \"perejil\"."},
+        {"es": "jabón", "kind": "quase", "meaning": "sabonete / sabão", "tip": "O \"s\" vira \"j\"."},
+        {"es": "sitio", "kind": "armadilha", "meaning": "lugar", "tip": "Sítio (no campo) é \"finca\" ou \"casa de campo\"."}
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Tu habitación está en la segunda planta.\" O que é \"planta\" aqui?",
+      "options": ["andar", "planta (vegetal)", "planta baixa (desenho)"],
+      "correct": 0,
+      "explanation": "\"Planta\" também é o andar de um prédio. \"Planta baja\" = térreo."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vocês têm toalhas limpas?",
+      "answer": ["¿Tenéis", "toallas", "limpias?"],
+      "distractors": ["tienen", "toalhas", "limpas"],
+      "explanation": "\"Tenéis\" é o \"vocês têm\" do vosotros, bem espanhol."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "Onde fica o elevador?",
+      "spanish": "El ascensor está al fondo, a la izquierda.",
+      "options": ["O elevador fica no fundo, à esquerda.", "A escada fica no fundo, à direita.", "O elevador está quebrado."],
+      "correct": 0,
+      "explanation": "\"Ascensor\" = elevador, \"al fondo\" = no fundo, \"izquierda\" = esquerda."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "¿A qué hora ___ que dejar la habitación?",
+      "options": ["hay", "tiene", "es"],
+      "correct": 0,
+      "explanation": "\"Hay que\" = é preciso. \"Dejar la habitación\" = fazer o check-out."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {"spanish": "Hay un balcón con vistas a la plaza.", "options": ["Tem uma varanda com vista para a praça.", "Tem um balcão com vista para a praça."], "correct": 0, "joke": "Balcón = varanda. O balcão do bar é \"la barra\"."},
+        {"spanish": "El escritorio está junto a la ventana.", "options": ["A escrivaninha fica junto à janela.", "O escritório fica junto à janela."], "correct": 0, "joke": "Se for trabalhar num escritório, diga \"oficina\"."},
+        {"spanish": "Ponme un café en una taza grande.", "options": ["Me vê um café numa xícara grande.", "Me vê um café numa taça grande."], "correct": 0, "joke": "E \"ponme\" é o jeito bem espanhol de pedir no bar."},
+        {"spanish": "Este sitio es muy tranquilo.", "options": ["Este lugar é muito tranquilo.", "Este sítio é muito tranquilo."], "correct": 0, "joke": "Sitio = lugar. Vai ouvir muito: \"¿Hay sitio?\" (tem lugar?)"}
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Madrid",
+      "items": [
+        {"emoji": "🏨", "title": "Hostal não é hostel", "es": "Busco un hostal barato por el centro.", "pt": "Na Espanha, \"hostal\" é um hotel simples e familiar, com quartos privados, muitas vezes num andar de prédio antigo. O de beliches compartilhados é o \"albergue\" (ou \"hostel\")."},
+        {"emoji": "🕘", "title": "Horários espanhóis", "es": "Comemos a las dos y cenamos a las diez.", "pt": "Aqui tudo acontece mais tarde: almoço lá pelas 14h e jantar depois das 21h. A \"siesta\" existe, mas em Madrid quase ninguém dorme no meio do dia!"}
+      ]
+    }
+  ]
+}

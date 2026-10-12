@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "id": "u1l1",
+  "title": "No aeroporto",
+  "scenario": "Aeropuerto Adolfo Suárez Madrid-Barajas, T4",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 1: Barajas",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Hola! Soy Lu. Acabamos de aterrizar en Madrid.",
+          "pt": "Oi! Eu sou a Lu. Acabamos de pousar em Madri."
+        },
+        {
+          "speaker": "Agente",
+          "es": "Buenos días. ¿Me enseña su pasaporte, por favor?",
+          "pt": "Bom dia. Pode me mostrar seu passaporte, por favor?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Claro, aquí tiene.",
+          "pt": "Claro, aqui está."
+        },
+        {
+          "speaker": "Agente",
+          "es": "¿Cuál es el motivo de su viaje?",
+          "pt": "Qual é o motivo da sua viagem?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Vengo a vivir aquí con mi marido.",
+          "pt": "Venho morar aqui com meu marido."
+        },
+        {
+          "speaker": "Agente",
+          "es": "Vale. Bienvenida a España.",
+          "pt": "Ok. Bem-vinda à Espanha."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como um espanhol diz \"ok, combinado\"?",
+      "options": [
+        "Vale",
+        "Chévere",
+        "Ahorita",
+        "Órale"
+      ],
+      "correct": 0,
+      "explanation": "\"Vale\" é o \"ok\" da Espanha. Chévere, ahorita e órale são da América Latina."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Onde fica a esteira de bagagem?",
+      "answer": [
+        "¿Dónde",
+        "está",
+        "la",
+        "cinta",
+        "de",
+        "equipajes?"
+      ],
+      "distractors": [
+        "bagaje",
+        "queda"
+      ],
+      "explanation": "Bagagem = \"equipaje\". A esteira é \"la cinta de equipajes\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que o agente disse?",
+      "spanish": "¿Me enseña su pasaporte, por favor?",
+      "options": [
+        "Pode me mostrar seu passaporte, por favor?",
+        "Pode me ensinar a falar espanhol?",
+        "Seu passaporte venceu."
+      ],
+      "correct": 0,
+      "explanation": "Cuidado: \"enseñar\" também significa MOSTRAR, não só ensinar."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "hotel",
+          "kind": "igual",
+          "meaning": "hotel",
+          "tip": "Mesma palavra, mesmo sentido."
+        },
+        {
+          "es": "exquisito",
+          "kind": "armadilha",
+          "meaning": "delicioso",
+          "tip": "\"Exquisito\" é elogio! Esquisito em espanhol é \"raro\"."
+        },
+        {
+          "es": "pasaporte",
+          "kind": "quase",
+          "meaning": "passaporte",
+          "tip": "Só muda a grafia: um \"s\" só."
+        },
+        {
+          "es": "embarazada",
+          "kind": "armadilha",
+          "meaning": "grávida",
+          "tip": "Envergonhada é \"avergonzada\". Não confunda!"
+        },
+        {
+          "es": "oficina",
+          "kind": "armadilha",
+          "meaning": "escritório",
+          "tip": "Oficina mecânica é \"taller\"."
+        },
+        {
+          "es": "polvo",
+          "kind": "armadilha",
+          "meaning": "pó / poeira",
+          "tip": "O polvo do mar é \"pulpo\"."
+        },
+        {
+          "es": "maleta",
+          "kind": "quase",
+          "meaning": "mala",
+          "tip": "Na Espanha, a mala de viagem é \"maleta\"."
+        },
+        {
+          "es": "rato",
+          "kind": "armadilha",
+          "meaning": "um momento",
+          "tip": "\"Espera un rato\" = espera um pouco. O rato é \"ratón\"."
+        },
+        {
+          "es": "vaso",
+          "kind": "armadilha",
+          "meaning": "copo",
+          "tip": "\"Un vaso de agua\" = um copo d'água. O vaso de flores é \"jarrón\"."
+        },
+        {
+          "es": "apellido",
+          "kind": "armadilha",
+          "meaning": "sobrenome",
+          "tip": "Apelido em espanhol é \"apodo\" ou \"mote\"."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como dizer \"Vamos pegar o metrô\" na Espanha?",
+      "options": [
+        "Vamos a coger el metro.",
+        "Vamos a pegar el metro.",
+        "Vamos a tomar el subte."
+      ],
+      "correct": 0,
+      "explanation": "Na Espanha se diz \"coger\" (pegar). \"Pegar\" em espanhol é bater/colar! \"Subte\" é da Argentina."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vocês são brasileiros?",
+      "answer": [
+        "¿Vosotros",
+        "sois",
+        "brasileños?"
+      ],
+      "distractors": [
+        "ustedes",
+        "son",
+        "brasileiros"
+      ],
+      "explanation": "Na Espanha, \"vocês\" (informal) é \"vosotros sois\". \"Ustedes\" é para situações formais."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "La salida está a la derecha.",
+      "options": [
+        "A saída fica à direita.",
+        "A saída fica à esquerda.",
+        "A chegada é logo ali."
+      ],
+      "correct": 0,
+      "explanation": "\"Salida\" = saída, \"derecha\" = direita, \"izquierda\" = esquerda."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Perdona, ¿dónde ___ los taxis?",
+      "options": [
+        "están",
+        "son",
+        "hay"
+      ],
+      "correct": 0,
+      "explanation": "Para localização usamos \"estar\": ¿dónde están...?"
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Estoy embarazada.",
+          "options": [
+            "Estou grávida.",
+            "Estou envergonhada."
+          ],
+          "correct": 0,
+          "joke": "Já vi brasileira pedir desculpas dizendo isso... e ganhar parabéns! 😂"
+        },
+        {
+          "spanish": "Mi apellido es Silva.",
+          "options": [
+            "Meu sobrenome é Silva.",
+            "Meu apelido é Silva."
+          ],
+          "correct": 0,
+          "joke": "Na fila do NIE vão te perguntar isso o tempo todo!"
+        },
+        {
+          "spanish": "¡Este jamón está exquisito!",
+          "options": [
+            "Este presunto está delicioso!",
+            "Este presunto está estranho!"
+          ],
+          "correct": 0,
+          "joke": "Se disser \"exquisito\" pro garçom, ele fica feliz. Prometo."
+        },
+        {
+          "spanish": "Vamos a cenar a las diez.",
+          "options": [
+            "Vamos jantar às dez.",
+            "Vamos fazer uma cena às dez."
+          ],
+          "correct": 0,
+          "joke": "Sim, aqui se janta às 22h. Bem-vindo à Espanha! 🇪🇸"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Madrid",
+      "items": [
+        {
+          "emoji": "🍺",
+          "title": "El aperitivo: caña y tapa",
+          "es": "Ponme una caña, por favor.",
+          "pt": "Antes do almoço ou à noite, o madrileño \"sale de cañas\": pede uma caña (um chope pequeno) e, em muitos bares, ganha uma tapa de cortesia, tipo azeitonas ou batatas. É o jeito mais madrileño de encontrar os amigos."
+        },
+        {
+          "emoji": "📍",
+          "title": "El Kilómetro Cero",
+          "es": "Quedamos en el Kilómetro Cero, ¿vale?",
+          "pt": "Na Puerta del Sol tem uma placa no chão marcando o Kilómetro Cero, de onde partem as estradas radiais da Espanha. É ponto de encontro clássico. \"Quedar\" = combinar de se encontrar."
+        }
+      ]
+    }
+  ]
+}

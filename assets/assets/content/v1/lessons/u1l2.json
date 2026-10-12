@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "u1l2",
+  "title": "Pegando o metrô",
+  "scenario": "Metro de Madrid · Línea 8, Aeropuerto T4",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 2: Rumo ao centro",
+      "lines": [
+        {"speaker": "Lu", "es": "Perdona, ¿cómo llego al centro?", "pt": "Desculpa, como eu chego ao centro?"},
+        {"speaker": "Empleado", "es": "Coge la línea 8 hasta Nuevos Ministerios y allí cambias a la línea 10.", "pt": "Pegue a linha 8 até Nuevos Ministerios e lá você troca para a linha 10."},
+        {"speaker": "Lu", "es": "¿Y dónde compro el billete?", "pt": "E onde eu compro a passagem?"},
+        {"speaker": "Empleado", "es": "En esas máquinas. Ojo, desde el aeropuerto hay un suplemento.", "pt": "Naquelas máquinas. Atenção: saindo do aeroporto tem uma taxa extra."},
+        {"speaker": "Lu", "es": "Vale, ¡muchas gracias!", "pt": "Beleza, muito obrigada!"},
+        {"speaker": "Empleado", "es": "De nada. ¡Que te vaya bien!", "pt": "De nada. Boa sorte!"}
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como se diz \"passagem\" do metrô na Espanha?",
+      "options": ["el billete", "el boleto", "el pasaje"],
+      "correct": 0,
+      "explanation": "Na Espanha é \"billete\". \"Boleto\" é mais usado na América Latina."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Pegue a linha 8 até Nuevos Ministerios.",
+      "answer": ["Coge", "la", "línea", "8", "hasta", "Nuevos", "Ministerios."],
+      "distractors": ["Pega", "bajo"],
+      "explanation": "Na Espanha, \"coger\" = pegar (o metrô, o ônibus). E \"hasta\" = até."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que diz o aviso do metrô?",
+      "spanish": "La próxima estación es Nuevos Ministerios.",
+      "options": ["A próxima estação é Nuevos Ministerios.", "A última estação é Nuevos Ministerios.", "A estação Nuevos Ministerios está fechada."],
+      "correct": 0,
+      "explanation": "\"Próxima estación\" = próxima estação. Você vai ouvir isso o dia todo!"
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {"es": "túnel", "kind": "igual", "meaning": "túnel", "tip": "Mesma palavra, mesmo sentido."},
+        {"es": "estación", "kind": "quase", "meaning": "estação", "tip": "Só muda a terminação: -ción = -ção."},
+        {"es": "largo", "kind": "armadilha", "meaning": "comprido", "tip": "Largo em português é \"ancho\"."},
+        {"es": "mapa", "kind": "igual", "meaning": "mapa", "tip": "Igualzinho!"},
+        {"es": "cola", "kind": "armadilha", "meaning": "fila", "tip": "\"Hacer cola\" = fazer fila. A cola de colar é \"pegamento\"."},
+        {"es": "salida", "kind": "quase", "meaning": "saída", "tip": "Saída = salida. Entrada é igual."},
+        {"es": "propina", "kind": "armadilha", "meaning": "gorjeta", "tip": "Propina (suborno) é \"soborno\"."},
+        {"es": "billete", "kind": "quase", "meaning": "bilhete / passagem", "tip": "Serve para passagem e para cédula de dinheiro."},
+        {"es": "acordarse", "kind": "armadilha", "meaning": "lembrar-se", "tip": "Acordar (despertar) é \"despertarse\"."},
+        {"es": "brincar", "kind": "armadilha", "meaning": "pular", "tip": "Brincar (de criança) é \"jugar\"."}
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Hay mucha cola en la taquilla\"?",
+      "options": ["Tem muita fila na bilheteria.", "Tem muita cola na bilheteria.", "A bilheteria está fechada."],
+      "correct": 0,
+      "explanation": "\"Cola\" = fila e \"taquilla\" = bilheteria."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vocês vão para o centro?",
+      "answer": ["¿Vosotros", "vais", "al", "centro?"],
+      "distractors": ["van", "ustedes", "a"],
+      "explanation": "\"Vosotros vais\" = vocês vão (informal, na Espanha). E \"a + el\" vira \"al\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que o funcionário disse?",
+      "spanish": "Tienes que cambiar de línea en Sol.",
+      "options": ["Você tem que trocar de linha em Sol.", "Você tem que descer quando fizer sol.", "A linha de Sol está fechada."],
+      "correct": 0,
+      "explanation": "\"Cambiar de línea\" = fazer baldeação. Sol é a estação da Puerta del Sol!"
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "—¿Esta es la parada de Sol? —No, es la ___.",
+      "options": ["siguiente", "próximo", "después"],
+      "correct": 0,
+      "explanation": "\"La siguiente\" = a próxima. \"Próximo\" teria que concordar: \"la próxima\"."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {"spanish": "¡Qué cola tan larga!", "options": ["Que fila comprida!", "Que cola larga!"], "correct": 0, "joke": "Duas armadilhas numa frase só! Cola = fila, largo = comprido."},
+        {"spanish": "No me acuerdo de la parada.", "options": ["Não me lembro da parada.", "Não acordo na parada."], "correct": 0, "joke": "Se dormir no metrô e não acordar, aí é \"no me despierto\". 😴"},
+        {"spanish": "En España no se suele dejar mucha propina.", "options": ["Na Espanha não se costuma deixar muita gorjeta.", "Na Espanha não se costuma pagar muito suborno."], "correct": 0, "joke": "Propina é gorjeta! Suborno é \"soborno\"... e dá cadeia."},
+        {"spanish": "Cuidado con los carteristas.", "options": ["Cuidado com os batedores de carteira.", "Cuidado com os carteiros."], "correct": 0, "joke": "Os alto-falantes do metrô avisam isso o tempo todo. Olho na mochila!"}
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Madrid",
+      "items": [
+        {"emoji": "🚇", "title": "La boca de metro", "es": "¿Dónde está la boca de metro más cercana?", "pt": "A entrada do metrô se chama \"boca de metro\". O metrô de Madrid é um dos maiores da Europa. Quem mora aqui costuma tirar o \"abono\", o passe mensal de transporte."},
+        {"emoji": "↗️", "title": "Escada rolante: fique à direita", "es": "Perdona, ¿me dejas pasar?", "pt": "Nas escaleras mecánicas, a regra é ficar à direita e deixar a esquerda livre para quem está com pressa. Pra pedir passagem: \"¿me dejas pasar?\""}
+      ]
+    }
+  ]
+}
