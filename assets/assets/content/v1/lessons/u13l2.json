@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u13l2",
+  "title": "Na Barceloneta",
+  "scenario": "Barcelona · playa de la Barceloneta",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 38: Praia na cidade",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡No me lo creo! Hay playa en el centro de la ciudad.",
+          "pt": "Não acredito! Tem praia no centro da cidade."
+        },
+        {
+          "speaker": "Marta",
+          "es": "Sí, pero cuidado con el móvil. Hay carteristas.",
+          "pt": "Sim, mas cuidado com o celular. Tem batedores de carteira."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Vale, lo guardo en la mochila. ¿Nos bañamos?",
+          "pt": "Beleza, guardo na mochila. Vamos entrar na água?"
+        },
+        {
+          "speaker": "Marta",
+          "es": "¡Venga! Aunque el agua está un poco fría.",
+          "pt": "Bora! Embora a água esteja um pouco fria."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Después podemos comer arroz en el paseo.",
+          "pt": "Depois podemos comer arroz no calçadão."
+        },
+        {
+          "speaker": "Marta",
+          "es": "Buena idea. Hay muchos restaurantes con terraza.",
+          "pt": "Boa ideia. Tem muitos restaurantes com varanda."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Carterista\" é:",
+      "options": [
+        "Batedor de carteira",
+        "Carteiro",
+        "Quem vende carteiras"
+      ],
+      "correct": 0,
+      "explanation": "Em lugares turísticos, cuidado com bolsas e celulares."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Cuidado com o celular.",
+      "answer": [
+        "Cuidado",
+        "con",
+        "el",
+        "móvil."
+      ],
+      "distractors": [
+        "celular",
+        "teléfono"
+      ],
+      "explanation": "Na Espanha: \"móvil\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, pero cuidado con el móvil. Hay carteristas.",
+      "options": [
+        "Sim, mas cuidado com o celular. Tem batedores de carteira.",
+        "Sim, mas não pode usar celular aqui.",
+        "Sim, e tem carteiros na praia."
+      ],
+      "correct": 0,
+      "explanation": "\"Móvil\" = celular."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "móvil",
+          "kind": "armadilha",
+          "meaning": "celular",
+          "tip": "Móvel (móveis) = \"mueble\"."
+        },
+        {
+          "es": "mochila",
+          "kind": "igual",
+          "meaning": "mochila",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "carterista",
+          "kind": "armadilha",
+          "meaning": "batedor de carteira",
+          "tip": "Carteiro = \"cartero\"."
+        },
+        {
+          "es": "bañarse",
+          "kind": "armadilha",
+          "meaning": "entrar na água / tomar banho",
+          "tip": "Na praia, bañarse = nadar, entrar no mar."
+        },
+        {
+          "es": "gafas",
+          "kind": "armadilha",
+          "meaning": "óculos",
+          "tip": "Gafas de sol = óculos de sol."
+        },
+        {
+          "es": "gorra",
+          "kind": "quase",
+          "meaning": "boné",
+          "tip": "Gorro = touca de frio."
+        },
+        {
+          "es": "tumbona",
+          "kind": "quase",
+          "meaning": "espreguiçadeira",
+          "tip": "De \"tumbarse\" = deitar-se."
+        },
+        {
+          "es": "socorrista",
+          "kind": "quase",
+          "meaning": "salva-vidas",
+          "tip": "Na praia, procure a bandeira e o socorrista."
+        },
+        {
+          "es": "medusa",
+          "kind": "igual",
+          "meaning": "água-viva",
+          "tip": "Medusa = água-viva!"
+        },
+        {
+          "es": "bandera",
+          "kind": "quase",
+          "meaning": "bandeira",
+          "tip": "Bandera roja = proibido nadar."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Gafas de sol\" são:",
+      "options": [
+        "Óculos de sol",
+        "Gafes do sol",
+        "Garrafas de sol"
+      ],
+      "correct": 0,
+      "explanation": "\"Gafas\" = óculos."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Guardo na mochila.",
+      "answer": [
+        "Lo",
+        "guardo",
+        "en",
+        "la",
+        "mochila."
+      ],
+      "distractors": [
+        "bolsa",
+        "meto"
+      ],
+      "explanation": "\"Lo\" = o (o celular)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "¡Venga! Aunque el agua está un poco fría.",
+      "options": [
+        "Bora! Embora a água esteja um pouco fria.",
+        "Vem! A água está quente.",
+        "Não vamos, a água está fria."
+      ],
+      "correct": 0,
+      "explanation": "\"Aunque\" = embora, ainda que."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Hay bandera ___. No te bañes.\" (vermelha)",
+      "options": [
+        "roja",
+        "rosa",
+        "vermella"
+      ],
+      "correct": 0,
+      "explanation": "\"Roja\" = vermelha. \"Vermella\" é catalão."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "¿Dónde están mis gafas?",
+          "options": [
+            "Onde estão meus óculos?",
+            "Onde estão minhas gafes?"
+          ],
+          "correct": 0,
+          "joke": "Gafas = óculos."
+        },
+        {
+          "spanish": "Me han robado el móvil.",
+          "options": [
+            "Roubaram meu celular.",
+            "Roubaram meu móvel."
+          ],
+          "correct": 0,
+          "joke": "Móvil = celular."
+        },
+        {
+          "spanish": "Hay medusas en el agua.",
+          "options": [
+            "Tem águas-vivas na água.",
+            "Tem Medusas mitológicas na água."
+          ],
+          "correct": 0,
+          "joke": "Medusa = água-viva."
+        },
+        {
+          "spanish": "¿Nos bañamos?",
+          "options": [
+            "Vamos entrar na água?",
+            "Vamos tomar banho de banheira?"
+          ],
+          "correct": 0,
+          "joke": "Bañarse (na praia) = entrar no mar."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Cataluña",
+      "items": [
+        {
+          "emoji": "🏖️",
+          "title": "La Barceloneta",
+          "es": "¿Vamos a la Barceloneta?",
+          "pt": "Antigo bairro de pescadores junto ao porto, com a praia mais famosa de Barcelona. Em catalão: \"platja\" = praia."
+        },
+        {
+          "emoji": "🎒",
+          "title": "Carteristas",
+          "es": "Cuidado con tus cosas.",
+          "pt": "Nas zonas turísticas de Barcelona (Rambla, metrô, praias), batedores de carteira são comuns. Bolsa na frente e celular guardado!"
+        }
+      ]
+    }
+  ]
+}

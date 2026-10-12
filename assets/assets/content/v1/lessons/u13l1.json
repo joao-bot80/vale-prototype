@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "id": "u13l1",
+  "title": "Hora do vermut",
+  "scenario": "Barcelona · bodega en el barrio de Sant Antoni",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 37: Domingo em Barcelona",
+      "lines": [
+        {
+          "speaker": "Marta",
+          "es": "¿Vamos a hacer el vermut antes de comer?",
+          "pt": "Vamos tomar o vermute antes do almoço?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿El vermut es una bebida o un plan?",
+          "pt": "O vermute é uma bebida ou um programa?"
+        },
+        {
+          "speaker": "Marta",
+          "es": "¡Las dos cosas! Un vermut, unas olivas y unas patatas.",
+          "pt": "As duas coisas! Um vermute, umas azeitonas e umas batatinhas."
+        },
+        {
+          "speaker": "Camarero",
+          "es": "¿Qué os pongo?",
+          "pt": "O que vai ser?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Dos vermuts con sifón y unas anchoas.",
+          "pt": "Dois vermutes com soda e umas anchovas."
+        },
+        {
+          "speaker": "Marta",
+          "es": "¡Salud! Esto es un domingo perfecto.",
+          "pt": "Saúde! Isso é um domingo perfeito."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Hacer el vermut\" significa:",
+      "options": [
+        "Tomar um aperitivo antes do almoço",
+        "Fabricar vermute em casa",
+        "Lavar a louça"
+      ],
+      "correct": 0,
+      "explanation": "Em Barcelona, \"fer el vermut\" é o aperitivo de fim de semana antes de comer."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vamos tomar o vermute antes do almoço?",
+      "answer": [
+        "¿Vamos",
+        "a",
+        "hacer",
+        "el",
+        "vermut",
+        "antes",
+        "de",
+        "comer?"
+      ],
+      "distractors": [
+        "almorzar",
+        "tomar"
+      ],
+      "explanation": "\"Antes de comer\" = antes do almoço."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Dos vermuts con sifón y unas anchoas.",
+      "options": [
+        "Dois vermutes com soda e umas anchovas.",
+        "Duas cervejas e umas azeitonas.",
+        "Dois cafés com leite."
+      ],
+      "correct": 0,
+      "explanation": "\"Sifón\" = água com gás de sifão."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "vermut",
+          "kind": "quase",
+          "meaning": "vermute",
+          "tip": "Sem o \"e\" final."
+        },
+        {
+          "es": "anchoa",
+          "kind": "quase",
+          "meaning": "anchova",
+          "tip": "Na Catalunha, as de L'Escala são famosas."
+        },
+        {
+          "es": "sifón",
+          "kind": "quase",
+          "meaning": "sifão / soda",
+          "tip": "Água com gás."
+        },
+        {
+          "es": "berberecho",
+          "kind": "armadilha",
+          "meaning": "berbigão",
+          "tip": "Marisco pequeno, em lata."
+        },
+        {
+          "es": "bodega",
+          "kind": "armadilha",
+          "meaning": "adega / bar",
+          "tip": "Também barzinho antigo de vinho e vermute."
+        },
+        {
+          "es": "aperitivo",
+          "kind": "igual",
+          "meaning": "aperitivo",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "lata",
+          "kind": "armadilha",
+          "meaning": "lata / conserva",
+          "tip": "\"Dar la lata\" = encher o saco!"
+        },
+        {
+          "es": "brindar",
+          "kind": "quase",
+          "meaning": "brindar",
+          "tip": "Igual!"
+        },
+        {
+          "es": "salud",
+          "kind": "armadilha",
+          "meaning": "saúde / tim-tim",
+          "tip": "Brinde: \"¡Salud!\""
+        },
+        {
+          "es": "mejillón",
+          "kind": "quase",
+          "meaning": "mexilhão",
+          "tip": "Quase igual."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Ao brindar na Espanha, você diz:",
+      "options": [
+        "¡Salud!",
+        "¡Tim-tim!",
+        "¡Saúde!"
+      ],
+      "correct": 0,
+      "explanation": "\"¡Salud!\" é o brinde. Também se diz \"¡Chinchín!\"."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Saúde! É um domingo perfeito.",
+      "answer": [
+        "¡Salud!",
+        "Es",
+        "un",
+        "domingo",
+        "perfecto."
+      ],
+      "distractors": [
+        "saúde",
+        "perfeito"
+      ],
+      "explanation": "\"Perfecto\" = perfeito."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "¡Las dos cosas! Un vermut, unas olivas y unas patatas.",
+      "options": [
+        "As duas coisas! Um vermute, umas azeitonas e umas batatinhas.",
+        "Nenhuma das duas!",
+        "Só a bebida, sem comida."
+      ],
+      "correct": 0,
+      "explanation": "\"Olivas\" também se usa em Barcelona; no resto da Espanha, mais \"aceitunas\"."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"No me des la ___.\" (não me encha o saco)",
+      "options": [
+        "lata",
+        "lada",
+        "latita"
+      ],
+      "correct": 0,
+      "explanation": "\"Dar la lata\" = encher o saco."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Vamos a una bodega antigua.",
+          "options": [
+            "Vamos a um bar de vinho antigo.",
+            "Vamos a um armazém antigo."
+          ],
+          "correct": 0,
+          "joke": "Bodega = adega/bar de vinho."
+        },
+        {
+          "spanish": "¡Deja de dar la lata!",
+          "options": [
+            "Para de encher o saco!",
+            "Para de dar a lata!"
+          ],
+          "correct": 0,
+          "joke": "Dar la lata = incomodar."
+        },
+        {
+          "spanish": "Me encantan los berberechos.",
+          "options": [
+            "Adoro berbigões.",
+            "Adoro beberagens."
+          ],
+          "correct": 0,
+          "joke": "Berberecho = berbigão."
+        },
+        {
+          "spanish": "Brindamos por Lu.",
+          "options": [
+            "Brindamos pela Lu.",
+            "Damos um brinde para a Lu."
+          ],
+          "correct": 0,
+          "joke": "Brindar = brindar."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Cataluña",
+      "items": [
+        {
+          "emoji": "🍸",
+          "title": "Fer el vermut",
+          "es": "¿Hacemos el vermut?",
+          "pt": "Em Barcelona, o vermute do sábado ou domingo antes do almoço é uma tradição, com azeitonas, batatas fritas e conservas. Em catalão: \"fer el vermut\"."
+        },
+        {
+          "emoji": "🥫",
+          "title": "Conservas",
+          "es": "Unas anchoas y unos mejillones.",
+          "pt": "Conservas de qualidade (anchovas, mexilhões, berbigões) são petiscos clássicos da hora do vermute."
+        }
+      ]
+    }
+  ]
+}

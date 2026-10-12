@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-6",
+  "contentVersion": "2026.10.12-7",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -77,6 +77,28 @@
               "available": true
             }
           ]
+        },
+        {
+          "id": "mad-u4",
+          "title": "Trabalho e rotina",
+          "emoji": "💼",
+          "lessons": [
+            {
+              "id": "u12l1",
+              "title": "Primeiro dia no trabalho",
+              "available": true
+            },
+            {
+              "id": "u12l2",
+              "title": "Quedar com amigos",
+              "available": true
+            },
+            {
+              "id": "u12l3",
+              "title": "Minha rotina",
+              "available": true
+            }
+          ]
         }
       ]
     },
@@ -129,6 +151,28 @@
             {
               "id": "u5l3",
               "title": "Que horas abre?",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "cat-u3",
+          "title": "Fim de semana em Barcelona",
+          "emoji": "🏖️",
+          "lessons": [
+            {
+              "id": "u13l1",
+              "title": "Hora do vermut",
+              "available": true
+            },
+            {
+              "id": "u13l2",
+              "title": "Na Barceloneta",
+              "available": true
+            },
+            {
+              "id": "u13l3",
+              "title": "Na Sagrada Família",
               "available": true
             }
           ]

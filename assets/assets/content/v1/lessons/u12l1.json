@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "u12l1",
+  "title": "Primeiro dia no trabalho",
+  "scenario": "Madrid · oficina en el barrio de Salamanca",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 34: Novo emprego",
+      "lines": [
+        {
+          "speaker": "Jefa",
+          "es": "¡Bienvenida, Lu! Te presento al equipo.",
+          "pt": "Bem-vinda, Lu! Vou te apresentar à equipe."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Encantada. ¿A qué hora empezamos por la mañana?",
+          "pt": "Prazer. A que horas começamos de manhã?"
+        },
+        {
+          "speaker": "Jefa",
+          "es": "Entramos a las nueve y salimos a las seis, con una hora para comer.",
+          "pt": "Entramos às nove e saímos às seis, com uma hora de almoço."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y dónde está mi mesa?",
+          "pt": "E onde fica minha mesa?"
+        },
+        {
+          "speaker": "Jefa",
+          "es": "Al lado de la ventana. Si tienes dudas, pregúntale a Carlos.",
+          "pt": "Ao lado da janela. Se tiver dúvidas, pergunte ao Carlos."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Genial. Muchas gracias por todo.",
+          "pt": "Ótimo. Muito obrigada por tudo."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Te presento al equipo\" significa:",
+      "options": [
+        "Vou te apresentar à equipe",
+        "Te dou um presente da equipe",
+        "A equipe está presente"
+      ],
+      "correct": 0,
+      "explanation": "\"Presentar\" = apresentar. Presente (regalo) = \"regalo\"."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "A que horas começamos?",
+      "answer": [
+        "¿A",
+        "qué",
+        "hora",
+        "empezamos?"
+      ],
+      "distractors": [
+        "horas",
+        "começamos"
+      ],
+      "explanation": "Em espanhol, \"¿A qué hora...?\" no singular."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Entramos a las nueve y salimos a las seis, con una hora para comer.",
+      "options": [
+        "Entramos às nove e saímos às seis, com uma hora de almoço.",
+        "Entramos às seis e saímos às nove.",
+        "Entramos às nove e não tem pausa para comer."
+      ],
+      "correct": 0,
+      "explanation": "\"Comer\" na Espanha = almoçar (a refeição principal)."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "equipo",
+          "kind": "quase",
+          "meaning": "equipe",
+          "tip": "Masculino: el equipo."
+        },
+        {
+          "es": "reunión",
+          "kind": "quase",
+          "meaning": "reunião",
+          "tip": "-ão vira -ión."
+        },
+        {
+          "es": "compañero",
+          "kind": "quase",
+          "meaning": "colega",
+          "tip": "Compañero de trabajo = colega."
+        },
+        {
+          "es": "ordenador",
+          "kind": "armadilha",
+          "meaning": "computador",
+          "tip": "Ordenador na Espanha; \"computadora\" na América Latina."
+        },
+        {
+          "es": "pantalla",
+          "kind": "armadilha",
+          "meaning": "tela",
+          "tip": "Não é pantalha!"
+        },
+        {
+          "es": "ratón",
+          "kind": "armadilha",
+          "meaning": "mouse",
+          "tip": "Também é rato."
+        },
+        {
+          "es": "correo",
+          "kind": "armadilha",
+          "meaning": "e-mail / correio",
+          "tip": "Correio (Correos) e também e-mail."
+        },
+        {
+          "es": "ventana",
+          "kind": "quase",
+          "meaning": "janela",
+          "tip": "Ventanilla = guichê."
+        },
+        {
+          "es": "duda",
+          "kind": "quase",
+          "meaning": "dúvida",
+          "tip": "Sem o \"v\"."
+        },
+        {
+          "es": "regalo",
+          "kind": "armadilha",
+          "meaning": "presente",
+          "tip": "Presente (tempo) = \"presente\"; o de dar = regalo."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Na Espanha, \"ordenador\" é:",
+      "options": [
+        "Computador",
+        "Organizador",
+        "Ordenança"
+      ],
+      "correct": 0,
+      "explanation": "\"Ordenador\" é o termo da Espanha."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Se tiver dúvidas, pergunte ao Carlos.",
+      "answer": [
+        "Si",
+        "tienes",
+        "dudas,",
+        "pregúntale",
+        "a",
+        "Carlos."
+      ],
+      "distractors": [
+        "preguntas",
+        "dúvidas"
+      ],
+      "explanation": "\"Pregúntale\" = pergunte a ele."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Al lado de la ventana. Si tienes dudas, pregúntale a Carlos.",
+      "options": [
+        "Ao lado da janela. Se tiver dúvidas, pergunte ao Carlos.",
+        "Ao lado da porta. Fale com a chefe.",
+        "Perto da janela. Não pergunte nada."
+      ],
+      "correct": 0,
+      "explanation": "\"Al lado de\" = ao lado de."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Mándame un ___ con el informe.\" (e-mail)",
+      "options": [
+        "correo",
+        "carta",
+        "mail"
+      ],
+      "correct": 0,
+      "explanation": "\"Correo (electrónico)\" = e-mail. Também se ouve \"email\"."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Enciende el ordenador.",
+          "options": [
+            "Liga o computador.",
+            "Liga o organizador."
+          ],
+          "correct": 0,
+          "joke": "Ordenador = computador."
+        },
+        {
+          "spanish": "La pantalla está rota.",
+          "options": [
+            "A tela está quebrada.",
+            "A pantalha está rota."
+          ],
+          "correct": 0,
+          "joke": "Pantalla = tela."
+        },
+        {
+          "spanish": "Te he traído un regalo.",
+          "options": [
+            "Te trouxe um presente.",
+            "Te trouxe um regalo."
+          ],
+          "correct": 0,
+          "joke": "Regalo = presente."
+        },
+        {
+          "spanish": "Tengo una reunión a las diez.",
+          "options": [
+            "Tenho uma reunião às dez.",
+            "Tenho uma reunião de família às dez."
+          ],
+          "correct": 0,
+          "joke": "Reunión = reunião."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Madrid",
+      "items": [
+        {
+          "emoji": "🕘",
+          "title": "Horário de trabalho",
+          "es": "¿Tienes jornada intensiva en verano?",
+          "pt": "Muitos escritórios trabalham das 9h às 18h com pausa para comer. Algumas empresas têm \"jornada intensiva\" no verão (sai mais cedo, sem pausa longa)."
+        },
+        {
+          "emoji": "🥘",
+          "title": "Menú del día",
+          "es": "¿Qué hay de menú del día?",
+          "pt": "No almoço de dias úteis, muitos restaurantes oferecem o \"menú del día\": primeiro prato, segundo, sobremesa ou café e bebida, por um preço fixo."
+        }
+      ]
+    }
+  ]
+}

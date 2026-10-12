@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u12l3",
+  "title": "Minha rotina",
+  "scenario": "Madrid · un día normal de Lu",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 36: Um dia normal",
+      "lines": [
+        {
+          "speaker": "Lino",
+          "es": "Lu, ¿cómo es un día normal para ti?",
+          "pt": "Lu, como é um dia normal para você?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Me levanto a las siete y me ducho rápido.",
+          "pt": "Eu me levanto às sete e tomo banho rápido."
+        },
+        {
+          "speaker": "Lino",
+          "es": "¿Desayunas en casa?",
+          "pt": "Toma café da manhã em casa?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "No, desayuno un café con tostada en el bar de abajo.",
+          "pt": "Não, tomo um café com torrada no bar de baixo."
+        },
+        {
+          "speaker": "Lino",
+          "es": "¿Y por la noche?",
+          "pt": "E à noite?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Ceno sobre las nueve y me acuesto a las doce. ¡Muy española!",
+          "pt": "Janto lá pelas nove e vou dormir à meia-noite. Muito espanhola!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Me levanto a las siete\" significa:",
+      "options": [
+        "Eu me levanto às sete",
+        "Eu levanto peso às sete",
+        "Eu saio às sete"
+      ],
+      "correct": 0,
+      "explanation": "Verbos reflexivos: levantarse, ducharse, acostarse."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu tomo banho rápido.",
+      "answer": [
+        "Me",
+        "ducho",
+        "rápido."
+      ],
+      "distractors": [
+        "baño",
+        "tomo"
+      ],
+      "explanation": "\"Ducharse\" = tomar banho (de chuveiro)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "No, desayuno un café con tostada en el bar de abajo.",
+      "options": [
+        "Não, tomo um café com torrada no bar de baixo.",
+        "Não, não tomo café da manhã.",
+        "Sim, tomo café com leite em casa."
+      ],
+      "correct": 0,
+      "explanation": "\"Tostada\" = torrada; com tomate e azeite é clássico."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "despertador",
+          "kind": "quase",
+          "meaning": "despertador",
+          "tip": "Igual!"
+        },
+        {
+          "es": "ducha",
+          "kind": "quase",
+          "meaning": "chuveiro / ducha",
+          "tip": "Ducharse = tomar banho."
+        },
+        {
+          "es": "tostada",
+          "kind": "armadilha",
+          "meaning": "torrada",
+          "tip": "Não é tostada mexicana!"
+        },
+        {
+          "es": "desayuno",
+          "kind": "quase",
+          "meaning": "café da manhã",
+          "tip": "Des + ayuno (jejum)."
+        },
+        {
+          "es": "cepillo",
+          "kind": "quase",
+          "meaning": "escova",
+          "tip": "Cepillo de dientes = escova de dentes."
+        },
+        {
+          "es": "toalla de mano",
+          "kind": "quase",
+          "meaning": "toalha de rosto",
+          "tip": "Toalla de mano."
+        },
+        {
+          "es": "siesta",
+          "kind": "quase",
+          "meaning": "sesta / soneca",
+          "tip": "Menos comum na cidade do que se pensa."
+        },
+        {
+          "es": "acostarse",
+          "kind": "armadilha",
+          "meaning": "deitar-se para dormir",
+          "tip": "Não é \"acostumar-se\" (acostumbrarse)!"
+        },
+        {
+          "es": "espejo",
+          "kind": "armadilha",
+          "meaning": "espelho",
+          "tip": "Com j: espejo."
+        },
+        {
+          "es": "peine",
+          "kind": "quase",
+          "meaning": "pente",
+          "tip": "Peinarse = pentear-se."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Me acuesto a las doce\" significa:",
+      "options": [
+        "Vou dormir à meia-noite",
+        "Me acostumo ao meio-dia",
+        "Acordo às doze"
+      ],
+      "correct": 0,
+      "explanation": "\"Acostarse\" = deitar-se (ir para a cama)."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu me deito à meia-noite.",
+      "answer": [
+        "Me",
+        "acuesto",
+        "a",
+        "las",
+        "doce."
+      ],
+      "distractors": [
+        "acostumbro",
+        "deito"
+      ],
+      "explanation": "\"Acostarse\": me acuesto, te acuestas..."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Ceno sobre las nueve y me acuesto a las doce. ¡Muy española!",
+      "options": [
+        "Janto lá pelas nove e vou dormir à meia-noite. Muito espanhola!",
+        "Janto às sete e durmo às dez.",
+        "Não janto e durmo cedo."
+      ],
+      "correct": 0,
+      "explanation": "Horário típico espanhol!"
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Todos los días ___ levanto temprano.\"",
+      "options": [
+        "me",
+        "se",
+        "te"
+      ],
+      "correct": 0,
+      "explanation": "Yo me levanto, tú te levantas, él se levanta."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Me acuesto tarde.",
+          "options": [
+            "Vou dormir tarde.",
+            "Me acostumo tarde."
+          ],
+          "correct": 0,
+          "joke": "Acostarse = deitar-se."
+        },
+        {
+          "spanish": "Quiero una tostada con tomate.",
+          "options": [
+            "Quero uma torrada com tomate.",
+            "Quero uma tostada mexicana com tomate."
+          ],
+          "correct": 0,
+          "joke": "Tostada = torrada."
+        },
+        {
+          "spanish": "Mírate en el espejo.",
+          "options": [
+            "Olhe-se no espelho.",
+            "Olhe-se na janela."
+          ],
+          "correct": 0,
+          "joke": "Espejo = espelho."
+        },
+        {
+          "spanish": "Pon el despertador a las siete.",
+          "options": [
+            "Põe o despertador às sete.",
+            "Acorda o vizinho às sete."
+          ],
+          "correct": 0,
+          "joke": "Despertador = despertador."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Madrid",
+      "items": [
+        {
+          "emoji": "☕",
+          "title": "Café da manhã no bar",
+          "es": "Un café con leche y una tostada, por favor.",
+          "pt": "Muitos espanhóis tomam o café da manhã ou fazem uma pausa no meio da manhã no bar: café com leite e \"tostada con tomate\"."
+        },
+        {
+          "emoji": "😴",
+          "title": "E a siesta?",
+          "es": "¿Duermes la siesta?",
+          "pt": "A soneca depois do almoço existe, mas na rotina de trabalho da cidade é mais coisa de fim de semana e férias."
+        }
+      ]
+    }
+  ]
+}

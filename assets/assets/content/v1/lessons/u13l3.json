@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u13l3",
+  "title": "Na Sagrada Família",
+  "scenario": "Barcelona · Templo de la Sagrada Familia",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 39: Gaudí",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Es impresionante! ¿Todavía la están construyendo?",
+          "pt": "É impressionante! Ainda estão construindo?"
+        },
+        {
+          "speaker": "Guía",
+          "es": "Sí. Las obras empezaron en 1882 y Gaudí trabajó aquí más de cuarenta años.",
+          "pt": "Sim. As obras começaram em 1882 e Gaudí trabalhou aqui mais de quarenta anos."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Se pueden comprar entradas aquí?",
+          "pt": "Dá para comprar ingressos aqui?"
+        },
+        {
+          "speaker": "Guía",
+          "es": "Es mejor comprarlas por internet con antelación.",
+          "pt": "É melhor comprar pela internet com antecedência."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Qué otros edificios de Gaudí me recomiendas?",
+          "pt": "Que outros prédios de Gaudí você me recomenda?"
+        },
+        {
+          "speaker": "Guía",
+          "es": "El Park Güell, la Casa Batlló y la Pedrera.",
+          "pt": "O Park Güell, a Casa Batlló e a Pedrera."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Con antelación\" significa:",
+      "options": [
+        "Com antecedência",
+        "Com atenção",
+        "Com atraso"
+      ],
+      "correct": 0,
+      "explanation": "\"Antelación\" = antecedência."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "É melhor comprar pela internet.",
+      "answer": [
+        "Es",
+        "mejor",
+        "comprarlas",
+        "por",
+        "internet."
+      ],
+      "distractors": [
+        "comprar",
+        "pela"
+      ],
+      "explanation": "\"Comprarlas\" = comprá-las (las entradas)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí. Las obras empezaron en 1882 y Gaudí trabajó aquí más de cuarenta años.",
+      "options": [
+        "Sim. As obras começaram em 1882 e Gaudí trabalhou aqui mais de quarenta anos.",
+        "Não, terminaram em 1882.",
+        "Gaudí trabalhou aqui só um ano."
+      ],
+      "correct": 0,
+      "explanation": "\"Obras\" = obras, construção."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "edificio",
+          "kind": "armadilha",
+          "meaning": "prédio",
+          "tip": "Edifício também, mas o comum é prédio."
+        },
+        {
+          "es": "obra",
+          "kind": "quase",
+          "meaning": "obra",
+          "tip": "\"En obras\" = em reforma."
+        },
+        {
+          "es": "arquitecto",
+          "kind": "quase",
+          "meaning": "arquiteto",
+          "tip": "Com c."
+        },
+        {
+          "es": "vidriera",
+          "kind": "quase",
+          "meaning": "vitral",
+          "tip": "De \"vidrio\" = vidro."
+        },
+        {
+          "es": "columna",
+          "kind": "quase",
+          "meaning": "coluna",
+          "tip": "Quase igual."
+        },
+        {
+          "es": "techo",
+          "kind": "armadilha",
+          "meaning": "teto",
+          "tip": "Teto, não telhado (\"tejado\")."
+        },
+        {
+          "es": "escalera",
+          "kind": "armadilha",
+          "meaning": "escada",
+          "tip": "Não é escaleira!"
+        },
+        {
+          "es": "ascensor",
+          "kind": "quase",
+          "meaning": "elevador",
+          "tip": "Ascender = subir."
+        },
+        {
+          "es": "fachada",
+          "kind": "igual",
+          "meaning": "fachada",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "guía",
+          "kind": "quase",
+          "meaning": "guia",
+          "tip": "Pessoa ou livro."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Escalera\" significa:",
+      "options": [
+        "Escada",
+        "Escala musical",
+        "Escalada"
+      ],
+      "correct": 0,
+      "explanation": "\"Subir la escalera\" = subir a escada."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Que prédios você me recomenda?",
+      "answer": [
+        "¿Qué",
+        "edificios",
+        "me",
+        "recomiendas?"
+      ],
+      "distractors": [
+        "prédios",
+        "recomendas"
+      ],
+      "explanation": "\"Recomendar\": recomiendo, recomiendas..."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "El Park Güell, la Casa Batlló y la Pedrera.",
+      "options": [
+        "O Park Güell, a Casa Batlló e a Pedrera.",
+        "O Museu do Prado e o Retiro.",
+        "A Alhambra e a Giralda."
+      ],
+      "correct": 0,
+      "explanation": "Obras de Gaudí em Barcelona."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Subimos por la ___ porque el ascensor no funciona.\"",
+      "options": [
+        "escalera",
+        "escala",
+        "escada"
+      ],
+      "correct": 0,
+      "explanation": "\"Escalera\" = escada."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Vivo en un edificio antiguo.",
+          "options": [
+            "Moro num prédio antigo.",
+            "Moro num edifício de luxo moderno."
+          ],
+          "correct": 0,
+          "joke": "Edificio = prédio."
+        },
+        {
+          "spanish": "El techo es muy alto.",
+          "options": [
+            "O teto é muito alto.",
+            "O telhado é muito alto."
+          ],
+          "correct": 0,
+          "joke": "Techo = teto."
+        },
+        {
+          "spanish": "La escalera es estrecha.",
+          "options": [
+            "A escada é estreita.",
+            "A escala é estreita."
+          ],
+          "correct": 0,
+          "joke": "Escalera = escada."
+        },
+        {
+          "spanish": "Mira las vidrieras.",
+          "options": [
+            "Olha os vitrais.",
+            "Olha as vidraças quebradas."
+          ],
+          "correct": 0,
+          "joke": "Vidriera = vitral."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Cataluña",
+      "items": [
+        {
+          "emoji": "⛪",
+          "title": "Sagrada Família",
+          "es": "La Sagrada Familia es de Gaudí.",
+          "pt": "Templo projetado por Antoni Gaudí; as obras começaram em 1882 e continuam até hoje. Compre o ingresso no site oficial com antecedência. Em catalão: \"Sagrada Família\"."
+        },
+        {
+          "emoji": "🦎",
+          "title": "Gaudí pela cidade",
+          "es": "Me encanta el Park Güell.",
+          "pt": "Park Güell, Casa Batlló e Casa Milà (\"La Pedrera\") são obras de Gaudí. Várias são Patrimônio Mundial da UNESCO."
+        }
+      ]
+    }
+  ]
+}

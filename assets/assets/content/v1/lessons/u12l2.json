@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u12l2",
+  "title": "Quedar com amigos",
+  "scenario": "Madrid · mensajes y una terraza en Malasaña",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 35: Bora sair?",
+      "lines": [
+        {
+          "speaker": "Dani",
+          "es": "¿Quedamos el viernes para tomar algo?",
+          "pt": "Vamos nos encontrar na sexta para tomar algo?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Vale! ¿A qué hora quedamos?",
+          "pt": "Beleza! Que horas a gente se encontra?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "Sobre las nueve, en la plaza del Dos de Mayo.",
+          "pt": "Lá pelas nove, na praça do Dos de Mayo."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿No es un poco pronto para cenar?",
+          "pt": "Não é um pouco cedo para jantar?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "Primero unas cañas y luego cenamos a las diez.",
+          "pt": "Primeiro umas cervejas e depois jantamos às dez."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Perfecto. ¡Hasta el viernes!",
+          "pt": "Perfeito. Até sexta!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¿Quedamos el viernes?\" significa:",
+      "options": [
+        "Vamos nos encontrar na sexta?",
+        "Ficamos em casa na sexta?",
+        "Sobrou algo para sexta?"
+      ],
+      "correct": 0,
+      "explanation": "\"Quedar\" = marcar de se encontrar. Muito usado na Espanha!"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vamos nos encontrar na sexta?",
+      "answer": [
+        "¿Quedamos",
+        "el",
+        "viernes?"
+      ],
+      "distractors": [
+        "en",
+        "encontramos"
+      ],
+      "explanation": "\"Quedar con alguien\" = encontrar alguém."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sobre las nueve, en la plaza del Dos de Mayo.",
+      "options": [
+        "Lá pelas nove, na praça do Dos de Mayo.",
+        "Às duas em ponto, no Retiro.",
+        "Sobre a mesa, às nove."
+      ],
+      "correct": 0,
+      "explanation": "\"Sobre las nueve\" = por volta das nove."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "viernes",
+          "kind": "quase",
+          "meaning": "sexta-feira",
+          "tip": "Na Espanha os dias têm nome: lunes, martes..."
+        },
+        {
+          "es": "lunes",
+          "kind": "quase",
+          "meaning": "segunda-feira",
+          "tip": "De \"luna\"."
+        },
+        {
+          "es": "finde",
+          "kind": "quase",
+          "meaning": "fim de semana",
+          "tip": "Gíria de \"fin de semana\"."
+        },
+        {
+          "es": "madrugar",
+          "kind": "quase",
+          "meaning": "acordar muito cedo",
+          "tip": "Madrugada = de madrugada."
+        },
+        {
+          "es": "luego",
+          "kind": "armadilha",
+          "meaning": "depois",
+          "tip": "Não é \"logo\" (imediatamente)!"
+        },
+        {
+          "es": "cumpleaños",
+          "kind": "quase",
+          "meaning": "aniversário",
+          "tip": "Aniversário de casamento = \"aniversario\"."
+        },
+        {
+          "es": "botellón",
+          "kind": "quase",
+          "meaning": "bebedeira na rua",
+          "tip": "Beber em grupo na rua; proibido em muitos lugares."
+        },
+        {
+          "es": "tío",
+          "kind": "armadilha",
+          "meaning": "cara / mano",
+          "tip": "Também tio, mas entre amigos é \"cara\"."
+        },
+        {
+          "es": "guay",
+          "kind": "quase",
+          "meaning": "legal / massa",
+          "tip": "Gíria da Espanha."
+        },
+        {
+          "es": "marcha",
+          "kind": "armadilha",
+          "meaning": "balada / agito",
+          "tip": "\"Salir de marcha\" = sair para a balada."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Luego cenamos\" significa:",
+      "options": [
+        "Depois jantamos",
+        "Jantamos imediatamente",
+        "Jantamos no lugar"
+      ],
+      "correct": 0,
+      "explanation": "\"Luego\" = depois. \"Logo\" (já) = \"enseguida\"."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Primeiro umas cervejas e depois jantamos.",
+      "answer": [
+        "Primero",
+        "unas",
+        "cañas",
+        "y",
+        "luego",
+        "cenamos."
+      ],
+      "distractors": [
+        "logo",
+        "cervezas"
+      ],
+      "explanation": "\"Caña\" = chope pequeno."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "¿No es un poco pronto para cenar?",
+      "options": [
+        "Não é um pouco cedo para jantar?",
+        "Não está pronto o jantar?",
+        "Não é tarde para jantar?"
+      ],
+      "correct": 0,
+      "explanation": "\"Pronto\" = cedo. Na Espanha, jantar às 21h ou mais tarde é normal."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"¡Qué ___ tu camiseta!\" (legal)",
+      "options": [
+        "guay",
+        "guai",
+        "güey"
+      ],
+      "correct": 0,
+      "explanation": "\"Guay\" = legal. \"Güey\" é do México!"
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Luego te llamo.",
+          "options": [
+            "Depois te ligo.",
+            "Logo, imediatamente, te ligo."
+          ],
+          "correct": 0,
+          "joke": "Luego = depois."
+        },
+        {
+          "spanish": "Esta noche salimos de marcha.",
+          "options": [
+            "Hoje à noite vamos para a balada.",
+            "Hoje à noite vamos marchar."
+          ],
+          "correct": 0,
+          "joke": "Marcha = agito, balada."
+        },
+        {
+          "spanish": "¡Tío, qué fuerte!",
+          "options": [
+            "Cara, que absurdo!",
+            "Tio, que forte!"
+          ],
+          "correct": 0,
+          "joke": "Tío = cara (gíria). \"¡Qué fuerte!\" = que absurdo!"
+        },
+        {
+          "spanish": "Mañana es mi cumpleaños.",
+          "options": [
+            "Amanhã é meu aniversário.",
+            "Amanhã é meu aniversário de casamento."
+          ],
+          "correct": 0,
+          "joke": "Cumpleaños = aniversário (de nascimento)."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Madrid",
+      "items": [
+        {
+          "emoji": "🌙",
+          "title": "Horários espanhóis",
+          "es": "En España se cena tarde.",
+          "pt": "Almoço por volta das 14h e jantar às 21h ou mais tarde. Por isso marcar às 21h para \"tomar algo\" e jantar às 22h é normal em Madrid."
+        },
+        {
+          "emoji": "🍻",
+          "title": "Malasaña",
+          "es": "Quedamos en Malasaña.",
+          "pt": "Bairro boêmio de Madrid, cheio de bares e vida noturna, ao redor da Plaza del Dos de Mayo."
+        }
+      ]
+    }
+  ]
+}
