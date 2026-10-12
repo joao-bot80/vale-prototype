@@ -128,7 +128,7 @@
           "es": "aparcar",
           "kind": "quase",
           "meaning": "estacionar",
-          "tip": "Aparcar = estacionar (em Portugal também \"aparcar\"). Aparcamiento = estacionamento."
+          "tip": "Aparcar = estacionar. Aparcamiento = estacionamento."
         },
         {
           "es": "tráfico",
@@ -143,10 +143,10 @@
           "tip": "Volante = volante do carro, igual, e também o comprovante do padrón."
         },
         {
-          "es": "exprimir",
+          "es": "neto",
           "kind": "armadilha",
-          "meaning": "espremer",
-          "tip": "Exprimir = espremer (uma laranja). Exprimir (expressar) é \"expresar\"."
+          "meaning": "líquido (salário, peso)",
+          "tip": "Sueldo neto = salário líquido. Neto é \"nieto\"."
         }
       ]
     },

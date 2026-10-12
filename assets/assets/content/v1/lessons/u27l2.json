@@ -118,7 +118,7 @@
           "es": "sombrero",
           "kind": "quase",
           "meaning": "chapéu",
-          "tip": "Sombrero = chapéu (em Portugal, \"sombreiro\" é chapéu de abas largas). Sombra é \"sombra\"."
+          "tip": "Sombrero = chapéu (qualquer chapéu). Sombra é \"sombra\"."
         },
         {
           "es": "bandera azul",
@@ -139,10 +139,10 @@
           "tip": "Crema aftersun."
         },
         {
-          "es": "oso",
+          "es": "botar",
           "kind": "armadilha",
-          "meaning": "urso",
-          "tip": "Oso = urso. Osso é \"hueso\"."
+          "meaning": "quicar (bola)",
+          "tip": "Botar = quicar (a bola). Botar (pôr) é \"poner\"."
         }
       ]
     },

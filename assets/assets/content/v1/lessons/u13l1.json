@@ -145,10 +145,10 @@
           "tip": "Salud = saúde, e no brinde \"¡Salud!\" = tim-tim."
         },
         {
-          "es": "estafa",
+          "es": "crianza",
           "kind": "armadilha",
-          "meaning": "golpe, fraude",
-          "tip": "Estafa = golpe/fraude. Estafa (cansaço) é \"agotamiento\"."
+          "meaning": "envelhecimento (vinho); criação",
+          "tip": "Vino de crianza = vinho envelhecido em barril. Criança é \"niño/niña\"."
         }
       ]
     },

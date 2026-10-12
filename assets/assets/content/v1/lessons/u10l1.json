@@ -143,10 +143,10 @@
           "tip": "Impreso = impresso, igual, mas na papelada também é o formulário oficial."
         },
         {
-          "es": "latir",
+          "es": "borrar",
           "kind": "armadilha",
-          "meaning": "bater (o coração)",
-          "tip": "Latir = bater (coração). Latir (cachorro) é \"ladrar\"."
+          "meaning": "apagar (escrita)",
+          "tip": "Borrar = apagar. Borrar (manchar) é \"emborronar\"."
         }
       ]
     },

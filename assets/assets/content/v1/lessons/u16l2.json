@@ -141,10 +141,10 @@
           "tip": "Ingreso = depósito / entrada de dinheiro, e também ingresso (admissão). Ingresso de show é \"entrada\"."
         },
         {
-          "es": "mostrador",
+          "es": "ganancia",
           "kind": "armadilha",
-          "meaning": "balcão (de loja)",
-          "tip": "Mostrador = balcão de atendimento. Mostrador de relógio é \"esfera\"."
+          "meaning": "lucro, ganho",
+          "tip": "Ganancia = lucro (ganancias = ganhos na declaração). Ganância é \"codicia\"."
         }
       ]
     },

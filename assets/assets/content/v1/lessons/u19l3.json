@@ -126,7 +126,7 @@
           "es": "zumo",
           "kind": "quase",
           "meaning": "suco",
-          "tip": "Zumo = suco na Espanha (em Portugal \"sumo\"); na América Latina, \"jugo\"."
+          "tip": "Zumo = suco na Espanha; na América Latina, \"jugo\"."
         },
         {
           "es": "frutería",
@@ -141,10 +141,10 @@
           "tip": "Almejas a la marinera."
         },
         {
-          "es": "sobrenombre",
+          "es": "cadera",
           "kind": "armadilha",
-          "meaning": "apelido (alcunha)",
-          "tip": "Sobrenombre = apelido. Sobrenome é \"apellido\"."
+          "meaning": "quadril",
+          "tip": "Cadera = quadril. Cadeira é \"silla\"."
         }
       ]
     },

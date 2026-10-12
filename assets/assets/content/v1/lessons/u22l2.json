@@ -117,7 +117,7 @@
           "es": "contador",
           "kind": "quase",
           "meaning": "medidor / relógio",
-          "tip": "Contador = medidor (de luz, de água), como \"contador\" em Portugal. Contador (profissão) na Espanha é \"contable\"."
+          "tip": "Contador = medidor (de luz, de água). Contador (profissão) na Espanha é \"contable\"."
         },
         {
           "es": "lectura",
@@ -144,10 +144,10 @@
           "tip": "La bombona de butano."
         },
         {
-          "es": "enchufe",
+          "es": "bombona",
           "kind": "armadilha",
-          "meaning": "tomada",
-          "tip": "Não é enchufe de água!"
+          "meaning": "botijão (de gás)",
+          "tip": "Bombona (de butano) = botijão de gás. Não é bombom nem bomba!"
         }
       ]
     },

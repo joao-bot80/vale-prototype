@@ -142,10 +142,10 @@
           "tip": "Renta = renda (ganhos), como em português. Aluguel é \"alquiler\"."
         },
         {
-          "es": "borrar",
+          "es": "escoba",
           "kind": "armadilha",
-          "meaning": "apagar (escrita)",
-          "tip": "Borrar = apagar. Borrar (manchar) é \"emborronar\"."
+          "meaning": "vassoura",
+          "tip": "Escoba = vassoura. Escova é \"cepillo\"."
         }
       ]
     },

@@ -139,13 +139,13 @@
           "es": "despacho",
           "kind": "quase",
           "meaning": "escritório (sala)",
-          "tip": "Despacho = escritório (sala), como \"despacho\" em Portugal. Também envio/despacho."
+          "tip": "Despacho = escritório (sala). Também envio/despacho."
         },
         {
-          "es": "rojo",
+          "es": "sótano",
           "kind": "armadilha",
-          "meaning": "vermelho",
-          "tip": "Rojo = vermelho. Roxo é \"morado\"."
+          "meaning": "porão, subsolo",
+          "tip": "Sótano = porão (embaixo). Sótão é \"desván\" (em cima)!"
         }
       ]
     },

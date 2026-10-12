@@ -142,10 +142,10 @@
           "tip": "Domiciliar el pago = débito automático em conta."
         },
         {
-          "es": "suceso",
+          "es": "estafa",
           "kind": "armadilha",
-          "meaning": "acontecimento, ocorrência",
-          "tip": "Suceso = acontecimento (página de sucesos = página policial). Sucesso é \"éxito\"."
+          "meaning": "golpe, fraude",
+          "tip": "Estafa = golpe/fraude. Estafa (cansaço) é \"agotamiento\"."
         }
       ]
     },

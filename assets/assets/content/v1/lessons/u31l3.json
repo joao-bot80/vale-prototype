@@ -109,7 +109,7 @@
         {
           "es": "lonja",
           "kind": "armadilha",
-          "meaning": "lota / leilão de peixe",
+          "meaning": "leilão de peixe",
           "tip": "Não é loja!"
         },
         {
@@ -160,7 +160,7 @@
         "Uma fatia"
       ],
       "correct": 0,
-      "explanation": "Lonja = lota."
+      "explanation": "Lonja = mercado onde se leiloa o peixe."
     },
     {
       "type": "build",
@@ -225,7 +225,7 @@
             "Compram na loja."
           ],
           "correct": 0,
-          "joke": "Lonja = lota."
+          "joke": "Lonja = leilão de peixe, não loja!"
         },
         {
           "spanish": "Pedimos navajas.",

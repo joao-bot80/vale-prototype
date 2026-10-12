@@ -143,10 +143,10 @@
           "tip": "Offside."
         },
         {
-          "es": "encuesta",
+          "es": "palco",
           "kind": "armadilha",
-          "meaning": "pesquisa (de opinião)",
-          "tip": "Encuesta = pesquisa. Encosta é \"ladera\"."
+          "meaning": "camarote (de estádio/teatro)",
+          "tip": "Palco = camarote. Palco (onde se apresentam) é \"escenario\"."
         }
       ]
     },

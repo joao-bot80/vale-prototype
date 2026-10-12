@@ -142,10 +142,10 @@
           "tip": "Puente romano = ponte romana. Atenção: puente é masculino!"
         },
         {
-          "es": "cadera",
+          "es": "rojo",
           "kind": "armadilha",
-          "meaning": "quadril",
-          "tip": "Cadera = quadril. Cadeira é \"silla\"."
+          "meaning": "vermelho",
+          "tip": "Rojo = vermelho. Roxo é \"morado\"."
         }
       ]
     },

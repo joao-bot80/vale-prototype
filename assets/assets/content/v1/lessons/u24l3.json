@@ -142,10 +142,10 @@
           "tip": "Ir al gimnasio = ir à academia."
         },
         {
-          "es": "liado",
+          "es": "encuesta",
           "kind": "armadilha",
-          "meaning": "enrolado / ocupado",
-          "tip": "Estoy muy liado."
+          "meaning": "pesquisa, questionário",
+          "tip": "Encuesta = pesquisa/questionário. Encosta é \"ladera\"."
         }
       ]
     },

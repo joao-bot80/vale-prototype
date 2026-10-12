@@ -140,10 +140,10 @@
           "tip": "Maestra = mestra."
         },
         {
-          "es": "apodo",
+          "es": "suceso",
           "kind": "armadilha",
-          "meaning": "apelido (alcunha)",
-          "tip": "Apodo = apelido carinhoso. Apodo não tem nada de zombaria aqui."
+          "meaning": "acontecimento, ocorrência",
+          "tip": "Suceso = acontecimento (página de sucesos = página policial). Sucesso é \"éxito\"."
         }
       ]
     },

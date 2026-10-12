@@ -141,10 +141,10 @@
           "tip": "Romper o contrato."
         },
         {
-          "es": "atestado",
+          "es": "billón",
           "kind": "armadilha",
-          "meaning": "lotado",
-          "tip": "Atestado = lotado, cheio. Atestado médico é \"certificado médico\"."
+          "meaning": "trilhão",
+          "tip": "Un billón = um trilhão (10¹²). Um bilhão é \"mil millones\"."
         }
       ]
     },

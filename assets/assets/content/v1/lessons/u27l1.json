@@ -141,10 +141,10 @@
           "tip": "Raya = arraia, e também risco/listra (como \"raia\")."
         },
         {
-          "es": "sótano",
+          "es": "falda",
           "kind": "armadilha",
-          "meaning": "porão",
-          "tip": "Sótano = porão (embaixo). Sótão é \"desván\" (em cima)!"
+          "meaning": "saia",
+          "tip": "Falda = saia. Fralda é \"pañal\"."
         }
       ]
     },

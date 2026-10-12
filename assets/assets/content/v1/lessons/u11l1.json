@@ -136,10 +136,10 @@
           "tip": "Dinheiro em geral = \"dinero\"."
         },
         {
-          "es": "prejuicio",
+          "es": "mostrador",
           "kind": "armadilha",
-          "meaning": "preconceito",
-          "tip": "Prejuicio = preconceito. Prejuízo é \"perjuicio\" ou \"pérdida\"."
+          "meaning": "balcão (de atendimento)",
+          "tip": "Mostrador = balcão. Mostrador de relógio é \"esfera\"."
         },
         {
           "es": "titular",

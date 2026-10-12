@@ -125,10 +125,10 @@
           "tip": "Ponto de ônibus = parada."
         },
         {
-          "es": "andén",
+          "es": "mala",
           "kind": "armadilha",
-          "meaning": "plataforma",
-          "tip": "O andar é \"planta\"."
+          "meaning": "má, ruim",
+          "tip": "Mala = má. Mala de viagem é \"maleta\"."
         },
         {
           "es": "billetera",

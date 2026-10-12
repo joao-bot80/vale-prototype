@@ -87,10 +87,10 @@
       "passMark": 6,
       "cards": [
         {
-          "es": "acera",
+          "es": "rodilla",
           "kind": "armadilha",
-          "meaning": "calçada",
-          "tip": "Não ande de bici na acera!"
+          "meaning": "joelho",
+          "tip": "Rodilla = joelho. Rodilha (rodela de pano) não tem nada a ver."
         },
         {
           "es": "patinete",
@@ -123,10 +123,10 @@
           "tip": "De río."
         },
         {
-          "es": "cauce",
+          "es": "salada",
           "kind": "armadilha",
-          "meaning": "leito (do rio)",
-          "tip": "O antigo cauce del Turia."
+          "meaning": "salgada",
+          "tip": "Salada = salgada (\"el agua está salada\"). Salada (prato) é \"ensalada\"."
         },
         {
           "es": "candado",

@@ -141,10 +141,10 @@
           "tip": "Mirador = mirante."
         },
         {
-          "es": "risco",
+          "es": "calzada",
           "kind": "armadilha",
-          "meaning": "penhasco, rochedo",
-          "tip": "Risco = penhasco. Risco (perigo) é \"riesgo\"."
+          "meaning": "pista (para carros)",
+          "tip": "Calzada = pista da rua. Calçada é \"acera\"!"
         }
       ]
     },

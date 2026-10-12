@@ -142,10 +142,10 @@
           "tip": "Prácticas = práticas, e \"hacer prácticas\" = estagiar."
         },
         {
-          "es": "ganancia",
+          "es": "experto",
           "kind": "armadilha",
-          "meaning": "lucro, ganho",
-          "tip": "Ganancia = lucro. Ganância é \"codicia\"."
+          "meaning": "especialista",
+          "tip": "Experto = especialista. Esperto é \"listo\"."
         }
       ]
     },
