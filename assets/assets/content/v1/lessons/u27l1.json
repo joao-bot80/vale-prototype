@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "id": "u27l1",
+  "title": "Cidade das Artes e das Ciências",
+  "scenario": "Valencia · Ciudad de las Artes y las Ciencias",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 79: Arquitetura do futuro",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Parece una ciudad de ciencia ficción.",
+          "pt": "Parece uma cidade de ficção científica."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Es la Ciudad de las Artes y las Ciencias, del arquitecto Santiago Calatrava.",
+          "pt": "É a Cidade das Artes e das Ciências, do arquiteto Santiago Calatrava."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Qué hay dentro de esos edificios?",
+          "pt": "O que tem dentro desses prédios?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Un museo de ciencias, un cine, una ópera y el Oceanogràfic, un acuario enorme.",
+          "pt": "Um museu de ciências, um cinema, uma ópera e o Oceanogràfic, um aquário enorme."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Quiero ver los tiburones!",
+          "pt": "Quero ver os tubarões!"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Pues compramos la entrada combinada. Sale más barata.",
+          "pt": "Então compramos o ingresso combinado. Sai mais barato."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Sale más barata\" significa:",
+      "options": [
+        "Sai mais barato",
+        "Sai mais tarde",
+        "Vende mais"
+      ],
+      "correct": 0,
+      "explanation": "\"Salir\" + preço = sair por."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Quero ver os tubarões!",
+      "answer": [
+        "¡Quiero",
+        "ver",
+        "los",
+        "tiburones!"
+      ],
+      "distractors": [
+        "tubarones",
+        "mirar los"
+      ],
+      "explanation": "Tiburón = tubarão."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Un museo de ciencias, un cine, una ópera y el Oceanogràfic, un acuario enorme.",
+      "options": [
+        "Um museu de ciências, um cinema, uma ópera e o Oceanogràfic, um aquário enorme.",
+        "Só lojas e restaurantes.",
+        "Escritórios do governo."
+      ],
+      "correct": 0,
+      "explanation": "Complexo cultural no antigo leito do Turia."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "tiburón",
+          "kind": "armadilha",
+          "meaning": "tubarão",
+          "tip": "Não é tiburão!"
+        },
+        {
+          "es": "acuario",
+          "kind": "quase",
+          "meaning": "aquário",
+          "tip": "Com c."
+        },
+        {
+          "es": "delfín",
+          "kind": "quase",
+          "meaning": "golfinho",
+          "tip": "Não é delfim!"
+        },
+        {
+          "es": "medusa gigante",
+          "kind": "quase",
+          "meaning": "água-viva gigante",
+          "tip": "Medusa = água-viva."
+        },
+        {
+          "es": "ciencia ficción",
+          "kind": "quase",
+          "meaning": "ficção científica",
+          "tip": "Ordem invertida."
+        },
+        {
+          "es": "entrada combinada",
+          "kind": "quase",
+          "meaning": "ingresso combinado",
+          "tip": "Para vários lugares."
+        },
+        {
+          "es": "taquilla automática",
+          "kind": "quase",
+          "meaning": "bilheteria automática",
+          "tip": "Máquina de bilhetes."
+        },
+        {
+          "es": "pingüino",
+          "kind": "quase",
+          "meaning": "pinguim",
+          "tip": "Com trema."
+        },
+        {
+          "es": "raya",
+          "kind": "armadilha",
+          "meaning": "arraia",
+          "tip": "Também risco/listra!"
+        },
+        {
+          "es": "tortuga",
+          "kind": "quase",
+          "meaning": "tartaruga",
+          "tip": "Tortugas marinas."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Un pulpo\" é:",
+      "options": [
+        "Um polvo",
+        "Um pulo",
+        "Um pó"
+      ],
+      "correct": 0,
+      "explanation": "Polvo em espanhol = pó!"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Sai mais barato.",
+      "answer": [
+        "Sale",
+        "más",
+        "barato."
+      ],
+      "distractors": [
+        "barata",
+        "sai"
+      ],
+      "explanation": "Masculino aqui: el billete sale más barato."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Pues compramos la entrada combinada. Sale más barata.",
+      "options": [
+        "Então compramos o ingresso combinado. Sai mais barato.",
+        "Então não compramos nada.",
+        "Compramos só o do cinema."
+      ],
+      "correct": 0,
+      "explanation": "Combinada = vale para vários espaços."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Hay un ___ con ocho brazos.\" (polvo)",
+      "options": [
+        "pulpo",
+        "polvo",
+        "pulpa"
+      ],
+      "correct": 0,
+      "explanation": "Pulpo = polvo (animal)."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "¡Mira el tiburón!",
+          "options": [
+            "Olha o tubarão!",
+            "Olha o tribunal!"
+          ],
+          "correct": 0,
+          "joke": "Tiburón = tubarão."
+        },
+        {
+          "spanish": "Pulpo a la gallega.",
+          "options": [
+            "Polvo à galega.",
+            "Pó à galega."
+          ],
+          "correct": 0,
+          "joke": "Pulpo = polvo."
+        },
+        {
+          "spanish": "Los delfines saltan.",
+          "options": [
+            "Os golfinhos pulam.",
+            "Os delfins pulam."
+          ],
+          "correct": 0,
+          "joke": "Delfín = golfinho."
+        },
+        {
+          "spanish": "La entrada sale barata.",
+          "options": [
+            "O ingresso sai barato.",
+            "A entrada sai barata pela porta."
+          ],
+          "correct": 0,
+          "joke": "Salir = custar."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Valencia",
+      "items": [
+        {
+          "emoji": "🐋",
+          "title": "Oceanogràfic",
+          "es": "El Oceanogràfic de Valencia.",
+          "pt": "Um dos maiores aquários da Europa, dentro da Ciudad de las Artes y las Ciencias. O nome é em valenciano."
+        },
+        {
+          "emoji": "🏛️",
+          "title": "Calatrava",
+          "es": "Arquitectura de Santiago Calatrava.",
+          "pt": "O complexo, desenhado em grande parte pelo valenciano Santiago Calatrava, fica no antigo leito do rio Turia."
+        }
+      ]
+    }
+  ]
+}

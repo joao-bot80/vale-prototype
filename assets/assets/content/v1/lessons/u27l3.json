@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "id": "u27l3",
+  "title": "Fogueres de Alicante",
+  "scenario": "Alicante · noche de San Juan",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 81: Fogueiras de São João",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¿Esto son Fallas? ¡También hay monumentos de cartón!",
+          "pt": "Isto são Fallas? Também tem monumentos de papelão!"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Parecido, pero son las Hogueras de San Juan de Alicante, en junio.",
+          "pt": "Parecido, mas são as Fogueiras de São João de Alicante, em junho."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y también los queman?",
+          "pt": "E também queimam?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí, la noche del veinticuatro. Antes lanzan una palmera de fuegos desde el castillo.",
+          "pt": "Sim, na noite do dia vinte e quatro. Antes lançam uma palmeira de fogos do castelo."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Qué pena quemar algo tan bonito!",
+          "pt": "Que pena queimar algo tão bonito!"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Es la tradición: el fuego purifica y empieza el verano.",
+          "pt": "É a tradição: o fogo purifica e começa o verão."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¡Qué pena!\" significa:",
+      "options": [
+        "Que pena!",
+        "Que vergonha!",
+        "Que pena (de ave)!"
+      ],
+      "correct": 0,
+      "explanation": "Pena = pena, tristeza."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Também queimam?",
+      "answer": [
+        "¿También",
+        "los",
+        "queman?"
+      ],
+      "distractors": [
+        "queimam",
+        "quemen"
+      ],
+      "explanation": "\"Quemar\" = queimar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, la noche del veinticuatro. Antes lanzan una palmera de fuegos desde el castillo.",
+      "options": [
+        "Sim, na noite do dia vinte e quatro. Antes lançam uma palmeira de fogos do castelo.",
+        "Não, guardam no museu.",
+        "Sim, de manhã cedo."
+      ],
+      "correct": 0,
+      "explanation": "Palmera = fogos em forma de palmeira."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "hoguera",
+          "kind": "quase",
+          "meaning": "fogueira",
+          "tip": "Fogueres em valenciano."
+        },
+        {
+          "es": "tradición",
+          "kind": "quase",
+          "meaning": "tradição",
+          "tip": "Es tradición."
+        },
+        {
+          "es": "palmera",
+          "kind": "quase",
+          "meaning": "palmeira",
+          "tip": "Também fogos assim."
+        },
+        {
+          "es": "castillo",
+          "kind": "quase",
+          "meaning": "castelo",
+          "tip": "Castillo de Santa Bárbara."
+        },
+        {
+          "es": "lanzar",
+          "kind": "quase",
+          "meaning": "lançar",
+          "tip": "Com z."
+        },
+        {
+          "es": "purificar",
+          "kind": "igual",
+          "meaning": "purificar",
+          "tip": "Igual!"
+        },
+        {
+          "es": "pena",
+          "kind": "armadilha",
+          "meaning": "pena / dó",
+          "tip": "¡Qué pena! = que pena."
+        },
+        {
+          "es": "vergüenza",
+          "kind": "armadilha",
+          "meaning": "vergonha",
+          "tip": "Pena ≠ vergüenza!"
+        },
+        {
+          "es": "ninot",
+          "kind": "quase",
+          "meaning": "boneco (das festas)",
+          "tip": "Palavra valenciana usada em castelhano."
+        },
+        {
+          "es": "verbena popular",
+          "kind": "quase",
+          "meaning": "baile de rua",
+          "tip": "Verbena de San Juan."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Me da vergüenza\" significa:",
+      "options": [
+        "Tenho vergonha",
+        "Me dá pena",
+        "Me dá raiva"
+      ],
+      "correct": 0,
+      "explanation": "Vergüenza = vergonha. Pena = pena."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Que pena!",
+      "answer": [
+        "¡Qué",
+        "pena!"
+      ],
+      "distractors": [
+        "lástima",
+        "vergüenza"
+      ],
+      "explanation": "Também se diz \"¡qué lástima!\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Es la tradición: el fuego purifica y empieza el verano.",
+      "options": [
+        "É a tradição: o fogo purifica e começa o verão.",
+        "É para esquentar no inverno.",
+        "É só para turistas."
+      ],
+      "correct": 0,
+      "explanation": "A noite de San Juan marca o início do verão."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Es una caja de ___.\" (papelão)",
+      "options": [
+        "cartón",
+        "cartão",
+        "carta"
+      ],
+      "correct": 0,
+      "explanation": "Cartón = papelão."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Es de cartón.",
+          "options": [
+            "É de papelão.",
+            "É de cartão."
+          ],
+          "correct": 0,
+          "joke": "Cartón = papelão."
+        },
+        {
+          "spanish": "Me da vergüenza bailar.",
+          "options": [
+            "Tenho vergonha de dançar.",
+            "Me dá pena dançar."
+          ],
+          "correct": 0,
+          "joke": "Vergüenza = vergonha."
+        },
+        {
+          "spanish": "¡Qué pena que te vas!",
+          "options": [
+            "Que pena que você vai embora!",
+            "Que vergonha que você vai embora!"
+          ],
+          "correct": 0,
+          "joke": "Pena = tristeza."
+        },
+        {
+          "spanish": "Mira la palmera de fuegos.",
+          "options": [
+            "Olha a palmeira de fogos.",
+            "Olha a palmeira em chamas."
+          ],
+          "correct": 0,
+          "joke": "Palmera = fogos em leque."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Valencia",
+      "items": [
+        {
+          "emoji": "🔥",
+          "title": "Hogueras de San Juan",
+          "es": "Las Hogueras de Alicante.",
+          "pt": "Festa de Alicante (Comunidade Valenciana) de 20 a 24 de junho, com monumentos queimados na noite de 24 (la cremà). É Festa de Interesse Turístico Internacional. Em valenciano: \"Fogueres de Sant Joan\"."
+        },
+        {
+          "emoji": "🎆",
+          "title": "Palmera",
+          "es": "La palmera desde el castillo.",
+          "pt": "À meia-noite, uma grande palmeira de fogos sai do Castillo de Santa Bárbara e dá início à queima das hogueras."
+        }
+      ]
+    }
+  ]
+}

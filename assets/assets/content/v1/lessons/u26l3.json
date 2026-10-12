@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "id": "u26l3",
+  "title": "Ronda e os pueblos blancos",
+  "scenario": "Ronda · Puente Nuevo",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 78: Sobre o abismo",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Qué vértigo! El puente está sobre un precipicio.",
+          "pt": "Que vertigem! A ponte fica sobre um precipício."
+        },
+        {
+          "speaker": "Dani",
+          "es": "Es el Puente Nuevo de Ronda, sobre el Tajo. Tiene casi cien metros de altura.",
+          "pt": "É a Ponte Nova de Ronda, sobre o Tajo. Tem quase cem metros de altura."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y por qué los pueblos de alrededor son todos blancos?",
+          "pt": "E por que os povoados em volta são todos brancos?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "Las casas se pintan con cal. Es tradicional y refresca en verano.",
+          "pt": "As casas são pintadas com cal. É tradicional e refresca no verão."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Alquilamos un coche y hacemos la ruta mañana.",
+          "pt": "Alugamos um carro e fazemos a rota amanhã."
+        },
+        {
+          "speaker": "Dani",
+          "es": "¡Vale! Pero las carreteras tienen muchas curvas.",
+          "pt": "Beleza! Mas as estradas têm muitas curvas."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¡Qué vértigo!\" significa:",
+      "options": [
+        "Que vertigem!",
+        "Que vertical!",
+        "Que pressa!"
+      ],
+      "correct": 0,
+      "explanation": "Vértigo = vertigem, medo de altura."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Alugamos um carro.",
+      "answer": [
+        "Alquilamos",
+        "un",
+        "coche."
+      ],
+      "distractors": [
+        "carro",
+        "alugamos"
+      ],
+      "explanation": "Na Espanha: coche."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Las casas se pintan con cal. Es tradicional y refresca en verano.",
+      "options": [
+        "As casas são pintadas com cal. É tradicional e refresca no verão.",
+        "As casas são de mármore.",
+        "É proibido pintar de outra cor."
+      ],
+      "correct": 0,
+      "explanation": "A cal reflete o sol."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "vértigo",
+          "kind": "quase",
+          "meaning": "vertigem",
+          "tip": "Tener vértigo."
+        },
+        {
+          "es": "precipicio",
+          "kind": "quase",
+          "meaning": "precipício",
+          "tip": "Com ci."
+        },
+        {
+          "es": "cal",
+          "kind": "armadilha",
+          "meaning": "cal (para pintar)",
+          "tip": "Não confundir com sal!"
+        },
+        {
+          "es": "carretera",
+          "kind": "armadilha",
+          "meaning": "estrada",
+          "tip": "Não é carreteira!"
+        },
+        {
+          "es": "curva",
+          "kind": "igual",
+          "meaning": "curva",
+          "tip": "Igual!"
+        },
+        {
+          "es": "mirador de carretera",
+          "kind": "quase",
+          "meaning": "mirante de estrada",
+          "tip": "Parada para foto."
+        },
+        {
+          "es": "gasolinera",
+          "kind": "quase",
+          "meaning": "posto de gasolina",
+          "tip": "Repostar = abastecer."
+        },
+        {
+          "es": "peaje",
+          "kind": "armadilha",
+          "meaning": "pedágio",
+          "tip": "Autopista de peaje."
+        },
+        {
+          "es": "altura",
+          "kind": "igual",
+          "meaning": "altura",
+          "tip": "Igual!"
+        },
+        {
+          "es": "alrededor",
+          "kind": "quase",
+          "meaning": "ao redor",
+          "tip": "De alrededor = em volta."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Una carretera\" é:",
+      "options": [
+        "Uma estrada",
+        "Uma carreta",
+        "Uma corrida"
+      ],
+      "correct": 0,
+      "explanation": "Carretera = estrada."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Onde posso estacionar?",
+      "answer": [
+        "¿Dónde",
+        "puedo",
+        "aparcar?"
+      ],
+      "distractors": [
+        "estacionar",
+        "parquear"
+      ],
+      "explanation": "Na Espanha: aparcar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "¡Vale! Pero las carreteras tienen muchas curvas.",
+      "options": [
+        "Beleza! Mas as estradas têm muitas curvas.",
+        "As estradas são retas.",
+        "Não tem estrada até lá."
+      ],
+      "correct": 0,
+      "explanation": "Estradas de serra: dirija com calma."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"No hay sitio para ___.\" (estacionar)",
+      "options": [
+        "aparcar",
+        "estacionar",
+        "parquear"
+      ],
+      "correct": 0,
+      "explanation": "Aparcar = estacionar (Espanha)."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Cogemos la carretera.",
+          "options": [
+            "Pegamos a estrada.",
+            "Pegamos a carreta."
+          ],
+          "correct": 0,
+          "joke": "Carretera = estrada."
+        },
+        {
+          "spanish": "He aparcado mal.",
+          "options": [
+            "Estacionei mal.",
+            "Aparei mal."
+          ],
+          "correct": 0,
+          "joke": "Aparcar = estacionar."
+        },
+        {
+          "spanish": "Tengo vértigo.",
+          "options": [
+            "Tenho medo de altura.",
+            "Tenho vertical."
+          ],
+          "correct": 0,
+          "joke": "Vértigo = vertigem."
+        },
+        {
+          "spanish": "Pintan las paredes con cal.",
+          "options": [
+            "Pintam as paredes com cal.",
+            "Pintam as paredes com sal."
+          ],
+          "correct": 0,
+          "joke": "Cal = cal."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Andalucía",
+      "items": [
+        {
+          "emoji": "🌉",
+          "title": "Puente Nuevo",
+          "es": "El Puente Nuevo de Ronda.",
+          "pt": "Ponte do século XVIII sobre o desfiladeiro do Tajo, com quase 100 m de altura. Ronda é um dos destinos mais visitados do interior de Málaga."
+        },
+        {
+          "emoji": "🏘️",
+          "title": "Pueblos blancos",
+          "es": "La ruta de los pueblos blancos.",
+          "pt": "Povoados de casas caiadas nas serras de Cádiz e Málaga, como Grazalema, Zahara e Setenil. Fazer a rota de carro é um clássico."
+        }
+      ]
+    }
+  ]
+}

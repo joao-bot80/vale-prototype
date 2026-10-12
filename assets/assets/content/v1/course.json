@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-13",
+  "contentVersion": "2026.10.12-14",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -363,6 +363,28 @@
               "available": true
             }
           ]
+        },
+        {
+          "id": "and-u5",
+          "title": "Málaga e a serra",
+          "emoji": "🐟",
+          "lessons": [
+            {
+              "id": "u26l1",
+              "title": "Espetos em Málaga",
+              "available": true
+            },
+            {
+              "id": "u26l2",
+              "title": "Picasso em Málaga",
+              "available": true
+            },
+            {
+              "id": "u26l3",
+              "title": "Ronda e os pueblos blancos",
+              "available": true
+            }
+          ]
         }
       ]
     },
@@ -459,6 +481,28 @@
             {
               "id": "u21l3",
               "title": "A Tomatina",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "val-u5",
+          "title": "Ciência, praia e fogueiras",
+          "emoji": "🐋",
+          "lessons": [
+            {
+              "id": "u27l1",
+              "title": "Cidade das Artes e das Ciências",
+              "available": true
+            },
+            {
+              "id": "u27l2",
+              "title": "Fim de tarde na Malvarrosa",
+              "available": true
+            },
+            {
+              "id": "u27l3",
+              "title": "Fogueres de Alicante",
               "available": true
             }
           ]

@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u26l2",
+  "title": "Picasso em Málaga",
+  "scenario": "Málaga · Museo Picasso y plaza de la Merced",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 77: O pintor da cidade",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¿Picasso nació aquí?",
+          "pt": "Picasso nasceu aqui?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "Sí, en Málaga, en 1881. Su casa natal está en la plaza de la Merced.",
+          "pt": "Sim, em Málaga, em 1881. A casa onde nasceu fica na praça da Merced."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y el museo tiene obras suyas?",
+          "pt": "E o museu tem obras dele?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "Muchas: pinturas, dibujos y cerámicas.",
+          "pt": "Muitas: pinturas, desenhos e cerâmicas."
+        },
+        {
+          "speaker": "Lu",
+          "es": "A mí me cuesta entender el cubismo.",
+          "pt": "Para mim é difícil entender o cubismo."
+        },
+        {
+          "speaker": "Dani",
+          "es": "No hace falta entenderlo todo. ¡Disfrútalo!",
+          "pt": "Não precisa entender tudo. Curta!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Me cuesta entender\" significa:",
+      "options": [
+        "Tenho dificuldade de entender",
+        "Custa dinheiro entender",
+        "Entendo fácil"
+      ],
+      "correct": 0,
+      "explanation": "\"Costar\" = ser difícil."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Não precisa entender tudo.",
+      "answer": [
+        "No",
+        "hace",
+        "falta",
+        "entenderlo",
+        "todo."
+      ],
+      "distractors": [
+        "precisa",
+        "necesita"
+      ],
+      "explanation": "\"Hace falta\" = é preciso."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, en Málaga, en 1881. Su casa natal está en la plaza de la Merced.",
+      "options": [
+        "Sim, em Málaga, em 1881. A casa onde nasceu fica na praça da Merced.",
+        "Não, nasceu em Paris.",
+        "Sim, em 1918, em Madrid."
+      ],
+      "correct": 0,
+      "explanation": "Casa natal = casa onde nasceu."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "dibujo",
+          "kind": "armadilha",
+          "meaning": "desenho",
+          "tip": "Dibujos animados = desenho animado."
+        },
+        {
+          "es": "pintura",
+          "kind": "igual",
+          "meaning": "pintura",
+          "tip": "Igual!"
+        },
+        {
+          "es": "cerámica",
+          "kind": "quase",
+          "meaning": "cerâmica",
+          "tip": "Acento no rá."
+        },
+        {
+          "es": "casa natal",
+          "kind": "quase",
+          "meaning": "casa onde nasceu",
+          "tip": "Natal ≠ Navidad!"
+        },
+        {
+          "es": "costar",
+          "kind": "armadilha",
+          "meaning": "custar / ser difícil",
+          "tip": "Me cuesta = tenho dificuldade."
+        },
+        {
+          "es": "hacer falta",
+          "kind": "armadilha",
+          "meaning": "ser preciso",
+          "tip": "Hace falta = é preciso."
+        },
+        {
+          "es": "disfrutar",
+          "kind": "quase",
+          "meaning": "curtir / aproveitar",
+          "tip": "¡Disfruta!"
+        },
+        {
+          "es": "cubismo",
+          "kind": "igual",
+          "meaning": "cubismo",
+          "tip": "Igual!"
+        },
+        {
+          "es": "escultura",
+          "kind": "igual",
+          "meaning": "escultura",
+          "tip": "Igual!"
+        },
+        {
+          "es": "boceto",
+          "kind": "quase",
+          "meaning": "esboço",
+          "tip": "Primeiro rascunho do desenho."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Dibujos animados\" são:",
+      "options": [
+        "Desenhos animados",
+        "Bonecos animados",
+        "Filmes de ação"
+      ],
+      "correct": 0,
+      "explanation": "Dibujo = desenho."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Curta o museu!",
+      "answer": [
+        "¡Disfruta",
+        "del",
+        "museo!"
+      ],
+      "distractors": [
+        "curte",
+        "aproveita"
+      ],
+      "explanation": "\"Disfrutar de\" = curtir."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Muchas: pinturas, dibujos y cerámicas.",
+      "options": [
+        "Muitas: pinturas, desenhos e cerâmicas.",
+        "Nenhuma, só fotos.",
+        "Só esculturas."
+      ],
+      "correct": 0,
+      "explanation": "Picasso também fez cerâmica."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"No hace ___ reservar.\" (não é preciso)",
+      "options": [
+        "falta",
+        "falla",
+        "falte"
+      ],
+      "correct": 0,
+      "explanation": "\"Hace falta\" = é preciso."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Mi hijo ve dibujos.",
+          "options": [
+            "Meu filho vê desenho animado.",
+            "Meu filho vê dívidas."
+          ],
+          "correct": 0,
+          "joke": "Dibujos = desenhos."
+        },
+        {
+          "spanish": "Me cuesta madrugar.",
+          "options": [
+            "Tenho dificuldade de acordar cedo.",
+            "Custa caro acordar cedo."
+          ],
+          "correct": 0,
+          "joke": "Costar = ser difícil."
+        },
+        {
+          "spanish": "Hace falta paciencia.",
+          "options": [
+            "É preciso paciência.",
+            "Falta paciência."
+          ],
+          "correct": 0,
+          "joke": "Hace falta = é preciso."
+        },
+        {
+          "spanish": "Hizo un boceto rápido.",
+          "options": [
+            "Fez um esboço rápido.",
+            "Fez um bocejo rápido."
+          ],
+          "correct": 0,
+          "joke": "Boceto = esboço."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Andalucía",
+      "items": [
+        {
+          "emoji": "🎨",
+          "title": "Picasso malagueño",
+          "es": "Picasso nació en Málaga.",
+          "pt": "Pablo Picasso nasceu em Málaga em 1881. A cidade tem o Museo Picasso Málaga e a Fundación Picasso – Museo Casa Natal, na plaza de la Merced."
+        },
+        {
+          "emoji": "🖼️",
+          "title": "Cidade de museus",
+          "es": "Málaga, ciudad de museos.",
+          "pt": "Além do Picasso, Málaga tem o Centre Pompidou Málaga e o Museo Carmen Thyssen, entre outros."
+        }
+      ]
+    }
+  ]
+}

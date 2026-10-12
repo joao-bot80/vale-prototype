@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "id": "u27l2",
+  "title": "Fim de tarde na Malvarrosa",
+  "scenario": "Valencia · playa de la Malvarrosa",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 80: Praia urbana",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¿Nos tumbamos aquí? Hay poca gente.",
+          "pt": "Vamos deitar aqui? Tem pouca gente."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Vale. Pero ponte crema, que el sol pega fuerte.",
+          "pt": "Beleza. Mas passa protetor, que o sol está forte."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Ya me la he puesto. ¿Jugamos a las palas?",
+          "pt": "Já passei. Vamos jogar frescobol?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "¡Venga! Y luego un paseo por el paseo marítimo.",
+          "pt": "Bora! E depois uma caminhada pelo calçadão."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Me he quemado un poco los hombros...",
+          "pt": "Queimei um pouco os ombros..."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Te lo dije. Mañana, sombrero y más crema.",
+          "pt": "Eu te disse. Amanhã, chapéu e mais protetor."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"El sol pega fuerte\" significa:",
+      "options": [
+        "O sol está forte",
+        "O sol bate na porta",
+        "O sol pega alguém"
+      ],
+      "correct": 0,
+      "explanation": "\"Pegar\" = bater forte (sol)."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Passa protetor.",
+      "answer": [
+        "Ponte",
+        "crema."
+      ],
+      "distractors": [
+        "pasa",
+        "protector de"
+      ],
+      "explanation": "\"Ponerse crema\" = passar protetor."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "¡Venga! Y luego un paseo por el paseo marítimo.",
+      "options": [
+        "Bora! E depois uma caminhada pelo calçadão.",
+        "Não, vamos embora agora.",
+        "Bora nadar até a ilha."
+      ],
+      "correct": 0,
+      "explanation": "Paseo marítimo = calçadão."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "tumbarse",
+          "kind": "quase",
+          "meaning": "deitar-se",
+          "tip": "Tumbona vem daí."
+        },
+        {
+          "es": "crema solar",
+          "kind": "quase",
+          "meaning": "protetor solar",
+          "tip": "Ponerse crema."
+        },
+        {
+          "es": "palas",
+          "kind": "armadilha",
+          "meaning": "frescobol",
+          "tip": "Raquetes de praia."
+        },
+        {
+          "es": "paseo marítimo",
+          "kind": "quase",
+          "meaning": "calçadão",
+          "tip": "Na beira da praia."
+        },
+        {
+          "es": "quemarse",
+          "kind": "quase",
+          "meaning": "queimar-se",
+          "tip": "Me he quemado."
+        },
+        {
+          "es": "sombrero",
+          "kind": "armadilha",
+          "meaning": "chapéu",
+          "tip": "Não é sombra!"
+        },
+        {
+          "es": "bandera azul",
+          "kind": "quase",
+          "meaning": "bandeira azul (praia)",
+          "tip": "Selo de qualidade da praia."
+        },
+        {
+          "es": "chiringo",
+          "kind": "quase",
+          "meaning": "barraca de praia (gíria)",
+          "tip": "De chiringuito."
+        },
+        {
+          "es": "aftersun",
+          "kind": "quase",
+          "meaning": "pós-sol",
+          "tip": "Crema aftersun."
+        },
+        {
+          "es": "toalla de playa",
+          "kind": "quase",
+          "meaning": "toalha de praia",
+          "tip": "Toalla."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Una ola\" é:",
+      "options": [
+        "Uma onda",
+        "Um olá",
+        "Uma panela"
+      ],
+      "correct": 0,
+      "explanation": "Hola = olá; ola = onda."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Queimei os ombros.",
+      "answer": [
+        "Me",
+        "he",
+        "quemado",
+        "los",
+        "hombros."
+      ],
+      "distractors": [
+        "queimei",
+        "quemé"
+      ],
+      "explanation": "Pretérito perfeito: me he quemado."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Te lo dije. Mañana, sombrero y más crema.",
+      "options": [
+        "Eu te disse. Amanhã, chapéu e mais protetor.",
+        "Não tem problema.",
+        "Amanhã, sem protetor."
+      ],
+      "correct": 0,
+      "explanation": "Sombrero = chapéu."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Me pongo el ___ para nadar.\" (maiô)",
+      "options": [
+        "bañador",
+        "bañero",
+        "maillot"
+      ],
+      "correct": 0,
+      "explanation": "Bañador = roupa de banho."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Hay olas grandes hoy.",
+          "options": [
+            "Tem ondas grandes hoje.",
+            "Tem olás grandes hoje."
+          ],
+          "correct": 0,
+          "joke": "Ola = onda."
+        },
+        {
+          "spanish": "Ponte el sombrero.",
+          "options": [
+            "Põe o chapéu.",
+            "Fica na sombra."
+          ],
+          "correct": 0,
+          "joke": "Sombrero = chapéu."
+        },
+        {
+          "spanish": "Me he olvidado el bañador.",
+          "options": [
+            "Esqueci o maiô.",
+            "Esqueci o banheiro."
+          ],
+          "correct": 0,
+          "joke": "Bañador = roupa de banho."
+        },
+        {
+          "spanish": "¿Jugamos a las palas?",
+          "options": [
+            "Vamos jogar frescobol?",
+            "Vamos jogar com as pás?"
+          ],
+          "correct": 0,
+          "joke": "Palas = frescobol."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Valencia",
+      "items": [
+        {
+          "emoji": "🏖️",
+          "title": "Malvarrosa",
+          "es": "La playa de la Malvarrosa.",
+          "pt": "Praia urbana de Valencia, ao norte do porto, com paseo marítimo. Dá para chegar de bonde ou metrô."
+        },
+        {
+          "emoji": "🧴",
+          "title": "Sol mediterrâneo",
+          "es": "El sol pega fuerte.",
+          "pt": "No verão o índice UV é alto: protetor, chapéu e água, sobretudo entre 12h e 17h."
+        }
+      ]
+    }
+  ]
+}

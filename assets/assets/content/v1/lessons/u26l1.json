@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u26l1",
+  "title": "Espetos em Málaga",
+  "scenario": "Málaga · chiringuito en la playa de la Malagueta",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 76: Sardinhas no espeto",
+      "lines": [
+        {
+          "speaker": "Dani",
+          "es": "Aquí hay que pedir un espeto de sardinas.",
+          "pt": "Aqui tem que pedir um espeto de sardinhas."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Las asan en esa barca llena de arena?",
+          "pt": "Elas assam naquele barco cheio de areia?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "Sí, con leña, junto al mar. Se comen con las manos.",
+          "pt": "Sim, com lenha, junto ao mar. Se come com as mãos."
+        },
+        {
+          "speaker": "Camarero",
+          "es": "¿Qué os pongo?",
+          "pt": "O que vai ser?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Un espeto, una ensalada malagueña y dos botellines.",
+          "pt": "Um espeto, uma salada malaguenha e duas cervejinhas."
+        },
+        {
+          "speaker": "Camarero",
+          "es": "Marchando. ¿Os pongo también unos boquerones?",
+          "pt": "Saindo. Querem também uns boquerones?"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Marchando\" na boca do garçom significa:",
+      "options": [
+        "Saindo! (o pedido vai já)",
+        "Marchando para fora",
+        "Indo embora"
+      ],
+      "correct": 0,
+      "explanation": "Gíria de bar: o pedido está a caminho."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Se come com as mãos.",
+      "answer": [
+        "Se",
+        "comen",
+        "con",
+        "las",
+        "manos."
+      ],
+      "distractors": [
+        "mão",
+        "de"
+      ],
+      "explanation": "\"Con las manos\" = com as mãos."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, con leña, junto al mar. Se comen con las manos.",
+      "options": [
+        "Sim, com lenha, junto ao mar. Se come com as mãos.",
+        "Não, no micro-ondas.",
+        "Sim, mas com garfo e faca."
+      ],
+      "correct": 0,
+      "explanation": "Assadas em barquinhos com areia, na lenha."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "espeto",
+          "kind": "quase",
+          "meaning": "espeto de sardinhas",
+          "tip": "Típico de Málaga."
+        },
+        {
+          "es": "sardina",
+          "kind": "quase",
+          "meaning": "sardinha",
+          "tip": "Com i."
+        },
+        {
+          "es": "chiringuito",
+          "kind": "quase",
+          "meaning": "barraca de praia",
+          "tip": "Bar na areia."
+        },
+        {
+          "es": "boquerón",
+          "kind": "armadilha",
+          "meaning": "anchova fresca",
+          "tip": "Não é bocão!"
+        },
+        {
+          "es": "botellín",
+          "kind": "quase",
+          "meaning": "cervejinha (garrafa pequena)",
+          "tip": "Un botellín."
+        },
+        {
+          "es": "salitre",
+          "kind": "quase",
+          "meaning": "maresia",
+          "tip": "Olor a salitre."
+        },
+        {
+          "es": "espina",
+          "kind": "armadilha",
+          "meaning": "espinha (de peixe)",
+          "tip": "Também espinho."
+        },
+        {
+          "es": "marchando",
+          "kind": "armadilha",
+          "meaning": "saindo! (pedido)",
+          "tip": "Gíria de garçom."
+        },
+        {
+          "es": "orilla del mar",
+          "kind": "quase",
+          "meaning": "beira-mar",
+          "tip": "Pasear por la orilla."
+        },
+        {
+          "es": "moraga",
+          "kind": "quase",
+          "meaning": "peixada na praia",
+          "tip": "Típica de Málaga à noite."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Cuidado con las espinas\" significa:",
+      "options": [
+        "Cuidado com as espinhas (do peixe)",
+        "Cuidado com as costas",
+        "Cuidado com os espinhos da rosa"
+      ],
+      "correct": 0,
+      "explanation": "Espina = espinha de peixe."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Traz o guarda-sol.",
+      "answer": [
+        "Trae",
+        "la",
+        "sombrilla."
+      ],
+      "distractors": [
+        "sombrinha",
+        "paraguas"
+      ],
+      "explanation": "\"Sombrilla\" = guarda-sol."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Marchando. ¿Os pongo también unos boquerones?",
+      "options": [
+        "Saindo. Querem também uns boquerones?",
+        "Acabou o peixe.",
+        "Não servimos peixe."
+      ],
+      "correct": 0,
+      "explanation": "Boquerones fritos ou en vinagre: clássicos de Málaga."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Hay mucha ___ en la toalla.\" (areia)",
+      "options": [
+        "arena",
+        "areia",
+        "tierra"
+      ],
+      "correct": 0,
+      "explanation": "Arena = areia."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Tengo arena en los pies.",
+          "options": [
+            "Tenho areia nos pés.",
+            "Tenho uma arena nos pés."
+          ],
+          "correct": 0,
+          "joke": "Arena = areia."
+        },
+        {
+          "spanish": "Ojo con las espinas.",
+          "options": [
+            "Cuidado com as espinhas.",
+            "Cuidado com os espinhos."
+          ],
+          "correct": 0,
+          "joke": "Espina = espinha (de peixe)."
+        },
+        {
+          "spanish": "Abre la sombrilla.",
+          "options": [
+            "Abre o guarda-sol.",
+            "Abre a sombrinha de chuva."
+          ],
+          "correct": 0,
+          "joke": "Sombrilla = guarda-sol."
+        },
+        {
+          "spanish": "Unos boquerones fritos.",
+          "options": [
+            "Umas anchovas fritas.",
+            "Uns bocões fritos."
+          ],
+          "correct": 0,
+          "joke": "Boquerón = anchova fresca."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Andalucía",
+      "items": [
+        {
+          "emoji": "🐟",
+          "title": "Espeto",
+          "es": "Un espeto de sardinas.",
+          "pt": "Sardinhas espetadas numa vara e assadas na lenha, em barcos com areia na praia. Típico dos chiringuitos da Costa del Sol, especialmente no verão."
+        },
+        {
+          "emoji": "☀️",
+          "title": "Costa del Sol",
+          "es": "Málaga tiene más de 300 días de sol.",
+          "pt": "A costa de Málaga é famosa pelo clima. Malagueño/a = de Málaga. Ouve-se muito \"¡quillo!\" (rapaz); só reconheça."
+        }
+      ]
+    }
+  ]
+}
