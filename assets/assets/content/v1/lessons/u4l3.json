@@ -20,8 +20,8 @@
         },
         {
           "speaker": "Agente",
-          "es": "No pasa nada. Entonces pedimos dos meses de fianza.",
-          "pt": "Sem problema. Então pedimos dois meses de caução."
+          "es": "No pasa nada. La fianza es un mes, y pedimos dos meses más de garantía.",
+          "pt": "Sem problema. A caução é um mês, e pedimos mais dois meses de garantia."
         },
         {
           "speaker": "Lu",
@@ -254,7 +254,7 @@
           "emoji": "📝",
           "title": "NIE, nómina e fianza",
           "es": "¿Me enseñas tu NIE?",
-          "pt": "Para alugar costumam pedir NIE, contrato de trabalho ou nóminas e uma \"fianza\" (caução). Desde a Lei de Moradia de 2023, os honorários da imobiliária devem ser pagos pelo proprietário, não pelo inquilino."
+          "pt": "Para alugar costumam pedir NIE, contrato de trabalho ou nóminas e uma \"fianza\" (caução): por lei é 1 mês de aluguel, e na Catalunha o proprietário deve depositá-la no INCASÒL. O proprietário pode pedir uma garantia adicional de no máximo 2 meses. Desde a Lei de Moradia de 2023, os honorários da imobiliária devem ser pagos pelo proprietário, não pelo inquilino."
         },
         {
           "emoji": "🎉",

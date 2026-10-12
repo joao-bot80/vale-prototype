@@ -35,8 +35,8 @@
         },
         {
           "speaker": "Marta",
-          "es": "Mil cien euros al mes, gastos aparte. ¿Quieres venir a verlo?",
-          "pt": "Mil e cem euros por mês, contas à parte. Quer vir ver?"
+          "es": "Mil setecientos euros al mes, gastos aparte. ¿Quieres venir a verlo?",
+          "pt": "Mil e setecentos euros por mês, contas à parte. Quer vir ver?"
         }
       ]
     },
@@ -180,14 +180,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Mil cien euros al mes, gastos aparte.",
+      "spanish": "Mil setecientos euros al mes, gastos aparte.",
       "options": [
-        "Mil e cem euros por mês, contas à parte.",
-        "Mil e quinhentos euros por mês, tudo incluído.",
+        "Mil e setecentos euros por mês, contas à parte.",
+        "Setecentos euros por mês, tudo incluído.",
         "Cem euros por semana."
       ],
       "correct": 0,
-      "explanation": "\"Al mes\" = por mês. \"Mil cien\" = 1.100."
+      "explanation": "\"Al mes\" = por mês. \"Mil setecientos\" = 1.700. Valor realista para 2 quartos no Eixample em 2026 (~25 €/m²)."
     },
     {
       "type": "choice",
