@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "id": "u20l3",
+  "title": "Semana Santa em Sevilla",
+  "scenario": "Sevilla · Semana Santa",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 60: Procissão",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Cuánta gente! ¿Qué está pasando?",
+          "pt": "Quanta gente! O que está acontecendo?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "Es Semana Santa. Ahora pasa una procesión con su paso.",
+          "pt": "É Semana Santa. Agora passa uma procissão com o seu andor."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y quiénes son las personas con capirote?",
+          "pt": "E quem são as pessoas com capuz pontudo?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "Son nazarenos de la hermandad. Es una tradición religiosa.",
+          "pt": "São nazarenos da irmandade. É uma tradição religiosa."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Quién lleva el paso? Parece muy pesado.",
+          "pt": "Quem carrega o andor? Parece muito pesado."
+        },
+        {
+          "speaker": "Dani",
+          "es": "Los costaleros, debajo. No se les ve.",
+          "pt": "Os costaleros, embaixo. Não dá para vê-los."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Paso\" na Semana Santa é:",
+      "options": [
+        "O andor com as imagens",
+        "Um passo de dança",
+        "A passagem da rua"
+      ],
+      "correct": 0,
+      "explanation": "Paso = andor."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "O que está acontecendo?",
+      "answer": [
+        "¿Qué",
+        "está",
+        "pasando?"
+      ],
+      "distractors": [
+        "sucede",
+        "acontecendo"
+      ],
+      "explanation": "\"Pasar\" = acontecer."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Son nazarenos de la hermandad. Es una tradición religiosa.",
+      "options": [
+        "São nazarenos da irmandade. É uma tradição religiosa.",
+        "São turistas fantasiados.",
+        "É um grupo de teatro."
+      ],
+      "correct": 0,
+      "explanation": "Os nazarenos usam túnica e capirote: tradição religiosa de séculos."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "procesión",
+          "kind": "quase",
+          "meaning": "procissão",
+          "tip": "Com c."
+        },
+        {
+          "es": "paso",
+          "kind": "armadilha",
+          "meaning": "andor",
+          "tip": "Também passo."
+        },
+        {
+          "es": "hermandad",
+          "kind": "quase",
+          "meaning": "irmandade",
+          "tip": "Também cofradía."
+        },
+        {
+          "es": "capirote",
+          "kind": "quase",
+          "meaning": "capuz pontudo",
+          "tip": "Usado pelos nazarenos."
+        },
+        {
+          "es": "costalero",
+          "kind": "quase",
+          "meaning": "carregador do andor",
+          "tip": "Leva o paso nos ombros."
+        },
+        {
+          "es": "cirio",
+          "kind": "armadilha",
+          "meaning": "vela grande",
+          "tip": "Não é círio de Nazaré, mas parecido!"
+        },
+        {
+          "es": "incienso",
+          "kind": "quase",
+          "meaning": "incenso",
+          "tip": "Com ci."
+        },
+        {
+          "es": "saeta",
+          "kind": "quase",
+          "meaning": "canto religioso",
+          "tip": "Cantado ao passar o paso."
+        },
+        {
+          "es": "pesado",
+          "kind": "armadilha",
+          "meaning": "pesado / chato",
+          "tip": "¡Qué pesado eres! = que chato!"
+        },
+        {
+          "es": "madrugá",
+          "kind": "quase",
+          "meaning": "madrugada (andaluz)",
+          "tip": "La Madrugá: a noite da Quinta para a Sexta-feira Santa."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¡Qué pesado eres!\" significa:",
+      "options": [
+        "Como você é chato!",
+        "Como você é pesado!",
+        "Como você é forte!"
+      ],
+      "correct": 0,
+      "explanation": "Pesado = chato, insistente."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Parece muito pesado.",
+      "answer": [
+        "Parece",
+        "muy",
+        "pesado."
+      ],
+      "distractors": [
+        "mucho",
+        "pesao"
+      ],
+      "explanation": "Antes de adjetivo: muy."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Los costaleros, debajo. No se les ve.",
+      "options": [
+        "Os costaleros, embaixo. Não dá para vê-los.",
+        "Um caminhão.",
+        "Os nazarenos, nos ombros."
+      ],
+      "correct": 0,
+      "explanation": "Costal = saco que protege o pescoço."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"¿Qué ha ___?\" (O que aconteceu?)",
+      "options": [
+        "pasado",
+        "pasao",
+        "acontecido"
+      ],
+      "correct": 0,
+      "explanation": "\"¿Qué ha pasado?\" = o que aconteceu? (pasao é fala informal)"
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "¡No seas pesado!",
+          "options": [
+            "Não seja chato!",
+            "Não seja pesado!"
+          ],
+          "correct": 0,
+          "joke": "Pesado = chato."
+        },
+        {
+          "spanish": "Mira el paso de la Virgen.",
+          "options": [
+            "Olha o andor da Virgem.",
+            "Olha o passo da Virgem."
+          ],
+          "correct": 0,
+          "joke": "Paso = andor."
+        },
+        {
+          "spanish": "Llevan cirios encendidos.",
+          "options": [
+            "Levam velas acesas.",
+            "Levam círios apagados."
+          ],
+          "correct": 0,
+          "joke": "Cirio = vela grande."
+        },
+        {
+          "spanish": "¿Qué está pasando aquí?",
+          "options": [
+            "O que está acontecendo aqui?",
+            "Quem está passando aqui?"
+          ],
+          "correct": 0,
+          "joke": "Pasar = acontecer."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Andalucía",
+      "items": [
+        {
+          "emoji": "🕯️",
+          "title": "Semana Santa",
+          "es": "La Semana Santa de Sevilla.",
+          "pt": "Na semana antes da Páscoa, irmandades levam pasos pelas ruas durante dias. A noite da \"Madrugá\" é a mais famosa. Hotéis lotam: reserve cedo."
+        },
+        {
+          "emoji": "🎶",
+          "title": "Saeta",
+          "es": "Se oye una saeta desde un balcón.",
+          "pt": "Canto flamenco religioso, improvisado de uma sacada quando passa o paso. Todos fazem silêncio."
+        }
+      ]
+    }
+  ]
+}

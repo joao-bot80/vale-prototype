@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u21l3",
+  "title": "A Tomatina",
+  "scenario": "Buñol · último miércoles de agosto",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 63: Guerra de tomates",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¿De verdad la gente se tira tomates?",
+          "pt": "Sério que o pessoal se joga tomates?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "¡Sí! Es la Tomatina de Buñol, el último miércoles de agosto.",
+          "pt": "Sim! É a Tomatina de Buñol, na última quarta-feira de agosto."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Se puede ir sin entrada?",
+          "pt": "Dá para ir sem ingresso?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "No, hay que comprar la entrada antes por internet. El aforo es limitado.",
+          "pt": "Não, tem que comprar o ingresso antes pela internet. A lotação é limitada."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Qué me pongo?",
+          "pt": "O que eu visto?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Ropa que puedas tirar después, y gafas de natación.",
+          "pt": "Roupa que você possa jogar fora depois, e óculos de natação."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"La gente se tira tomates\" significa:",
+      "options": [
+        "O pessoal joga tomates uns nos outros",
+        "O pessoal tira tomates",
+        "O pessoal compra tomates"
+      ],
+      "correct": 0,
+      "explanation": "\"Tirar\" = jogar, atirar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Dá para ir sem ingresso?",
+      "answer": [
+        "¿Se",
+        "puede",
+        "ir",
+        "sin",
+        "entrada?"
+      ],
+      "distractors": [
+        "ingreso",
+        "ingresso"
+      ],
+      "explanation": "\"Entrada\" = ingresso."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "No, hay que comprar la entrada antes por internet. El aforo es limitado.",
+      "options": [
+        "Não, tem que comprar o ingresso antes pela internet. A lotação é limitada.",
+        "Sim, é grátis e sem limite.",
+        "Não, só compra na hora."
+      ],
+      "correct": 0,
+      "explanation": "Desde 2013 a Tomatina tem ingresso."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "batalla",
+          "kind": "quase",
+          "meaning": "batalha",
+          "tip": "Batalla de tomates."
+        },
+        {
+          "es": "miércoles",
+          "kind": "quase",
+          "meaning": "quarta-feira",
+          "tip": "Lunes, martes, miércoles..."
+        },
+        {
+          "es": "agosto",
+          "kind": "igual",
+          "meaning": "agosto",
+          "tip": "Igual!"
+        },
+        {
+          "es": "camión",
+          "kind": "quase",
+          "meaning": "caminhão",
+          "tip": "Os tomates chegam em caminhões."
+        },
+        {
+          "es": "pringarse",
+          "kind": "armadilha",
+          "meaning": "se lambuzar",
+          "tip": "Pringado = lambuzado (e otário!)."
+        },
+        {
+          "es": "natación",
+          "kind": "quase",
+          "meaning": "natação",
+          "tip": "Gafas de natación."
+        },
+        {
+          "es": "manguera",
+          "kind": "armadilha",
+          "meaning": "mangueira (de água)",
+          "tip": "Não é a árvore!"
+        },
+        {
+          "es": "pueblo",
+          "kind": "armadilha",
+          "meaning": "cidade pequena / povoado",
+          "tip": "Não é \"povo\" só."
+        },
+        {
+          "es": "zapatillas",
+          "kind": "armadilha",
+          "meaning": "tênis",
+          "tip": "Não é sapatilha de balé!"
+        },
+        {
+          "es": "aplastar",
+          "kind": "quase",
+          "meaning": "esmagar",
+          "tip": "Aplasta el tomate antes de tirarlo."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Las chanclas\" são:",
+      "options": [
+        "Chinelos",
+        "Tênis",
+        "Chances"
+      ],
+      "correct": 0,
+      "explanation": "Chanclas = chinelos."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "O que eu visto?",
+      "answer": [
+        "¿Qué",
+        "me",
+        "pongo?"
+      ],
+      "distractors": [
+        "visto",
+        "pono"
+      ],
+      "explanation": "\"Ponerse\" = vestir."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Ropa que puedas tirar después, y gafas de natación.",
+      "options": [
+        "Roupa que você possa jogar fora depois, e óculos de natação.",
+        "Sua melhor roupa.",
+        "Roupa branca nova."
+      ],
+      "correct": 0,
+      "explanation": "Os tomates mancham tudo."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Después nos limpian con una ___.\" (mangueira)",
+      "options": [
+        "manguera",
+        "mangueira",
+        "mango"
+      ],
+      "correct": 0,
+      "explanation": "Manguera = mangueira."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Me he puesto las chanclas.",
+          "options": [
+            "Pus os chinelos.",
+            "Pus as chances."
+          ],
+          "correct": 0,
+          "joke": "Chanclas = chinelos."
+        },
+        {
+          "spanish": "Buñol es un pueblo pequeño.",
+          "options": [
+            "Buñol é uma cidade pequena.",
+            "Buñol é um povo pequeno."
+          ],
+          "correct": 0,
+          "joke": "Pueblo = povoado."
+        },
+        {
+          "spanish": "Trae la manguera.",
+          "options": [
+            "Traz a mangueira.",
+            "Traz a manga."
+          ],
+          "correct": 0,
+          "joke": "Manguera = mangueira de água."
+        },
+        {
+          "spanish": "Estoy pringada de tomate.",
+          "options": [
+            "Estou lambuzada de tomate.",
+            "Estou pingando tomate."
+          ],
+          "correct": 0,
+          "joke": "Pringarse = sujar-se."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Valencia",
+      "items": [
+        {
+          "emoji": "🍅",
+          "title": "La Tomatina",
+          "es": "La Tomatina de Buñol.",
+          "pt": "Batalha de tomates no último miércoles de agosto em Buñol (Valencia). Desde 2013 é preciso comprar ingresso no site oficial, com lotação limitada. É Festa de Interesse Turístico Internacional."
+        },
+        {
+          "emoji": "🧽",
+          "title": "Regras",
+          "es": "Aplasta el tomate antes de tirarlo.",
+          "pt": "Esmague o tomate antes de jogar, não rasgue camisetas e pare quando soar o sinal (1 hora). Depois, mangueiras e duchas para limpar."
+        }
+      ]
+    }
+  ]
+}

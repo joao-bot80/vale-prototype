@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u21l2",
+  "title": "Pôr do sol na Albufera",
+  "scenario": "Valencia · L'Albufera, El Palmar",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 62: Barquinha",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¿Esto es un lago o el mar?",
+          "pt": "Isto é um lago ou o mar?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Es la Albufera, una laguna junto al mar. Aquí se cultiva arroz desde hace siglos.",
+          "pt": "É a Albufera, uma lagoa junto ao mar. Aqui se cultiva arroz há séculos."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Podemos dar un paseo en barca?",
+          "pt": "Podemos dar um passeio de barco?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí, al atardecer. Es el mejor momento para ver la puesta de sol.",
+          "pt": "Sim, no fim da tarde. É o melhor momento para ver o pôr do sol."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y luego comemos all i pebre?",
+          "pt": "E depois comemos all i pebre?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "¡Claro! Es un guiso de anguila típico de El Palmar.",
+          "pt": "Claro! É um ensopado de enguia típico de El Palmar."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"La puesta de sol\" é:",
+      "options": [
+        "O pôr do sol",
+        "O nascer do sol",
+        "O sol forte"
+      ],
+      "correct": 0,
+      "explanation": "Puesta = pôr. Amanecer = nascer do sol."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Podemos dar um passeio de barco?",
+      "answer": [
+        "¿Podemos",
+        "dar",
+        "un",
+        "paseo",
+        "en",
+        "barca?"
+      ],
+      "distractors": [
+        "passeio",
+        "barco de"
+      ],
+      "explanation": "\"En barca\" = de barco."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, al atardecer. Es el mejor momento para ver la puesta de sol.",
+      "options": [
+        "Sim, no fim da tarde. É o melhor momento para ver o pôr do sol.",
+        "Sim, de manhã cedo.",
+        "Não, à noite é proibido."
+      ],
+      "correct": 0,
+      "explanation": "Atardecer = entardecer."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "laguna",
+          "kind": "quase",
+          "meaning": "lagoa",
+          "tip": "Lagoa costeira."
+        },
+        {
+          "es": "embarcadero",
+          "kind": "quase",
+          "meaning": "cais",
+          "tip": "Salimos del embarcadero."
+        },
+        {
+          "es": "atardecer",
+          "kind": "quase",
+          "meaning": "entardecer",
+          "tip": "Al atardecer."
+        },
+        {
+          "es": "anguila",
+          "kind": "quase",
+          "meaning": "enguia",
+          "tip": "Ingrediente do all i pebre."
+        },
+        {
+          "es": "guiso",
+          "kind": "armadilha",
+          "meaning": "ensopado",
+          "tip": "Não é guisado? Parecido!"
+        },
+        {
+          "es": "arrozal",
+          "kind": "quase",
+          "meaning": "arrozal",
+          "tip": "Campo de arroz."
+        },
+        {
+          "es": "garza",
+          "kind": "quase",
+          "meaning": "garça",
+          "tip": "Ave da Albufera."
+        },
+        {
+          "es": "mosquito",
+          "kind": "igual",
+          "meaning": "mosquito",
+          "tip": "Leve repelente!"
+        },
+        {
+          "es": "orilla",
+          "kind": "armadilha",
+          "meaning": "margem / beira",
+          "tip": "Não é orelha (oreja)!"
+        },
+        {
+          "es": "amanecer",
+          "kind": "quase",
+          "meaning": "amanhecer",
+          "tip": "Al amanecer."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"En la orilla\" significa:",
+      "options": [
+        "Na margem / beira",
+        "Na orelha",
+        "Na ilha"
+      ],
+      "correct": 0,
+      "explanation": "Orilla = margem. Oreja = orelha."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Comemos depois.",
+      "answer": [
+        "Luego",
+        "comemos."
+      ],
+      "distractors": [
+        "logo",
+        "depois"
+      ],
+      "explanation": "\"Luego\" = depois."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "¡Claro! Es un guiso de anguila típico de El Palmar.",
+      "options": [
+        "Claro! É um ensopado de enguia típico de El Palmar.",
+        "É uma sobremesa de arroz.",
+        "É uma salada de peixe."
+      ],
+      "correct": 0,
+      "explanation": "All i pebre = alho e pimentão em valenciano."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Paseamos por la ___ del lago.\" (beira)",
+      "options": [
+        "orilla",
+        "oreja",
+        "borda"
+      ],
+      "correct": 0,
+      "explanation": "Orilla = beira."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Nos sentamos en la orilla.",
+          "options": [
+            "Sentamos na beira.",
+            "Sentamos na orelha."
+          ],
+          "correct": 0,
+          "joke": "Orilla = margem."
+        },
+        {
+          "spanish": "Mi abuela hace un guiso buenísimo.",
+          "options": [
+            "Minha avó faz um ensopado ótimo.",
+            "Minha avó faz um guisado de guizos."
+          ],
+          "correct": 0,
+          "joke": "Guiso = ensopado."
+        },
+        {
+          "spanish": "Vamos en barca.",
+          "options": [
+            "Vamos de barquinho.",
+            "Vamos de navio."
+          ],
+          "correct": 0,
+          "joke": "Barca = barco pequeno."
+        },
+        {
+          "spanish": "Al atardecer hace fresco.",
+          "options": [
+            "No entardecer fica fresco.",
+            "No amanhecer fica fresco."
+          ],
+          "correct": 0,
+          "joke": "Atardecer = entardecer."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Valencia",
+      "items": [
+        {
+          "emoji": "🌅",
+          "title": "L'Albufera",
+          "es": "El Parque Natural de la Albufera.",
+          "pt": "Lagoa costeira ao sul de Valencia, Parque Natural, rodeada de arrozais. Os passeios de barca ao pôr do sol são clássicos. Em valenciano: L'Albufera."
+        },
+        {
+          "emoji": "🍲",
+          "title": "All i pebre",
+          "es": "Un plato de all i pebre.",
+          "pt": "Ensopado de enguia com alho, pimentão e batata, típico do povoado de El Palmar. O nome é valenciano: alho e pimenta."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "u20l2",
+  "title": "Carnaval de Cádiz",
+  "scenario": "Cádiz · Carnaval en febrero",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 59: Chirigotas",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¿Por qué todo el mundo va disfrazado?",
+          "pt": "Por que todo mundo está fantasiado?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "¡Es Carnaval! El de Cádiz es famoso por las chirigotas.",
+          "pt": "É Carnaval! O de Cádiz é famoso pelas chirigotas."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Qué es una chirigota?",
+          "pt": "O que é uma chirigota?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "Un grupo que canta canciones graciosas y críticas sobre la actualidad.",
+          "pt": "Um grupo que canta músicas engraçadas e críticas sobre a atualidade."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Como las marchinhas de Brasil!",
+          "pt": "Como as marchinhas do Brasil!"
+        },
+        {
+          "speaker": "Dani",
+          "es": "Parecido. Pero aquí lo importante es la letra, no bailar.",
+          "pt": "Parecido. Mas aqui o importante é a letra, não dançar."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Ir disfrazado\" significa:",
+      "options": [
+        "Estar fantasiado",
+        "Estar disfarçado de espião",
+        "Estar desarrumado"
+      ],
+      "correct": 0,
+      "explanation": "Disfraz = fantasia."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Todo mundo está fantasiado.",
+      "answer": [
+        "Todo",
+        "el",
+        "mundo",
+        "va",
+        "disfrazado."
+      ],
+      "distractors": [
+        "fantasiado",
+        "está"
+      ],
+      "explanation": "\"Ir disfrazado\" = estar fantasiado."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Un grupo que canta canciones graciosas y críticas sobre la actualidad.",
+      "options": [
+        "Um grupo que canta músicas engraçadas e críticas sobre a atualidade.",
+        "Um grupo que dança samba.",
+        "Um desfile de carros alegóricos."
+      ],
+      "correct": 0,
+      "explanation": "\"Gracioso\" = engraçado."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "disfraz",
+          "kind": "armadilha",
+          "meaning": "fantasia",
+          "tip": "Não é disfarce de espião."
+        },
+        {
+          "es": "gracioso",
+          "kind": "armadilha",
+          "meaning": "engraçado",
+          "tip": "Não é \"gracioso\" (elegante)."
+        },
+        {
+          "es": "letra",
+          "kind": "quase",
+          "meaning": "letra (de música)",
+          "tip": "Igual."
+        },
+        {
+          "es": "actualidad",
+          "kind": "armadilha",
+          "meaning": "atualidade / notícias",
+          "tip": "Não é \"atualmente\"."
+        },
+        {
+          "es": "carroza",
+          "kind": "quase",
+          "meaning": "carro alegórico",
+          "tip": "Carroza do desfile."
+        },
+        {
+          "es": "comparsa",
+          "kind": "quase",
+          "meaning": "grupo de carnaval",
+          "tip": "Chirigota, comparsa, coro."
+        },
+        {
+          "es": "pito",
+          "kind": "quase",
+          "meaning": "apito",
+          "tip": "Pito de carnaval."
+        },
+        {
+          "es": "antifaz",
+          "kind": "quase",
+          "meaning": "máscara de olhos",
+          "tip": "Cobre só os olhos."
+        },
+        {
+          "es": "peluca",
+          "kind": "armadilha",
+          "meaning": "peruca",
+          "tip": "Não é pelúcia!"
+        },
+        {
+          "es": "confeti",
+          "kind": "quase",
+          "meaning": "confete",
+          "tip": "Sem acento."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Una peluca\" é:",
+      "options": [
+        "Uma peruca",
+        "Uma pelúcia",
+        "Um pelo"
+      ],
+      "correct": 0,
+      "explanation": "Peluche = pelúcia."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "O importante é a letra.",
+      "answer": [
+        "Lo",
+        "importante",
+        "es",
+        "la",
+        "letra."
+      ],
+      "distractors": [
+        "el",
+        "importância"
+      ],
+      "explanation": "\"Lo\" + adjetivo = o que é..."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Parecido. Pero aquí lo importante es la letra, no bailar.",
+      "options": [
+        "Parecido. Mas aqui o importante é a letra, não dançar.",
+        "Igual, todo mundo dança samba.",
+        "Diferente, não tem música."
+      ],
+      "correct": 0,
+      "explanation": "O Carnaval de Cádiz é de humor e canções."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"¡Qué ___ eres!\" (engraçado)",
+      "options": [
+        "gracioso",
+        "engrazado",
+        "chistoso"
+      ],
+      "correct": 0,
+      "explanation": "Gracioso = engraçado. (Chistoso também existe.)"
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Me pongo un disfraz de pirata.",
+          "options": [
+            "Visto uma fantasia de pirata.",
+            "Uso um disfarce de pirata secreto."
+          ],
+          "correct": 0,
+          "joke": "Disfraz = fantasia."
+        },
+        {
+          "spanish": "Es un chico muy gracioso.",
+          "options": [
+            "É um menino muito engraçado.",
+            "É um menino muito gracioso."
+          ],
+          "correct": 0,
+          "joke": "Gracioso = engraçado."
+        },
+        {
+          "spanish": "Llevo una peluca rosa.",
+          "options": [
+            "Uso uma peruca rosa.",
+            "Uso uma pelúcia rosa."
+          ],
+          "correct": 0,
+          "joke": "Peluca = peruca."
+        },
+        {
+          "spanish": "Canta sobre la actualidad.",
+          "options": [
+            "Canta sobre as notícias do momento.",
+            "Canta atualmente."
+          ],
+          "correct": 0,
+          "joke": "Actualidad = notícias atuais."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Andalucía",
+      "items": [
+        {
+          "emoji": "🎭",
+          "title": "Carnaval de Cádiz",
+          "es": "¡Viva el Carnaval de Cádiz!",
+          "pt": "Um dos carnavais mais famosos da Espanha, em fevereiro. Grupos (chirigotas, comparsas, coros) competem no Gran Teatro Falla e depois cantam nas ruas."
+        },
+        {
+          "emoji": "🗣️",
+          "title": "Sotaque gaditano",
+          "es": "¡Mi arma!",
+          "pt": "Em Cádiz o sotaque andaluz é fortíssimo. \"¡Mi arma!\" (de \"mi alma\") é carinhoso; só para reconhecer."
+        }
+      ]
+    }
+  ]
+}

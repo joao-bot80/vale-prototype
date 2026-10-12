@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u21l1",
+  "title": "No Mercado Central",
+  "scenario": "Valencia · Mercado Central",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 61: Ingredientes da paella",
+      "lines": [
+        {
+          "speaker": "Lino",
+          "es": "Hoy cocinamos paella. Vamos al Mercado Central.",
+          "pt": "Hoje cozinhamos paella. Vamos ao Mercado Central."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Qué necesitamos?",
+          "pt": "Do que precisamos?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Pollo, conejo, judías verdes, garrofó y arroz bomba.",
+          "pt": "Frango, coelho, vagem, garrofó e arroz bomba."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Conejo? ¿En serio?",
+          "pt": "Coelho? Sério?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "¡Claro! La paella valenciana tradicional lleva pollo y conejo, no marisco.",
+          "pt": "Claro! A paella valenciana tradicional leva frango e coelho, não frutos do mar."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Vale, pero me pido el socarrat.",
+          "pt": "Beleza, mas o socarrat é meu."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Me pido el socarrat\" significa:",
+      "options": [
+        "O socarrat é meu!",
+        "Peço desculpas ao socarrat",
+        "Pago o socarrat"
+      ],
+      "correct": 0,
+      "explanation": "\"Pedirse algo\" = reivindicar, \"é meu!\"."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Do que precisamos?",
+      "answer": [
+        "¿Qué",
+        "necesitamos?"
+      ],
+      "distractors": [
+        "precisamos",
+        "de"
+      ],
+      "explanation": "\"Necesitar\" sem \"de\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Pollo, conejo, judías verdes, garrofó y arroz bomba.",
+      "options": [
+        "Frango, coelho, vagem, garrofó e arroz bomba.",
+        "Camarão, lula e mexilhão.",
+        "Carne de porco e feijão preto."
+      ],
+      "correct": 0,
+      "explanation": "Garrofó = feijão-branco grande típico."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "arroz al horno",
+          "kind": "quase",
+          "meaning": "arroz de forno",
+          "tip": "Outro arroz valenciano."
+        },
+        {
+          "es": "judía verde",
+          "kind": "armadilha",
+          "meaning": "vagem",
+          "tip": "Judía = feijão."
+        },
+        {
+          "es": "cazuela",
+          "kind": "armadilha",
+          "meaning": "panela de barro",
+          "tip": "Não é caçula!"
+        },
+        {
+          "es": "pelar",
+          "kind": "armadilha",
+          "meaning": "descascar",
+          "tip": "Pelar patatas; também brigar (pelearse)!"
+        },
+        {
+          "es": "fuego lento",
+          "kind": "quase",
+          "meaning": "fogo baixo",
+          "tip": "A fuego lento."
+        },
+        {
+          "es": "rallar",
+          "kind": "quase",
+          "meaning": "ralar",
+          "tip": "Rallar tomate."
+        },
+        {
+          "es": "sartén",
+          "kind": "armadilha",
+          "meaning": "frigideira",
+          "tip": "Paella também é o nome da panela!"
+        },
+        {
+          "es": "cuchara de palo",
+          "kind": "quase",
+          "meaning": "colher de pau",
+          "tip": "Palo = pau."
+        },
+        {
+          "es": "hervir",
+          "kind": "quase",
+          "meaning": "ferver",
+          "tip": "Hierve el agua."
+        },
+        {
+          "es": "puñado",
+          "kind": "quase",
+          "meaning": "punhado",
+          "tip": "Un puñado de arroz."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Judías verdes\" são:",
+      "options": [
+        "Vagens",
+        "Judias verdes",
+        "Ervilhas"
+      ],
+      "correct": 0,
+      "explanation": "Judía = feijão; judía verde = vagem."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "A paella leva frango e coelho.",
+      "answer": [
+        "La",
+        "paella",
+        "lleva",
+        "pollo",
+        "y",
+        "conejo."
+      ],
+      "distractors": [
+        "polvo",
+        "lleba"
+      ],
+      "explanation": "\"Llevar\" = levar (ingrediente)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "¡Claro! La paella valenciana tradicional lleva pollo y conejo, no marisco.",
+      "options": [
+        "Claro! A paella valenciana tradicional leva frango e coelho, não frutos do mar.",
+        "A paella valenciana só leva frutos do mar.",
+        "A paella leva chouriço."
+      ],
+      "correct": 0,
+      "explanation": "Paella de marisco existe, mas é outra."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Echa un poco de ___.\" (alecrim)",
+      "options": [
+        "romero",
+        "alecrín",
+        "romeiro"
+      ],
+      "correct": 0,
+      "explanation": "Romero = alecrim."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Me encanta el pollo asado.",
+          "options": [
+            "Adoro frango assado.",
+            "Adoro polvo assado."
+          ],
+          "correct": 0,
+          "joke": "Pollo = frango."
+        },
+        {
+          "spanish": "Pon un poco de romero.",
+          "options": [
+            "Põe um pouco de alecrim.",
+            "Põe um pouco de romeiro."
+          ],
+          "correct": 0,
+          "joke": "Romero = alecrim."
+        },
+        {
+          "spanish": "Calienta la sartén.",
+          "options": [
+            "Esquenta a frigideira.",
+            "Esquenta a sarjeta."
+          ],
+          "correct": 0,
+          "joke": "Sartén = frigideira."
+        },
+        {
+          "spanish": "Compra conejo en el mercado.",
+          "options": [
+            "Compra coelho no mercado.",
+            "Compra cônego no mercado."
+          ],
+          "correct": 0,
+          "joke": "Conejo = coelho."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Valencia",
+      "items": [
+        {
+          "emoji": "🥘",
+          "title": "Paella valenciana",
+          "es": "Pollo, conejo, judía verde y garrofó.",
+          "pt": "A paella valenciana tradicional leva frango, coelho, vagem e garrofó, com açafrão e arroz. Em valenciano: \"paella\" é a própria panela."
+        },
+        {
+          "emoji": "🏛️",
+          "title": "Mercado Central",
+          "es": "Uno de los mercados más grandes de Europa.",
+          "pt": "Edifício modernista inaugurado em 1928, no centro de Valencia, com centenas de bancas."
+        }
+      ]
+    }
+  ]
+}

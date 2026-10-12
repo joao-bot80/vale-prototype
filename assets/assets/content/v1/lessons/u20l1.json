@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u20l1",
+  "title": "Tapas grátis em Granada",
+  "scenario": "Granada · bar en el Realejo",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 58: A tapa de presente",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Dos tintos de verano, por favor.",
+          "pt": "Dois tintos de verano, por favor."
+        },
+        {
+          "speaker": "Camarero",
+          "es": "Aquí tenéis. Y vuestra tapa: hoy toca croquetas.",
+          "pt": "Aqui estão. E a tapa de vocês: hoje é croquete."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Pero no hemos pedido comida!",
+          "pt": "Mas não pedimos comida!"
+        },
+        {
+          "speaker": "Dani",
+          "es": "En Granada, en muchos bares, la tapa viene con la bebida.",
+          "pt": "Em Granada, em muitos bares, a tapa vem com a bebida."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Qué maravilla! ¿Y con la segunda ronda?",
+          "pt": "Que maravilha! E com a segunda rodada?"
+        },
+        {
+          "speaker": "Camarero",
+          "es": "Otra tapa distinta. ¡Así se cena gratis!",
+          "pt": "Outra tapa diferente. Assim se janta de graça!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Hoy toca croquetas\" significa:",
+      "options": [
+        "Hoje é a vez dos croquetes",
+        "Hoje se toca croquete",
+        "Hoje acabaram os croquetes"
+      ],
+      "correct": 0,
+      "explanation": "\"Tocar\" = ser a vez de."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Mas não pedimos comida!",
+      "answer": [
+        "¡Pero",
+        "no",
+        "hemos",
+        "pedido",
+        "comida!"
+      ],
+      "distractors": [
+        "pedimos",
+        "comemos"
+      ],
+      "explanation": "Pretérito perfeito: hemos pedido."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "En Granada, en muchos bares, la tapa viene con la bebida.",
+      "options": [
+        "Em Granada, em muitos bares, a tapa vem com a bebida.",
+        "Em Granada as tapas são caras.",
+        "Em Granada não existem tapas."
+      ],
+      "correct": 0,
+      "explanation": "Tradição granadina: tapa incluída."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "ronda",
+          "kind": "armadilha",
+          "meaning": "rodada",
+          "tip": "Pago yo esta ronda."
+        },
+        {
+          "es": "tinto de verano",
+          "kind": "quase",
+          "meaning": "vinho com refrigerante",
+          "tip": "Vinho tinto + gaseosa."
+        },
+        {
+          "es": "croqueta",
+          "kind": "quase",
+          "meaning": "croquete",
+          "tip": "Feminino!"
+        },
+        {
+          "es": "habas",
+          "kind": "quase",
+          "meaning": "favas",
+          "tip": "Habas con jamón, típico de Granada."
+        },
+        {
+          "es": "distinto",
+          "kind": "armadilha",
+          "meaning": "diferente",
+          "tip": "Não é distinto (elegante)."
+        },
+        {
+          "es": "tocar",
+          "kind": "armadilha",
+          "meaning": "ser a vez",
+          "tip": "Me toca a mí = é minha vez."
+        },
+        {
+          "es": "barra",
+          "kind": "armadilha",
+          "meaning": "balcão",
+          "tip": "En la barra = no balcão."
+        },
+        {
+          "es": "taberna",
+          "kind": "igual",
+          "meaning": "taberna",
+          "tip": "Igual!"
+        },
+        {
+          "es": "remolacha",
+          "kind": "quase",
+          "meaning": "beterraba",
+          "tip": "Não é remolha!"
+        },
+        {
+          "es": "pringá",
+          "kind": "quase",
+          "meaning": "carne desfiada",
+          "tip": "Típico andaluz."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Pago yo esta ronda\" significa:",
+      "options": [
+        "Eu pago esta rodada",
+        "Eu pago esta ronda policial",
+        "Eu pago a volta"
+      ],
+      "correct": 0,
+      "explanation": "Ronda = rodada."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "É minha vez.",
+      "answer": [
+        "Me",
+        "toca",
+        "a",
+        "mí."
+      ],
+      "distractors": [
+        "vez",
+        "es"
+      ],
+      "explanation": "\"Tocar\" = ser a vez de alguém."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Otra tapa distinta. ¡Así se cena gratis!",
+      "options": [
+        "Outra tapa diferente. Assim se janta de graça!",
+        "A mesma tapa de novo.",
+        "Agora tem que pagar a tapa."
+      ],
+      "correct": 0,
+      "explanation": "\"Distinto\" = diferente."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Nos sentamos en la ___.\" (balcão)",
+      "options": [
+        "barra",
+        "balcón",
+        "bancada"
+      ],
+      "correct": 0,
+      "explanation": "Barra = balcão de bar. Balcón = sacada!"
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Pedimos otra ronda.",
+          "options": [
+            "Pedimos outra rodada.",
+            "Pedimos outra ronda policial."
+          ],
+          "correct": 0,
+          "joke": "Ronda = rodada."
+        },
+        {
+          "spanish": "Es un plato distinto.",
+          "options": [
+            "É um prato diferente.",
+            "É um prato distinto, chique."
+          ],
+          "correct": 0,
+          "joke": "Distinto = diferente."
+        },
+        {
+          "spanish": "Te toca pagar.",
+          "options": [
+            "É sua vez de pagar.",
+            "Te tocam para pagar."
+          ],
+          "correct": 0,
+          "joke": "Tocar = ser a vez."
+        },
+        {
+          "spanish": "Pedimos en la barra.",
+          "options": [
+            "Pedimos no balcão.",
+            "Pedimos na barra de ferro."
+          ],
+          "correct": 0,
+          "joke": "Barra = balcão."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Andalucía",
+      "items": [
+        {
+          "emoji": "🍤",
+          "title": "Tapa incluída",
+          "es": "Con cada bebida, una tapa.",
+          "pt": "Em Granada (e em outras cidades como Jaén e Almería) muitos bares servem uma tapa grátis com cada bebida. Não é lei, é costume."
+        },
+        {
+          "emoji": "🍷",
+          "title": "Tinto de verano",
+          "es": "Un tinto de verano, por favor.",
+          "pt": "Vinho tinto com gaseosa ou refrigerante de limão, com gelo. Muito mais comum entre espanhóis que a sangria."
+        }
+      ]
+    }
+  ]
+}

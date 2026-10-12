@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-10",
+  "contentVersion": "2026.10.12-11",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -297,6 +297,28 @@
               "available": true
             }
           ]
+        },
+        {
+          "id": "and-u4",
+          "title": "Granada, Cádiz e Semana Santa",
+          "emoji": "🕯️",
+          "lessons": [
+            {
+              "id": "u20l1",
+              "title": "Tapas grátis em Granada",
+              "available": true
+            },
+            {
+              "id": "u20l2",
+              "title": "Carnaval de Cádiz",
+              "available": true
+            },
+            {
+              "id": "u20l3",
+              "title": "Semana Santa em Sevilla",
+              "available": true
+            }
+          ]
         }
       ]
     },
@@ -371,6 +393,28 @@
             {
               "id": "u15l3",
               "title": "De bici pelo Turia",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "val-u4",
+          "title": "Mercado, Albufera e Tomatina",
+          "emoji": "🍅",
+          "lessons": [
+            {
+              "id": "u21l1",
+              "title": "No Mercado Central",
+              "available": true
+            },
+            {
+              "id": "u21l2",
+              "title": "Pôr do sol na Albufera",
+              "available": true
+            },
+            {
+              "id": "u21l3",
+              "title": "A Tomatina",
               "available": true
             }
           ]
