@@ -136,9 +136,9 @@
         },
         {
           "es": "estufa",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "aquecedor",
-          "tip": "Estufa = aquecedor (sentido que também existe em português). A estufa de plantas é \"invernadero\"."
+          "tip": "Estufa = aquecedor. A estufa de plantas é \"invernadero\"."
         },
         {
           "es": "taller",

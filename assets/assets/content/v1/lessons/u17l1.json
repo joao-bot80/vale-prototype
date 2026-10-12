@@ -112,9 +112,9 @@
         },
         {
           "es": "expediente",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "processo",
-          "tip": "Expediente = processo administrativo (\"número de expediente\"), como o expediente de papéis."
+          "tip": "Expediente = processo (administrativo). Expediente (horário de trabalho) é \"horario\" ou \"jornada\"."
         },
         {
           "es": "jura",

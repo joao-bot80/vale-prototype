@@ -96,9 +96,9 @@
         },
         {
           "es": "abono",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "passe (de transporte)",
-          "tip": "Abono = passe de transporte (\"abono mensual\"). Também pagamento/abono, como em português."
+          "tip": "Abono = passe (de transporte). Abono salarial (bônus) é \"paga extra\"."
         },
         {
           "es": "tranvía",

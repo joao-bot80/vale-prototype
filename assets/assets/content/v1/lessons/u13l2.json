@@ -88,9 +88,9 @@
       "cards": [
         {
           "es": "móvil",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "celular",
-          "tip": "Móvil = celular (e móvel/que se move). O móvel da casa é \"mueble\"."
+          "tip": "Móvil = celular. Móvel (de casa) é \"mueble\"."
         },
         {
           "es": "mochila",

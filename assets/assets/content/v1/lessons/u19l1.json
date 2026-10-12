@@ -87,9 +87,9 @@
       "cards": [
         {
           "es": "novela",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "romance (livro)",
-          "tip": "Novela = romance (livro), como novela literária. Novela de TV = telenovela."
+          "tip": "Novela = romance (livro). A novela de TV é \"telenovela\" ou \"culebrón\"."
         },
         {
           "es": "librería",

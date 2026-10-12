@@ -136,9 +136,9 @@
         },
         {
           "es": "ingreso",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "entrada / depósito",
-          "tip": "Ingreso = depósito / entrada de dinheiro, e também ingresso (admissão). Ingresso de show é \"entrada\"."
+          "tip": "Ingreso = depósito / entrada de dinheiro. Ingresso (de show) é \"entrada\"."
         },
         {
           "es": "ganancia",

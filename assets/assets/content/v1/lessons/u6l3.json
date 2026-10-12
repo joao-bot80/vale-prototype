@@ -125,9 +125,9 @@
         },
         {
           "es": "enfadado",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "zangado",
-          "tip": "Enfadado = zangado, bravo (em português \"enfadado\" também é irritado/aborrecido)."
+          "tip": "Enfadado = bravo, irritado. Enfadado no Brasil (entediado) é \"aburrido\"."
         },
         {
           "es": "jubilado",
@@ -137,9 +137,9 @@
         },
         {
           "es": "zurdo",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "canhoto",
-          "tip": "Destro = \"diestro\"."
+          "tip": "Zurdo = canhoto. Surdo é \"sordo\"."
         },
         {
           "es": "rubio",
