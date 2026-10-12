@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "id": "u30l3",
+  "title": "¡Hasta pronto!",
+  "scenario": "Graduação · aeropuerto de Barajas, ida y vuelta",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 90: Até logo",
+      "lines": [
+        {
+          "speaker": "Lino",
+          "es": "¿Vas a Brasil de vacaciones?",
+          "pt": "Você vai para o Brasil de férias?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Sí, dos semanas. Voy a ver a mi familia y vuelvo en septiembre.",
+          "pt": "Sim, duas semanas. Vou ver minha família e volto em setembro."
+        },
+        {
+          "speaker": "Lino",
+          "es": "¿Y qué vas a hacer cuando vuelvas?",
+          "pt": "E o que você vai fazer quando voltar?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Seguir aprendiendo: Galicia, el País Vasco, Canarias... ¡España es enorme!",
+          "pt": "Continuar aprendendo: Galícia, País Basco, Canárias... A Espanha é enorme!"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Entonces no es un adiós.",
+          "pt": "Então não é um adeus."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Claro que no! ¡Hasta pronto, Lino!",
+          "pt": "Claro que não! Até logo, Lino!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Cuando vuelvas\" significa:",
+      "options": [
+        "Quando você voltar",
+        "Quando você voou",
+        "Quando você volta sempre"
+      ],
+      "correct": 0,
+      "explanation": "Cuando + subjuntivo = futuro."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Volto em setembro.",
+      "answer": [
+        "Vuelvo",
+        "en",
+        "septiembre."
+      ],
+      "distractors": [
+        "volto",
+        "setiembre"
+      ],
+      "explanation": "\"Volver\": vuelvo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Seguir aprendiendo: Galicia, el País Vasco, Canarias... ¡España es enorme!",
+      "options": [
+        "Continuar aprendendo: Galícia, País Basco, Canárias... A Espanha é enorme!",
+        "Parar de estudar.",
+        "Mudar para Portugal."
+      ],
+      "correct": 0,
+      "explanation": "As próximas regiões estão \"em breve\" no mapa."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "vacaciones",
+          "kind": "quase",
+          "meaning": "férias",
+          "tip": "Sempre no plural."
+        },
+        {
+          "es": "despedirse",
+          "kind": "armadilha",
+          "meaning": "despedir-se",
+          "tip": "Não é demitir (despedir a alguien)!"
+        },
+        {
+          "es": "adiós",
+          "kind": "quase",
+          "meaning": "adeus / tchau",
+          "tip": "Muito comum."
+        },
+        {
+          "es": "hasta pronto",
+          "kind": "armadilha",
+          "meaning": "até logo",
+          "tip": "Pronto = logo."
+        },
+        {
+          "es": "volver",
+          "kind": "armadilha",
+          "meaning": "voltar",
+          "tip": "Volver a + infinitivo = fazer de novo."
+        },
+        {
+          "es": "seguir",
+          "kind": "armadilha",
+          "meaning": "continuar",
+          "tip": "Sigue recto = siga reto."
+        },
+        {
+          "es": "familia",
+          "kind": "quase",
+          "meaning": "família",
+          "tip": "Sem acento."
+        },
+        {
+          "es": "abrazo",
+          "kind": "quase",
+          "meaning": "abraço",
+          "tip": "Un abrazo fuerte."
+        },
+        {
+          "es": "septiembre",
+          "kind": "quase",
+          "meaning": "setembro",
+          "tip": "Com p."
+        },
+        {
+          "es": "puerta de embarque",
+          "kind": "quase",
+          "meaning": "portão de embarque",
+          "tip": "Puerta B12."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Vuelvo a empezar\" significa:",
+      "options": [
+        "Começo de novo",
+        "Volto a parar",
+        "Começo a voltar"
+      ],
+      "correct": 0,
+      "explanation": "Volver a + infinitivo = fazer de novo."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Um abraço forte!",
+      "answer": [
+        "¡Un",
+        "abrazo",
+        "fuerte!"
+      ],
+      "distractors": [
+        "abraço",
+        "fuerto"
+      ],
+      "explanation": "Fechamento comum de mensagens."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, dos semanas. Voy a ver a mi familia y vuelvo en septiembre.",
+      "options": [
+        "Sim, duas semanas. Vou ver minha família e volto em setembro.",
+        "Não, vou ficar no Brasil para sempre.",
+        "Sim, dois meses, volto em dezembro."
+      ],
+      "correct": 0,
+      "explanation": "Ir a + infinitivo = futuro próximo."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Sigue ___ hasta la puerta de embarque.\" (reto)",
+      "options": [
+        "recto",
+        "reto",
+        "derecho"
+      ],
+      "correct": 0,
+      "explanation": "\"Todo recto\" = sempre reto."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Me despido de todos.",
+          "options": [
+            "Me despeço de todos.",
+            "Demito todos."
+          ],
+          "correct": 0,
+          "joke": "Despedirse = despedir-se."
+        },
+        {
+          "spanish": "¡Nos vemos pronto!",
+          "options": [
+            "A gente se vê logo!",
+            "A gente se vê pronto!"
+          ],
+          "correct": 0,
+          "joke": "Pronto = logo."
+        },
+        {
+          "spanish": "Sigue estudiando.",
+          "options": [
+            "Continua estudando.",
+            "Segue o estudante."
+          ],
+          "correct": 0,
+          "joke": "Seguir = continuar."
+        },
+        {
+          "spanish": "Vuelvo a leer el libro.",
+          "options": [
+            "Leio o livro de novo.",
+            "Volto para ler o livro."
+          ],
+          "correct": 0,
+          "joke": "Volver a = de novo."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Graduação",
+      "items": [
+        {
+          "emoji": "🗺️",
+          "title": "Em breve",
+          "es": "Galicia, País Vasco y Canarias.",
+          "pt": "As próximas paradas da Lu e do Lino aparecem no mapa como \"em breve\". Lá também há línguas cooficiais (galego, basco), que veremos só em notas culturais."
+        },
+        {
+          "emoji": "🎓",
+          "title": "¡Graduada!",
+          "es": "¡Enhorabuena, estás graduada!",
+          "pt": "Completar as 3 aulas desta unidade dá o carimbo GRADUACIÓN no passaporte. Parabéns!"
+        }
+      ]
+    }
+  ]
+}

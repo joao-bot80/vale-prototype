@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "id": "u30l1",
+  "title": "Preparando a festa",
+  "scenario": "Graduação · piso de Lu",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 88: A festa de formatura",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "El sábado hago una fiesta para celebrar que he terminado el curso.",
+          "pt": "No sábado faço uma festa para comemorar que terminei o curso."
+        },
+        {
+          "speaker": "Dani",
+          "es": "¡Enhorabuena! ¿Qué llevo?",
+          "pt": "Parabéns! O que eu levo?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Trae hielo y unas patatas. Marta trae la tortilla.",
+          "pt": "Traz gelo e umas batatinhas. A Marta traz a tortilha."
+        },
+        {
+          "speaker": "Dani",
+          "es": "¿Con cebolla o sin cebolla?",
+          "pt": "Com cebola ou sem cebola?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Ni se te ocurra empezar ese debate!",
+          "pt": "Nem pense em começar esse debate!"
+        },
+        {
+          "speaker": "Dani",
+          "es": "Jaja, vale. ¿A qué hora empieza?",
+          "pt": "Haha, beleza. Que horas começa?"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¡Ni se te ocurra!\" significa:",
+      "options": [
+        "Nem pense nisso!",
+        "Não acontece nada!",
+        "Nem te ocorreu?"
+      ],
+      "correct": 0,
+      "explanation": "Expressão forte de \"não faça isso\"."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "O que eu levo?",
+      "answer": [
+        "¿Qué",
+        "llevo?"
+      ],
+      "distractors": [
+        "traigo",
+        "levo"
+      ],
+      "explanation": "\"Llevar\" = levar para outro lugar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Trae hielo y unas patatas. Marta trae la tortilla.",
+      "options": [
+        "Traz gelo e umas batatinhas. A Marta traz a tortilha.",
+        "Não traga nada.",
+        "Traz o bolo e o refrigerante."
+      ],
+      "correct": 0,
+      "explanation": "\"Traer\" = trazer (para cá)."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "servilleta",
+          "kind": "armadilha",
+          "meaning": "guardanapo",
+          "tip": "Não é servil!"
+        },
+        {
+          "es": "celebrar",
+          "kind": "quase",
+          "meaning": "comemorar",
+          "tip": "Celebrar un logro."
+        },
+        {
+          "es": "invitado",
+          "kind": "armadilha",
+          "meaning": "convidado",
+          "tip": "Invitar = convidar (não é \"invitar\" a brigar!)."
+        },
+        {
+          "es": "brindis",
+          "kind": "quase",
+          "meaning": "brinde",
+          "tip": "Hacer un brindis."
+        },
+        {
+          "es": "anfitriona",
+          "kind": "quase",
+          "meaning": "anfitriã",
+          "tip": "Quem recebe."
+        },
+        {
+          "es": "picoteo",
+          "kind": "quase",
+          "meaning": "beliscos / petiscos",
+          "tip": "Algo de picoteo."
+        },
+        {
+          "es": "debate",
+          "kind": "igual",
+          "meaning": "debate",
+          "tip": "Igual!"
+        },
+        {
+          "es": "cumplido",
+          "kind": "armadilha",
+          "meaning": "elogio",
+          "tip": "Hacer un cumplido."
+        },
+        {
+          "es": "vecino ruidoso",
+          "kind": "quase",
+          "meaning": "vizinho barulhento",
+          "tip": "Cuidado com o barulho."
+        },
+        {
+          "es": "traer",
+          "kind": "armadilha",
+          "meaning": "trazer",
+          "tip": "Llevar = levar."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Traer\" ou \"llevar\"? Dani vai À festa da Lu. A Lu diz:",
+      "options": [
+        "Trae hielo (traz)",
+        "Lleva hielo (leva)",
+        "Coge hielo"
+      ],
+      "correct": 0,
+      "explanation": "Traer = para onde está quem fala."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vamos fazer um brinde!",
+      "answer": [
+        "¡Vamos",
+        "a",
+        "hacer",
+        "un",
+        "brindis!"
+      ],
+      "distractors": [
+        "brinde",
+        "dar un"
+      ],
+      "explanation": "\"Hacer un brindis\" = fazer um brinde."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "¡Ni se te ocurra empezar ese debate!",
+      "options": [
+        "Nem pense em começar esse debate!",
+        "Vamos debater agora!",
+        "Não sei o que é debate."
+      ],
+      "correct": 0,
+      "explanation": "A tortilha com ou sem cebola é a eterna polêmica espanhola."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Somos veinte ___ en la fiesta.\" (convidados)",
+      "options": [
+        "invitados",
+        "convidados",
+        "invitos"
+      ],
+      "correct": 0,
+      "explanation": "Invitado = convidado."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Tráeme un vaso, por favor.",
+          "options": [
+            "Me traz um copo, por favor.",
+            "Me leva um copo, por favor."
+          ],
+          "correct": 0,
+          "joke": "Traer = trazer."
+        },
+        {
+          "spanish": "Hay muchos invitados.",
+          "options": [
+            "Há muitos convidados.",
+            "Há muitos provocados."
+          ],
+          "correct": 0,
+          "joke": "Invitado = convidado."
+        },
+        {
+          "spanish": "¡Ni se te ocurra!",
+          "options": [
+            "Nem pense nisso!",
+            "Nem te ocorreu!"
+          ],
+          "correct": 0,
+          "joke": "Expressão de proibição."
+        },
+        {
+          "spanish": "Pon más hielo.",
+          "options": [
+            "Põe mais gelo.",
+            "Põe mais leite."
+          ],
+          "correct": 0,
+          "joke": "Hielo = gelo."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Graduação",
+      "items": [
+        {
+          "emoji": "🥔",
+          "title": "Tortilla: con o sin cebolla",
+          "es": "¿Con cebolla o sin cebolla?",
+          "pt": "A tortilla de patatas com ou sem cebola é um debate clássico na Espanha. Diga sua opinião com bom humor!"
+        },
+        {
+          "emoji": "🎉",
+          "title": "Festas em casa",
+          "es": "Una fiesta en el piso.",
+          "pt": "Em festas em casa, cada convidado costuma levar algo. Avise os vizinhos e respeite o horário de silêncio da comunidade."
+        }
+      ]
+    }
+  ]
+}

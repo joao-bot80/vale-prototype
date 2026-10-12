@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-15",
+  "contentVersion": "2026.10.12-16",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -702,6 +702,28 @@
             {
               "id": "u29l3",
               "title": "Revisão: Papelada",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "grad-u2",
+          "title": "Formatura",
+          "emoji": "🎓",
+          "lessons": [
+            {
+              "id": "u30l1",
+              "title": "Preparando a festa",
+              "available": true
+            },
+            {
+              "id": "u30l2",
+              "title": "O discurso da Lu",
+              "available": true
+            },
+            {
+              "id": "u30l3",
+              "title": "¡Hasta pronto!",
               "available": true
             }
           ]

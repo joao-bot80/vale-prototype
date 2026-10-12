@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "u30l2",
+  "title": "O discurso da Lu",
+  "scenario": "Graduação · el brindis",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 89: Um brinde",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Quiero daros las gracias a todos. Sin vosotros, no habría llegado hasta aquí.",
+          "pt": "Quero agradecer a todos. Sem vocês, eu não teria chegado até aqui."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Hace un año no sabía pedir un café. Hoy hablo, entiendo y me río en español.",
+          "pt": "Há um ano eu não sabia pedir um café. Hoje falo, entendo e rio em espanhol."
+        },
+        {
+          "speaker": "Marta",
+          "es": "¡Qué bonito! Me voy a emocionar.",
+          "pt": "Que lindo! Vou me emocionar."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Gracias, Lino, por tu paciencia infinita.",
+          "pt": "Obrigada, Lino, pela sua paciência infinita."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Ha sido un placer. ¡Eres una alumna estupenda!",
+          "pt": "Foi um prazer. Você é uma aluna excelente!"
+        },
+        {
+          "speaker": "Dani",
+          "es": "¡Que hable, que hable! ¡Por Lu!",
+          "pt": "Discurso, discurso! À Lu!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Me voy a emocionar\" significa:",
+      "options": [
+        "Vou me emocionar (quase chorar)",
+        "Vou ficar animada",
+        "Vou embora"
+      ],
+      "correct": 0,
+      "explanation": "Emocionarse = se emocionar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Quero agradecer a todos.",
+      "answer": [
+        "Quiero",
+        "daros",
+        "las",
+        "gracias",
+        "a",
+        "todos."
+      ],
+      "distractors": [
+        "agradecer",
+        "dar"
+      ],
+      "explanation": "\"Daros\" = dar a vocês."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Hace un año no sabía pedir un café. Hoy hablo, entiendo y me río en español.",
+      "options": [
+        "Há um ano eu não sabia pedir um café. Hoje falo, entendo e rio em espanhol.",
+        "Há um ano eu já falava espanhol.",
+        "Hoje ainda não entendo nada."
+      ],
+      "correct": 0,
+      "explanation": "\"Hace un año\" = há um ano."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "discurso",
+          "kind": "igual",
+          "meaning": "discurso",
+          "tip": "Igual!"
+        },
+        {
+          "es": "emocionarse",
+          "kind": "quase",
+          "meaning": "emocionar-se",
+          "tip": "Me emociono."
+        },
+        {
+          "es": "paciencia",
+          "kind": "quase",
+          "meaning": "paciência",
+          "tip": "Com c."
+        },
+        {
+          "es": "estupendo",
+          "kind": "armadilha",
+          "meaning": "excelente / ótimo",
+          "tip": "Não é estúpido!"
+        },
+        {
+          "es": "placer",
+          "kind": "quase",
+          "meaning": "prazer",
+          "tip": "Ha sido un placer."
+        },
+        {
+          "es": "alumna",
+          "kind": "quase",
+          "meaning": "aluna",
+          "tip": "Alumno = aluno."
+        },
+        {
+          "es": "agradecido",
+          "kind": "quase",
+          "meaning": "agradecido / grato",
+          "tip": "Estoy muy agradecida."
+        },
+        {
+          "es": "lágrima",
+          "kind": "quase",
+          "meaning": "lágrima",
+          "tip": "Igual."
+        },
+        {
+          "es": "reírse",
+          "kind": "quase",
+          "meaning": "rir",
+          "tip": "Me río."
+        },
+        {
+          "es": "orgullo",
+          "kind": "armadilha",
+          "meaning": "orgulho",
+          "tip": "Não é \"orgulho\" com j."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¡Eres estupenda!\" significa:",
+      "options": [
+        "Você é ótima!",
+        "Você é estúpida!",
+        "Você é estranha!"
+      ],
+      "correct": 0,
+      "explanation": "Estupendo = excelente."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Foi um prazer.",
+      "answer": [
+        "Ha",
+        "sido",
+        "un",
+        "placer."
+      ],
+      "distractors": [
+        "fue",
+        "prazer"
+      ],
+      "explanation": "Pretérito perfeito: ha sido."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Ha sido un placer. ¡Eres una alumna estupenda!",
+      "options": [
+        "Foi um prazer. Você é uma aluna excelente!",
+        "Foi difícil. Você é preguiçosa!",
+        "Não foi nada."
+      ],
+      "correct": 0,
+      "explanation": "Estupenda = excelente."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Estoy muy ___ a todos.\" (agradecida)",
+      "options": [
+        "agradecida",
+        "agradecía",
+        "grata"
+      ],
+      "correct": 0,
+      "explanation": "Agradecido/a a alguien."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "¡Qué estupendo!",
+          "options": [
+            "Que ótimo!",
+            "Que estúpido!"
+          ],
+          "correct": 0,
+          "joke": "Estupendo = ótimo."
+        },
+        {
+          "spanish": "Me río mucho contigo.",
+          "options": [
+            "Eu rio muito com você.",
+            "Eu rio do rio com você."
+          ],
+          "correct": 0,
+          "joke": "Reírse = rir."
+        },
+        {
+          "spanish": "Siento mucho orgullo.",
+          "options": [
+            "Sinto muito orgulho.",
+            "Sinto muito ódio."
+          ],
+          "correct": 0,
+          "joke": "Orgullo = orgulho."
+        },
+        {
+          "spanish": "Hace un año llegué.",
+          "options": [
+            "Cheguei há um ano.",
+            "Faz um ano que vou chegar."
+          ],
+          "correct": 0,
+          "joke": "Hace + tempo = há."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Graduação",
+      "items": [
+        {
+          "emoji": "🥂",
+          "title": "Brindar",
+          "es": "¡Por Lu!",
+          "pt": "Para brindar a alguém: \"¡Por + nome!\". E no fim: \"¡Salud!\"."
+        },
+        {
+          "emoji": "🎓",
+          "title": "Seu nível",
+          "es": "Del A1 al B1.",
+          "pt": "Depois de 30 unidades você tem vocabulário de sobrevivência e do dia a dia. Para provar seu nível oficialmente, existem os exames DELE do Instituto Cervantes."
+        }
+      ]
+    }
+  ]
+}
