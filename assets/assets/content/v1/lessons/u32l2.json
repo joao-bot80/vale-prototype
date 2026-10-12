@@ -9,7 +9,7 @@
       "title": "Episódio 95: Vinho branco",
       "lines": [
         {
-          "speaker": "Você",
+          "speaker": "Lino",
           "es": "Estamos en Cambados, la capital del albariño.",
           "pt": "Estamos em Cambados, a capital do albariño."
         },
@@ -19,7 +19,7 @@
           "pt": "O que é uma ria? Um rio?"
         },
         {
-          "speaker": "Você",
+          "speaker": "Lino",
           "es": "Es un valle de río inundado por el mar. Por eso hay tanto marisco.",
           "pt": "É um vale de rio inundado pelo mar. Por isso há tantos frutos do mar."
         },
@@ -30,11 +30,11 @@
         },
         {
           "speaker": "Lu",
-          "es": "Sí, pero solo una copa, que luego conduces tú.",
-          "pt": "Sim, mas só uma taça, que depois você dirige."
+          "es": "Sí, pero solo una copa, que luego conduce Lino.",
+          "pt": "Sim, mas só uma taça, que depois o Lino dirige."
         },
         {
-          "speaker": "Você",
+          "speaker": "Lino",
           "es": "¡Yo agua, como siempre!",
           "pt": "Eu, água, como sempre!"
         }
@@ -150,11 +150,11 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Conduces tú\" significa:",
+      "prompt": "\"Conduce Lino\" significa:",
       "options": [
-        "Você dirige",
-        "Você conduz a orquestra",
-        "Você conduz a conversa"
+        "O Lino dirige",
+        "O Lino conduz a orquestra",
+        "O Lino conduz a conversa"
       ],
       "correct": 0,
       "explanation": "Conducir = dirigir carro."
@@ -162,11 +162,11 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Você dirige depois.",
+      "portuguese": "O Lino dirige depois.",
       "answer": [
         "Luego",
-        "conduces",
-        "tú."
+        "conduce",
+        "Lino."
       ],
       "distractors": [
         "dirige",
@@ -178,9 +178,9 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Sí, pero solo una copa, que luego conduces tú.",
+      "spanish": "Sí, pero solo una copa, que luego conduce Lino.",
       "options": [
-        "Sim, mas só uma taça, que depois você dirige.",
+        "Sim, mas só uma taça, que depois o Lino dirige.",
         "Sim, a garrafa toda.",
         "Não bebo nada."
       ],

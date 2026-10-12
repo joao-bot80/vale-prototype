@@ -10,11 +10,11 @@
       "lines": [
         {
           "speaker": "Lu",
-          "es": "Necesito pedir cita para las huellas de la TIE.",
-          "pt": "Preciso marcar horário para as digitais da TIE."
+          "es": "Lino, necesito pedir cita para las huellas de la TIE.",
+          "pt": "Lino, preciso marcar horário para as digitais da TIE."
         },
         {
-          "speaker": "Você",
+          "speaker": "Lino",
           "es": "Se pide en la sede electrónica. Eliges la provincia y el trámite.",
           "pt": "Pede-se na sede eletrônica. Você escolhe a província e o trâmite."
         },
@@ -24,7 +24,7 @@
           "pt": "Não tem horário disponível! O que eu faço?"
         },
         {
-          "speaker": "Você",
+          "speaker": "Lino",
           "es": "Paciencia. Inténtalo otro día, a primera hora de la mañana.",
           "pt": "Paciência. Tenta outro dia, logo cedo."
         },
@@ -34,7 +34,7 @@
           "pt": "Pronto! Tenho horário na terça às nove e meia."
         },
         {
-          "speaker": "Você",
+          "speaker": "Lino",
           "es": "Perfecto. Y recuerda: la cita es gratis. Nunca pagues por ella.",
           "pt": "Perfeito. E lembre: o agendamento é grátis. Nunca pague por ele."
         }

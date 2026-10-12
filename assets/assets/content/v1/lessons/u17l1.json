@@ -10,11 +10,11 @@
       "lines": [
         {
           "speaker": "Lu",
-          "es": "¿Cuántos años tengo que vivir aquí para pedir la nacionalidad?",
-          "pt": "Quantos anos tenho que morar aqui para pedir a nacionalidade?"
+          "es": "Lino, ¿cuántos años tengo que vivir aquí para pedir la nacionalidad?",
+          "pt": "Lino, quantos anos tenho que morar aqui para pedir a nacionalidade?"
         },
         {
-          "speaker": "Você",
+          "speaker": "Lino",
           "es": "Para los brasileños, dos años de residencia legal y continuada.",
           "pt": "Para os brasileiros, dois anos de residência legal e contínua."
         },
@@ -24,7 +24,7 @@
           "pt": "Só dois! E o que mais eu preciso?"
         },
         {
-          "speaker": "Você",
+          "speaker": "Lino",
           "es": "Aprobar dos exámenes: el DELE A2 y el CCSE, y pagar una tasa.",
           "pt": "Passar em duas provas: o DELE A2 e o CCSE, e pagar uma taxa."
         },
@@ -34,7 +34,7 @@
           "pt": "Mas nós brasileiros já não falamos quase espanhol?"
         },
         {
-          "speaker": "Você",
+          "speaker": "Lino",
           "es": "Casi, pero Brasil no está exento del DELE. ¡Hay que estudiar!",
           "pt": "Quase, mas o Brasil não está isento do DELE. Tem que estudar!"
         }

@@ -9,7 +9,7 @@
       "title": "Episódio 90: Até logo",
       "lines": [
         {
-          "speaker": "Você",
+          "speaker": "Lino",
           "es": "¿Vas a Brasil de vacaciones?",
           "pt": "Você vai para o Brasil de férias?"
         },
@@ -19,7 +19,7 @@
           "pt": "Sim, duas semanas. Vou ver minha família e volto em setembro."
         },
         {
-          "speaker": "Você",
+          "speaker": "Lino",
           "es": "¿Y qué vas a hacer cuando vuelvas?",
           "pt": "E o que você vai fazer quando voltar?"
         },
@@ -29,14 +29,14 @@
           "pt": "Continuar aprendendo: Galícia, País Basco, Canárias... A Espanha é enorme!"
         },
         {
-          "speaker": "Você",
+          "speaker": "Lino",
           "es": "Entonces no es un adiós.",
           "pt": "Então não é um adeus."
         },
         {
           "speaker": "Lu",
-          "es": "¡Claro que no! ¡Hasta pronto!",
-          "pt": "Claro que não! Até logo!"
+          "es": "¡Claro que no! ¡Hasta pronto, Lino!",
+          "pt": "Claro que não! Até logo, Lino!"
         }
       ]
     },
@@ -251,7 +251,7 @@
           "emoji": "🗺️",
           "title": "Em breve",
           "es": "Galicia, País Vasco y Canarias.",
-          "pt": "As próximas paradas da Lu aparecem no mapa como \"em breve\". Lá também há línguas cooficiais (galego, basco), que veremos só em notas culturais."
+          "pt": "As próximas paradas da Lu e do Lino aparecem no mapa como \"em breve\". Lá também há línguas cooficiais (galego, basco), que veremos só em notas culturais."
         },
         {
           "emoji": "🎓",

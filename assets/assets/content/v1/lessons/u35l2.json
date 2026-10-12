@@ -10,11 +10,11 @@
       "lines": [
         {
           "speaker": "Lu",
-          "es": "En el metro todo está en dos idiomas. No entiendo la mitad.",
-          "pt": "No metrô tudo está em dois idiomas. Não entendo metade."
+          "es": "Lino, en el metro todo está en dos idiomas. No entiendo la mitad.",
+          "pt": "Lino, no metrô tudo está em dois idiomas. Não entendo metade."
         },
         {
-          "speaker": "Você",
+          "speaker": "Lino",
           "es": "Es euskera, la lengua vasca. Pero siempre está también en castellano.",
           "pt": "É euskera, a língua basca. Mas sempre está também em castelhano."
         },
@@ -24,7 +24,7 @@
           "pt": "É parecido com o espanhol?"
         },
         {
-          "speaker": "Você",
+          "speaker": "Lino",
           "es": "Nada. Es una lengua muy antigua y no tiene relación con el latín.",
           "pt": "Nada. É uma língua muito antiga e não tem relação com o latim."
         },
@@ -34,7 +34,7 @@
           "pt": "Então leio a parte em castelhano: «Saída»."
         },
         {
-          "speaker": "Você",
+          "speaker": "Lino",
           "es": "Exacto. Y si quieres ser amable, aprende a decir gracias en euskera.",
           "pt": "Exato. E se quiser ser gentil, aprenda a dizer obrigado em euskera."
         }

@@ -10,11 +10,11 @@
       "lines": [
         {
           "speaker": "Lu",
-          "es": "Mi sueldo bruto es más alto. ¿Por qué cobro menos?",
-          "pt": "Meu salário bruto é mais alto. Por que recebo menos?"
+          "es": "Lino, mi sueldo bruto es más alto. ¿Por qué cobro menos?",
+          "pt": "Lino, meu salário bruto é mais alto. Por que recebo menos?"
         },
         {
-          "speaker": "Você",
+          "speaker": "Lino",
           "es": "Mira las deducciones: la Seguridad Social y la retención del IRPF.",
           "pt": "Olha os descontos: a Seguridade Social e a retenção do IRPF."
         },
@@ -24,7 +24,7 @@
           "pt": "E quanto é a Seguridade Social?"
         },
         {
-          "speaker": "Você",
+          "speaker": "Lino",
           "es": "Con contrato indefinido, en 2026 el trabajador paga un seis coma cinco por ciento.",
           "pt": "Com contrato indefinido, em 2026 o trabalhador paga seis vírgula cinco por cento."
         },
@@ -34,7 +34,7 @@
           "pt": "E o IRPF?"
         },
         {
-          "speaker": "Você",
+          "speaker": "Lino",
           "es": "Depende de tu sueldo y tu situación. Lo que cobras al final es el líquido.",
           "pt": "Depende do seu salário e da sua situação. O que você recebe no fim é o líquido."
         }
