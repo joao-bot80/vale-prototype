@@ -14,7 +14,7 @@
           "pt": "Me contrataram! Mas a empresa pede meu número da Seguridad Social."
         },
         {
-          "speaker": "Lino",
+          "speaker": "Você",
           "es": "Se pide con el modelo TA.1 y tu NIE.",
           "pt": "Pede-se com o modelo TA.1 e seu NIE."
         },
@@ -24,7 +24,7 @@
           "pt": "Tenho que ir a um escritório?"
         },
         {
-          "speaker": "Lino",
+          "speaker": "Você",
           "es": "Puedes ir con cita o hacerlo online en Import@ss.",
           "pt": "Você pode ir com agendamento ou fazer online no Import@ss."
         },
@@ -34,7 +34,7 @@
           "pt": "E online, como eu me identifico?"
         },
         {
-          "speaker": "Lino",
+          "speaker": "Você",
           "es": "Con Cl@ve, certificado digital o una foto tuya con el documento.",
           "pt": "Com Cl@ve, certificado digital ou uma selfie com o documento."
         }

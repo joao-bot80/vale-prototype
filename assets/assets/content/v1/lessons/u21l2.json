@@ -14,7 +14,7 @@
           "pt": "Isto é um lago ou o mar?"
         },
         {
-          "speaker": "Lino",
+          "speaker": "Você",
           "es": "Es la Albufera, una laguna junto al mar. Aquí se cultiva arroz desde hace siglos.",
           "pt": "É a Albufera, uma lagoa junto ao mar. Aqui se cultiva arroz há séculos."
         },
@@ -24,7 +24,7 @@
           "pt": "Podemos dar um passeio de barco?"
         },
         {
-          "speaker": "Lino",
+          "speaker": "Você",
           "es": "Sí, al atardecer. Es el mejor momento para ver la puesta de sol.",
           "pt": "Sim, no fim da tarde. É o melhor momento para ver o pôr do sol."
         },
@@ -34,7 +34,7 @@
           "pt": "E depois comemos all i pebre?"
         },
         {
-          "speaker": "Lino",
+          "speaker": "Você",
           "es": "¡Claro! Es un guiso de anguila típico de El Palmar.",
           "pt": "Claro! É um ensopado de enguia típico de El Palmar."
         }

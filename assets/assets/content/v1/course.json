@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-20",
+  "contentVersion": "2026.10.12-21",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -29,7 +29,7 @@
             },
             {
               "id": "u1l3",
-              "title": "Check-in no hostal",
+              "title": "Check-in na pousada",
               "available": true
             }
           ]

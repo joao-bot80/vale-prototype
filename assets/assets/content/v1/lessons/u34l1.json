@@ -9,7 +9,7 @@
       "title": "Episódio 100: Barra cheia",
       "lines": [
         {
-          "speaker": "Lino",
+          "speaker": "Você",
           "es": "Aquí los pintxos están en la barra. Coges un plato y te sirves.",
           "pt": "Aqui os pintxos ficam no balcão. Você pega um prato e se serve."
         },
@@ -19,7 +19,7 @@
           "pt": "E como sabem o que eu comi?"
         },
         {
-          "speaker": "Lino",
+          "speaker": "Você",
           "es": "Se lo dices al final. Aquí funciona la confianza.",
           "pt": "Você diz no final. Aqui funciona a confiança."
         },
@@ -29,7 +29,7 @@
           "pt": "E os pintxos quentes?"
         },
         {
-          "speaker": "Lino",
+          "speaker": "Você",
           "es": "Esos se piden al camarero. Mira la pizarra.",
           "pt": "Esses se pedem ao garçom. Olha o quadro."
         },
