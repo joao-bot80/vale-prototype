@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u33l3",
+  "title": "A queimada",
+  "scenario": "Galicia · noche de San Juan en la playa",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 99: O conjuro",
+      "lines": [
+        {
+          "speaker": "Lino",
+          "es": "Esta noche hacemos una queimada.",
+          "pt": "Hoje à noite fazemos uma queimada."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Qué es exactamente?",
+          "pt": "O que é exatamente?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Aguardiente con azúcar, piel de limón y granos de café. Se le prende fuego.",
+          "pt": "Aguardente com açúcar, casca de limão e grãos de café. Põe-se fogo nela."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y por qué apagan las luces?",
+          "pt": "E por que apagam as luzes?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Porque alguien recita el conjuro para espantar a las meigas, las brujas.",
+          "pt": "Porque alguém recita o conjuro para espantar as meigas, as bruxas."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Me da un poco de miedo... ¡pero me encanta!",
+          "pt": "Me dá um pouco de medo... mas eu adoro!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Prender fuego\" significa:",
+      "options": [
+        "Pôr fogo / acender",
+        "Prender o fogo numa caixa",
+        "Apagar o fogo"
+      ],
+      "correct": 0,
+      "explanation": "Prender = acender (fogo)."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Apagam as luzes.",
+      "answer": [
+        "Apagan",
+        "las",
+        "luces."
+      ],
+      "distractors": [
+        "luzes",
+        "apagam"
+      ],
+      "explanation": "Luz → luces (plural com c)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Aguardiente con azúcar, piel de limón y granos de café. Se le prende fuego.",
+      "options": [
+        "Aguardente com açúcar, casca de limão e grãos de café. Põe-se fogo nela.",
+        "Vinho tinto com frutas.",
+        "Chá quente com mel."
+      ],
+      "correct": 0,
+      "explanation": "Mexe-se enquanto queima."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "aguardiente",
+          "kind": "quase",
+          "meaning": "aguardente",
+          "tip": "Orujo galego."
+        },
+        {
+          "es": "llama",
+          "kind": "armadilha",
+          "meaning": "chama (de fogo)",
+          "tip": "Também o animal lhama!"
+        },
+        {
+          "es": "piel",
+          "kind": "armadilha",
+          "meaning": "casca / pele",
+          "tip": "Piel de limón = casca."
+        },
+        {
+          "es": "prender",
+          "kind": "armadilha",
+          "meaning": "acender (fogo)",
+          "tip": "Não é prender alguém (detener)!"
+        },
+        {
+          "es": "apagar",
+          "kind": "igual",
+          "meaning": "apagar",
+          "tip": "Igual!"
+        },
+        {
+          "es": "conjuro",
+          "kind": "quase",
+          "meaning": "conjuro / feitiço",
+          "tip": "Recitado na queimada."
+        },
+        {
+          "es": "bruja",
+          "kind": "quase",
+          "meaning": "bruxa",
+          "tip": "Meiga em galego."
+        },
+        {
+          "es": "espantar",
+          "kind": "quase",
+          "meaning": "espantar",
+          "tip": "Afastar."
+        },
+        {
+          "es": "cazo",
+          "kind": "armadilha",
+          "meaning": "concha (de servir)",
+          "tip": "Não é caso!"
+        },
+        {
+          "es": "barro cocido",
+          "kind": "quase",
+          "meaning": "barro cozido",
+          "tip": "A tigela da queimada."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"La piel del limón\" é:",
+      "options": [
+        "A casca do limão",
+        "A pele do braço",
+        "O suco do limão"
+      ],
+      "correct": 0,
+      "explanation": "Piel = pele, casca."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Me dá um pouco de medo.",
+      "answer": [
+        "Me",
+        "da",
+        "un",
+        "poco",
+        "de",
+        "miedo."
+      ],
+      "distractors": [
+        "medo",
+        "dá"
+      ],
+      "explanation": "\"Dar miedo\" = dar medo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Porque alguien recita el conjuro para espantar a las meigas, las brujas.",
+      "options": [
+        "Porque alguém recita o conjuro para espantar as meigas, as bruxas.",
+        "Porque acabou a energia.",
+        "Porque vão dormir."
+      ],
+      "correct": 0,
+      "explanation": "Meiga = bruxa em galego."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Sírvelo con el ___.\" (concha de servir)",
+      "options": [
+        "cazo",
+        "caso",
+        "cazón"
+      ],
+      "correct": 0,
+      "explanation": "Cazo = concha/caneco de servir."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Prende la vela.",
+          "options": [
+            "Acende a vela.",
+            "Prende a vela."
+          ],
+          "correct": 0,
+          "joke": "Prender = acender."
+        },
+        {
+          "spanish": "Quita la piel a la naranja.",
+          "options": [
+            "Tira a casca da laranja.",
+            "Tira a pele da laranja com cuidado."
+          ],
+          "correct": 0,
+          "joke": "Piel = casca."
+        },
+        {
+          "spanish": "Pásame el cazo.",
+          "options": [
+            "Me passa a concha.",
+            "Me passa o caso."
+          ],
+          "correct": 0,
+          "joke": "Cazo = concha de servir."
+        },
+        {
+          "spanish": "Las brujas no existen.",
+          "options": [
+            "As bruxas não existem.",
+            "As brujas não existem."
+          ],
+          "correct": 0,
+          "joke": "Bruja = bruxa."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Galicia",
+      "items": [
+        {
+          "emoji": "🔥",
+          "title": "Queimada",
+          "es": "Hacemos una queimada.",
+          "pt": "Bebida quente de aguardente (orujo), açúcar, casca de limão e café, flambada em tigela de barro enquanto se recita o \"conxuro\". É tradição festiva moderna, popular em festas e na noite de San Juan."
+        },
+        {
+          "emoji": "🧙",
+          "title": "Meigas",
+          "es": "Haberlas, haylas.",
+          "pt": "Ditado: \"As meigas não existem, mas que as há, há\". \"Meiga\" é galego para bruxa; só para reconhecer."
+        }
+      ]
+    }
+  ]
+}

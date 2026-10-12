@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-16",
+  "contentVersion": "2026.10.12-17",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -676,6 +676,105 @@
       ]
     },
     {
+      "id": "galicia",
+      "name": "Galicia",
+      "subtitle": "Santiago, rías e marisco",
+      "emoji": "🐙",
+      "stampText": "GALICIA",
+      "lon": -8.54,
+      "lat": 42.88,
+      "units": [
+        {
+          "id": "gal-u1",
+          "title": "Santiago e o Caminho",
+          "emoji": "🐚",
+          "lessons": [
+            {
+              "id": "u31l1",
+              "title": "Chegando a Santiago",
+              "available": true
+            },
+            {
+              "id": "u31l2",
+              "title": "A catedral e o botafumeiro",
+              "available": true
+            },
+            {
+              "id": "u31l3",
+              "title": "Pulpo e marisco",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "gal-u2",
+          "title": "Chuva e Rías Baixas",
+          "emoji": "🌧️",
+          "lessons": [
+            {
+              "id": "u32l1",
+              "title": "Chove em Galicia",
+              "available": true
+            },
+            {
+              "id": "u32l2",
+              "title": "Rías Baixas e albariño",
+              "available": true
+            },
+            {
+              "id": "u32l3",
+              "title": "Ilhas Cíes",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "gal-u3",
+          "title": "Vigo, A Coruña e queimada",
+          "emoji": "🔥",
+          "lessons": [
+            {
+              "id": "u33l1",
+              "title": "Vigo e o porto",
+              "available": true
+            },
+            {
+              "id": "u33l2",
+              "title": "A Coruña e a Torre de Hércules",
+              "available": true
+            },
+            {
+              "id": "u33l3",
+              "title": "A queimada",
+              "available": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paisvasco",
+      "name": "País Vasco",
+      "subtitle": "Em breve",
+      "emoji": "🍢",
+      "stampText": "EUSKADI",
+      "lon": -2.93,
+      "lat": 43.26,
+      "comingSoon": true,
+      "units": []
+    },
+    {
+      "id": "canarias",
+      "name": "Canarias",
+      "subtitle": "Em breve",
+      "emoji": "🌋",
+      "stampText": "CANARIAS",
+      "lon": -15.4,
+      "lat": 28.1,
+      "comingSoon": true,
+      "units": []
+    },
+    {
       "id": "graduacao",
       "name": "Graduação",
       "subtitle": "Revisão final",
@@ -729,39 +828,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "galicia",
-      "name": "Galicia",
-      "subtitle": "Em breve",
-      "emoji": "🐙",
-      "stampText": "GALICIA",
-      "lon": -8.54,
-      "lat": 42.88,
-      "comingSoon": true,
-      "units": []
-    },
-    {
-      "id": "paisvasco",
-      "name": "País Vasco",
-      "subtitle": "Em breve",
-      "emoji": "🍢",
-      "stampText": "EUSKADI",
-      "lon": -2.93,
-      "lat": 43.26,
-      "comingSoon": true,
-      "units": []
-    },
-    {
-      "id": "canarias",
-      "name": "Canarias",
-      "subtitle": "Em breve",
-      "emoji": "🌋",
-      "stampText": "CANARIAS",
-      "lon": -15.4,
-      "lat": 28.1,
-      "comingSoon": true,
-      "units": []
     }
   ]
 }

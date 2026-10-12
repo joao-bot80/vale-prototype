@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "id": "u33l2",
+  "title": "A Coruña e a Torre de Hércules",
+  "scenario": "A Coruña · paseo marítimo",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 98: O farol romano",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¿Este faro es de verdad romano?",
+          "pt": "Este farol é romano de verdade?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí, la Torre de Hércules. Es el faro romano en funcionamiento más antiguo del mundo.",
+          "pt": "Sim, a Torre de Hércules. É o farol romano em funcionamento mais antigo do mundo."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Increíble! ¿Y por qué las casas tienen tantas ventanas de cristal?",
+          "pt": "Incrível! E por que as casas têm tantas janelas de vidro?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Son las galerías. Protegen del viento y dejan entrar la luz.",
+          "pt": "São as galerias. Protegem do vento e deixam a luz entrar."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Hace un viento que me lleva.",
+          "pt": "Está ventando tanto que me leva."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Abrígate bien. ¡Vamos a por un chocolate caliente!",
+          "pt": "Agasalhe-se bem. Vamos tomar um chocolate quente!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Abrígate bien\" significa:",
+      "options": [
+        "Agasalhe-se bem",
+        "Abrigue-se da chuva",
+        "Abra bem"
+      ],
+      "correct": 0,
+      "explanation": "Abrigo = casaco."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Protegem do vento.",
+      "answer": [
+        "Protegen",
+        "del",
+        "viento."
+      ],
+      "distractors": [
+        "vento",
+        "de el"
+      ],
+      "explanation": "\"Del\" = de + el."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, la Torre de Hércules. Es el faro romano en funcionamiento más antiguo del mundo.",
+      "options": [
+        "Sim, a Torre de Hércules. É o farol romano em funcionamento mais antigo do mundo.",
+        "Não, é de 1990.",
+        "É uma torre medieval sem farol."
+      ],
+      "correct": 0,
+      "explanation": "Patrimônio Mundial desde 2009."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "cristal",
+          "kind": "armadilha",
+          "meaning": "vidro",
+          "tip": "Copa de cristal; ventana de cristal."
+        },
+        {
+          "es": "galería",
+          "kind": "quase",
+          "meaning": "galeria (varanda envidraçada)",
+          "tip": "Típica da Coruña."
+        },
+        {
+          "es": "viento",
+          "kind": "quase",
+          "meaning": "vento",
+          "tip": "Hace viento."
+        },
+        {
+          "es": "abrigo",
+          "kind": "armadilha",
+          "meaning": "casaco",
+          "tip": "Não é abrigo (refúgio) só."
+        },
+        {
+          "es": "abrigarse",
+          "kind": "quase",
+          "meaning": "agasalhar-se",
+          "tip": "Abrígate."
+        },
+        {
+          "es": "bufanda",
+          "kind": "armadilha",
+          "meaning": "cachecol",
+          "tip": "Não é bufante!"
+        },
+        {
+          "es": "paseo",
+          "kind": "quase",
+          "meaning": "passeio / calçadão",
+          "tip": "Paseo marítimo."
+        },
+        {
+          "es": "antiguo",
+          "kind": "quase",
+          "meaning": "antigo",
+          "tip": "Ditongo uo."
+        },
+        {
+          "es": "funcionar",
+          "kind": "quase",
+          "meaning": "funcionar",
+          "tip": "Sigue funcionando."
+        },
+        {
+          "es": "chocolate caliente",
+          "kind": "quase",
+          "meaning": "chocolate quente",
+          "tip": "Con churros."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Ponte la bufanda\" significa:",
+      "options": [
+        "Põe o cachecol",
+        "Põe o bufante",
+        "Põe a touca"
+      ],
+      "correct": 0,
+      "explanation": "Bufanda = cachecol."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Põe o casaco.",
+      "answer": [
+        "Ponte",
+        "el",
+        "abrigo."
+      ],
+      "distractors": [
+        "casaco",
+        "pon"
+      ],
+      "explanation": "Abrigo = casaco."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Son las galerías. Protegen del viento y dejan entrar la luz.",
+      "options": [
+        "São as galerias. Protegem do vento e deixam a luz entrar.",
+        "São lojas de arte.",
+        "São vidros quebrados."
+      ],
+      "correct": 0,
+      "explanation": "A Coruña é chamada \"cidade de cristal\"."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"La ventana es de ___.\" (vidro)",
+      "options": [
+        "cristal",
+        "vidrio",
+        "vidro"
+      ],
+      "correct": 0,
+      "explanation": "Cristal = vidro (de janela). Vidrio também."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Coge el abrigo.",
+          "options": [
+            "Pega o casaco.",
+            "Pega o abrigo antiaéreo."
+          ],
+          "correct": 0,
+          "joke": "Abrigo = casaco."
+        },
+        {
+          "spanish": "Se ha roto el cristal.",
+          "options": [
+            "Quebrou o vidro.",
+            "Quebrou o cristal Swarovski."
+          ],
+          "correct": 0,
+          "joke": "Cristal = vidro."
+        },
+        {
+          "spanish": "Me he dejado la bufanda.",
+          "options": [
+            "Esqueci o cachecol.",
+            "Deixei a bufada."
+          ],
+          "correct": 0,
+          "joke": "Bufanda = cachecol."
+        },
+        {
+          "spanish": "Hace mucho viento.",
+          "options": [
+            "Está ventando muito.",
+            "Faz muito vinho."
+          ],
+          "correct": 0,
+          "joke": "Viento = vento."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Galicia",
+      "items": [
+        {
+          "emoji": "🗼",
+          "title": "Torre de Hércules",
+          "es": "La Torre de Hércules.",
+          "pt": "Farol de origem romana (séc. I–II) ainda em funcionamento, Patrimônio Mundial da UNESCO desde 2009."
+        },
+        {
+          "emoji": "🪟",
+          "title": "Cidade de cristal",
+          "es": "Las galerías de A Coruña.",
+          "pt": "As galerias envidraçadas da Avenida da Marina deram à Coruña o apelido de \"cidade de cristal\". O nome oficial da cidade é em galego: A Coruña."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "id": "u32l3",
+  "title": "Ilhas Cíes",
+  "scenario": "Vigo → Illas Cíes · barco",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 96: Praia do Caribe galego",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Dos billetes de barco para las Cíes, por favor.",
+          "pt": "Duas passagens de barco para as Cíes, por favor."
+        },
+        {
+          "speaker": "Taquillera",
+          "es": "¿Tenéis la autorización del Parque Nacional? En verano es obligatoria.",
+          "pt": "Vocês têm a autorização do Parque Nacional? No verão é obrigatória."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí, la pedimos por internet la semana pasada.",
+          "pt": "Sim, pedimos pela internet na semana passada."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Dicen que la playa de Rodas parece del Caribe.",
+          "pt": "Dizem que a praia de Rodas parece do Caribe."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí, pero el agua está helada. ¡Esto es el Atlántico!",
+          "pt": "Sim, mas a água está gelada. Isto é o Atlântico!"
+        },
+        {
+          "speaker": "Lu",
+          "es": "No pasa nada. Me baño rapidito.",
+          "pt": "Não tem problema. Tomo banho rapidinho."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"El agua está helada\" significa:",
+      "options": [
+        "A água está gelada",
+        "A água está salgada",
+        "A água está suja"
+      ],
+      "correct": 0,
+      "explanation": "Helado = gelado (e sorvete)."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Pedimos pela internet.",
+      "answer": [
+        "La",
+        "pedimos",
+        "por",
+        "internet."
+      ],
+      "distractors": [
+        "pela",
+        "en"
+      ],
+      "explanation": "\"Por internet\" = pela internet."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "¿Tenéis la autorización del Parque Nacional? En verano es obligatoria.",
+      "options": [
+        "Vocês têm a autorização do Parque Nacional? No verão é obrigatória.",
+        "Não precisa de nada.",
+        "Só podem ir no inverno."
+      ],
+      "correct": 0,
+      "explanation": "As Cíes limitam o número de visitantes."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "isla",
+          "kind": "quase",
+          "meaning": "ilha",
+          "tip": "Islas Cíes."
+        },
+        {
+          "es": "autorización",
+          "kind": "quase",
+          "meaning": "autorização",
+          "tip": "Pedirla online."
+        },
+        {
+          "es": "barco",
+          "kind": "igual",
+          "meaning": "barco",
+          "tip": "Igual!"
+        },
+        {
+          "es": "marea",
+          "kind": "armadilha",
+          "meaning": "maré",
+          "tip": "Marea baja = maré baixa."
+        },
+        {
+          "es": "gaviota",
+          "kind": "quase",
+          "meaning": "gaivota",
+          "tip": "Muitas nas Cíes."
+        },
+        {
+          "es": "faro",
+          "kind": "armadilha",
+          "meaning": "farol",
+          "tip": "Não é faro (olfato)!"
+        },
+        {
+          "es": "acampar",
+          "kind": "quase",
+          "meaning": "acampar",
+          "tip": "Camping nas Cíes."
+        },
+        {
+          "es": "sendero",
+          "kind": "armadilha",
+          "meaning": "trilha",
+          "tip": "Não é sendeiro."
+        },
+        {
+          "es": "Atlántico",
+          "kind": "quase",
+          "meaning": "Atlântico",
+          "tip": "Acento no lán."
+        },
+        {
+          "es": "aforo limitado",
+          "kind": "quase",
+          "meaning": "lotação limitada",
+          "tip": "Por isso a autorização."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"El faro\" é:",
+      "options": [
+        "O farol",
+        "O faro (olfato)",
+        "O farelo"
+      ],
+      "correct": 0,
+      "explanation": "Faro = farol."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Subimos pela trilha até o farol.",
+      "answer": [
+        "Subimos",
+        "por",
+        "el",
+        "sendero",
+        "hasta",
+        "el",
+        "faro."
+      ],
+      "distractors": [
+        "trilla",
+        "farol"
+      ],
+      "explanation": "Sendero = trilha."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, pero el agua está helada. ¡Esto es el Atlántico!",
+      "options": [
+        "Sim, mas a água está gelada. Isto é o Atlântico!",
+        "Sim, e a água está quente.",
+        "Não, é um lago."
+      ],
+      "correct": 0,
+      "explanation": "No Atlântico galego a água é fria até no verão."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Subimos por el ___ hasta el faro.\" (trilha)",
+      "options": [
+        "sendero",
+        "sendeiro",
+        "camino de"
+      ],
+      "correct": 0,
+      "explanation": "Sendero = trilha."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "El faro está en lo alto.",
+          "options": [
+            "O farol fica no alto.",
+            "O faro fica no alto."
+          ],
+          "correct": 0,
+          "joke": "Faro = farol."
+        },
+        {
+          "spanish": "Seguimos el sendero.",
+          "options": [
+            "Seguimos a trilha.",
+            "Seguimos o sendeiro."
+          ],
+          "correct": 0,
+          "joke": "Sendero = trilha."
+        },
+        {
+          "spanish": "Quiero un helado de fresa.",
+          "options": [
+            "Quero um sorvete de morango.",
+            "Quero um gelado de framboesa."
+          ],
+          "correct": 0,
+          "joke": "Helado = sorvete."
+        },
+        {
+          "spanish": "Hay muchas gaviotas.",
+          "options": [
+            "Há muitas gaivotas.",
+            "Há muitas gavetas."
+          ],
+          "correct": 0,
+          "joke": "Gaviota = gaivota."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Galicia",
+      "items": [
+        {
+          "emoji": "🏝️",
+          "title": "Illas Cíes",
+          "es": "Parque Nacional de las Islas Atlánticas.",
+          "pt": "As Cíes, em frente a Vigo, fazem parte do Parque Nacional das Illas Atlánticas. Em alta temporada é preciso pedir autorização online antes de comprar o barco."
+        },
+        {
+          "emoji": "🗣️",
+          "title": "Illas",
+          "es": "Illas Cíes.",
+          "pt": "Em galego \"illas\" = ilhas. Nas placas você verá os dois idiomas; responda sempre em castelhano."
+        }
+      ]
+    }
+  ]
+}

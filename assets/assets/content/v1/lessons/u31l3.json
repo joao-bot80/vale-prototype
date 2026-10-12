@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "id": "u31l3",
+  "title": "Pulpo e marisco",
+  "scenario": "Galicia · pulpería y marisquería",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 93: Polvo à galega",
+      "lines": [
+        {
+          "speaker": "Camarera",
+          "es": "¿Qué os pongo?",
+          "pt": "O que vai ser?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Una ración de pulpo a la gallega y unos pimientos de Padrón.",
+          "pt": "Uma porção de polvo à galega e uns pimentões de Padrón."
+        },
+        {
+          "speaker": "Camarera",
+          "es": "Los pimientos, unos pican y otros no. ¡Es una lotería!",
+          "pt": "Os pimentões, uns ardem e outros não. É uma loteria!"
+        },
+        {
+          "speaker": "Lino",
+          "es": "¿Y de marisco qué tenéis hoy?",
+          "pt": "E de frutos do mar, o que vocês têm hoje?"
+        },
+        {
+          "speaker": "Camarera",
+          "es": "Percebes, nécoras y navajas. Todo de la lonja de esta mañana.",
+          "pt": "Percebes, caranguejos e navalhas. Tudo do leilão de peixe desta manhã."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Pues probamos un poco de todo!",
+          "pt": "Então provamos um pouco de tudo!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Unos pican y otros no\" significa:",
+      "options": [
+        "Uns ardem e outros não",
+        "Uns picam como abelha",
+        "Uns são caros"
+      ],
+      "correct": 0,
+      "explanation": "Picar = arder (pimenta)."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Uma porção de polvo, por favor.",
+      "answer": [
+        "Una",
+        "ración",
+        "de",
+        "pulpo,",
+        "por",
+        "favor."
+      ],
+      "distractors": [
+        "porción",
+        "polvo"
+      ],
+      "explanation": "\"Ración\" = porção grande."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Percebes, nécoras y navajas. Todo de la lonja de esta mañana.",
+      "options": [
+        "Percebes, caranguejos e navalhas. Tudo do leilão de peixe desta manhã.",
+        "Só peixe congelado.",
+        "Carne e batatas."
+      ],
+      "correct": 0,
+      "explanation": "Lonja = mercado onde se leiloa o peixe."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "percebe",
+          "kind": "quase",
+          "meaning": "percebe",
+          "tip": "Marisco das rochas."
+        },
+        {
+          "es": "nécora",
+          "kind": "quase",
+          "meaning": "caranguejo (nécora)",
+          "tip": "Típica galega."
+        },
+        {
+          "es": "navaja",
+          "kind": "armadilha",
+          "meaning": "navalha (marisco)",
+          "tip": "Também canivete!"
+        },
+        {
+          "es": "lonja",
+          "kind": "armadilha",
+          "meaning": "lota / leilão de peixe",
+          "tip": "Não é loja!"
+        },
+        {
+          "es": "picar",
+          "kind": "armadilha",
+          "meaning": "arder (pimenta) / beliscar",
+          "tip": "Algo para picar = petiscar."
+        },
+        {
+          "es": "ración",
+          "kind": "armadilha",
+          "meaning": "porção",
+          "tip": "Media ración."
+        },
+        {
+          "es": "pimiento de Padrón",
+          "kind": "quase",
+          "meaning": "pimentão de Padrón",
+          "tip": "Uns picam, outros não."
+        },
+        {
+          "es": "pimentón dulce",
+          "kind": "quase",
+          "meaning": "páprica doce",
+          "tip": "Vai no pulpo."
+        },
+        {
+          "es": "plato de madera",
+          "kind": "quase",
+          "meaning": "prato de madeira",
+          "tip": "Onde se serve o pulpo."
+        },
+        {
+          "es": "cachelos",
+          "kind": "quase",
+          "meaning": "batatas cozidas (Galícia)",
+          "tip": "Acompanham o pulpo."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Una lonja\" na Galícia é:",
+      "options": [
+        "Mercado de leilão de peixe",
+        "Uma loja",
+        "Uma fatia"
+      ],
+      "correct": 0,
+      "explanation": "Lonja = lota."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Provamos um pouco de tudo.",
+      "answer": [
+        "Probamos",
+        "un",
+        "poco",
+        "de",
+        "todo."
+      ],
+      "distractors": [
+        "provamos",
+        "tudo"
+      ],
+      "explanation": "\"Probar\" = provar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Los pimientos, unos pican y otros no. ¡Es una lotería!",
+      "options": [
+        "Os pimentões, uns ardem e outros não. É uma loteria!",
+        "Os pimentões são todos doces.",
+        "Não temos pimentões."
+      ],
+      "correct": 0,
+      "explanation": "Dito famoso: \"unos pican e outros non\"."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"El pulpo se sirve con ___.\" (batatas cozidas)",
+      "options": [
+        "cachelos",
+        "cachetes",
+        "papas"
+      ],
+      "correct": 0,
+      "explanation": "Cachelos = batatas cozidas (Galícia)."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Este pimiento pica.",
+          "options": [
+            "Este pimentão arde.",
+            "Este pimentão pica como agulha."
+          ],
+          "correct": 0,
+          "joke": "Picar = arder."
+        },
+        {
+          "spanish": "Compran en la lonja.",
+          "options": [
+            "Compram no leilão de peixe.",
+            "Compram na loja."
+          ],
+          "correct": 0,
+          "joke": "Lonja = lota."
+        },
+        {
+          "spanish": "Pedimos navajas.",
+          "options": [
+            "Pedimos navalhas (marisco).",
+            "Pedimos canivetes."
+          ],
+          "correct": 0,
+          "joke": "Navaja = navalha."
+        },
+        {
+          "spanish": "Una ración para compartir.",
+          "options": [
+            "Uma porção para dividir.",
+            "Uma ração para compartilhar."
+          ],
+          "correct": 0,
+          "joke": "Ración = porção."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Galicia",
+      "items": [
+        {
+          "emoji": "🐙",
+          "title": "Pulpo á feira",
+          "es": "Pulpo a la gallega.",
+          "pt": "Polvo cozido, cortado com tesoura, com azeite, sal grosso e páprica, servido em prato de madeira. Em galego: \"polbo á feira\". Melide é famosa por ele."
+        },
+        {
+          "emoji": "🦐",
+          "title": "Marisco",
+          "es": "Marisco gallego.",
+          "pt": "A Galícia é famosa por percebes, nécoras, vieiras e navalhas. Preço por quilo: pergunte antes de pedir."
+        }
+      ]
+    }
+  ]
+}

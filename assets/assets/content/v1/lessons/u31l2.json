@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "id": "u31l2",
+  "title": "A catedral e o botafumeiro",
+  "scenario": "Santiago de Compostela · plaza del Obradoiro",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 92: O incensário gigante",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Qué plaza tan enorme! Todos los peregrinos se tumban en el suelo.",
+          "pt": "Que praça enorme! Todos os peregrinos deitam no chão."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Es la plaza del Obradoiro, delante de la catedral.",
+          "pt": "É a praça do Obradoiro, em frente à catedral."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Es verdad que hay un incensario gigante que vuela?",
+          "pt": "É verdade que tem um incensário gigante que voa?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí, el botafumeiro. Lo mueven entre ocho hombres con una cuerda.",
+          "pt": "Sim, o botafumeiro. Oito homens o movem com uma corda."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Cuándo se puede ver?",
+          "pt": "Quando dá para ver?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "En algunas misas y fiestas. Mira el calendario de la catedral.",
+          "pt": "Em algumas missas e festas. Olha o calendário da catedral."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Tumbarse en el suelo\" significa:",
+      "options": [
+        "Deitar-se no chão",
+        "Cair no solo",
+        "Tombar a mesa"
+      ],
+      "correct": 0,
+      "explanation": "Tumbarse = deitar-se."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Quando dá para ver?",
+      "answer": [
+        "¿Cuándo",
+        "se",
+        "puede",
+        "ver?"
+      ],
+      "distractors": [
+        "dá",
+        "podemos de"
+      ],
+      "explanation": "\"Se puede\" = dá para."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, el botafumeiro. Lo mueven entre ocho hombres con una cuerda.",
+      "options": [
+        "Sim, o botafumeiro. Oito homens o movem com uma corda.",
+        "Não, é só uma lenda.",
+        "Sim, ele se move sozinho."
+      ],
+      "correct": 0,
+      "explanation": "Os homens que o movem são os \"tiraboleiros\"."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "incensario",
+          "kind": "quase",
+          "meaning": "incensário",
+          "tip": "De incienso."
+        },
+        {
+          "es": "cuerda",
+          "kind": "quase",
+          "meaning": "corda",
+          "tip": "Ditongo ue."
+        },
+        {
+          "es": "suelo",
+          "kind": "armadilha",
+          "meaning": "chão",
+          "tip": "Também solo."
+        },
+        {
+          "es": "misa",
+          "kind": "quase",
+          "meaning": "missa",
+          "tip": "Com um s."
+        },
+        {
+          "es": "botafumeiro",
+          "kind": "quase",
+          "meaning": "botafumeiro",
+          "tip": "Palavra galega usada em castelhano."
+        },
+        {
+          "es": "fachada barroca",
+          "kind": "quase",
+          "meaning": "fachada barroca",
+          "tip": "A do Obradoiro."
+        },
+        {
+          "es": "campana",
+          "kind": "armadilha",
+          "meaning": "sino",
+          "tip": "Campanário = campanario."
+        },
+        {
+          "es": "piedra mojada",
+          "kind": "quase",
+          "meaning": "pedra molhada",
+          "tip": "Em Santiago, sempre!"
+        },
+        {
+          "es": "abrazar",
+          "kind": "quase",
+          "meaning": "abraçar",
+          "tip": "Abraçar o apóstolo."
+        },
+        {
+          "es": "cripta",
+          "kind": "igual",
+          "meaning": "cripta",
+          "tip": "Igual!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"La campana\" é:",
+      "options": [
+        "O sino",
+        "A campanha",
+        "O campo"
+      ],
+      "correct": 0,
+      "explanation": "Campaña = campanha."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Olha o calendário.",
+      "answer": [
+        "Mira",
+        "el",
+        "calendario."
+      ],
+      "distractors": [
+        "olha",
+        "agenda"
+      ],
+      "explanation": "\"Mirar\" = olhar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "En algunas misas y fiestas. Mira el calendario de la catedral.",
+      "options": [
+        "Em algumas missas e festas. Olha o calendário da catedral.",
+        "Todo dia, de hora em hora.",
+        "Nunca mais funciona."
+      ],
+      "correct": 0,
+      "explanation": "Os dias mudam: confira o calendário oficial."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Suenan las ___ de la catedral.\" (sinos)",
+      "options": [
+        "campanas",
+        "campañas",
+        "sinos"
+      ],
+      "correct": 0,
+      "explanation": "Campana = sino."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Oigo las campanas.",
+          "options": [
+            "Ouço os sinos.",
+            "Ouço as campanhas."
+          ],
+          "correct": 0,
+          "joke": "Campana = sino."
+        },
+        {
+          "spanish": "Siéntate en el suelo.",
+          "options": [
+            "Senta no chão.",
+            "Senta no solo do jardim."
+          ],
+          "correct": 0,
+          "joke": "Suelo = chão."
+        },
+        {
+          "spanish": "Tira de la cuerda.",
+          "options": [
+            "Puxa a corda.",
+            "Atira a corda."
+          ],
+          "correct": 0,
+          "joke": "Tirar de = puxar."
+        },
+        {
+          "spanish": "Vamos a misa.",
+          "options": [
+            "Vamos à missa.",
+            "Vamos à mesa."
+          ],
+          "correct": 0,
+          "joke": "Misa = missa."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Galicia",
+      "items": [
+        {
+          "emoji": "⛪",
+          "title": "Catedral de Santiago",
+          "es": "La catedral de Santiago.",
+          "pt": "Destino final do Caminho; a cidade velha de Santiago é Patrimônio Mundial da UNESCO. A fachada do Obradoiro é barroca."
+        },
+        {
+          "emoji": "💨",
+          "title": "Botafumeiro",
+          "es": "El botafumeiro vuela.",
+          "pt": "Grande incensário balançado por oito \"tiraboleiros\" com uma corda. Só funciona em certas missas e festas; confira o calendário no site da catedral."
+        }
+      ]
+    }
+  ]
+}

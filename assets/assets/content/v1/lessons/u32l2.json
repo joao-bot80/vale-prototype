@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "id": "u32l2",
+  "title": "Rías Baixas e albariño",
+  "scenario": "Galicia · Cambados, Rías Baixas",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 95: Vinho branco",
+      "lines": [
+        {
+          "speaker": "Lino",
+          "es": "Estamos en Cambados, la capital del albariño.",
+          "pt": "Estamos em Cambados, a capital do albariño."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Qué es una ría? ¿Un río?",
+          "pt": "O que é uma ria? Um rio?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Es un valle de río inundado por el mar. Por eso hay tanto marisco.",
+          "pt": "É um vale de rio inundado pelo mar. Por isso há tantos frutos do mar."
+        },
+        {
+          "speaker": "Bodeguero",
+          "es": "¿Queréis probar el albariño? Es fresco y afrutado.",
+          "pt": "Querem provar o albariño? É fresco e frutado."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Sí, pero solo una copa, que luego conduce Lino.",
+          "pt": "Sim, mas só uma taça, que depois o Lino dirige."
+        },
+        {
+          "speaker": "Lino",
+          "es": "¡Yo agua, como siempre!",
+          "pt": "Eu, água, como sempre!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Una copa de vino\" é:",
+      "options": [
+        "Uma taça de vinho",
+        "Uma copa de árvore",
+        "Um copo d'água"
+      ],
+      "correct": 0,
+      "explanation": "Copa = taça."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Só uma taça.",
+      "answer": [
+        "Solo",
+        "una",
+        "copa."
+      ],
+      "distractors": [
+        "taza",
+        "vaso"
+      ],
+      "explanation": "Taza = xícara!"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Es un valle de río inundado por el mar. Por eso hay tanto marisco.",
+      "options": [
+        "É um vale de rio inundado pelo mar. Por isso há tantos frutos do mar.",
+        "É um lago de montanha.",
+        "É um rio muito longo."
+      ],
+      "correct": 0,
+      "explanation": "As rías são típicas da costa galega."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "ría",
+          "kind": "quase",
+          "meaning": "ria (braço de mar)",
+          "tip": "Rías Baixas, Rías Altas."
+        },
+        {
+          "es": "albariño",
+          "kind": "quase",
+          "meaning": "albariño (vinho/uva)",
+          "tip": "Branco das Rías Baixas."
+        },
+        {
+          "es": "catar",
+          "kind": "armadilha",
+          "meaning": "degustar",
+          "tip": "Não é catar do chão!"
+        },
+        {
+          "es": "afrutado",
+          "kind": "quase",
+          "meaning": "frutado",
+          "tip": "Vino afrutado."
+        },
+        {
+          "es": "bodeguero",
+          "kind": "quase",
+          "meaning": "produtor de vinho",
+          "tip": "Dono da adega."
+        },
+        {
+          "es": "viñedo",
+          "kind": "quase",
+          "meaning": "vinhedo",
+          "tip": "Viña = vinha."
+        },
+        {
+          "es": "sacacorchos",
+          "kind": "quase",
+          "meaning": "saca-rolhas",
+          "tip": "Saca + corchos."
+        },
+        {
+          "es": "vendimia",
+          "kind": "quase",
+          "meaning": "vindima",
+          "tip": "Colheita da uva."
+        },
+        {
+          "es": "carné de conducir",
+          "kind": "quase",
+          "meaning": "carteira de motorista",
+          "tip": "Carné = carteira."
+        },
+        {
+          "es": "brindar con agua",
+          "kind": "quase",
+          "meaning": "brindar com água",
+          "tip": "Quem dirige!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Conduce Lino\" significa:",
+      "options": [
+        "O Lino dirige",
+        "O Lino conduz a orquestra",
+        "O Lino conduz a conversa"
+      ],
+      "correct": 0,
+      "explanation": "Conducir = dirigir carro."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "O Lino dirige depois.",
+      "answer": [
+        "Luego",
+        "conduce",
+        "Lino."
+      ],
+      "distractors": [
+        "dirige",
+        "logo"
+      ],
+      "explanation": "\"Conducir\" = dirigir."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, pero solo una copa, que luego conduce Lino.",
+      "options": [
+        "Sim, mas só uma taça, que depois o Lino dirige.",
+        "Sim, a garrafa toda.",
+        "Não bebo nada."
+      ],
+      "correct": 0,
+      "explanation": "Álcool e direção: tolerância baixa na Espanha."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"¿Tienes carné de ___?\" (dirigir)",
+      "options": [
+        "conducir",
+        "dirigir",
+        "manejar"
+      ],
+      "correct": 0,
+      "explanation": "Na Espanha: conducir."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Una copa de albariño.",
+          "options": [
+            "Uma taça de albariño.",
+            "Uma copa de albariño."
+          ],
+          "correct": 0,
+          "joke": "Copa = taça."
+        },
+        {
+          "spanish": "Yo conduzco.",
+          "options": [
+            "Eu dirijo.",
+            "Eu conduzo a orquestra."
+          ],
+          "correct": 0,
+          "joke": "Conducir = dirigir."
+        },
+        {
+          "spanish": "Paseamos por el viñedo.",
+          "options": [
+            "Passeamos pelo vinhedo.",
+            "Passeamos pelo vinagre."
+          ],
+          "correct": 0,
+          "joke": "Viñedo = vinhedo."
+        },
+        {
+          "spanish": "Es un vino afrutado.",
+          "options": [
+            "É um vinho frutado.",
+            "É um vinho de frutas sem álcool."
+          ],
+          "correct": 0,
+          "joke": "Afrutado = frutado."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Galicia",
+      "items": [
+        {
+          "emoji": "🍇",
+          "title": "Albariño",
+          "es": "Albariño de las Rías Baixas.",
+          "pt": "Vinho branco da denominação de origem Rías Baixas; Cambados celebra a Festa do Albariño todo verão."
+        },
+        {
+          "emoji": "🌊",
+          "title": "Rías",
+          "es": "Rías Altas y Rías Baixas.",
+          "pt": "Rias são vales de rio invadidos pelo mar. Em galego \"Baixas\" = baixas; em castelhano também se diz \"Rías Bajas\"."
+        }
+      ]
+    }
+  ]
+}

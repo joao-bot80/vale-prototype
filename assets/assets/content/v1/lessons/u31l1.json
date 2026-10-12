@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u31l1",
+  "title": "Chegando a Santiago",
+  "scenario": "Santiago de Compostela · Oficina del Peregrino",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 91: Fim do Caminho",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Por fin! Llevo cinco días caminando desde Sarria.",
+          "pt": "Finalmente! Estou há cinco dias caminhando desde Sarria."
+        },
+        {
+          "speaker": "Lino",
+          "es": "¡Enhorabuena, peregrina! ¿Tienes la credencial sellada?",
+          "pt": "Parabéns, peregrina! Tem a credencial carimbada?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Sí, dos sellos al día, como piden.",
+          "pt": "Sim, dois carimbos por dia, como pedem."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Entonces te dan la Compostela. Hay que hacer al menos los últimos cien kilómetros a pie.",
+          "pt": "Então te dão a Compostela. Tem que fazer pelo menos os últimos cem quilômetros a pé."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Tengo ampollas en los pies, pero estoy feliz.",
+          "pt": "Estou com bolhas nos pés, mas estou feliz."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Ahora, a descansar. ¡Te lo has ganado!",
+          "pt": "Agora, descansar. Você mereceu!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Tengo ampollas\" significa:",
+      "options": [
+        "Estou com bolhas (nos pés)",
+        "Tenho ampolas de remédio",
+        "Tenho lâmpadas"
+      ],
+      "correct": 0,
+      "explanation": "Ampolla = bolha."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Estou há cinco dias caminhando.",
+      "answer": [
+        "Llevo",
+        "cinco",
+        "días",
+        "caminando."
+      ],
+      "distractors": [
+        "estoy",
+        "hace"
+      ],
+      "explanation": "Llevar + tempo + gerúndio."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Entonces te dan la Compostela. Hay que hacer al menos los últimos cien kilómetros a pie.",
+      "options": [
+        "Então te dão a Compostela. Tem que fazer pelo menos os últimos cem quilômetros a pé.",
+        "Te dão a Compostela sem caminhar.",
+        "Tem que fazer mil quilômetros."
+      ],
+      "correct": 0,
+      "explanation": "De bicicleta, os últimos 200 km."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "peregrino",
+          "kind": "quase",
+          "meaning": "peregrino",
+          "tip": "Peregrina no feminino."
+        },
+        {
+          "es": "credencial",
+          "kind": "quase",
+          "meaning": "credencial do peregrino",
+          "tip": "O \"passaporte\" do Caminho."
+        },
+        {
+          "es": "ampolla",
+          "kind": "armadilha",
+          "meaning": "bolha (na pele)",
+          "tip": "Não é ampola!"
+        },
+        {
+          "es": "albergue",
+          "kind": "quase",
+          "meaning": "albergue",
+          "tip": "Para peregrinos."
+        },
+        {
+          "es": "bastón",
+          "kind": "armadilha",
+          "meaning": "cajado / bastão",
+          "tip": "Não é bastião!"
+        },
+        {
+          "es": "concha",
+          "kind": "quase",
+          "meaning": "concha (vieira)",
+          "tip": "Símbolo do Caminho."
+        },
+        {
+          "es": "etapa",
+          "kind": "igual",
+          "meaning": "etapa",
+          "tip": "Cada dia de caminhada."
+        },
+        {
+          "es": "descansar",
+          "kind": "igual",
+          "meaning": "descansar",
+          "tip": "Igual!"
+        },
+        {
+          "es": "ganarse",
+          "kind": "armadilha",
+          "meaning": "merecer",
+          "tip": "Te lo has ganado = você mereceu."
+        },
+        {
+          "es": "flecha amarilla",
+          "kind": "quase",
+          "meaning": "seta amarela",
+          "tip": "Sinaliza o Caminho."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Te lo has ganado\" significa:",
+      "options": [
+        "Você mereceu",
+        "Você ganhou na loteria",
+        "Você ganhou peso"
+      ],
+      "correct": 0,
+      "explanation": "Ganarse algo = merecer."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Siga a seta amarela.",
+      "answer": [
+        "Sigue",
+        "la",
+        "flecha",
+        "amarilla."
+      ],
+      "distractors": [
+        "seta",
+        "amarela"
+      ],
+      "explanation": "Flecha = seta."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Tengo ampollas en los pies, pero estoy feliz.",
+      "options": [
+        "Estou com bolhas nos pés, mas estou feliz.",
+        "Estou com frio, mas feliz.",
+        "Estou triste e cansada."
+      ],
+      "correct": 0,
+      "explanation": "Ampollas: o terror do peregrino."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Dormimos en un ___ de peregrinos.\"",
+      "options": [
+        "albergue",
+        "alberge",
+        "hostal"
+      ],
+      "correct": 0,
+      "explanation": "Albergue = albergue."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Me ha salido una ampolla.",
+          "options": [
+            "Apareceu uma bolha.",
+            "Saiu uma ampola."
+          ],
+          "correct": 0,
+          "joke": "Ampolla = bolha."
+        },
+        {
+          "spanish": "Llevo un bastón.",
+          "options": [
+            "Levo um cajado.",
+            "Levo um bastião."
+          ],
+          "correct": 0,
+          "joke": "Bastón = bastão."
+        },
+        {
+          "spanish": "Sigue las flechas amarillas.",
+          "options": [
+            "Siga as setas amarelas.",
+            "Siga as flechas de arco."
+          ],
+          "correct": 0,
+          "joke": "Flecha = seta."
+        },
+        {
+          "spanish": "Hoy es la última etapa.",
+          "options": [
+            "Hoje é a última etapa.",
+            "Hoje é a última parada de ônibus."
+          ],
+          "correct": 0,
+          "joke": "Etapa = etapa."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Galicia",
+      "items": [
+        {
+          "emoji": "🐚",
+          "title": "A Compostela",
+          "es": "La Compostela.",
+          "pt": "Para receber a Compostela na Oficina do Peregrino é preciso percorrer pelo menos os últimos 100 km a pé ou a cavalo (200 km de bicicleta), com a credencial carimbada (2 carimbos por dia nos últimos 100 km)."
+        },
+        {
+          "emoji": "🗣️",
+          "title": "Galego",
+          "es": "Bo camiño!",
+          "pt": "Na Galícia também se fala galego, língua cooficial. \"Bo camiño\" é o desejo de boa viagem aos peregrinos. Só para reconhecer."
+        }
+      ]
+    }
+  ]
+}

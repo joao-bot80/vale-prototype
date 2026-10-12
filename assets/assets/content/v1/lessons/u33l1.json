@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u33l1",
+  "title": "Vigo e o porto",
+  "scenario": "Vigo · puerto y calle de las Ostras",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 97: Ostras no porto",
+      "lines": [
+        {
+          "speaker": "Lino",
+          "es": "En la calle de las Ostras las abren delante de ti.",
+          "pt": "Na rua das Ostras elas são abertas na sua frente."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Se comen crudas?",
+          "pt": "Se comem cruas?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí, con un poco de limón. Son muy frescas.",
+          "pt": "Sim, com um pouco de limão. São muito frescas."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Vigo tiene un puerto enorme. ¿Es de pesca?",
+          "pt": "Vigo tem um porto enorme. É de pesca?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Es uno de los puertos pesqueros más importantes de Europa.",
+          "pt": "É um dos portos pesqueiros mais importantes da Europa."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Y en Navidad, las luces de Vigo son famosísimas, ¿no?",
+          "pt": "E no Natal, as luzes de Vigo são famosíssimas, né?"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Se comen crudas\" significa:",
+      "options": [
+        "Se comem cruas",
+        "Se comem cozidas",
+        "Se comem duras"
+      ],
+      "correct": 0,
+      "explanation": "Crudo = cru."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Se comem cruas?",
+      "answer": [
+        "¿Se",
+        "comen",
+        "crudas?"
+      ],
+      "distractors": [
+        "cruas",
+        "comem"
+      ],
+      "explanation": "Crudo/cruda = cru/crua."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Es uno de los puertos pesqueros más importantes de Europa.",
+      "options": [
+        "É um dos portos pesqueiros mais importantes da Europa.",
+        "É um porto só para turistas.",
+        "É um porto pequeno e antigo."
+      ],
+      "correct": 0,
+      "explanation": "Pesquero = de pesca."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "ostra",
+          "kind": "igual",
+          "meaning": "ostra",
+          "tip": "Igual!"
+        },
+        {
+          "es": "crudo",
+          "kind": "armadilha",
+          "meaning": "cru",
+          "tip": "Petróleo crudo = bruto."
+        },
+        {
+          "es": "marinero",
+          "kind": "quase",
+          "meaning": "marinheiro",
+          "tip": "Barco marinero."
+        },
+        {
+          "es": "pesquero",
+          "kind": "quase",
+          "meaning": "pesqueiro",
+          "tip": "Barco pesquero."
+        },
+        {
+          "es": "pescador",
+          "kind": "igual",
+          "meaning": "pescador",
+          "tip": "Igual!"
+        },
+        {
+          "es": "red",
+          "kind": "armadilha",
+          "meaning": "rede",
+          "tip": "Não é vermelho!"
+        },
+        {
+          "es": "anzuelo",
+          "kind": "quase",
+          "meaning": "anzol",
+          "tip": "Picar el anzuelo = cair na isca."
+        },
+        {
+          "es": "alumbrado",
+          "kind": "quase",
+          "meaning": "iluminação (de Natal)",
+          "tip": "Alumbrado navideño."
+        },
+        {
+          "es": "muelle",
+          "kind": "armadilha",
+          "meaning": "cais",
+          "tip": "Também mola!"
+        },
+        {
+          "es": "grúa",
+          "kind": "quase",
+          "meaning": "guindaste",
+          "tip": "Também guincho."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"La red de pesca\" é:",
+      "options": [
+        "A rede de pesca",
+        "A pesca vermelha",
+        "O barco"
+      ],
+      "correct": 0,
+      "explanation": "Red = rede."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Os barcos estão no cais.",
+      "answer": [
+        "Los",
+        "barcos",
+        "están",
+        "en",
+        "el",
+        "muelle."
+      ],
+      "distractors": [
+        "cais",
+        "puerto el"
+      ],
+      "explanation": "Muelle = cais."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, con un poco de limón. Son muy frescas.",
+      "options": [
+        "Sim, com um pouco de limão. São muito frescas.",
+        "Não, sempre fritas.",
+        "Sim, com açúcar."
+      ],
+      "correct": 0,
+      "explanation": "Ostras abertas na hora."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"El barco está en el ___.\" (cais)",
+      "options": [
+        "muelle",
+        "cais",
+        "muello"
+      ],
+      "correct": 0,
+      "explanation": "Muelle = cais (e mola)."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Echan la red al mar.",
+          "options": [
+            "Jogam a rede no mar.",
+            "Jogam o vermelho no mar."
+          ],
+          "correct": 0,
+          "joke": "Red = rede."
+        },
+        {
+          "spanish": "Este pescado está crudo.",
+          "options": [
+            "Este peixe está cru.",
+            "Este peixe está bruto."
+          ],
+          "correct": 0,
+          "joke": "Crudo = cru."
+        },
+        {
+          "spanish": "Quedamos en el muelle.",
+          "options": [
+            "Nos encontramos no cais.",
+            "Nos encontramos na mola."
+          ],
+          "correct": 0,
+          "joke": "Muelle = cais."
+        },
+        {
+          "spanish": "Ha picado el anzuelo.",
+          "options": [
+            "Caiu na isca.",
+            "Picou o anzol com a mão."
+          ],
+          "correct": 0,
+          "joke": "Picar el anzuelo = cair na armadilha."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Galicia",
+      "items": [
+        {
+          "emoji": "⚓",
+          "title": "Porto de Vigo",
+          "es": "Vigo, ciudad del mar.",
+          "pt": "Vigo, a maior cidade da Galícia, tem um dos portos pesqueiros mais importantes da Europa. Na rua das Ostras, ostras abertas na hora."
+        },
+        {
+          "emoji": "💡",
+          "title": "Luzes de Natal",
+          "es": "Las luces de Navidad de Vigo.",
+          "pt": "Nos últimos anos, a iluminação de Natal de Vigo virou atração turística, com milhões de luzes."
+        }
+      ]
+    }
+  ]
+}

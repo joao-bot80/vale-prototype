@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u32l1",
+  "title": "Chove em Galicia",
+  "scenario": "Galicia · día de lluvia",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 94: Guarda-chuva sempre",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¿Otra vez llueve? ¡Llevo tres días con el paraguas!",
+          "pt": "De novo chovendo? Estou há três dias com o guarda-chuva!"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Bienvenida a Galicia. Aquí hay mil palabras para la lluvia.",
+          "pt": "Bem-vinda à Galícia. Aqui há mil palavras para a chuva."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Ah, sí? ¿Como cuáles?",
+          "pt": "Ah, é? Como quais?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "En castellano decimos llovizna, chaparrón, aguacero... y en gallego, muchas más.",
+          "pt": "Em castelhano dizemos garoa, pancada de chuva, aguaceiro... e em galego, muitas mais."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Pues necesito unas botas de agua.",
+          "pt": "Então preciso de umas galochas."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Y un chubasquero. ¡Por eso todo está tan verde!",
+          "pt": "E uma capa de chuva. Por isso tudo é tão verde!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Llovizna\" é:",
+      "options": [
+        "Garoa",
+        "Tempestade",
+        "Granizo"
+      ],
+      "correct": 0,
+      "explanation": "Chuva fininha."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Estou há três dias com o guarda-chuva.",
+      "answer": [
+        "Llevo",
+        "tres",
+        "días",
+        "con",
+        "el",
+        "paraguas."
+      ],
+      "distractors": [
+        "guardalluvia",
+        "estoy"
+      ],
+      "explanation": "Paraguas = guarda-chuva."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "En castellano decimos llovizna, chaparrón, aguacero... y en gallego, muchas más.",
+      "options": [
+        "Em castelhano dizemos garoa, pancada de chuva, aguaceiro... e em galego, muitas mais.",
+        "Aqui nunca chove.",
+        "Só existe uma palavra para chuva."
+      ],
+      "correct": 0,
+      "explanation": "O galego tem um vocabulário enorme para a chuva."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "paraguas",
+          "kind": "armadilha",
+          "meaning": "guarda-chuva",
+          "tip": "Para + aguas."
+        },
+        {
+          "es": "llovizna",
+          "kind": "quase",
+          "meaning": "garoa",
+          "tip": "Lloviznar = garoar."
+        },
+        {
+          "es": "chaparrón",
+          "kind": "quase",
+          "meaning": "pancada de chuva",
+          "tip": "Forte e curta."
+        },
+        {
+          "es": "aguacero",
+          "kind": "quase",
+          "meaning": "aguaceiro",
+          "tip": "Chuva forte."
+        },
+        {
+          "es": "chubasquero",
+          "kind": "armadilha",
+          "meaning": "capa de chuva",
+          "tip": "Não é chuveiro!"
+        },
+        {
+          "es": "botas de agua",
+          "kind": "quase",
+          "meaning": "galochas",
+          "tip": "Botas de borracha."
+        },
+        {
+          "es": "charco",
+          "kind": "armadilha",
+          "meaning": "poça",
+          "tip": "Não é charque!"
+        },
+        {
+          "es": "empapado",
+          "kind": "quase",
+          "meaning": "encharcado",
+          "tip": "Estoy empapada."
+        },
+        {
+          "es": "niebla",
+          "kind": "armadilha",
+          "meaning": "neblina / névoa",
+          "tip": "Não é nébula!"
+        },
+        {
+          "es": "verde",
+          "kind": "igual",
+          "meaning": "verde",
+          "tip": "Igual!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"He pisado un charco\" significa:",
+      "options": [
+        "Pisei numa poça",
+        "Pisei no charque",
+        "Pisei num buraco"
+      ],
+      "correct": 0,
+      "explanation": "Charco = poça."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Estou encharcada.",
+      "answer": [
+        "Estoy",
+        "empapada."
+      ],
+      "distractors": [
+        "mojada",
+        "encharcada"
+      ],
+      "explanation": "Empapado = completamente molhado."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Y un chubasquero. ¡Por eso todo está tan verde!",
+      "options": [
+        "E uma capa de chuva. Por isso tudo é tão verde!",
+        "E um ventilador. Faz muito calor!",
+        "E protetor solar."
+      ],
+      "correct": 0,
+      "explanation": "Chubasquero = capa de chuva."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Hay mucha ___, no se ve nada.\" (névoa)",
+      "options": [
+        "niebla",
+        "neblina",
+        "nube"
+      ],
+      "correct": 0,
+      "explanation": "Niebla = névoa."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Ponte el chubasquero.",
+          "options": [
+            "Põe a capa de chuva.",
+            "Liga o chuveiro."
+          ],
+          "correct": 0,
+          "joke": "Chubasquero = capa de chuva."
+        },
+        {
+          "spanish": "Cuidado con el charco.",
+          "options": [
+            "Cuidado com a poça.",
+            "Cuidado com o charque."
+          ],
+          "correct": 0,
+          "joke": "Charco = poça."
+        },
+        {
+          "spanish": "Hay niebla en la ría.",
+          "options": [
+            "Tem névoa na ria.",
+            "Tem uma nébula na ria."
+          ],
+          "correct": 0,
+          "joke": "Niebla = névoa."
+        },
+        {
+          "spanish": "Se me ha roto el paraguas.",
+          "options": [
+            "Quebrou meu guarda-chuva.",
+            "Quebrou meu para-brisa."
+          ],
+          "correct": 0,
+          "joke": "Paraguas = guarda-chuva."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Galicia",
+      "items": [
+        {
+          "emoji": "🌧️",
+          "title": "Chuva galega",
+          "es": "En Galicia llueve mucho.",
+          "pt": "A Galícia é uma das regiões mais chuvosas da Espanha, sobretudo no outono e inverno. Por isso a paisagem é tão verde."
+        },
+        {
+          "emoji": "💬",
+          "title": "Palavras de chuva",
+          "es": "Orballo, chuvisca, treboada.",
+          "pt": "O galego tem dezenas de palavras para chuva, como \"orballo\" (garoa fina). Só para reconhecer; em castelhano diga \"llovizna\"."
+        }
+      ]
+    }
+  ]
+}
