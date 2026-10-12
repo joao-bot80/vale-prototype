@@ -64,7 +64,7 @@
       ],
       "distractors": [
         "tirar",
-        "sacar"
+        "tiro"
       ],
       "explanation": "\"Tirar\" em espanhol é jogar fora!"
     },
@@ -88,9 +88,9 @@
       "cards": [
         {
           "es": "maceta",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "vaso de planta",
-          "tip": "Vaso (de beber) = \"vaso\"!"
+          "tip": "Maceta = vaso de planta, e também marreta pequena (maceta), como em português."
         },
         {
           "es": "jarra",
@@ -130,9 +130,9 @@
         },
         {
           "es": "pozo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "poço",
-          "tip": "Não é \"pozo\" de comida!"
+          "tip": "Pozo = poço."
         },
         {
           "es": "vecina",

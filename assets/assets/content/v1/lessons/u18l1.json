@@ -87,9 +87,9 @@
       "cards": [
         {
           "es": "cuadro",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "quadro / pintura",
-          "tip": "Pintar un cuadro."
+          "tip": "Cuadro = quadro / pintura."
         },
         {
           "es": "pintor",
@@ -140,10 +140,10 @@
           "tip": "Maestra = mestra."
         },
         {
-          "es": "soler",
+          "es": "apodo",
           "kind": "armadilha",
-          "meaning": "costumar",
-          "tip": "Suelo ir = costumo ir."
+          "meaning": "apelido (alcunha)",
+          "tip": "Apodo = apelido carinhoso. Apodo não tem nada de zombaria aqui."
         }
       ]
     },
@@ -171,7 +171,7 @@
       ],
       "distractors": [
         "tirar",
-        "sacar"
+        "sacando"
       ],
       "explanation": "\"Tirar\" = jogar fora!"
     },
@@ -195,10 +195,10 @@
       "options": [
         "suelo",
         "soelo",
-        "acostumbro a"
+        "costumo"
       ],
       "correct": 0,
-      "explanation": "\"Soler\": suelo, sueles, suele..."
+      "explanation": "\"Soler\": suelo, sueles, suele... \"Costumo\" é português."
     },
     {
       "type": "boss",

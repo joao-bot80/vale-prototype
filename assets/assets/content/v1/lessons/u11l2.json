@@ -62,7 +62,7 @@
         "contratado!"
       ],
       "distractors": [
-        "contrataron",
+        "contrataram",
         "contratada"
       ],
       "explanation": "Pretérito perfecto: novidade de hoje/agora."
@@ -93,15 +93,15 @@
         },
         {
           "es": "jornada",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "carga horária",
-          "tip": "Jornada completa = tempo integral."
+          "tip": "Jornada = jornada de trabalho, carga horária (\"jornada completa\" = tempo integral)."
         },
         {
           "es": "jefe",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "chefe",
-          "tip": "Com j e sem \"ch\"."
+          "tip": "Jefe = chefe: com j e sem \"ch\"."
         },
         {
           "es": "sueldo",
@@ -111,39 +111,39 @@
         },
         {
           "es": "paro",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "desemprego / seguro-desemprego",
-          "tip": "Estar en paro = estar desempregado."
+          "tip": "Paro = desemprego / seguro-desemprego (\"estar en paro\"). Também \"eu paro\", igual."
         },
         {
           "es": "baja",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "licença médica / desligamento",
-          "tip": "Estar de baja = estar afastado."
+          "tip": "Baja = licença médica (\"estar de baja\", como \"de baixa\" em Portugal) e desligamento. Também é \"baixa\" (altura)."
         },
         {
           "es": "alta",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "registro / inscrição",
-          "tip": "Dar de alta = registrar o trabalhador."
+          "tip": "Alta = registro (\"dar de alta\" o trabalhador) e também alta médica, como em português."
         },
         {
           "es": "autónomo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "trabalhador autônomo / MEI",
-          "tip": "Ser autónomo = trabalhar por conta própria."
+          "tip": "Autónomo = trabalhador autônomo. Só muda o acento."
         },
         {
           "es": "plantilla",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "equipe / quadro de funcionários",
-          "tip": "Também é palmilha e modelo (template)."
+          "tip": "Plantilla = equipe / quadro de funcionários. Também palmilha e modelo (template)."
         },
         {
-          "es": "cotizar",
-          "kind": "quase",
-          "meaning": "contribuir (INSS)",
-          "tip": "Cotizar a la Seguridad Social = contribuir."
+          "es": "quitar",
+          "kind": "armadilha",
+          "meaning": "tirar, remover",
+          "tip": "Quitar = tirar. Quitar uma dívida é \"saldar\"."
         }
       ]
     },
@@ -178,7 +178,7 @@
       ],
       "distractors": [
         "registrado",
-        "dio"
+        "deu"
       ],
       "explanation": "\"Dar de alta\" = registrar."
     },

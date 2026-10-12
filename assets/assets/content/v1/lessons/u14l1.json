@@ -64,7 +64,7 @@
         "entrar?"
       ],
       "distractors": [
-        "tiene",
+        "tem",
         "tem"
       ],
       "explanation": "\"Hay que\" + infinitivo = é preciso."
@@ -107,9 +107,9 @@
         },
         {
           "es": "bosque",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "floresta / bosque",
-          "tip": "Bosque = floresta."
+          "tip": "Bosque = bosque / floresta."
         },
         {
           "es": "silencio",
@@ -137,15 +137,15 @@
         },
         {
           "es": "puente romano",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "ponte romana",
-          "tip": "Puente é masculino!"
+          "tip": "Puente romano = ponte romana. Atenção: puente é masculino!"
         },
         {
-          "es": "muralla",
-          "kind": "quase",
-          "meaning": "muralha",
-          "tip": "Quase igual."
+          "es": "cadera",
+          "kind": "armadilha",
+          "meaning": "quadril",
+          "tip": "Cadera = quadril. Cadeira é \"silla\"."
         }
       ]
     },
@@ -171,7 +171,7 @@
         "pena."
       ],
       "distractors": [
-        "vale",
+        "valer",
         "valor"
       ],
       "explanation": "Também se diz \"vale la pena\"."

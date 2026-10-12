@@ -117,9 +117,9 @@
         },
         {
           "es": "muleta",
-          "kind": "armadilha",
+          "kind": "igual",
           "meaning": "muleta",
-          "tip": "Igual! Mas cuidado: muleta também é do toureiro."
+          "tip": "Muleta = muleta. E também a capa vermelha do toureiro."
         },
         {
           "es": "tirita",
@@ -171,7 +171,7 @@
         "tobillo."
       ],
       "distractors": [
-        "torcí",
+        "torci",
         "tornozelo"
       ],
       "explanation": "\"Torcerse\": me he torcido."
@@ -195,11 +195,11 @@
       "prompt": "Complete: \"Te ponemos una ___ en el pie.\" (gesso)",
       "options": [
         "escayola",
-        "yeso",
+        "escaiola",
         "gesso"
       ],
       "correct": 0,
-      "explanation": "Escayola = gesso ortopédico (também se diz yeso)."
+      "explanation": "Escayola = gesso ortopédico (também se diz yeso). \"Escaiola\" é a grafia em português."
     },
     {
       "type": "boss",

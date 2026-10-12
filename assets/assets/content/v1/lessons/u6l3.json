@@ -125,15 +125,15 @@
         },
         {
           "es": "enfadado",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "zangado",
-          "tip": "Enfadado = bravo, irritado."
+          "tip": "Enfadado = zangado, bravo (em português \"enfadado\" também é irritado/aborrecido)."
         },
         {
           "es": "jubilado",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "aposentado",
-          "tip": "Não tem nada a ver com júbilo."
+          "tip": "Jubilado = aposentado (em português \"jubilado\" também é aposentado, sobretudo professor)."
         },
         {
           "es": "zurdo",

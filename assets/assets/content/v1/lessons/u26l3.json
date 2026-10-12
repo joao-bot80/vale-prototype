@@ -99,9 +99,9 @@
         },
         {
           "es": "cal",
-          "kind": "armadilha",
+          "kind": "igual",
           "meaning": "cal (para pintar)",
-          "tip": "Não confundir com sal!"
+          "tip": "Cal = cal (para pintar). Não confundir com sal!"
         },
         {
           "es": "carretera",
@@ -169,7 +169,7 @@
         "aparcar?"
       ],
       "distractors": [
-        "estacionar",
+        "parcar",
         "parquear"
       ],
       "explanation": "Na Espanha: aparcar."
@@ -193,11 +193,11 @@
       "prompt": "Complete: \"No hay sitio para ___.\" (estacionar)",
       "options": [
         "aparcar",
-        "estacionar",
+        "parcar",
         "parquear"
       ],
       "correct": 0,
-      "explanation": "Aparcar = estacionar (Espanha)."
+      "explanation": "Aparcar = estacionar (Espanha). \"Parquear\" é latino-americano e \"parcar\" não existe."
     },
     {
       "type": "boss",

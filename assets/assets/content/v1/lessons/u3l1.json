@@ -46,11 +46,11 @@
       "prompt": "Como se diz \"siga reto\" na Espanha?",
       "options": [
         "Sigue todo recto",
-        "Sigue todo derecho",
+        "Sigue todo reto",
         "Sigue a la derecha"
       ],
       "correct": 0,
-      "explanation": "Na Espanha: \"todo recto\". \"Derecho\" é mais latino-americano, e \"a la derecha\" = à direita."
+      "explanation": "Na Espanha: \"todo recto\". \"Reto\" é português, e \"a la derecha\" = à direita. (Na América Latina também se ouve \"todo derecho\".)"
     },
     {
       "type": "build",
@@ -128,15 +128,15 @@
         },
         {
           "es": "cerca",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "perto",
-          "tip": "A cerca de madeira é \"valla\"."
+          "tip": "Cerca = perto (\"cerca de\" = perto de / cerca de, como em português). A cerca de madeira é \"valla\"."
         },
         {
           "es": "tirar",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "puxar / jogar fora",
-          "tip": "Nas portas: \"tirar\" = puxe, \"empujar\" = empurre."
+          "tip": "Tirar = jogar fora / atirar, e nas portas \"tirar\" = puxe (\"empujar\" = empurre)."
         },
         {
           "es": "pronto",
@@ -146,9 +146,9 @@
         },
         {
           "es": "contestar",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "responder, atender",
-          "tip": "Contestar (discordar) é \"rebatir\" ou \"discutir\"."
+          "tip": "Contestar = responder (em português também: contestar uma pergunta). Atender o telefone também é \"contestar\"."
         }
       ]
     },

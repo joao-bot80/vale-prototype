@@ -125,21 +125,21 @@
         },
         {
           "es": "manguera",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "mangueira (de água)",
-          "tip": "Não é a árvore!"
+          "tip": "Manguera = mangueira de água. A árvore mangueira é \"mango\"."
         },
         {
           "es": "pueblo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "cidade pequena / povoado",
-          "tip": "Não é \"povo\" só."
+          "tip": "Pueblo = cidade pequena / povoado, e também povo."
         },
         {
           "es": "zapatillas",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "tênis",
-          "tip": "Não é sapatilha de balé!"
+          "tip": "Zapatillas = tênis (e chinelos de casa). Sapatilha de balé é \"zapatilla de ballet\"."
         },
         {
           "es": "aplastar",
@@ -171,7 +171,7 @@
         "pongo?"
       ],
       "distractors": [
-        "visto",
+        "vesto",
         "pono"
       ],
       "explanation": "\"Ponerse\" = vestir."

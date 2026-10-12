@@ -66,7 +66,7 @@
       ],
       "distractors": [
         "acho",
-        "pienso"
+        "acredito"
       ],
       "explanation": "\"Creo que\" = acho que."
     },
@@ -96,9 +96,9 @@
         },
         {
           "es": "carril",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "faixa / pista",
-          "tip": "Carril bici = ciclovia. Não é trilho de trem (\"vía\")."
+          "tip": "Carril = faixa / pista (\"carril bici\" = ciclovia) e também trilho, como em português."
         },
         {
           "es": "río",
@@ -120,9 +120,9 @@
         },
         {
           "es": "casco",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "capacete",
-          "tip": "O casco da cidade (\"casco antiguo\") é o centro histórico."
+          "tip": "Casco = capacete. Também casco de navio e de cavalo, igual. \"Casco antiguo\" = centro histórico."
         },
         {
           "es": "rueda",
@@ -132,9 +132,9 @@
         },
         {
           "es": "timbre",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "campainha",
-          "tip": "Não é selo! A campainha da bici."
+          "tip": "Timbre = campainha. Timbre de voz e selo fiscal são iguais ao português."
         },
         {
           "es": "frenar",
@@ -143,10 +143,10 @@
           "tip": "Frenos = freios."
         },
         {
-          "es": "cuesta",
+          "es": "desenvolver",
           "kind": "armadilha",
-          "meaning": "ladeira / subida",
-          "tip": "\"Cuesta\" também é \"custa\" (de costar)."
+          "meaning": "desembrulhar",
+          "tip": "Desenvolver = desembrulhar (um presente). Desenvolver é \"desarrollar\"."
         }
       ]
     },

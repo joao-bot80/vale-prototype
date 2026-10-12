@@ -136,15 +136,15 @@
         },
         {
           "es": "mirador",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "mirante",
-          "tip": "Para ver a cidade."
+          "tip": "Mirador = mirante."
         },
         {
-          "es": "olímpico",
-          "kind": "quase",
-          "meaning": "olímpico",
-          "tip": "Acento no lí."
+          "es": "risco",
+          "kind": "armadilha",
+          "meaning": "penhasco, rochedo",
+          "tip": "Risco = penhasco. Risco (perigo) é \"riesgo\"."
         }
       ]
     },
@@ -193,11 +193,11 @@
       "prompt": "Complete: \"Un hotel con ___ al mar.\" (vista)",
       "options": [
         "vistas",
-        "vista",
+        "miradas",
         "visión"
       ],
       "correct": 0,
-      "explanation": "\"Con vistas al mar\" = com vista para o mar."
+      "explanation": "\"Con vistas al mar\" = com vista para o mar (também se ouve \"con vista al mar\")."
     },
     {
       "type": "boss",

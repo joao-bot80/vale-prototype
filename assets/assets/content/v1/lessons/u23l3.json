@@ -65,7 +65,7 @@
       ],
       "distractors": [
         "roubaram",
-        "robó"
+        "rubaron"
       ],
       "explanation": "\"Me han robado\" = me roubaram."
     },
@@ -89,9 +89,9 @@
       "cards": [
         {
           "es": "denuncia",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "boletim de ocorrência",
-          "tip": "Poner una denuncia."
+          "tip": "Denuncia = boletim de ocorrência (\"poner una denuncia\"), e também denúncia."
         },
         {
           "es": "comisaría",
@@ -101,9 +101,9 @@
         },
         {
           "es": "cartera",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "carteira",
-          "tip": "Também pasta escolar."
+          "tip": "Cartera = carteira, e também pasta escolar."
         },
         {
           "es": "robar",
@@ -173,7 +173,7 @@
         "denuncia."
       ],
       "distractors": [
-        "hacer",
+        "dar",
         "fazer"
       ],
       "explanation": "Na Espanha: poner una denuncia."

@@ -68,7 +68,7 @@
       ],
       "distractors": [
         "almorzar",
-        "tomar"
+        "fazer"
       ],
       "explanation": "\"Antes de comer\" = antes do almoço."
     },
@@ -110,15 +110,15 @@
         },
         {
           "es": "berberecho",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "berbigão",
-          "tip": "Marisco pequeno, em lata."
+          "tip": "Berberecho = berbigão: marisco pequeno, em lata."
         },
         {
           "es": "bodega",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "adega / bar",
-          "tip": "Também barzinho antigo de vinho e vermute."
+          "tip": "Bodega = adega e também barzinho antigo de vinho e vermute (como \"bodega\" em português)."
         },
         {
           "es": "aperitivo",
@@ -128,9 +128,9 @@
         },
         {
           "es": "lata",
-          "kind": "armadilha",
+          "kind": "igual",
           "meaning": "lata / conserva",
-          "tip": "\"Dar la lata\" = encher o saco!"
+          "tip": "Lata = lata. E \"dar la lata\" = encher o saco!"
         },
         {
           "es": "brindar",
@@ -140,15 +140,15 @@
         },
         {
           "es": "salud",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "saúde / tim-tim",
-          "tip": "Brinde: \"¡Salud!\""
+          "tip": "Salud = saúde, e no brinde \"¡Salud!\" = tim-tim."
         },
         {
-          "es": "mejillón",
-          "kind": "quase",
-          "meaning": "mexilhão",
-          "tip": "Quase igual."
+          "es": "estafa",
+          "kind": "armadilha",
+          "meaning": "golpe, fraude",
+          "tip": "Estafa = golpe/fraude. Estafa (cansaço) é \"agotamiento\"."
         }
       ]
     },

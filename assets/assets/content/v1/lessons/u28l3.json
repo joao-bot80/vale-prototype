@@ -86,9 +86,9 @@
       "cards": [
         {
           "es": "tutora",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "professora responsável pela turma",
-          "tip": "Não é tutora legal."
+          "tip": "Tutora = professora responsável pela turma, e também tutora legal."
         },
         {
           "es": "apoyo",
@@ -116,21 +116,21 @@
         },
         {
           "es": "apetecer",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "estar a fim",
-          "tip": "¿Qué te apetece?"
+          "tip": "¿Qué te apetece? = o que você está a fim? (em português \"apetecer\" também existe)."
         },
         {
           "es": "notas",
-          "kind": "armadilha",
+          "kind": "igual",
           "meaning": "notas / boletim",
-          "tip": "Las notas = o boletim."
+          "tip": "Notas = notas / boletim."
         },
         {
           "es": "deberes",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "lição de casa",
-          "tip": "Não é deveres morais!"
+          "tip": "Deberes = lição de casa, e também deveres."
         },
         {
           "es": "recreo",
@@ -195,10 +195,10 @@
       "options": [
         "deberes",
         "debers",
-        "tareas"
+        "liciones"
       ],
       "correct": 0,
-      "explanation": "Deberes = lição de casa (Espanha). \"Tareas\" também se ouve."
+      "explanation": "Deberes = lição de casa (Espanha). \"Tareas\" também se ouve, sobretudo na América Latina."
     },
     {
       "type": "boss",

@@ -94,15 +94,15 @@
         },
         {
           "es": "chupete",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "chupeta",
-          "tip": "Não é chupetinha de bala!"
+          "tip": "Chupete = chupeta."
         },
         {
           "es": "anginas",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "amígdalas / amigdalite",
-          "tip": "Não é angina de peito."
+          "tip": "Anginas = amígdalas / amigdalite (no Brasil também se diz \"angina\" para dor de garganta). Angina de peito também existe."
         },
         {
           "es": "pediatra",
@@ -136,15 +136,15 @@
         },
         {
           "es": "piojos",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "piolhos",
-          "tip": "Comum na escola!"
+          "tip": "Piojos = piolhos. Comum na escola!"
         },
         {
           "es": "mocos",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "catarro / meleca",
-          "tip": "Tener mocos."
+          "tip": "Mocos = catarro / meleca (em Portugal \"monco\")."
         }
       ]
     },

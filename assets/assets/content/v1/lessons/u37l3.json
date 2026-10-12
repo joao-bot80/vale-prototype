@@ -117,9 +117,9 @@
         },
         {
           "es": "plano",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "mapa da cidade",
-          "tip": "Não é plano (ideia)!"
+          "tip": "Plano = mapa da cidade, e também plano (superfície). Plano (ideia) é \"plan\"."
         },
         {
           "es": "balcón de madera",
@@ -141,9 +141,9 @@
         },
         {
           "es": "conductor",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "motorista",
-          "tip": "Não é condutor elétrico!"
+          "tip": "Conductor = motorista, e também condutor."
         }
       ]
     },
@@ -195,10 +195,10 @@
       "options": [
         "bono",
         "bônus",
-        "pase"
+        "passe"
       ],
       "correct": 0,
-      "explanation": "Bono = passe."
+      "explanation": "Bono = passe (de viagens). \"Passe\" é português."
     },
     {
       "type": "boss",

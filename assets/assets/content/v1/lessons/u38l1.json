@@ -90,9 +90,9 @@
       "cards": [
         {
           "es": "lentejuela",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "lantejoula",
-          "tip": "Não é lentilha!"
+          "tip": "Lentejuela = lantejoula."
         },
         {
           "es": "reina",
@@ -126,9 +126,9 @@
         },
         {
           "es": "traje",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "roupa / fantasia",
-          "tip": "Não é trajeto!"
+          "tip": "Traje = roupa / fantasia, como \"traje\" em português."
         },
         {
           "es": "purpurina",
@@ -138,15 +138,15 @@
         },
         {
           "es": "careta",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "máscara",
-          "tip": "Não é careta (cara feia)!"
+          "tip": "Careta = máscara (como careta de carnaval). Careta (cara feia) é \"mueca\"."
         },
         {
-          "es": "entierro de la sardina",
-          "kind": "quase",
-          "meaning": "enterro da sardinha",
-          "tip": "Fim do carnaval."
+          "es": "neto",
+          "kind": "armadilha",
+          "meaning": "líquido (salário, peso)",
+          "tip": "Sueldo neto = salário líquido. Neto é \"nieto\"."
         }
       ]
     },
@@ -197,11 +197,11 @@
       "prompt": "Complete: \"Me pongo una ___ de gato.\" (máscara)",
       "options": [
         "careta",
-        "máscara de carnaval",
+        "mascarilla",
         "cara"
       ],
       "correct": 0,
-      "explanation": "Careta = máscara."
+      "explanation": "Careta = máscara (de fantasia). Mascarilla = máscara cirúrgica!"
     },
     {
       "type": "boss",

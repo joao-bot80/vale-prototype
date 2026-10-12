@@ -107,9 +107,9 @@
         },
         {
           "es": "tierno",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "macio",
-          "tip": "Também terno (carinhoso)."
+          "tip": "Tierno = macio (carne), e também terno (carinhoso)."
         },
         {
           "es": "peso",
@@ -197,10 +197,10 @@
       "options": [
         "tierno",
         "terno",
-        "blando"
+        "tenro"
       ],
       "correct": 0,
-      "explanation": "Tierno = macio (carne)."
+      "explanation": "Tierno = macio (carne). \"Tenro\" é português."
     },
     {
       "type": "boss",

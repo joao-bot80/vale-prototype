@@ -65,7 +65,7 @@
         "todos."
       ],
       "distractors": [
-        "agradecer",
+        "agradezer",
         "dar"
       ],
       "explanation": "\"Daros\" = dar a vocês."
@@ -108,9 +108,9 @@
         },
         {
           "es": "estupendo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "excelente / ótimo",
-          "tip": "Não é estúpido!"
+          "tip": "Estupendo = ótimo, excelente (em português também). Não é estúpido!"
         },
         {
           "es": "placer",
@@ -143,10 +143,10 @@
           "tip": "Me río."
         },
         {
-          "es": "orgullo",
+          "es": "billón",
           "kind": "armadilha",
-          "meaning": "orgulho",
-          "tip": "Não é \"orgulho\" com j."
+          "meaning": "trilhão",
+          "tip": "Un billón = um trilhão (10¹²). Um bilhão é \"mil millones\"."
         }
       ]
     },
@@ -173,7 +173,7 @@
         "placer."
       ],
       "distractors": [
-        "fue",
+        "foi",
         "prazer"
       ],
       "explanation": "Pretérito perfeito: ha sido."

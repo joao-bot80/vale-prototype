@@ -130,21 +130,21 @@
         },
         {
           "es": "suelto",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "trocado (moedas)",
-          "tip": "Solteiro é \"soltero\"."
+          "tip": "Suelto = solto, igual. Mas \"dinero suelto\" = trocado. Solteiro é \"soltero\"."
         },
         {
           "es": "efectivo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "dinheiro vivo",
-          "tip": "\"En efectivo\" = em dinheiro."
+          "tip": "Efectivo = efetivo, igual. Mas \"en efectivo\" = em dinheiro vivo."
         },
         {
           "es": "invitar",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "convidar e pagar",
-          "tip": "\"Te invito\" no bar = eu pago pra você."
+          "tip": "Invitar = convidar. No bar, \"te invito\" = eu pago pra você."
         }
       ]
     },

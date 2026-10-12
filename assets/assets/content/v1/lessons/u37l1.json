@@ -92,9 +92,9 @@
         },
         {
           "es": "cima",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "cume / topo",
-          "tip": "Não é \"em cima\" genérico!"
+          "tip": "Cima = cume / topo (como \"em cima\")."
         },
         {
           "es": "tramo",
@@ -122,9 +122,9 @@
         },
         {
           "es": "forro polar",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "fleece / blusa polar",
-          "tip": "Não é forro!"
+          "tip": "Forro polar = blusa de fleece. Forro (de roupa) também é \"forro\"."
         },
         {
           "es": "retama",

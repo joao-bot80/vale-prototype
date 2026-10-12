@@ -89,9 +89,9 @@
       "cards": [
         {
           "es": "borrador",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "rascunho",
-          "tip": "Também apagador / borracha!"
+          "tip": "Borrador = rascunho, e também apagador."
         },
         {
           "es": "declaración",
@@ -101,9 +101,9 @@
         },
         {
           "es": "casilla",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "campo do formulário",
-          "tip": "Não é casinha!"
+          "tip": "Casilla = campo do formulário (quadradinho), e também casinha."
         },
         {
           "es": "pagador",
@@ -131,21 +131,21 @@
         },
         {
           "es": "ejercicio",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "ano fiscal",
-          "tip": "Também exercício físico!"
+          "tip": "Ejercicio = ano fiscal, e também exercício (físico, escolar)."
         },
         {
           "es": "domiciliar",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "débito automático",
-          "tip": "Domiciliar el pago."
+          "tip": "Domiciliar el pago = débito automático em conta."
         },
         {
-          "es": "recargo",
+          "es": "suceso",
           "kind": "armadilha",
-          "meaning": "acréscimo por atraso",
-          "tip": "Recargo por pagar fuera de plazo."
+          "meaning": "acontecimento, ocorrência",
+          "tip": "Suceso = acontecimento (página de sucesos = página policial). Sucesso é \"éxito\"."
         }
       ]
     },

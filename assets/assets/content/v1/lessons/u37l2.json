@@ -50,7 +50,7 @@
         "Mingau"
       ],
       "correct": 0,
-      "explanation": "Em Canárias e América: papa; no padrão peninsular também patata."
+      "explanation": "Nas Canárias e na América Latina: papa. Na Espanha peninsular: patata."
     },
     {
       "type": "build",
@@ -88,9 +88,9 @@
       "cards": [
         {
           "es": "papa",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "batata",
-          "tip": "Não é o papa nem papai!"
+          "tip": "Nas Canárias (e na América Latina), papa = batata; no resto da Espanha, \"patata\". Também é o papa."
         },
         {
           "es": "arrugado",

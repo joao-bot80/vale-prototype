@@ -89,9 +89,9 @@
       "cards": [
         {
           "es": "ilusión",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "animação / expectativa",
-          "tip": "\"Me hace ilusión\" = estou animado!"
+          "tip": "\"Me hace ilusión\" = estou animado. Ilusão (de ótica) também é \"ilusión\"."
         },
         {
           "es": "cante",
@@ -101,9 +101,9 @@
         },
         {
           "es": "compás",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "ritmo / compasso",
-          "tip": "No flamenco, o compás é tudo."
+          "tip": "Compás = compasso / ritmo. No flamenco, o compás é tudo."
         },
         {
           "es": "bailaora",
@@ -142,10 +142,10 @@
           "tip": "Igual!"
         },
         {
-          "es": "ropa",
+          "es": "lentilla",
           "kind": "armadilha",
-          "meaning": "roupa",
-          "tip": "Não é \"roupa\" com u."
+          "meaning": "lente de contato",
+          "tip": "Lentilla = lente de contato. Lentilha é \"lenteja\"."
         }
       ]
     },

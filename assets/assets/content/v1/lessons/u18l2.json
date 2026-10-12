@@ -89,15 +89,15 @@
       "cards": [
         {
           "es": "lámpara",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "luminária",
-          "tip": "Lâmpada (bombilla) é outra coisa!"
+          "tip": "Lámpara = luminária / lâmpada. A lâmpada (bulbo) é \"bombilla\"."
         },
         {
           "es": "bombilla",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "lâmpada",
-          "tip": "Também bomba de chimarrão!"
+          "tip": "Bombilla = lâmpada (bulbo), e também a bomba do chimarrão (bombilha), como no Sul."
         },
         {
           "es": "regatear",

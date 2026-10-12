@@ -98,9 +98,9 @@
         },
         {
           "es": "invitado",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "convidado",
-          "tip": "Invitar = convidar (não é \"invitar\" a brigar!)."
+          "tip": "Invitado = convidado."
         },
         {
           "es": "brindis",
@@ -128,9 +128,9 @@
         },
         {
           "es": "cumplido",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "elogio",
-          "tip": "Hacer un cumplido."
+          "tip": "Hacer un cumplido = fazer um elogio. Também é \"cumprido\", igual."
         },
         {
           "es": "vecino ruidoso",

@@ -64,7 +64,7 @@
         "internet."
       ],
       "distractors": [
-        "comprar",
+        "compro",
         "pela"
       ],
       "explanation": "\"Comprarlas\" = comprá-las (las entradas)."
@@ -89,9 +89,9 @@
       "cards": [
         {
           "es": "edificio",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "prédio",
-          "tip": "Edifício também, mas o comum é prédio."
+          "tip": "Edificio = edifício / prédio."
         },
         {
           "es": "obra",
@@ -119,15 +119,15 @@
         },
         {
           "es": "techo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "teto",
-          "tip": "Teto, não telhado (\"tejado\")."
+          "tip": "Techo = teto. Telhado é \"tejado\"."
         },
         {
           "es": "escalera",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "escada",
-          "tip": "Não é escaleira!"
+          "tip": "Escalera = escada."
         },
         {
           "es": "ascensor",
@@ -142,10 +142,10 @@
           "tip": "Igualzinho!"
         },
         {
-          "es": "guía",
-          "kind": "quase",
-          "meaning": "guia",
-          "tip": "Pessoa ou livro."
+          "es": "rasgo",
+          "kind": "armadilha",
+          "meaning": "traço (do rosto, de caráter)",
+          "tip": "Rasgo = traço. Rasgo (rasgão) é \"rotura\" ou \"desgarrón\"."
         }
       ]
     },

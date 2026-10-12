@@ -141,9 +141,9 @@
         },
         {
           "es": "lagartija",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "lagartixa",
-          "tip": "Não é lagarta!"
+          "tip": "Lagartija = lagartixa."
         }
       ]
     },

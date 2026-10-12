@@ -99,9 +99,9 @@
         },
         {
           "es": "ligar",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "emulsionar (molho) / paquerar",
-          "tip": "Não é telefonar!"
+          "tip": "Ligar = emulsionar o molho, paquerar, e também ligar/unir. Ligar (telefonar) é \"llamar\"."
         },
         {
           "es": "remojo",
@@ -111,9 +111,9 @@
         },
         {
           "es": "cocinar",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "cozinhar",
-          "tip": "Cozinha = cocina."
+          "tip": "Cocinar = cozinhar. Cozinha = cocina."
         },
         {
           "es": "pescadera",

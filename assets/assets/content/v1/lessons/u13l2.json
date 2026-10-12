@@ -64,7 +64,7 @@
       ],
       "distractors": [
         "celular",
-        "teléfono"
+        "celu"
       ],
       "explanation": "Na Espanha: \"móvil\"."
     },
@@ -88,9 +88,9 @@
       "cards": [
         {
           "es": "móvil",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "celular",
-          "tip": "Móvel (móveis) = \"mueble\"."
+          "tip": "Móvil = celular (e móvel/que se move). O móvel da casa é \"mueble\"."
         },
         {
           "es": "mochila",
@@ -106,9 +106,9 @@
         },
         {
           "es": "bañarse",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "entrar na água / tomar banho",
-          "tip": "Na praia, bañarse = nadar, entrar no mar."
+          "tip": "Bañarse = banhar-se; na praia, entrar na água."
         },
         {
           "es": "gafas",
@@ -173,7 +173,7 @@
       ],
       "distractors": [
         "bolsa",
-        "meto"
+        "meter"
       ],
       "explanation": "\"Lo\" = o (o celular)."
     },

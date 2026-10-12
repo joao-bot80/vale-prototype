@@ -88,9 +88,9 @@
       "cards": [
         {
           "es": "sepia",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "choco (molusco)",
-          "tip": "Não é a cor sépia!"
+          "tip": "Sepia = choco (molusco), como a \"sépia\" em português, e também a cor sépia."
         },
         {
           "es": "docena",
@@ -100,9 +100,9 @@
         },
         {
           "es": "pescado",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "peixe (para comer)",
-          "tip": "Pez = peixe vivo."
+          "tip": "Pescado = peixe para comer (o pescado). O peixe vivo é \"pez\"."
         },
         {
           "es": "pescadería",
@@ -124,9 +124,9 @@
         },
         {
           "es": "zumo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "suco",
-          "tip": "Na Espanha: zumo; na América: jugo."
+          "tip": "Zumo = suco na Espanha (em Portugal \"sumo\"); na América Latina, \"jugo\"."
         },
         {
           "es": "frutería",
@@ -141,10 +141,10 @@
           "tip": "Almejas a la marinera."
         },
         {
-          "es": "calamar",
-          "kind": "quase",
-          "meaning": "lula",
-          "tip": "Calamares a la romana."
+          "es": "sobrenombre",
+          "kind": "armadilha",
+          "meaning": "apelido (alcunha)",
+          "tip": "Sobrenombre = apelido. Sobrenome é \"apellido\"."
         }
       ]
     },
@@ -172,7 +172,7 @@
       ],
       "distractors": [
         "sacola",
-        "das"
+        "dá"
       ],
       "explanation": "\"Ponerme\" = me servir, me dar."
     },

@@ -107,15 +107,15 @@
         },
         {
           "es": "préstamo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "empréstimo",
-          "tip": "Prestação é \"cuota\" ou \"plazo\"."
+          "tip": "Préstamo = empréstimo. Prestação é \"cuota\" ou \"plazo\"."
         },
         {
           "es": "cajero",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "caixa eletrônico",
-          "tip": "O caixa (pessoa) também é \"cajero\"."
+          "tip": "Cajero = caixa eletrônico e também o caixa (pessoa), como \"caixeiro\"."
         },
         {
           "es": "comisión",
@@ -136,10 +136,10 @@
           "tip": "Dinheiro em geral = \"dinero\"."
         },
         {
-          "es": "recibo",
-          "kind": "quase",
-          "meaning": "conta / boleto",
-          "tip": "O \"recibo de la luz\" = conta de luz."
+          "es": "prejuicio",
+          "kind": "armadilha",
+          "meaning": "preconceito",
+          "tip": "Prejuicio = preconceito. Prejuízo é \"perjuicio\" ou \"pérdida\"."
         },
         {
           "es": "titular",

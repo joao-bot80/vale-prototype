@@ -125,27 +125,27 @@
         },
         {
           "es": "piso",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "apartamento / andar",
-          "tip": "O chão é \"suelo\"."
+          "tip": "Piso = apartamento e andar (como em português). O chão é \"suelo\"."
         },
         {
           "es": "ático",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "cobertura (último andar)",
-          "tip": "O sótão é \"buhardilla\"."
+          "tip": "Ático = cobertura (último andar). Sótão é \"buhardilla\"."
         },
         {
           "es": "despacho",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "escritório (sala)",
-          "tip": "Despacho (envio) é \"envío\"."
+          "tip": "Despacho = escritório (sala), como \"despacho\" em Portugal. Também envio/despacho."
         },
         {
-          "es": "salón",
+          "es": "rojo",
           "kind": "armadilha",
-          "meaning": "sala de estar",
-          "tip": "Salão de festas é \"salón de actos\" ou \"sala de fiestas\"."
+          "meaning": "vermelho",
+          "tip": "Rojo = vermelho. Roxo é \"morado\"."
         }
       ]
     },

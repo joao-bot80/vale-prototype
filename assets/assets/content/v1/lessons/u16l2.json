@@ -63,7 +63,7 @@
         "menos?"
       ],
       "distractors": [
-        "recibo",
+        "recebo",
         "ganho"
       ],
       "explanation": "\"Cobrar\" = receber (pagamento)."
@@ -88,9 +88,9 @@
       "cards": [
         {
           "es": "nómina",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "holerite / contracheque",
-          "tip": "Não é nominata!"
+          "tip": "Nómina = holerite / contracheque (e folha de pagamento)."
         },
         {
           "es": "bruto",
@@ -118,9 +118,9 @@
         },
         {
           "es": "paga",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "pagamento / salário",
-          "tip": "La paga del mes."
+          "tip": "Paga = pagamento / salário (\"la paga extra\")."
         },
         {
           "es": "devengo",
@@ -130,21 +130,21 @@
         },
         {
           "es": "Hacienda",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "Receita Federal",
-          "tip": "Não é fazenda (granja)!"
+          "tip": "Hacienda = Receita Federal (como Ministério da Fazenda). Também fazenda (propriedade)."
         },
         {
           "es": "ingreso",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "entrada / depósito",
-          "tip": "Ingresar dinero = depositar."
+          "tip": "Ingreso = depósito / entrada de dinheiro, e também ingresso (admissão). Ingresso de show é \"entrada\"."
         },
         {
-          "es": "horas extra",
-          "kind": "quase",
-          "meaning": "horas extras",
-          "tip": "Igual."
+          "es": "mostrador",
+          "kind": "armadilha",
+          "meaning": "balcão (de loja)",
+          "tip": "Mostrador = balcão de atendimento. Mostrador de relógio é \"esfera\"."
         }
       ]
     },
@@ -175,8 +175,8 @@
         "líquido."
       ],
       "distractors": [
-        "recibes",
-        "neto"
+        "recebes",
+        "liquido"
       ],
       "explanation": "Também \"neto\"."
     },

@@ -87,9 +87,9 @@
       "cards": [
         {
           "es": "cristal",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "vidro",
-          "tip": "Copa de cristal; ventana de cristal."
+          "tip": "Cristal = vidro (\"ventana de cristal\"), e também cristal."
         },
         {
           "es": "galería",
@@ -105,9 +105,9 @@
         },
         {
           "es": "abrigo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "casaco",
-          "tip": "Não é abrigo (refúgio) só."
+          "tip": "Abrigo = casaco, e também abrigo (refúgio), como em português."
         },
         {
           "es": "abrigarse",
@@ -193,11 +193,11 @@
       "prompt": "Complete: \"La ventana es de ___.\" (vidro)",
       "options": [
         "cristal",
-        "vidrio",
+        "cristalo",
         "vidro"
       ],
       "correct": 0,
-      "explanation": "Cristal = vidro (de janela). Vidrio também."
+      "explanation": "Cristal = vidro (de janela). Vidrio também. \"Cristalo\" não existe."
     },
     {
       "type": "boss",

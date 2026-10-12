@@ -100,9 +100,9 @@
         },
         {
           "es": "tardar",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "demorar / levar tempo",
-          "tip": "¿Cuánto tarda?"
+          "tip": "Tardar = demorar (em português \"tardar\" também). ¿Cuánto tarda?"
         },
         {
           "es": "vagón",
@@ -112,21 +112,21 @@
         },
         {
           "es": "asiento",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "assento / lugar",
-          "tip": "Não é \"acento\"!"
+          "tip": "Asiento = assento / lugar. Acento é \"acento\"."
         },
         {
           "es": "revisor",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "fiscal do trem",
-          "tip": "Não é revisor de texto!"
+          "tip": "No trem, revisor = fiscal de bilhetes (como em Portugal). Revisor de texto também é \"revisor\"."
         },
         {
           "es": "pasillo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "corredor",
-          "tip": "Asiento de pasillo."
+          "tip": "Pasillo = corredor (\"asiento de pasillo\"). Parece \"passadiço\"."
         },
         {
           "es": "mazapán",
@@ -141,10 +141,10 @@
           "tip": "Toledo é famosa pelas espadas."
         },
         {
-          "es": "excursión",
-          "kind": "quase",
-          "meaning": "excursão / passeio",
-          "tip": "Hacer una excursión."
+          "es": "enfadarse",
+          "kind": "armadilha",
+          "meaning": "zangar-se",
+          "tip": "Enfadarse = ficar bravo. Enfadar-se (entediar-se) é \"aburrirse\"."
         }
       ]
     },
@@ -170,7 +170,7 @@
       ],
       "distractors": [
         "demora",
-        "tiempo"
+        "quanto"
       ],
       "explanation": "\"Tardar\" = demorar."
     },

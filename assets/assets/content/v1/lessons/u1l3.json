@@ -137,9 +137,9 @@
         },
         {
           "es": "salsa",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "molho",
-          "tip": "Salsinha é \"perejil\"."
+          "tip": "Na cozinha é molho (salsinha é \"perejil\"). A dança salsa é igual nos dois idiomas."
         },
         {
           "es": "jabón",
@@ -149,9 +149,9 @@
         },
         {
           "es": "sitio",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "lugar",
-          "tip": "Sítio (no campo) é \"finca\" ou \"casa de campo\"."
+          "tip": "\"Sitio\" = lugar (e site na internet, como \"sítio\" em Portugal). Sítio no campo é \"finca\"."
         }
       ]
     },

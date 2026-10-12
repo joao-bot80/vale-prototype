@@ -95,9 +95,9 @@
         },
         {
           "es": "capa",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "camada",
-          "tip": "Também capa (roupa)!"
+          "tip": "Capa = camada, e também capa (roupa)."
         },
         {
           "es": "ola gigante",
@@ -119,9 +119,9 @@
         },
         {
           "es": "grabar",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "gravar / filmar",
-          "tip": "Não é gravar no sentido de pesar."
+          "tip": "Grabar = gravar / filmar."
         },
         {
           "es": "serie",
@@ -142,10 +142,10 @@
           "tip": "Proteção UNESCO."
         },
         {
-          "es": "resbaladizo",
-          "kind": "quase",
-          "meaning": "escorregadio",
-          "tip": "Suelo resbaladizo."
+          "es": "vello",
+          "kind": "armadilha",
+          "meaning": "pelo do corpo",
+          "tip": "Vello = pelinho do corpo. Velho é \"viejo\"."
         }
       ]
     },
@@ -172,7 +172,7 @@
       ],
       "distractors": [
         "escorregadio",
-        "resbaloso"
+        "escorregadizo"
       ],
       "explanation": "Resbaladizo = escorregadio."
     },

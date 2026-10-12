@@ -94,7 +94,7 @@
         },
         {
           "es": "tos",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "tosse",
           "tip": "Curtinho: tos = tosse."
         },
@@ -118,9 +118,9 @@
         },
         {
           "es": "venda",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "atadura / faixa",
-          "tip": "\"Venda\" (de vender) também existe, mas aqui é a faixa do curativo."
+          "tip": "Venda = atadura, e também venda nos olhos, como em português. Venda (de vender) é \"venta\"."
         },
         {
           "es": "alergia",
@@ -130,9 +130,9 @@
         },
         {
           "es": "jarabe",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "xarope",
-          "tip": "Quase \"xarope\", mas com j."
+          "tip": "Jarabe = xarope: muda a grafia."
         },
         {
           "es": "pastilla",
@@ -141,10 +141,10 @@
           "tip": "Também pastilha."
         },
         {
-          "es": "urgencias",
-          "kind": "quase",
-          "meaning": "pronto-socorro",
-          "tip": "Lembra \"urgência\"."
+          "es": "funda",
+          "kind": "armadilha",
+          "meaning": "capa (de celular, de travesseiro)",
+          "tip": "Funda = capa/fronha. Fundo é \"profundo\"."
         }
       ]
     },

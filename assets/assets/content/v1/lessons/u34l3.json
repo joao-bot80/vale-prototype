@@ -100,9 +100,9 @@
         },
         {
           "es": "estreno",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "estreia",
-          "tip": "Não é estreito!"
+          "tip": "Estreno = estreia (estrenar = estrear)."
         },
         {
           "es": "actriz",
@@ -112,9 +112,9 @@
         },
         {
           "es": "director",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "diretor (de cinema)",
-          "tip": "Igual, com c."
+          "tip": "Director = diretor: com c."
         },
         {
           "es": "subtítulos",
@@ -130,9 +130,9 @@
         },
         {
           "es": "doblaje",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "dublagem",
-          "tip": "Película doblada = dublado."
+          "tip": "Doblaje = dublagem. \"Película doblada\" = filme dublado."
         },
         {
           "es": "butaca",

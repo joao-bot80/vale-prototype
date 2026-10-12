@@ -65,7 +65,7 @@
       ],
       "distractors": [
         "metal de",
-        "navío"
+        "barcu"
       ],
       "explanation": "Igual ao português!"
     },
@@ -113,9 +113,9 @@
         },
         {
           "es": "chapa",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "chapa / placa de metal",
-          "tip": "Também tampinha!"
+          "tip": "Chapa = chapa / placa de metal, e também tampinha."
         },
         {
           "es": "según",
@@ -131,9 +131,9 @@
         },
         {
           "es": "araña",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "aranha",
-          "tip": "Maman, a aranha gigante."
+          "tip": "Araña = aranha. Maman, a aranha gigante."
         },
         {
           "es": "vanguardia",

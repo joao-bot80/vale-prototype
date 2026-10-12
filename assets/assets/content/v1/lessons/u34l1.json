@@ -93,9 +93,9 @@
         },
         {
           "es": "palillo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "palito",
-          "tip": "Não é palhinha!"
+          "tip": "Palillo = palito."
         },
         {
           "es": "pizarra",
@@ -193,11 +193,11 @@
       "prompt": "Complete: \"Cuenta los ___ para pagar.\" (palitos)",
       "options": [
         "palillos",
-        "palitos",
+        "paletas",
         "pajillas"
       ],
       "correct": 0,
-      "explanation": "Palillos = palitos."
+      "explanation": "Palillos = palitos (de dente/pintxo)."
     },
     {
       "type": "boss",

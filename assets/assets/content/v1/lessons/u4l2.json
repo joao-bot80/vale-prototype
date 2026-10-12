@@ -130,15 +130,15 @@
         },
         {
           "es": "grifo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "torneira",
-          "tip": "Grifo (animal mitológico) também é \"grifo\", mas em casa é torneira."
+          "tip": "Em casa, grifo = torneira. O animal mitológico grifo é igual."
         },
         {
           "es": "estufa",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "aquecedor",
-          "tip": "A estufa de plantas é \"invernadero\"."
+          "tip": "Estufa = aquecedor (sentido que também existe em português). A estufa de plantas é \"invernadero\"."
         },
         {
           "es": "taller",
@@ -171,7 +171,7 @@
         "piso."
       ],
       "distractors": [
-        "Adoro",
+        "Gusto",
         "apartamento"
       ],
       "explanation": "\"Me encanta\" = adoro, amo. Funciona como \"gustar\"."

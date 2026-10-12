@@ -93,21 +93,21 @@
         },
         {
           "es": "llama",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "chama (de fogo)",
-          "tip": "Também o animal lhama!"
+          "tip": "Llama = chama (de fogo), e também o animal lhama."
         },
         {
           "es": "piel",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "casca / pele",
-          "tip": "Piel de limón = casca."
+          "tip": "Piel = pele, e também casca (\"piel de limón\")."
         },
         {
           "es": "prender",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "acender (fogo)",
-          "tip": "Não é prender alguém (detener)!"
+          "tip": "Prender fuego = acender. Também prender/fixar. Prender alguém é \"detener\"."
         },
         {
           "es": "apagar",

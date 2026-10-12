@@ -61,7 +61,7 @@
         "lleva?"
       ],
       "distractors": [
-        "tiene",
+        "lleba",
         "leva"
       ],
       "explanation": "\"Llevar\" = levar (ingrediente)."
@@ -98,9 +98,9 @@
         },
         {
           "es": "garbanzo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "grão-de-bico",
-          "tip": "Não é garbanço!"
+          "tip": "Garbanzo = grão-de-bico (em português \"garbanço\" também existe)."
         },
         {
           "es": "cerdo",
@@ -110,9 +110,9 @@
         },
         {
           "es": "barro",
-          "kind": "armadilha",
+          "kind": "igual",
           "meaning": "barro / argila",
-          "tip": "Cazuela de barro."
+          "tip": "Barro = barro / argila (\"cazuela de barro\")."
         },
         {
           "es": "horno",
@@ -128,9 +128,9 @@
         },
         {
           "es": "cocido",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "cozido",
-          "tip": "Também um prato madrilenho!"
+          "tip": "Cocido = cozido, e também o prato madrilenho."
         },
         {
           "es": "sobras",
@@ -193,10 +193,10 @@
       "options": [
         "cocidos",
         "cozidos",
-        "cocinados"
+        "cocidas"
       ],
       "correct": 0,
-      "explanation": "\"Cocido\" = cozido."
+      "explanation": "\"Cocido\" = cozido; concorda com \"los garbanzos\": cocidos."
     },
     {
       "type": "boss",

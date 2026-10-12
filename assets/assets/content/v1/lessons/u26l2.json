@@ -113,15 +113,15 @@
         },
         {
           "es": "costar",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "custar / ser difícil",
-          "tip": "Me cuesta = tenho dificuldade."
+          "tip": "Costar = custar, e \"me cuesta\" = tenho dificuldade."
         },
         {
           "es": "hacer falta",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "ser preciso",
-          "tip": "Hace falta = é preciso."
+          "tip": "Hace falta = é preciso (em português \"fazer falta\" também é ser necessário)."
         },
         {
           "es": "disfrutar",

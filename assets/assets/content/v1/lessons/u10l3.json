@@ -99,9 +99,9 @@
         },
         {
           "es": "mudarse",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "mudar de casa",
-          "tip": "Mudar (trocar algo) é \"cambiar\"."
+          "tip": "Mudarse = mudar de casa, igual. Mas mudar (trocar algo) é \"cambiar\"."
         },
         {
           "es": "padrón",
@@ -135,15 +135,15 @@
         },
         {
           "es": "abajo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "embaixo",
-          "tip": "Não é \"abaixo-assinado\"... mas quase: abajo = embaixo."
+          "tip": "Abajo = embaixo / abaixo."
         },
         {
           "es": "escritura",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "escritura (de imóvel)",
-          "tip": "Também é \"escrita\"."
+          "tip": "Escritura = escritura de imóvel, e também escrita, como em português."
         }
       ]
     },

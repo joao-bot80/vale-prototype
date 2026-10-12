@@ -102,9 +102,9 @@
         },
         {
           "es": "arena",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "areia",
-          "tip": "Não é arena de show!"
+          "tip": "Arena = areia. A arena de touros também é \"arena\", igual."
         },
         {
           "es": "ola",
@@ -174,7 +174,7 @@
         "solar?"
       ],
       "distractors": [
-        "protector",
+        "protetor",
         "adónde"
       ],
       "explanation": "\"Crema solar\" = protetor solar."

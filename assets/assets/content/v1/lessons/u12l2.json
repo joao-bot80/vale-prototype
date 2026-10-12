@@ -111,9 +111,9 @@
         },
         {
           "es": "luego",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "depois",
-          "tip": "Não é \"logo\" (imediatamente)!"
+          "tip": "Luego = depois / mais tarde, não \"logo\" (imediatamente). \"Pienso, luego existo\" = logo, igual."
         },
         {
           "es": "cumpleaños",
@@ -129,9 +129,9 @@
         },
         {
           "es": "tío",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "cara / mano",
-          "tip": "Também tio, mas entre amigos é \"cara\"."
+          "tip": "Tío = tio, igual, e entre amigos é \"cara\", \"mano\"."
         },
         {
           "es": "guay",
@@ -140,10 +140,10 @@
           "tip": "Gíria da Espanha."
         },
         {
-          "es": "marcha",
+          "es": "escoba",
           "kind": "armadilha",
-          "meaning": "balada / agito",
-          "tip": "\"Salir de marcha\" = sair para a balada."
+          "meaning": "vassoura",
+          "tip": "Escoba = vassoura. Escova é \"cepillo\"."
         }
       ]
     },
@@ -173,7 +173,7 @@
       ],
       "distractors": [
         "logo",
-        "cervezas"
+        "chopes"
       ],
       "explanation": "\"Caña\" = chope pequeno."
     },
@@ -196,11 +196,11 @@
       "prompt": "Complete: \"¡Qué ___ tu camiseta!\" (legal)",
       "options": [
         "guay",
-        "guai",
+        "chévere",
         "güey"
       ],
       "correct": 0,
-      "explanation": "\"Guay\" = legal. \"Güey\" é do México!"
+      "explanation": "\"Guay\" = legal. \"Chévere\" é do Caribe/Venezuela e \"güey\" é do México!"
     },
     {
       "type": "boss",

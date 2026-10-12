@@ -89,21 +89,21 @@
       "cards": [
         {
           "es": "colegio",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "escola (primária)",
-          "tip": "Colégio = escola em geral."
+          "tip": "Colegio = escola (primária), como colégio."
         },
         {
           "es": "matrícula",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "matrícula / placa do carro",
-          "tip": "Dois sentidos!"
+          "tip": "Matrícula = matrícula e também placa do carro."
         },
         {
           "es": "curso",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "ano letivo / série",
-          "tip": "Curso escolar = ano letivo."
+          "tip": "Curso = curso, e \"curso escolar\" = ano letivo / série."
         },
         {
           "es": "primaria",
@@ -119,9 +119,9 @@
         },
         {
           "es": "comedor",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "refeitório",
-          "tip": "Não é \"comedor\" de gente!"
+          "tip": "Comedor = refeitório / sala de jantar. Também \"comedor\" (quem come), igual."
         },
         {
           "es": "sobrina",
@@ -131,15 +131,15 @@
         },
         {
           "es": "instituto",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "escola de ensino médio",
-          "tip": "Não é instituto de pesquisa."
+          "tip": "Instituto = escola de ensino médio (e também instituto, igual)."
         },
         {
-          "es": "mochila escolar",
-          "kind": "quase",
-          "meaning": "mochila da escola",
-          "tip": "Com material."
+          "es": "cena",
+          "kind": "armadilha",
+          "meaning": "jantar",
+          "tip": "Cena = jantar. Cena (de filme) é \"escena\"."
         },
         {
           "es": "uniforme",
@@ -197,11 +197,11 @@
       "prompt": "Complete: \"Mi hijo va al ___ en Secundaria.\" (escola de ensino médio)",
       "options": [
         "instituto",
-        "colegio",
+        "ginasio",
         "liceo"
       ],
       "correct": 0,
-      "explanation": "Instituto = escola pública de secundária."
+      "explanation": "Instituto = escola pública de secundária. \"Colegio\" é mais a escola de infantil e primária."
     },
     {
       "type": "boss",

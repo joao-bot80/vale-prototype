@@ -93,9 +93,9 @@
         },
         {
           "es": "paso",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "andor",
-          "tip": "Também passo."
+          "tip": "Na Semana Santa, paso = andor. Também passo, igual."
         },
         {
           "es": "hermandad",
@@ -117,9 +117,9 @@
         },
         {
           "es": "cirio",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "vela grande",
-          "tip": "Não é círio de Nazaré, mas parecido!"
+          "tip": "Cirio = círio, vela grande."
         },
         {
           "es": "incienso",
@@ -135,15 +135,15 @@
         },
         {
           "es": "pesado",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "pesado / chato",
-          "tip": "¡Qué pesado eres! = que chato!"
+          "tip": "Pesado = pesado, e também chato: \"¡Qué pesado eres!\"."
         },
         {
-          "es": "madrugá",
-          "kind": "quase",
-          "meaning": "madrugada (andaluz)",
-          "tip": "La Madrugá: a noite da Quinta para a Sexta-feira Santa."
+          "es": "morro",
+          "kind": "armadilha",
+          "meaning": "focinho, beiço",
+          "tip": "Morro = focinho (e \"¡qué morro!\" = que cara de pau!). Morro é \"cerro\" ou \"colina\"."
         }
       ]
     },
@@ -193,11 +193,11 @@
       "prompt": "Complete: \"¿Qué ha ___?\" (O que aconteceu?)",
       "options": [
         "pasado",
-        "pasao",
-        "acontecido"
+        "pasando",
+        "pasó"
       ],
       "correct": 0,
-      "explanation": "\"¿Qué ha pasado?\" = o que aconteceu? (pasao é fala informal)"
+      "explanation": "\"¿Qué ha pasado?\" = o que aconteceu? Depois de \"ha\" vem o particípio (pasado), não o gerúndio."
     },
     {
       "type": "boss",

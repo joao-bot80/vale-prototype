@@ -102,9 +102,9 @@
         },
         {
           "es": "navaja",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "navalha (marisco)",
-          "tip": "Também canivete!"
+          "tip": "Navaja = navalha (o marisco) e também canivete."
         },
         {
           "es": "lonja",
@@ -114,15 +114,15 @@
         },
         {
           "es": "picar",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "arder (pimenta) / beliscar",
-          "tip": "Algo para picar = petiscar."
+          "tip": "Picar = arder (pimenta), beliscar, petiscar, e também picar, igual."
         },
         {
           "es": "ración",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "porção",
-          "tip": "Media ración."
+          "tip": "Ración = porção (\"media ración\"), e também ração."
         },
         {
           "es": "pimiento de Padrón",
@@ -190,7 +190,7 @@
         "Não temos pimentões."
       ],
       "correct": 0,
-      "explanation": "Dito famoso: \"unos pican e outros non\"."
+      "explanation": "Dito famoso: \"uns pican e outros non\" (em galego)."
     },
     {
       "type": "choice",
@@ -199,10 +199,10 @@
       "options": [
         "cachelos",
         "cachetes",
-        "papas"
+        "cachos"
       ],
       "correct": 0,
-      "explanation": "Cachelos = batatas cozidas (Galícia)."
+      "explanation": "Cachelos = batatas cozidas (Galícia). \"Papas\" é das Canárias e da América Latina."
     },
     {
       "type": "boss",

@@ -96,9 +96,9 @@
         },
         {
           "es": "pimiento",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "pimentão",
-          "tip": "Pimenta é \"pimienta\"!"
+          "tip": "Pimiento = pimentão (em Portugal \"pimento\"). Pimenta é \"pimienta\"."
         },
         {
           "es": "gamba",
@@ -138,9 +138,9 @@
         },
         {
           "es": "cubierto",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "talher",
-          "tip": "Coberto = \"cubierto\" também, mas na mesa é talher."
+          "tip": "Na mesa, cubierto = talher. Também é \"coberto\", igual."
         },
         {
           "es": "brasa",

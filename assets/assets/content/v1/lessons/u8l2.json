@@ -63,8 +63,8 @@
         "volver."
       ],
       "distractors": [
-        "volveré",
-        "vuelvo"
+        "volví",
+        "vamos"
       ],
       "explanation": "\"Ir a + infinitivo\" é o futuro do dia a dia."
     },
@@ -100,15 +100,15 @@
         },
         {
           "es": "pajita",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "canudo",
-          "tip": "Não é palhinha de cadeira: é o canudo da bebida."
+          "tip": "Pajita = canudo de bebida (em Portugal \"palhinha\")."
         },
         {
           "es": "helado",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "sorvete",
-          "tip": "Gelado em português é \"frío\"."
+          "tip": "Helado = sorvete (em Portugal \"gelado\") e também gelado/congelado."
         },
         {
           "es": "grande",
@@ -124,9 +124,9 @@
         },
         {
           "es": "mojar",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "molhar",
-          "tip": "Molhar o farton na horchata."
+          "tip": "Mojar = molhar: só muda a grafia."
         },
         {
           "es": "chufa",
@@ -173,7 +173,7 @@
       ],
       "distractors": [
         "beber",
-        "tomamos"
+        "vais"
       ],
       "explanation": "\"Vamos a + infinitivo\" = vamos + verbo."
     },

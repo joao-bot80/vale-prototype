@@ -197,10 +197,10 @@
       "options": [
         "acento",
         "sotaque",
-        "tono"
+        "asiento"
       ],
       "correct": 0,
-      "explanation": "Acento = sotaque."
+      "explanation": "Acento = sotaque. Asiento = assento!"
     },
     {
       "type": "boss",

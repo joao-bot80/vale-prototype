@@ -93,9 +93,9 @@
         },
         {
           "es": "burbuja",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "bolha (de gás)",
-          "tip": "Não é burburinho!"
+          "tip": "Burbuja = bolha de gás (borbulha)."
         },
         {
           "es": "ácido",
@@ -117,9 +117,9 @@
         },
         {
           "es": "oler",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "cheirar",
-          "tip": "Huele bien = cheira bem."
+          "tip": "Oler = cheirar (olor = odor). Huele bien = cheira bem."
         },
         {
           "es": "hambre",
@@ -141,9 +141,9 @@
         },
         {
           "es": "compartir",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "dividir / compartilhar",
-          "tip": "Para compartir."
+          "tip": "Compartir = compartilhar / dividir."
         }
       ]
     },

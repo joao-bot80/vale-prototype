@@ -94,21 +94,21 @@
         },
         {
           "es": "firmar",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "assinar",
-          "tip": "Firma = assinatura."
+          "tip": "Firmar = assinar (como \"firmar um contrato\") e também firmar."
         },
         {
           "es": "indefinido",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "por tempo indeterminado",
-          "tip": "Contrato fijo / indefinido."
+          "tip": "Contrato indefinido = por tempo indeterminado. Indefinido (vago) é igual."
         },
         {
           "es": "temporal",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "temporário",
-          "tip": "Não é tempestade!"
+          "tip": "Temporal = temporário, e também temporal (tempestade), igual ao português."
         },
         {
           "es": "prorratear",
@@ -136,9 +136,9 @@
         },
         {
           "es": "convenio",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "convenção coletiva",
-          "tip": "Convenio colectivo do setor."
+          "tip": "Convenio = convênio / convenção coletiva do setor."
         },
         {
           "es": "baja voluntaria",
@@ -200,10 +200,10 @@
       "options": [
         "firma",
         "asinatura",
-        "rúbrica"
+        "asignatura"
       ],
       "correct": 0,
-      "explanation": "\"Firma\" = assinatura."
+      "explanation": "\"Firma\" = assinatura. Cuidado: \"asignatura\" é matéria escolar!"
     },
     {
       "type": "boss",

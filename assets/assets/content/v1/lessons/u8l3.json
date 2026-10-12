@@ -108,9 +108,9 @@
         },
         {
           "es": "ruido",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "barulho",
-          "tip": "Não é rua nem ruído suave: é barulho."
+          "tip": "Ruido = ruído, barulho."
         },
         {
           "es": "calle",

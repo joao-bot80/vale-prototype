@@ -115,15 +115,15 @@
         },
         {
           "es": "contador",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "medidor / relógio",
-          "tip": "Não é contador (contable)!"
+          "tip": "Contador = medidor (de luz, de água), como \"contador\" em Portugal. Contador (profissão) na Espanha é \"contable\"."
         },
         {
           "es": "lectura",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "leitura do medidor",
-          "tip": "Lectura del contador."
+          "tip": "Lectura = leitura (do medidor, de um livro)."
         },
         {
           "es": "comercializadora",
@@ -174,7 +174,7 @@
       ],
       "distractors": [
         "cambiado",
-        "mudé"
+        "mudei"
       ],
       "explanation": "\"Mudarse\" = mudar de casa."
     },

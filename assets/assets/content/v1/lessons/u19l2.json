@@ -118,15 +118,15 @@
         },
         {
           "es": "chispa",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "faísca",
-          "tip": "Não é chispa de churrasco."
+          "tip": "Chispa = faísca (em português também chispa)."
         },
         {
           "es": "hombro",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "ombro",
-          "tip": "Não é homem!"
+          "tip": "Hombro = ombro: com h."
         },
         {
           "es": "equilibrio",
@@ -136,9 +136,9 @@
         },
         {
           "es": "desfile",
-          "kind": "armadilha",
+          "kind": "igual",
           "meaning": "desfile",
-          "tip": "Igual, mas sem acento."
+          "tip": "Desfile = desfile."
         },
         {
           "es": "cabezudo",

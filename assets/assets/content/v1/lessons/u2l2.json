@@ -126,21 +126,21 @@
         },
         {
           "es": "tortilla",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "omelete de batata",
-          "tip": "Na Espanha não é a tortilla mexicana."
+          "tip": "Na Espanha, tortilla = omelete de batata (em Portugal \"tortilha\"). A tortilla mexicana é outra coisa."
         },
         {
           "es": "rico",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "gostoso (comida)",
-          "tip": "Também quer dizer rico, mas na mesa é elogio à comida."
+          "tip": "Rico = rico (com dinheiro), igual. Na mesa também é elogio: \"¡Qué rico!\" = que gostoso!"
         },
         {
           "es": "presunto",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "suposto (ex.: presunto culpable)",
-          "tip": "O presunto (frio) é \"jamón\"."
+          "tip": "Presunto = suposto (\"el presunto culpable\"), sentido que também existe em português. O presunto de comer é \"jamón\"."
         },
         {
           "es": "batata",

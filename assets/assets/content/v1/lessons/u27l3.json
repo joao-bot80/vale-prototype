@@ -123,15 +123,15 @@
         },
         {
           "es": "pena",
-          "kind": "armadilha",
+          "kind": "igual",
           "meaning": "pena / dó",
-          "tip": "¡Qué pena! = que pena."
+          "tip": "¡Qué pena! = que pena. Atenção: vergonha é \"vergüenza\"."
         },
         {
           "es": "vergüenza",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "vergonha",
-          "tip": "Pena ≠ vergüenza!"
+          "tip": "Vergüenza = vergonha."
         },
         {
           "es": "ninot",
@@ -140,10 +140,10 @@
           "tip": "Palavra valenciana usada em castelhano."
         },
         {
-          "es": "verbena popular",
-          "kind": "quase",
-          "meaning": "baile de rua",
-          "tip": "Verbena de San Juan."
+          "es": "brinco",
+          "kind": "armadilha",
+          "meaning": "pulo",
+          "tip": "Brinco = pulo. Brinco (joia) é \"pendiente\"."
         }
       ]
     },
@@ -168,7 +168,7 @@
         "pena!"
       ],
       "distractors": [
-        "lástima",
+        "penha",
         "vergüenza"
       ],
       "explanation": "Também se diz \"¡qué lástima!\"."

@@ -106,9 +106,9 @@
         },
         {
           "es": "marea",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "maré",
-          "tip": "Marea baja = maré baixa."
+          "tip": "Marea = maré. \"Marea baja\" = maré baixa."
         },
         {
           "es": "gaviota",
@@ -130,9 +130,9 @@
         },
         {
           "es": "sendero",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "trilha",
-          "tip": "Não é sendeiro."
+          "tip": "Sendero = trilha, senda."
         },
         {
           "es": "Atlántico",

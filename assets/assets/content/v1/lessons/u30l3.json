@@ -93,9 +93,9 @@
         },
         {
           "es": "despedirse",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "despedir-se",
-          "tip": "Não é demitir (despedir a alguien)!"
+          "tip": "Despedirse = despedir-se. Mas \"despedir a alguien\" = demitir."
         },
         {
           "es": "adiós",
@@ -111,15 +111,15 @@
         },
         {
           "es": "volver",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "voltar",
-          "tip": "Volver a + infinitivo = fazer de novo."
+          "tip": "Volver = voltar (\"volver a\" = fazer de novo), e também virar."
         },
         {
           "es": "seguir",
-          "kind": "armadilha",
+          "kind": "igual",
           "meaning": "continuar",
-          "tip": "Sigue recto = siga reto."
+          "tip": "Seguir = seguir / continuar. \"Sigue recto\" = siga reto."
         },
         {
           "es": "familia",
@@ -194,10 +194,10 @@
       "options": [
         "recto",
         "reto",
-        "derecho"
+        "direito"
       ],
       "correct": 0,
-      "explanation": "\"Todo recto\" = sempre reto."
+      "explanation": "\"Todo recto\" = sempre reto. \"Direito\" é português."
     },
     {
       "type": "boss",

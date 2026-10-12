@@ -87,21 +87,21 @@
       "cards": [
         {
           "es": "novela",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "romance (livro)",
-          "tip": "Novela de TV = telenovela."
+          "tip": "Novela = romance (livro), como novela literária. Novela de TV = telenovela."
         },
         {
           "es": "librería",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "livraria",
-          "tip": "Biblioteca = biblioteca."
+          "tip": "Librería = livraria. Biblioteca é \"biblioteca\"."
         },
         {
           "es": "festivo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "feriado",
-          "tip": "Día festivo."
+          "tip": "Festivo = feriado (\"día festivo\") e também festivo."
         },
         {
           "es": "rosa",
@@ -135,15 +135,15 @@
         },
         {
           "es": "caballero",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "cavaleiro / senhor",
-          "tip": "Também \"senhor\" educado."
+          "tip": "Caballero = cavaleiro, e também \"senhor\" educado."
         },
         {
-          "es": "puesto de flores",
-          "kind": "quase",
-          "meaning": "banca de flores",
-          "tip": "Puesto = banca."
+          "es": "calzada",
+          "kind": "armadilha",
+          "meaning": "pista (para carros)",
+          "tip": "Calzada = pista de rua. Calçada é \"acera\"."
         }
       ]
     },
@@ -171,7 +171,7 @@
       ],
       "distractors": [
         "romance",
-        "doy"
+        "dou"
       ],
       "explanation": "\"Novela\" = livro de ficção."
     },

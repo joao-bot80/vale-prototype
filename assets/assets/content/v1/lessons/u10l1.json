@@ -96,15 +96,15 @@
         },
         {
           "es": "cita",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "agendamento / encontro",
-          "tip": "Não é citação!"
+          "tip": "Aqui cita = agendamento / encontro marcado (\"cita previa\"). Também é citação, como em português."
         },
         {
           "es": "huella",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "impressão digital",
-          "tip": "Também pegada (huella del pie)."
+          "tip": "Huella = impressão digital, e também pegada."
         },
         {
           "es": "provincia",
@@ -138,15 +138,15 @@
         },
         {
           "es": "impreso",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "formulário",
-          "tip": "Não é só \"impresso\": é o formulário oficial."
+          "tip": "Impreso = impresso, igual, mas na papelada também é o formulário oficial."
         },
         {
-          "es": "gratis",
-          "kind": "quase",
-          "meaning": "grátis",
-          "tip": "Sem acento."
+          "es": "latir",
+          "kind": "armadilha",
+          "meaning": "bater (o coração)",
+          "tip": "Latir = bater (coração). Latir (cachorro) é \"ladrar\"."
         }
       ]
     },

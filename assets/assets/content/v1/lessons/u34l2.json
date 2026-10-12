@@ -106,9 +106,9 @@
         },
         {
           "es": "chaqueta",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "jaqueta",
-          "tip": "Não é chaqueta de pijama."
+          "tip": "Chaqueta = jaqueta / casaco."
         },
         {
           "es": "monte",
@@ -136,15 +136,15 @@
         },
         {
           "es": "despejado",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "céu limpo",
-          "tip": "Não é despejado (expulso)!"
+          "tip": "Cielo despejado = céu limpo (desimpedido). Despejado (expulso) é \"desahuciado\"."
         },
         {
           "es": "hacer bueno",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "fazer tempo bom",
-          "tip": "Hace bueno."
+          "tip": "Hace bueno = faz tempo bom."
         }
       ]
     },
@@ -196,10 +196,10 @@
       "options": [
         "despejado",
         "limpio",
-        "claro"
+        "despejo"
       ],
       "correct": 0,
-      "explanation": "Despejado = céu limpo."
+      "explanation": "Despejado = céu limpo, sem nuvens."
     },
     {
       "type": "boss",

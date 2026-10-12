@@ -132,15 +132,15 @@
         },
         {
           "es": "plátano",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "banana",
-          "tip": "Também se diz \"banana\", mas \"plátano\" é o mais comum na Espanha."
+          "tip": "Na Espanha, plátano = banana (também se diz \"banana\"). Plátano também é a árvore plátano, igual."
         },
         {
           "es": "piña",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "abacaxi",
-          "tip": "A pinha (fruta-do-conde) é \"chirimoya\"."
+          "tip": "Piña = abacaxi, e também pinha (do pinheiro), como em português."
         },
         {
           "es": "seta",

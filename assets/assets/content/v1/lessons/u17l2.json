@@ -65,7 +65,7 @@
       ],
       "distractors": [
         "inscrever",
-        "matricularme"
+        "inscrevo"
       ],
       "explanation": "\"Inscribirse\" = inscrever-se."
     },
@@ -95,21 +95,21 @@
         },
         {
           "es": "caducar",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "vencer / expirar",
-          "tip": "Fecha de caducidad = validade."
+          "tip": "Caducar = vencer / expirar (em português também \"caducar\")."
         },
         {
           "es": "convocatoria",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "data / edição da prova",
-          "tip": "Não é convocação militar!"
+          "tip": "Convocatoria = edição / data da prova, como uma convocatória."
         },
         {
           "es": "calificación",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "nota",
-          "tip": "Não é qualificação profissional."
+          "tip": "Calificación = nota, e também qualificação."
         },
         {
           "es": "apto",
@@ -119,9 +119,9 @@
         },
         {
           "es": "redacción",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "redação",
-          "tip": "Igual, com c."
+          "tip": "Redacción = redação: só muda a grafia."
         },
         {
           "es": "comprensión",
@@ -137,15 +137,15 @@
         },
         {
           "es": "aforo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "lotação",
-          "tip": "Aforo limitado."
+          "tip": "Aforo = lotação (\"aforo limitado\")."
         },
         {
-          "es": "centro examinador",
-          "kind": "quase",
-          "meaning": "centro de prova",
-          "tip": "Onde você faz o exame."
+          "es": "asignatura",
+          "kind": "armadilha",
+          "meaning": "matéria (escolar)",
+          "tip": "Asignatura = matéria. Assinatura é \"firma\"."
         }
       ]
     },
@@ -173,7 +173,7 @@
       ],
       "distractors": [
         "vence",
-        "expira"
+        "vencer"
       ],
       "explanation": "\"Caducar\" = vencer."
     },

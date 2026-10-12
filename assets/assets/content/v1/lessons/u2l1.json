@@ -114,21 +114,21 @@
         },
         {
           "es": "copa",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "taça / drinque",
-          "tip": "\"Ir de copas\" = sair pra beber."
+          "tip": "Copa = taça de vinho / drinque (\"ir de copas\"). Copa de árvore e Copa do Mundo são iguais."
         },
         {
           "es": "garrafa",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "garrafão",
-          "tip": "A garrafa normal é \"botella\"."
+          "tip": "Garrafa = garrafão (de água, de gás). A garrafa comum é \"botella\"."
         },
         {
           "es": "pastel",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "bolo / doce",
-          "tip": "O pastel de feira seria tipo \"empanadilla\"."
+          "tip": "Pastel = bolo / doce. O pastel de feira seria tipo \"empanadilla\". A cor pastel é igual."
         },
         {
           "es": "tapa",

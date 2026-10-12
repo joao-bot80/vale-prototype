@@ -106,27 +106,27 @@
         },
         {
           "es": "ordenador",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "computador",
-          "tip": "Ordenador na Espanha; \"computadora\" na América Latina."
+          "tip": "Ordenador = computador na Espanha; \"computadora\" na América Latina."
         },
         {
           "es": "pantalla",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "tela",
-          "tip": "Não é pantalha!"
+          "tip": "Pantalla = tela (de celular, de cinema)."
         },
         {
           "es": "ratón",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "mouse",
-          "tip": "Também é rato."
+          "tip": "Ratón = mouse, e também rato, como em português."
         },
         {
           "es": "correo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "e-mail / correio",
-          "tip": "Correio (Correos) e também e-mail."
+          "tip": "Correo = correio, e também e-mail (\"correo electrónico\")."
         },
         {
           "es": "ventana",
@@ -141,10 +141,10 @@
           "tip": "Sem o \"v\"."
         },
         {
-          "es": "regalo",
+          "es": "copo",
           "kind": "armadilha",
-          "meaning": "presente",
-          "tip": "Presente (tempo) = \"presente\"; o de dar = regalo."
+          "meaning": "floco (de neve)",
+          "tip": "Copo = floco. Copo (de beber) é \"vaso\"."
         }
       ]
     },
@@ -198,10 +198,10 @@
       "options": [
         "correo",
         "carta",
-        "mail"
+        "correio"
       ],
       "correct": 0,
-      "explanation": "\"Correo (electrónico)\" = e-mail. Também se ouve \"email\"."
+      "explanation": "\"Correo (electrónico)\" = e-mail. Também se ouve \"email\"/\"mail\". \"Correio\" é português."
     },
     {
       "type": "boss",
@@ -239,7 +239,7 @@
           "spanish": "Tengo una reunión a las diez.",
           "options": [
             "Tenho uma reunião às dez.",
-            "Tenho uma reunião de família às dez."
+            "Tenho uma união às dez."
           ],
           "correct": 0,
           "joke": "Reunión = reunião."

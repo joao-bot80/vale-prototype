@@ -137,9 +137,9 @@
         },
         {
           "es": "verbena",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "festa de rua",
-          "tip": "Não é verbena (planta) só!"
+          "tip": "Verbena = festa de rua, e também a planta verbena."
         },
         {
           "es": "farolillo",
@@ -170,7 +170,7 @@
         "mucho."
       ],
       "distractors": [
-        "trabajo",
+        "curra",
         "trampo"
       ],
       "explanation": "\"Currar\" = trabalhar (informal)."
@@ -236,7 +236,7 @@
           "spanish": "Ganamos el premio.",
           "options": [
             "Ganhamos o prêmio.",
-            "Ganhamos a premiação de fim de ano."
+            "Ganhamos o primo."
           ],
           "correct": 0,
           "joke": "Premio = prêmio."

@@ -94,9 +94,9 @@
         },
         {
           "es": "patinete",
-          "kind": "armadilha",
+          "kind": "igual",
           "meaning": "patinete",
-          "tip": "Patinete eléctrico."
+          "tip": "Patinete = patinete. \"Patinete eléctrico\"."
         },
         {
           "es": "peatón",
@@ -106,9 +106,9 @@
         },
         {
           "es": "glorieta",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "rotatória",
-          "tip": "Também caramanchão."
+          "tip": "Glorieta = rotatória, e também caramanchão."
         },
         {
           "es": "alquilar",
@@ -130,9 +130,9 @@
         },
         {
           "es": "candado",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "cadeado",
-          "tip": "Não é cândido!"
+          "tip": "Candado = cadeado."
         },
         {
           "es": "pedalear",

@@ -62,7 +62,7 @@
         "eventos."
       ],
       "distractors": [
-        "organicé",
+        "organizé",
         "organizei"
       ],
       "explanation": "Na Espanha, para experiências gerais, usa-se muito \"he + particípio\"."
@@ -93,9 +93,9 @@
         },
         {
           "es": "idioma",
-          "kind": "armadilha",
+          "kind": "igual",
           "meaning": "idioma / língua",
-          "tip": "Mais comum que \"lengua\" no CV."
+          "tip": "Idioma = idioma. Mais comum que \"lengua\" no CV."
         },
         {
           "es": "nativo",
@@ -129,9 +129,9 @@
         },
         {
           "es": "carrera",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "faculdade / curso superior",
-          "tip": "Também corrida!"
+          "tip": "Carrera = faculdade / curso superior, e também carreira e corrida."
         },
         {
           "es": "título",
@@ -170,7 +170,7 @@
         "España?"
       ],
       "distractors": [
-        "trabajaste",
+        "trabalhou",
         "já"
       ],
       "explanation": "\"Has trabajado\" = já trabalhou (experiência)."

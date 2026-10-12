@@ -95,9 +95,9 @@
         },
         {
           "es": "sede",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "escritório central",
-          "tip": "Sede (vontade de beber) = sed!"
+          "tip": "Sede = sede de empresa, igual. Mas sede (vontade de beber) é \"sed\"!"
         },
         {
           "es": "vacante",
@@ -131,21 +131,21 @@
         },
         {
           "es": "encargado",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "gerente / responsável",
-          "tip": "Encargado de tienda."
+          "tip": "Encargado = encarregado / gerente."
         },
         {
           "es": "prácticas",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "estágio",
-          "tip": "Hacer prácticas = estagiar."
+          "tip": "Prácticas = práticas, e \"hacer prácticas\" = estagiar."
         },
         {
-          "es": "candidatura",
-          "kind": "quase",
-          "meaning": "candidatura",
-          "tip": "Igual."
+          "es": "ganancia",
+          "kind": "armadilha",
+          "meaning": "lucro, ganho",
+          "tip": "Ganancia = lucro. Ganância é \"codicia\"."
         }
       ]
     },
@@ -173,7 +173,7 @@
         "semanas."
       ],
       "distractors": [
-        "comenzar",
+        "empiezo",
         "começo"
       ],
       "explanation": "\"Empezar\" = começar."

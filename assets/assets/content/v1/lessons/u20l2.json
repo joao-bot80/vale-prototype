@@ -89,15 +89,15 @@
       "cards": [
         {
           "es": "disfraz",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "fantasia",
-          "tip": "Não é disfarce de espião."
+          "tip": "Disfraz = fantasia (de carnaval) e também disfarce."
         },
         {
           "es": "gracioso",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "engraçado",
-          "tip": "Não é \"gracioso\" (elegante)."
+          "tip": "Gracioso = engraçado (em português \"gracioso\" também pode ser engraçado), e gracioso/elegante."
         },
         {
           "es": "letra",
@@ -107,9 +107,9 @@
         },
         {
           "es": "actualidad",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "atualidade / notícias",
-          "tip": "Não é \"atualmente\"."
+          "tip": "Actualidad = atualidade / notícias do momento. \"Atualmente\" é \"actualmente\"."
         },
         {
           "es": "carroza",
@@ -137,15 +137,15 @@
         },
         {
           "es": "peluca",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "peruca",
-          "tip": "Não é pelúcia!"
+          "tip": "Peluca = peruca. Pelúcia é \"peluche\"."
         },
         {
-          "es": "confeti",
-          "kind": "quase",
-          "meaning": "confete",
-          "tip": "Sem acento."
+          "es": "jornal",
+          "kind": "armadilha",
+          "meaning": "diária (pagamento por dia)",
+          "tip": "Jornal = diária de trabalho. Jornal (de notícias) é \"periódico\"."
         }
       ]
     },
@@ -198,10 +198,10 @@
       "options": [
         "gracioso",
         "engrazado",
-        "chistoso"
+        "engraçado"
       ],
       "correct": 0,
-      "explanation": "Gracioso = engraçado. (Chistoso também existe.)"
+      "explanation": "Gracioso = engraçado. \"Engraçado\" é português."
     },
     {
       "type": "boss",

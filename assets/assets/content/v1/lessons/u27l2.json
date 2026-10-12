@@ -98,9 +98,9 @@
         },
         {
           "es": "palas",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "frescobol",
-          "tip": "Raquetes de praia."
+          "tip": "Palas = raquetes de praia (frescobol), como pás."
         },
         {
           "es": "paseo marítimo",
@@ -116,9 +116,9 @@
         },
         {
           "es": "sombrero",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "chapéu",
-          "tip": "Não é sombra!"
+          "tip": "Sombrero = chapéu (em Portugal, \"sombreiro\" é chapéu de abas largas). Sombra é \"sombra\"."
         },
         {
           "es": "bandera azul",
@@ -139,10 +139,10 @@
           "tip": "Crema aftersun."
         },
         {
-          "es": "toalla de playa",
-          "kind": "quase",
-          "meaning": "toalha de praia",
-          "tip": "Toalla."
+          "es": "oso",
+          "kind": "armadilha",
+          "meaning": "urso",
+          "tip": "Oso = urso. Osso é \"hueso\"."
         }
       ]
     },
@@ -171,7 +171,7 @@
       ],
       "distractors": [
         "queimei",
-        "quemé"
+        "queimé"
       ],
       "explanation": "Pretérito perfeito: me he quemado."
     },
@@ -195,10 +195,10 @@
       "options": [
         "bañador",
         "bañero",
-        "maillot"
+        "malla"
       ],
       "correct": 0,
-      "explanation": "Bañador = roupa de banho."
+      "explanation": "Bañador = maiô / roupa de banho na Espanha. \"Malla\" é da Argentina."
     },
     {
       "type": "boss",

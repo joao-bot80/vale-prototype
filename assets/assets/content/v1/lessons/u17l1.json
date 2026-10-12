@@ -63,7 +63,7 @@
         "nacionalidad."
       ],
       "distractors": [
-        "solicitar",
+        "pido",
         "nacionalidade"
       ],
       "explanation": "\"Pedir\" ou \"solicitar\"."
@@ -88,15 +88,15 @@
       "cards": [
         {
           "es": "aprobar",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "passar (na prova)",
-          "tip": "Suspender = ser reprovado."
+          "tip": "Aprobar = passar na prova e aprovar, como em português."
         },
         {
           "es": "suspender",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "ser reprovado",
-          "tip": "Não é suspender!"
+          "tip": "Suspender = ser reprovado na prova, e também suspender, igual."
         },
         {
           "es": "empadronado",
@@ -112,9 +112,9 @@
         },
         {
           "es": "expediente",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "processo",
-          "tip": "Número de expediente."
+          "tip": "Expediente = processo administrativo (\"número de expediente\"), como o expediente de papéis."
         },
         {
           "es": "jura",
@@ -141,10 +141,10 @@
           "tip": "Tramitar la nacionalidad."
         },
         {
-          "es": "residencia",
-          "kind": "quase",
-          "meaning": "residência",
-          "tip": "Legal y continuada."
+          "es": "tapete",
+          "kind": "armadilha",
+          "meaning": "toalhinha de mesa",
+          "tip": "Tapete = toalhinha/caminho de mesa. Tapete (do chão) é \"alfombra\"."
         }
       ]
     },
@@ -195,11 +195,11 @@
       "prompt": "Complete: \"¿Cuál es el número de tu ___?\" (processo)",
       "options": [
         "expediente",
-        "proceso",
+        "processo",
         "expedição"
       ],
       "correct": 0,
-      "explanation": "\"Expediente\" = processo administrativo."
+      "explanation": "\"Expediente\" = processo administrativo. \"Processo\" é português."
     },
     {
       "type": "boss",

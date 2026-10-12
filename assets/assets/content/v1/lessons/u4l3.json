@@ -131,21 +131,21 @@
         },
         {
           "es": "firma",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "assinatura",
-          "tip": "A empresa é \"empresa\"."
+          "tip": "Firma = assinatura (como \"firma reconhecida\") e também empresa."
         },
         {
           "es": "renta",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "renda (ganhos)",
-          "tip": "Aluguel é \"alquiler\"."
+          "tip": "Renta = renda (ganhos), como em português. Aluguel é \"alquiler\"."
         },
         {
-          "es": "acordar",
+          "es": "borrar",
           "kind": "armadilha",
-          "meaning": "combinar, chegar a um acordo",
-          "tip": "Acordar (despertar) é \"despertarse\"."
+          "meaning": "apagar (escrita)",
+          "tip": "Borrar = apagar. Borrar (manchar) é \"emborronar\"."
         }
       ]
     },

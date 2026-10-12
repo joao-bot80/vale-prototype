@@ -91,21 +91,21 @@
       "cards": [
         {
           "es": "tasa",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "taxa",
-          "tip": "Não é taça (\"copa\")!"
+          "tip": "Tasa = taxa. Taça é \"copa\"."
         },
         {
           "es": "justificante",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "comprovante",
-          "tip": "Justificativa é \"justificación\"."
+          "tip": "Justificante = comprovante (documento que justifica). Justificativa é \"justificación\"."
         },
         {
           "es": "caducado",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "vencido",
-          "tip": "Pasaporte caducado = passaporte vencido."
+          "tip": "Caducado = vencido (em português \"caducado\" também existe). Pasaporte caducado = passaporte vencido."
         },
         {
           "es": "dedo",
@@ -115,9 +115,9 @@
         },
         {
           "es": "sobre",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "envelope",
-          "tip": "Também significa \"sobre\" (acerca de)."
+          "tip": "Sobre = envelope, e também \"sobre\" (acerca de), igual."
         },
         {
           "es": "fondo",
@@ -133,9 +133,9 @@
         },
         {
           "es": "recoger",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "retirar / buscar",
-          "tip": "Não é recolher-se: recoger la tarjeta = retirar o cartão."
+          "tip": "Recoger = retirar / buscar / recolher (\"recoger la tarjeta\" = retirar o cartão)."
         },
         {
           "es": "fotocopia",
@@ -144,10 +144,10 @@
           "tip": "Leve sempre cópias!"
         },
         {
-          "es": "ventanilla",
+          "es": "mala",
           "kind": "armadilha",
-          "meaning": "guichê",
-          "tip": "Não é janelinha de carro, aqui é guichê."
+          "meaning": "má, ruim",
+          "tip": "Mala = má. Mala de viagem é \"maleta\"."
         }
       ]
     },

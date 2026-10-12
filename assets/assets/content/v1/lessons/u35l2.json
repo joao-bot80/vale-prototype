@@ -106,9 +106,9 @@
         },
         {
           "es": "cartel",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "cartaz / placa",
-          "tip": "Não é cartel de drogas só!"
+          "tip": "Cartel = cartaz / placa, e também cartel."
         },
         {
           "es": "bilingüe",
@@ -118,9 +118,9 @@
         },
         {
           "es": "lengua",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "língua (idioma)",
-          "tip": "Também a do corpo."
+          "tip": "Lengua = língua (idioma e a do corpo)."
         },
         {
           "es": "latín",
@@ -130,9 +130,9 @@
         },
         {
           "es": "amable",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "gentil",
-          "tip": "Não é amável no sentido de \"digno de amor\"."
+          "tip": "Amable = gentil, amável."
         },
         {
           "es": "aseos",
@@ -196,10 +196,10 @@
       "options": [
         "cartel",
         "cartaz",
-        "placa"
+        "letreiro"
       ],
       "correct": 0,
-      "explanation": "Cartel = cartaz, placa."
+      "explanation": "Cartel = cartaz, placa. \"Letreiro\" é português."
     },
     {
       "type": "boss",

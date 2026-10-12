@@ -86,21 +86,21 @@
       "cards": [
         {
           "es": "permanencia",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "fidelidade (contrato)",
-          "tip": "Sin permanencia = sem fidelidade."
+          "tip": "Permanencia = fidelidade de contrato (\"sin permanencia\"), e também permanência."
         },
         {
           "es": "darse de baja",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "cancelar",
-          "tip": "Darse de alta = contratar."
+          "tip": "Darse de baja = cancelar (dar baixa). Darse de alta = contratar."
         },
         {
           "es": "darse de alta",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "cadastrar-se / contratar",
-          "tip": "Alta = entrada."
+          "tip": "Darse de alta = cadastrar-se / contratar. Darse de baja = cancelar (dar baixa)."
         },
         {
           "es": "penalización",
@@ -122,9 +122,9 @@
         },
         {
           "es": "cobertura",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "sinal",
-          "tip": "No tengo cobertura = estou sem sinal."
+          "tip": "Cobertura = sinal / cobertura de rede (\"no tengo cobertura\"). Cobertura (apartamento) é \"ático\"."
         },
         {
           "es": "router",
@@ -139,10 +139,10 @@
           "tip": "Fibra de 600 megas."
         },
         {
-          "es": "tarifa plana",
-          "kind": "quase",
-          "meaning": "plano ilimitado",
-          "tip": "Preço fixo."
+          "es": "flamante",
+          "kind": "armadilha",
+          "meaning": "novinho em folha",
+          "tip": "Flamante = novinho, reluzente. Não é flamejante."
         }
       ]
     },

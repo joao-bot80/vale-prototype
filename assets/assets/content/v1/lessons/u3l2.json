@@ -123,9 +123,9 @@
         },
         {
           "es": "película",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "filme",
-          "tip": "Película (camada fina) é \"film\" ou \"lámina\"."
+          "tip": "Película = filme (em português também existe: película cinematográfica) e camada fina."
         },
         {
           "es": "apenas",
@@ -143,7 +143,7 @@
           "es": "constipado",
           "kind": "armadilha",
           "meaning": "resfriado",
-          "tip": "Prisão de ventre é \"estreñimiento\"."
+          "tip": "Constipado = resfriado (como em Portugal). No Brasil, constipado é preso de ventre: \"estreñido\"."
         }
       ]
     },

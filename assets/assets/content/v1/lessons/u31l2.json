@@ -100,9 +100,9 @@
         },
         {
           "es": "suelo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "chão",
-          "tip": "Também solo."
+          "tip": "Suelo = chão, e também solo."
         },
         {
           "es": "misa",
@@ -124,9 +124,9 @@
         },
         {
           "es": "campana",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "sino",
-          "tip": "Campanário = campanario."
+          "tip": "Campana = sino, e também coifa (da cozinha)."
         },
         {
           "es": "piedra mojada",
@@ -135,10 +135,10 @@
           "tip": "Em Santiago, sempre!"
         },
         {
-          "es": "abrazar",
-          "kind": "quase",
-          "meaning": "abraçar",
-          "tip": "Abraçar o apóstolo."
+          "es": "botar",
+          "kind": "armadilha",
+          "meaning": "quicar (bola), lançar (barco)",
+          "tip": "Botar = quicar/lançar ao mar. Botar (pôr) é \"poner\"."
         },
         {
           "es": "cripta",

@@ -63,7 +63,7 @@
         "contrato?"
       ],
       "distractors": [
-        "tiempo",
+        "cuanto",
         "quanto"
       ],
       "explanation": "\"Durar\" = durar."
@@ -112,9 +112,9 @@
         },
         {
           "es": "prórroga",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "prorrogação",
-          "tip": "Não é prorrogativa."
+          "tip": "Prórroga = prorrogação."
         },
         {
           "es": "aval",
@@ -130,9 +130,9 @@
         },
         {
           "es": "desperfecto",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "dano / estrago",
-          "tip": "Não é \"desperfeito\"."
+          "tip": "Desperfecto = dano / estrago (algo que ficou imperfeito)."
         },
         {
           "es": "rescindir",
@@ -141,10 +141,10 @@
           "tip": "Romper o contrato."
         },
         {
-          "es": "preaviso",
-          "kind": "quase",
-          "meaning": "aviso prévio",
-          "tip": "Com 30 dias de preaviso."
+          "es": "atestado",
+          "kind": "armadilha",
+          "meaning": "lotado",
+          "tip": "Atestado = lotado, cheio. Atestado médico é \"certificado médico\"."
         }
       ]
     },

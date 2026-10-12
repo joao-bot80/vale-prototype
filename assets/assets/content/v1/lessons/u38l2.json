@@ -111,15 +111,15 @@
         },
         {
           "es": "sonar",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "soar",
-          "tip": "Não é sonhar (soñar)!"
+          "tip": "Sonar = soar. Sonhar é \"soñar\"!"
         },
         {
           "es": "dejo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "sotaque leve / entonação",
-          "tip": "Não é deixo!"
+          "tip": "Dejo = sotaque leve / entonação, e também \"eu deixo\"."
         },
         {
           "es": "isleño",
@@ -140,10 +140,10 @@
           "tip": "La s se aspira."
         },
         {
-          "es": "guanche",
-          "kind": "quase",
-          "meaning": "guanche (aborígene de Tenerife)",
-          "tip": "Povo antigo das ilhas."
+          "es": "experto",
+          "kind": "armadilha",
+          "meaning": "especialista",
+          "tip": "Experto = especialista. Esperto é \"listo\"."
         }
       ]
     },

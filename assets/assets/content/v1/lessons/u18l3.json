@@ -90,9 +90,9 @@
       "cards": [
         {
           "es": "partido",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "jogo (de futebol)",
-          "tip": "Também partido político."
+          "tip": "Partido = jogo de futebol, e também partido político, igual."
         },
         {
           "es": "equipo local",
@@ -102,15 +102,15 @@
         },
         {
           "es": "afición",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "torcida",
-          "tip": "Aficionado = torcedor."
+          "tip": "Afición = torcida, e também gosto/afeição por algo. Aficionado = torcedor."
         },
         {
           "es": "portero",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "goleiro",
-          "tip": "Também porteiro!"
+          "tip": "Portero = goleiro, e também porteiro."
         },
         {
           "es": "delantero",
@@ -143,10 +143,10 @@
           "tip": "Offside."
         },
         {
-          "es": "grada",
-          "kind": "quase",
-          "meaning": "arquibancada",
-          "tip": "Las gradas."
+          "es": "encuesta",
+          "kind": "armadilha",
+          "meaning": "pesquisa (de opinião)",
+          "tip": "Encuesta = pesquisa. Encosta é \"ladera\"."
         }
       ]
     },
@@ -173,7 +173,7 @@
         "gol!"
       ],
       "distractors": [
-        "haga",
+        "hace",
         "faça"
       ],
       "explanation": "\"Meter un gol\" = fazer um gol."

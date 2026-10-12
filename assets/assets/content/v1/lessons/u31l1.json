@@ -100,9 +100,9 @@
         },
         {
           "es": "ampolla",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "bolha (na pele)",
-          "tip": "Não é ampola!"
+          "tip": "Ampolla = bolha na pele, e também ampola."
         },
         {
           "es": "albergue",
@@ -112,9 +112,9 @@
         },
         {
           "es": "bastón",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "cajado / bastão",
-          "tip": "Não é bastião!"
+          "tip": "Bastón = cajado / bastão."
         },
         {
           "es": "concha",
@@ -136,15 +136,15 @@
         },
         {
           "es": "ganarse",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "merecer",
-          "tip": "Te lo has ganado = você mereceu."
+          "tip": "Ganarse = merecer (\"te lo has ganado\"), e também ganhar."
         },
         {
-          "es": "flecha amarilla",
-          "kind": "quase",
-          "meaning": "seta amarela",
-          "tip": "Sinaliza o Caminho."
+          "es": "palco",
+          "kind": "armadilha",
+          "meaning": "camarote (de teatro)",
+          "tip": "Palco = camarote. Palco (onde atuam) é \"escenario\"."
         }
       ]
     },
@@ -196,10 +196,10 @@
       "options": [
         "albergue",
         "alberge",
-        "hostal"
+        "albergaria"
       ],
       "correct": 0,
-      "explanation": "Albergue = albergue."
+      "explanation": "Albergue = albergue de peregrinos. (Hostal = pousada simples com quarto privado; não é a mesma coisa.)"
     },
     {
       "type": "boss",

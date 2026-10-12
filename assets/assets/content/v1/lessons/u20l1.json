@@ -64,7 +64,7 @@
         "comida!"
       ],
       "distractors": [
-        "pedimos",
+        "pidamos",
         "comemos"
       ],
       "explanation": "Pretérito perfeito: hemos pedido."
@@ -89,9 +89,9 @@
       "cards": [
         {
           "es": "ronda",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "rodada",
-          "tip": "Pago yo esta ronda."
+          "tip": "Ronda = rodada (\"pago yo esta ronda\"), e também ronda, igual."
         },
         {
           "es": "tinto de verano",
@@ -113,21 +113,21 @@
         },
         {
           "es": "distinto",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "diferente",
-          "tip": "Não é distinto (elegante)."
+          "tip": "Distinto = diferente, e também distinto, igual."
         },
         {
           "es": "tocar",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "ser a vez",
-          "tip": "Me toca a mí = é minha vez."
+          "tip": "Tocar = tocar, igual, e \"me toca a mí\" = é minha vez."
         },
         {
           "es": "barra",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "balcão",
-          "tip": "En la barra = no balcão."
+          "tip": "Barra = balcão do bar (\"en la barra\"), e também barra."
         },
         {
           "es": "taberna",
@@ -142,10 +142,10 @@
           "tip": "Não é remolha!"
         },
         {
-          "es": "pringá",
-          "kind": "quase",
-          "meaning": "carne desfiada",
-          "tip": "Típico andaluz."
+          "es": "cana",
+          "kind": "armadilha",
+          "meaning": "cabelo branco",
+          "tip": "Cana = fio de cabelo branco. Cana (de açúcar) é \"caña\"."
         }
       ]
     },

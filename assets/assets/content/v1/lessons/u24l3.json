@@ -95,9 +95,9 @@
         },
         {
           "es": "pista",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "quadra",
-          "tip": "Pista de tenis."
+          "tip": "Pista = quadra (\"pista de tenis\"), e também pista (de dança, de corrida, dica)."
         },
         {
           "es": "agenda",
@@ -107,9 +107,9 @@
         },
         {
           "es": "fatal",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "péssimo",
-          "tip": "Me viene fatal = péssimo."
+          "tip": "Fatal = péssimo (\"me viene fatal\"), e também fatal, igual."
         },
         {
           "es": "imposible",

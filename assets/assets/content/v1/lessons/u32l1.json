@@ -126,9 +126,9 @@
         },
         {
           "es": "charco",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "poça",
-          "tip": "Não é charque!"
+          "tip": "Charco = poça (em português \"charco\" também)."
         },
         {
           "es": "empapado",
@@ -138,9 +138,9 @@
         },
         {
           "es": "niebla",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "neblina / névoa",
-          "tip": "Não é nébula!"
+          "tip": "Niebla = neblina / névoa."
         },
         {
           "es": "verde",
@@ -171,7 +171,7 @@
         "empapada."
       ],
       "distractors": [
-        "mojada",
+        "empapado",
         "encharcada"
       ],
       "explanation": "Empapado = completamente molhado."
@@ -195,11 +195,11 @@
       "prompt": "Complete: \"Hay mucha ___, no se ve nada.\" (névoa)",
       "options": [
         "niebla",
-        "neblina",
+        "névoa",
         "nube"
       ],
       "correct": 0,
-      "explanation": "Niebla = névoa."
+      "explanation": "Niebla = névoa (neblina é uma névoa mais fraca). \"Névoa\" é português."
     },
     {
       "type": "boss",

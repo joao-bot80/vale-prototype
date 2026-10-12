@@ -96,9 +96,9 @@
         },
         {
           "es": "abono",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "passe (de transporte)",
-          "tip": "Não é abono salarial! Abono mensual = passe mensal."
+          "tip": "Abono = passe de transporte (\"abono mensual\"). Também pagamento/abono, como em português."
         },
         {
           "es": "tranvía",
@@ -138,9 +138,9 @@
         },
         {
           "es": "retraso",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "atraso",
-          "tip": "Retrasar = atrasar."
+          "tip": "Retraso = atraso (retrasar = atrasar)."
         },
         {
           "es": "transbordo",

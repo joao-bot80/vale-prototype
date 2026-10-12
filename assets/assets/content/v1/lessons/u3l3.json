@@ -119,15 +119,15 @@
         },
         {
           "es": "estanque",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "laguinho, lago artificial",
-          "tip": "Estanque (vedado) é \"hermético\"."
+          "tip": "Estanque = laguinho, lago artificial (em português também é reservatório de água). Vedado é \"hermético\"."
         },
         {
           "es": "cachorro",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "filhote",
-          "tip": "O cachorro é \"perro\"."
+          "tip": "Cachorro = filhote (de qualquer animal; em português também: cachorro de leão). O cão é \"perro\"."
         },
         {
           "es": "borracha",
@@ -143,9 +143,9 @@
         },
         {
           "es": "barata",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "barata (= de preço baixo)",
-          "tip": "O inseto barata é \"cucaracha\"."
+          "tip": "Barata = de preço baixo, igual. O inseto barata é \"cucaracha\"."
         }
       ]
     },

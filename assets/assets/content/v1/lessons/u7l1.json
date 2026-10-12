@@ -130,15 +130,15 @@
         },
         {
           "es": "refresco",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "refrigerante",
-          "tip": "Não é só \"refresco\" de suco."
+          "tip": "Refresco = refrigerante (e também refresco/bebida gelada)."
         },
         {
-          "es": "flamenco",
-          "kind": "quase",
-          "meaning": "flamenco / flamingo",
-          "tip": "Também é o nome da ave!"
+          "es": "berro",
+          "kind": "armadilha",
+          "meaning": "agrião",
+          "tip": "Berro = agrião. Berro (grito) é \"grito\"."
         },
         {
           "es": "palmas",

@@ -63,7 +63,7 @@
         "mañana?"
       ],
       "distractors": [
-        "tiene",
+        "tem",
         "ingressos"
       ],
       "explanation": "\"¿Quedan...?\" = ainda sobra / ainda tem...?"
@@ -124,21 +124,21 @@
         },
         {
           "es": "entrada",
-          "kind": "armadilha",
+          "kind": "igual",
           "meaning": "ingresso / entrada",
-          "tip": "Na Espanha, ingresso = \"entrada\". \"Ingreso\" é depósito no banco."
+          "tip": "Entrada = entrada, e também ingresso. \"Ingreso\" é depósito no banco."
         },
         {
           "es": "taquilla",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "bilheteria",
-          "tip": "Parece \"taquilha\", mas é a bilheteria."
+          "tip": "Taquilla = bilheteria (e também armário/escaninho)."
         },
         {
-          "es": "vaya",
+          "es": "grasa",
           "kind": "armadilha",
-          "meaning": "poxa!",
-          "tip": "Aqui é exclamação, não \"vá\"."
+          "meaning": "gordura",
+          "tip": "Grasa = gordura. Graça é \"gracia\"."
         },
         {
           "es": "azulejo",
@@ -203,7 +203,7 @@
         "línea"
       ],
       "correct": 0,
-      "explanation": "Na Espanha: \"hacer cola\" = fazer fila."
+      "explanation": "Na Espanha: \"hacer cola\" = fazer fila. \"Fila\" em espanhol é fileira (e \"hacer fila\" é mais latino-americano)."
     },
     {
       "type": "boss",

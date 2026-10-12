@@ -128,9 +128,9 @@
         },
         {
           "es": "cerrado",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "fechado",
-          "tip": "No Brasil, cerrado é bioma!"
+          "tip": "Cerrado = fechado (cerrar = fechar; em português \"cerrar\" também existe). No Brasil, cerrado é bioma."
         },
         {
           "es": "fecha",
@@ -140,15 +140,15 @@
         },
         {
           "es": "tienda",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "loja",
-          "tip": "A tenda de acampar é \"tienda de campaña\"."
+          "tip": "Tienda = loja e também barraca/tenda (\"tienda de campaña\")."
         },
         {
           "es": "talla",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "tamanho (de roupa)",
-          "tip": "Talha (escultura) é \"talla\" também, mas na loja é o tamanho!"
+          "tip": "Na loja, talla = tamanho de roupa. Talha (escultura) é igual."
         }
       ]
     },

@@ -99,9 +99,9 @@
         },
         {
           "es": "tostada",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "torrada",
-          "tip": "Não é tostada mexicana!"
+          "tip": "Tostada = torrada (não é a tostada mexicana)."
         },
         {
           "es": "desayuno",
@@ -135,9 +135,9 @@
         },
         {
           "es": "espejo",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "espelho",
-          "tip": "Com j: espejo."
+          "tip": "Espejo = espelho: com j."
         },
         {
           "es": "peine",

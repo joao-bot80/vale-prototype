@@ -88,9 +88,9 @@
       "cards": [
         {
           "es": "tiburón",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "tubarão",
-          "tip": "Não é tiburão!"
+          "tip": "Tiburón = tubarão."
         },
         {
           "es": "acuario",
@@ -136,15 +136,15 @@
         },
         {
           "es": "raya",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "arraia",
-          "tip": "Também risco/listra!"
+          "tip": "Raya = arraia, e também risco/listra (como \"raia\")."
         },
         {
-          "es": "tortuga",
-          "kind": "quase",
-          "meaning": "tartaruga",
-          "tip": "Tortugas marinas."
+          "es": "sótano",
+          "kind": "armadilha",
+          "meaning": "porão",
+          "tip": "Sótano = porão (embaixo). Sótão é \"desván\" (em cima)!"
         }
       ]
     },
