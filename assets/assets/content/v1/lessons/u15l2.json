@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "id": "u15l2",
+  "title": "Meu currículo",
+  "scenario": "Valencia · preparando el CV",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 44: O que você já fez?",
+      "lines": [
+        {
+          "speaker": "Lino",
+          "es": "Lu, ¿qué has hecho en tu último trabajo?",
+          "pt": "Lu, o que você fez no seu último emprego?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "He organizado eventos y he gestionado las redes sociales.",
+          "pt": "Organizei eventos e gerenciei as redes sociais."
+        },
+        {
+          "speaker": "Lino",
+          "es": "¡Muy bien! ¿Has trabajado alguna vez en España?",
+          "pt": "Muito bem! Já trabalhou alguma vez na Espanha?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Sí, he trabajado seis meses en una tienda.",
+          "pt": "Sim, trabalhei seis meses numa loja."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Pon también los idiomas: portugués nativo y español.",
+          "pt": "Coloca também os idiomas: português nativo e espanhol."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Y una foto no, ¿verdad? En Brasil a veces se pone.",
+          "pt": "E foto não, né? No Brasil às vezes se coloca."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¿Has trabajado alguna vez en España?\" significa:",
+      "options": [
+        "Já trabalhou alguma vez na Espanha?",
+        "Vai trabalhar na Espanha?",
+        "Trabalhava na Espanha?"
+      ],
+      "correct": 0,
+      "explanation": "Pretérito perfeito composto: he/has/ha + particípio."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Organizei eventos.",
+      "answer": [
+        "He",
+        "organizado",
+        "eventos."
+      ],
+      "distractors": [
+        "organicé",
+        "organizei"
+      ],
+      "explanation": "Na Espanha, para experiências gerais, usa-se muito \"he + particípio\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "He organizado eventos y he gestionado las redes sociales.",
+      "options": [
+        "Organizei eventos e gerenciei as redes sociais.",
+        "Vou organizar eventos.",
+        "Nunca organizei eventos."
+      ],
+      "correct": 0,
+      "explanation": "\"Gestionar\" = gerenciar, administrar."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "currículum",
+          "kind": "quase",
+          "meaning": "currículo",
+          "tip": "Também \"CV\"."
+        },
+        {
+          "es": "idioma",
+          "kind": "armadilha",
+          "meaning": "idioma / língua",
+          "tip": "Mais comum que \"lengua\" no CV."
+        },
+        {
+          "es": "nativo",
+          "kind": "igual",
+          "meaning": "nativo",
+          "tip": "Igual!"
+        },
+        {
+          "es": "gestionar",
+          "kind": "quase",
+          "meaning": "gerenciar",
+          "tip": "Gestión = gestão."
+        },
+        {
+          "es": "evento",
+          "kind": "igual",
+          "meaning": "evento",
+          "tip": "Igual!"
+        },
+        {
+          "es": "logro",
+          "kind": "armadilha",
+          "meaning": "conquista",
+          "tip": "Não é logro (engano)!"
+        },
+        {
+          "es": "formación",
+          "kind": "quase",
+          "meaning": "formação",
+          "tip": "Estudos e cursos."
+        },
+        {
+          "es": "carrera",
+          "kind": "armadilha",
+          "meaning": "faculdade / curso superior",
+          "tip": "Também corrida!"
+        },
+        {
+          "es": "título",
+          "kind": "quase",
+          "meaning": "diploma",
+          "tip": "Título universitario."
+        },
+        {
+          "es": "referencia",
+          "kind": "quase",
+          "meaning": "referência",
+          "tip": "Sem acento."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Estudié la carrera de Derecho\" significa:",
+      "options": [
+        "Fiz faculdade de Direito",
+        "Corri na pista de Direito",
+        "Fiz carreira na Direita"
+      ],
+      "correct": 0,
+      "explanation": "\"Carrera\" = curso superior."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Já trabalhou na Espanha?",
+      "answer": [
+        "¿Has",
+        "trabajado",
+        "en",
+        "España?"
+      ],
+      "distractors": [
+        "trabajaste",
+        "já"
+      ],
+      "explanation": "\"Has trabajado\" = já trabalhou (experiência)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, he trabajado seis meses en una tienda.",
+      "options": [
+        "Sim, trabalhei seis meses numa loja.",
+        "Sim, trabalhei seis anos num escritório.",
+        "Não, nunca trabalhei."
+      ],
+      "correct": 0,
+      "explanation": "\"Tienda\" = loja."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Mi mayor ___ fue duplicar las ventas.\" (conquista)",
+      "options": [
+        "logro",
+        "lucro",
+        "logo"
+      ],
+      "correct": 0,
+      "explanation": "\"Logro\" = conquista, realização."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Estoy en la carrera de Medicina.",
+          "options": [
+            "Estou na faculdade de Medicina.",
+            "Estou na corrida de Medicina."
+          ],
+          "correct": 0,
+          "joke": "Carrera = curso superior."
+        },
+        {
+          "spanish": "Es mi mayor logro.",
+          "options": [
+            "É minha maior conquista.",
+            "É meu maior engano."
+          ],
+          "correct": 0,
+          "joke": "Logro = conquista."
+        },
+        {
+          "spanish": "He gestionado un equipo.",
+          "options": [
+            "Gerenciei uma equipe.",
+            "Fiz uma gestação em equipe."
+          ],
+          "correct": 0,
+          "joke": "Gestionar = gerenciar."
+        },
+        {
+          "spanish": "Hablo tres idiomas.",
+          "options": [
+            "Falo três idiomas.",
+            "Falo três idiotas."
+          ],
+          "correct": 0,
+          "joke": "Idioma = idioma."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Valencia",
+      "items": [
+        {
+          "emoji": "📄",
+          "title": "CV na Espanha",
+          "es": "Adjunto mi currículum.",
+          "pt": "Na Espanha o currículo costuma ter 1–2 páginas, com experiência, formação e idiomas. A foto é opcional e cada vez menos comum; muitas empresas preferem sem."
+        },
+        {
+          "emoji": "🗣️",
+          "title": "Idiomas",
+          "es": "Español: nivel C1.",
+          "pt": "É comum indicar o nível de cada idioma pelo Quadro Europeu (A1–C2)."
+        }
+      ]
+    }
+  ]
+}

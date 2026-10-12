@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u14l1",
+  "title": "A Mezquita de Córdoba",
+  "scenario": "Córdoba · Mezquita-Catedral",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 40: Mil colunas",
+      "lines": [
+        {
+          "speaker": "Dani",
+          "es": "Bienvenida a Córdoba. Esta es la Mezquita-Catedral.",
+          "pt": "Bem-vinda a Córdoba. Esta é a Mesquita-Catedral."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Cuántas columnas! Parece un bosque de piedra.",
+          "pt": "Quantas colunas! Parece uma floresta de pedra."
+        },
+        {
+          "speaker": "Dani",
+          "es": "Fue mezquita y después se construyó una catedral dentro.",
+          "pt": "Foi mesquita e depois construíram uma catedral dentro."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Hay que pagar para entrar?",
+          "pt": "Tem que pagar para entrar?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "Sí, pero merece la pena. Hay que guardar silencio dentro.",
+          "pt": "Sim, mas vale a pena. Tem que fazer silêncio lá dentro."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Vale, hablo bajito.",
+          "pt": "Beleza, falo baixinho."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Merece la pena\" significa:",
+      "options": [
+        "Vale a pena",
+        "Merece uma pena",
+        "Dá pena"
+      ],
+      "correct": 0,
+      "explanation": "\"Merecer la pena\" = valer a pena."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Tem que pagar para entrar?",
+      "answer": [
+        "¿Hay",
+        "que",
+        "pagar",
+        "para",
+        "entrar?"
+      ],
+      "distractors": [
+        "tiene",
+        "tem"
+      ],
+      "explanation": "\"Hay que\" + infinitivo = é preciso."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Fue mezquita y después se construyó una catedral dentro.",
+      "options": [
+        "Foi mesquita e depois construíram uma catedral dentro.",
+        "Sempre foi só uma catedral.",
+        "Foi um castelo e depois um museu."
+      ],
+      "correct": 0,
+      "explanation": "Mesquita do período islâmico, catedral cristã depois."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "mezquita",
+          "kind": "quase",
+          "meaning": "mesquita",
+          "tip": "Com z."
+        },
+        {
+          "es": "arco",
+          "kind": "igual",
+          "meaning": "arco",
+          "tip": "Os arcos bicolores são famosos."
+        },
+        {
+          "es": "piedra",
+          "kind": "quase",
+          "meaning": "pedra",
+          "tip": "Ditongo ie."
+        },
+        {
+          "es": "bosque",
+          "kind": "armadilha",
+          "meaning": "floresta / bosque",
+          "tip": "Bosque = floresta."
+        },
+        {
+          "es": "silencio",
+          "kind": "quase",
+          "meaning": "silêncio",
+          "tip": "Sem acento."
+        },
+        {
+          "es": "califa",
+          "kind": "igual",
+          "meaning": "califa",
+          "tip": "Córdoba foi capital de um califado."
+        },
+        {
+          "es": "bajito",
+          "kind": "quase",
+          "meaning": "baixinho",
+          "tip": "Hablar bajito = falar baixo."
+        },
+        {
+          "es": "judería",
+          "kind": "quase",
+          "meaning": "bairro judeu",
+          "tip": "A judería de Córdoba é famosa."
+        },
+        {
+          "es": "puente romano",
+          "kind": "armadilha",
+          "meaning": "ponte romana",
+          "tip": "Puente é masculino!"
+        },
+        {
+          "es": "muralla",
+          "kind": "quase",
+          "meaning": "muralha",
+          "tip": "Quase igual."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Em espanhol, \"el puente\" é:",
+      "options": [
+        "Masculino (a ponte = el puente)",
+        "Feminino",
+        "Neutro"
+      ],
+      "correct": 0,
+      "explanation": "Brasileiros erram: é \"el puente\"."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vale a pena.",
+      "answer": [
+        "Merece",
+        "la",
+        "pena."
+      ],
+      "distractors": [
+        "vale",
+        "valor"
+      ],
+      "explanation": "Também se diz \"vale la pena\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, pero merece la pena. Hay que guardar silencio dentro.",
+      "options": [
+        "Sim, mas vale a pena. Tem que fazer silêncio lá dentro.",
+        "Não, é grátis e pode falar alto.",
+        "Sim, mas não vale a pena."
+      ],
+      "correct": 0,
+      "explanation": "\"Guardar silencio\" = fazer silêncio."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Cruzamos el ___ romano.\"",
+      "options": [
+        "puente",
+        "ponte",
+        "puenta"
+      ],
+      "correct": 0,
+      "explanation": "El puente romano de Córdoba, sobre o Guadalquivir."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Paseamos por el bosque.",
+          "options": [
+            "Passeamos pela floresta.",
+            "Passeamos pelo bosque urbano da praça."
+          ],
+          "correct": 0,
+          "joke": "Bosque = floresta."
+        },
+        {
+          "spanish": "Habla bajito, por favor.",
+          "options": [
+            "Fale baixinho, por favor.",
+            "Fale com o baixinho, por favor."
+          ],
+          "correct": 0,
+          "joke": "Bajito = baixinho (volume)."
+        },
+        {
+          "spanish": "Hay que guardar silencio.",
+          "options": [
+            "É preciso fazer silêncio.",
+            "Tem que guardar o silêncio numa caixa."
+          ],
+          "correct": 0,
+          "joke": "Hay que = é preciso."
+        },
+        {
+          "spanish": "El puente es muy antiguo.",
+          "options": [
+            "A ponte é muito antiga.",
+            "O feriado é muito antigo."
+          ],
+          "correct": 0,
+          "joke": "Puente = ponte (e também feriado prolongado!)."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Andalucía",
+      "items": [
+        {
+          "emoji": "🕌",
+          "title": "Mezquita-Catedral",
+          "es": "La Mezquita de Córdoba es Patrimonio de la Humanidad.",
+          "pt": "Grande mesquita da Córdoba islâmica (séculos VIII–X), com uma catedral construída no interior no século XVI. Patrimônio Mundial da UNESCO."
+        },
+        {
+          "emoji": "🌉",
+          "title": "Puente",
+          "es": "Este lunes es puente.",
+          "pt": "\"Hacer puente\" = emendar um feriado com o fim de semana. Puente também é a ponte romana sobre o Guadalquivir."
+        }
+      ]
+    }
+  ]
+}

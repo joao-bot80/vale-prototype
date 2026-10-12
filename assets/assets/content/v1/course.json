@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-7",
+  "contentVersion": "2026.10.12-8",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -231,6 +231,28 @@
               "available": true
             }
           ]
+        },
+        {
+          "id": "and-u3",
+          "title": "Flamenco e Córdoba",
+          "emoji": "💃",
+          "lessons": [
+            {
+              "id": "u14l1",
+              "title": "A Mezquita de Córdoba",
+              "available": true
+            },
+            {
+              "id": "u14l2",
+              "title": "Os pátios de maio",
+              "available": true
+            },
+            {
+              "id": "u14l3",
+              "title": "Noite de flamenco",
+              "available": true
+            }
+          ]
         }
       ]
     },
@@ -283,6 +305,28 @@
             {
               "id": "u9l3",
               "title": "De metrô e ônibus",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "val-u3",
+          "title": "Trabalho em Valencia",
+          "emoji": "💼",
+          "lessons": [
+            {
+              "id": "u15l1",
+              "title": "Entrevista de emprego",
+              "available": true
+            },
+            {
+              "id": "u15l2",
+              "title": "Meu currículo",
+              "available": true
+            },
+            {
+              "id": "u15l3",
+              "title": "De bici pelo Turia",
               "available": true
             }
           ]

@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u15l3",
+  "title": "De bici pelo Turia",
+  "scenario": "Valencia · Jardín del Turia",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 45: Um rio sem água",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¿Por qué este parque se llama «río»?",
+          "pt": "Por que este parque se chama «rio»?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Antes aquí pasaba el río Turia. Lo desviaron y ahora es un jardín.",
+          "pt": "Antes aqui passava o rio Turia. Desviaram o rio e agora é um jardim."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Qué buena idea! ¿Podemos ir en bici?",
+          "pt": "Que boa ideia! Podemos ir de bike?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Claro. Hay carril bici y puedes alquilar una con Valenbisi.",
+          "pt": "Claro. Tem ciclovia e você pode alugar uma no Valenbisi."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Me pongo el casco y vamos hasta la Ciudad de las Artes.",
+          "pt": "Ponho o capacete e vamos até a Cidade das Artes."
+        },
+        {
+          "speaker": "Lino",
+          "es": "¡Cuidado con los peatones!",
+          "pt": "Cuidado com os pedestres!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Carril bici\" é:",
+      "options": [
+        "Ciclovia",
+        "Bicicleta de carril",
+        "Trilho de trem"
+      ],
+      "correct": 0,
+      "explanation": "Carril = faixa."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Podemos ir de bike?",
+      "answer": [
+        "¿Podemos",
+        "ir",
+        "en",
+        "bici?"
+      ],
+      "distractors": [
+        "de",
+        "bike"
+      ],
+      "explanation": "Em espanhol: ir EN bici, EN coche (mas \"a pie\")."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Antes aquí pasaba el río Turia. Lo desviaron y ahora es un jardín.",
+      "options": [
+        "Antes aqui passava o rio Turia. Desviaram o rio e agora é um jardim.",
+        "O rio ainda passa aqui embaixo.",
+        "Aqui sempre foi um parque."
+      ],
+      "correct": 0,
+      "explanation": "Depois da grande enchente de 1957, o rio foi desviado."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "acera",
+          "kind": "armadilha",
+          "meaning": "calçada",
+          "tip": "Não ande de bici na acera!"
+        },
+        {
+          "es": "patinete",
+          "kind": "armadilha",
+          "meaning": "patinete",
+          "tip": "Patinete eléctrico."
+        },
+        {
+          "es": "peatón",
+          "kind": "quase",
+          "meaning": "pedestre",
+          "tip": "Paso de peatones = faixa de pedestres."
+        },
+        {
+          "es": "glorieta",
+          "kind": "armadilha",
+          "meaning": "rotatória",
+          "tip": "Também caramanchão."
+        },
+        {
+          "es": "alquilar",
+          "kind": "quase",
+          "meaning": "alugar",
+          "tip": "Alquiler = aluguel."
+        },
+        {
+          "es": "riada",
+          "kind": "quase",
+          "meaning": "enchente",
+          "tip": "De río."
+        },
+        {
+          "es": "cauce",
+          "kind": "armadilha",
+          "meaning": "leito (do rio)",
+          "tip": "O antigo cauce del Turia."
+        },
+        {
+          "es": "candado",
+          "kind": "armadilha",
+          "meaning": "cadeado",
+          "tip": "Não é cândido!"
+        },
+        {
+          "es": "pedalear",
+          "kind": "quase",
+          "meaning": "pedalar",
+          "tip": "Quase igual."
+        },
+        {
+          "es": "sillín",
+          "kind": "quase",
+          "meaning": "selim",
+          "tip": "O banco da bici."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Ponte el casco\" significa:",
+      "options": [
+        "Põe o capacete",
+        "Põe o casaco",
+        "Põe o calçado"
+      ],
+      "correct": 0,
+      "explanation": "Casco = capacete."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Cuidado com os pedestres!",
+      "answer": [
+        "¡Cuidado",
+        "con",
+        "los",
+        "peatones!"
+      ],
+      "distractors": [
+        "pedestres",
+        "peones"
+      ],
+      "explanation": "Peatón = pedestre."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Claro. Hay carril bici y puedes alquilar una con Valenbisi.",
+      "options": [
+        "Claro. Tem ciclovia e você pode alugar uma no Valenbisi.",
+        "Não, é proibido andar de bicicleta.",
+        "Claro, mas tem que comprar uma bike."
+      ],
+      "correct": 0,
+      "explanation": "Valenbisi é o sistema público de bicicletas de Valencia."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Toca el ___ para avisar.\" (campainha)",
+      "options": [
+        "timbre",
+        "sino",
+        "tímpano"
+      ],
+      "correct": 0,
+      "explanation": "\"Timbre\" = campainha."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Aparca la bici en la estación.",
+          "options": [
+            "Estaciona a bike na estação.",
+            "Para a bike na estação de trem."
+          ],
+          "correct": 0,
+          "joke": "Aparcar = estacionar."
+        },
+        {
+          "spanish": "Alquilo una bici.",
+          "options": [
+            "Alugo uma bicicleta.",
+            "Compro uma bicicleta."
+          ],
+          "correct": 0,
+          "joke": "Alquilar = alugar."
+        },
+        {
+          "spanish": "No hay cuestas en Valencia.",
+          "options": [
+            "Não há ladeiras em Valencia.",
+            "Não há custos em Valencia."
+          ],
+          "correct": 0,
+          "joke": "Cuesta = ladeira."
+        },
+        {
+          "spanish": "Han tocado el timbre.",
+          "options": [
+            "Tocaram a campainha.",
+            "Tocaram o tímpano."
+          ],
+          "correct": 0,
+          "joke": "Timbre = campainha."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Valencia",
+      "items": [
+        {
+          "emoji": "🌳",
+          "title": "Jardín del Turia",
+          "es": "Vamos por el antiguo cauce.",
+          "pt": "Depois da grande enchente de 1957, o rio Turia foi desviado para fora da cidade. O antigo leito virou um parque de uns 9 km que termina na Ciudad de las Artes y las Ciencias."
+        },
+        {
+          "emoji": "🚲",
+          "title": "Valenbisi",
+          "es": "Me he sacado el abono de Valenbisi.",
+          "pt": "Sistema público de aluguel de bicicletas de Valencia, com estações pela cidade. Em valenciano, bicicleta = \"bicicleta\" também!"
+        }
+      ]
+    }
+  ]
+}

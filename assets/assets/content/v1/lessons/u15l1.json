@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "u15l1",
+  "title": "Entrevista de emprego",
+  "scenario": "Valencia · oficina en Ruzafa",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 43: A entrevista",
+      "lines": [
+        {
+          "speaker": "Entrevistadora",
+          "es": "Buenos días. Siéntate, por favor. Háblame de ti.",
+          "pt": "Bom dia. Sente-se, por favor. Fale de você."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Soy brasileña, llevo un año en España y trabajo en marketing.",
+          "pt": "Sou brasileira, estou há um ano na Espanha e trabalho com marketing."
+        },
+        {
+          "speaker": "Entrevistadora",
+          "es": "¿Por qué quieres trabajar con nosotros?",
+          "pt": "Por que você quer trabalhar conosco?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Porque me gusta vuestro proyecto y quiero aprender.",
+          "pt": "Porque gosto do projeto de vocês e quero aprender."
+        },
+        {
+          "speaker": "Entrevistadora",
+          "es": "¿Tienes permiso de trabajo?",
+          "pt": "Você tem autorização de trabalho?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Sí, tengo la tarjeta de residencia y puedo empezar en dos semanas.",
+          "pt": "Sim, tenho o cartão de residência e posso começar em duas semanas."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Llevo un año en España\" significa:",
+      "options": [
+        "Estou há um ano na Espanha",
+        "Levo um ano para a Espanha",
+        "Vou passar um ano na Espanha"
+      ],
+      "correct": 0,
+      "explanation": "\"Llevar + tempo\" = estar há."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Estou há um ano na Espanha.",
+      "answer": [
+        "Llevo",
+        "un",
+        "año",
+        "en",
+        "España."
+      ],
+      "distractors": [
+        "estoy",
+        "hace"
+      ],
+      "explanation": "Llevar + tempo = estar há (tempo)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "¿Por qué quieres trabajar con nosotros?",
+      "options": [
+        "Por que você quer trabalhar conosco?",
+        "Quando você pode começar?",
+        "Quanto você quer ganhar?"
+      ],
+      "correct": 0,
+      "explanation": "\"Con nosotros\" = conosco."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "entrevista",
+          "kind": "igual",
+          "meaning": "entrevista",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "sede",
+          "kind": "armadilha",
+          "meaning": "escritório central",
+          "tip": "Sede (vontade de beber) = sed!"
+        },
+        {
+          "es": "vacante",
+          "kind": "quase",
+          "meaning": "vaga aberta",
+          "tip": "Hay una vacante."
+        },
+        {
+          "es": "contratar",
+          "kind": "quase",
+          "meaning": "contratar",
+          "tip": "Me han contratado = fui contratada."
+        },
+        {
+          "es": "experiencia",
+          "kind": "quase",
+          "meaning": "experiência",
+          "tip": "Sem acento."
+        },
+        {
+          "es": "horario flexible",
+          "kind": "quase",
+          "meaning": "horário flexível",
+          "tip": "Muito valorizado."
+        },
+        {
+          "es": "teletrabajo",
+          "kind": "quase",
+          "meaning": "home office",
+          "tip": "Teletrabajar = trabalhar de casa."
+        },
+        {
+          "es": "encargado",
+          "kind": "armadilha",
+          "meaning": "gerente / responsável",
+          "tip": "Encargado de tienda."
+        },
+        {
+          "es": "prácticas",
+          "kind": "armadilha",
+          "meaning": "estágio",
+          "tip": "Hacer prácticas = estagiar."
+        },
+        {
+          "es": "candidatura",
+          "kind": "quase",
+          "meaning": "candidatura",
+          "tip": "Igual."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Hacer prácticas\" significa:",
+      "options": [
+        "Fazer estágio",
+        "Praticar esporte",
+        "Fazer exercícios"
+      ],
+      "correct": 0,
+      "explanation": "\"Prácticas\" = estágio."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Posso começar em duas semanas.",
+      "answer": [
+        "Puedo",
+        "empezar",
+        "en",
+        "dos",
+        "semanas."
+      ],
+      "distractors": [
+        "comenzar",
+        "começo"
+      ],
+      "explanation": "\"Empezar\" = começar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, tengo la tarjeta de residencia y puedo empezar en dos semanas.",
+      "options": [
+        "Sim, tenho o cartão de residência e posso começar em duas semanas.",
+        "Não, ainda não tenho documentos.",
+        "Sim, mas só posso começar em dois meses."
+      ],
+      "correct": 0,
+      "explanation": "Ter autorização para trabalhar é essencial."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Busco un ___ de trabajo en Valencia.\" (vaga)",
+      "options": [
+        "puesto",
+        "posto",
+        "vaga"
+      ],
+      "correct": 0,
+      "explanation": "\"Puesto de trabajo\" = vaga, cargo."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "La plantilla es de veinte personas.",
+          "options": [
+            "A equipe tem vinte pessoas.",
+            "A palmilha tem vinte pessoas."
+          ],
+          "correct": 0,
+          "joke": "Plantilla = quadro de funcionários."
+        },
+        {
+          "spanish": "Estoy haciendo prácticas.",
+          "options": [
+            "Estou fazendo estágio.",
+            "Estou fazendo práticas de esporte."
+          ],
+          "correct": 0,
+          "joke": "Prácticas = estágio."
+        },
+        {
+          "spanish": "Es un puesto a jornada completa.",
+          "options": [
+            "É uma vaga de tempo integral.",
+            "É um posto com jornada de viagem."
+          ],
+          "correct": 0,
+          "joke": "Jornada completa = tempo integral."
+        },
+        {
+          "spanish": "¿Cuál es el sueldo?",
+          "options": [
+            "Qual é o salário?",
+            "Qual é o soldo militar?"
+          ],
+          "correct": 0,
+          "joke": "Sueldo = salário."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Valencia",
+      "items": [
+        {
+          "emoji": "🤝",
+          "title": "Tú na entrevista",
+          "es": "Háblame de ti.",
+          "pt": "Em muitas empresas espanholas, sobretudo jovens, a entrevista é de \"tú\". Se o entrevistador usar \"usted\", acompanhe."
+        },
+        {
+          "emoji": "🏙️",
+          "title": "Ruzafa",
+          "es": "Trabajo en Ruzafa.",
+          "pt": "Bairro de Valencia com muitos cafés, startups e coworkings. Em valenciano: Russafa."
+        }
+      ]
+    }
+  ]
+}

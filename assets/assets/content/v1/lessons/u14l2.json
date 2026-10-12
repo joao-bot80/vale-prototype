@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u14l2",
+  "title": "Os pátios de maio",
+  "scenario": "Córdoba · Festival de los Patios",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 41: Flores por toda parte",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Qué patio tan bonito! Está lleno de macetas.",
+          "pt": "Que pátio lindo! Está cheio de vasos."
+        },
+        {
+          "speaker": "Vecina",
+          "es": "Gracias. Riego las flores todas las tardes.",
+          "pt": "Obrigada. Rego as flores todas as tardes."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Puedo hacer una foto?",
+          "pt": "Posso tirar uma foto?"
+        },
+        {
+          "speaker": "Vecina",
+          "es": "Claro, pero no toques las plantas.",
+          "pt": "Claro, mas não toque nas plantas."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Cuál es su secreto?",
+          "pt": "Qual é o seu segredo?"
+        },
+        {
+          "speaker": "Vecina",
+          "es": "Mucho cariño y mucha agua. ¡Aquí hace mucho calor!",
+          "pt": "Muito carinho e muita água. Aqui faz muito calor!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Hacer una foto\" significa:",
+      "options": [
+        "Tirar uma foto",
+        "Fazer uma pintura",
+        "Revelar uma foto"
+      ],
+      "correct": 0,
+      "explanation": "Na Espanha: hacer (ou sacar) una foto."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Posso tirar uma foto?",
+      "answer": [
+        "¿Puedo",
+        "hacer",
+        "una",
+        "foto?"
+      ],
+      "distractors": [
+        "tirar",
+        "sacar"
+      ],
+      "explanation": "\"Tirar\" em espanhol é jogar fora!"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Gracias. Riego las flores todas las tardes.",
+      "options": [
+        "Obrigada. Rego as flores todas as tardes.",
+        "Obrigada. Compro flores todas as tardes.",
+        "Obrigada. Arranco as flores de tarde."
+      ],
+      "correct": 0,
+      "explanation": "\"Regar\": riego, riegas..."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "maceta",
+          "kind": "armadilha",
+          "meaning": "vaso de planta",
+          "tip": "Vaso (de beber) = \"vaso\"!"
+        },
+        {
+          "es": "jarra",
+          "kind": "quase",
+          "meaning": "jarra",
+          "tip": "Una jarra de agua."
+        },
+        {
+          "es": "regar",
+          "kind": "igual",
+          "meaning": "regar",
+          "tip": "Igual!"
+        },
+        {
+          "es": "basura",
+          "kind": "armadilha",
+          "meaning": "lixo",
+          "tip": "Não é vassoura (escoba)!"
+        },
+        {
+          "es": "clavel",
+          "kind": "quase",
+          "meaning": "cravo",
+          "tip": "Flor típica andaluza."
+        },
+        {
+          "es": "geranio",
+          "kind": "quase",
+          "meaning": "gerânio",
+          "tip": "Muito comum nos pátios."
+        },
+        {
+          "es": "cariño",
+          "kind": "quase",
+          "meaning": "carinho",
+          "tip": "Com ñ."
+        },
+        {
+          "es": "pozo",
+          "kind": "armadilha",
+          "meaning": "poço",
+          "tip": "Não é \"pozo\" de comida!"
+        },
+        {
+          "es": "vecina",
+          "kind": "quase",
+          "meaning": "vizinha",
+          "tip": "Vecino/a."
+        },
+        {
+          "es": "planta",
+          "kind": "igual",
+          "meaning": "planta",
+          "tip": "Também andar do prédio: planta baja = térreo."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Un vaso de agua\" é:",
+      "options": [
+        "Um copo d'água",
+        "Um vaso com água",
+        "Uma jarra de água"
+      ],
+      "correct": 0,
+      "explanation": "Vaso = copo. Vaso de planta = maceta."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Não toque nas plantas.",
+      "answer": [
+        "No",
+        "toques",
+        "las",
+        "plantas."
+      ],
+      "distractors": [
+        "en",
+        "tocas"
+      ],
+      "explanation": "Imperativo negativo: no toques."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Mucho cariño y mucha agua. ¡Aquí hace mucho calor!",
+      "options": [
+        "Muito carinho e muita água. Aqui faz muito calor!",
+        "Pouca água e muito sol.",
+        "Muito carinho, mas aqui faz frio."
+      ],
+      "correct": 0,
+      "explanation": "Córdoba é das cidades mais quentes da Espanha no verão."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"No lo ___, ¡es mío!\" (não jogue fora)",
+      "options": [
+        "tires",
+        "tiras",
+        "tire"
+      ],
+      "correct": 0,
+      "explanation": "\"Tirar\" = jogar fora. No lo tires."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "¿Me das un vaso de agua?",
+          "options": [
+            "Me dá um copo d'água?",
+            "Me dá um vaso com água?"
+          ],
+          "correct": 0,
+          "joke": "Vaso = copo."
+        },
+        {
+          "spanish": "Tira la basura.",
+          "options": [
+            "Jogue o lixo fora.",
+            "Tire o lixo da sacola."
+          ],
+          "correct": 0,
+          "joke": "Tirar = jogar fora."
+        },
+        {
+          "spanish": "Pon la maceta al sol.",
+          "options": [
+            "Ponha o vaso de planta no sol.",
+            "Ponha a maçaneta no sol."
+          ],
+          "correct": 0,
+          "joke": "Maceta = vaso de planta."
+        },
+        {
+          "spanish": "Vivo en la planta baja.",
+          "options": [
+            "Moro no térreo.",
+            "Moro na planta baixa."
+          ],
+          "correct": 0,
+          "joke": "Planta baja = térreo."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Andalucía",
+      "items": [
+        {
+          "emoji": "🌺",
+          "title": "Festival de los Patios",
+          "es": "¿Vamos a ver los patios?",
+          "pt": "Em maio, moradores de Córdoba abrem seus pátios cheios de flores para visitação. A festa é Patrimônio Cultural Imaterial da UNESCO."
+        },
+        {
+          "emoji": "🌡️",
+          "title": "Calor cordobês",
+          "es": "En verano, Córdoba es un horno.",
+          "pt": "No verão Córdoba passa fácil dos 40 °C. Pátios com água e plantas ajudam a refrescar a casa."
+        }
+      ]
+    }
+  ]
+}
