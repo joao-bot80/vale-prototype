@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "id": "u9l3",
+  "title": "De metrô e ônibus",
+  "scenario": "Valencia · parada de metro de Xàtiva",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 27: Indo para a praia",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Perdone, ¿qué línea va a la playa?",
+          "pt": "Com licença, qual linha vai para a praia?"
+        },
+        {
+          "speaker": "Señor",
+          "es": "Puedes coger el tranvía o el autobús de la EMT.",
+          "pt": "Você pode pegar o bonde ou o ônibus da EMT."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Dónde puedo recargar la tarjeta?",
+          "pt": "Onde posso recarregar o cartão?"
+        },
+        {
+          "speaker": "Señor",
+          "es": "En las máquinas de la estación. Es muy fácil.",
+          "pt": "Nas máquinas da estação. É muito fácil."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y cuántas paradas son?",
+          "pt": "E quantas paradas são?"
+        },
+        {
+          "speaker": "Señor",
+          "es": "Unas ocho. Bájate en la última.",
+          "pt": "Umas oito. Desce na última."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Bájate en la última\" significa:",
+      "options": [
+        "Desce na última",
+        "Sobe na primeira",
+        "Espera a última"
+      ],
+      "correct": 0,
+      "explanation": "\"Bajarse\" = descer (do transporte). \"Subirse\" = subir."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Qual linha vai para a praia?",
+      "answer": [
+        "¿Qué",
+        "línea",
+        "va",
+        "a",
+        "la",
+        "playa?"
+      ],
+      "distractors": [
+        "cuál",
+        "praia"
+      ],
+      "explanation": "\"¿Qué línea...?\" = qual linha...?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Puedes coger el tranvía o el autobús de la EMT.",
+      "options": [
+        "Você pode pegar o bonde ou o ônibus da EMT.",
+        "Você precisa pegar um táxi.",
+        "O metrô não vai para a praia."
+      ],
+      "correct": 0,
+      "explanation": "EMT = empresa de ônibus urbanos de Valencia. \"Tranvía\" = bonde/VLT."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "línea",
+          "kind": "quase",
+          "meaning": "linha",
+          "tip": "\"Í\" no lugar de \"inh\"."
+        },
+        {
+          "es": "abono",
+          "kind": "armadilha",
+          "meaning": "passe (de transporte)",
+          "tip": "Não é abono salarial! Abono mensual = passe mensal."
+        },
+        {
+          "es": "tranvía",
+          "kind": "quase",
+          "meaning": "bonde / VLT",
+          "tip": "Tran + vía."
+        },
+        {
+          "es": "máquina",
+          "kind": "igual",
+          "meaning": "máquina",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "recargar",
+          "kind": "quase",
+          "meaning": "recarregar",
+          "tip": "Quase igual."
+        },
+        {
+          "es": "parada",
+          "kind": "quase",
+          "meaning": "ponto / parada",
+          "tip": "Ponto de ônibus = parada."
+        },
+        {
+          "es": "andén",
+          "kind": "armadilha",
+          "meaning": "plataforma",
+          "tip": "O andar é \"planta\"."
+        },
+        {
+          "es": "billetera",
+          "kind": "armadilha",
+          "meaning": "carteira",
+          "tip": "Não é bilheteria! Bilheteria = \"taquilla\"."
+        },
+        {
+          "es": "retraso",
+          "kind": "armadilha",
+          "meaning": "atraso",
+          "tip": "Retrasar = atrasar."
+        },
+        {
+          "es": "transbordo",
+          "kind": "quase",
+          "meaning": "baldeação",
+          "tip": "Fazer transbordo = trocar de linha."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"El tren lleva retraso\" significa:",
+      "options": [
+        "O trem está atrasado",
+        "O trem está cheio",
+        "O trem voltou"
+      ],
+      "correct": 0,
+      "explanation": "\"Retraso\" = atraso."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Onde posso recarregar o cartão?",
+      "answer": [
+        "¿Dónde",
+        "puedo",
+        "recargar",
+        "la",
+        "tarjeta?"
+      ],
+      "distractors": [
+        "cartón",
+        "adónde"
+      ],
+      "explanation": "\"Tarjeta\" = cartão. Cartón = papelão!"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "En las máquinas de la estación. Es muy fácil.",
+      "options": [
+        "Nas máquinas da estação. É muito fácil.",
+        "Na bilheteria do centro. É difícil.",
+        "Só pelo aplicativo."
+      ],
+      "correct": 0,
+      "explanation": "\"Fácil\" = fácil."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"¿Cuántas ___ son?\" (paradas)",
+      "options": [
+        "paradas",
+        "parados",
+        "pares"
+      ],
+      "correct": 0,
+      "explanation": "\"Parada\" = ponto/estação."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Espera en el andén.",
+          "options": [
+            "Espera na plataforma.",
+            "Espera no andar de cima."
+          ],
+          "correct": 0,
+          "joke": "Andén = plataforma."
+        },
+        {
+          "spanish": "He perdido la billetera.",
+          "options": [
+            "Perdi a carteira.",
+            "Perdi a bilheteria."
+          ],
+          "correct": 0,
+          "joke": "Billetera = carteira."
+        },
+        {
+          "spanish": "Hay un retraso de diez minutos.",
+          "options": [
+            "Tem um atraso de dez minutos.",
+            "Tem um retrato de dez minutos."
+          ],
+          "correct": 0,
+          "joke": "Retraso = atraso."
+        },
+        {
+          "spanish": "Hay que hacer transbordo.",
+          "options": [
+            "É preciso fazer baldeação.",
+            "É preciso transbordar o rio."
+          ],
+          "correct": 0,
+          "joke": "Transbordo = trocar de linha."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Comunitat Valenciana",
+      "items": [
+        {
+          "emoji": "🚇",
+          "title": "Metrovalencia",
+          "es": "Me bajo en la parada de la playa.",
+          "pt": "Valencia tem metrô e bonde (Metrovalencia) e ônibus urbanos da EMT. Os nomes de estações aparecem em valenciano, por exemplo \"Xàtiva\" e \"Platja\" (praia)."
+        },
+        {
+          "emoji": "🏖️",
+          "title": "Platja de la Malvarrosa",
+          "es": "Hoy vamos a la Malvarrosa.",
+          "pt": "A praia urbana de Valencia, larga e de areia fina, com um calçadão cheio de restaurantes de arroz. Em valenciano: \"platja\" = praia."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "id": "u8l3",
+  "title": "Las Fallas",
+  "scenario": "Valencia · una plaza en marzo",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 24: Fallas!",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Qué ruido! ¿Qué es eso?",
+          "pt": "Que barulho! O que é isso?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Es la mascletà. Son petardos a las dos de la tarde.",
+          "pt": "É a mascletà. São bombinhas às duas da tarde."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y esas figuras gigantes de cartón?",
+          "pt": "E essas figuras gigantes de papelão?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Son los ninots de la falla. El último día los queman.",
+          "pt": "São os ninots da falla. No último dia eles são queimados."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Los queman? ¡Pero son preciosos!",
+          "pt": "Queimam? Mas são lindos!"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí, es la cremà. Esa noche vamos a verla juntos.",
+          "pt": "Sim, é a cremà. Nessa noite vamos ver juntos."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Ruido\" significa:",
+      "options": [
+        "Barulho",
+        "Rua",
+        "Ruína"
+      ],
+      "correct": 0,
+      "explanation": "\"¡Qué ruido!\" = que barulho!"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Nessa noite vamos ver juntos.",
+      "answer": [
+        "Esa",
+        "noche",
+        "vamos",
+        "a",
+        "verla",
+        "juntos."
+      ],
+      "distractors": [
+        "veremos",
+        "noite"
+      ],
+      "explanation": "\"Vamos a verla\" = vamos vê-la."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Es la mascletà. Son petardos a las dos de la tarde.",
+      "options": [
+        "É a mascletà. São bombinhas às duas da tarde.",
+        "É um show de música às duas da manhã.",
+        "É a mascletà, às dez da noite."
+      ],
+      "correct": 0,
+      "explanation": "Durante as Fallas, a mascletà é ao meio-dia/duas da tarde, na Plaza del Ayuntamiento."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "fuego",
+          "kind": "quase",
+          "meaning": "fogo",
+          "tip": "\"Ue\" no lugar de \"o\"."
+        },
+        {
+          "es": "traca",
+          "kind": "quase",
+          "meaning": "fileira de bombinhas",
+          "tip": "Uma traca fecha a mascletà."
+        },
+        {
+          "es": "petardo",
+          "kind": "quase",
+          "meaning": "bombinha",
+          "tip": "Petardo também existe em português."
+        },
+        {
+          "es": "ruido",
+          "kind": "armadilha",
+          "meaning": "barulho",
+          "tip": "Não é rua nem ruído suave: é barulho."
+        },
+        {
+          "es": "calle",
+          "kind": "armadilha",
+          "meaning": "rua",
+          "tip": "Não é \"cale\" (cale-se)!"
+        },
+        {
+          "es": "gigante",
+          "kind": "igual",
+          "meaning": "gigante",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "quemar",
+          "kind": "quase",
+          "meaning": "queimar",
+          "tip": "Quase igual."
+        },
+        {
+          "es": "bomberos",
+          "kind": "quase",
+          "meaning": "bombeiros",
+          "tip": "Quase igual."
+        },
+        {
+          "es": "marzo",
+          "kind": "quase",
+          "meaning": "março",
+          "tip": "Com z."
+        },
+        {
+          "es": "ofrenda",
+          "kind": "quase",
+          "meaning": "oferenda",
+          "tip": "As falleras levam flores à Virgem."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que acontece na \"cremà\"?",
+      "options": [
+        "Queimam os monumentos das fallas",
+        "Começa a festa com flores",
+        "Há uma corrida de bicicletas"
+      ],
+      "correct": 0,
+      "explanation": "La cremà é a noite final: os monumentos são queimados."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Que barulho! O que é isso?",
+      "answer": [
+        "¡Qué",
+        "ruido!",
+        "¿Qué",
+        "es",
+        "eso?"
+      ],
+      "distractors": [
+        "barulho",
+        "esto"
+      ],
+      "explanation": "\"Eso\" = isso (longe de quem fala)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Son los ninots de la falla. El último día los queman.",
+      "options": [
+        "São os ninots da falla. No último dia eles são queimados.",
+        "Os ninots são guardados num museu.",
+        "Hoje é o primeiro dia da falla."
+      ],
+      "correct": 0,
+      "explanation": "Os \"ninots\" são as figuras. Um deles, escolhido por votação, é salvo do fogo."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"El último día los ___.\"",
+      "options": [
+        "queman",
+        "quemar",
+        "quemó"
+      ],
+      "correct": 0,
+      "explanation": "Ellos queman = eles queimam."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "La figura es de cartón.",
+          "options": [
+            "A figura é de papelão.",
+            "A figura é de cartão de crédito."
+          ],
+          "correct": 0,
+          "joke": "Cartón = papelão."
+        },
+        {
+          "spanish": "Hay mucho ruido en la calle.",
+          "options": [
+            "Tem muito barulho na rua.",
+            "Tem muita ruína na calçada."
+          ],
+          "correct": 0,
+          "joke": "Ruido = barulho, calle = rua."
+        },
+        {
+          "spanish": "Los bomberos están preparados.",
+          "options": [
+            "Os bombeiros estão preparados.",
+            "Os bombeiros estão preocupados."
+          ],
+          "correct": 0,
+          "joke": "Preparado = preparado; preocupado = \"preocupado\"."
+        },
+        {
+          "spanish": "Mañana vamos a la ofrenda.",
+          "options": [
+            "Amanhã vamos à oferenda.",
+            "Amanhã vamos à ofensa."
+          ],
+          "correct": 0,
+          "joke": "Ofrenda = oferenda."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Comunitat Valenciana",
+      "items": [
+        {
+          "emoji": "🔥",
+          "title": "Falles",
+          "es": "¡Vamos a ver las Fallas!",
+          "pt": "As Fallas vão até 19 de março (São José). Os bairros montam monumentos enormes de papelão e madeira, e na última noite tudo é queimado: la cremà. Em valenciano: \"falles\"."
+        },
+        {
+          "emoji": "💐",
+          "title": "La Ofrenda",
+          "es": "Las falleras llevan flores a la Virgen.",
+          "pt": "Na Ofrenda, falleras e falleros com trajes tradicionais levam flores à Virgen de los Desamparados, formando um enorme manto de flores na praça."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u8l2",
+  "title": "Horchata e fartons",
+  "scenario": "Valencia · horchatería en el centro",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 23: Hora da horchata",
+      "lines": [
+        {
+          "speaker": "Lino",
+          "es": "¡Lu! Hace calor. ¿Vamos a tomar una horchata?",
+          "pt": "Lu! Está calor. Vamos tomar uma horchata?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Vale! ¿Qué es exactamente la horchata?",
+          "pt": "Beleza! O que é exatamente a horchata?"
+        },
+        {
+          "speaker": "Camarera",
+          "es": "Es una bebida fría hecha con chufa, agua y azúcar.",
+          "pt": "É uma bebida gelada feita com chufa, água e açúcar."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Pues una horchata grande y dos fartons, por favor.",
+          "pt": "Então uma horchata grande e dois fartons, por favor."
+        },
+        {
+          "speaker": "Camarera",
+          "es": "Los fartons se mojan en la horchata. ¡Ya verás!",
+          "pt": "Os fartons se molham na horchata. Você vai ver!"
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Está buenísima! Mañana voy a volver.",
+          "pt": "Está deliciosa! Amanhã vou voltar."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Mañana voy a volver\" significa:",
+      "options": [
+        "Amanhã vou voltar",
+        "Amanhã voltei",
+        "De manhã vou embora"
+      ],
+      "correct": 0,
+      "explanation": "Futuro com \"ir a\" + infinitivo: voy a volver = vou voltar. Igual ao português!"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Amanhã vou voltar.",
+      "answer": [
+        "Mañana",
+        "voy",
+        "a",
+        "volver."
+      ],
+      "distractors": [
+        "volveré",
+        "vuelvo"
+      ],
+      "explanation": "\"Ir a + infinitivo\" é o futuro do dia a dia."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Es una bebida fría hecha con chufa, agua y azúcar.",
+      "options": [
+        "É uma bebida gelada feita com chufa, água e açúcar.",
+        "É um café gelado com leite.",
+        "É um suco de laranja com açúcar."
+      ],
+      "correct": 0,
+      "explanation": "A chufa é um tubérculo pequeno, cultivado na região de Valencia."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "azúcar",
+          "kind": "quase",
+          "meaning": "açúcar",
+          "tip": "Quase igual, com z."
+        },
+        {
+          "es": "hielo",
+          "kind": "quase",
+          "meaning": "gelo",
+          "tip": "\"Hi\" no lugar de \"ge\"."
+        },
+        {
+          "es": "pajita",
+          "kind": "armadilha",
+          "meaning": "canudo",
+          "tip": "Não é palhinha de cadeira: é o canudo da bebida."
+        },
+        {
+          "es": "helado",
+          "kind": "armadilha",
+          "meaning": "sorvete",
+          "tip": "Gelado em português é \"frío\"."
+        },
+        {
+          "es": "grande",
+          "kind": "igual",
+          "meaning": "grande",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "dulce",
+          "kind": "quase",
+          "meaning": "doce",
+          "tip": "Lembra \"doce\"."
+        },
+        {
+          "es": "mojar",
+          "kind": "armadilha",
+          "meaning": "molhar",
+          "tip": "Molhar o farton na horchata."
+        },
+        {
+          "es": "chufa",
+          "kind": "igual",
+          "meaning": "chufa",
+          "tip": "Mesma palavra (tubérculo da horchata)."
+        },
+        {
+          "es": "bizcocho",
+          "kind": "armadilha",
+          "meaning": "bolo simples",
+          "tip": "Biscoito é \"galleta\"."
+        },
+        {
+          "es": "merienda",
+          "kind": "quase",
+          "meaning": "lanche da tarde",
+          "tip": "Lembra \"merenda\"."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Lu diz \"¡Está buenísima!\". Ela achou a horchata:",
+      "options": [
+        "Deliciosa",
+        "Muito cara",
+        "Muito gelada"
+      ],
+      "correct": 0,
+      "explanation": "\"Buenísimo\" = muito bom. \"Está bueno\" para comida = está gostoso."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vamos tomar uma horchata?",
+      "answer": [
+        "¿Vamos",
+        "a",
+        "tomar",
+        "una",
+        "horchata?"
+      ],
+      "distractors": [
+        "beber",
+        "tomamos"
+      ],
+      "explanation": "\"Vamos a + infinitivo\" = vamos + verbo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Los fartons se mojan en la horchata. ¡Ya verás!",
+      "options": [
+        "Os fartons se molham na horchata. Você vai ver!",
+        "Os fartons são vendidos separados.",
+        "A horchata já acabou."
+      ],
+      "correct": 0,
+      "explanation": "\"¡Ya verás!\" = você vai ver!"
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Esta tarde ___ a ir a la playa.\" (nós)",
+      "options": [
+        "vamos",
+        "voy",
+        "van"
+      ],
+      "correct": 0,
+      "explanation": "Nosotros vamos a + infinitivo."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "¿Me das una pajita?",
+          "options": [
+            "Me dá um canudo?",
+            "Me dá uma palhinha de cadeira?"
+          ],
+          "correct": 0,
+          "joke": "Pajita = canudo."
+        },
+        {
+          "spanish": "Quiero un helado de chocolate.",
+          "options": [
+            "Quero um sorvete de chocolate.",
+            "Quero um gelado de chocolate frio."
+          ],
+          "correct": 0,
+          "joke": "Helado = sorvete."
+        },
+        {
+          "spanish": "Mi abuela hace un bizcocho buenísimo.",
+          "options": [
+            "Minha avó faz um bolo ótimo.",
+            "Minha avó faz um biscoito ótimo."
+          ],
+          "correct": 0,
+          "joke": "Bizcocho = bolo simples."
+        },
+        {
+          "spanish": "A las seis tomamos la merienda.",
+          "options": [
+            "Às seis fazemos o lanche da tarde.",
+            "Às seis tomamos a merenda escolar."
+          ],
+          "correct": 0,
+          "joke": "Merienda = lanche da tarde."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Comunitat Valenciana",
+      "items": [
+        {
+          "emoji": "🥛",
+          "title": "Orxata",
+          "es": "¿Una horchata con fartons?",
+          "pt": "A horchata é feita de chufa e servida bem gelada. Alboraia, ao norte da cidade, é famosa por ela. Em valenciano se escreve \"orxata\"."
+        },
+        {
+          "emoji": "🥖",
+          "title": "Fartons",
+          "es": "Los fartons son alargados y dulces.",
+          "pt": "Pãezinhos doces e compridos, cobertos de açúcar, feitos para molhar na horchata."
+        }
+      ]
+    }
+  ]
+}

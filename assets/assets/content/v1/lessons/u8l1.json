@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u8l1",
+  "title": "Paella de verdade",
+  "scenario": "Valencia · restaurante en la playa de la Malvarrosa",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 22: Chegando a Valencia",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Hola, ¿tenéis mesa para dos? Queremos comer paella.",
+          "pt": "Oi, vocês têm mesa para dois? Queremos comer paella."
+        },
+        {
+          "speaker": "Camarero",
+          "es": "Sí. La paella se hace al momento, tarda unos veinte minutos.",
+          "pt": "Sim. A paella é feita na hora, demora uns vinte minutos."
+        },
+        {
+          "speaker": "Lu",
+          "es": "No pasa nada. ¿Cuál nos recomiendas?",
+          "pt": "Sem problema. Qual você recomenda?"
+        },
+        {
+          "speaker": "Camarero",
+          "es": "La valenciana: pollo, conejo, judías verdes y garrofó.",
+          "pt": "A valenciana: frango, coelho, vagem e garrofó."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y lleva marisco?",
+          "pt": "E leva frutos do mar?"
+        },
+        {
+          "speaker": "Camarero",
+          "es": "No, la valenciana no. Si queréis marisco, pedid la de marisco.",
+          "pt": "Não, a valenciana não. Se quiserem frutos do mar, peçam a de marisco."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Tarda unos veinte minutos\" significa:",
+      "options": [
+        "Demora uns vinte minutos",
+        "Chega em vinte minutos atrasado",
+        "Custa uns vinte euros"
+      ],
+      "correct": 0,
+      "explanation": "\"Tardar\" = demorar. Paella boa é feita na hora."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Qual você recomenda?",
+      "answer": [
+        "¿Cuál",
+        "nos",
+        "recomiendas?"
+      ],
+      "distractors": [
+        "qual",
+        "recomenda"
+      ],
+      "explanation": "\"Recomendar\" vira \"recomiendas\" (e → ie)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "La valenciana: pollo, conejo, judías verdes y garrofó.",
+      "options": [
+        "A valenciana: frango, coelho, vagem e garrofó.",
+        "A valenciana: camarão, lula e mexilhão.",
+        "A valenciana: frango, porco e arroz."
+      ],
+      "correct": 0,
+      "explanation": "\"Judías verdes\" = vagem. \"Garrofó\" é um feijão-branco grande típico de Valencia."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "garrofó",
+          "kind": "quase",
+          "meaning": "feijão-branco grande",
+          "tip": "Palavra valenciana usada também em castelhano para esse ingrediente."
+        },
+        {
+          "es": "pollo",
+          "kind": "armadilha",
+          "meaning": "frango",
+          "tip": "Não é polvo nem pó: pollo = frango."
+        },
+        {
+          "es": "conejo",
+          "kind": "quase",
+          "meaning": "coelho",
+          "tip": "\"J\" no lugar de \"lh\"."
+        },
+        {
+          "es": "judía",
+          "kind": "armadilha",
+          "meaning": "feijão",
+          "tip": "Judías verdes = vagem."
+        },
+        {
+          "es": "azafrán",
+          "kind": "quase",
+          "meaning": "açafrão",
+          "tip": "Quase igual."
+        },
+        {
+          "es": "romero",
+          "kind": "armadilha",
+          "meaning": "alecrim",
+          "tip": "Romeiro é outra coisa!"
+        },
+        {
+          "es": "caldo",
+          "kind": "igual",
+          "meaning": "caldo",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "paellera",
+          "kind": "quase",
+          "meaning": "paelleira",
+          "tip": "A panela da paella (em Valencia, a panela também se chama \"paella\")."
+        },
+        {
+          "es": "socarrat",
+          "kind": "quase",
+          "meaning": "crosta do fundo",
+          "tip": "A camada tostada no fundo da paella. Muito apreciada!"
+        },
+        {
+          "es": "leña",
+          "kind": "armadilha",
+          "meaning": "lenha",
+          "tip": "Não é \"lenha\"? Quase: com ñ."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¿Lleva marisco?\" serve para perguntar:",
+      "options": [
+        "Se o prato tem frutos do mar",
+        "Se dá para levar para viagem",
+        "Se o prato é picante"
+      ],
+      "correct": 0,
+      "explanation": "\"Llevar\" num prato = ter como ingrediente."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "A paella é feita na hora.",
+      "answer": [
+        "La",
+        "paella",
+        "se",
+        "hace",
+        "al",
+        "momento."
+      ],
+      "distractors": [
+        "feita",
+        "hora"
+      ],
+      "explanation": "\"Al momento\" = na hora."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "No, la valenciana no. Si queréis marisco, pedid la de marisco.",
+      "options": [
+        "Não, a valenciana não. Se quiserem frutos do mar, peçam a de marisco.",
+        "Sim, a valenciana leva frutos do mar.",
+        "Hoje não tem marisco."
+      ],
+      "correct": 0,
+      "explanation": "\"Pedid\" = peçam (imperativo de vosotros)."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"¿___ mesa para dos?\"",
+      "options": [
+        "Tenéis",
+        "Tenemos",
+        "Tienen ustedes"
+      ],
+      "correct": 0,
+      "explanation": "\"Tenéis\" = vocês têm (vosotros), o normal na Espanha num bar informal."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "El pollo está muy tierno.",
+          "options": [
+            "O frango está muito macio.",
+            "O polvo está muito macio."
+          ],
+          "correct": 0,
+          "joke": "Pollo = frango."
+        },
+        {
+          "spanish": "Echa un poco de romero.",
+          "options": [
+            "Põe um pouco de alecrim.",
+            "Põe um pouco de romeiro."
+          ],
+          "correct": 0,
+          "joke": "Romero = alecrim."
+        },
+        {
+          "spanish": "Me encantan las judías verdes.",
+          "options": [
+            "Adoro vagem.",
+            "Adoro as judias verdes."
+          ],
+          "correct": 0,
+          "joke": "Judías verdes = vagem."
+        },
+        {
+          "spanish": "La paella tarda veinte minutos.",
+          "options": [
+            "A paella demora vinte minutos.",
+            "A paella está vinte minutos atrasada."
+          ],
+          "correct": 0,
+          "joke": "Tardar = demorar."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Comunitat Valenciana",
+      "items": [
+        {
+          "emoji": "🥘",
+          "title": "Paella valenciana",
+          "es": "La paella es de Valencia.",
+          "pt": "A paella nasceu na região de Valencia. A \"valenciana\" leva frango, coelho e verduras; a de frutos do mar é outra receita. Em valenciano, \"paella\" é o nome da própria panela."
+        },
+        {
+          "emoji": "🍚",
+          "title": "Arroz ao meio-dia",
+          "es": "Los domingos comemos paella.",
+          "pt": "Arroz se come no almoço, não no jantar. A Albufera, lagoa ao sul da cidade, é cercada de plantações de arroz."
+        }
+      ]
+    }
+  ]
+}

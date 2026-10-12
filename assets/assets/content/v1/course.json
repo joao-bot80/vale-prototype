@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-4",
+  "contentVersion": "2026.10.12-5",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -193,7 +193,7 @@
     {
       "id": "valencia",
       "name": "Valencia",
-      "subtitle": "Fallas e paella",
+      "subtitle": "Paella, Fallas e Turia",
       "emoji": "🥘",
       "stampText": "VALENCIA",
       "lon": -0.38,
@@ -201,35 +201,45 @@
       "units": [
         {
           "id": "val-u1",
-          "title": "Paella de verdade",
+          "title": "Sabores e Fallas",
           "emoji": "🥘",
           "lessons": [
             {
-              "id": "val-u1-l1",
-              "title": "No mercado",
-              "available": false
+              "id": "u8l1",
+              "title": "Paella de verdade",
+              "available": true
             },
             {
-              "id": "val-u1-l2",
-              "title": "O almoço de domingo",
-              "available": false
+              "id": "u8l2",
+              "title": "Horchata e fartons",
+              "available": true
+            },
+            {
+              "id": "u8l3",
+              "title": "Las Fallas",
+              "available": true
             }
           ]
         },
         {
           "id": "val-u2",
-          "title": "Las Fallas",
-          "emoji": "🔥",
+          "title": "Vida em Valencia",
+          "emoji": "🚲",
           "lessons": [
             {
-              "id": "val-u2-l1",
-              "title": "A mascletà",
-              "available": false
+              "id": "u9l1",
+              "title": "Pedalando pelo Turia",
+              "available": true
             },
             {
-              "id": "val-u2-l2",
-              "title": "La cremà",
-              "available": false
+              "id": "u9l2",
+              "title": "No centro de saúde",
+              "available": true
+            },
+            {
+              "id": "u9l3",
+              "title": "De metrô e ônibus",
+              "available": true
             }
           ]
         }

@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "u9l2",
+  "title": "No centro de saúde",
+  "scenario": "Valencia · centro de salud del barrio",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 26: Lu ficou doente",
+      "lines": [
+        {
+          "speaker": "Recepcionista",
+          "es": "Buenos días. ¿Tiene cita?",
+          "pt": "Bom dia. A senhora tem consulta marcada?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Sí, a las diez con la médica de cabecera.",
+          "pt": "Sim, às dez com a médica de família."
+        },
+        {
+          "speaker": "Recepcionista",
+          "es": "¿Me deja su tarjeta sanitaria, por favor?",
+          "pt": "Me empresta seu cartão de saúde, por favor?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Aquí tiene. Me duele la garganta y tengo fiebre.",
+          "pt": "Aqui está. Estou com dor de garganta e febre."
+        },
+        {
+          "speaker": "Médica",
+          "es": "Le voy a recetar un antibiótico. Vaya a la farmacia con la tarjeta.",
+          "pt": "Vou receitar um antibiótico. Vá à farmácia com o cartão."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Muchas gracias, doctora.",
+          "pt": "Muito obrigada, doutora."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Me duele la garganta\" significa:",
+      "options": [
+        "Estou com dor de garganta",
+        "Minha garganta está seca",
+        "Engoli algo errado"
+      ],
+      "correct": 0,
+      "explanation": "\"Me duele\" + parte do corpo = estou com dor de..."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Estou com dor de cabeça.",
+      "answer": [
+        "Me",
+        "duele",
+        "la",
+        "cabeza."
+      ],
+      "distractors": [
+        "dolor",
+        "tengo"
+      ],
+      "explanation": "Também se diz \"tengo dolor de cabeza\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "¿Me deja su tarjeta sanitaria, por favor?",
+      "options": [
+        "Me empresta seu cartão de saúde, por favor?",
+        "Pode pagar com cartão?",
+        "Deixe a receita aqui, por favor."
+      ],
+      "correct": 0,
+      "explanation": "A \"tarjeta sanitaria\" (SIP na Comunitat Valenciana) dá acesso à saúde pública."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "fiebre",
+          "kind": "quase",
+          "meaning": "febre",
+          "tip": "Ganha um \"i\"."
+        },
+        {
+          "es": "tos",
+          "kind": "armadilha",
+          "meaning": "tosse",
+          "tip": "Curtinho: tos = tosse."
+        },
+        {
+          "es": "receta",
+          "kind": "quase",
+          "meaning": "receita",
+          "tip": "Também é receita de cozinha."
+        },
+        {
+          "es": "médico",
+          "kind": "igual",
+          "meaning": "médico",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "garganta",
+          "kind": "igual",
+          "meaning": "garganta",
+          "tip": "Mesma palavra."
+        },
+        {
+          "es": "venda",
+          "kind": "armadilha",
+          "meaning": "atadura / faixa",
+          "tip": "\"Venda\" (de vender) também existe, mas aqui é a faixa do curativo."
+        },
+        {
+          "es": "alergia",
+          "kind": "igual",
+          "meaning": "alergia",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "jarabe",
+          "kind": "armadilha",
+          "meaning": "xarope",
+          "tip": "Quase \"xarope\", mas com j."
+        },
+        {
+          "es": "pastilla",
+          "kind": "quase",
+          "meaning": "comprimido",
+          "tip": "Também pastilha."
+        },
+        {
+          "es": "urgencias",
+          "kind": "quase",
+          "meaning": "pronto-socorro",
+          "tip": "Lembra \"urgência\"."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Estoy constipada\" quer dizer:",
+      "options": [
+        "Estou resfriada",
+        "Estou com prisão de ventre",
+        "Estou grávida"
+      ],
+      "correct": 0,
+      "explanation": "Falso amigo! Prisão de ventre = \"estreñimiento\"."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vou receitar um antibiótico.",
+      "answer": [
+        "Le",
+        "voy",
+        "a",
+        "recetar",
+        "un",
+        "antibiótico."
+      ],
+      "distractors": [
+        "receta",
+        "receitar"
+      ],
+      "explanation": "\"Recetar\" = receitar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Aquí tiene. Me duele la garganta y tengo fiebre.",
+      "options": [
+        "Aqui está. Estou com dor de garganta e febre.",
+        "Aqui está. Estou com tosse e frio.",
+        "Aqui está. Minha cabeça dói muito."
+      ],
+      "correct": 0,
+      "explanation": "\"Aquí tiene\" = aqui está (formal)."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Médico que você consulta primeiro no posto é o:",
+      "options": [
+        "médico de cabecera",
+        "médico de cabeza",
+        "médico de urgencia"
+      ],
+      "correct": 0,
+      "explanation": "\"Médico de cabecera\" = clínico geral / médico de família."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Mi médico de cabecera es muy amable.",
+          "options": [
+            "Meu médico de família é muito gentil.",
+            "Meu médico de cabeça é muito amável."
+          ],
+          "correct": 0,
+          "joke": "Médico de cabecera = clínico geral, médico de família."
+        },
+        {
+          "spanish": "Mi hermana está embarazada.",
+          "options": [
+            "Minha irmã está grávida.",
+            "Minha irmã está envergonhada."
+          ],
+          "correct": 0,
+          "joke": "Embarazada = grávida."
+        },
+        {
+          "spanish": "Tómate este jarabe.",
+          "options": [
+            "Toma este xarope.",
+            "Toma este vinho."
+          ],
+          "correct": 0,
+          "joke": "Jarabe = xarope."
+        },
+        {
+          "spanish": "Tengo mucha tos.",
+          "options": [
+            "Estou com muita tosse.",
+            "Estou com muito tédio."
+          ],
+          "correct": 0,
+          "joke": "Tos = tosse."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Comunitat Valenciana",
+      "items": [
+        {
+          "emoji": "🏥",
+          "title": "Centro de salud",
+          "es": "Pide cita en tu centro de salud.",
+          "pt": "Na saúde pública espanhola, você é atendido primeiro no \"centro de salud\" do bairro, pelo médico de família. Para emergências: \"urgencias\" ou o 112."
+        },
+        {
+          "emoji": "💊",
+          "title": "Farmàcia",
+          "es": "La farmacia de guardia está abierta.",
+          "pt": "Farmácias têm uma cruz verde. Sempre há uma \"de guardia\" aberta à noite. Em valenciano: \"farmàcia\"."
+        }
+      ]
+    }
+  ]
+}

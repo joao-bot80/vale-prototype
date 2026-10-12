@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "id": "u9l1",
+  "title": "Pedalando pelo Turia",
+  "scenario": "Valencia · Jardín del Turia",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 25: De bici",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Quiero alquilar una bici para recorrer el Turia.",
+          "pt": "Quero alugar uma bicicleta para percorrer o Turia."
+        },
+        {
+          "speaker": "Dani",
+          "es": "Buena idea. El jardín va de un lado a otro de la ciudad.",
+          "pt": "Boa ideia. O jardim atravessa a cidade de um lado a outro."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Antes era un río de verdad?",
+          "pt": "Antes era um rio de verdade?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "Sí. Después de una gran riada, desviaron el río y hicieron un parque.",
+          "pt": "Sim. Depois de uma grande enchente, desviaram o rio e fizeram um parque."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Creo que es una idea genial.",
+          "pt": "Acho que é uma ideia genial."
+        },
+        {
+          "speaker": "Dani",
+          "es": "Yo también. Al final está la Ciudad de las Artes y las Ciencias.",
+          "pt": "Eu também. No final fica a Cidade das Artes e das Ciências."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Creo que es una idea genial\" significa:",
+      "options": [
+        "Acho que é uma ideia genial",
+        "Criei uma ideia genial",
+        "Acredito em gênios"
+      ],
+      "correct": 0,
+      "explanation": "Para dar opinião: \"Creo que...\", \"Pienso que...\", \"Me parece que...\"."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Acho que é uma ideia genial.",
+      "answer": [
+        "Creo",
+        "que",
+        "es",
+        "una",
+        "idea",
+        "genial."
+      ],
+      "distractors": [
+        "acho",
+        "pienso"
+      ],
+      "explanation": "\"Creo que\" = acho que."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Después de una gran riada, desviaron el río y hicieron un parque.",
+      "options": [
+        "Depois de uma grande enchente, desviaram o rio e fizeram um parque.",
+        "O rio ainda passa pelo parque.",
+        "Fizeram um parque em cima de uma estrada."
+      ],
+      "correct": 0,
+      "explanation": "\"Riada\" = enchente de rio."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "bici",
+          "kind": "quase",
+          "meaning": "bike / bicicleta",
+          "tip": "Abreviação de \"bicicleta\"."
+        },
+        {
+          "es": "carril",
+          "kind": "armadilha",
+          "meaning": "faixa / pista",
+          "tip": "Carril bici = ciclovia. Não é trilho de trem (\"vía\")."
+        },
+        {
+          "es": "río",
+          "kind": "quase",
+          "meaning": "rio",
+          "tip": "Com acento."
+        },
+        {
+          "es": "puente",
+          "kind": "quase",
+          "meaning": "ponte",
+          "tip": "\"Ue\" no lugar de \"o\"."
+        },
+        {
+          "es": "árbol",
+          "kind": "quase",
+          "meaning": "árvore",
+          "tip": "\"L\" no lugar de \"r\"."
+        },
+        {
+          "es": "casco",
+          "kind": "armadilha",
+          "meaning": "capacete",
+          "tip": "O casco da cidade (\"casco antiguo\") é o centro histórico."
+        },
+        {
+          "es": "rueda",
+          "kind": "quase",
+          "meaning": "roda",
+          "tip": "Ganha um \"e\"."
+        },
+        {
+          "es": "timbre",
+          "kind": "armadilha",
+          "meaning": "campainha",
+          "tip": "Não é selo! A campainha da bici."
+        },
+        {
+          "es": "frenar",
+          "kind": "quase",
+          "meaning": "frear",
+          "tip": "Frenos = freios."
+        },
+        {
+          "es": "cuesta",
+          "kind": "armadilha",
+          "meaning": "ladeira / subida",
+          "tip": "\"Cuesta\" também é \"custa\" (de costar)."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Para dar opinião, qual NÃO serve?",
+      "options": [
+        "Me llamo que...",
+        "Creo que...",
+        "Me parece que..."
+      ],
+      "correct": 0,
+      "explanation": "\"Me llamo\" é para dizer o nome."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Na minha opinião, o parque é lindo.",
+      "answer": [
+        "En",
+        "mi",
+        "opinión,",
+        "el",
+        "parque",
+        "es",
+        "precioso."
+      ],
+      "distractors": [
+        "opino",
+        "lindo"
+      ],
+      "explanation": "\"Precioso\" = lindo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Quiero alquilar una bici para recorrer el Turia.",
+      "options": [
+        "Quero alugar uma bicicleta para percorrer o Turia.",
+        "Quero comprar uma bicicleta nova.",
+        "Quero atravessar o rio a nado."
+      ],
+      "correct": 0,
+      "explanation": "\"Alquilar\" = alugar. Valencia é plana e cheia de ciclovias."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"¿Hay ___ bici en esta calle?\" (ciclovia)",
+      "options": [
+        "carril",
+        "calle",
+        "vía"
+      ],
+      "correct": 0,
+      "explanation": "\"Carril bici\" = ciclovia."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Ponte el casco.",
+          "options": [
+            "Põe o capacete.",
+            "Põe o casco."
+          ],
+          "correct": 0,
+          "joke": "Casco = capacete."
+        },
+        {
+          "spanish": "Toca el timbre.",
+          "options": [
+            "Toca a campainha.",
+            "Cola o selo."
+          ],
+          "correct": 0,
+          "joke": "Timbre = campainha."
+        },
+        {
+          "spanish": "Hay mucho carril bici.",
+          "options": [
+            "Tem muita ciclovia.",
+            "Tem muito trilho de trem."
+          ],
+          "correct": 0,
+          "joke": "Carril bici = ciclovia."
+        },
+        {
+          "spanish": "Esa cuesta es muy dura.",
+          "options": [
+            "Essa subida é muito puxada.",
+            "Essa costa é muito dura."
+          ],
+          "correct": 0,
+          "joke": "Cuesta = ladeira."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Comunitat Valenciana",
+      "items": [
+        {
+          "emoji": "🌳",
+          "title": "Jardí del Túria",
+          "es": "Vamos en bici por el Turia.",
+          "pt": "Depois da grande enchente de 1957, o rio foi desviado e o leito antigo virou um parque de uns 9 km. Em valenciano: \"Jardí del Túria\"."
+        },
+        {
+          "emoji": "🏛️",
+          "title": "Ciutat de les Arts",
+          "es": "La Ciudad de las Artes y las Ciencias es futurista.",
+          "pt": "Complexo de prédios brancos e futuristas no fim do Turia, com museu de ciências, aquário (Oceanogràfic) e ópera. Em valenciano: \"Ciutat de les Arts i les Ciències\"."
+        }
+      ]
+    }
+  ]
+}
