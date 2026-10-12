@@ -117,10 +117,10 @@
           "tip": "Vacunar = vacinar."
         },
         {
-          "es": "pañal",
-          "kind": "armadilha",
-          "meaning": "fralda",
-          "tip": "Não é pano!"
+          "es": "chupar",
+          "kind": "igual",
+          "meaning": "chupar",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "termómetro",

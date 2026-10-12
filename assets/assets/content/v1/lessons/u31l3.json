@@ -114,9 +114,9 @@
         },
         {
           "es": "picar",
-          "kind": "armadilha",
-          "meaning": "arder (pimenta) / beliscar",
-          "tip": "Picar = arder/beliscar. Em PT-BR, picar é cortar em pedacinhos ou ferroar."
+          "kind": "quase",
+          "meaning": "picar / arder (pimenta)",
+          "tip": "Picar = picar. \"Pica\" = arde (pimenta)."
         },
         {
           "es": "ración",

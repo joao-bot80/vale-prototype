@@ -119,15 +119,15 @@
         },
         {
           "es": "tocar",
-          "kind": "armadilha",
-          "meaning": "ser a vez",
-          "tip": "Te toca = é a sua vez. Em PT-BR, tocar é encostar ou tocar música."
+          "kind": "quase",
+          "meaning": "tocar / ser a vez",
+          "tip": "Tocar = tocar. Bônus: \"te toca\" = é a sua vez."
         },
         {
           "es": "barra",
-          "kind": "armadilha",
-          "meaning": "balcão",
-          "tip": "Barra = balcão do bar. Em PT-BR, barra é a peça de metal / barra de chocolate."
+          "kind": "quase",
+          "meaning": "barra / balcão do bar",
+          "tip": "Barra = barra; no bar, é o balcão."
         },
         {
           "es": "taberna",

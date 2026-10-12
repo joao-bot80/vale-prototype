@@ -85,10 +85,10 @@
       "passMark": 6,
       "cards": [
         {
-          "es": "servilleta",
-          "kind": "armadilha",
-          "meaning": "guardanapo",
-          "tip": "Não é servil!"
+          "es": "decoración",
+          "kind": "quase",
+          "meaning": "decoração",
+          "tip": "-ción = -ção."
         },
         {
           "es": "celebrar",

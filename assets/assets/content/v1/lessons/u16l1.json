@@ -106,9 +106,9 @@
         },
         {
           "es": "temporal",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "temporário",
-          "tip": "Temporal = temporário. Em PT-BR, temporal é tempestade (\"tormenta\")."
+          "tip": "Temporal = temporário (e também tempestade, como em PT)."
         },
         {
           "es": "prorratear",

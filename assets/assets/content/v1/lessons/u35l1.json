@@ -94,16 +94,16 @@
           "tip": "Sem acento."
         },
         {
-          "es": "perro",
+          "es": "batido",
           "kind": "armadilha",
-          "meaning": "cachorro",
-          "tip": "Cachorro em espanhol = filhote!"
+          "meaning": "vitamina / milk-shake",
+          "tip": "Batido = vitamina/milk-shake. Em PT-BR, batido é surrado, gasto (\"gastado\")."
         },
         {
-          "es": "acero",
-          "kind": "armadilha",
-          "meaning": "aço",
-          "tip": "Não é acerto!"
+          "es": "metal",
+          "kind": "igual",
+          "meaning": "metal",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "escultura gigante",
@@ -143,9 +143,9 @@
         },
         {
           "es": "exposición temporal",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "exposição temporária",
-          "tip": "Temporal = temporário. Em PT-BR, temporal é tempestade."
+          "tip": "Temporal = temporário."
         }
       ]
     },

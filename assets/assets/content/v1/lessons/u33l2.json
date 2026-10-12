@@ -116,10 +116,10 @@
           "tip": "Abrígate."
         },
         {
-          "es": "bufanda",
-          "kind": "armadilha",
-          "meaning": "cachecol",
-          "tip": "Não é bufante!"
+          "es": "gorro",
+          "kind": "igual",
+          "meaning": "gorro",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "paseo",

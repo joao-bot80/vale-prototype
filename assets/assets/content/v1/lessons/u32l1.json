@@ -89,10 +89,10 @@
       "passMark": 6,
       "cards": [
         {
-          "es": "paraguas",
+          "es": "acordar",
           "kind": "armadilha",
-          "meaning": "guarda-chuva",
-          "tip": "Para + aguas."
+          "meaning": "combinar, concordar",
+          "tip": "Acordar = combinar. Em PT-BR, acordar é despertar (\"despertarse\")."
         },
         {
           "es": "tormenta",
@@ -113,10 +113,10 @@
           "tip": "Chuva forte."
         },
         {
-          "es": "chubasquero",
-          "kind": "armadilha",
-          "meaning": "capa de chuva",
-          "tip": "Não é chuveiro!"
+          "es": "humedad",
+          "kind": "quase",
+          "meaning": "umidade",
+          "tip": "Humedad = umidade."
         },
         {
           "es": "botas de agua",

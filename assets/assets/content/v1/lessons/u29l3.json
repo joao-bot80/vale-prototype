@@ -94,10 +94,10 @@
           "tip": "Não é carpete!"
         },
         {
-          "es": "arreglar",
-          "kind": "armadilha",
-          "meaning": "consertar / arrumar",
-          "tip": "Arreglar el grifo."
+          "es": "sellar",
+          "kind": "quase",
+          "meaning": "carimbar / selar",
+          "tip": "Sellar = selar/carimbar."
         },
         {
           "es": "escanear",

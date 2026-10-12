@@ -98,10 +98,10 @@
           "tip": "Palillo = palito."
         },
         {
-          "es": "pizarra",
-          "kind": "armadilha",
-          "meaning": "quadro (de giz)",
-          "tip": "Não é pizzaria!"
+          "es": "bocado",
+          "kind": "igual",
+          "meaning": "bocado",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "confianza",
@@ -140,10 +140,10 @@
           "tip": "-ción = -ção."
         },
         {
-          "es": "guindilla",
-          "kind": "armadilha",
-          "meaning": "pimenta verde",
-          "tip": "Não é guindaste!"
+          "es": "pan con tomate",
+          "kind": "quase",
+          "meaning": "pão com tomate",
+          "tip": "Pan = pão, con = com."
         }
       ]
     },

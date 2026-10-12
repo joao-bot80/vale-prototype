@@ -135,10 +135,10 @@
           "tip": "Doblaje = dublagem. \"Película doblada\" = filme dublado."
         },
         {
-          "es": "butaca",
-          "kind": "armadilha",
-          "meaning": "poltrona (de cinema)",
-          "tip": "Não é butique!"
+          "es": "actor",
+          "kind": "quase",
+          "meaning": "ator",
+          "tip": "Actor = ator."
         },
         {
           "es": "cámara",

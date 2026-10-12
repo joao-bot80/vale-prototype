@@ -130,10 +130,10 @@
           "tip": "Sem acento."
         },
         {
-          "es": "testigo",
-          "kind": "armadilha",
-          "meaning": "testemunha",
-          "tip": "Não é testículo!"
+          "es": "ladrón",
+          "kind": "quase",
+          "meaning": "ladrão",
+          "tip": "Ladrón = ladrão."
         },
         {
           "es": "sospechoso",

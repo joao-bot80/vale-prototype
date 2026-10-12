@@ -141,10 +141,10 @@
           "tip": "Naturaleza = natureza."
         },
         {
-          "es": "hoyo",
-          "kind": "armadilha",
-          "meaning": "buraco",
-          "tip": "Não é hoje!"
+          "es": "volcánico",
+          "kind": "quase",
+          "meaning": "vulcânico",
+          "tip": "Volcánico = vulcânico."
         }
       ]
     },

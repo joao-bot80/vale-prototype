@@ -129,9 +129,9 @@
         },
         {
           "es": "peaje",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "pedágio",
-          "tip": "Autopista de peaje."
+          "tip": "Peaje = pedágio."
         },
         {
           "es": "altura",

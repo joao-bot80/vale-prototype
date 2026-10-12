@@ -117,15 +117,15 @@
         },
         {
           "es": "baja",
-          "kind": "armadilha",
-          "meaning": "licença médica / desligamento",
-          "tip": "Baja = licença médica ou desligamento. Em PT-BR, baixa é o feminino de baixo (\"baja\" de altura) ou queda."
+          "kind": "quase",
+          "meaning": "baixa / licença médica",
+          "tip": "Baja = baixa; \"estar de baja\" = de licença médica."
         },
         {
           "es": "alta",
-          "kind": "armadilha",
-          "meaning": "registro / inscrição",
-          "tip": "Alta = inscrição/cadastro. Em PT-BR, alta é a do hospital ou de alto."
+          "kind": "quase",
+          "meaning": "alta / inscrição",
+          "tip": "Alta = alta; \"darse de alta\" = cadastrar-se."
         },
         {
           "es": "autónomo",

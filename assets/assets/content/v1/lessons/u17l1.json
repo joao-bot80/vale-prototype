@@ -94,9 +94,9 @@
         },
         {
           "es": "suspender",
-          "kind": "armadilha",
-          "meaning": "ser reprovado",
-          "tip": "Suspender = ser reprovado. Em PT-BR, suspender é interromper ou punir."
+          "kind": "quase",
+          "meaning": "suspender / ser reprovado",
+          "tip": "Suspender = suspender; na escola, reprovar."
         },
         {
           "es": "nacionalidad",

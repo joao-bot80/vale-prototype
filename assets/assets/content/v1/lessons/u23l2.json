@@ -86,10 +86,10 @@
       "passMark": 6,
       "cards": [
         {
-          "es": "esguince",
-          "kind": "armadilha",
-          "meaning": "entorse",
-          "tip": "Não é esguicho!"
+          "es": "esparadrapo",
+          "kind": "igual",
+          "meaning": "esparadrapo",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "cuello",
@@ -104,10 +104,10 @@
           "tip": "Hincharse = inchar."
         },
         {
-          "es": "escayola",
-          "kind": "armadilha",
-          "meaning": "gesso (ortopédico)",
-          "tip": "Não é escaiola."
+          "es": "jeringa",
+          "kind": "quase",
+          "meaning": "seringa",
+          "tip": "Jeringa = seringa."
         },
         {
           "es": "radiografía",

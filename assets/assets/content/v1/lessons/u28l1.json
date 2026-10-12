@@ -101,9 +101,9 @@
         },
         {
           "es": "curso",
-          "kind": "armadilha",
-          "meaning": "ano letivo / série",
-          "tip": "Curso = ano/série escolar. Em PT-BR, curso é um curso (de inglês, de faculdade)."
+          "kind": "quase",
+          "meaning": "curso / ano letivo",
+          "tip": "Curso = curso; na escola, também o ano/série."
         },
         {
           "es": "primaria",

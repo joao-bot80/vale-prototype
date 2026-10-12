@@ -112,10 +112,10 @@
           "tip": "Hacer una videollamada."
         },
         {
-          "es": "aunque",
+          "es": "extrañar",
           "kind": "armadilha",
-          "meaning": "embora / mesmo que",
-          "tip": "Não é \"ainda que\" só."
+          "meaning": "sentir falta",
+          "tip": "Extrañar = sentir saudade. Em PT-BR, estranhar é achar esquisito (\"sorprender\")."
         },
         {
           "es": "sur",
@@ -136,10 +136,10 @@
           "tip": "Igual!"
         },
         {
-          "es": "echar de menos",
-          "kind": "armadilha",
-          "meaning": "sentir saudade",
-          "tip": "Te echo de menos."
+          "es": "nostalgia",
+          "kind": "igual",
+          "meaning": "nostalgia",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "distancia",

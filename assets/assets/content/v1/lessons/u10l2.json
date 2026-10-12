@@ -115,9 +115,9 @@
         },
         {
           "es": "sobre",
-          "kind": "armadilha",
-          "meaning": "envelope",
-          "tip": "Sobre = envelope. Em PT-BR, sobre é a preposição (em cima de, a respeito de)."
+          "kind": "quase",
+          "meaning": "sobre (a respeito de) / envelope",
+          "tip": "Sobre = sobre (a respeito de, em cima de). De quebra, \"un sobre\" = envelope."
         },
         {
           "es": "fondo",

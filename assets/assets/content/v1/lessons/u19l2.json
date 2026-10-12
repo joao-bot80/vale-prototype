@@ -99,10 +99,10 @@
           "tip": "Escalar la torre."
         },
         {
-          "es": "arriba",
+          "es": "pegar",
           "kind": "armadilha",
-          "meaning": "em cima",
-          "tip": "Não é \"arriba\" de chegar!"
+          "meaning": "bater / grudar",
+          "tip": "Pegar = bater ou colar. Em PT-BR, pegar é agarrar (\"coger\")."
         },
         {
           "es": "pólvora",

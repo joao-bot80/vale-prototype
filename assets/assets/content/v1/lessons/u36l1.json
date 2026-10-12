@@ -105,10 +105,10 @@
           "tip": "Manzana = maçã."
         },
         {
-          "es": "membrillo",
+          "es": "mermelada",
           "kind": "armadilha",
-          "meaning": "marmelada (de marmelo)",
-          "tip": "Não é mamilo!"
+          "meaning": "geleia",
+          "tip": "Mermelada = geleia. Em PT-BR, marmelada é o doce de marmelo (\"dulce de membrillo\")."
         },
         {
           "es": "nuez",
