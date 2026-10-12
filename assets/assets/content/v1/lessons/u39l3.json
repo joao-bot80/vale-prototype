@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "id": "u39l3",
+  "title": "Lanzarote de Manrique",
+  "scenario": "Lanzarote · Timanfaya",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 117: Fogo na terra",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Esto parece la luna. Todo es negro y rojo.",
+          "pt": "Isso parece a lua. Tudo é preto e vermelho."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Es Timanfaya. Hubo erupciones durante seis años, en el siglo dieciocho.",
+          "pt": "É Timanfaya. Teve erupções por seis anos, no século dezoito."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Y el suelo sigue caliente!",
+          "pt": "E o chão continua quente!"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí, en el restaurante asan la carne con el calor del volcán.",
+          "pt": "Sim, no restaurante assam a carne com o calor do vulcão."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y quién diseñó estos lugares tan bonitos?",
+          "pt": "E quem projetou estes lugares tão bonitos?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "César Manrique, un artista de aquí. Defendió la isla del cemento.",
+          "pt": "César Manrique, um artista daqui. Defendeu a ilha do cimento."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"El suelo\" significa:",
+      "options": [
+        "O chão",
+        "O sol",
+        "O salário"
+      ],
+      "correct": 0,
+      "explanation": "Suelo = chão; sueldo = salário."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "O chão continua quente.",
+      "answer": [
+        "El",
+        "suelo",
+        "sigue",
+        "caliente."
+      ],
+      "distractors": [
+        "chão",
+        "continua"
+      ],
+      "explanation": "Seguir = continuar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Es Timanfaya. Hubo erupciones durante seis años, en el siglo dieciocho.",
+      "options": [
+        "É Timanfaya. Teve erupções por seis anos, no século dezoito.",
+        "É um vulcão ativo hoje.",
+        "É uma praia."
+      ],
+      "correct": 0,
+      "explanation": "1730–1736."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "erupción",
+          "kind": "quase",
+          "meaning": "erupção",
+          "tip": "Erupción volcánica."
+        },
+        {
+          "es": "islote",
+          "kind": "quase",
+          "meaning": "ilhota",
+          "tip": "Islote de Hilario."
+        },
+        {
+          "es": "asar",
+          "kind": "quase",
+          "meaning": "assar",
+          "tip": "Carne asada."
+        },
+        {
+          "es": "ceniza",
+          "kind": "quase",
+          "meaning": "cinza",
+          "tip": "Ceniza volcánica."
+        },
+        {
+          "es": "artista",
+          "kind": "igual",
+          "meaning": "artista",
+          "tip": "Igual!"
+        },
+        {
+          "es": "diseñar",
+          "kind": "quase",
+          "meaning": "projetar / desenhar",
+          "tip": "Diseño."
+        },
+        {
+          "es": "rascacielos",
+          "kind": "quase",
+          "meaning": "arranha-céu",
+          "tip": "Manrique no los quería."
+        },
+        {
+          "es": "jameo",
+          "kind": "quase",
+          "meaning": "gruta vulcânica aberta",
+          "tip": "Jameos del Agua."
+        },
+        {
+          "es": "malpaís",
+          "kind": "quase",
+          "meaning": "terreno de lava",
+          "tip": "Paisaje volcánico."
+        },
+        {
+          "es": "hoyo",
+          "kind": "armadilha",
+          "meaning": "buraco",
+          "tip": "Não é hoje!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Un hoyo\" é:",
+      "options": [
+        "Um buraco",
+        "Hoje",
+        "Um olho"
+      ],
+      "correct": 0,
+      "explanation": "Hoyo = buraco."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Ele defendeu a ilha.",
+      "answer": [
+        "Defendió",
+        "la",
+        "isla."
+      ],
+      "distractors": [
+        "defendeu",
+        "ilha"
+      ],
+      "explanation": "Pretérito."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, en el restaurante asan la carne con el calor del volcán.",
+      "options": [
+        "Sim, no restaurante assam a carne com o calor do vulcão.",
+        "Não tem restaurante.",
+        "Cozinham com gás."
+      ],
+      "correct": 0,
+      "explanation": "Restaurante El Diablo."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Cada viña está en un ___.\" (buraco)",
+      "options": [
+        "hoyo",
+        "hoy",
+        "buraco"
+      ],
+      "correct": 0,
+      "explanation": "Hoyo."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "El suelo está caliente.",
+          "options": [
+            "O chão está quente.",
+            "O solo de guitarra está quente."
+          ],
+          "correct": 0,
+          "joke": "Suelo."
+        },
+        {
+          "spanish": "Hay un hoyo.",
+          "options": [
+            "Tem um buraco.",
+            "Tem hoje."
+          ],
+          "correct": 0,
+          "joke": "Hoyo."
+        },
+        {
+          "spanish": "Asan la carne.",
+          "options": [
+            "Assam a carne.",
+            "Asam a carne."
+          ],
+          "correct": 0,
+          "joke": "Asar."
+        },
+        {
+          "spanish": "Es ceniza.",
+          "options": [
+            "É cinza vulcânica.",
+            "É cereja."
+          ],
+          "correct": 0,
+          "joke": "Ceniza."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Canarias",
+      "items": [
+        {
+          "emoji": "🌋",
+          "title": "Timanfaya",
+          "es": "Parque Nacional de Timanfaya.",
+          "pt": "Erupções de 1730 a 1736 cobriram parte de Lanzarote. Hoje é Parque Nacional; no restaurante assam carne com o calor da terra."
+        },
+        {
+          "emoji": "🎨",
+          "title": "César Manrique",
+          "es": "Arte y naturaleza.",
+          "pt": "Artista lanzarotenho (1919–1992) que criou Jameos del Agua e o Mirador del Río e lutou contra prédios altos na ilha. Lanzarote é Reserva da Biosfera da UNESCO desde 1993."
+        }
+      ]
+    }
+  ]
+}

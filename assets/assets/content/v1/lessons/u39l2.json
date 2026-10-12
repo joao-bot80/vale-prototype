@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u39l2",
+  "title": "Gofio e mercado",
+  "scenario": "Las Palmas · Mercado de Vegueta",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 116: Que farinha é essa?",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¿Qué es este polvo marrón?",
+          "pt": "Que pó marrom é esse?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Es gofio: harina de cereales tostados. Muy canario.",
+          "pt": "É gofio: farinha de cereais torrados. Bem canário."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Cómo se toma?",
+          "pt": "Como se come?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Con leche, en caldo o amasado. Mi abuela lo pone en todo.",
+          "pt": "Com leite, no caldo ou amassado. Minha avó põe em tudo."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y ese queso?",
+          "pt": "E esse queijo?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Queso de flor de Guía. Pruébalo con miel de palma.",
+          "pt": "Queijo de flor de Guía. Prova com mel de palma."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Harina\" significa:",
+      "options": [
+        "Farinha",
+        "Areia",
+        "Feira"
+      ],
+      "correct": 0,
+      "explanation": "Harina = farinha."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Minha avó põe em tudo.",
+      "answer": [
+        "Mi",
+        "abuela",
+        "lo",
+        "pone",
+        "en",
+        "todo."
+      ],
+      "distractors": [
+        "avó",
+        "coloca"
+      ],
+      "explanation": "Poner = pôr."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Es gofio: harina de cereales tostados. Muy canario.",
+      "options": [
+        "É gofio: farinha de cereais torrados. Bem canário.",
+        "É chocolate em pó.",
+        "É café moído."
+      ],
+      "correct": 0,
+      "explanation": "Gofio tem IGP."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "gofio",
+          "kind": "quase",
+          "meaning": "farinha de cereais torrados",
+          "tip": "Canário."
+        },
+        {
+          "es": "harina",
+          "kind": "armadilha",
+          "meaning": "farinha",
+          "tip": "Não é areia!"
+        },
+        {
+          "es": "tostado",
+          "kind": "quase",
+          "meaning": "torrado",
+          "tip": "Pan tostado."
+        },
+        {
+          "es": "tostadero",
+          "kind": "quase",
+          "meaning": "torrefação",
+          "tip": "Onde tostam o gofio."
+        },
+        {
+          "es": "miel de palma",
+          "kind": "quase",
+          "meaning": "mel de palma",
+          "tip": "Da palmeira canária."
+        },
+        {
+          "es": "amasar",
+          "kind": "quase",
+          "meaning": "amassar (massa)",
+          "tip": "Amasar gofio."
+        },
+        {
+          "es": "escaldón",
+          "kind": "quase",
+          "meaning": "escaldón (gofio com caldo)",
+          "tip": "Prato canário."
+        },
+        {
+          "es": "queso de flor",
+          "kind": "quase",
+          "meaning": "queijo de flor (cardo)",
+          "tip": "De Guía."
+        },
+        {
+          "es": "balanza",
+          "kind": "armadilha",
+          "meaning": "balança",
+          "tip": "Não é balanço!"
+        },
+        {
+          "es": "tendero",
+          "kind": "quase",
+          "meaning": "vendedor",
+          "tip": "Da tienda."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Este polvo\" aqui é:",
+      "options": [
+        "Este pó",
+        "Este polvo do mar",
+        "Este povo"
+      ],
+      "correct": 0,
+      "explanation": "Polvo = pó; polvo do mar = pulpo."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Prova com mel.",
+      "answer": [
+        "Pruébalo",
+        "con",
+        "miel."
+      ],
+      "distractors": [
+        "prova",
+        "mel"
+      ],
+      "explanation": "Probar = provar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Con leche, en caldo o amasado. Mi abuela lo pone en todo.",
+      "options": [
+        "Com leite, no caldo ou amassado. Minha avó põe em tudo.",
+        "Só com sal.",
+        "Ninguém come mais."
+      ],
+      "correct": 0,
+      "explanation": "Versátil."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"El gofio es ___ tostada.\" (farinha)",
+      "options": [
+        "harina",
+        "farinha",
+        "arena"
+      ],
+      "correct": 0,
+      "explanation": "Harina."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Limpia el polvo.",
+          "options": [
+            "Limpa o pó.",
+            "Limpa o polvo."
+          ],
+          "correct": 0,
+          "joke": "Polvo = pó."
+        },
+        {
+          "spanish": "Es harina tostada.",
+          "options": [
+            "É farinha torrada.",
+            "É areia torrada."
+          ],
+          "correct": 0,
+          "joke": "Harina."
+        },
+        {
+          "spanish": "Ese puesto vende queso.",
+          "options": [
+            "Essa barraca vende queijo.",
+            "Esse posto vende queijo."
+          ],
+          "correct": 0,
+          "joke": "Puesto."
+        },
+        {
+          "spanish": "Amasa el gofio.",
+          "options": [
+            "Amassa o gofio.",
+            "Amassa o carro."
+          ],
+          "correct": 0,
+          "joke": "Amasar."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Canarias",
+      "items": [
+        {
+          "emoji": "🌾",
+          "title": "Gofio",
+          "es": "El gofio canario.",
+          "pt": "Farinha de cereais torrados (milho, trigo) herdada dos aborígenes; tem IGP \"Gofio Canario\"."
+        },
+        {
+          "emoji": "🧀",
+          "title": "Queso de flor",
+          "es": "Queso de flor de Guía.",
+          "pt": "Queijo de Gran Canaria coalhado com flor de cardo, com DOP Queso de Flor de Guía."
+        }
+      ]
+    }
+  ]
+}

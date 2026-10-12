@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "u38l1",
+  "title": "Carnaval de Santa Cruz",
+  "scenario": "Santa Cruz de Tenerife · Carnaval",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 112: Disfarce",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Esto parece el carnaval de Río!",
+          "pt": "Isso parece o carnaval do Rio!"
+        },
+        {
+          "speaker": "Lino",
+          "es": "El de Santa Cruz es de los más grandes del mundo.",
+          "pt": "O de Santa Cruz é dos maiores do mundo."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿De qué te vas a disfrazar?",
+          "pt": "De que você vai se fantasiar?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "De pirata. ¿Y tú?",
+          "pt": "De pirata. E você?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "De reina del carnaval, claro.",
+          "pt": "De rainha do carnaval, claro."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Pues mira, aquí eligen a una reina con trajes enormes.",
+          "pt": "Pois olha, aqui elegem uma rainha com fantasias enormes."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Disfrazarse\" significa:",
+      "options": [
+        "Fantasiar-se",
+        "Disfarçar uma mentira",
+        "Desfazer-se"
+      ],
+      "correct": 0,
+      "explanation": "Disfraz = fantasia."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "De que você vai se fantasiar?",
+      "answer": [
+        "¿De",
+        "qué",
+        "te",
+        "vas",
+        "a",
+        "disfrazar?"
+      ],
+      "distractors": [
+        "fantasiar",
+        "vai"
+      ],
+      "explanation": "Disfrazarse de."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "El de Santa Cruz es de los más grandes del mundo.",
+      "options": [
+        "O de Santa Cruz é dos maiores do mundo.",
+        "O de Santa Cruz é pequeno.",
+        "O de Santa Cruz acabou."
+      ],
+      "correct": 0,
+      "explanation": "Um dos maiores carnavais."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "lentejuela",
+          "kind": "armadilha",
+          "meaning": "lantejoula",
+          "tip": "Não é lentilha!"
+        },
+        {
+          "es": "reina",
+          "kind": "quase",
+          "meaning": "rainha",
+          "tip": "Reina del carnaval."
+        },
+        {
+          "es": "murga",
+          "kind": "quase",
+          "meaning": "grupo satírico de carnaval",
+          "tip": "Cantam críticas com humor."
+        },
+        {
+          "es": "serpentina",
+          "kind": "igual",
+          "meaning": "serpentina",
+          "tip": "Igual!"
+        },
+        {
+          "es": "cabalgata",
+          "kind": "quase",
+          "meaning": "desfile",
+          "tip": "Coso também."
+        },
+        {
+          "es": "pirata",
+          "kind": "igual",
+          "meaning": "pirata",
+          "tip": "Igual!"
+        },
+        {
+          "es": "traje",
+          "kind": "armadilha",
+          "meaning": "roupa / fantasia",
+          "tip": "Não é trajeto!"
+        },
+        {
+          "es": "purpurina",
+          "kind": "quase",
+          "meaning": "purpurina / glitter",
+          "tip": "Por todas partes."
+        },
+        {
+          "es": "careta",
+          "kind": "armadilha",
+          "meaning": "máscara",
+          "tip": "Não é careta (cara feia)!"
+        },
+        {
+          "es": "entierro de la sardina",
+          "kind": "quase",
+          "meaning": "enterro da sardinha",
+          "tip": "Fim do carnaval."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Ponte la careta\" significa:",
+      "options": [
+        "Põe a máscara",
+        "Faz uma careta",
+        "Põe a carteira"
+      ],
+      "correct": 0,
+      "explanation": "Careta = máscara."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Ela usa uma fantasia enorme.",
+      "answer": [
+        "Lleva",
+        "un",
+        "disfraz",
+        "enorme."
+      ],
+      "distractors": [
+        "fantasia",
+        "usa"
+      ],
+      "explanation": "Llevar = usar (roupa)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Pues mira, aquí eligen a una reina con trajes enormes.",
+      "options": [
+        "Pois olha, aqui elegem uma rainha com fantasias enormes.",
+        "Aqui não tem rainha.",
+        "Aqui o rei manda."
+      ],
+      "correct": 0,
+      "explanation": "Gala de la Reina."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Me pongo una ___ de gato.\" (máscara)",
+      "options": [
+        "careta",
+        "máscara de carnaval",
+        "cara"
+      ],
+      "correct": 0,
+      "explanation": "Careta = máscara."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Me pongo la careta.",
+          "options": [
+            "Ponho a máscara.",
+            "Faço careta."
+          ],
+          "correct": 0,
+          "joke": "Careta."
+        },
+        {
+          "spanish": "¡Qué disfraz tan bueno!",
+          "options": [
+            "Que fantasia boa!",
+            "Que disfarce de espião!"
+          ],
+          "correct": 0,
+          "joke": "Disfraz."
+        },
+        {
+          "spanish": "Es un traje precioso.",
+          "options": [
+            "É uma fantasia linda.",
+            "É um trajeto lindo."
+          ],
+          "correct": 0,
+          "joke": "Traje."
+        },
+        {
+          "spanish": "Canta en una murga.",
+          "options": [
+            "Canta num grupo de carnaval.",
+            "Canta na igreja."
+          ],
+          "correct": 0,
+          "joke": "Murga."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Canarias",
+      "items": [
+        {
+          "emoji": "🎭",
+          "title": "Carnaval",
+          "es": "El Carnaval de Santa Cruz.",
+          "pt": "Um dos maiores carnavais do mundo, em fevereiro/março, com murgas, comparsas e a eleição da Rainha. Termina com o \"Entierro de la Sardina\"."
+        },
+        {
+          "emoji": "🇧🇷",
+          "title": "Rio",
+          "es": "Hermanados por el carnaval.",
+          "pt": "Brasileiros costumam se sentir em casa: ritmo, fantasias e rua cheia."
+        }
+      ]
+    }
+  ]
+}

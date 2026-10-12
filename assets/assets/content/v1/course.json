@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-18",
+  "contentVersion": "2026.10.12-19",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -832,13 +832,79 @@
     {
       "id": "canarias",
       "name": "Canarias",
-      "subtitle": "Em breve",
+      "subtitle": "Teide, guaguas e carnaval",
       "emoji": "🌋",
       "stampText": "CANARIAS",
       "lon": -15.4,
       "lat": 28.1,
-      "comingSoon": true,
-      "units": []
+      "units": [
+        {
+          "id": "can-u1",
+          "title": "Tenerife",
+          "emoji": "🌋",
+          "lessons": [
+            {
+              "id": "u37l1",
+              "title": "Subindo o Teide",
+              "available": true
+            },
+            {
+              "id": "u37l2",
+              "title": "Papas arrugadas com mojo",
+              "available": true
+            },
+            {
+              "id": "u37l3",
+              "title": "La Laguna de guagua",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "can-u2",
+          "title": "Carnaval e sotaque",
+          "emoji": "🎭",
+          "lessons": [
+            {
+              "id": "u38l1",
+              "title": "Carnaval de Santa Cruz",
+              "available": true
+            },
+            {
+              "id": "u38l2",
+              "title": "O sotaque canário",
+              "available": true
+            },
+            {
+              "id": "u38l3",
+              "title": "Hora canária",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "can-u3",
+          "title": "Gran Canaria e Lanzarote",
+          "emoji": "🏜️",
+          "lessons": [
+            {
+              "id": "u39l1",
+              "title": "Dunas de Maspalomas",
+              "available": true
+            },
+            {
+              "id": "u39l2",
+              "title": "Gofio e mercado",
+              "available": true
+            },
+            {
+              "id": "u39l3",
+              "title": "Lanzarote de Manrique",
+              "available": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "graduacao",

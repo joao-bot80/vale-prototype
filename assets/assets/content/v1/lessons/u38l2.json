@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "id": "u38l2",
+  "title": "O sotaque canário",
+  "scenario": "Las Palmas · una terraza",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 113: Como fala?",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Aquí la gente habla diferente. Suena casi caribeño.",
+          "pt": "Aqui o pessoal fala diferente. Soa quase caribenho."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí. No pronuncian la zeta como en Madrid: \"zapato\" suena con ese.",
+          "pt": "Sim. Não pronunciam o z como em Madri: \"zapato\" soa com s."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Como nosotros en portugués!",
+          "pt": "Como nós em português!"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Y las eses al final a veces casi desaparecen.",
+          "pt": "E os s no final às vezes quase somem."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Debo copiar el acento?",
+          "pt": "Devo copiar o sotaque?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Entiéndelo bien. Pero aprende el castellano de la Península como base.",
+          "pt": "Entenda bem. Mas aprenda o castelhano da Península como base."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Seseo\" é:",
+      "options": [
+        "Pronunciar z/c como s",
+        "Falar baixinho",
+        "Gaguejar"
+      ],
+      "correct": 0,
+      "explanation": "Comum em Canárias, Andaluzia e América."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Soa quase caribenho.",
+      "answer": [
+        "Suena",
+        "casi",
+        "caribeño."
+      ],
+      "distractors": [
+        "soa",
+        "caribenho"
+      ],
+      "explanation": "Sonar = soar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Entiéndelo bien. Pero aprende el castellano de la Península como base.",
+      "options": [
+        "Entenda bem. Mas aprenda o castelhano da Península como base.",
+        "Copie tudo do sotaque.",
+        "Fale só português."
+      ],
+      "correct": 0,
+      "explanation": "Reconhecer ≠ imitar."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "vosotros",
+          "kind": "quase",
+          "meaning": "vocês (Península)",
+          "tip": "Nas ilhas, outra forma."
+        },
+        {
+          "es": "seseo",
+          "kind": "quase",
+          "meaning": "pronúncia de z como s",
+          "tip": "Rasgo canário."
+        },
+        {
+          "es": "pronunciar",
+          "kind": "quase",
+          "meaning": "pronunciar",
+          "tip": "Pronuncia bien."
+        },
+        {
+          "es": "caribeño",
+          "kind": "quase",
+          "meaning": "caribenho",
+          "tip": "Do Caribe."
+        },
+        {
+          "es": "sonar",
+          "kind": "armadilha",
+          "meaning": "soar",
+          "tip": "Não é sonhar (soñar)!"
+        },
+        {
+          "es": "dejo",
+          "kind": "armadilha",
+          "meaning": "sotaque leve / entonação",
+          "tip": "Não é deixo!"
+        },
+        {
+          "es": "isleño",
+          "kind": "quase",
+          "meaning": "ilhéu",
+          "tip": "Da ilha."
+        },
+        {
+          "es": "peninsular",
+          "kind": "quase",
+          "meaning": "peninsular",
+          "tip": "Da Península."
+        },
+        {
+          "es": "aspirar",
+          "kind": "quase",
+          "meaning": "aspirar (som)",
+          "tip": "La s se aspira."
+        },
+        {
+          "es": "mago",
+          "kind": "armadilha",
+          "meaning": "camponês canário (coloquial)",
+          "tip": "Não é só mágico!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Tiene un acento canario\" significa:",
+      "options": [
+        "Tem um sotaque canário",
+        "Tem um acento gráfico",
+        "Tem um assento canário"
+      ],
+      "correct": 0,
+      "explanation": "Acento = sotaque."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Não pronunciam o z.",
+      "answer": [
+        "No",
+        "pronuncian",
+        "la",
+        "zeta."
+      ],
+      "distractors": [
+        "pronuncia",
+        "o"
+      ],
+      "explanation": "La zeta = a letra z."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí. No pronuncian la zeta como en Madrid: \"zapato\" suena con ese.",
+      "options": [
+        "Sim. Não pronunciam o z como em Madri: zapato soa com s.",
+        "Falam igual Madri.",
+        "Falam inglês."
+      ],
+      "correct": 0,
+      "explanation": "Seseo."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Me gusta su ___ canario.\" (sotaque)",
+      "options": [
+        "acento",
+        "sotaque",
+        "asiento"
+      ],
+      "correct": 0,
+      "explanation": "Acento = sotaque."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Tiene acento canario.",
+          "options": [
+            "Tem sotaque canário.",
+            "Tem assento canário."
+          ],
+          "correct": 0,
+          "joke": "Acento."
+        },
+        {
+          "spanish": "Suena bonito.",
+          "options": [
+            "Soa bonito.",
+            "Sonha bonito."
+          ],
+          "correct": 0,
+          "joke": "Sonar ≠ soñar."
+        },
+        {
+          "spanish": "Es muy isleño.",
+          "options": [
+            "É bem ilhéu.",
+            "É bem isolado."
+          ],
+          "correct": 0,
+          "joke": "Isleño."
+        },
+        {
+          "spanish": "Tiene un dejo dulce.",
+          "options": [
+            "Tem um sotaque doce.",
+            "Deixa um doce."
+          ],
+          "correct": 0,
+          "joke": "Dejo."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Canarias",
+      "items": [
+        {
+          "emoji": "🗣️",
+          "title": "Sotaque canário",
+          "es": "Seseo y eses suaves.",
+          "pt": "Nas Canárias usa-se o seseo (z/c como s) e o s final se aspira. Entenda-o; o curso ensina a pronúncia peninsular padrão."
+        },
+        {
+          "emoji": "👥",
+          "title": "Vocês",
+          "es": "En las islas, otra forma de decir vosotros.",
+          "pt": "Nas Canárias (como na América) usa-se \"ustedes\" também entre amigos para \"vocês\". Só para reconhecer: aqui praticamos \"vosotros\"."
+        }
+      ]
+    }
+  ]
+}

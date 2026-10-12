@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "u38l3",
+  "title": "Hora canária",
+  "scenario": "Las Palmas · Playa de Las Canteras",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 114: Uma hora a menos",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Mi móvil dice las diez y en la tele las once!",
+          "pt": "Meu celular diz dez e na TV onze!"
+        },
+        {
+          "speaker": "Lino",
+          "es": "En Canarias hay una hora menos que en la Península.",
+          "pt": "Nas Canárias tem uma hora a menos que na Península."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Por eso la radio dice \"una hora menos en Canarias\".",
+          "pt": "Por isso o rádio diz \"uma hora menos em Canárias\"."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Exacto. Y aquí el clima es suave todo el año.",
+          "pt": "Exato. E aqui o clima é ameno o ano todo."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Nunca hace frío?",
+          "pt": "Nunca faz frio?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Casi nunca en la costa. Por eso las llaman islas de la eterna primavera.",
+          "pt": "Quase nunca na costa. Por isso as chamam de ilhas da eterna primavera."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Una hora menos\" significa:",
+      "options": [
+        "Uma hora a menos",
+        "Uma hora a mais",
+        "Meia hora"
+      ],
+      "correct": 0,
+      "explanation": "Menos = a menos."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "O clima é ameno o ano todo.",
+      "answer": [
+        "El",
+        "clima",
+        "es",
+        "suave",
+        "todo",
+        "el",
+        "año."
+      ],
+      "distractors": [
+        "ameno",
+        "ano"
+      ],
+      "explanation": "Suave = ameno."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "En Canarias hay una hora menos que en la Península.",
+      "options": [
+        "Nas Canárias tem uma hora a menos que na Península.",
+        "Mesma hora que Madri.",
+        "Duas horas a mais."
+      ],
+      "correct": 0,
+      "explanation": "Igual a Lisboa/Londres."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "huso horario",
+          "kind": "quase",
+          "meaning": "fuso horário",
+          "tip": "Huso."
+        },
+        {
+          "es": "suave",
+          "kind": "quase",
+          "meaning": "ameno / suave",
+          "tip": "Clima suave."
+        },
+        {
+          "es": "primavera",
+          "kind": "igual",
+          "meaning": "primavera",
+          "tip": "Igual!"
+        },
+        {
+          "es": "adelantar",
+          "kind": "quase",
+          "meaning": "adiantar",
+          "tip": "Adelantar el reloj."
+        },
+        {
+          "es": "atrasar",
+          "kind": "quase",
+          "meaning": "atrasar",
+          "tip": "Atrasar una hora."
+        },
+        {
+          "es": "tele",
+          "kind": "quase",
+          "meaning": "TV",
+          "tip": "Televisión."
+        },
+        {
+          "es": "cielo",
+          "kind": "quase",
+          "meaning": "céu",
+          "tip": "Cielo azul."
+        },
+        {
+          "es": "calima",
+          "kind": "armadilha",
+          "meaning": "névoa de poeira do Saara",
+          "tip": "Não é calma!"
+        },
+        {
+          "es": "alisios",
+          "kind": "quase",
+          "meaning": "ventos alísios",
+          "tip": "Refrescam as ilhas."
+        },
+        {
+          "es": "horario de verano",
+          "kind": "quase",
+          "meaning": "horário de verão",
+          "tip": "Cambio de hora."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Hay calima\" significa:",
+      "options": [
+        "Tem poeira do Saara no ar",
+        "Está calmo",
+        "Está calor úmido"
+      ],
+      "correct": 0,
+      "explanation": "Calima = névoa de poeira."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Atrasa o relógio uma hora.",
+      "answer": [
+        "Atrasa",
+        "el",
+        "reloj",
+        "una",
+        "hora."
+      ],
+      "distractors": [
+        "relógio",
+        "adelanta"
+      ],
+      "explanation": "Atrasar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Casi nunca en la costa. Por eso las llaman islas de la eterna primavera.",
+      "options": [
+        "Quase nunca na costa. Por isso as chamam de ilhas da eterna primavera.",
+        "Sempre neva.",
+        "Faz muito frio na praia."
+      ],
+      "correct": 0,
+      "explanation": "Clima ameno."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Hoy hay ___ y no se ve el mar.\" (poeira)",
+      "options": [
+        "calima",
+        "calma",
+        "niebla seca"
+      ],
+      "correct": 0,
+      "explanation": "Calima."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Hoy hay calima.",
+          "options": [
+            "Hoje tem poeira do Saara.",
+            "Hoje está calmo."
+          ],
+          "correct": 0,
+          "joke": "Calima."
+        },
+        {
+          "spanish": "Atrasa el reloj.",
+          "options": [
+            "Atrasa o relógio.",
+            "Adianta o relógio."
+          ],
+          "correct": 0,
+          "joke": "Atrasar."
+        },
+        {
+          "spanish": "El clima es suave.",
+          "options": [
+            "O clima é ameno.",
+            "O clima é macio."
+          ],
+          "correct": 0,
+          "joke": "Suave."
+        },
+        {
+          "spanish": "Vamos al chiringuito.",
+          "options": [
+            "Vamos à barraca de praia.",
+            "Vamos ao chiqueiro."
+          ],
+          "correct": 0,
+          "joke": "Chiringuito."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Canarias",
+      "items": [
+        {
+          "emoji": "🕐",
+          "title": "Hora canária",
+          "es": "Una hora menos en Canarias.",
+          "pt": "As Canárias têm uma hora a menos que a Espanha peninsular. A frase \"una hora menos en Canarias\" é clássica no rádio e na TV."
+        },
+        {
+          "emoji": "🌤️",
+          "title": "Clima",
+          "es": "Islas de la eterna primavera.",
+          "pt": "Ventos alísios e corrente das Canárias deixam a costa amena o ano todo; às vezes chega a calima do Saara."
+        }
+      ]
+    }
+  ]
+}

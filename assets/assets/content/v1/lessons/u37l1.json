@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u37l1",
+  "title": "Subindo o Teide",
+  "scenario": "Tenerife · Parque Nacional del Teide",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 109: O vulcão",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Qué alto es el Teide! ¿Cuánto mide?",
+          "pt": "Que alto é o Teide! Quanto mede?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Unos tres mil setecientos metros. Es el pico más alto de España.",
+          "pt": "Uns três mil e setecentos metros. É o pico mais alto da Espanha."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Se puede subir hasta la cima?",
+          "pt": "Dá para subir até o cume?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "El teleférico llega cerca. Para el último tramo hace falta un permiso.",
+          "pt": "O teleférico chega perto. Para o último trecho precisa de uma autorização."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Arriba hace frío, ¿no?",
+          "pt": "Lá em cima faz frio, né?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Mucho. Abajo playa, arriba abrigo. Así es Tenerife.",
+          "pt": "Muito. Embaixo praia, em cima casaco. Assim é Tenerife."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Hace falta un permiso\" significa:",
+      "options": [
+        "Precisa de uma autorização",
+        "Falta um feriado",
+        "Faz falta uma permissão de férias"
+      ],
+      "correct": 0,
+      "explanation": "Hacer falta = precisar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Quanto mede?",
+      "answer": [
+        "¿Cuánto",
+        "mide?"
+      ],
+      "distractors": [
+        "quanto",
+        "medir"
+      ],
+      "explanation": "Medir = ter de altura."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "El teleférico llega cerca. Para el último tramo hace falta un permiso.",
+      "options": [
+        "O teleférico chega perto. Para o último trecho precisa de uma autorização.",
+        "O teleférico está fechado.",
+        "Pode subir sem nada."
+      ],
+      "correct": 0,
+      "explanation": "Permissão gratuita para o cume."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "lava solidificada",
+          "kind": "quase",
+          "meaning": "lava solidificada",
+          "tip": "Malpaís."
+        },
+        {
+          "es": "cima",
+          "kind": "armadilha",
+          "meaning": "cume / topo",
+          "tip": "Não é \"em cima\" genérico!"
+        },
+        {
+          "es": "tramo",
+          "kind": "quase",
+          "meaning": "trecho",
+          "tip": "Último tramo."
+        },
+        {
+          "es": "volcán",
+          "kind": "quase",
+          "meaning": "vulcão",
+          "tip": "Volcánico."
+        },
+        {
+          "es": "lava",
+          "kind": "igual",
+          "meaning": "lava",
+          "tip": "Igual!"
+        },
+        {
+          "es": "cráter",
+          "kind": "quase",
+          "meaning": "cratera",
+          "tip": "Masculino em espanhol."
+        },
+        {
+          "es": "forro polar",
+          "kind": "armadilha",
+          "meaning": "fleece / blusa polar",
+          "tip": "Não é forro!"
+        },
+        {
+          "es": "retama",
+          "kind": "armadilha",
+          "meaning": "giesta (planta)",
+          "tip": "Retama del Teide."
+        },
+        {
+          "es": "cumbre",
+          "kind": "quase",
+          "meaning": "cume",
+          "tip": "Sinônimo de cima."
+        },
+        {
+          "es": "pico",
+          "kind": "igual",
+          "meaning": "pico",
+          "tip": "Igual!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Llévate un abrigo\" significa:",
+      "options": [
+        "Leve um casaco",
+        "Leve um refúgio",
+        "Leve um guarda-chuva"
+      ],
+      "correct": 0,
+      "explanation": "Abrigo = casaco."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "É o pico mais alto da Espanha.",
+      "answer": [
+        "Es",
+        "el",
+        "pico",
+        "más",
+        "alto",
+        "de",
+        "España."
+      ],
+      "distractors": [
+        "mais",
+        "alta"
+      ],
+      "explanation": "Más = mais."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Mucho. Abajo playa, arriba abrigo. Así es Tenerife.",
+      "options": [
+        "Muito. Embaixo praia, em cima casaco. Assim é Tenerife.",
+        "Nada, faz calor sempre.",
+        "Só chove lá em cima."
+      ],
+      "correct": 0,
+      "explanation": "Contrastes de altitude."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Llegamos a la ___ del volcán.\" (topo)",
+      "options": [
+        "cima",
+        "topo",
+        "encima"
+      ],
+      "correct": 0,
+      "explanation": "Cima = topo."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Hace falta un permiso.",
+          "options": [
+            "Precisa de uma autorização.",
+            "Falta um feriado."
+          ],
+          "correct": 0,
+          "joke": "Hacer falta = precisar."
+        },
+        {
+          "spanish": "Llévate el abrigo.",
+          "options": [
+            "Leve o casaco.",
+            "Leve o abrigo antiaéreo."
+          ],
+          "correct": 0,
+          "joke": "Abrigo = casaco."
+        },
+        {
+          "spanish": "Estamos en la cima.",
+          "options": [
+            "Estamos no topo.",
+            "Estamos em cima da mesa."
+          ],
+          "correct": 0,
+          "joke": "Cima = cume."
+        },
+        {
+          "spanish": "¿Cuánto mide?",
+          "options": [
+            "Quanto mede de altura?",
+            "Quanto custa?"
+          ],
+          "correct": 0,
+          "joke": "Medir."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Canarias",
+      "items": [
+        {
+          "emoji": "🌋",
+          "title": "El Teide",
+          "es": "El Teide mide 3.715 metros.",
+          "pt": "Vulcão de Tenerife, pico mais alto da Espanha (3.715 m). O Parque Nacional del Teide é Patrimônio Mundial da UNESCO desde 2007. Para o cume é preciso autorização gratuita."
+        },
+        {
+          "emoji": "🗺️",
+          "title": "Canarias",
+          "es": "Siete islas principales.",
+          "pt": "Arquipélago espanhol no Atlântico, perto da costa da África. Lá a hora é uma a menos que em Madri."
+        }
+      ]
+    }
+  ]
+}

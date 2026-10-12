@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "id": "u39l1",
+  "title": "Dunas de Maspalomas",
+  "scenario": "Gran Canaria · Maspalomas",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 115: Deserto na praia",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Parece un desierto junto al mar!",
+          "pt": "Parece um deserto junto ao mar!"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Son las dunas de Maspalomas. Al lado está el faro.",
+          "pt": "São as dunas de Maspalomas. Do lado está o farol."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Podemos caminar por las dunas?",
+          "pt": "Podemos caminhar pelas dunas?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Solo por los senderos marcados. Es una reserva natural.",
+          "pt": "Só pelas trilhas marcadas. É uma reserva natural."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Qué calor! La arena quema.",
+          "pt": "Que calor! A areia queima."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Ponte las chanclas y bebe agua.",
+          "pt": "Põe os chinelos e bebe água."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Las chanclas\" são:",
+      "options": [
+        "Os chinelos",
+        "As chances",
+        "As tranças"
+      ],
+      "correct": 0,
+      "explanation": "Chanclas = chinelos."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "A areia queima.",
+      "answer": [
+        "La",
+        "arena",
+        "quema."
+      ],
+      "distractors": [
+        "areia",
+        "quemar"
+      ],
+      "explanation": "Quemar = queimar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Solo por los senderos marcados. Es una reserva natural.",
+      "options": [
+        "Só pelas trilhas marcadas. É uma reserva natural.",
+        "Pode andar por qualquer lugar.",
+        "É proibido entrar."
+      ],
+      "correct": 0,
+      "explanation": "Proteção das dunas."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "duna",
+          "kind": "igual",
+          "meaning": "duna",
+          "tip": "Igual!"
+        },
+        {
+          "es": "desierto",
+          "kind": "quase",
+          "meaning": "deserto",
+          "tip": "Con ie."
+        },
+        {
+          "es": "oasis",
+          "kind": "quase",
+          "meaning": "oásis",
+          "tip": "Oasis de Maspalomas."
+        },
+        {
+          "es": "camello",
+          "kind": "quase",
+          "meaning": "camelo",
+          "tip": "Também dromedário."
+        },
+        {
+          "es": "arena negra",
+          "kind": "quase",
+          "meaning": "areia preta",
+          "tip": "Playas volcánicas."
+        },
+        {
+          "es": "pamela",
+          "kind": "armadilha",
+          "meaning": "chapéu de aba larga",
+          "tip": "Não é nome de pessoa só!"
+        },
+        {
+          "es": "sudar",
+          "kind": "quase",
+          "meaning": "suar",
+          "tip": "Sudar mucho."
+        },
+        {
+          "es": "insolación",
+          "kind": "quase",
+          "meaning": "insolação",
+          "tip": "Cuidado al sol."
+        },
+        {
+          "es": "duna móvil",
+          "kind": "quase",
+          "meaning": "duna móvel",
+          "tip": "El viento la mueve."
+        },
+        {
+          "es": "lagartija",
+          "kind": "armadilha",
+          "meaning": "lagartixa",
+          "tip": "Não é lagarta!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"La sombrilla\" na praia é:",
+      "options": [
+        "O guarda-sol",
+        "A sombrinha de chuva",
+        "A sombra"
+      ],
+      "correct": 0,
+      "explanation": "Sombrilla = guarda-sol."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Põe os chinelos.",
+      "answer": [
+        "Ponte",
+        "las",
+        "chanclas."
+      ],
+      "distractors": [
+        "chinelos",
+        "pon"
+      ],
+      "explanation": "Ponerse."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Son las dunas de Maspalomas. Al lado está el faro.",
+      "options": [
+        "São as dunas de Maspalomas. Do lado está o farol.",
+        "São montanhas de neve.",
+        "Não tem farol."
+      ],
+      "correct": 0,
+      "explanation": "Faro de Maspalomas."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Clava la ___ en la arena.\" (guarda-sol)",
+      "options": [
+        "sombrilla",
+        "guarda-sol",
+        "sombra"
+      ],
+      "correct": 0,
+      "explanation": "Sombrilla."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "La arena quema.",
+          "options": [
+            "A areia queima.",
+            "A arena queima."
+          ],
+          "correct": 0,
+          "joke": "Arena = areia."
+        },
+        {
+          "spanish": "Mira el faro.",
+          "options": [
+            "Olha o farol.",
+            "Olha o faro."
+          ],
+          "correct": 0,
+          "joke": "Faro = farol."
+        },
+        {
+          "spanish": "Trae las chanclas.",
+          "options": [
+            "Traz os chinelos.",
+            "Traz as chances."
+          ],
+          "correct": 0,
+          "joke": "Chanclas."
+        },
+        {
+          "spanish": "Cierra ya la sombrilla.",
+          "options": [
+            "Fecha já o guarda-sol.",
+            "Fecha já a sombrinha de chuva."
+          ],
+          "correct": 0,
+          "joke": "Sombrilla."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Canarias",
+      "items": [
+        {
+          "emoji": "🏜️",
+          "title": "Maspalomas",
+          "es": "Las dunas de Maspalomas.",
+          "pt": "Campo de dunas no sul de Gran Canaria, Reserva Natural Especial, junto ao farol de Maspalomas."
+        },
+        {
+          "emoji": "🍌",
+          "title": "Plátano de Canarias",
+          "es": "Plátano de Canarias.",
+          "pt": "Banana canária pequena e doce, com IGP. Na Espanha, banana se diz \"plátano\"."
+        }
+      ]
+    }
+  ]
+}

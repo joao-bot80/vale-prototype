@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "id": "u37l3",
+  "title": "La Laguna de guagua",
+  "scenario": "Tenerife · San Cristóbal de La Laguna",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 111: A guagua",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¿Cómo vamos a La Laguna?",
+          "pt": "Como vamos a La Laguna?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "En guagua. Aquí el autobús se llama guagua.",
+          "pt": "De guagua. Aqui o ônibus se chama guagua."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Qué palabra tan simpática! ¿Y el tranvía?",
+          "pt": "Que palavra simpática! E o bonde?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "También hay tranvía desde Santa Cruz. Pero hoy, guagua.",
+          "pt": "Também tem bonde desde Santa Cruz. Mas hoje, guagua."
+        },
+        {
+          "speaker": "Lu",
+          "es": "La ciudad tiene calles rectas y casas de colores.",
+          "pt": "A cidade tem ruas retas e casas coloridas."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Es Patrimonio de la Humanidad. Su plano inspiró ciudades de América.",
+          "pt": "É Patrimônio da Humanidade. Seu traçado inspirou cidades da América."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Nas Canárias, \"guagua\" é:",
+      "options": [
+        "Ônibus",
+        "Bebê",
+        "Cachorro"
+      ],
+      "correct": 0,
+      "explanation": "Guagua = autobús em Canárias (e Cuba)."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Também tem bonde.",
+      "answer": [
+        "También",
+        "hay",
+        "tranvía."
+      ],
+      "distractors": [
+        "tem",
+        "bonde"
+      ],
+      "explanation": "Hay = tem/há."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Es Patrimonio de la Humanidad. Su plano inspiró ciudades de América.",
+      "options": [
+        "É Patrimônio da Humanidade. Seu traçado inspirou cidades da América.",
+        "É uma cidade nova.",
+        "É uma cidade sem ruas."
+      ],
+      "correct": 0,
+      "explanation": "UNESCO 1999."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "guagua",
+          "kind": "quase",
+          "meaning": "ônibus (Canárias)",
+          "tip": "No padrão: autobús."
+        },
+        {
+          "es": "casco histórico",
+          "kind": "quase",
+          "meaning": "centro histórico",
+          "tip": "Casco de La Laguna."
+        },
+        {
+          "es": "tarjeta de transporte",
+          "kind": "quase",
+          "meaning": "cartão de transporte",
+          "tip": "Recargar la tarjeta."
+        },
+        {
+          "es": "bono",
+          "kind": "armadilha",
+          "meaning": "passe / cartão de viagens",
+          "tip": "Não é bônus!"
+        },
+        {
+          "es": "recto",
+          "kind": "quase",
+          "meaning": "reto",
+          "tip": "Calle recta."
+        },
+        {
+          "es": "plano",
+          "kind": "armadilha",
+          "meaning": "mapa da cidade",
+          "tip": "Não é plano (ideia)!"
+        },
+        {
+          "es": "balcón de madera",
+          "kind": "quase",
+          "meaning": "sacada de madeira",
+          "tip": "Típico canário."
+        },
+        {
+          "es": "casona",
+          "kind": "quase",
+          "meaning": "casarão",
+          "tip": "Casona colonial."
+        },
+        {
+          "es": "colorido",
+          "kind": "quase",
+          "meaning": "colorido",
+          "tip": "Igual quase."
+        },
+        {
+          "es": "conductor",
+          "kind": "armadilha",
+          "meaning": "motorista",
+          "tip": "Não é condutor elétrico!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"El conductor de la guagua\" é:",
+      "options": [
+        "O motorista do ônibus",
+        "O fio elétrico",
+        "O cobrador"
+      ],
+      "correct": 0,
+      "explanation": "Conductor = motorista."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Onde fica a parada?",
+      "answer": [
+        "¿Dónde",
+        "está",
+        "la",
+        "parada?"
+      ],
+      "distractors": [
+        "fica",
+        "ponto"
+      ],
+      "explanation": "Parada = ponto."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "En guagua. Aquí el autobús se llama guagua.",
+      "options": [
+        "De guagua. Aqui o ônibus se chama guagua.",
+        "De táxi.",
+        "A pé."
+      ],
+      "correct": 0,
+      "explanation": "Palavra canária."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Compra un ___ de diez viajes.\" (passe)",
+      "options": [
+        "bono",
+        "bônus",
+        "pase"
+      ],
+      "correct": 0,
+      "explanation": "Bono = passe."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Coge la guagua.",
+          "options": [
+            "Pega o ônibus.",
+            "Pega o bebê."
+          ],
+          "correct": 0,
+          "joke": "Guagua."
+        },
+        {
+          "spanish": "Pide un plano.",
+          "options": [
+            "Peça um mapa da cidade.",
+            "Peça um plano de negócios."
+          ],
+          "correct": 0,
+          "joke": "Plano = mapa."
+        },
+        {
+          "spanish": "Habla con el conductor.",
+          "options": [
+            "Fale com o motorista.",
+            "Fale com o fio."
+          ],
+          "correct": 0,
+          "joke": "Conductor."
+        },
+        {
+          "spanish": "Saca un bono.",
+          "options": [
+            "Tire um passe.",
+            "Tire um bônus."
+          ],
+          "correct": 0,
+          "joke": "Bono."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Canarias",
+      "items": [
+        {
+          "emoji": "🚌",
+          "title": "Guagua",
+          "es": "Coger la guagua.",
+          "pt": "Nas Canárias, \"guagua\" = ônibus. Entenda, mas no castelhano peninsular padrão use \"autobús\"."
+        },
+        {
+          "emoji": "🏛️",
+          "title": "La Laguna",
+          "es": "Patrimonio de la Humanidad.",
+          "pt": "San Cristóbal de La Laguna, Patrimônio Mundial da UNESCO desde 1999; modelo de cidade colonial sem muralha para cidades das Américas."
+        }
+      ]
+    }
+  ]
+}

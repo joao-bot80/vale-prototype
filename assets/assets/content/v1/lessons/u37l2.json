@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u37l2",
+  "title": "Papas arrugadas com mojo",
+  "scenario": "Tenerife · un guachinche",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 110: Mojo picón",
+      "lines": [
+        {
+          "speaker": "Lino",
+          "es": "Pide papas arrugadas. Se cuecen con mucha sal.",
+          "pt": "Peça papas arrugadas. São cozidas com muito sal."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Por eso tienen la piel arrugada?",
+          "pt": "Por isso têm a casca enrugada?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Exacto. Y se comen con mojo rojo o mojo verde.",
+          "pt": "Exato. E se comem com mojo vermelho ou mojo verde."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Cuál pica más?",
+          "pt": "Qual arde mais?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "El rojo, el picón. El verde lleva cilantro.",
+          "pt": "O vermelho, o picón. O verde leva coentro."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Entonces el verde para mí, por favor.",
+          "pt": "Então o verde para mim, por favor."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Papa\" nas Canárias significa:",
+      "options": [
+        "Batata",
+        "Papai",
+        "Mingau"
+      ],
+      "correct": 0,
+      "explanation": "Em Canárias e América: papa; no padrão peninsular também patata."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Se comem com mojo.",
+      "answer": [
+        "Se",
+        "comen",
+        "con",
+        "mojo."
+      ],
+      "distractors": [
+        "comem",
+        "molho"
+      ],
+      "explanation": "Comer = comer."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "El rojo, el picón. El verde lleva cilantro.",
+      "options": [
+        "O vermelho, o picón. O verde leva coentro.",
+        "O verde arde mais.",
+        "Os dois são doces."
+      ],
+      "correct": 0,
+      "explanation": "Cilantro = coentro."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "papa",
+          "kind": "armadilha",
+          "meaning": "batata",
+          "tip": "Não é o papa nem papai!"
+        },
+        {
+          "es": "arrugado",
+          "kind": "quase",
+          "meaning": "enrugado",
+          "tip": "Arruga = ruga."
+        },
+        {
+          "es": "mojo",
+          "kind": "quase",
+          "meaning": "molho canário",
+          "tip": "Rojo o verde."
+        },
+        {
+          "es": "cilantro",
+          "kind": "armadilha",
+          "meaning": "coentro",
+          "tip": "Não é cilindro!"
+        },
+        {
+          "es": "salado",
+          "kind": "armadilha",
+          "meaning": "salgado",
+          "tip": "Não é salada!"
+        },
+        {
+          "es": "cocer",
+          "kind": "quase",
+          "meaning": "cozinhar (em água)",
+          "tip": "Se cuecen."
+        },
+        {
+          "es": "comino",
+          "kind": "quase",
+          "meaning": "cominho",
+          "tip": "No mojo rojo."
+        },
+        {
+          "es": "guachinche",
+          "kind": "quase",
+          "meaning": "taberna rústica (Tenerife)",
+          "tip": "Vinho e comida caseira."
+        },
+        {
+          "es": "salmuera",
+          "kind": "quase",
+          "meaning": "salmoura",
+          "tip": "Agua con sal."
+        },
+        {
+          "es": "picón",
+          "kind": "quase",
+          "meaning": "picante (mojo)",
+          "tip": "Mojo picón."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Pica mucho\" significa:",
+      "options": [
+        "Arde muito",
+        "Pica como inseto",
+        "Corta muito"
+      ],
+      "correct": 0,
+      "explanation": "Picar = arder."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "O verde para mim.",
+      "answer": [
+        "El",
+        "verde",
+        "para",
+        "mí."
+      ],
+      "distractors": [
+        "me",
+        "verdi"
+      ],
+      "explanation": "Mí com acento."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Pide papas arrugadas. Se cuecen con mucha sal.",
+      "options": [
+        "Peça papas arrugadas. São cozidas com muito sal.",
+        "Peça batata frita.",
+        "Sem sal, por favor."
+      ],
+      "correct": 0,
+      "explanation": "Antigamente com água do mar."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"El mojo verde lleva ___.\" (coentro)",
+      "options": [
+        "cilantro",
+        "coentro",
+        "cilindro"
+      ],
+      "correct": 0,
+      "explanation": "Cilantro = coentro."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Esto pica mucho.",
+          "options": [
+            "Isto arde muito.",
+            "Isto pica como agulha."
+          ],
+          "correct": 0,
+          "joke": "Picar = arder."
+        },
+        {
+          "spanish": "Tiene la piel arrugada.",
+          "options": [
+            "Tem a casca enrugada.",
+            "Tem a pele arranhada."
+          ],
+          "correct": 0,
+          "joke": "Arrugada."
+        },
+        {
+          "spanish": "Lleva cilantro.",
+          "options": [
+            "Leva coentro.",
+            "Leva cilindro."
+          ],
+          "correct": 0,
+          "joke": "Cilantro."
+        },
+        {
+          "spanish": "Un diente de ajo.",
+          "options": [
+            "Um dente de alho.",
+            "Um dentista."
+          ],
+          "correct": 0,
+          "joke": "Diente de ajo."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Canarias",
+      "items": [
+        {
+          "emoji": "🥔",
+          "title": "Papas arrugadas",
+          "es": "Papas arrugadas con mojo.",
+          "pt": "Batatinhas cozidas com muito sal até a casca enrugar, servidas com mojo rojo (pimentão, alho, cominho) ou mojo verde (coentro ou salsa)."
+        },
+        {
+          "emoji": "🍷",
+          "title": "Guachinche",
+          "es": "Un guachinche en el norte.",
+          "pt": "Em Tenerife, tabernas simples onde produtores vendem seu vinho com comida caseira."
+        }
+      ]
+    }
+  ]
+}
