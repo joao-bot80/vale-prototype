@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "id": "u2l2",
+  "title": "Pedindo tapas",
+  "scenario": "Taberna en la Cava Baja",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 5: A taberna",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Perdona, ¿nos traes la carta?",
+          "pt": "Desculpa, traz o cardápio pra gente?"
+        },
+        {
+          "speaker": "Camarera",
+          "es": "Claro. Os recomiendo las croquetas de jamón, son caseras.",
+          "pt": "Claro. Recomendo os croquetes de presunto, são caseiros."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Vale. Pues una ración de croquetas y unas patatas bravas.",
+          "pt": "Beleza. Então uma porção de croquetes e umas batatas bravas."
+        },
+        {
+          "speaker": "Camarera",
+          "es": "¿Algo más? La tortilla también está muy rica.",
+          "pt": "Algo mais? A tortilla também está muito gostosa."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿La tortilla lleva cebolla?",
+          "pt": "A tortilla leva cebola?"
+        },
+        {
+          "speaker": "Camarera",
+          "es": "Sí, con cebolla, como debe ser.",
+          "pt": "Sim, com cebola, como tem que ser."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como se diz \"cardápio\" num bar na Espanha?",
+      "options": [
+        "la carta",
+        "la lista",
+        "el menú del día"
+      ],
+      "correct": 0,
+      "explanation": "\"La carta\" é o cardápio. \"El menú del día\" é o almoço de preço fixo, com primeiro prato, segundo prato, sobremesa e bebida."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Uma porção de croquetes, por favor.",
+      "answer": [
+        "Una",
+        "ración",
+        "de",
+        "croquetas,",
+        "por",
+        "favor."
+      ],
+      "distractors": [
+        "porción",
+        "croquetes"
+      ],
+      "explanation": "No bar se pede \"tapa\" (pequena), \"media ración\" ou \"ración\" (porção grande)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "options": [
+        "Os croquetes são caseiros.",
+        "Os croquetes são caros.",
+        "Os croquetes acabaram."
+      ],
+      "correct": 0,
+      "explanation": "\"Casero\" = caseiro. Caro é \"caro\".",
+      "spanish": "Las croquetas son caseras."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "tomate",
+          "kind": "igual",
+          "meaning": "tomate",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "picante",
+          "kind": "igual",
+          "meaning": "picante",
+          "tip": "Mesma palavra."
+        },
+        {
+          "es": "patata",
+          "kind": "quase",
+          "meaning": "batata",
+          "tip": "Na Espanha é \"patata\" (com p)."
+        },
+        {
+          "es": "cebolla",
+          "kind": "quase",
+          "meaning": "cebola",
+          "tip": "O \"l\" vira \"ll\"."
+        },
+        {
+          "es": "ensalada",
+          "kind": "quase",
+          "meaning": "salada",
+          "tip": "Ganha um \"en\" na frente."
+        },
+        {
+          "es": "pulpo",
+          "kind": "quase",
+          "meaning": "polvo",
+          "tip": "E \"polvo\" em espanhol é pó!"
+        },
+        {
+          "es": "tortilla",
+          "kind": "armadilha",
+          "meaning": "omelete de batata",
+          "tip": "Na Espanha não é a tortilla mexicana."
+        },
+        {
+          "es": "rico",
+          "kind": "armadilha",
+          "meaning": "gostoso (comida)",
+          "tip": "Também quer dizer rico, mas na mesa é elogio à comida."
+        },
+        {
+          "es": "presunto",
+          "kind": "armadilha",
+          "meaning": "suposto (ex.: presunto culpable)",
+          "tip": "O presunto (frio) é \"jamón\"."
+        },
+        {
+          "es": "batata",
+          "kind": "armadilha",
+          "meaning": "batata-doce",
+          "tip": "A batata comum é \"patata\"."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¿La tortilla lleva cebolla?\" O que \"lleva\" significa aqui?",
+      "options": [
+        "tem (como ingrediente)",
+        "carrega pra viagem",
+        "demora"
+      ],
+      "correct": 0,
+      "explanation": "\"Llevar\" = ter como ingrediente. E \"para llevar\" = pra viagem!"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vocês têm tortilla sem cebola?",
+      "answer": [
+        "¿Tenéis",
+        "tortilla",
+        "sin",
+        "cebolla?"
+      ],
+      "distractors": [
+        "cebola",
+        "tienen",
+        "con"
+      ],
+      "explanation": "\"Sin\" = sem, \"con\" = com. \"Tenéis\" = vocês têm."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "options": [
+        "Meia porção é suficiente para dois.",
+        "Meia porção custa dois euros.",
+        "A porção inteira acabou."
+      ],
+      "correct": 0,
+      "explanation": "\"Media ración\" = meia porção. Ótimo pra provar várias tapas.",
+      "spanish": "Media ración es suficiente para dos."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Me ___ mucho las croquetas.",
+      "options": [
+        "gustan",
+        "gusta",
+        "gusto"
+      ],
+      "correct": 0,
+      "explanation": "\"Me gustan\" concorda com \"las croquetas\" (plural)."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "El jamón está muy rico.",
+          "options": [
+            "O presunto está muito gostoso.",
+            "O presunto está muito rico."
+          ],
+          "correct": 0,
+          "joke": "\"Rico\" na comida = gostoso. E o presunto é \"jamón\"!"
+        },
+        {
+          "spanish": "Ponme una tortilla de patatas.",
+          "options": [
+            "Me vê uma omelete de batata.",
+            "Me vê uma tortilha mexicana."
+          ],
+          "correct": 0,
+          "joke": "A tortilla espanhola é de ovo e batata. Com ou sem cebola? Os espanhóis brigam por isso!"
+        },
+        {
+          "spanish": "No me gustan las batatas.",
+          "options": [
+            "Não gosto de batata-doce.",
+            "Não gosto de batata."
+          ],
+          "correct": 0,
+          "joke": "Batata em espanhol é batata-doce. A batata comum é \"patata\"."
+        },
+        {
+          "spanish": "Una ración de pulpo, por favor.",
+          "options": [
+            "Uma porção de polvo, por favor.",
+            "Uma porção de pó, por favor."
+          ],
+          "correct": 0,
+          "joke": "Pulpo = polvo do mar. Se pedir \"polvo\", vai ganhar poeira! 😂"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Madrid",
+      "items": [
+        {
+          "emoji": "🥔",
+          "title": "Tortilla: com ou sem cebola?",
+          "es": "¿Tortilla con cebolla o sin cebolla?",
+          "pt": "É um dos maiores debates da Espanha! Cada um tem sua opinião. Na dúvida, diga que gosta das duas."
+        },
+        {
+          "emoji": "🧭",
+          "title": "Ir de tapas",
+          "es": "¿Vamos de tapas por La Latina?",
+          "pt": "Ir de tapas é passar por vários bares, pedindo uma bebida e uma tapa em cada um. Em Madrid, a Cava Baja e a Cava Alta, em La Latina, são clássicas, principalmente no domingo depois do Rastro."
+        }
+      ]
+    }
+  ]
+}

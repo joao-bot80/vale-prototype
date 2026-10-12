@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-1",
+  "contentVersion": "2026.10.12-2",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -37,34 +37,39 @@
         },
         {
           "id": "mad-u2",
-          "title": "Pelas ruas de Madrid",
-          "emoji": "🚶",
+          "title": "No bar: cañas e tapas",
+          "emoji": "🍻",
           "lessons": [
             {
-              "id": "mad-u2-l1",
-              "title": "Perdido na Gran Vía",
-              "available": false
+              "id": "u2l1",
+              "title": "Uma caña, por favor",
+              "available": true
             },
             {
-              "id": "mad-u2-l2",
-              "title": "Na Puerta del Sol",
-              "available": false
+              "id": "u2l2",
+              "title": "Pedindo tapas",
+              "available": true
+            },
+            {
+              "id": "u2l3",
+              "title": "A conta, por favor",
+              "available": true
             }
           ]
         },
         {
           "id": "mad-u3",
-          "title": "De cañas e tapas",
-          "emoji": "🍻",
+          "title": "Pelas ruas de Madrid",
+          "emoji": "🚶",
           "lessons": [
             {
               "id": "mad-u3-l1",
-              "title": "Uma caña, por favor",
+              "title": "Perdido na Gran Vía",
               "available": false
             },
             {
               "id": "mad-u3-l2",
-              "title": "A conta",
+              "title": "Na Puerta del Sol",
               "available": false
             }
           ]

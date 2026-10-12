@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u2l1",
+  "title": "Uma caña, por favor",
+  "scenario": "Bar en La Latina, mediodía",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 4: Primeira caña",
+      "lines": [
+        {
+          "speaker": "Camarero",
+          "es": "¡Buenas! ¿Qué os pongo?",
+          "pt": "Oi! O que vão querer?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Para mí, una caña, por favor.",
+          "pt": "Pra mim, um chope pequeno, por favor."
+        },
+        {
+          "speaker": "Dani",
+          "es": "Y para mí, un tinto de verano.",
+          "pt": "E pra mim, um tinto de verano (vinho tinto com refri de limão)."
+        },
+        {
+          "speaker": "Camarero",
+          "es": "Marchando. ¿Queréis algo de picar?",
+          "pt": "Saindo! Querem algo pra beliscar?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Qué tapa viene con la caña?",
+          "pt": "Que tapa vem com o chope?"
+        },
+        {
+          "speaker": "Camarero",
+          "es": "Hoy os ponemos unas aceitunas. ¡Ahora mismo os lo traigo!",
+          "pt": "Hoje a gente serve umas azeitonas. Já trago!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "No bar, como o garçom pergunta \"o que vão querer?\"",
+      "options": [
+        "¿Qué os pongo?",
+        "¿Qué van a ordenar?",
+        "¿Qué se van a servir?"
+      ],
+      "correct": 0,
+      "explanation": "Na Espanha: \"¿Qué os pongo?\" ou \"¿Qué vais a tomar?\". \"Ordenar\" para pedir comida soa latino-americano."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Pra mim, um chope pequeno, por favor.",
+      "answer": [
+        "Para",
+        "mí,",
+        "una",
+        "caña,",
+        "por",
+        "favor."
+      ],
+      "distractors": [
+        "chope",
+        "yo"
+      ],
+      "explanation": "Chope pequeno = \"caña\". \"Para mí\" = pra mim."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "options": [
+        "Querem algo pra beliscar?",
+        "Querem algo picante?",
+        "Querem pagar agora?"
+      ],
+      "correct": 0,
+      "explanation": "\"Picar\" aqui é beliscar, petiscar. Picante é \"picante\".",
+      "spanish": "¿Queréis algo de picar?"
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "café",
+          "kind": "igual",
+          "meaning": "café",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "chocolate",
+          "kind": "igual",
+          "meaning": "chocolate",
+          "tip": "Mesma palavra, mesmo sabor."
+        },
+        {
+          "es": "cerveza",
+          "kind": "quase",
+          "meaning": "cerveja",
+          "tip": "O \"j\" vira \"z\"."
+        },
+        {
+          "es": "limón",
+          "kind": "quase",
+          "meaning": "limão",
+          "tip": "-ão vira -ón."
+        },
+        {
+          "es": "copa",
+          "kind": "armadilha",
+          "meaning": "taça / drinque",
+          "tip": "\"Ir de copas\" = sair pra beber."
+        },
+        {
+          "es": "garrafa",
+          "kind": "armadilha",
+          "meaning": "garrafão",
+          "tip": "A garrafa normal é \"botella\"."
+        },
+        {
+          "es": "pastel",
+          "kind": "armadilha",
+          "meaning": "bolo / doce",
+          "tip": "O pastel de feira seria tipo \"empanadilla\"."
+        },
+        {
+          "es": "tapa",
+          "kind": "armadilha",
+          "meaning": "petisco (e também tampa)",
+          "tip": "Tapa (tabefe) é \"bofetada\"."
+        },
+        {
+          "es": "bocadillo",
+          "kind": "armadilha",
+          "meaning": "sanduíche de pão baguete",
+          "tip": "Um pouquinho é \"un poquito\"."
+        },
+        {
+          "es": "sobremesa",
+          "kind": "armadilha",
+          "meaning": "papo à mesa depois de comer",
+          "tip": "A sobremesa (doce) é \"el postre\"."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que é um \"tinto de verano\"?",
+      "options": [
+        "Vinho tinto com refrigerante de limão e gelo",
+        "Vinho tinto quente com canela",
+        "Suco de uva"
+      ],
+      "correct": 0,
+      "explanation": "É o drinque do verão madrileño: mais leve que a sangria e mais pedido pelos locais."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vocês querem uma cerveja?",
+      "answer": [
+        "¿Queréis",
+        "una",
+        "cerveza?"
+      ],
+      "distractors": [
+        "quieren",
+        "cerveja"
+      ],
+      "explanation": "\"Queréis\" = vocês querem (vosotros)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "options": [
+        "Já trago pra vocês.",
+        "Agora mesmo vocês trazem.",
+        "Hoje não temos."
+      ],
+      "correct": 0,
+      "explanation": "\"Ahora mismo\" = agora mesmo, já. \"Os lo traigo\" = trago pra vocês.",
+      "spanish": "Ahora mismo os lo traigo."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Una caña y ___ tinto de verano.",
+      "options": [
+        "un",
+        "una",
+        "uno"
+      ],
+      "correct": 0,
+      "explanation": "\"Tinto\" é masculino: \"un tinto\". \"Uno\" só aparece sozinho: \"¿Cuántos? Uno.\""
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "¿Me pones una copa de vino?",
+          "options": [
+            "Me vê uma taça de vinho?",
+            "Me vê uma copa de vinho?"
+          ],
+          "correct": 0,
+          "joke": "\"Copa\" = taça. E \"ir de copas\" = sair pra beber!"
+        },
+        {
+          "spanish": "Este pastel está buenísimo.",
+          "options": [
+            "Este bolo está ótimo.",
+            "Este pastel está ótimo."
+          ],
+          "correct": 0,
+          "joke": "Pastel em espanhol é bolo ou doce. Bem mais doce que o da feira!"
+        },
+        {
+          "spanish": "Nos quedamos de sobremesa.",
+          "options": [
+            "Ficamos conversando depois de comer.",
+            "Ficamos para a sobremesa."
+          ],
+          "correct": 0,
+          "joke": "A sobremesa espanhola pode durar horas! O doce é \"el postre\"."
+        },
+        {
+          "spanish": "Quiero un bocadillo de calamares.",
+          "options": [
+            "Quero um sanduíche de lula.",
+            "Quero um bocadinho de lula."
+          ],
+          "correct": 0,
+          "joke": "O bocadillo de calamares é clássico perto da Plaza Mayor."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Madrid",
+      "items": [
+        {
+          "emoji": "🍺",
+          "title": "Caña, doble ou tercio",
+          "es": "Una caña y un doble, por favor.",
+          "pt": "A caña é o chope pequeno (uns 200 ml), o \"doble\" é um chope maior e o \"tercio\" é a garrafinha de 33 cl. Pedir caña é o mais madrileño."
+        },
+        {
+          "emoji": "🍷",
+          "title": "Tinto de verano",
+          "es": "En verano, un tinto de verano bien fresquito.",
+          "pt": "Vinho tinto com refrigerante de limão (ou gaseosa) e muito gelo. A sangria é mais pedida por turistas; os madrileños preferem o tinto de verano."
+        }
+      ]
+    }
+  ]
+}
