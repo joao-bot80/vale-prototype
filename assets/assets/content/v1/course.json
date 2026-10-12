@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-14",
+  "contentVersion": "2026.10.12-15",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -647,6 +647,61 @@
             {
               "id": "u23l3",
               "title": "Fazendo uma denúncia",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "pap-u7",
+          "title": "Filhos: escola e saúde",
+          "emoji": "🏫",
+          "lessons": [
+            {
+              "id": "u28l1",
+              "title": "Matrícula na escola",
+              "available": true
+            },
+            {
+              "id": "u28l2",
+              "title": "No pediatra",
+              "available": true
+            },
+            {
+              "id": "u28l3",
+              "title": "Reunião de pais",
+              "available": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "graduacao",
+      "name": "Graduação",
+      "subtitle": "Revisão final",
+      "emoji": "🎓",
+      "stampText": "GRADUACIÓN",
+      "lon": -4.3,
+      "lat": 39.2,
+      "units": [
+        {
+          "id": "grad-u1",
+          "title": "Revisão da viagem",
+          "emoji": "📸",
+          "lessons": [
+            {
+              "id": "u29l1",
+              "title": "Revisão: Madrid e Barcelona",
+              "available": true
+            },
+            {
+              "id": "u29l2",
+              "title": "Revisão: Andalucía e Valencia",
+              "available": true
+            },
+            {
+              "id": "u29l3",
+              "title": "Revisão: Papelada",
               "available": true
             }
           ]

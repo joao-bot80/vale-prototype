@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "id": "u28l3",
+  "title": "Reunião de pais",
+  "scenario": "Papelada · reunión con la tutora",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 84: A tutora",
+      "lines": [
+        {
+          "speaker": "Tutora",
+          "es": "Gracias por venir. Tu sobrina se está adaptando muy bien.",
+          "pt": "Obrigada por vir. Sua sobrinha está se adaptando muito bem."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Me alegro. ¿Y con el idioma?",
+          "pt": "Que bom. E com o idioma?"
+        },
+        {
+          "speaker": "Tutora",
+          "es": "Entiende casi todo. Tiene apoyo de lengua dos horas por semana.",
+          "pt": "Entende quase tudo. Tem reforço de língua duas horas por semana."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Puede apuntarse a alguna actividad extraescolar?",
+          "pt": "Ela pode se inscrever em alguma atividade extracurricular?"
+        },
+        {
+          "speaker": "Tutora",
+          "es": "Sí, la AMPA organiza fútbol, teatro e inglés por la tarde.",
+          "pt": "Sim, a associação de pais organiza futebol, teatro e inglês à tarde."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Genial. Le pregunto qué le apetece.",
+          "pt": "Ótimo. Vou perguntar o que ela está a fim."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Apuntarse\" significa:",
+      "options": [
+        "Inscrever-se",
+        "Apontar com o dedo",
+        "Anotar"
+      ],
+      "correct": 0,
+      "explanation": "¿Te apuntas? = topa?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Ela pode se inscrever?",
+      "answer": [
+        "¿Puede",
+        "apuntarse?"
+      ],
+      "distractors": [
+        "inscribirse a",
+        "inscrever"
+      ],
+      "explanation": "\"Apuntarse\" = inscrever-se (informal)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Entiende casi todo. Tiene apoyo de lengua dos horas por semana.",
+      "options": [
+        "Entende quase tudo. Tem reforço de língua duas horas por semana.",
+        "Não entende nada ainda.",
+        "Não tem nenhum apoio."
+      ],
+      "correct": 0,
+      "explanation": "Apoyo = reforço, ajuda."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "tutora",
+          "kind": "armadilha",
+          "meaning": "professora responsável pela turma",
+          "tip": "Não é tutora legal."
+        },
+        {
+          "es": "apoyo",
+          "kind": "quase",
+          "meaning": "apoio / reforço",
+          "tip": "Clase de apoyo."
+        },
+        {
+          "es": "extraescolar",
+          "kind": "quase",
+          "meaning": "extracurricular",
+          "tip": "Actividades extraescolares."
+        },
+        {
+          "es": "AMPA",
+          "kind": "quase",
+          "meaning": "associação de pais",
+          "tip": "Asociación de Madres y Padres."
+        },
+        {
+          "es": "apuntarse",
+          "kind": "armadilha",
+          "meaning": "inscrever-se",
+          "tip": "¿Te apuntas? = topa?"
+        },
+        {
+          "es": "apetecer",
+          "kind": "armadilha",
+          "meaning": "estar a fim",
+          "tip": "¿Qué te apetece?"
+        },
+        {
+          "es": "notas",
+          "kind": "armadilha",
+          "meaning": "notas / boletim",
+          "tip": "Las notas = o boletim."
+        },
+        {
+          "es": "deberes",
+          "kind": "armadilha",
+          "meaning": "lição de casa",
+          "tip": "Não é deveres morais!"
+        },
+        {
+          "es": "recreo",
+          "kind": "quase",
+          "meaning": "recreio",
+          "tip": "Hora del recreo."
+        },
+        {
+          "es": "adaptarse",
+          "kind": "quase",
+          "meaning": "adaptar-se",
+          "tip": "Se está adaptando."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Los deberes\" na escola são:",
+      "options": [
+        "A lição de casa",
+        "As obrigações morais",
+        "As dívidas"
+      ],
+      "correct": 0,
+      "explanation": "Hacer los deberes = fazer a lição."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Ela está se adaptando muito bem.",
+      "answer": [
+        "Se",
+        "está",
+        "adaptando",
+        "muy",
+        "bien."
+      ],
+      "distractors": [
+        "mucho",
+        "adaptado"
+      ],
+      "explanation": "Antes de advérbio: muy bien."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, la AMPA organiza fútbol, teatro e inglés por la tarde.",
+      "options": [
+        "Sim, a associação de pais organiza futebol, teatro e inglês à tarde.",
+        "Não, não tem atividades.",
+        "Sim, mas só de manhã."
+      ],
+      "correct": 0,
+      "explanation": "AMPA = associação de mães e pais."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"¿Has hecho los ___?\" (lição de casa)",
+      "options": [
+        "deberes",
+        "debers",
+        "tareas"
+      ],
+      "correct": 0,
+      "explanation": "Deberes = lição de casa (Espanha). \"Tareas\" também se ouve."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Termina los deberes.",
+          "options": [
+            "Termina a lição de casa.",
+            "Cumpra seus deveres."
+          ],
+          "correct": 0,
+          "joke": "Deberes = lição de casa."
+        },
+        {
+          "spanish": "¿Te apuntas al teatro?",
+          "options": [
+            "Topa fazer teatro?",
+            "Você aponta para o teatro?"
+          ],
+          "correct": 0,
+          "joke": "Apuntarse = inscrever-se."
+        },
+        {
+          "spanish": "No me apetece salir.",
+          "options": [
+            "Não estou a fim de sair.",
+            "Não tenho apetite para sair."
+          ],
+          "correct": 0,
+          "joke": "Apetecer = estar a fim."
+        },
+        {
+          "spanish": "Hoy dan las notas.",
+          "options": [
+            "Hoje entregam o boletim.",
+            "Hoje dão os bilhetes."
+          ],
+          "correct": 0,
+          "joke": "Notas = boletim."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "👩‍🏫",
+          "title": "Tutoria",
+          "es": "La tutora de tu hijo.",
+          "pt": "Cada turma tem um tutor ou tutora, a pessoa de contato com a família. Peça uma tutoría (reunião) quando precisar. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "🤝",
+          "title": "AMPA",
+          "es": "Hazte socio de la AMPA.",
+          "pt": "A associação de mães e pais organiza atividades e ajuda famílias novas. Muitas escolas também têm programas de apoio ao idioma para alunos recém-chegados. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}

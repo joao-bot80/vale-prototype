@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u29l1",
+  "title": "Revisão: Madrid e Barcelona",
+  "scenario": "Graduação · el álbum de fotos de Lu",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 85: Lembranças",
+      "lines": [
+        {
+          "speaker": "Lino",
+          "es": "Mira esta foto: tu primer día en Madrid, perdida en el metro.",
+          "pt": "Olha esta foto: seu primeiro dia em Madrid, perdida no metrô."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Qué vergüenza! No sabía ni pedir una caña.",
+          "pt": "Que vergonha! Eu não sabia nem pedir uma cerveja."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Y ahora pides el vermut en Barcelona como una local.",
+          "pt": "E agora você pede o vermute em Barcelona como uma local."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Y ya no confundo «exquisito» con «esquisito».",
+          "pt": "E já não confundo «exquisito» com «esquisito»."
+        },
+        {
+          "speaker": "Lino",
+          "es": "¿Te acuerdas de cuando buscabas piso?",
+          "pt": "Lembra de quando você procurava apartamento?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Claro! Ahora sé leer un contrato sin miedo.",
+          "pt": "Claro! Agora sei ler um contrato sem medo."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¿Te acuerdas?\" significa:",
+      "options": [
+        "Você se lembra?",
+        "Você concorda?",
+        "Você acorda?"
+      ],
+      "correct": 0,
+      "explanation": "Acordarse de = lembrar-se de. Despertarse = acordar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Você se lembra de Madrid?",
+      "answer": [
+        "¿Te",
+        "acuerdas",
+        "de",
+        "Madrid?"
+      ],
+      "distractors": [
+        "lembras",
+        "recuerdas de"
+      ],
+      "explanation": "\"Acordarse de\" + algo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Y ahora pides el vermut en Barcelona como una local.",
+      "options": [
+        "E agora você pede o vermute em Barcelona como uma local.",
+        "E agora você não bebe mais vermute.",
+        "E agora você mora em Valencia."
+      ],
+      "correct": 0,
+      "explanation": "Revisão: hacer el vermut (u13)."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "recuerdo",
+          "kind": "armadilha",
+          "meaning": "lembrança / souvenir",
+          "tip": "Recuerdos = lembranças; também \"abraços\"."
+        },
+        {
+          "es": "olvidar",
+          "kind": "quase",
+          "meaning": "esquecer",
+          "tip": "Se me olvidó = esqueci."
+        },
+        {
+          "es": "álbum",
+          "kind": "quase",
+          "meaning": "álbum",
+          "tip": "Acento no á."
+        },
+        {
+          "es": "orgullosa",
+          "kind": "quase",
+          "meaning": "orgulhosa",
+          "tip": "Estoy orgullosa."
+        },
+        {
+          "es": "raro",
+          "kind": "armadilha",
+          "meaning": "estranho",
+          "tip": "Raro em espanhol = esquisito."
+        },
+        {
+          "es": "local",
+          "kind": "igual",
+          "meaning": "local / morador",
+          "tip": "Como una local."
+        },
+        {
+          "es": "principiante",
+          "kind": "quase",
+          "meaning": "iniciante",
+          "tip": "Nível principiante."
+        },
+        {
+          "es": "avanzar",
+          "kind": "quase",
+          "meaning": "avançar",
+          "tip": "Avanzar mucho."
+        },
+        {
+          "es": "enhorabuena",
+          "kind": "quase",
+          "meaning": "parabéns (por conquista)",
+          "tip": "Felicidades = feliz aniversário."
+        },
+        {
+          "es": "logro personal",
+          "kind": "quase",
+          "meaning": "conquista pessoal",
+          "tip": "Logro = conquista."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Esto está exquisito\" significa:",
+      "options": [
+        "Isto está delicioso",
+        "Isto está esquisito",
+        "Isto está estragado"
+      ],
+      "correct": 0,
+      "explanation": "Exquisito = delicioso. Raro = esquisito."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Parabéns pela conquista!",
+      "answer": [
+        "¡Enhorabuena",
+        "por",
+        "el",
+        "logro!"
+      ],
+      "distractors": [
+        "felicidades",
+        "parabéns"
+      ],
+      "explanation": "\"Enhorabuena\" para conquistas."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "¡Claro! Ahora sé leer un contrato sin miedo.",
+      "options": [
+        "Claro! Agora sei ler um contrato sem medo.",
+        "Ainda tenho medo de contratos.",
+        "Nunca procurei apartamento."
+      ],
+      "correct": 0,
+      "explanation": "Revisão: piso e contrato (u4, u22)."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Dale ___ a tu madre.\" (mande lembranças)",
+      "options": [
+        "recuerdos",
+        "recordaciones",
+        "lembranzas"
+      ],
+      "correct": 0,
+      "explanation": "\"Dar recuerdos\" = mandar lembranças."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "¡Qué raro!",
+          "options": [
+            "Que estranho!",
+            "Que raro, quase não acontece!"
+          ],
+          "correct": 0,
+          "joke": "Raro = estranho."
+        },
+        {
+          "spanish": "No me acuerdo de su nombre.",
+          "options": [
+            "Não lembro o nome dele.",
+            "Não acordo com o nome dele."
+          ],
+          "correct": 0,
+          "joke": "Acordarse = lembrar-se."
+        },
+        {
+          "spanish": "Recuerdos a tu familia.",
+          "options": [
+            "Lembranças à sua família.",
+            "Souvenires para sua família."
+          ],
+          "correct": 0,
+          "joke": "Recuerdos = lembranças."
+        },
+        {
+          "spanish": "¡Enhorabuena, has aprobado!",
+          "options": [
+            "Parabéns, você passou!",
+            "Feliz aniversário, você passou!"
+          ],
+          "correct": 0,
+          "joke": "Enhorabuena = parabéns (conquista)."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Graduação",
+      "items": [
+        {
+          "emoji": "📸",
+          "title": "Madrid e Barcelona",
+          "es": "De Madrid a Barcelona.",
+          "pt": "Você aprendeu a se virar no metrô, pedir tapas, procurar piso, marcar compromissos e curtir as festas de Barcelona, sempre em castelhano padrão."
+        },
+        {
+          "emoji": "🧠",
+          "title": "Revisar é aprender",
+          "es": "Repasar para no olvidar.",
+          "pt": "Revisar em intervalos (hoje, em 3 dias, em uma semana) ajuda a memória. Volte às aulas antigas de vez em quando."
+        }
+      ]
+    }
+  ]
+}

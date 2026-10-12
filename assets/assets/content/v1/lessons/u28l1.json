@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "u28l1",
+  "title": "Matrícula na escola",
+  "scenario": "Papelada · secretaría del colegio",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 82: Vaga na escola",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Buenos días. Quiero matricular a mi sobrina. Tiene siete años.",
+          "pt": "Bom dia. Quero matricular minha sobrinha. Ela tem sete anos."
+        },
+        {
+          "speaker": "Secretaria",
+          "es": "¿Estáis empadronadas en el barrio? Da puntos para la plaza.",
+          "pt": "Vocês estão registradas no bairro? Dá pontos para a vaga."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Sí, aquí tiene el volante de empadronamiento y su pasaporte.",
+          "pt": "Sim, aqui está o comprovante de padrón e o passaporte dela."
+        },
+        {
+          "speaker": "Secretaria",
+          "es": "El plazo ordinario es en primavera, pero si llegáis a mitad de curso hay plaza fuera de plazo.",
+          "pt": "O prazo normal é na primavera, mas se chegarem no meio do ano há vaga fora do prazo."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿El colegio público es gratis?",
+          "pt": "A escola pública é grátis?"
+        },
+        {
+          "speaker": "Secretaria",
+          "es": "Sí. Solo se pagan el comedor, las excursiones y el material.",
+          "pt": "Sim. Só se paga o refeitório, as excursões e o material."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Matricular\" significa:",
+      "options": [
+        "Matricular / inscrever na escola",
+        "Fazer matrícula do carro",
+        "Pagar a mensalidade"
+      ],
+      "correct": 0,
+      "explanation": "Matrícula também é a placa do carro!"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Quero matricular minha sobrinha.",
+      "answer": [
+        "Quiero",
+        "matricular",
+        "a",
+        "mi",
+        "sobrina."
+      ],
+      "distractors": [
+        "sobrinha",
+        "inscrever"
+      ],
+      "explanation": "Com pessoa: matricular A alguien."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "El plazo ordinario es en primavera, pero si llegáis a mitad de curso hay plaza fuera de plazo.",
+      "options": [
+        "O prazo normal é na primavera, mas se chegarem no meio do ano há vaga fora do prazo.",
+        "Só dá para matricular em setembro.",
+        "Não aceitam alunos estrangeiros."
+      ],
+      "correct": 0,
+      "explanation": "Toda criança tem direito à escola, chegue quando chegar."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "colegio",
+          "kind": "armadilha",
+          "meaning": "escola (primária)",
+          "tip": "Colégio = escola em geral."
+        },
+        {
+          "es": "matrícula",
+          "kind": "armadilha",
+          "meaning": "matrícula / placa do carro",
+          "tip": "Dois sentidos!"
+        },
+        {
+          "es": "curso",
+          "kind": "armadilha",
+          "meaning": "ano letivo / série",
+          "tip": "Curso escolar = ano letivo."
+        },
+        {
+          "es": "primaria",
+          "kind": "quase",
+          "meaning": "ensino fundamental I",
+          "tip": "6 a 12 anos."
+        },
+        {
+          "es": "ESO",
+          "kind": "quase",
+          "meaning": "ensino fundamental II",
+          "tip": "Educación Secundaria Obligatoria, 12 a 16."
+        },
+        {
+          "es": "comedor",
+          "kind": "armadilha",
+          "meaning": "refeitório",
+          "tip": "Não é \"comedor\" de gente!"
+        },
+        {
+          "es": "sobrina",
+          "kind": "quase",
+          "meaning": "sobrinha",
+          "tip": "Sobrino = sobrinho."
+        },
+        {
+          "es": "instituto",
+          "kind": "armadilha",
+          "meaning": "escola de ensino médio",
+          "tip": "Não é instituto de pesquisa."
+        },
+        {
+          "es": "mochila escolar",
+          "kind": "quase",
+          "meaning": "mochila da escola",
+          "tip": "Com material."
+        },
+        {
+          "es": "uniforme",
+          "kind": "igual",
+          "meaning": "uniforme",
+          "tip": "Em muitas públicas não tem."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"El comedor del colegio\" é:",
+      "options": [
+        "O refeitório da escola",
+        "O guloso da escola",
+        "A cozinheira"
+      ],
+      "correct": 0,
+      "explanation": "Comedor = refeitório."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "A escola pública é grátis?",
+      "answer": [
+        "¿El",
+        "colegio",
+        "público",
+        "es",
+        "gratis?"
+      ],
+      "distractors": [
+        "escuela",
+        "grátis"
+      ],
+      "explanation": "\"Colegio\" é o mais usado para escola primária."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí. Solo se pagan el comedor, las excursiones y el material.",
+      "options": [
+        "Sim. Só se paga o refeitório, as excursões e o material.",
+        "Não, custa 500 euros por mês.",
+        "Sim, e tudo é grátis, até o almoço."
+      ],
+      "correct": 0,
+      "explanation": "Algumas comunidades dão bolsas para refeitório e livros."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Mi hijo va al ___ en Secundaria.\" (escola de ensino médio)",
+      "options": [
+        "instituto",
+        "colegio",
+        "liceo"
+      ],
+      "correct": 0,
+      "explanation": "Instituto = escola pública de secundária."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Come en el comedor.",
+          "options": [
+            "Almoça no refeitório.",
+            "Come no comilão."
+          ],
+          "correct": 0,
+          "joke": "Comedor = refeitório."
+        },
+        {
+          "spanish": "Está en tercero de primaria.",
+          "options": [
+            "Está no terceiro ano do fundamental.",
+            "Está no terceiro curso de primeiros socorros."
+          ],
+          "correct": 0,
+          "joke": "Primaria = ensino fundamental I."
+        },
+        {
+          "spanish": "Va al instituto.",
+          "options": [
+            "Vai à escola de ensino médio.",
+            "Vai ao instituto de pesquisa."
+          ],
+          "correct": 0,
+          "joke": "Instituto = escola secundária."
+        },
+        {
+          "spanish": "Este curso empieza en septiembre.",
+          "options": [
+            "Este ano letivo começa em setembro.",
+            "Este curso de inglês começa em setembro."
+          ],
+          "correct": 0,
+          "joke": "Curso = ano letivo."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "🏫",
+          "title": "Escola obrigatória",
+          "es": "De 6 a 16 años, escolarización obligatoria.",
+          "pt": "Na Espanha a escola é obrigatória dos 6 aos 16 anos (Primaria + ESO) e a pública é gratuita. Crianças estrangeiras têm direito à escola qualquer que seja a situação dos pais. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "📋",
+          "title": "Admissão",
+          "es": "Solicitud de admisión en primavera.",
+          "pt": "O pedido de vaga costuma ser na primavera, com datas de cada comunidade autônoma. O padrón e irmãos na escola dão pontos. Quem chega no meio do ano pede vaga fora de prazo. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}

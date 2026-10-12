@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u29l2",
+  "title": "Revisão: Andalucía e Valencia",
+  "scenario": "Graduação · videollamada con Dani",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 86: Do sul ao Mediterrâneo",
+      "lines": [
+        {
+          "speaker": "Dani",
+          "es": "¿Qué ha sido lo mejor del sur?",
+          "pt": "O que foi o melhor do sul?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "La Alhambra, el flamenco en Córdoba y las tapas gratis de Granada.",
+          "pt": "A Alhambra, o flamenco em Córdoba e as tapas grátis de Granada."
+        },
+        {
+          "speaker": "Dani",
+          "es": "¿Y ya entiendes a los andaluces?",
+          "pt": "E você já entende os andaluzes?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Casi siempre. Aunque yo hablo castellano estándar, ya reconozco el acento.",
+          "pt": "Quase sempre. Embora eu fale castelhano padrão, já reconheço o sotaque."
+        },
+        {
+          "speaker": "Dani",
+          "es": "¿Y de Valencia?",
+          "pt": "E de Valencia?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Las Fallas, el arroz al horno y pasear en bici por el Turia.",
+          "pt": "As Fallas, o arroz de forno e passear de bicicleta pelo Turia."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Lo mejor\" significa:",
+      "options": [
+        "O melhor (coisa)",
+        "Os melhores",
+        "Melhorar"
+      ],
+      "correct": 0,
+      "explanation": "Lo + adjetivo = o que é..."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "O que foi o melhor?",
+      "answer": [
+        "¿Qué",
+        "ha",
+        "sido",
+        "lo",
+        "mejor?"
+      ],
+      "distractors": [
+        "el",
+        "melhor"
+      ],
+      "explanation": "Neutro: lo mejor."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Casi siempre. Aunque yo hablo castellano estándar, ya reconozco el acento.",
+      "options": [
+        "Quase sempre. Embora eu fale castelhano padrão, já reconheço o sotaque.",
+        "Nunca entendo nada.",
+        "Agora falo com sotaque andaluz."
+      ],
+      "correct": 0,
+      "explanation": "Reconhecer sotaques, falar o padrão."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "entonación",
+          "kind": "quase",
+          "meaning": "entonação",
+          "tip": "A música da fala."
+        },
+        {
+          "es": "reconocer",
+          "kind": "quase",
+          "meaning": "reconhecer",
+          "tip": "Reconozco."
+        },
+        {
+          "es": "estándar",
+          "kind": "quase",
+          "meaning": "padrão",
+          "tip": "Castellano estándar."
+        },
+        {
+          "es": "videollamada",
+          "kind": "quase",
+          "meaning": "videochamada",
+          "tip": "Hacer una videollamada."
+        },
+        {
+          "es": "aunque",
+          "kind": "armadilha",
+          "meaning": "embora / mesmo que",
+          "tip": "Não é \"ainda que\" só."
+        },
+        {
+          "es": "sur",
+          "kind": "quase",
+          "meaning": "sul",
+          "tip": "El sur de España."
+        },
+        {
+          "es": "norte",
+          "kind": "igual",
+          "meaning": "norte",
+          "tip": "Igual!"
+        },
+        {
+          "es": "costa",
+          "kind": "igual",
+          "meaning": "costa / litoral",
+          "tip": "Igual!"
+        },
+        {
+          "es": "echar de menos",
+          "kind": "armadilha",
+          "meaning": "sentir saudade",
+          "tip": "Te echo de menos."
+        },
+        {
+          "es": "añorar",
+          "kind": "quase",
+          "meaning": "ter saudade",
+          "tip": "Mais formal."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Te echo de menos\" significa:",
+      "options": [
+        "Sinto sua falta",
+        "Te jogo para baixo",
+        "Te deixo de lado"
+      ],
+      "correct": 0,
+      "explanation": "Echar de menos = sentir saudade."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Sinto saudade de Sevilla.",
+      "answer": [
+        "Echo",
+        "de",
+        "menos",
+        "Sevilla."
+      ],
+      "distractors": [
+        "saudade",
+        "extraño"
+      ],
+      "explanation": "Na Espanha: echar de menos."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Las Fallas, el arroz al horno y pasear en bici por el Turia.",
+      "options": [
+        "As Fallas, o arroz de forno e passear de bicicleta pelo Turia.",
+        "A praia de Málaga e o Prado.",
+        "A Sagrada Família."
+      ],
+      "correct": 0,
+      "explanation": "Revisão: Valencia (u8, u15, u21)."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Tiene un ___ andaluz muy bonito.\" (sotaque)",
+      "options": [
+        "acento",
+        "sotaque",
+        "tono"
+      ],
+      "correct": 0,
+      "explanation": "Acento = sotaque."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Te echo mucho de menos.",
+          "options": [
+            "Sinto muito sua falta.",
+            "Te jogo muito para baixo."
+          ],
+          "correct": 0,
+          "joke": "Echar de menos = sentir saudade."
+        },
+        {
+          "spanish": "Tiene acento de Cádiz.",
+          "options": [
+            "Tem sotaque de Cádiz.",
+            "Tem acento agudo de Cádiz."
+          ],
+          "correct": 0,
+          "joke": "Acento = sotaque."
+        },
+        {
+          "spanish": "Aunque llueva, vamos.",
+          "options": [
+            "Mesmo que chova, vamos.",
+            "Ainda chove, vamos."
+          ],
+          "correct": 0,
+          "joke": "Aunque + subjuntivo = mesmo que."
+        },
+        {
+          "spanish": "¿Hacemos una videollamada?",
+          "options": [
+            "Vamos fazer uma videochamada?",
+            "Vamos fazer um vídeo?"
+          ],
+          "correct": 0,
+          "joke": "Videollamada = videochamada."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Graduação",
+      "items": [
+        {
+          "emoji": "🌞",
+          "title": "Andalucía e Valencia",
+          "es": "Del sur al Mediterráneo.",
+          "pt": "Você passou por Sevilla, Granada, Córdoba, Cádiz e Málaga, e por Valencia e Alicante: festas, comida e vocabulário do dia a dia."
+        },
+        {
+          "emoji": "🗣️",
+          "title": "Sotaques",
+          "es": "Escuchar todos los acentos.",
+          "pt": "Ouvir sotaques diferentes (andaluz, valenciano, catalão falando castelhano) treina o ouvido. Para falar, continue com o castelhano padrão que você aprendeu."
+        }
+      ]
+    }
+  ]
+}

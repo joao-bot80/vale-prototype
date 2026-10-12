@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u28l2",
+  "title": "No pediatra",
+  "scenario": "Papelada · centro de salud, consulta de pediatría",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 83: Febre",
+      "lines": [
+        {
+          "speaker": "Pediatra",
+          "es": "Hola. ¿Qué le pasa a la niña?",
+          "pt": "Olá. O que a menina tem?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Tiene fiebre desde ayer y le duele la garganta.",
+          "pt": "Está com febre desde ontem e a garganta dói."
+        },
+        {
+          "speaker": "Pediatra",
+          "es": "A ver, abre la boca. Tiene las anginas inflamadas.",
+          "pt": "Vamos ver, abre a boca. Está com as amígdalas inflamadas."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Necesita antibiótico?",
+          "pt": "Precisa de antibiótico?"
+        },
+        {
+          "speaker": "Pediatra",
+          "es": "De momento no. Paracetamol, mucho líquido y si sigue con fiebre en tres días, vuelve.",
+          "pt": "Por enquanto não. Paracetamol, muito líquido e, se continuar com febre em três dias, volte."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Vale. ¿Y tiene todas las vacunas al día?",
+          "pt": "Certo. E ela está com todas as vacinas em dia?"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Las anginas\" são:",
+      "options": [
+        "As amígdalas",
+        "Angina do coração",
+        "As gengivas"
+      ],
+      "correct": 0,
+      "explanation": "Tener anginas = amigdalite."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Está com febre desde ontem.",
+      "answer": [
+        "Tiene",
+        "fiebre",
+        "desde",
+        "ayer."
+      ],
+      "distractors": [
+        "está",
+        "febre"
+      ],
+      "explanation": "Na Espanha: tener fiebre."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "De momento no. Paracetamol, mucho líquido y si sigue con fiebre en tres días, vuelve.",
+      "options": [
+        "Por enquanto não. Paracetamol, muito líquido e, se continuar com febre em três dias, volte.",
+        "Sim, antibiótico já.",
+        "Leve ao hospital agora."
+      ],
+      "correct": 0,
+      "explanation": "\"De momento\" = por enquanto."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "varicela",
+          "kind": "quase",
+          "meaning": "catapora",
+          "tip": "Não é varíola!"
+        },
+        {
+          "es": "chupete",
+          "kind": "armadilha",
+          "meaning": "chupeta",
+          "tip": "Não é chupetinha de bala!"
+        },
+        {
+          "es": "anginas",
+          "kind": "armadilha",
+          "meaning": "amígdalas / amigdalite",
+          "tip": "Não é angina de peito."
+        },
+        {
+          "es": "pediatra",
+          "kind": "igual",
+          "meaning": "pediatra",
+          "tip": "Igual!"
+        },
+        {
+          "es": "vacuna",
+          "kind": "quase",
+          "meaning": "vacina",
+          "tip": "Vacunar = vacinar."
+        },
+        {
+          "es": "pañal",
+          "kind": "armadilha",
+          "meaning": "fralda",
+          "tip": "Não é pano!"
+        },
+        {
+          "es": "termómetro",
+          "kind": "quase",
+          "meaning": "termômetro",
+          "tip": "Acento no mó."
+        },
+        {
+          "es": "cartilla de vacunación",
+          "kind": "quase",
+          "meaning": "carteira de vacinação",
+          "tip": "Leve à consulta."
+        },
+        {
+          "es": "piojos",
+          "kind": "armadilha",
+          "meaning": "piolhos",
+          "tip": "Comum na escola!"
+        },
+        {
+          "es": "mocos",
+          "kind": "armadilha",
+          "meaning": "catarro / meleca",
+          "tip": "Tener mocos."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Estoy constipada\" significa:",
+      "options": [
+        "Estou resfriada",
+        "Estou com prisão de ventre",
+        "Estou cansada"
+      ],
+      "correct": 0,
+      "explanation": "Estreñido = prisão de ventre."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "A garganta dói.",
+      "answer": [
+        "Le",
+        "duele",
+        "la",
+        "garganta."
+      ],
+      "distractors": [
+        "dói",
+        "garganta le"
+      ],
+      "explanation": "\"Doler\": le duele."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "A ver, abre la boca. Tiene las anginas inflamadas.",
+      "options": [
+        "Vamos ver, abre a boca. Está com as amígdalas inflamadas.",
+        "Abre os olhos.",
+        "Está tudo bem, pode ir."
+      ],
+      "correct": 0,
+      "explanation": "\"A ver\" = vamos ver."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Dale este ___ para la tos.\" (xarope)",
+      "options": [
+        "jarabe",
+        "jarope",
+        "sirope"
+      ],
+      "correct": 0,
+      "explanation": "Jarabe = xarope (remédio)."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "La niña está constipada.",
+          "options": [
+            "A menina está resfriada.",
+            "A menina está com prisão de ventre."
+          ],
+          "correct": 0,
+          "joke": "Constipado = resfriado."
+        },
+        {
+          "spanish": "Tiene anginas.",
+          "options": [
+            "Está com amigdalite.",
+            "Está com angina de peito."
+          ],
+          "correct": 0,
+          "joke": "Anginas = amígdalas."
+        },
+        {
+          "spanish": "Tómate el jarabe.",
+          "options": [
+            "Toma o xarope.",
+            "Toma a jarra."
+          ],
+          "correct": 0,
+          "joke": "Jarabe = xarope."
+        },
+        {
+          "spanish": "Tiene muchos mocos.",
+          "options": [
+            "Está com muito catarro.",
+            "Tem muitos moços."
+          ],
+          "correct": 0,
+          "joke": "Mocos = catarro."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "👶",
+          "title": "Pediatria pública",
+          "es": "Pediatra en el centro de salud.",
+          "pt": "Com o cartão de saúde, a criança tem pediatra no centro de saúde, em geral até os 14 anos. Peça consulta pelo app ou site da sua comunidade. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "💉",
+          "title": "Vacinas",
+          "es": "Calendario de vacunación.",
+          "pt": "A Espanha tem um calendário comum de vacinação infantil (Consejo Interterritorial). As vacinas do calendário são gratuitas na rede pública. Leve a carteira de vacinação do Brasil. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}

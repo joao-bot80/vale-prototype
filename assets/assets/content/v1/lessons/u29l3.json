@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u29l3",
+  "title": "Revisão: Papelada",
+  "scenario": "Graduação · carpeta de documentos",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 87: A pasta de documentos",
+      "lines": [
+        {
+          "speaker": "Lino",
+          "es": "Vamos a organizar tu carpeta de papeles.",
+          "pt": "Vamos organizar sua pasta de documentos."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Aquí está el TIE, el padrón, el contrato de trabajo y las nóminas.",
+          "pt": "Aqui está o TIE, o padrón, o contrato de trabalho e os holerites."
+        },
+        {
+          "speaker": "Lino",
+          "es": "¿Y la declaración de la renta?",
+          "pt": "E a declaração da renda?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Hecha. Me salió a devolver.",
+          "pt": "Feita. Tive restituição."
+        },
+        {
+          "speaker": "Lino",
+          "es": "¡Qué bien! ¿Y qué te falta para la nacionalidad?",
+          "pt": "Que bom! E o que falta para a nacionalidade?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Aprobar el DELE y el CCSE. ¡Ya estoy estudiando el manual!",
+          "pt": "Passar no DELE e no CCSE. Já estou estudando o manual!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Recoge tu habitación\" significa:",
+      "options": [
+        "Arruma seu quarto",
+        "Recolhe seu quarto",
+        "Pega seu quarto"
+      ],
+      "correct": 0,
+      "explanation": "Recoger = arrumar (e também buscar alguém)."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vamos organizar seus papéis.",
+      "answer": [
+        "Vamos",
+        "a",
+        "organizar",
+        "tus",
+        "papeles."
+      ],
+      "distractors": [
+        "arreglo",
+        "papéis"
+      ],
+      "explanation": "\"Organizar\" = organizar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Aquí está el TIE, el padrón, el contrato de trabajo y las nóminas.",
+      "options": [
+        "Aqui está o TIE, o padrón, o contrato de trabalho e os holerites.",
+        "Perdi todos os documentos.",
+        "Só tenho o passaporte."
+      ],
+      "correct": 0,
+      "explanation": "Revisão Papelada (u10–u17)."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "carpeta",
+          "kind": "armadilha",
+          "meaning": "pasta (de documentos)",
+          "tip": "Não é carpete!"
+        },
+        {
+          "es": "arreglar",
+          "kind": "armadilha",
+          "meaning": "consertar / arrumar",
+          "tip": "Arreglar el grifo."
+        },
+        {
+          "es": "escanear",
+          "kind": "quase",
+          "meaning": "escanear",
+          "tip": "Escanea el documento."
+        },
+        {
+          "es": "original",
+          "kind": "igual",
+          "meaning": "original",
+          "tip": "Original y copia."
+        },
+        {
+          "es": "plastificar",
+          "kind": "quase",
+          "meaning": "plastificar",
+          "tip": "Plastifica el documento."
+        },
+        {
+          "es": "renovación",
+          "kind": "quase",
+          "meaning": "renovação",
+          "tip": "Renovación del TIE."
+        },
+        {
+          "es": "compulsar",
+          "kind": "quase",
+          "meaning": "autenticar cópia",
+          "tip": "Copia compulsada."
+        },
+        {
+          "es": "grapa",
+          "kind": "armadilha",
+          "meaning": "grampo (de papel)",
+          "tip": "Grapadora = grampeador."
+        },
+        {
+          "es": "clip",
+          "kind": "igual",
+          "meaning": "clipe",
+          "tip": "Igual!"
+        },
+        {
+          "es": "archivar",
+          "kind": "quase",
+          "meaning": "arquivar",
+          "tip": "Archivo = arquivo."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Una carpeta\" é:",
+      "options": [
+        "Uma pasta",
+        "Um carpete",
+        "Uma carteira"
+      ],
+      "correct": 0,
+      "explanation": "Carpeta = pasta de documentos."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Meu passaporte está vencido.",
+      "answer": [
+        "Mi",
+        "pasaporte",
+        "está",
+        "caducado."
+      ],
+      "distractors": [
+        "vencido",
+        "caduco"
+      ],
+      "explanation": "\"Caducado\" = vencido."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Aprobar el DELE y el CCSE. ¡Ya estoy estudiando el manual!",
+      "options": [
+        "Passar no DELE e no CCSE. Já estou estudando o manual!",
+        "Nada, já sou espanhola.",
+        "Só pagar a taxa."
+      ],
+      "correct": 0,
+      "explanation": "Revisão: u17."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Pásame la ___, quiero unir las hojas.\" (grampeador)",
+      "options": [
+        "grapadora",
+        "grampeadora",
+        "grapa"
+      ],
+      "correct": 0,
+      "explanation": "Grapadora = grampeador; grapa = grampo."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Guarda todo en la carpeta.",
+          "options": [
+            "Guarda tudo na pasta.",
+            "Guarda tudo no carpete."
+          ],
+          "correct": 0,
+          "joke": "Carpeta = pasta."
+        },
+        {
+          "spanish": "Recoge tu habitación.",
+          "options": [
+            "Arruma seu quarto.",
+            "Recolhe seu quarto."
+          ],
+          "correct": 0,
+          "joke": "Recoger = arrumar."
+        },
+        {
+          "spanish": "Necesito una grapa.",
+          "options": [
+            "Preciso de um grampo.",
+            "Preciso de uma garrafa."
+          ],
+          "correct": 0,
+          "joke": "Grapa = grampo."
+        },
+        {
+          "spanish": "Tengo el TIE caducado.",
+          "options": [
+            "Estou com o TIE vencido.",
+            "Estou com o TIE caduco, velho."
+          ],
+          "correct": 0,
+          "joke": "Caducado = vencido."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Graduação",
+      "items": [
+        {
+          "emoji": "📁",
+          "title": "Papelada em dia",
+          "es": "Tu carpeta de papeles.",
+          "pt": "Guarde originais e cópias de TIE, padrón, contratos, holerites e declarações. Muitos trâmites pedem esses documentos. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "✅",
+          "title": "O que você já sabe",
+          "es": "Cita, TIE, padrón, nómina, renta, DELE, CCSE.",
+          "pt": "Você aprendeu o vocabulário dos principais trâmites de quem mora na Espanha. Use-o e confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}
