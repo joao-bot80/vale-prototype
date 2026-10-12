@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-19",
+  "contentVersion": "2026.10.12-20",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -757,7 +757,7 @@
       "name": "País Vasco",
       "subtitle": "Donostia, Bilbao e pintxos",
       "emoji": "🍢",
-      "stampText": "EUSKADI",
+      "stampText": "PAÍS VASCO",
       "lon": -2.93,
       "lat": 43.26,
       "units": [
