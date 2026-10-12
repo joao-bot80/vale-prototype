@@ -118,9 +118,9 @@
         },
         {
           "es": "venda",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "atadura / faixa",
-          "tip": "Venda = atadura, e também venda nos olhos, como em português. Venda (de vender) é \"venta\"."
+          "tip": "Venda = atadura. Em PT-BR, venda é o ato de vender (\"venta\")."
         },
         {
           "es": "alergia",
@@ -136,9 +136,9 @@
         },
         {
           "es": "pastilla",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "comprimido",
-          "tip": "Também pastilha."
+          "tip": "Pastilla = comprimido. Em PT-BR, pastilha é bala de menta ou de freio."
         },
         {
           "es": "lentilla",

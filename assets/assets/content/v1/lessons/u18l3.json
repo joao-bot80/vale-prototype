@@ -90,9 +90,9 @@
       "cards": [
         {
           "es": "partido",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "jogo (de futebol)",
-          "tip": "Partido = jogo de futebol, e também partido político, igual."
+          "tip": "Partido = jogo. Em PT-BR, partido é partido político ou quebrado."
         },
         {
           "es": "equipo local",
@@ -108,15 +108,15 @@
         },
         {
           "es": "portero",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "goleiro",
-          "tip": "Portero = goleiro, e também porteiro."
+          "tip": "Portero = goleiro (e porteiro). Em PT-BR, porteiro é só o do prédio."
         },
         {
           "es": "delantero",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "atacante",
-          "tip": "Va delante."
+          "tip": "Delantero = atacante. Em PT-BR, dianteiro é só \"o da frente\"."
         },
         {
           "es": "empate",
@@ -137,10 +137,10 @@
           "tip": "Sem acento no e."
         },
         {
-          "es": "fuera de juego",
-          "kind": "quase",
-          "meaning": "impedimento",
-          "tip": "Offside."
+          "es": "gol",
+          "kind": "igual",
+          "meaning": "gol",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "palco",

@@ -86,10 +86,10 @@
       "passMark": 6,
       "cards": [
         {
-          "es": "garrofó",
+          "es": "pimienta",
           "kind": "quase",
-          "meaning": "feijão-branco grande",
-          "tip": "Palavra valenciana usada também em castelhano para esse ingrediente."
+          "meaning": "pimenta",
+          "tip": "Pimienta = pimenta."
         },
         {
           "es": "grasa",
@@ -105,9 +105,9 @@
         },
         {
           "es": "judía",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "feijão",
-          "tip": "Judía = feijão (\"judías verdes\" = vagem) e também judia."
+          "tip": "Judía = feijão (verde ou branco). Em PT-BR, judia é a mulher judia."
         },
         {
           "es": "azafrán",
@@ -117,9 +117,9 @@
         },
         {
           "es": "romero",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "alecrim",
-          "tip": "Romero = alecrim e também romeiro (peregrino)."
+          "tip": "Romero = alecrim. Em PT-BR, romeiro é o peregrino (\"peregrino\")."
         },
         {
           "es": "caldo",
@@ -134,10 +134,10 @@
           "tip": "A panela da paella (em Valencia, a panela também se chama \"paella\")."
         },
         {
-          "es": "socarrat",
+          "es": "agua",
           "kind": "quase",
-          "meaning": "crosta do fundo",
-          "tip": "A camada tostada no fundo da paella. Muito apreciada!"
+          "meaning": "água",
+          "tip": "Agua = água."
         },
         {
           "es": "leña",

@@ -94,15 +94,15 @@
         },
         {
           "es": "suspender",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "ser reprovado",
-          "tip": "Suspender = ser reprovado na prova, e também suspender, igual."
+          "tip": "Suspender = ser reprovado. Em PT-BR, suspender é interromper ou punir."
         },
         {
-          "es": "empadronado",
+          "es": "nacionalidad",
           "kind": "quase",
-          "meaning": "registrado no padrón",
-          "tip": "Estar empadronado."
+          "meaning": "nacionalidade",
+          "tip": "-dad = -dade."
         },
         {
           "es": "exento",

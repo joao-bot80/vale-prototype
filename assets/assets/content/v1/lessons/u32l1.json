@@ -95,16 +95,16 @@
           "tip": "Para + aguas."
         },
         {
-          "es": "llovizna",
-          "kind": "quase",
-          "meaning": "garoa",
-          "tip": "Lloviznar = garoar."
+          "es": "tormenta",
+          "kind": "igual",
+          "meaning": "tormenta / tempestade",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
-          "es": "chaparrón",
-          "kind": "quase",
-          "meaning": "pancada de chuva",
-          "tip": "Forte e curta."
+          "es": "temperatura",
+          "kind": "igual",
+          "meaning": "temperatura",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "aguacero",

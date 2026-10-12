@@ -103,9 +103,9 @@
         },
         {
           "es": "caducado",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "vencido",
-          "tip": "Caducado = vencido (em português \"caducado\" também existe). Pasaporte caducado = passaporte vencido."
+          "tip": "Caducado = vencido. Em PT-BR, caduco é a pessoa senil (\"chocho\")."
         },
         {
           "es": "dedo",
@@ -115,9 +115,9 @@
         },
         {
           "es": "sobre",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "envelope",
-          "tip": "Sobre = envelope, e também \"sobre\" (acerca de), igual."
+          "tip": "Sobre = envelope. Em PT-BR, sobre é a preposição (em cima de, a respeito de)."
         },
         {
           "es": "fondo",
@@ -127,9 +127,9 @@
         },
         {
           "es": "carné",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "carteirinha",
-          "tip": "\"Tamaño carné\" = tamanho 3x4."
+          "tip": "Carné = carteirinha/documento. Em PT-BR, carnê é o bloco de boletos de prestação."
         },
         {
           "es": "recoger",

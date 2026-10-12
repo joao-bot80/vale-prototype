@@ -93,10 +93,10 @@
           "tip": "Recuerdo = lembrança / souvenir. \"Recuerdos\" também = abraços."
         },
         {
-          "es": "olvidar",
+          "es": "memoria",
           "kind": "quase",
-          "meaning": "esquecer",
-          "tip": "Se me olvidó = esqueci."
+          "meaning": "memória",
+          "tip": "Memoria = memória."
         },
         {
           "es": "álbum",
@@ -112,9 +112,9 @@
         },
         {
           "es": "raro",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "estranho",
-          "tip": "Raro = estranho, esquisito, e também raro (pouco comum)."
+          "tip": "Raro = estranho. Em PT-BR, raro é incomum, difícil de achar."
         },
         {
           "es": "local",
@@ -135,10 +135,10 @@
           "tip": "Avanzar mucho."
         },
         {
-          "es": "enhorabuena",
+          "es": "felicidad",
           "kind": "quase",
-          "meaning": "parabéns (por conquista)",
-          "tip": "Felicidades = feliz aniversário."
+          "meaning": "felicidade",
+          "tip": "-dad = -dade."
         },
         {
           "es": "apodo",

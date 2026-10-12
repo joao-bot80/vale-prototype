@@ -89,9 +89,9 @@
       "cards": [
         {
           "es": "disfraz",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "fantasia",
-          "tip": "Disfraz = fantasia (de carnaval) e também disfarce."
+          "tip": "Disfraz = fantasia. Em PT-BR, disfarce é esconder quem você é."
         },
         {
           "es": "gracioso",
@@ -113,9 +113,9 @@
         },
         {
           "es": "carroza",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "carro alegórico",
-          "tip": "Carroza do desfile."
+          "tip": "Carroza = carro alegórico. Em PT-BR, carroça é a do cavalo."
         },
         {
           "es": "comparsa",
@@ -125,15 +125,15 @@
         },
         {
           "es": "pito",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "apito",
-          "tip": "Pito de carnaval."
+          "tip": "Pito = apito. Em PT-BR, pito é gíria (cigarro, pinto) — cuidado!"
         },
         {
-          "es": "antifaz",
-          "kind": "quase",
-          "meaning": "máscara de olhos",
-          "tip": "Cobre só os olhos."
+          "es": "máscara",
+          "kind": "igual",
+          "meaning": "máscara",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "peluca",

@@ -115,10 +115,10 @@
           "tip": "Quem recebe."
         },
         {
-          "es": "picoteo",
-          "kind": "quase",
-          "meaning": "beliscos / petiscos",
-          "tip": "Algo de picoteo."
+          "es": "tarta",
+          "kind": "armadilha",
+          "meaning": "bolo (de aniversário)",
+          "tip": "Tarta = bolo. Em PT-BR, torta é a salgada ou de frutas (\"pastel salado\")."
         },
         {
           "es": "debate",
@@ -128,9 +128,9 @@
         },
         {
           "es": "cumplido",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "elogio",
-          "tip": "Hacer un cumplido = fazer um elogio. Também é \"cumprido\", igual."
+          "tip": "Cumplido = elogio. Em PT-BR, cumprido é algo realizado."
         },
         {
           "es": "vecino ruidoso",

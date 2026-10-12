@@ -95,9 +95,9 @@
         },
         {
           "es": "caducar",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "vencer / expirar",
-          "tip": "Caducar = vencer / expirar (em português também \"caducar\")."
+          "tip": "Caducar = vencer (documento). Em PT-BR, caducar é ficar senil."
         },
         {
           "es": "convocatoria",
@@ -107,9 +107,9 @@
         },
         {
           "es": "calificación",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "nota",
-          "tip": "Calificación = nota, e também qualificação."
+          "tip": "Calificación = nota. Em PT-BR, qualificação é preparo profissional (\"cualificación\")."
         },
         {
           "es": "apto",
@@ -136,10 +136,10 @@
           "tip": "Igual!"
         },
         {
-          "es": "aforo",
-          "kind": "quase",
-          "meaning": "lotação",
-          "tip": "Aforo = lotação (\"aforo limitado\")."
+          "es": "examinador",
+          "kind": "igual",
+          "meaning": "examinador",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "asignatura",

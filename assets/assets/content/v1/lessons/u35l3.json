@@ -99,9 +99,9 @@
         },
         {
           "es": "ligar",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "emulsionar (molho) / paquerar",
-          "tip": "Ligar = emulsionar o molho, paquerar, e também ligar/unir. Ligar (telefonar) é \"llamar\"."
+          "tip": "Ligar = dar liga / paquerar. Em PT-BR, ligar é telefonar ou acender."
         },
         {
           "es": "remojo",
@@ -129,9 +129,9 @@
         },
         {
           "es": "casco viejo",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "centro histórico",
-          "tip": "Las Siete Calles."
+          "tip": "Casco (urbano) = centro. Em PT-BR, casco é a pata do cavalo ou o do navio."
         },
         {
           "es": "mercado cubierto",

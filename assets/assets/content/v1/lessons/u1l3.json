@@ -149,9 +149,9 @@
         },
         {
           "es": "sitio",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "lugar",
-          "tip": "\"Sitio\" = lugar (e site na internet). Sítio (chácara) é \"finca\"."
+          "tip": "Sitio = lugar. Em PT-BR, sítio é uma chácara no campo (\"finca\")."
         }
       ]
     },

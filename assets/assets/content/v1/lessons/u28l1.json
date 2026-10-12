@@ -101,9 +101,9 @@
         },
         {
           "es": "curso",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "ano letivo / série",
-          "tip": "Curso = curso, e \"curso escolar\" = ano letivo / série."
+          "tip": "Curso = ano/série escolar. Em PT-BR, curso é um curso (de inglês, de faculdade)."
         },
         {
           "es": "primaria",
@@ -112,16 +112,16 @@
           "tip": "6 a 12 anos."
         },
         {
-          "es": "ESO",
+          "es": "profesor",
           "kind": "quase",
-          "meaning": "ensino fundamental II",
-          "tip": "Educación Secundaria Obligatoria, 12 a 16."
+          "meaning": "professor",
+          "tip": "Profesor = professor."
         },
         {
           "es": "comedor",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "refeitório",
-          "tip": "Comedor = refeitório / sala de jantar. Também \"comedor\" (quem come), igual."
+          "tip": "Comedor = refeitório. Em PT-BR, comedor é quem come muito (ou paquerador)."
         },
         {
           "es": "sobrina",
@@ -131,9 +131,9 @@
         },
         {
           "es": "instituto",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "escola de ensino médio",
-          "tip": "Instituto = escola de ensino médio (e também instituto, igual)."
+          "tip": "Instituto = colégio de ensino médio. Em PT-BR, instituto é órgão de pesquisa."
         },
         {
           "es": "oso",

@@ -101,10 +101,10 @@
           "tip": "Abono = passe (de transporte). Abono salarial (bônus) é \"paga extra\"."
         },
         {
-          "es": "tranvía",
+          "es": "metro",
           "kind": "quase",
-          "meaning": "bonde / VLT",
-          "tip": "Tran + vía."
+          "meaning": "metrô",
+          "tip": "Metro = metrô."
         },
         {
           "es": "máquina",

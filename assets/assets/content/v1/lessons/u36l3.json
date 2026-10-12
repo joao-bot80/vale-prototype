@@ -89,15 +89,15 @@
       "cards": [
         {
           "es": "roca",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "rocha",
-          "tip": "Rocas."
+          "tip": "Roca = rocha. Em PT-BR, roça é plantação no campo."
         },
         {
           "es": "capa",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "camada",
-          "tip": "Capa = camada, e também capa (roupa)."
+          "tip": "Capa = camada. Em PT-BR, capa é a de livro ou de chuva."
         },
         {
           "es": "ola gigante",
@@ -106,10 +106,10 @@
           "tip": "Los surfistas buscan olas gigantes."
         },
         {
-          "es": "acantilado",
+          "es": "paisaje",
           "kind": "quase",
-          "meaning": "penhasco / falésia",
-          "tip": "Costa de acantilados."
+          "meaning": "paisagem",
+          "tip": "Paisaje = paisagem."
         },
         {
           "es": "tabla de mareas",

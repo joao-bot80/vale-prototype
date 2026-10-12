@@ -96,15 +96,15 @@
         },
         {
           "es": "cita",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "agendamento / encontro",
-          "tip": "Aqui cita = agendamento / encontro marcado (\"cita previa\"). Também é citação, como em português."
+          "tip": "Cita = horário marcado. Em PT-BR, cita é do verbo citar (\"cita textual\" = citação)."
         },
         {
-          "es": "huella",
+          "es": "fotografía",
           "kind": "quase",
-          "meaning": "impressão digital",
-          "tip": "Huella = impressão digital, e também pegada."
+          "meaning": "foto / fotografia",
+          "tip": "Fotografía = fotografia."
         },
         {
           "es": "provincia",

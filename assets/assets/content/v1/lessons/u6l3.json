@@ -95,9 +95,9 @@
         },
         {
           "es": "acento",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "sotaque",
-          "tip": "Também é o acento gráfico."
+          "tip": "Acento = sotaque. Em PT-BR, acento é o sinal gráfico (´ ^)."
         },
         {
           "es": "entender",
@@ -112,10 +112,10 @@
           "tip": "\"H\" no lugar de \"f\": hablar, hacer, hijo."
         },
         {
-          "es": "charla",
+          "es": "conversación",
           "kind": "quase",
-          "meaning": "bate-papo",
-          "tip": "De \"charlar\" = conversar."
+          "meaning": "conversa",
+          "tip": "-ción vira -ção/-a: conversación = conversa."
         },
         {
           "es": "despacio",
@@ -131,9 +131,9 @@
         },
         {
           "es": "jubilado",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "aposentado",
-          "tip": "Jubilado = aposentado (em português \"jubilado\" também é aposentado, sobretudo professor)."
+          "tip": "Jubilado = aposentado. Em PT-BR, jubilado é o aluno desligado da faculdade."
         },
         {
           "es": "zurdo",

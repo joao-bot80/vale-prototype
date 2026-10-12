@@ -90,9 +90,9 @@
       "cards": [
         {
           "es": "laguna",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "lagoa",
-          "tip": "Lagoa costeira."
+          "tip": "Laguna = lagoa. Em PT-BR, lacuna é um vazio, algo que falta."
         },
         {
           "es": "embarcadero",
@@ -113,10 +113,10 @@
           "tip": "Ingrediente do all i pebre."
         },
         {
-          "es": "guiso",
-          "kind": "quase",
-          "meaning": "ensopado",
-          "tip": "Guiso = ensopado / guisado."
+          "es": "pato",
+          "kind": "igual",
+          "meaning": "pato",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "arrozal",

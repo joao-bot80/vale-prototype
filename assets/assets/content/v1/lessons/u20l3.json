@@ -93,9 +93,9 @@
         },
         {
           "es": "paso",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "andor",
-          "tip": "Na Semana Santa, paso = andor. Também passo, igual."
+          "tip": "Paso = andor da procissão. Em PT-BR, passo é o movimento do pé."
         },
         {
           "es": "hermandad",
@@ -104,16 +104,16 @@
           "tip": "Também cofradía."
         },
         {
-          "es": "capirote",
+          "es": "cofradía",
           "kind": "quase",
-          "meaning": "capuz pontudo",
-          "tip": "Usado pelos nazarenos."
+          "meaning": "confraria",
+          "tip": "Cofradía = confraria."
         },
         {
-          "es": "costalero",
-          "kind": "quase",
-          "meaning": "carregador do andor",
-          "tip": "Leva o paso nos ombros."
+          "es": "Semana Santa",
+          "kind": "igual",
+          "meaning": "Semana Santa",
+          "tip": "Mesma expressão, mesmo sentido."
         },
         {
           "es": "cirio",
@@ -129,9 +129,9 @@
         },
         {
           "es": "saeta",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "canto religioso",
-          "tip": "Cantado ao passar o paso."
+          "tip": "Saeta = canto de procissão. Em PT-BR, seta é flecha."
         },
         {
           "es": "pesado",

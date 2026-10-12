@@ -94,10 +94,10 @@
           "tip": "Batalla de tomates."
         },
         {
-          "es": "miércoles",
-          "kind": "quase",
-          "meaning": "quarta-feira",
-          "tip": "Lunes, martes, miércoles..."
+          "es": "mancha",
+          "kind": "igual",
+          "meaning": "mancha",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "agosto",
@@ -131,9 +131,9 @@
         },
         {
           "es": "pueblo",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "cidade pequena / povoado",
-          "tip": "Pueblo = cidade pequena / povoado, e também povo."
+          "tip": "Pueblo = cidadezinha. Em PT-BR, povo é a população (\"gente\")."
         },
         {
           "es": "zapatillas",
@@ -142,10 +142,10 @@
           "tip": "Zapatillas = tênis (e pantufas). Sapatilha de balé é \"bailarinas\"."
         },
         {
-          "es": "aplastar",
-          "kind": "quase",
-          "meaning": "esmagar",
-          "tip": "Aplasta el tomate antes de tirarlo."
+          "es": "camiseta",
+          "kind": "igual",
+          "meaning": "camiseta",
+          "tip": "Mesma palavra, mesmo sentido."
         }
       ]
     },

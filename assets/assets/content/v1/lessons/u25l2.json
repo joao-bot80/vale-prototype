@@ -112,9 +112,9 @@
         },
         {
           "es": "góndola",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "cabine (do teleférico)",
-          "tip": "Também gôndola."
+          "tip": "Góndola = cabine. Em PT-BR, gôndola é a prateleira do supermercado."
         },
         {
           "es": "espectáculo",
@@ -124,9 +124,9 @@
         },
         {
           "es": "subida",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "subida",
-          "tip": "Subida dura."
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "cuesta arriba",

@@ -89,21 +89,21 @@
       "cards": [
         {
           "es": "lámpara",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "luminária",
-          "tip": "Lámpara = luminária / lâmpada. A lâmpada (bulbo) é \"bombilla\"."
+          "tip": "Lámpara = luminária/abajur. Em PT-BR, lâmpada é a \"bombilla\"."
         },
         {
           "es": "bombilla",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "lâmpada",
-          "tip": "Bombilla = lâmpada (bulbo), e também a bomba do chimarrão (bombilha), como no Sul."
+          "tip": "Bombilla = lâmpada. Em PT-BR, bombinha é o rojão pequeno ou a de asma."
         },
         {
           "es": "regatear",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "pechinchar",
-          "tip": "No Rastro dá para regatear."
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "ganga",
@@ -124,10 +124,10 @@
           "tip": "Não é moedeiro."
         },
         {
-          "es": "tenderete",
+          "es": "mercadillo",
           "kind": "quase",
-          "meaning": "barraquinha",
-          "tip": "Tenderete do Rastro."
+          "meaning": "mercadinho / feirinha",
+          "tip": "Mercadillo = mercadinho de rua."
         },
         {
           "es": "antigüedad",

@@ -95,10 +95,10 @@
           "tip": "Marisco das rochas."
         },
         {
-          "es": "nécora",
-          "kind": "quase",
-          "meaning": "caranguejo (nécora)",
-          "tip": "Típica galega."
+          "es": "marisco",
+          "kind": "igual",
+          "meaning": "marisco / frutos do mar",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "navaja",
@@ -114,15 +114,15 @@
         },
         {
           "es": "picar",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "arder (pimenta) / beliscar",
-          "tip": "Picar = arder (pimenta), beliscar, petiscar, e também picar, igual."
+          "tip": "Picar = arder/beliscar. Em PT-BR, picar é cortar em pedacinhos ou ferroar."
         },
         {
           "es": "ración",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "porção",
-          "tip": "Ración = porção (\"media ración\"), e também ração."
+          "tip": "Ración = porção. Em PT-BR, ração é comida de bicho."
         },
         {
           "es": "pimiento de Padrón",
@@ -132,9 +132,9 @@
         },
         {
           "es": "pimentón dulce",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "páprica doce",
-          "tip": "Vai no pulpo."
+          "tip": "Pimentón = páprica. Em PT-BR, pimentão é \"pimiento\"."
         },
         {
           "es": "plato de madera",
@@ -143,10 +143,10 @@
           "tip": "Onde se serve o pulpo."
         },
         {
-          "es": "cachelos",
+          "es": "sal gruesa",
           "kind": "quase",
-          "meaning": "batatas cozidas (Galícia)",
-          "tip": "Acompanham o pulpo."
+          "meaning": "sal grosso",
+          "tip": "Gruesa = grossa."
         }
       ]
     },

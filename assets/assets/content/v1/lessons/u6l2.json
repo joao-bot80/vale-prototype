@@ -89,15 +89,15 @@
       "cards": [
         {
           "es": "comido",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "comido",
-          "tip": "Igual ao português!"
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "visto",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "visto",
-          "tip": "Particípio irregular de \"ver\", como no português."
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "hecho",
@@ -119,9 +119,9 @@
         },
         {
           "es": "escrito",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "escrito",
-          "tip": "Igualzinho!"
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "puesto",
@@ -143,9 +143,9 @@
         },
         {
           "es": "andar",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "caminhar",
-          "tip": "Andar = caminhar, igual. Mas o andar do prédio é \"planta\" ou \"piso\"."
+          "tip": "Mesma palavra, mesmo sentido."
         }
       ]
     },

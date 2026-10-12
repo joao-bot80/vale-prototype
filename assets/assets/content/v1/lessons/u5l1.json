@@ -130,9 +130,9 @@
         },
         {
           "es": "bolsa",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "sacola",
-          "tip": "A bolsa de mão é \"bolso\"."
+          "tip": "Bolsa = sacola de compras. Em PT-BR, bolsa é a de mão (\"bolso\") ou a de valores."
         },
         {
           "es": "aceite",

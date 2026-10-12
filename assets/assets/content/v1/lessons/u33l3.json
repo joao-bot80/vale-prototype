@@ -93,9 +93,9 @@
         },
         {
           "es": "llama",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "chama (de fogo)",
-          "tip": "Llama = chama (de fogo), e também o animal lhama."
+          "tip": "Llama = chama. Soa como \"lama\", que em PT-BR é barro (\"barro\")."
         },
         {
           "es": "piel",
@@ -105,9 +105,9 @@
         },
         {
           "es": "prender",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "acender (fogo)",
-          "tip": "Prender fuego = acender. Também prender/fixar. Prender alguém é \"detener\"."
+          "tip": "Prender = acender. Em PT-BR, prender é deter alguém ou fixar."
         },
         {
           "es": "apagar",

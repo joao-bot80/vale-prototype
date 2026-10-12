@@ -100,9 +100,9 @@
         },
         {
           "es": "suelo",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "chão",
-          "tip": "Suelo = chão, e também solo."
+          "tip": "Suelo = chão. Em PT-BR, solo é terra/solo agrícola ou solo musical."
         },
         {
           "es": "misa",
@@ -111,10 +111,10 @@
           "tip": "Com um s."
         },
         {
-          "es": "botafumeiro",
+          "es": "órgano",
           "kind": "quase",
-          "meaning": "botafumeiro",
-          "tip": "Palavra galega usada em castelhano."
+          "meaning": "órgão",
+          "tip": "Órgano = órgão."
         },
         {
           "es": "fachada barroca",
@@ -124,9 +124,9 @@
         },
         {
           "es": "campana",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "sino",
-          "tip": "Campana = sino, e também coifa (da cozinha)."
+          "tip": "Campana = sino. Em PT-BR, campana é o exaustor do fogão."
         },
         {
           "es": "piedra mojada",

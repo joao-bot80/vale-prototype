@@ -122,10 +122,10 @@
           "tip": "Parada para foto."
         },
         {
-          "es": "gasolinera",
+          "es": "kilómetro",
           "kind": "quase",
-          "meaning": "posto de gasolina",
-          "tip": "Repostar = abastecer."
+          "meaning": "quilômetro",
+          "tip": "Kilómetro = quilômetro."
         },
         {
           "es": "peaje",

@@ -99,10 +99,10 @@
           "tip": "Kupela em basco."
         },
         {
-          "es": "chuletón",
+          "es": "manzana",
           "kind": "quase",
-          "meaning": "bisteca grande",
-          "tip": "De chuleta."
+          "meaning": "maçã",
+          "tip": "Manzana = maçã."
         },
         {
           "es": "membrillo",
@@ -124,9 +124,9 @@
         },
         {
           "es": "cola de la sidra",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "fila da sidra",
-          "tip": "Hacer cola en la kupela."
+          "tip": "Cola = fila. Em PT-BR, cola é a de colar."
         },
         {
           "es": "de pie",

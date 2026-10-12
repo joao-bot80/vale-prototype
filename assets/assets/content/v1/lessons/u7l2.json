@@ -129,10 +129,10 @@
           "tip": "Entrada = entrada, e também ingresso. \"Ingreso\" é depósito no banco."
         },
         {
-          "es": "taquilla",
-          "kind": "quase",
-          "meaning": "bilheteria",
-          "tip": "Taquilla = bilheteria (e também armário/escaninho)."
+          "es": "visita",
+          "kind": "igual",
+          "meaning": "visita",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "chorro",

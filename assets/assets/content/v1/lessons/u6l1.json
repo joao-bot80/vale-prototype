@@ -90,9 +90,9 @@
       "cards": [
         {
           "es": "pimentón",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "páprica",
-          "tip": "O pimentão é \"pimiento\"."
+          "tip": "Pimentón = páprica. Em PT-BR, pimentão é \"pimiento\"."
         },
         {
           "es": "pimiento",
@@ -113,16 +113,16 @@
           "tip": "\"J\" no lugar de \"lh\"."
         },
         {
-          "es": "jamón",
+          "es": "atún",
           "kind": "quase",
-          "meaning": "presunto",
-          "tip": "Parece \"jamon\" mas é o presunto curado."
+          "meaning": "atum",
+          "tip": "Atún = atum."
         },
         {
-          "es": "chopitos",
+          "es": "calamar",
           "kind": "quase",
-          "meaning": "lulinhas fritas",
-          "tip": "Petisco frito típico do sul."
+          "meaning": "lula (anéis de lula)",
+          "tip": "Calamar = lula; no Brasil, \"calamares\" são os anéis empanados."
         },
         {
           "es": "aceituna",
@@ -138,9 +138,9 @@
         },
         {
           "es": "cubierto",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "talher",
-          "tip": "Na mesa, cubierto = talher. Também é \"coberto\", igual."
+          "tip": "Cubierto = talher. Em PT-BR, coberto é o que tem tampa/teto."
         },
         {
           "es": "brasa",

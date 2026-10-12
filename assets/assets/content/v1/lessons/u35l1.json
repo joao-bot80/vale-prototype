@@ -143,9 +143,9 @@
         },
         {
           "es": "exposición temporal",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "exposição temporária",
-          "tip": "Muda sempre."
+          "tip": "Temporal = temporário. Em PT-BR, temporal é tempestade."
         }
       ]
     },

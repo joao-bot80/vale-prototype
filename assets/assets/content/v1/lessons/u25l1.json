@@ -112,10 +112,10 @@
           "tip": "Igual."
         },
         {
-          "es": "botella",
+          "es": "vidrio",
           "kind": "quase",
-          "meaning": "garrafa",
-          "tip": "Botella de agua."
+          "meaning": "vidro",
+          "tip": "Vidrio = vidro."
         },
         {
           "es": "concierto",
@@ -137,9 +137,9 @@
         },
         {
           "es": "verbena",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "festa de rua",
-          "tip": "Verbena = festa de rua, e também a planta verbena."
+          "tip": "Verbena = festa de bairro. Em PT-BR, verbena é só uma planta."
         },
         {
           "es": "farolillo",

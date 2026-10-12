@@ -104,16 +104,16 @@
           "tip": "Tostada = torrada (não é a tostada mexicana)."
         },
         {
-          "es": "desayuno",
+          "es": "café con leche",
           "kind": "quase",
-          "meaning": "café da manhã",
-          "tip": "Des + ayuno (jejum)."
+          "meaning": "café com leite",
+          "tip": "Con = com."
         },
         {
-          "es": "cepillo",
+          "es": "pasta de dientes",
           "kind": "quase",
-          "meaning": "escova",
-          "tip": "Cepillo de dientes = escova de dentes."
+          "meaning": "pasta de dente",
+          "tip": "Pasta de dientes = pasta de dente."
         },
         {
           "es": "toalla de mano",

@@ -131,9 +131,9 @@
         },
         {
           "es": "firma",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "assinatura",
-          "tip": "Firma = assinatura (como \"firma reconhecida\") e também empresa."
+          "tip": "Firma = assinatura. Em PT-BR, firma é uma empresa (\"empresa\")."
         },
         {
           "es": "renta",

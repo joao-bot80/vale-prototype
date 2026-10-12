@@ -126,9 +126,9 @@
         },
         {
           "es": "agradecido",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "agradecido / grato",
-          "tip": "Estoy muy agradecida."
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "lágrima",

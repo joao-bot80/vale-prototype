@@ -95,9 +95,9 @@
         },
         {
           "es": "sede",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "escritório central",
-          "tip": "Sede = sede de empresa, igual. Mas sede (vontade de beber) é \"sed\"!"
+          "tip": "Sede = matriz da empresa. Em PT-BR, o uso mais comum é sede = vontade de beber (\"sed\")."
         },
         {
           "es": "vacante",
@@ -137,9 +137,9 @@
         },
         {
           "es": "prácticas",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "estágio",
-          "tip": "Prácticas = práticas, e \"hacer prácticas\" = estagiar."
+          "tip": "Prácticas = estágio. Em PT-BR, práticas são costumes ou exercícios."
         },
         {
           "es": "experto",

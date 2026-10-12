@@ -129,15 +129,15 @@
         },
         {
           "es": "carrera",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "faculdade / curso superior",
-          "tip": "Carrera = faculdade / curso superior, e também carreira e corrida."
+          "tip": "Carrera = curso universitário (e corrida). Em PT-BR, carreira é a trajetória profissional."
         },
         {
           "es": "título",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "diploma",
-          "tip": "Título universitario."
+          "tip": "Título = diploma. Em PT-BR, título é o nome de um livro/filme ou o de eleitor."
         },
         {
           "es": "referencia",

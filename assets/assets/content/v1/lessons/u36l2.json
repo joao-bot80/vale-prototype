@@ -86,16 +86,16 @@
       "passMark": 6,
       "cards": [
         {
-          "es": "txakoli",
-          "kind": "quase",
-          "meaning": "txakoli (vinho basco)",
-          "tip": "Branco, jovem, ácido."
+          "es": "cubo",
+          "kind": "armadilha",
+          "meaning": "balde",
+          "tip": "Cubo = balde. Em PT-BR, cubo é a figura geométrica (ou de gelo)."
         },
         {
-          "es": "burbuja",
+          "es": "vino blanco",
           "kind": "quase",
-          "meaning": "bolha (de gás)",
-          "tip": "Burbuja = bolha de gás (borbulha)."
+          "meaning": "vinho branco",
+          "tip": "Vino = vinho, blanco = branco."
         },
         {
           "es": "ácido",
@@ -110,28 +110,28 @@
           "tip": "Vino joven."
         },
         {
-          "es": "rodaballo",
-          "kind": "quase",
-          "meaning": "pregado (peixe)",
-          "tip": "Típico de Getaria."
+          "es": "merluza",
+          "kind": "igual",
+          "meaning": "merluza",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
-          "es": "oler",
-          "kind": "quase",
-          "meaning": "cheirar",
-          "tip": "Oler = cheirar (olor = odor). Huele bien = cheira bem."
+          "es": "aroma",
+          "kind": "igual",
+          "meaning": "aroma",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
-          "es": "hambre",
-          "kind": "armadilha",
-          "meaning": "fome",
-          "tip": "Tengo hambre (feminino: el hambre)."
+          "es": "mantel",
+          "kind": "quase",
+          "meaning": "toalha de mesa",
+          "tip": "Mantel = toalha de mesa; lembra \"manto\"."
         },
         {
-          "es": "escanciar",
+          "es": "fermentación",
           "kind": "quase",
-          "meaning": "servir do alto",
-          "tip": "Escanciar sidra/txakoli."
+          "meaning": "fermentação",
+          "tip": "-ción = -ção."
         },
         {
           "es": "brasas",

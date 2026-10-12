@@ -106,9 +106,9 @@
         },
         {
           "es": "helado",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "sorvete",
-          "tip": "Helado = sorvete e também gelado/congelado."
+          "tip": "Helado = sorvete. Em PT-BR, gelado é só \"muito frio\" (\"frío\")."
         },
         {
           "es": "grande",
@@ -129,10 +129,10 @@
           "tip": "Mojar = molhar: só muda a grafia."
         },
         {
-          "es": "chufa",
+          "es": "canela",
           "kind": "igual",
-          "meaning": "chufa",
-          "tip": "Mesma palavra (tubérculo da horchata)."
+          "meaning": "canela",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "bizcocho",

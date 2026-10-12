@@ -103,9 +103,9 @@
         },
         {
           "es": "alta de suministro",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "ligação do serviço",
-          "tip": "Dar de alta la luz."
+          "tip": "Alta de suministro = ligar a luz/gás. Em PT-BR, alta é a do hospital."
         },
         {
           "es": "potencia",

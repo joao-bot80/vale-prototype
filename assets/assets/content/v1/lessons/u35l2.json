@@ -87,10 +87,10 @@
       "passMark": 6,
       "cards": [
         {
-          "es": "euskera",
+          "es": "traducción",
           "kind": "quase",
-          "meaning": "basco (língua)",
-          "tip": "Também euskara."
+          "meaning": "tradução",
+          "tip": "-ción = -ção."
         },
         {
           "es": "vasco",
@@ -106,9 +106,9 @@
         },
         {
           "es": "cartel",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "cartaz / placa",
-          "tip": "Cartel = cartaz / placa, e também cartel."
+          "tip": "Cartel = cartaz. Em PT-BR, cartel é o do crime ou de empresas."
         },
         {
           "es": "bilingüe",
@@ -141,10 +141,10 @@
           "tip": "Também servicios."
         },
         {
-          "es": "andén central",
+          "es": "viajero",
           "kind": "quase",
-          "meaning": "plataforma central",
-          "tip": "No metrô."
+          "meaning": "viajante",
+          "tip": "Viajero = viajante."
         }
       ]
     },

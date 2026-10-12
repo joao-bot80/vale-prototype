@@ -88,10 +88,10 @@
       "passMark": 6,
       "cards": [
         {
-          "es": "borrador",
+          "es": "formulario",
           "kind": "quase",
-          "meaning": "rascunho",
-          "tip": "Borrador = rascunho, e também apagador."
+          "meaning": "formulário",
+          "tip": "Formulario = formulário."
         },
         {
           "es": "declaración",
@@ -101,9 +101,9 @@
         },
         {
           "es": "casilla",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "campo do formulário",
-          "tip": "Casilla = campo do formulário (quadradinho), e também casinha."
+          "tip": "Casilla = quadradinho/campo. Em PT-BR, casinha é casa pequena."
         },
         {
           "es": "pagador",
@@ -118,10 +118,10 @@
           "tip": "Sale a devolver."
         },
         {
-          "es": "gestoría",
+          "es": "documentación",
           "kind": "quase",
-          "meaning": "escritório de contabilidade",
-          "tip": "Gestor / gestora."
+          "meaning": "documentação",
+          "tip": "-ción = -ção."
         },
         {
           "es": "deducir",
@@ -131,15 +131,15 @@
         },
         {
           "es": "ejercicio",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "ano fiscal",
-          "tip": "Ejercicio = ano fiscal, e também exercício (físico, escolar)."
+          "tip": "Ejercicio (fiscal) = ano fiscal. Em PT-BR, exercício é atividade física ou de escola."
         },
         {
           "es": "domiciliar",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "débito automático",
-          "tip": "Domiciliar el pago = débito automático em conta."
+          "tip": "Domiciliar = pôr em débito automático. Em PT-BR, domiciliar é \"em casa\" (prisão domiciliar)."
         },
         {
           "es": "estafa",

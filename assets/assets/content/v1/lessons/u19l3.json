@@ -111,10 +111,10 @@
           "tip": "Pescadero/a."
         },
         {
-          "es": "carnicería",
-          "kind": "quase",
-          "meaning": "açougue",
-          "tip": "Carnicero = açougueiro."
+          "es": "mercado",
+          "kind": "igual",
+          "meaning": "mercado",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "fresco",
@@ -123,10 +123,10 @@
           "tip": "Igual!"
         },
         {
-          "es": "zumo",
-          "kind": "quase",
-          "meaning": "suco",
-          "tip": "Zumo = suco na Espanha; na América Latina, \"jugo\"."
+          "es": "verdura",
+          "kind": "igual",
+          "meaning": "verdura",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "frutería",

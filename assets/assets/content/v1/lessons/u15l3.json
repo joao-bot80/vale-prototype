@@ -100,27 +100,27 @@
         },
         {
           "es": "peatón",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "pedestre",
-          "tip": "Paso de peatones = faixa de pedestres."
+          "tip": "Peatón = pedestre. Em PT-BR, peão é o do xadrez ou da obra (\"peón\")."
         },
         {
-          "es": "glorieta",
-          "kind": "quase",
-          "meaning": "rotatória",
-          "tip": "Glorieta = rotatória, e também caramanchão."
+          "es": "avenida",
+          "kind": "igual",
+          "meaning": "avenida",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
-          "es": "alquilar",
-          "kind": "quase",
-          "meaning": "alugar",
-          "tip": "Alquiler = aluguel."
+          "es": "ciclista",
+          "kind": "igual",
+          "meaning": "ciclista",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
-          "es": "riada",
+          "es": "inundación",
           "kind": "quase",
-          "meaning": "enchente",
-          "tip": "De río."
+          "meaning": "inundação",
+          "tip": "-ción = -ção."
         },
         {
           "es": "salada",
@@ -129,10 +129,10 @@
           "tip": "Salada = salgada (\"el agua está salada\"). Salada (prato) é \"ensalada\"."
         },
         {
-          "es": "candado",
+          "es": "velocidad",
           "kind": "quase",
-          "meaning": "cadeado",
-          "tip": "Candado = cadeado."
+          "meaning": "velocidade",
+          "tip": "-dad = -dade."
         },
         {
           "es": "pedalear",

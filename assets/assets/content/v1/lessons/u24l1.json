@@ -118,15 +118,15 @@
         },
         {
           "es": "revisor",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "fiscal do trem",
-          "tip": "No trem, revisor = fiscal que confere os bilhetes. Revisor de texto também é \"revisor\"."
+          "tip": "Revisor = fiscal de bilhetes. Em PT-BR, revisor é quem corrige textos."
         },
         {
-          "es": "pasillo",
+          "es": "tren",
           "kind": "quase",
-          "meaning": "corredor",
-          "tip": "Pasillo = corredor (\"asiento de pasillo\"). Parece \"passadiço\"."
+          "meaning": "trem",
+          "tip": "Tren = trem."
         },
         {
           "es": "mazapán",

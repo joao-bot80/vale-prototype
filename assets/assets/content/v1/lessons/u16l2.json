@@ -87,10 +87,10 @@
       "passMark": 6,
       "cards": [
         {
-          "es": "nómina",
+          "es": "salario",
           "kind": "quase",
-          "meaning": "holerite / contracheque",
-          "tip": "Nómina = holerite / contracheque (e folha de pagamento)."
+          "meaning": "salário",
+          "tip": "Salario = salário."
         },
         {
           "es": "bruto",
@@ -100,9 +100,9 @@
         },
         {
           "es": "líquido",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "líquido",
-          "tip": "Líquido a percibir."
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "deducción",
@@ -123,16 +123,16 @@
           "tip": "Paga = pagamento / salário (\"la paga extra\")."
         },
         {
-          "es": "devengo",
+          "es": "impuesto",
           "kind": "quase",
-          "meaning": "vencimento / provento",
-          "tip": "Total devengado = bruto."
+          "meaning": "imposto",
+          "tip": "Impuesto = imposto."
         },
         {
           "es": "Hacienda",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "Receita Federal",
-          "tip": "Hacienda = Receita Federal (como Ministério da Fazenda). Também fazenda (propriedade)."
+          "tip": "Hacienda = Receita. Em PT-BR, fazenda é propriedade rural (\"finca\")."
         },
         {
           "es": "ingreso",

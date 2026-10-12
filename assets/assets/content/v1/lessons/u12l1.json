@@ -111,16 +111,16 @@
           "tip": "Ordenador = computador. Cuidado: \"ordenado\" no Brasil é salário!"
         },
         {
-          "es": "pantalla",
-          "kind": "quase",
-          "meaning": "tela",
-          "tip": "Pantalla = tela (de celular, de cinema)."
+          "es": "teclado",
+          "kind": "igual",
+          "meaning": "teclado",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "ratón",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "mouse",
-          "tip": "Ratón = mouse, e também rato, como em português."
+          "tip": "Ratón = mouse (e camundongo). Em PT-BR, ratão é rato grande."
         },
         {
           "es": "correo",
@@ -129,10 +129,10 @@
           "tip": "Correo = correio, e também e-mail (\"correo electrónico\")."
         },
         {
-          "es": "ventana",
+          "es": "archivo",
           "kind": "quase",
-          "meaning": "janela",
-          "tip": "Ventanilla = guichê."
+          "meaning": "arquivo",
+          "tip": "Archivo = arquivo."
         },
         {
           "es": "duda",

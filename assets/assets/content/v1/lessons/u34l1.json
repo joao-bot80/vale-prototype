@@ -86,10 +86,10 @@
       "passMark": 6,
       "cards": [
         {
-          "es": "pintxo",
+          "es": "cocinero",
           "kind": "quase",
-          "meaning": "petisco basco",
-          "tip": "Grafia basca; em castelhano padrão: pincho."
+          "meaning": "cozinheiro",
+          "tip": "Cocinero = cozinheiro."
         },
         {
           "es": "palillo",
@@ -111,9 +111,9 @@
         },
         {
           "es": "barra libre",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "open bar",
-          "tip": "Barra = balcão."
+          "tip": "Barra = balcão. Em PT-BR, barra livre soa como caminho desimpedido."
         },
         {
           "es": "caliente",
@@ -129,15 +129,15 @@
         },
         {
           "es": "ronda de pintxos",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "rodada de pintxos",
-          "tip": "Ir de pintxos."
+          "tip": "Ronda = rodada. Em PT-BR, ronda é a patrulha do vigia."
         },
         {
-          "es": "gilda",
+          "es": "degustación",
           "kind": "quase",
-          "meaning": "gilda (petisco)",
-          "tip": "Azeitona, anchova e guindilla."
+          "meaning": "degustação",
+          "tip": "-ción = -ção."
         },
         {
           "es": "guindilla",

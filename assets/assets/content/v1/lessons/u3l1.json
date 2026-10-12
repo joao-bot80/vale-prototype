@@ -128,15 +128,15 @@
         },
         {
           "es": "cerca",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "perto",
-          "tip": "Cerca = perto (\"cerca de\" = perto de / cerca de, como em português). A cerca de madeira é \"valla\"."
+          "tip": "Cerca = perto. Em PT-BR, cerca é a grade/muro (\"valla\")."
         },
         {
           "es": "tirar",
-          "kind": "quase",
-          "meaning": "puxar / jogar fora",
-          "tip": "Tirar = jogar fora / atirar, e nas portas \"tirar\" = puxe (\"empujar\" = empurre)."
+          "kind": "armadilha",
+          "meaning": "jogar fora / puxar",
+          "tip": "Tirar = jogar fora ou puxar. Em PT-BR, tirar é \"quitar\" (remover)."
         },
         {
           "es": "pronto",
@@ -146,9 +146,9 @@
         },
         {
           "es": "contestar",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "responder, atender",
-          "tip": "Contestar = responder (em português também: contestar uma pergunta). Atender o telefone também é \"contestar\"."
+          "tip": "Contestar = responder/atender. Em PT-BR, contestar é discordar, questionar (\"impugnar\")."
         }
       ]
     },

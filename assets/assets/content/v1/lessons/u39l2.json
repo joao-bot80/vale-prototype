@@ -89,10 +89,10 @@
       "passMark": 6,
       "cards": [
         {
-          "es": "gofio",
-          "kind": "quase",
-          "meaning": "farinha de cereais torrados",
-          "tip": "Canário."
+          "es": "trigo",
+          "kind": "igual",
+          "meaning": "trigo",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "harina",
@@ -120,15 +120,15 @@
         },
         {
           "es": "amasar",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "amassar (massa)",
-          "tip": "Amasar gofio."
+          "tip": "Amasar = sovar massa. Em PT-BR, amassar é amassar lata/carro."
         },
         {
-          "es": "escaldón",
-          "kind": "quase",
-          "meaning": "escaldón (gofio com caldo)",
-          "tip": "Prato canário."
+          "es": "cereal",
+          "kind": "igual",
+          "meaning": "cereal",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "queso de flor",

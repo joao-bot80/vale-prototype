@@ -90,21 +90,21 @@
       "cards": [
         {
           "es": "conducir",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "dirigir",
-          "tip": "Conducir = dirigir (carro), como \"conduzir\". \"Dirigir\" em espanhol é dirigir uma empresa."
+          "tip": "Conducir = dirigir carro. Em PT-BR, conduzir é guiar/levar (uma reunião, alguém)."
         },
         {
           "es": "coche",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "carro",
-          "tip": "Coche = carro. Coche de cavalos também existe, igual."
+          "tip": "Coche = carro. Em PT-BR, coche é a carruagem antiga."
         },
         {
-          "es": "canje",
-          "kind": "quase",
-          "meaning": "troca",
-          "tip": "Canjear = trocar."
+          "es": "gasolina",
+          "kind": "igual",
+          "meaning": "gasolina",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "examen",
@@ -125,16 +125,16 @@
           "tip": "Igualzinho!"
         },
         {
-          "es": "aparcar",
+          "es": "señal",
           "kind": "quase",
-          "meaning": "estacionar",
-          "tip": "Aparcar = estacionar. Aparcamiento = estacionamento."
+          "meaning": "sinal / placa",
+          "tip": "Señal = sinal."
         },
         {
           "es": "tráfico",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "trânsito",
-          "tip": "DGT = Dirección General de Tráfico."
+          "tip": "Tráfico = trânsito. Em PT-BR, tráfico é o de drogas/armas (\"narcotráfico\")."
         },
         {
           "es": "volante",

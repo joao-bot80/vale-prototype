@@ -99,9 +99,9 @@
         },
         {
           "es": "festivo",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "feriado",
-          "tip": "Festivo = feriado (\"día festivo\") e também festivo."
+          "tip": "Festivo = feriado. Em PT-BR, festivo é alegre, de festa."
         },
         {
           "es": "rosa",
@@ -117,9 +117,9 @@
         },
         {
           "es": "firma de libros",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "sessão de autógrafos",
-          "tip": "Firma = assinatura."
+          "tip": "Firma = assinatura. Em PT-BR, firma é uma empresa."
         },
         {
           "es": "escritor",

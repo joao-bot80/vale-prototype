@@ -93,9 +93,9 @@
         },
         {
           "es": "jornada",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "carga horária",
-          "tip": "Jornada = jornada de trabalho, carga horária (\"jornada completa\" = tempo integral)."
+          "tip": "Jornada = dia/carga de trabalho. Em PT-BR, jornada é sobretudo uma viagem longa (\"travesía\")."
         },
         {
           "es": "jefe",
@@ -105,27 +105,27 @@
         },
         {
           "es": "sueldo",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "salário",
-          "tip": "Lembra \"soldo\"."
+          "tip": "Sueldo = salário. Em PT-BR, soldo é o pagamento de militar."
         },
         {
-          "es": "paro",
+          "es": "horas extra",
           "kind": "quase",
-          "meaning": "desemprego / seguro-desemprego",
-          "tip": "Paro = desemprego / seguro-desemprego (\"estar en paro\"). Também \"eu paro\", igual."
+          "meaning": "horas extras",
+          "tip": "Horas extra = horas extras."
         },
         {
           "es": "baja",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "licença médica / desligamento",
-          "tip": "Baja = licença médica (\"estar de baja\") e também cancelamento (\"darse de baja\"). Também é \"baixa\" (altura)."
+          "tip": "Baja = licença médica ou desligamento. Em PT-BR, baixa é o feminino de baixo (\"baja\" de altura) ou queda."
         },
         {
           "es": "alta",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "registro / inscrição",
-          "tip": "Alta = registro (\"dar de alta\" o trabalhador) e também alta médica, como em português."
+          "tip": "Alta = inscrição/cadastro. Em PT-BR, alta é a do hospital ou de alto."
         },
         {
           "es": "autónomo",
@@ -135,9 +135,9 @@
         },
         {
           "es": "plantilla",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "equipe / quadro de funcionários",
-          "tip": "Plantilla = equipe / quadro de funcionários. Também palmilha e modelo (template)."
+          "tip": "Plantilla = quadro de funcionários. Em PT-BR, palmilha/plantilha é a do sapato ou um modelo."
         },
         {
           "es": "jornal",

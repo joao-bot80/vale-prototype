@@ -88,9 +88,9 @@
       "cards": [
         {
           "es": "papa",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "batata",
-          "tip": "Nas Canárias (e na América Latina), papa = batata; no resto da Espanha, \"patata\". Também é o papa."
+          "tip": "Papa = batata (Canárias). Em PT-BR, papa é o Papa ou mingau."
         },
         {
           "es": "arrugado",
@@ -129,10 +129,10 @@
           "tip": "No mojo rojo."
         },
         {
-          "es": "guachinche",
-          "kind": "quase",
-          "meaning": "taberna rústica (Tenerife)",
-          "tip": "Vinho e comida caseira."
+          "es": "restaurante",
+          "kind": "igual",
+          "meaning": "restaurante",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "salmuera",
@@ -141,10 +141,10 @@
           "tip": "Agua con sal."
         },
         {
-          "es": "picón",
-          "kind": "quase",
-          "meaning": "picante (mojo)",
-          "tip": "Mojo picón."
+          "es": "vinagre",
+          "kind": "igual",
+          "meaning": "vinagre",
+          "tip": "Mesma palavra, mesmo sentido."
         }
       ]
     },

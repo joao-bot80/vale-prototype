@@ -119,9 +119,9 @@
         },
         {
           "es": "hacer falta",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "ser preciso",
-          "tip": "Hace falta = é preciso (em português \"fazer falta\" também é ser necessário)."
+          "tip": "Hace falta = é preciso. Em PT-BR, fazer falta é sentir a ausência (\"echar de menos\")."
         },
         {
           "es": "disfrutar",
@@ -142,10 +142,10 @@
           "tip": "Igual!"
         },
         {
-          "es": "boceto",
+          "es": "colección",
           "kind": "quase",
-          "meaning": "esboço",
-          "tip": "Primeiro rascunho do desenho."
+          "meaning": "coleção",
+          "tip": "-ción = -ção."
         }
       ]
     },

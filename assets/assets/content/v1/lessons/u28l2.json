@@ -100,9 +100,9 @@
         },
         {
           "es": "anginas",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "amígdalas / amigdalite",
-          "tip": "Anginas = amígdalas / amigdalite (no Brasil também se diz \"angina\" para dor de garganta). Angina de peito também existe."
+          "tip": "Anginas = amígdalas. Em PT-BR, angina é dor no peito (coração)."
         },
         {
           "es": "pediatra",
@@ -130,9 +130,9 @@
         },
         {
           "es": "cartilla de vacunación",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "carteira de vacinação",
-          "tip": "Leve à consulta."
+          "tip": "Cartilla = caderneta. Em PT-BR, cartilha é o livrinho de alfabetização."
         },
         {
           "es": "piojos",

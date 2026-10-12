@@ -129,10 +129,10 @@
           "tip": "Lista dos móveis."
         },
         {
-          "es": "desperfecto",
+          "es": "propietario",
           "kind": "quase",
-          "meaning": "dano / estrago",
-          "tip": "Desperfecto = dano / estrago (algo que ficou imperfeito)."
+          "meaning": "proprietário",
+          "tip": "Propietario = proprietário."
         },
         {
           "es": "rescindir",

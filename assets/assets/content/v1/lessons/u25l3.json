@@ -92,10 +92,10 @@
           "tip": "Barbero = barbeiro."
         },
         {
-          "es": "puerro",
+          "es": "alcachofa",
           "kind": "quase",
-          "meaning": "alho-poró",
-          "tip": "Parecido com o calçot."
+          "meaning": "alcachofra",
+          "tip": "Alcachofa = alcachofra."
         },
         {
           "es": "parrilla",
@@ -116,16 +116,16 @@
           "tip": "Almendrado."
         },
         {
-          "es": "ñora",
+          "es": "carbón",
           "kind": "quase",
-          "meaning": "pimentão seco",
-          "tip": "Tipo de pimentão."
+          "meaning": "carvão",
+          "tip": "Carbón = carvão."
         },
         {
-          "es": "pringoso",
-          "kind": "quase",
-          "meaning": "melado / grudento",
-          "tip": "Las manos pringosas."
+          "es": "comida",
+          "kind": "igual",
+          "meaning": "comida",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "bollo",
@@ -134,10 +134,10 @@
           "tip": "Bollo = pãozinho doce (bollería = doces de padaria). Bolo é \"tarta\" ou \"bizcocho\"."
         },
         {
-          "es": "barbacoa",
+          "es": "salchicha",
           "kind": "quase",
-          "meaning": "churrasqueira / churrasco",
-          "tip": "Hacer una barbacoa."
+          "meaning": "salsicha",
+          "tip": "Salchicha = salsicha."
         },
         {
           "es": "divertido",

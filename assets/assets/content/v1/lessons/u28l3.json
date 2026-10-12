@@ -86,9 +86,9 @@
       "cards": [
         {
           "es": "tutora",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "professora responsável pela turma",
-          "tip": "Tutora = professora responsável pela turma, e também tutora legal."
+          "tip": "Tutora = professora da turma. Em PT-BR, tutora é a guardiã legal (ou de pet)."
         },
         {
           "es": "apoyo",
@@ -103,10 +103,10 @@
           "tip": "Actividades extraescolares."
         },
         {
-          "es": "AMPA",
+          "es": "reunión de padres",
           "kind": "quase",
-          "meaning": "associação de pais",
-          "tip": "Asociación de Madres y Padres."
+          "meaning": "reunião de pais",
+          "tip": "Reunión = reunião, padres = pais."
         },
         {
           "es": "apuntarse",
@@ -128,9 +128,9 @@
         },
         {
           "es": "deberes",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "lição de casa",
-          "tip": "Deberes = lição de casa, e também deveres."
+          "tip": "Deberes = lição de casa. Em PT-BR, deveres são obrigações."
         },
         {
           "es": "recreo",

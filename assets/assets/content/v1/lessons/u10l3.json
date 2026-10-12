@@ -92,10 +92,10 @@
           "tip": "Não é \"ajuntamento\"!"
         },
         {
-          "es": "empadronar",
-          "kind": "quase",
-          "meaning": "registrar no padrón",
-          "tip": "Vem de \"padrón\"."
+          "es": "registro",
+          "kind": "igual",
+          "meaning": "registro",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "mudarse",
@@ -105,9 +105,9 @@
         },
         {
           "es": "padrón",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "registro municipal",
-          "tip": "Lembra \"padrão\"."
+          "tip": "Padrón = cadastro de moradores. Em PT-BR, padrão é norma/modelo (\"estándar\")."
         },
         {
           "es": "hoja",

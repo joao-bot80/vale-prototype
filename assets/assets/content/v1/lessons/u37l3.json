@@ -86,22 +86,22 @@
       "passMark": 6,
       "cards": [
         {
-          "es": "guagua",
-          "kind": "quase",
-          "meaning": "ônibus (Canárias)",
-          "tip": "No padrão: autobús."
+          "es": "turista",
+          "kind": "igual",
+          "meaning": "turista",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "casco histórico",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "centro histórico",
-          "tip": "Casco de La Laguna."
+          "tip": "Casco (urbano) = centro. Em PT-BR, casco é a pata do cavalo ou o do navio."
         },
         {
           "es": "tarjeta de transporte",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "cartão de transporte",
-          "tip": "Recargar la tarjeta."
+          "tip": "Tarjeta = cartão. Em PT-BR, tarja é uma faixa/listra."
         },
         {
           "es": "bono",
@@ -117,15 +117,15 @@
         },
         {
           "es": "plano",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "mapa da cidade",
-          "tip": "Plano = mapa da cidade, e também plano (superfície). Plano (ideia) é \"plan\"."
+          "tip": "Plano = mapa da cidade. Em PT-BR, plano é um projeto, intenção."
         },
         {
           "es": "balcón de madera",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "sacada de madeira",
-          "tip": "Típico canário."
+          "tip": "Balcón = sacada. Em PT-BR, balcão é o da loja (\"mostrador\")."
         },
         {
           "es": "casona",

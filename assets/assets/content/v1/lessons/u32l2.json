@@ -111,9 +111,9 @@
         },
         {
           "es": "bodeguero",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "produtor de vinho",
-          "tip": "Dono da adega."
+          "tip": "Bodeguero = produtor de vinho. Em PT-BR, bodegueiro é dono de boteco."
         },
         {
           "es": "viñedo",
@@ -135,9 +135,9 @@
         },
         {
           "es": "carné de conducir",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "carteira de motorista",
-          "tip": "Carné = carteira."
+          "tip": "Carné = documento. Em PT-BR, carnê é o bloco de boletos de prestação."
         },
         {
           "es": "brindar con agua",

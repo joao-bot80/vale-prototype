@@ -86,21 +86,21 @@
       "cards": [
         {
           "es": "permanencia",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "fidelidade (contrato)",
-          "tip": "Permanencia = fidelidade de contrato (\"sin permanencia\"), e também permanência."
+          "tip": "Permanencia = fidelidade de contrato. Em PT-BR, permanência é ficar num lugar."
         },
         {
           "es": "darse de baja",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "cancelar",
-          "tip": "Darse de baja = cancelar (dar baixa). Darse de alta = contratar."
+          "tip": "Darse de baja = cancelar. Em PT-BR, dar baixa soa como queda ou registro de saída de estoque."
         },
         {
           "es": "darse de alta",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "cadastrar-se / contratar",
-          "tip": "Darse de alta = cadastrar-se / contratar. Darse de baja = cancelar (dar baixa)."
+          "tip": "Darse de alta = contratar/cadastrar. Em PT-BR, dar alta é liberar do hospital."
         },
         {
           "es": "penalización",
@@ -116,9 +116,9 @@
         },
         {
           "es": "tarjeta SIM",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "chip",
-          "tip": "Tarjeta SIM o eSIM."
+          "tip": "Tarjeta = cartão. Em PT-BR, tarja é uma faixa/listra."
         },
         {
           "es": "cobertura",

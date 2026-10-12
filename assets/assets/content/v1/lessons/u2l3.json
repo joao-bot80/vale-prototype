@@ -112,9 +112,9 @@
         },
         {
           "es": "cambio",
-          "kind": "quase",
-          "meaning": "troco / mudança",
-          "tip": "\"Quédate con el cambio\" = fica com o troco."
+          "kind": "armadilha",
+          "meaning": "troco / câmbio / mudança",
+          "tip": "Cambio = troco ou mudança. Em PT-BR, câmbio é a troca de moeda ou a marcha do carro."
         },
         {
           "es": "tarjeta",
@@ -130,21 +130,21 @@
         },
         {
           "es": "suelto",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "trocado (moedas)",
-          "tip": "Suelto = solto, igual. Mas \"dinero suelto\" = trocado. Solteiro é \"soltero\"."
+          "tip": "Suelto = trocado. Em PT-BR, solto é \"suelto\" no sentido de livre, desamarrado — nada a ver com moedas."
         },
         {
           "es": "efectivo",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "dinheiro vivo",
-          "tip": "Efectivo = efetivo, igual. Mas \"en efectivo\" = em dinheiro vivo."
+          "tip": "Efectivo = dinheiro vivo. Em PT-BR, efetivo é funcionário permanente ou algo eficaz."
         },
         {
-          "es": "invitar",
+          "es": "precio",
           "kind": "quase",
-          "meaning": "convidar e pagar",
-          "tip": "Invitar = convidar. No bar, \"te invito\" = eu pago pra você."
+          "meaning": "preço",
+          "tip": "Só muda a grafia: precio = preço."
         }
       ]
     },

@@ -85,10 +85,10 @@
       "passMark": 6,
       "cards": [
         {
-          "es": "tumbarse",
+          "es": "toalla de playa",
           "kind": "quase",
-          "meaning": "deitar-se",
-          "tip": "Tumbona vem daí."
+          "meaning": "toalha de praia",
+          "tip": "Toalla = toalha, playa = praia."
         },
         {
           "es": "crema solar",
@@ -98,9 +98,9 @@
         },
         {
           "es": "palas",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "frescobol",
-          "tip": "Palas = raquetes de praia (frescobol), como pás."
+          "tip": "Palas = raquetes de frescobol. Em PT-BR, pás são as de cavar."
         },
         {
           "es": "paseo marítimo",
@@ -115,10 +115,10 @@
           "tip": "Me he quemado."
         },
         {
-          "es": "sombrero",
+          "es": "bronceador",
           "kind": "quase",
-          "meaning": "chapéu",
-          "tip": "Sombrero = chapéu (qualquer chapéu). Sombra é \"sombra\"."
+          "meaning": "bronzeador",
+          "tip": "Bronceador = bronzeador."
         },
         {
           "es": "bandera azul",
@@ -127,10 +127,10 @@
           "tip": "Selo de qualidade da praia."
         },
         {
-          "es": "chiringo",
+          "es": "surf",
           "kind": "quase",
-          "meaning": "barraca de praia (gíria)",
-          "tip": "De chiringuito."
+          "meaning": "surfe",
+          "tip": "Surf = surfe."
         },
         {
           "es": "aftersun",

@@ -86,58 +86,58 @@
       "passMark": 6,
       "cards": [
         {
-          "es": "viernes",
+          "es": "fiesta",
           "kind": "quase",
-          "meaning": "sexta-feira",
-          "tip": "Na Espanha os dias têm nome: lunes, martes..."
+          "meaning": "festa",
+          "tip": "Fiesta = festa."
         },
         {
-          "es": "lunes",
+          "es": "noche",
           "kind": "quase",
-          "meaning": "segunda-feira",
-          "tip": "De \"luna\"."
+          "meaning": "noite",
+          "tip": "Noche = noite."
         },
         {
-          "es": "finde",
-          "kind": "quase",
-          "meaning": "fim de semana",
-          "tip": "Gíria de \"fin de semana\"."
+          "es": "discoteca",
+          "kind": "armadilha",
+          "meaning": "balada",
+          "tip": "Discoteca = balada. Em PT-BR, discoteca é a coleção de discos."
         },
         {
           "es": "madrugar",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "acordar muito cedo",
-          "tip": "Madrugada = de madrugada."
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "luego",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "depois",
-          "tip": "Luego = depois / mais tarde, não \"logo\" (imediatamente). \"Pienso, luego existo\" = logo, igual."
+          "tip": "Luego = depois. Em PT-BR, logo é \"pronto\" (já, em breve) ou \"portanto\"."
         },
         {
-          "es": "cumpleaños",
-          "kind": "quase",
-          "meaning": "aniversário",
-          "tip": "Aniversário de casamento = \"aniversario\"."
+          "es": "regalo",
+          "kind": "armadilha",
+          "meaning": "presente",
+          "tip": "Regalo = presente. Em PT-BR, regalo é mordomia, conforto (\"lujo\")."
         },
         {
-          "es": "botellón",
-          "kind": "quase",
-          "meaning": "bebedeira na rua",
-          "tip": "Beber em grupo na rua; proibido em muitos lugares."
+          "es": "amigo",
+          "kind": "igual",
+          "meaning": "amigo",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "tío",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "cara / mano",
-          "tip": "Tío = tio, igual, e entre amigos é \"cara\", \"mano\"."
+          "tip": "Tío (gíria) = cara, mano. Em PT-BR, tio é só o irmão do pai/mãe."
         },
         {
-          "es": "guay",
-          "kind": "quase",
-          "meaning": "legal / massa",
-          "tip": "Gíria da Espanha."
+          "es": "genial",
+          "kind": "igual",
+          "meaning": "genial",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "cena",

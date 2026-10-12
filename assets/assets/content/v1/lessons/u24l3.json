@@ -107,9 +107,9 @@
         },
         {
           "es": "fatal",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "péssimo",
-          "tip": "Fatal = péssimo (\"me viene fatal\"), e também fatal, igual."
+          "tip": "Fatal = péssimo. Em PT-BR, fatal é mortal."
         },
         {
           "es": "imposible",

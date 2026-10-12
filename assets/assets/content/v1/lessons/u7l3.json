@@ -113,16 +113,16 @@
           "tip": "Não é \"olá\"! Olá = \"hola\"."
         },
         {
-          "es": "chanclas",
+          "es": "bronceado",
           "kind": "quase",
-          "meaning": "chinelos",
-          "tip": "Para a areia quente!"
+          "meaning": "bronzeado",
+          "tip": "Bronceado = bronzeado."
         },
         {
           "es": "sombrilla",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "guarda-sol",
-          "tip": "Lembra \"sombra\"."
+          "tip": "Sombrilla = guarda-sol. Em PT-BR, sombrinha é o guarda-chuva pequeno (\"paraguas\")."
         },
         {
           "es": "mar",
@@ -143,10 +143,10 @@
           "tip": "Quase igual."
         },
         {
-          "es": "bañador",
+          "es": "verano",
           "kind": "quase",
-          "meaning": "maiô / sunga",
-          "tip": "De \"bañarse\"."
+          "meaning": "verão",
+          "tip": "Verano = verão."
         }
       ]
     },

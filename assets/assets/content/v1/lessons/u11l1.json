@@ -89,9 +89,9 @@
       "cards": [
         {
           "es": "hipoteca",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "financiamento imobiliário",
-          "tip": "Hipoteca = empréstimo para comprar casa."
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "sucursal",
@@ -100,10 +100,10 @@
           "tip": "Sucursal = agência/filial."
         },
         {
-          "es": "ahorro",
-          "kind": "quase",
-          "meaning": "poupança",
-          "tip": "Cuenta de ahorro = poupança."
+          "es": "interés",
+          "kind": "armadilha",
+          "meaning": "juros",
+          "tip": "Interés = juros (do banco). Em PT-BR, interesse é curiosidade/vontade."
         },
         {
           "es": "préstamo",
@@ -113,9 +113,9 @@
         },
         {
           "es": "cajero",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "caixa eletrônico",
-          "tip": "Cajero = caixa eletrônico e também o caixa (pessoa), como \"caixeiro\"."
+          "tip": "Cajero = caixa eletrônico (ou o caixa). Em PT-BR, caixeiro é balconista antigo / caixeiro-viajante."
         },
         {
           "es": "comisión",

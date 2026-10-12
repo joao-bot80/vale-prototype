@@ -96,9 +96,9 @@
         },
         {
           "es": "carril",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "faixa / pista",
-          "tip": "Carril = faixa / pista (\"carril bici\" = ciclovia) e também trilho, como em português."
+          "tip": "Carril = faixa (bici, ônibus). Em PT-BR, carril é o trilho do trem (\"vía\")."
         },
         {
           "es": "río",
@@ -120,9 +120,9 @@
         },
         {
           "es": "casco",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "capacete",
-          "tip": "Casco = capacete. Também casco de navio e de cavalo, igual. \"Casco antiguo\" = centro histórico."
+          "tip": "Casco = capacete. Em PT-BR, casco é a pata do cavalo ou o do navio."
         },
         {
           "es": "rueda",
@@ -132,9 +132,9 @@
         },
         {
           "es": "timbre",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "campainha",
-          "tip": "Timbre = campainha. Timbre de voz e selo fiscal são iguais ao português."
+          "tip": "Timbre = campainha. Em PT-BR, timbre é a cor da voz ou o carimbo oficial."
         },
         {
           "es": "frenar",

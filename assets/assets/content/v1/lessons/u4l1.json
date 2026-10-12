@@ -125,21 +125,21 @@
         },
         {
           "es": "piso",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "apartamento / andar",
-          "tip": "Piso = apartamento e andar (como em português). O chão é \"suelo\"."
+          "tip": "Piso = apartamento. Em PT-BR, piso é o chão (\"suelo\")."
         },
         {
           "es": "ático",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "cobertura (último andar)",
-          "tip": "Ático = cobertura (último andar). Sótão é \"buhardilla\"."
+          "tip": "Ático = cobertura. Em PT-BR, ático é o sótão (\"desván\")."
         },
         {
           "es": "despacho",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "escritório (sala)",
-          "tip": "Despacho = escritório (sala). Também envio/despacho."
+          "tip": "Despacho = sala de escritório. Em PT-BR, despacho é envio ou oferenda (\"envío\")."
         },
         {
           "es": "sótano",

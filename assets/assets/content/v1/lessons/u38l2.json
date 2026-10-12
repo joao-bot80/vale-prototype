@@ -86,16 +86,16 @@
       "passMark": 6,
       "cards": [
         {
-          "es": "vosotros",
+          "es": "dialecto",
           "kind": "quase",
-          "meaning": "vocês (Península)",
-          "tip": "Nas ilhas, outra forma."
+          "meaning": "dialeto",
+          "tip": "Dialecto = dialeto."
         },
         {
-          "es": "seseo",
+          "es": "variedad",
           "kind": "quase",
-          "meaning": "pronúncia de z como s",
-          "tip": "Rasgo canário."
+          "meaning": "variedade",
+          "tip": "-dad = -dade."
         },
         {
           "es": "pronunciar",
@@ -117,9 +117,9 @@
         },
         {
           "es": "dejo",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "sotaque leve / entonação",
-          "tip": "Dejo = sotaque leve / entonação, e também \"eu deixo\"."
+          "tip": "Dejo = sotaque leve. Soa como \"deixo\" (de deixar)."
         },
         {
           "es": "isleño",

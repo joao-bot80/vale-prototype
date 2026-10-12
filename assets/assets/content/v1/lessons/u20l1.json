@@ -89,9 +89,9 @@
       "cards": [
         {
           "es": "ronda",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "rodada",
-          "tip": "Ronda = rodada (\"pago yo esta ronda\"), e também ronda, igual."
+          "tip": "Ronda = rodada (de bebida). Em PT-BR, ronda é a patrulha do vigia."
         },
         {
           "es": "tinto de verano",
@@ -119,15 +119,15 @@
         },
         {
           "es": "tocar",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "ser a vez",
-          "tip": "Tocar = tocar, igual, e \"me toca a mí\" = é minha vez."
+          "tip": "Te toca = é a sua vez. Em PT-BR, tocar é encostar ou tocar música."
         },
         {
           "es": "barra",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "balcão",
-          "tip": "Barra = balcão do bar (\"en la barra\"), e também barra."
+          "tip": "Barra = balcão do bar. Em PT-BR, barra é a peça de metal / barra de chocolate."
         },
         {
           "es": "taberna",
@@ -136,10 +136,10 @@
           "tip": "Igual!"
         },
         {
-          "es": "remolacha",
+          "es": "patatas bravas",
           "kind": "quase",
-          "meaning": "beterraba",
-          "tip": "Não é remolha!"
+          "meaning": "batatas bravas",
+          "tip": "Patata = batata."
         },
         {
           "es": "estofado",

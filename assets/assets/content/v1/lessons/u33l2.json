@@ -87,9 +87,9 @@
       "cards": [
         {
           "es": "cristal",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "vidro",
-          "tip": "Cristal = vidro (\"ventana de cristal\"), e também cristal."
+          "tip": "Cristal = vidro comum. Em PT-BR, cristal é vidro fino e caro."
         },
         {
           "es": "galería",
@@ -105,9 +105,9 @@
         },
         {
           "es": "abrigo",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "casaco",
-          "tip": "Abrigo = casaco, e também abrigo (refúgio), como em português."
+          "tip": "Abrigo = casaco. Em PT-BR, abrigo é refúgio (\"refugio\")."
         },
         {
           "es": "abrigarse",

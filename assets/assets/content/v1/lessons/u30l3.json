@@ -86,10 +86,10 @@
       "passMark": 6,
       "cards": [
         {
-          "es": "vacaciones",
+          "es": "aeropuerto",
           "kind": "quase",
-          "meaning": "férias",
-          "tip": "Sempre no plural."
+          "meaning": "aeroporto",
+          "tip": "Aeropuerto = aeroporto."
         },
         {
           "es": "despedirse",
@@ -111,9 +111,9 @@
         },
         {
           "es": "volver",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "voltar",
-          "tip": "Volver = voltar (\"volver a\" = fazer de novo), e também virar."
+          "tip": "Volver = voltar. Em PT-BR, volver é virar (olhar, rosto)."
         },
         {
           "es": "seguir",

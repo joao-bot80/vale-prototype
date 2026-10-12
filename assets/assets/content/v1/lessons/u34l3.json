@@ -118,9 +118,9 @@
         },
         {
           "es": "subtítulos",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "legendas",
-          "tip": "V.O.S. = original com legendas."
+          "tip": "Subtítulos = legendas. Em PT-BR, subtítulo é a linha abaixo do título."
         },
         {
           "es": "versión original",
@@ -141,10 +141,10 @@
           "tip": "Não é butique!"
         },
         {
-          "es": "taquillazo",
+          "es": "cámara",
           "kind": "quase",
-          "meaning": "sucesso de bilheteria",
-          "tip": "De taquilla."
+          "meaning": "câmera",
+          "tip": "Cámara = câmera."
         }
       ]
     },

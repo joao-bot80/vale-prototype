@@ -118,9 +118,9 @@
         },
         {
           "es": "diseñar",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "projetar / desenhar",
-          "tip": "Diseño."
+          "tip": "Diseñar = projetar, fazer o design. Em PT-BR, desenhar é \"dibujar\"."
         },
         {
           "es": "rascacielos",
@@ -129,16 +129,16 @@
           "tip": "Manrique no los quería."
         },
         {
-          "es": "jameo",
-          "kind": "quase",
-          "meaning": "gruta vulcânica aberta",
-          "tip": "Jameos del Agua."
+          "es": "cueva",
+          "kind": "armadilha",
+          "meaning": "caverna / gruta",
+          "tip": "Cueva = caverna. Em PT-BR, cova é a sepultura (\"tumba\")."
         },
         {
-          "es": "malpaís",
+          "es": "naturaleza",
           "kind": "quase",
-          "meaning": "terreno de lava",
-          "tip": "Paisaje volcánico."
+          "meaning": "natureza",
+          "tip": "Naturaleza = natureza."
         },
         {
           "es": "hoyo",

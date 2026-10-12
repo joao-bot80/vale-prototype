@@ -101,10 +101,10 @@
           "tip": "Reina del carnaval."
         },
         {
-          "es": "murga",
-          "kind": "quase",
-          "meaning": "grupo satírico de carnaval",
-          "tip": "Cantam críticas com humor."
+          "es": "carnaval",
+          "kind": "igual",
+          "meaning": "carnaval",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "serpentina",
@@ -114,9 +114,9 @@
         },
         {
           "es": "cabalgata",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "desfile",
-          "tip": "Coso também."
+          "tip": "Cabalgata = desfile de carros. Em PT-BR, cavalgada é passeio a cavalo."
         },
         {
           "es": "pirata",
@@ -138,9 +138,9 @@
         },
         {
           "es": "careta",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "máscara",
-          "tip": "Careta = máscara (como careta de carnaval). Careta (cara feia) é \"mueca\"."
+          "tip": "Careta = máscara. Em PT-BR, careta é a cara feia (\"mueca\")."
         },
         {
           "es": "atestado",

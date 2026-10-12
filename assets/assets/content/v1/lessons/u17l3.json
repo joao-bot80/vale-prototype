@@ -94,9 +94,9 @@
         },
         {
           "es": "Cortes Generales",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "Parlamento",
-          "tip": "Congreso + Senado."
+          "tip": "Cortes Generales = Parlamento. Em PT-BR, cortes são cortes de tesoura/orçamento."
         },
         {
           "es": "comunidad autónoma",

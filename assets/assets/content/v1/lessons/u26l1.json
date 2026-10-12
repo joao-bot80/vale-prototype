@@ -100,10 +100,10 @@
           "tip": "Com i."
         },
         {
-          "es": "chiringuito",
-          "kind": "quase",
-          "meaning": "barraca de praia",
-          "tip": "Bar na areia."
+          "es": "sal",
+          "kind": "igual",
+          "meaning": "sal",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "boquerón",
@@ -112,16 +112,16 @@
           "tip": "Não é bocão!"
         },
         {
-          "es": "botellín",
-          "kind": "quase",
-          "meaning": "cervejinha (garrafa pequena)",
-          "tip": "Un botellín."
+          "es": "fritura",
+          "kind": "igual",
+          "meaning": "fritura",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "salitre",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "maresia",
-          "tip": "Olor a salitre."
+          "tip": "Salitre = maresia. Em PT-BR, salitre é o nitrato (adubo, pólvora)."
         },
         {
           "es": "espina",
@@ -142,10 +142,10 @@
           "tip": "Pasear por la orilla."
         },
         {
-          "es": "moraga",
+          "es": "luna",
           "kind": "quase",
-          "meaning": "peixada na praia",
-          "tip": "Típica de Málaga à noite."
+          "meaning": "lua",
+          "tip": "Luna = lua."
         }
       ]
     },

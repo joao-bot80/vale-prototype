@@ -94,21 +94,21 @@
         },
         {
           "es": "firmar",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "assinar",
-          "tip": "Firmar = assinar (como \"firmar um contrato\") e também firmar."
+          "tip": "Firmar = assinar. Em PT-BR, firmar é fixar, estabilizar (\"afianzar\")."
         },
         {
           "es": "indefinido",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "por tempo indeterminado",
-          "tip": "Contrato indefinido = por tempo indeterminado. Indefinido (vago) é igual."
+          "tip": "Contrato indefinido = efetivo. Em PT-BR, indefinido é vago, não decidido."
         },
         {
           "es": "temporal",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "temporário",
-          "tip": "Temporal = temporário, e também temporal (tempestade), igual ao português."
+          "tip": "Temporal = temporário. Em PT-BR, temporal é tempestade (\"tormenta\")."
         },
         {
           "es": "prorratear",
@@ -129,22 +129,22 @@
           "tip": "Não é despido (sem roupa)!"
         },
         {
-          "es": "finiquito",
+          "es": "indemnización",
           "kind": "quase",
-          "meaning": "acerto de contas",
-          "tip": "Quando o contrato termina."
+          "meaning": "indenização",
+          "tip": "-ción = -ção."
         },
         {
           "es": "convenio",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "convenção coletiva",
-          "tip": "Convenio = convênio / convenção coletiva do setor."
+          "tip": "Convenio = convenção coletiva. Em PT-BR, convênio é o plano de saúde."
         },
         {
           "es": "baja voluntaria",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "pedido de demissão",
-          "tip": "Darse de baja = sair."
+          "tip": "Baja voluntaria = pedir demissão. Em PT-BR, baixa voluntária soa como queda espontânea."
         }
       ]
     },

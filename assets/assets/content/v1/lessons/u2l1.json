@@ -114,15 +114,15 @@
         },
         {
           "es": "copa",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "taça / drinque",
-          "tip": "Copa = taça de vinho / drinque (\"ir de copas\"). Copa de árvore e Copa do Mundo são iguais."
+          "tip": "Copa = taça ou drinque. Em PT-BR, copa é o cômodo junto à cozinha ou a Copa do Mundo."
         },
         {
           "es": "garrafa",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "garrafão",
-          "tip": "Garrafa = garrafão (de água, de gás). A garrafa comum é \"botella\"."
+          "tip": "Garrafa = garrafão grande. Em PT-BR, garrafa é \"botella\"."
         },
         {
           "es": "pastel",

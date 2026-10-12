@@ -108,9 +108,9 @@
         },
         {
           "es": "mango",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "manga (fruta)",
-          "tip": "Masculino: el mango."
+          "tip": "Mango = manga. Em PT-BR, mango é gíria para dinheiro (e cabo de ferramenta)."
         },
         {
           "es": "melón",
@@ -132,15 +132,15 @@
         },
         {
           "es": "plátano",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "banana",
-          "tip": "Na Espanha, plátano = banana (também se diz \"banana\"). Plátano também é a árvore plátano, igual."
+          "tip": "Plátano = banana. Em PT-BR, plátano é uma árvore de praça."
         },
         {
           "es": "piña",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "abacaxi",
-          "tip": "Piña = abacaxi, e também pinha (do pinheiro), como em português."
+          "tip": "Piña = abacaxi. Em PT-BR, pinha é a fruta-do-conde ou a do pinheiro."
         },
         {
           "es": "seta",

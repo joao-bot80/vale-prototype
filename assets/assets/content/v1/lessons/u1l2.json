@@ -115,9 +115,9 @@
         },
         {
           "es": "cola",
-          "kind": "quase",
+          "kind": "armadilha",
           "meaning": "fila",
-          "tip": "Aqui \"hacer cola\" = fazer fila. \"Cola\" também é cola de colar (e rabo), como em português."
+          "tip": "Cola = fila. Em PT-BR, cola é a de colar (\"pegamento\")."
         },
         {
           "es": "salida",
@@ -133,9 +133,9 @@
         },
         {
           "es": "billete",
-          "kind": "quase",
-          "meaning": "bilhete / passagem",
-          "tip": "Serve para passagem e para cédula de dinheiro."
+          "kind": "armadilha",
+          "meaning": "passagem / bilhete de viagem",
+          "tip": "Billete = passagem (e cédula). Em PT-BR, bilhete é sobretudo um recadinho escrito (\"nota\")."
         },
         {
           "es": "acordarse",

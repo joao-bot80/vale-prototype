@@ -143,9 +143,9 @@
         },
         {
           "es": "barata",
-          "kind": "quase",
-          "meaning": "barata (= de preço baixo)",
-          "tip": "Barata = de preço baixo, igual. O inseto barata é \"cucaracha\"."
+          "kind": "armadilha",
+          "meaning": "de preço baixo",
+          "tip": "Barata = barata de preço. Em PT-BR, barata é o inseto (\"cucaracha\")!"
         }
       ]
     },
