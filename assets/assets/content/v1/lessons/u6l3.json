@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "id": "u6l3",
+  "title": "O sotaque andaluz",
+  "scenario": "Sevilla · charla en una terraza",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 18: Que sotaque é esse?",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Dani, no entiendo bien al camarero. ¡Habla muy rápido!",
+          "pt": "Dani, não entendo bem o garçom. Ele fala muito rápido!"
+        },
+        {
+          "speaker": "Dani",
+          "es": "Es el acento andaluz. Muchas veces no pronuncian la ese final.",
+          "pt": "É o sotaque andaluz. Muitas vezes não pronunciam o s final."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Por eso dice \"pescaíto\" y no \"pescadito\"?",
+          "pt": "Por isso ele diz \"pescaíto\" e não \"pescadito\"?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "Exacto. Y muchos dicen \"sapato\" en vez de \"zapato\".",
+          "pt": "Exato. E muitos dizem \"sapato\" em vez de \"zapato\"."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Como en portugués! Me gusta este acento.",
+          "pt": "Como no português! Gosto desse sotaque."
+        },
+        {
+          "speaker": "Dani",
+          "es": "Tú habla normal, que te entienden perfectamente.",
+          "pt": "Fala normal, que te entendem perfeitamente."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que é o \"seseo\"?",
+      "options": [
+        "Pronunciar \"z\" e \"ce/ci\" como \"s\"",
+        "Não pronunciar nenhum \"s\"",
+        "Falar muito baixo"
+      ],
+      "correct": 0,
+      "explanation": "Seseo: \"zapato\" soa \"sapato\". É comum em partes da Andaluzia, nas Canárias e na América Latina."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Não entendo bem o garçom.",
+      "answer": [
+        "No",
+        "entiendo",
+        "bien",
+        "al",
+        "camarero."
+      ],
+      "distractors": [
+        "entendo",
+        "garçom"
+      ],
+      "explanation": "Pessoa como objeto leva \"a\": \"al camarero\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Muchas veces no pronuncian la ese final.",
+      "options": [
+        "Muitas vezes não pronunciam o s final.",
+        "Nunca falam devagar.",
+        "Sempre pronunciam todas as letras."
+      ],
+      "correct": 0,
+      "explanation": "\"La ese\" = a letra s."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "rápido",
+          "kind": "quase",
+          "meaning": "rápido",
+          "tip": "Igual, só o acento muda de lugar na fala."
+        },
+        {
+          "es": "acento",
+          "kind": "quase",
+          "meaning": "sotaque",
+          "tip": "Também é o acento gráfico."
+        },
+        {
+          "es": "entender",
+          "kind": "igual",
+          "meaning": "entender",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "hablar",
+          "kind": "quase",
+          "meaning": "falar",
+          "tip": "\"H\" no lugar de \"f\": hablar, hacer, hijo."
+        },
+        {
+          "es": "charla",
+          "kind": "quase",
+          "meaning": "bate-papo",
+          "tip": "De \"charlar\" = conversar."
+        },
+        {
+          "es": "despacio",
+          "kind": "armadilha",
+          "meaning": "devagar",
+          "tip": "Não é \"espaço\"! Espaço = \"espacio\"."
+        },
+        {
+          "es": "enfadado",
+          "kind": "armadilha",
+          "meaning": "zangado",
+          "tip": "Enfadado = bravo, irritado."
+        },
+        {
+          "es": "jubilado",
+          "kind": "armadilha",
+          "meaning": "aposentado",
+          "tip": "Não tem nada a ver com júbilo."
+        },
+        {
+          "es": "zurdo",
+          "kind": "quase",
+          "meaning": "canhoto",
+          "tip": "Destro = \"diestro\"."
+        },
+        {
+          "es": "rubio",
+          "kind": "armadilha",
+          "meaning": "loiro",
+          "tip": "Ruivo = \"pelirrojo\"."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Para pedir que alguém fale mais devagar:",
+      "options": [
+        "¿Puedes hablar más despacio?",
+        "¿Puedes hablar más espacio?",
+        "¿Puedes hablar más largo?"
+      ],
+      "correct": 0,
+      "explanation": "\"Despacio\" = devagar. Frase de ouro para o sul!"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Você pode falar mais devagar, por favor?",
+      "answer": [
+        "¿Puedes",
+        "hablar",
+        "más",
+        "despacio,",
+        "por",
+        "favor?"
+      ],
+      "distractors": [
+        "espacio",
+        "falar"
+      ],
+      "explanation": "Use sem medo: os andaluzes são muito simpáticos."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Y muchos dicen sapato en vez de zapato.",
+      "options": [
+        "E muitos dizem \"sapato\" em vez de \"zapato\".",
+        "E ninguém diz \"zapato\".",
+        "E muitos compram sapatos aqui."
+      ],
+      "correct": 0,
+      "explanation": "Isso é o seseo. No espanhol padrão, \"z\" soa como o \"th\" do inglês."
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que é o \"ceceo\"?",
+      "options": [
+        "Pronunciar o \"s\" como o \"th\" inglês",
+        "Pronunciar o \"z\" como \"s\"",
+        "Engolir o \"d\" final"
+      ],
+      "correct": 0,
+      "explanation": "Ceceo: \"sí\" soa parecido com \"thí\". Existe em algumas zonas da Andaluzia. É só para reconhecer, não para imitar."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "La comida está exquisita.",
+          "options": [
+            "A comida está deliciosa.",
+            "A comida está esquisita."
+          ],
+          "correct": 0,
+          "joke": "Exquisito = delicioso!"
+        },
+        {
+          "spanish": "Habla más despacio, por favor.",
+          "options": [
+            "Fale mais devagar, por favor.",
+            "Fale com mais espaço, por favor."
+          ],
+          "correct": 0,
+          "joke": "Despacio = devagar."
+        },
+        {
+          "spanish": "¡Hasta pronto!",
+          "options": [
+            "Até logo!",
+            "Estou pronto!"
+          ],
+          "correct": 0,
+          "joke": "Pronto = logo."
+        },
+        {
+          "spanish": "Trabajo en una oficina.",
+          "options": [
+            "Trabalho num escritório.",
+            "Trabalho numa oficina mecânica."
+          ],
+          "correct": 0,
+          "joke": "Oficina = escritório."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Andalucía",
+      "items": [
+        {
+          "emoji": "👂",
+          "title": "Ouvir o sotaque",
+          "es": "¿Cómo estás?",
+          "pt": "Muitos andaluzes aspiram ou engolem o s no fim da sílaba: \"¿cómo estás?\" pode soar \"¿cómo ehtáh?\". E o \"d\" entre vogais some: \"pescaíto\", \"cansao\". Aqui é só para reconhecer; no app ensinamos o castelhano padrão."
+        },
+        {
+          "emoji": "🙂",
+          "title": "\"Quillo\"",
+          "es": "¡Quillo, qué calor!",
+          "pt": "Em Sevilla e arredores se ouve muito \"quillo\" (de \"chiquillo\"), um jeito informal de chamar um amigo, tipo \"mano\" ou \"cara\"."
+        }
+      ]
+    }
+  ]
+}

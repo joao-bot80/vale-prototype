@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "u7l2",
+  "title": "Na Alhambra",
+  "scenario": "Granada · entrada de la Alhambra",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 20: Granada",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Hola, ¿quedan entradas para hoy?",
+          "pt": "Oi, ainda tem ingresso para hoje?"
+        },
+        {
+          "speaker": "Taquillera",
+          "es": "Lo siento, para hoy están agotadas.",
+          "pt": "Sinto muito, para hoje estão esgotados."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Vaya! ¿Y para mañana por la mañana?",
+          "pt": "Poxa! E para amanhã de manhã?"
+        },
+        {
+          "speaker": "Taquillera",
+          "es": "Sí, quedan para las diez. Los Palacios Nazaríes tienen hora fija.",
+          "pt": "Sim, tem para as dez. Os Palácios Nasridas têm horário fixo."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Vale, una entrada general para mañana a las diez.",
+          "pt": "Beleza, um ingresso geral para amanhã às dez."
+        },
+        {
+          "speaker": "Taquillera",
+          "es": "Muy bien. Necesito tu pasaporte o tu NIE.",
+          "pt": "Muito bem. Preciso do seu passaporte ou NIE."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Las entradas están agotadas\" significa:",
+      "options": [
+        "Os ingressos estão esgotados",
+        "Os ingressos estão baratos",
+        "As entradas estão fechadas por obras"
+      ],
+      "correct": 0,
+      "explanation": "\"Agotado\" = esgotado. Na Alhambra, compre com antecedência!"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Ainda tem ingresso para amanhã?",
+      "answer": [
+        "¿Quedan",
+        "entradas",
+        "para",
+        "mañana?"
+      ],
+      "distractors": [
+        "tiene",
+        "ingressos"
+      ],
+      "explanation": "\"¿Quedan...?\" = ainda sobra / ainda tem...?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Los Palacios Nazaríes tienen hora fija.",
+      "options": [
+        "Os Palácios Nasridas têm horário fixo.",
+        "Os palácios estão fechados hoje.",
+        "Os palácios abrem a qualquer hora."
+      ],
+      "correct": 0,
+      "explanation": "O ingresso indica a hora exata de entrar nos Palácios Nasridas."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "palacio",
+          "kind": "quase",
+          "meaning": "palácio",
+          "tip": "Igual, sem acento."
+        },
+        {
+          "es": "jardín",
+          "kind": "quase",
+          "meaning": "jardim",
+          "tip": "-im vira -ín."
+        },
+        {
+          "es": "fuente",
+          "kind": "quase",
+          "meaning": "fonte",
+          "tip": "\"Ue\" no lugar de \"o\"."
+        },
+        {
+          "es": "torre",
+          "kind": "igual",
+          "meaning": "torre",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "historia",
+          "kind": "quase",
+          "meaning": "história",
+          "tip": "Sem acento."
+        },
+        {
+          "es": "patio",
+          "kind": "quase",
+          "meaning": "pátio",
+          "tip": "Sem acento."
+        },
+        {
+          "es": "entrada",
+          "kind": "armadilha",
+          "meaning": "ingresso / entrada",
+          "tip": "Na Espanha, ingresso = \"entrada\". \"Ingreso\" é depósito no banco."
+        },
+        {
+          "es": "taquilla",
+          "kind": "armadilha",
+          "meaning": "bilheteria",
+          "tip": "Parece \"taquilha\", mas é a bilheteria."
+        },
+        {
+          "es": "vaya",
+          "kind": "armadilha",
+          "meaning": "poxa!",
+          "tip": "Aqui é exclamação, não \"vá\"."
+        },
+        {
+          "es": "azulejo",
+          "kind": "igual",
+          "meaning": "azulejo",
+          "tip": "Palavra de origem árabe, igual nas duas línguas!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Na Espanha, para comprar ingresso você vai à:",
+      "options": [
+        "taquilla",
+        "bilheteria",
+        "boletería"
+      ],
+      "correct": 0,
+      "explanation": "\"Taquilla\" = bilheteria. \"Boletería\" é da América Latina."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Um ingresso geral para amanhã às dez.",
+      "answer": [
+        "Una",
+        "entrada",
+        "general",
+        "para",
+        "mañana",
+        "a",
+        "las",
+        "diez."
+      ],
+      "distractors": [
+        "ingreso",
+        "boleto"
+      ],
+      "explanation": "\"Entrada\" = ingresso."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Lo siento, para hoy están agotadas.",
+      "options": [
+        "Sinto muito, para hoje estão esgotados.",
+        "Sinto muito, hoje está fechado.",
+        "Para hoje ainda tem muitos."
+      ],
+      "correct": 0,
+      "explanation": "\"Lo siento\" = sinto muito."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Hay mucha ___ para entrar.\" (fila)",
+      "options": [
+        "cola",
+        "fila",
+        "línea"
+      ],
+      "correct": 0,
+      "explanation": "Na Espanha: \"hacer cola\" = fazer fila."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Hay una cola enorme.",
+          "options": [
+            "Tem uma fila enorme.",
+            "Tem uma cola enorme."
+          ],
+          "correct": 0,
+          "joke": "Cola = fila."
+        },
+        {
+          "spanish": "He comprado dos entradas.",
+          "options": [
+            "Comprei dois ingressos.",
+            "Comprei duas portas de entrada."
+          ],
+          "correct": 0,
+          "joke": "Entrada = ingresso."
+        },
+        {
+          "spanish": "Pregunta en la taquilla.",
+          "options": [
+            "Pergunte na bilheteria.",
+            "Pergunte na tabacaria."
+          ],
+          "correct": 0,
+          "joke": "Taquilla = bilheteria."
+        },
+        {
+          "spanish": "¡Vaya! Está cerrado.",
+          "options": [
+            "Poxa! Está fechado.",
+            "Vá! Está fechado."
+          ],
+          "correct": 0,
+          "joke": "Vaya = poxa / nossa."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Andalucía",
+      "items": [
+        {
+          "emoji": "🏰",
+          "title": "A Alhambra",
+          "es": "La Alhambra es preciosa.",
+          "pt": "Complexo de palácios e fortaleza construído pelos reis nasridas. É dos monumentos mais visitados da Espanha: os ingressos esgotam, então compre no site oficial com antecedência."
+        },
+        {
+          "emoji": "🫒",
+          "title": "Tapas de cortesia",
+          "es": "En Granada, con la bebida te ponen una tapa.",
+          "pt": "Em Granada (e em outras cidades como Jaén e Almería), é comum o bar servir uma tapa grátis com cada bebida."
+        }
+      ]
+    }
+  ]
+}

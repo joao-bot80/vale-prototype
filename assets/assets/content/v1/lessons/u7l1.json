@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "u7l1",
+  "title": "A Feria de Abril",
+  "scenario": "Sevilla · Real de la Feria, una caseta",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 19: Na Feria",
+      "lines": [
+        {
+          "speaker": "Dani",
+          "es": "¡Bienvenida a la Feria! Esta caseta es de unos amigos.",
+          "pt": "Bem-vinda à Feria! Esta caseta é de uns amigos."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Qué bonito! Hay farolillos por todas partes.",
+          "pt": "Que lindo! Tem lanterninhas por todo lado."
+        },
+        {
+          "speaker": "Dani",
+          "es": "¿Quieres probar el rebujito? Es manzanilla con refresco.",
+          "pt": "Quer provar o rebujito? É manzanilla com refrigerante."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Sí, pero poquito. ¿Y qué baila la gente?",
+          "pt": "Sim, mas pouquinho. E o que o pessoal está dançando?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "Sevillanas. ¿Te enseño los primeros pasos?",
+          "pt": "Sevillanas. Te ensino os primeiros passos?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Venga! Pero no te rías de mí.",
+          "pt": "Bora! Mas não ri de mim."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que é uma \"caseta\" na Feria?",
+      "options": [
+        "Uma tenda onde se come, bebe e dança",
+        "Uma loja de lembranças",
+        "Um ponto de ônibus"
+      ],
+      "correct": 0,
+      "explanation": "As casetas são tendas montadas no recinto da Feria. Muitas são privadas (de famílias, empresas ou associações), mas há casetas públicas."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Você quer provar o rebujito?",
+      "answer": [
+        "¿Quieres",
+        "probar",
+        "el",
+        "rebujito?"
+      ],
+      "distractors": [
+        "provar",
+        "tomas"
+      ],
+      "explanation": "\"Probar\" = provar, experimentar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Es manzanilla con refresco.",
+      "options": [
+        "É manzanilla com refrigerante.",
+        "É um chá de camomila.",
+        "É suco de maçã."
+      ],
+      "correct": 0,
+      "explanation": "Aqui \"manzanilla\" é um vinho branco seco de Sanlúcar. Em outro contexto, é chá de camomila!"
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "música",
+          "kind": "igual",
+          "meaning": "música",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "baile",
+          "kind": "quase",
+          "meaning": "dança / baile",
+          "tip": "\"Bailar\" = dançar."
+        },
+        {
+          "es": "vestido",
+          "kind": "igual",
+          "meaning": "vestido",
+          "tip": "Mesma palavra."
+        },
+        {
+          "es": "flor",
+          "kind": "igual",
+          "meaning": "flor",
+          "tip": "Igual!"
+        },
+        {
+          "es": "caballo",
+          "kind": "quase",
+          "meaning": "cavalo",
+          "tip": "\"Ll\" no lugar de \"l\"."
+        },
+        {
+          "es": "guitarra",
+          "kind": "quase",
+          "meaning": "violão",
+          "tip": "Na Espanha, o violão é \"guitarra\"."
+        },
+        {
+          "es": "feria",
+          "kind": "quase",
+          "meaning": "feira / festa",
+          "tip": "Aqui é a grande festa da cidade."
+        },
+        {
+          "es": "refresco",
+          "kind": "armadilha",
+          "meaning": "refrigerante",
+          "tip": "Não é só \"refresco\" de suco."
+        },
+        {
+          "es": "flamenco",
+          "kind": "quase",
+          "meaning": "flamenco / flamingo",
+          "tip": "Também é o nome da ave!"
+        },
+        {
+          "es": "palmas",
+          "kind": "igual",
+          "meaning": "palmas",
+          "tip": "No flamenco, as palmas marcam o ritmo."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¿Te enseño los primeros pasos?\" significa:",
+      "options": [
+        "Te ensino os primeiros passos?",
+        "Te mostro a primeira rua?",
+        "Você me ensina a dançar?"
+      ],
+      "correct": 0,
+      "explanation": "\"Enseñar\" = ensinar ou mostrar. \"Pasos\" = passos."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Fiquei um tempinho na caseta.",
+      "answer": [
+        "Estuve",
+        "un",
+        "rato",
+        "en",
+        "la",
+        "caseta."
+      ],
+      "distractors": [
+        "rata",
+        "tempo"
+      ],
+      "explanation": "\"Un rato\" = um tempinho."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "¡Venga! Pero no te rías de mí.",
+      "options": [
+        "Bora! Mas não ri de mim.",
+        "Venha cá e ria comigo.",
+        "Vamos embora, estou rindo."
+      ],
+      "correct": 0,
+      "explanation": "\"¡Venga!\" = bora / vamos. Muito usado na Espanha."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Hay farolillos por todas ___.\"",
+      "options": [
+        "partes",
+        "lados",
+        "sitio"
+      ],
+      "correct": 0,
+      "explanation": "\"Por todas partes\" = por todo lado."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Me quedo un rato más.",
+          "options": [
+            "Fico mais um tempinho.",
+            "Fico mais um rato."
+          ],
+          "correct": 0,
+          "joke": "Rato = momento."
+        },
+        {
+          "spanish": "Pásame la salsa, por favor.",
+          "options": [
+            "Me passa o molho, por favor.",
+            "Me passa a salsinha, por favor."
+          ],
+          "correct": 0,
+          "joke": "Salsa = molho."
+        },
+        {
+          "spanish": "Toca muy bien la guitarra.",
+          "options": [
+            "Toca violão muito bem.",
+            "Toca guitarra elétrica muito bem."
+          ],
+          "correct": 0,
+          "joke": "Na Espanha, violão = guitarra (a elétrica é \"guitarra eléctrica\")."
+        },
+        {
+          "spanish": "¿Quieres un refresco?",
+          "options": [
+            "Quer um refrigerante?",
+            "Quer um suco natural?"
+          ],
+          "correct": 0,
+          "joke": "Refresco = refrigerante."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Andalucía",
+      "items": [
+        {
+          "emoji": "💃",
+          "title": "Feria de Abril",
+          "es": "¡Vamos a la Feria!",
+          "pt": "Uma semana de festa em Sevilla, com casetas, cavalos, trajes de flamenca e sevillanas a noite toda. Acontece na primavera, depois da Semana Santa."
+        },
+        {
+          "emoji": "🕯️",
+          "title": "Semana Santa",
+          "es": "Esta noche sale la procesión.",
+          "pt": "Na semana antes da Páscoa, as irmandades levam os \"pasos\" (andores) pelas ruas, acompanhados pelos \"nazarenos\" de capuz. Às vezes alguém canta uma \"saeta\" de uma varanda."
+        }
+      ]
+    }
+  ]
+}

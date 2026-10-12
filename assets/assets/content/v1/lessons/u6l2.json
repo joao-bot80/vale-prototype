@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u6l2",
+  "title": "O que você fez hoje?",
+  "scenario": "Sevilla · paseo por el centro con Dani",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 17: Um dia em Sevilla",
+      "lines": [
+        {
+          "speaker": "Dani",
+          "es": "¿Qué has hecho hoy?",
+          "pt": "O que você fez hoje?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "He visitado la catedral y he subido a la Giralda.",
+          "pt": "Visitei a catedral e subi a Giralda."
+        },
+        {
+          "speaker": "Dani",
+          "es": "¡Qué bien! ¿Has comido ya?",
+          "pt": "Que legal! Já comeu?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Todavía no. He estado toda la mañana andando.",
+          "pt": "Ainda não. Passei a manhã toda andando."
+        },
+        {
+          "speaker": "Dani",
+          "es": "Pues vamos a comer. Conozco un sitio en el barrio de Santa Cruz.",
+          "pt": "Então vamos comer. Conheço um lugar no bairro de Santa Cruz."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Perfecto! Hoy he caminado mucho.",
+          "pt": "Perfeito! Hoje andei muito."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¿Qué has hecho hoy?\" significa:",
+      "options": [
+        "O que você fez hoje?",
+        "O que você vai fazer hoje?",
+        "O que você faz todo dia?"
+      ],
+      "correct": 0,
+      "explanation": "Pretérito perfecto: haber + particípio, para coisas de hoje ou deste período: \"he visitado\", \"has hecho\"."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Hoje eu visitei a catedral.",
+      "answer": [
+        "Hoy",
+        "he",
+        "visitado",
+        "la",
+        "catedral."
+      ],
+      "distractors": [
+        "visité",
+        "tengo"
+      ],
+      "explanation": "Na Espanha, com \"hoy\" se usa muito \"he + particípio\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "He visitado la catedral y he subido a la Giralda.",
+      "options": [
+        "Visitei a catedral e subi a Giralda.",
+        "Vou visitar a catedral amanhã.",
+        "A catedral e a Giralda estão fechadas."
+      ],
+      "correct": 0,
+      "explanation": "\"He subido\" = subi. A Giralda é a torre da catedral."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "comido",
+          "kind": "quase",
+          "meaning": "comido",
+          "tip": "Igual ao português!"
+        },
+        {
+          "es": "visto",
+          "kind": "quase",
+          "meaning": "visto",
+          "tip": "Particípio irregular de \"ver\", como no português."
+        },
+        {
+          "es": "hecho",
+          "kind": "quase",
+          "meaning": "feito",
+          "tip": "De \"hacer\"."
+        },
+        {
+          "es": "dicho",
+          "kind": "quase",
+          "meaning": "dito",
+          "tip": "De \"decir\"."
+        },
+        {
+          "es": "vuelto",
+          "kind": "quase",
+          "meaning": "voltado",
+          "tip": "De \"volver\"."
+        },
+        {
+          "es": "escrito",
+          "kind": "quase",
+          "meaning": "escrito",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "puesto",
+          "kind": "quase",
+          "meaning": "posto / colocado",
+          "tip": "De \"poner\"."
+        },
+        {
+          "es": "todavía",
+          "kind": "armadilha",
+          "meaning": "ainda",
+          "tip": "Não é \"todavia\" (porém)! Porém = \"sin embargo\"."
+        },
+        {
+          "es": "ya",
+          "kind": "armadilha",
+          "meaning": "já",
+          "tip": "Curtinho: \"ya\" = já."
+        },
+        {
+          "es": "andar",
+          "kind": "armadilha",
+          "meaning": "caminhar",
+          "tip": "Em espanhol \"andar\" é andar a pé; o andar (piso) é \"planta\"."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Todavía no\" significa:",
+      "options": [
+        "Ainda não",
+        "Porém não",
+        "Nunca"
+      ],
+      "correct": 0,
+      "explanation": "Todavía = ainda. Falso amigo clássico!"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Você já comeu?",
+      "answer": [
+        "¿Has",
+        "comido",
+        "ya?"
+      ],
+      "distractors": [
+        "tienes",
+        "comí"
+      ],
+      "explanation": "\"¿Has comido ya?\" = você já comeu?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Todavía no. He estado toda la mañana andando.",
+      "options": [
+        "Ainda não. Passei a manhã toda andando.",
+        "Já sim. Comi de manhã.",
+        "Ainda não. Fiquei a manhã toda em casa."
+      ],
+      "correct": 0,
+      "explanation": "\"He estado andando\" = estive andando."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Hoy ___ caminado mucho.\"",
+      "options": [
+        "he",
+        "ha",
+        "hemos"
+      ],
+      "correct": 0,
+      "explanation": "Yo he, tú has, él/ella ha, nosotros hemos."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Todavía no he terminado.",
+          "options": [
+            "Ainda não terminei.",
+            "Porém não terminei."
+          ],
+          "correct": 0,
+          "joke": "Todavía = ainda."
+        },
+        {
+          "spanish": "Ya he comido, gracias.",
+          "options": [
+            "Já comi, obrigada.",
+            "Agora vou comer, obrigada."
+          ],
+          "correct": 0,
+          "joke": "Ya = já."
+        },
+        {
+          "spanish": "He andado mucho hoy.",
+          "options": [
+            "Andei muito hoje.",
+            "Subi muitos andares hoje."
+          ],
+          "correct": 0,
+          "joke": "Andar = caminhar."
+        },
+        {
+          "spanish": "¿Has visto la Giralda?",
+          "options": [
+            "Você viu a Giralda?",
+            "Você vestiu a Giralda?"
+          ],
+          "correct": 0,
+          "joke": "Visto = visto (de ver)."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Andalucía",
+      "items": [
+        {
+          "emoji": "⛪",
+          "title": "Catedral e Giralda",
+          "es": "Desde la Giralda se ve toda Sevilla.",
+          "pt": "A Giralda era o minarete da antiga mesquita e virou a torre da catedral. Sobe-se por rampas, não escadas."
+        },
+        {
+          "emoji": "🗣️",
+          "title": "\"Hoy he comido\" ou \"hoy comí\"?",
+          "es": "¿Qué has hecho hoy?",
+          "pt": "Em Madrid e no centro da Espanha, para coisas de hoje se usa \"he comido\". Em boa parte da Andaluzia (e na América Latina), muita gente diz \"hoy comí\". Ensinamos a forma padrão, mas você vai ouvir as duas."
+        }
+      ]
+    }
+  ]
+}

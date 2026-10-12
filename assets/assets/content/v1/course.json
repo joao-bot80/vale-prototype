@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-3",
+  "contentVersion": "2026.10.12-4",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -138,7 +138,7 @@
     {
       "id": "andalucia",
       "name": "Andalucía",
-      "subtitle": "Sevilla e Málaga",
+      "subtitle": "Sevilla, Granada e Málaga",
       "emoji": "💃",
       "stampText": "ANDALUCÍA",
       "lon": -5.98,
@@ -150,31 +150,41 @@
           "emoji": "🫒",
           "lessons": [
             {
-              "id": "and-u1-l1",
+              "id": "u6l1",
               "title": "Na barra",
-              "available": false
+              "available": true
             },
             {
-              "id": "and-u1-l2",
+              "id": "u6l2",
               "title": "O que você fez hoje?",
-              "available": false
+              "available": true
+            },
+            {
+              "id": "u6l3",
+              "title": "O sotaque andaluz",
+              "available": true
             }
           ]
         },
         {
           "id": "and-u2",
-          "title": "A Feria",
-          "emoji": "🎉",
+          "title": "Feria, Alhambra e praia",
+          "emoji": "💃",
           "lessons": [
             {
-              "id": "and-u2-l1",
-              "title": "Sevillanas",
-              "available": false
+              "id": "u7l1",
+              "title": "A Feria de Abril",
+              "available": true
             },
             {
-              "id": "and-u2-l2",
-              "title": "O sotaque andaluz",
-              "available": false
+              "id": "u7l2",
+              "title": "Na Alhambra",
+              "available": true
+            },
+            {
+              "id": "u7l3",
+              "title": "Na praia de Málaga",
+              "available": true
             }
           ]
         }

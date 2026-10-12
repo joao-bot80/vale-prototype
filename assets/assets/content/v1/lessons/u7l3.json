@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "id": "u7l3",
+  "title": "Na praia de Málaga",
+  "scenario": "Málaga · chiringuito en la playa de la Malagueta",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 21: Sol e praia",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Qué calor! ¿Nos sentamos en el chiringuito?",
+          "pt": "Que calor! Vamos sentar no chiringuito?"
+        },
+        {
+          "speaker": "Camarera",
+          "es": "Hola, chicos. ¿Queréis un espeto de sardinas?",
+          "pt": "Oi, pessoal. Querem um espeto de sardinhas?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Sí, uno para compartir. Y dos tintos de verano.",
+          "pt": "Sim, um para dividir. E dois tintos de verão."
+        },
+        {
+          "speaker": "Camarera",
+          "es": "¿Con limón o con gaseosa?",
+          "pt": "Com limão ou com soda?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Con limón, por favor. ¿Dónde puedo comprar crema solar?",
+          "pt": "Com limão, por favor. Onde posso comprar protetor solar?"
+        },
+        {
+          "speaker": "Camarera",
+          "es": "Hay una farmacia en el paseo marítimo.",
+          "pt": "Tem uma farmácia no calçadão."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que é um \"chiringuito\"?",
+      "options": [
+        "Um bar ou restaurante simples na praia",
+        "Um tipo de peixe",
+        "Um guarda-sol"
+      ],
+      "correct": 0,
+      "explanation": "Chiringuito = barraca/bar de praia. Em Málaga, o clássico é pedir espeto de sardinhas."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Um espeto de sardinhas para dividir.",
+      "answer": [
+        "Un",
+        "espeto",
+        "de",
+        "sardinas",
+        "para",
+        "compartir."
+      ],
+      "distractors": [
+        "dividir",
+        "sardinhas"
+      ],
+      "explanation": "\"Compartir\" = dividir, compartilhar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "¿Con limón o con gaseosa?",
+      "options": [
+        "Com limão ou com soda?",
+        "Com gelo ou sem gelo?",
+        "Com limão ou com laranja?"
+      ],
+      "correct": 0,
+      "explanation": "O tinto de verano é vinho tinto com refrigerante de limão ou com \"gaseosa\" (soda doce)."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "nadar",
+          "kind": "igual",
+          "meaning": "nadar",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "playa",
+          "kind": "quase",
+          "meaning": "praia",
+          "tip": "\"Pl\" no lugar de \"pr\"."
+        },
+        {
+          "es": "arena",
+          "kind": "armadilha",
+          "meaning": "areia",
+          "tip": "Não é arena de show!"
+        },
+        {
+          "es": "ola",
+          "kind": "armadilha",
+          "meaning": "onda",
+          "tip": "Não é \"olá\"! Olá = \"hola\"."
+        },
+        {
+          "es": "chanclas",
+          "kind": "quase",
+          "meaning": "chinelos",
+          "tip": "Para a areia quente!"
+        },
+        {
+          "es": "sombrilla",
+          "kind": "quase",
+          "meaning": "guarda-sol",
+          "tip": "Lembra \"sombra\"."
+        },
+        {
+          "es": "mar",
+          "kind": "igual",
+          "meaning": "mar",
+          "tip": "Mesma palavra."
+        },
+        {
+          "es": "crema",
+          "kind": "quase",
+          "meaning": "creme",
+          "tip": "Protetor solar = \"crema solar\"."
+        },
+        {
+          "es": "cangrejo",
+          "kind": "quase",
+          "meaning": "caranguejo",
+          "tip": "Quase igual."
+        },
+        {
+          "es": "bañador",
+          "kind": "quase",
+          "meaning": "maiô / sunga",
+          "tip": "De \"bañarse\"."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Paseo marítimo\" significa:",
+      "options": [
+        "Calçadão da praia",
+        "Passeio de barco",
+        "Porto de navios"
+      ],
+      "correct": 0,
+      "explanation": "O \"paseo marítimo\" é a avenida/calçadão à beira-mar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Onde posso comprar protetor solar?",
+      "answer": [
+        "¿Dónde",
+        "puedo",
+        "comprar",
+        "crema",
+        "solar?"
+      ],
+      "distractors": [
+        "protector",
+        "adónde"
+      ],
+      "explanation": "\"Crema solar\" = protetor solar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Hay una farmacia en el paseo marítimo.",
+      "options": [
+        "Tem uma farmácia no calçadão.",
+        "A farmácia está fechada hoje.",
+        "Tem uma praia perto da farmácia."
+      ],
+      "correct": 0,
+      "explanation": "Na Espanha, protetor solar se compra no supermercado ou na farmácia."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"¡Cuidado con las ___! El mar está movido.\"",
+      "options": [
+        "olas",
+        "holas",
+        "ondas"
+      ],
+      "correct": 0,
+      "explanation": "\"Ola\" = onda. \"Hola\" = olá."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Hay olas muy grandes hoy.",
+          "options": [
+            "Tem ondas muito grandes hoje.",
+            "Tem muitos olás hoje."
+          ],
+          "correct": 0,
+          "joke": "Ola = onda."
+        },
+        {
+          "spanish": "La arena está muy caliente.",
+          "options": [
+            "A areia está muito quente.",
+            "A arena está muito quente."
+          ],
+          "correct": 0,
+          "joke": "Arena = areia."
+        },
+        {
+          "spanish": "Dejamos una propina.",
+          "options": [
+            "Deixamos uma gorjeta.",
+            "Deixamos um suborno."
+          ],
+          "correct": 0,
+          "joke": "Propina = gorjeta."
+        },
+        {
+          "spanish": "¿Compartimos la sombrilla?",
+          "options": [
+            "Dividimos o guarda-sol?",
+            "Dividimos a sombrinha de chuva?"
+          ],
+          "correct": 0,
+          "joke": "Sombrilla = guarda-sol de praia."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Andalucía",
+      "items": [
+        {
+          "emoji": "🐟",
+          "title": "Espetos",
+          "es": "Los espetos de sardinas son típicos de Málaga.",
+          "pt": "Sardinhas espetadas numa vara e assadas na brasa, muitas vezes dentro de um barquinho cheio de areia. É o símbolo dos chiringuitos de Málaga."
+        },
+        {
+          "emoji": "🎨",
+          "title": "Málaga e Picasso",
+          "es": "Picasso nació en Málaga.",
+          "pt": "Pablo Picasso nasceu em Málaga, e a cidade tem o Museo Picasso e a casa natal do pintor. A Costa del Sol também tem uma comunidade brasileira grande."
+        }
+      ]
+    }
+  ]
+}

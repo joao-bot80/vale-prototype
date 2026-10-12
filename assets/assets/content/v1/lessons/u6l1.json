@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "u6l1",
+  "title": "Na barra",
+  "scenario": "Sevilla · bar de tapas en Triana",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 16: Rumo ao sul",
+      "lines": [
+        {
+          "speaker": "Camarero",
+          "es": "¡Buenas! ¿Qué os pongo?",
+          "pt": "Boa! O que vai ser?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Dos cervezas y la carta de tapas, por favor.",
+          "pt": "Duas cervejas e o cardápio de tapas, por favor."
+        },
+        {
+          "speaker": "Camarero",
+          "es": "Hoy tenemos salmorejo y pescaíto frito.",
+          "pt": "Hoje temos salmorejo e peixinho frito."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Pues una tapa de salmorejo y una ración de pescaíto.",
+          "pt": "Então uma tapa de salmorejo e uma porção de peixinho."
+        },
+        {
+          "speaker": "Camarero",
+          "es": "¿Algo más? ¿Unas aceitunas?",
+          "pt": "Mais alguma coisa? Umas azeitonas?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Vale, unas aceitunas también. ¡Gracias!",
+          "pt": "Beleza, umas azeitonas também. Obrigada!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Qual é a diferença entre \"tapa\" e \"ración\"?",
+      "options": [
+        "A tapa é pequena; a ración é uma porção maior",
+        "São a mesma coisa",
+        "A ración é só bebida"
+      ],
+      "correct": 0,
+      "explanation": "Tapa = porçãozinha individual. Ración = prato maior para dividir. Também existe \"media ración\"."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Uma tapa de salmorejo, por favor.",
+      "answer": [
+        "Una",
+        "tapa",
+        "de",
+        "salmorejo,",
+        "por",
+        "favor."
+      ],
+      "distractors": [
+        "uma",
+        "porção"
+      ],
+      "explanation": "\"Una tapa de...\" é a forma mais simples de pedir."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Hoy tenemos salmorejo y pescaíto frito.",
+      "options": [
+        "Hoje temos salmorejo e peixinho frito.",
+        "Hoje não temos peixe frito.",
+        "Ontem tinha salmorejo e peixe."
+      ],
+      "correct": 0,
+      "explanation": "\"Pescaíto\" é \"pescadito\" (peixinho) do jeito andaluz de falar."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "pimentón",
+          "kind": "quase",
+          "meaning": "páprica",
+          "tip": "O pimentão é \"pimiento\"."
+        },
+        {
+          "es": "pimiento",
+          "kind": "armadilha",
+          "meaning": "pimentão",
+          "tip": "Pimenta é \"pimienta\"!"
+        },
+        {
+          "es": "gamba",
+          "kind": "armadilha",
+          "meaning": "camarão",
+          "tip": "Gamba = camarão, não o bicho."
+        },
+        {
+          "es": "ajo",
+          "kind": "quase",
+          "meaning": "alho",
+          "tip": "\"J\" no lugar de \"lh\"."
+        },
+        {
+          "es": "jamón",
+          "kind": "quase",
+          "meaning": "presunto",
+          "tip": "Parece \"jamon\" mas é o presunto curado."
+        },
+        {
+          "es": "chopitos",
+          "kind": "quase",
+          "meaning": "lulinhas fritas",
+          "tip": "Petisco frito típico do sul."
+        },
+        {
+          "es": "aceituna",
+          "kind": "quase",
+          "meaning": "azeitona",
+          "tip": "Lembra \"azeitona\"."
+        },
+        {
+          "es": "embutido",
+          "kind": "quase",
+          "meaning": "embutido / frios",
+          "tip": "Chorizo, salchichón, lomo..."
+        },
+        {
+          "es": "cubierto",
+          "kind": "armadilha",
+          "meaning": "talher",
+          "tip": "Coberto = \"cubierto\" também, mas na mesa é talher."
+        },
+        {
+          "es": "brasa",
+          "kind": "igual",
+          "meaning": "brasa",
+          "tip": "Igualzinho!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O garçom pergunta \"¿Qué os pongo?\". Ele quer saber:",
+      "options": [
+        "O que vocês vão pedir",
+        "Onde vocês moram",
+        "Quanto vocês querem pagar"
+      ],
+      "correct": 0,
+      "explanation": "\"Poner\" no bar = servir. \"Os\" = para vocês (vosotros)."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Mais alguma coisa? Umas azeitonas?",
+      "answer": [
+        "¿Algo",
+        "más?",
+        "¿Unas",
+        "aceitunas?"
+      ],
+      "distractors": [
+        "azeitonas",
+        "mais"
+      ],
+      "explanation": "\"¿Algo más?\" = mais alguma coisa?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Pues una tapa de salmorejo y una ración de pescaíto.",
+      "options": [
+        "Então uma tapa de salmorejo e uma porção de peixinho.",
+        "Uma porção de salmorejo e uma tapa de peixe.",
+        "Só uma tapa de salmorejo, obrigada."
+      ],
+      "correct": 0,
+      "explanation": "Preste atenção em qual é \"tapa\" e qual é \"ración\"."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Dos ___ y la carta, por favor.\"",
+      "options": [
+        "cervezas",
+        "cerveza",
+        "cervejas"
+      ],
+      "correct": 0,
+      "explanation": "Plural em espanhol: cerveza → cervezas."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "El pulpo está muy rico.",
+          "options": [
+            "O polvo está muito gostoso.",
+            "O pó está muito rico."
+          ],
+          "correct": 0,
+          "joke": "Pulpo = polvo (animal). Rico, para comida, = gostoso!"
+        },
+        {
+          "spanish": "Hay mucho polvo en la mesa.",
+          "options": [
+            "Tem muita poeira na mesa.",
+            "Tem muito polvo na mesa."
+          ],
+          "correct": 0,
+          "joke": "Polvo = poeira. O animal é pulpo."
+        },
+        {
+          "spanish": "¿Me traes un vaso de agua?",
+          "options": [
+            "Me traz um copo de água?",
+            "Me traz um vaso de água?"
+          ],
+          "correct": 0,
+          "joke": "Vaso = copo."
+        },
+        {
+          "spanish": "Una taza de café, por favor.",
+          "options": [
+            "Uma xícara de café, por favor.",
+            "Uma taça de café, por favor."
+          ],
+          "correct": 0,
+          "joke": "Taza = xícara. Taça = copa."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Andalucía",
+      "items": [
+        {
+          "emoji": "🍅",
+          "title": "Salmorejo",
+          "es": "El salmorejo es de Córdoba.",
+          "pt": "Creme frio de tomate, pão, azeite e alho, servido com ovo e presunto por cima. Parente do gazpacho, mas bem mais grosso."
+        },
+        {
+          "emoji": "🌉",
+          "title": "Triana",
+          "es": "Vamos a tomar algo en Triana.",
+          "pt": "Bairro de Sevilla do outro lado do rio Guadalquivir, famoso pela cerâmica, pelo flamenco e pelos bares de tapas."
+        }
+      ]
+    }
+  ]
+}
