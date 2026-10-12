@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "id": "u23l1",
+  "title": "Ligando para o 112",
+  "scenario": "Papelada · emergencias",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 67: Emergência",
+      "lines": [
+        {
+          "speaker": "Operador",
+          "es": "Emergencias 112, ¿qué le ocurre?",
+          "pt": "Emergências 112, o que está acontecendo?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Mi vecino se ha caído y no puede levantarse. Sangra por la cabeza.",
+          "pt": "Meu vizinho caiu e não consegue se levantar. Está sangrando na cabeça."
+        },
+        {
+          "speaker": "Operador",
+          "es": "¿Cuál es la dirección exacta?",
+          "pt": "Qual é o endereço exato?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Calle del Pez, número diez, segundo izquierda, en Madrid.",
+          "pt": "Rua del Pez, número dez, segundo andar, porta da esquerda, em Madrid."
+        },
+        {
+          "speaker": "Operador",
+          "es": "Le envío una ambulancia. No lo mueva y no cuelgue.",
+          "pt": "Estou enviando uma ambulância. Não o mova e não desligue."
+        },
+        {
+          "speaker": "Lu",
+          "es": "De acuerdo. Estoy con él.",
+          "pt": "Entendido. Estou com ele."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"No cuelgue\" significa:",
+      "options": [
+        "Não desligue (o telefone)",
+        "Não pendure",
+        "Não grite"
+      ],
+      "correct": 0,
+      "explanation": "Colgar = desligar o telefone."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Meu vizinho caiu.",
+      "answer": [
+        "Mi",
+        "vecino",
+        "se",
+        "ha",
+        "caído."
+      ],
+      "distractors": [
+        "caió",
+        "caído se"
+      ],
+      "explanation": "\"Caerse\": se ha caído."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Le envío una ambulancia. No lo mueva y no cuelgue.",
+      "options": [
+        "Estou enviando uma ambulância. Não o mova e não desligue.",
+        "Leve-o você ao hospital.",
+        "Ligue amanhã para o centro de saúde."
+      ],
+      "correct": 0,
+      "explanation": "Repare: o operador usa \"usted\"."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "colgar",
+          "kind": "armadilha",
+          "meaning": "desligar (telefone)",
+          "tip": "Também pendurar."
+        },
+        {
+          "es": "sangrar",
+          "kind": "quase",
+          "meaning": "sangrar",
+          "tip": "Igual."
+        },
+        {
+          "es": "herido",
+          "kind": "quase",
+          "meaning": "ferido",
+          "tip": "Herida = ferida."
+        },
+        {
+          "es": "ambulancia",
+          "kind": "quase",
+          "meaning": "ambulância",
+          "tip": "Igual."
+        },
+        {
+          "es": "mareado",
+          "kind": "armadilha",
+          "meaning": "tonto / zonzo",
+          "tip": "Não é enjoado de mar só!"
+        },
+        {
+          "es": "desmayarse",
+          "kind": "quase",
+          "meaning": "desmaiar",
+          "tip": "Se ha desmayado."
+        },
+        {
+          "es": "respirar",
+          "kind": "igual",
+          "meaning": "respirar",
+          "tip": "¿Respira?"
+        },
+        {
+          "es": "quemadura",
+          "kind": "quase",
+          "meaning": "queimadura",
+          "tip": "Quemarse = queimar-se."
+        },
+        {
+          "es": "incendio",
+          "kind": "quase",
+          "meaning": "incêndio",
+          "tip": "Bomberos = bombeiros."
+        },
+        {
+          "es": "socorro",
+          "kind": "quase",
+          "meaning": "socorro",
+          "tip": "¡Socorro!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Estoy mareada\" significa:",
+      "options": [
+        "Estou tonta / zonza",
+        "Estou no mar",
+        "Estou maravilhada"
+      ],
+      "correct": 0,
+      "explanation": "Mareado = tonto, enjoado."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Não desligue.",
+      "answer": [
+        "No",
+        "cuelgue."
+      ],
+      "distractors": [
+        "desligue",
+        "apague"
+      ],
+      "explanation": "\"Colgar\": no cuelgue (usted)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Calle del Pez, número diez, segundo izquierda, en Madrid.",
+      "options": [
+        "Rua del Pez, número dez, segundo andar, porta da esquerda, em Madrid.",
+        "Rua do Peixe, número dois.",
+        "Praça Maior, sem número."
+      ],
+      "correct": 0,
+      "explanation": "\"Segundo izquierda\" = 2º andar, porta esquerda."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"¡Hay un incendio! Llama a los ___.\"",
+      "options": [
+        "bomberos",
+        "bombeiros",
+        "fuegos"
+      ],
+      "correct": 0,
+      "explanation": "Bomberos = bombeiros."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "No cuelgue, por favor.",
+          "options": [
+            "Não desligue, por favor.",
+            "Não pendure, por favor."
+          ],
+          "correct": 0,
+          "joke": "Colgar = desligar."
+        },
+        {
+          "spanish": "Me siento mareada.",
+          "options": [
+            "Estou me sentindo tonta.",
+            "Estou me sentindo maravilhada."
+          ],
+          "correct": 0,
+          "joke": "Mareado = zonzo."
+        },
+        {
+          "spanish": "Hay un herido.",
+          "options": [
+            "Tem um ferido.",
+            "Tem um herói."
+          ],
+          "correct": 0,
+          "joke": "Herido = ferido."
+        },
+        {
+          "spanish": "Se ha desmayado.",
+          "options": [
+            "Desmaiou.",
+            "Se desmanchou."
+          ],
+          "correct": 0,
+          "joke": "Desmayarse = desmaiar."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "🚨",
+          "title": "112",
+          "es": "Llama al 112.",
+          "pt": "O 112 é o número único de emergências na Espanha e na UE: grátis, 24h, de qualquer telefone, mesmo sem saldo. Em muitas regiões atendem em vários idiomas. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "☎️",
+          "title": "Outros números",
+          "es": "091 Policía Nacional, 062 Guardia Civil.",
+          "pt": "Também existem 091 (Policía Nacional), 062 (Guardia Civil) e 061 (urgências médicas em algumas comunidades). Na dúvida, 112. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}

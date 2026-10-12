@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "id": "u22l3",
+  "title": "Internet e celular",
+  "scenario": "Papelada · tienda de telefonía",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 66: Fibra em casa",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Quiero contratar fibra para casa y una línea de móvil.",
+          "pt": "Quero contratar fibra para casa e uma linha de celular."
+        },
+        {
+          "speaker": "Dependiente",
+          "es": "Tenemos fibra de seiscientos megas con línea móvil por treinta y cinco euros al mes.",
+          "pt": "Temos fibra de seiscentos megas com linha móvel por trinta e cinco euros por mês."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Tiene permanencia?",
+          "pt": "Tem fidelidade?"
+        },
+        {
+          "speaker": "Dependiente",
+          "es": "Sí, doce meses. Si te das de baja antes, pagas una penalización.",
+          "pt": "Sim, doze meses. Se cancelar antes, paga uma multa."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Puedo mantener mi número? Hago la portabilidad.",
+          "pt": "Posso manter meu número? Faço a portabilidade."
+        },
+        {
+          "speaker": "Dependiente",
+          "es": "Claro. Y el técnico te instala el router en dos o tres días.",
+          "pt": "Claro. E o técnico instala o roteador em dois ou três dias."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Permanencia\" num contrato de telefone é:",
+      "options": [
+        "Fidelidade (tempo mínimo)",
+        "Permanência no local",
+        "Garantia do aparelho"
+      ],
+      "correct": 0,
+      "explanation": "Se sair antes, paga penalização."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Tem fidelidade?",
+      "answer": [
+        "¿Tiene",
+        "permanencia?"
+      ],
+      "distractors": [
+        "fidelidad",
+        "tem"
+      ],
+      "explanation": "\"Permanencia\" = fidelidade."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, doce meses. Si te das de baja antes, pagas una penalización.",
+      "options": [
+        "Sim, doze meses. Se cancelar antes, paga uma multa.",
+        "Não, pode sair quando quiser.",
+        "Sim, vinte e quatro meses e não pode sair."
+      ],
+      "correct": 0,
+      "explanation": "Darse de baja = cancelar."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "permanencia",
+          "kind": "armadilha",
+          "meaning": "fidelidade (contrato)",
+          "tip": "Sin permanencia = sem fidelidade."
+        },
+        {
+          "es": "darse de baja",
+          "kind": "armadilha",
+          "meaning": "cancelar",
+          "tip": "Darse de alta = contratar."
+        },
+        {
+          "es": "darse de alta",
+          "kind": "armadilha",
+          "meaning": "cadastrar-se / contratar",
+          "tip": "Alta = entrada."
+        },
+        {
+          "es": "penalización",
+          "kind": "quase",
+          "meaning": "multa contratual",
+          "tip": "Por romper a permanência."
+        },
+        {
+          "es": "portabilidad",
+          "kind": "quase",
+          "meaning": "portabilidade",
+          "tip": "Manter o número."
+        },
+        {
+          "es": "tarjeta SIM",
+          "kind": "quase",
+          "meaning": "chip",
+          "tip": "Tarjeta SIM o eSIM."
+        },
+        {
+          "es": "cobertura",
+          "kind": "armadilha",
+          "meaning": "sinal",
+          "tip": "No tengo cobertura = estou sem sinal."
+        },
+        {
+          "es": "router",
+          "kind": "quase",
+          "meaning": "roteador",
+          "tip": "Pronuncia-se \"rúter\"."
+        },
+        {
+          "es": "megas",
+          "kind": "quase",
+          "meaning": "mega (velocidade)",
+          "tip": "Fibra de 600 megas."
+        },
+        {
+          "es": "tarifa plana",
+          "kind": "quase",
+          "meaning": "plano ilimitado",
+          "tip": "Preço fixo."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"No tengo cobertura\" significa:",
+      "options": [
+        "Estou sem sinal",
+        "Não tenho seguro",
+        "Não tenho cobertor"
+      ],
+      "correct": 0,
+      "explanation": "Cobertura = sinal de celular."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Quero manter meu número.",
+      "answer": [
+        "Quiero",
+        "mantener",
+        "mi",
+        "número."
+      ],
+      "distractors": [
+        "manter",
+        "mio"
+      ],
+      "explanation": "\"Mantener\" = manter."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Claro. Y el técnico te instala el router en dos o tres días.",
+      "options": [
+        "Claro. E o técnico instala o roteador em dois ou três dias.",
+        "Não, tem que trocar de número.",
+        "Claro, mas a instalação demora três meses."
+      ],
+      "correct": 0,
+      "explanation": "Router = roteador."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Me quiero dar de ___ del gimnasio.\" (cancelar)",
+      "options": [
+        "baja",
+        "alta",
+        "bajo"
+      ],
+      "correct": 0,
+      "explanation": "Darse de baja = cancelar."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Me he dado de baja.",
+          "options": [
+            "Cancelei (o serviço).",
+            "Fiquei de licença médica."
+          ],
+          "correct": 0,
+          "joke": "Darse de baja = cancelar."
+        },
+        {
+          "spanish": "Aquí no hay cobertura.",
+          "options": [
+            "Aqui não tem sinal.",
+            "Aqui não tem cobertura de seguro."
+          ],
+          "correct": 0,
+          "joke": "Cobertura = sinal."
+        },
+        {
+          "spanish": "Es sin permanencia.",
+          "options": [
+            "É sem fidelidade.",
+            "É sem permanecer no lugar."
+          ],
+          "correct": 0,
+          "joke": "Permanencia = fidelidade."
+        },
+        {
+          "spanish": "Me doy de alta en la compañía.",
+          "options": [
+            "Contrato a companhia.",
+            "Recebo alta da companhia."
+          ],
+          "correct": 0,
+          "joke": "Darse de alta = contratar."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "📶",
+          "title": "Fidelidade",
+          "es": "¿Cuánto es la permanencia?",
+          "pt": "Muitas ofertas de fibra e celular têm fidelidade (permanencia), em geral de até 12 meses, com multa se cancelar antes. Leia o contrato e peça o resumo por escrito. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "📱",
+          "title": "Portabilidade",
+          "es": "Hago la portabilidad.",
+          "pt": "Você pode trocar de operadora mantendo o número; a portabilidade é gratuita e costuma levar poucos dias úteis. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}

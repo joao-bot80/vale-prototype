@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-11",
+  "contentVersion": "2026.10.12-12",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -515,6 +515,50 @@
             {
               "id": "u17l3",
               "title": "A prova CCSE",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "pap-u5",
+          "title": "Casa: aluguel e contas",
+          "emoji": "🏠",
+          "lessons": [
+            {
+              "id": "u22l1",
+              "title": "O contrato de aluguel",
+              "available": true
+            },
+            {
+              "id": "u22l2",
+              "title": "Luz e gás",
+              "available": true
+            },
+            {
+              "id": "u22l3",
+              "title": "Internet e celular",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "pap-u6",
+          "title": "Emergências e polícia",
+          "emoji": "🚨",
+          "lessons": [
+            {
+              "id": "u23l1",
+              "title": "Ligando para o 112",
+              "available": true
+            },
+            {
+              "id": "u23l2",
+              "title": "No pronto-socorro",
+              "available": true
+            },
+            {
+              "id": "u23l3",
+              "title": "Fazendo uma denúncia",
               "available": true
             }
           ]

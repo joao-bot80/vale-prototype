@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u23l2",
+  "title": "No pronto-socorro",
+  "scenario": "Papelada · urgencias del hospital",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 68: Urgências",
+      "lines": [
+        {
+          "speaker": "Enfermera",
+          "es": "Buenas noches. ¿Qué te pasa?",
+          "pt": "Boa noite. O que você está sentindo?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Me he torcido el tobillo y está muy hinchado.",
+          "pt": "Torci o tornozelo e está muito inchado."
+        },
+        {
+          "speaker": "Enfermera",
+          "es": "¿Tienes la tarjeta sanitaria?",
+          "pt": "Tem o cartão de saúde?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Todavía no. Tengo pasaporte y seguro privado.",
+          "pt": "Ainda não. Tenho passaporte e seguro privado."
+        },
+        {
+          "speaker": "Enfermera",
+          "es": "Vale. Siéntate en la sala de espera. Te llamarán por tu nombre.",
+          "pt": "Certo. Sente-se na sala de espera. Vão te chamar pelo nome."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Tardarán mucho?",
+          "pt": "Vai demorar muito?"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Me he torcido el tobillo\" significa:",
+      "options": [
+        "Torci o tornozelo",
+        "Torci o joelho",
+        "Quebrei o pé"
+      ],
+      "correct": 0,
+      "explanation": "Tobillo = tornozelo."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Está muito inchado.",
+      "answer": [
+        "Está",
+        "muy",
+        "hinchado."
+      ],
+      "distractors": [
+        "inchado",
+        "mucho"
+      ],
+      "explanation": "\"Hinchado\" = inchado."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Vale. Siéntate en la sala de espera. Te llamarán por tu nombre.",
+      "options": [
+        "Certo. Sente-se na sala de espera. Vão te chamar pelo nome.",
+        "Volte amanhã.",
+        "Vá para outro hospital."
+      ],
+      "correct": 0,
+      "explanation": "Nas urgências há triagem: casos graves primeiro."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "esguince",
+          "kind": "armadilha",
+          "meaning": "entorse",
+          "tip": "Não é esguicho!"
+        },
+        {
+          "es": "tobillo",
+          "kind": "armadilha",
+          "meaning": "tornozelo",
+          "tip": "Não é tubinho!"
+        },
+        {
+          "es": "hinchado",
+          "kind": "quase",
+          "meaning": "inchado",
+          "tip": "Hincharse = inchar."
+        },
+        {
+          "es": "escayola",
+          "kind": "armadilha",
+          "meaning": "gesso (ortopédico)",
+          "tip": "Não é escaiola."
+        },
+        {
+          "es": "radiografía",
+          "kind": "quase",
+          "meaning": "raio X",
+          "tip": "Hacer una radiografía."
+        },
+        {
+          "es": "muleta",
+          "kind": "armadilha",
+          "meaning": "muleta",
+          "tip": "Igual! Mas cuidado: muleta também é do toureiro."
+        },
+        {
+          "es": "tirita",
+          "kind": "armadilha",
+          "meaning": "curativo / band-aid",
+          "tip": "Não é tirinha!"
+        },
+        {
+          "es": "pomada",
+          "kind": "igual",
+          "meaning": "pomada",
+          "tip": "Igual!"
+        },
+        {
+          "es": "triaje",
+          "kind": "quase",
+          "meaning": "triagem",
+          "tip": "Com j."
+        },
+        {
+          "es": "sala de espera",
+          "kind": "quase",
+          "meaning": "sala de espera",
+          "tip": "Igual."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Una venda\" no hospital é:",
+      "options": [
+        "Uma atadura",
+        "Uma venda (comércio)",
+        "Uma vendedora"
+      ],
+      "correct": 0,
+      "explanation": "Vender = vender; venda = atadura."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Torci o tornozelo.",
+      "answer": [
+        "Me",
+        "he",
+        "torcido",
+        "el",
+        "tobillo."
+      ],
+      "distractors": [
+        "torcí",
+        "tornozelo"
+      ],
+      "explanation": "\"Torcerse\": me he torcido."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Todavía no. Tengo pasaporte y seguro privado.",
+      "options": [
+        "Ainda não. Tenho passaporte e seguro privado.",
+        "Sim, aqui está.",
+        "Não tenho documentos."
+      ],
+      "correct": 0,
+      "explanation": "Em urgência, nenhum hospital público nega atendimento."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Te ponemos una ___ en el pie.\" (gesso)",
+      "options": [
+        "escayola",
+        "yeso",
+        "gesso"
+      ],
+      "correct": 0,
+      "explanation": "Escayola = gesso ortopédico (também se diz yeso)."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Llévala a urgencias.",
+          "options": [
+            "Leve-a ao pronto-socorro.",
+            "Leve-a com urgência para casa."
+          ],
+          "correct": 0,
+          "joke": "Urgencias = pronto-socorro."
+        },
+        {
+          "spanish": "Me duele el tobillo.",
+          "options": [
+            "Meu tornozelo dói.",
+            "Meu tubo dói."
+          ],
+          "correct": 0,
+          "joke": "Tobillo = tornozelo."
+        },
+        {
+          "spanish": "Necesitas una venda.",
+          "options": [
+            "Você precisa de uma atadura.",
+            "Você precisa de uma venda (loja)."
+          ],
+          "correct": 0,
+          "joke": "Venda = atadura."
+        },
+        {
+          "spanish": "Llevo escayola un mes.",
+          "options": [
+            "Fico de gesso um mês.",
+            "Uso escaiola há um mês."
+          ],
+          "correct": 0,
+          "joke": "Escayola = gesso."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "🏥",
+          "title": "Urgências",
+          "es": "Urgencias del hospital, 24 horas.",
+          "pt": "Nas urgências dos hospitais públicos há triagem por gravidade. Para algo leve, o centro de saúde ou o PAC/SUAP (atendimento fora de hora) costuma ser mais rápido. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "💊",
+          "title": "Farmácia de plantão",
+          "es": "Farmacia de guardia.",
+          "pt": "Sempre há farmácias de plantão (\"de guardia\") abertas à noite e nos feriados; a lista fica na porta de qualquer farmácia e no site do colégio de farmacêuticos. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}

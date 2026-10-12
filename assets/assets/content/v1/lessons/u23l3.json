@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "u23l3",
+  "title": "Fazendo uma denúncia",
+  "scenario": "Papelada · comisaría de Policía",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 69: Roubaram minha carteira",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Buenos días. Vengo a poner una denuncia. Me han robado la cartera en el metro.",
+          "pt": "Bom dia. Venho fazer uma denúncia. Roubaram minha carteira no metrô."
+        },
+        {
+          "speaker": "Policía",
+          "es": "¿Qué llevaba en la cartera?",
+          "pt": "O que tinha na carteira?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "La tarjeta del banco, el TIE y unos cincuenta euros.",
+          "pt": "O cartão do banco, o TIE e uns cinquenta euros."
+        },
+        {
+          "speaker": "Policía",
+          "es": "¿Ha bloqueado ya la tarjeta?",
+          "pt": "Já bloqueou o cartão?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Sí, ayer. Y empecé la denuncia por internet. Aquí tiene el número de referencia.",
+          "pt": "Sim, ontem. E comecei a denúncia pela internet. Aqui está o número de referência."
+        },
+        {
+          "speaker": "Policía",
+          "es": "Perfecto. La firma aquí y le doy una copia para pedir el TIE nuevo.",
+          "pt": "Perfeito. Assine aqui e te dou uma cópia para pedir o TIE novo."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Poner una denuncia\" significa:",
+      "options": [
+        "Registrar uma ocorrência (B.O.)",
+        "Denunciar um vizinho anonimamente",
+        "Fazer uma reclamação na loja"
+      ],
+      "correct": 0,
+      "explanation": "Denuncia = boletim de ocorrência."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Roubaram minha carteira.",
+      "answer": [
+        "Me",
+        "han",
+        "robado",
+        "la",
+        "cartera."
+      ],
+      "distractors": [
+        "roubaram",
+        "robó"
+      ],
+      "explanation": "\"Me han robado\" = me roubaram."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "La tarjeta del banco, el TIE y unos cincuenta euros.",
+      "options": [
+        "O cartão do banco, o TIE e uns cinquenta euros.",
+        "Só o celular.",
+        "O passaporte e mil euros."
+      ],
+      "correct": 0,
+      "explanation": "Liste tudo: ajuda a pedir os documentos de novo."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "denuncia",
+          "kind": "armadilha",
+          "meaning": "boletim de ocorrência",
+          "tip": "Poner una denuncia."
+        },
+        {
+          "es": "comisaría",
+          "kind": "quase",
+          "meaning": "delegacia",
+          "tip": "Comisario = delegado."
+        },
+        {
+          "es": "cartera",
+          "kind": "armadilha",
+          "meaning": "carteira",
+          "tip": "Também pasta escolar."
+        },
+        {
+          "es": "robar",
+          "kind": "quase",
+          "meaning": "roubar",
+          "tip": "Robo = roubo."
+        },
+        {
+          "es": "hurto",
+          "kind": "quase",
+          "meaning": "furto",
+          "tip": "Sem violência."
+        },
+        {
+          "es": "bloquear",
+          "kind": "igual",
+          "meaning": "bloquear",
+          "tip": "Bloquear la tarjeta."
+        },
+        {
+          "es": "copia",
+          "kind": "quase",
+          "meaning": "cópia",
+          "tip": "Sem acento."
+        },
+        {
+          "es": "testigo",
+          "kind": "armadilha",
+          "meaning": "testemunha",
+          "tip": "Não é testículo!"
+        },
+        {
+          "es": "sospechoso",
+          "kind": "quase",
+          "meaning": "suspeito",
+          "tip": "Sospechar = suspeitar."
+        },
+        {
+          "es": "extraviar",
+          "kind": "quase",
+          "meaning": "extraviar / perder",
+          "tip": "Documento extraviado."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Un testigo\" é:",
+      "options": [
+        "Uma testemunha",
+        "Um teste",
+        "Um documento"
+      ],
+      "correct": 0,
+      "explanation": "Testigo = testemunha."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Venho fazer uma denúncia.",
+      "answer": [
+        "Vengo",
+        "a",
+        "poner",
+        "una",
+        "denuncia."
+      ],
+      "distractors": [
+        "hacer",
+        "fazer"
+      ],
+      "explanation": "Na Espanha: poner una denuncia."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Perfecto. La firma aquí y le doy una copia para pedir el TIE nuevo.",
+      "options": [
+        "Perfeito. Assine aqui e te dou uma cópia para pedir o TIE novo.",
+        "Volte em um mês.",
+        "Não precisa assinar nada."
+      ],
+      "correct": 0,
+      "explanation": "A cópia da denúncia é pedida para renovar documentos."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"¿Hubo algún ___?\" (testemunha)",
+      "options": [
+        "testigo",
+        "testimonio",
+        "teste"
+      ],
+      "correct": 0,
+      "explanation": "Testigo = testemunha. Testimonio = depoimento."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Hay dos testigos.",
+          "options": [
+            "Há duas testemunhas.",
+            "Há dois testes."
+          ],
+          "correct": 0,
+          "joke": "Testigo = testemunha."
+        },
+        {
+          "spanish": "He perdido la cartera.",
+          "options": [
+            "Perdi a carteira.",
+            "Perdi a carta."
+          ],
+          "correct": 0,
+          "joke": "Cartera = carteira."
+        },
+        {
+          "spanish": "Voy a la comisaría.",
+          "options": [
+            "Vou à delegacia.",
+            "Vou à comissão."
+          ],
+          "correct": 0,
+          "joke": "Comisaría = delegacia."
+        },
+        {
+          "spanish": "Fue un hurto, sin violencia.",
+          "options": [
+            "Foi um furto, sem violência.",
+            "Foi um roubo armado."
+          ],
+          "correct": 0,
+          "joke": "Hurto = furto."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "👮",
+          "title": "Denúncia online",
+          "es": "Denuncia por internet y firma en comisaría.",
+          "pt": "Para furtos sem autor conhecido você pode começar a denúncia na Oficina Virtual da Policía Nacional, mas precisa assiná-la na delegacia escolhida em no máximo 72 horas. Na Catalunha atendem os Mossos d'Esquadra; no País Basco, a Ertzaintza. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "🇧🇷",
+          "title": "Passaporte perdido",
+          "es": "Consulado de Brasil.",
+          "pt": "Se perder o passaporte brasileiro, faça a denúncia e procure o consulado do Brasil para emitir um novo documento ou uma autorização de retorno. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}

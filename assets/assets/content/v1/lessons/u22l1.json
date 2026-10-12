@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "u22l1",
+  "title": "O contrato de aluguel",
+  "scenario": "Papelada · firma del contrato de alquiler",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 64: Antes de assinar",
+      "lines": [
+        {
+          "speaker": "Agente",
+          "es": "Este es el contrato. Son ochocientos euros al mes y un mes de fianza.",
+          "pt": "Este é o contrato. São oitocentos euros por mês e um mês de caução."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y los honorarios de la agencia? ¿Los pago yo?",
+          "pt": "E a comissão da imobiliária? Eu pago?"
+        },
+        {
+          "speaker": "Agente",
+          "es": "No, en alquiler de vivienda los paga el propietario.",
+          "pt": "Não, no aluguel de moradia quem paga é o proprietário."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Cuánto dura el contrato?",
+          "pt": "Quanto dura o contrato?"
+        },
+        {
+          "speaker": "Agente",
+          "es": "Un año, pero puedes renovarlo cada año hasta cinco años.",
+          "pt": "Um ano, mas você pode renovar todo ano até cinco anos."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Perfecto. Quiero leer bien las cláusulas antes de firmar.",
+          "pt": "Perfeito. Quero ler bem as cláusulas antes de assinar."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Quem paga a comissão da imobiliária no aluguel de moradia (contratos desde 2023)?",
+      "options": [
+        "O proprietário",
+        "O inquilino",
+        "Metade cada um"
+      ],
+      "correct": 0,
+      "explanation": "Lei 12/2023: os gastos de gestão são do arrendador."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Quanto dura o contrato?",
+      "answer": [
+        "¿Cuánto",
+        "dura",
+        "el",
+        "contrato?"
+      ],
+      "distractors": [
+        "tiempo",
+        "quanto"
+      ],
+      "explanation": "\"Durar\" = durar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "No, en alquiler de vivienda los paga el propietario.",
+      "options": [
+        "Não, no aluguel de moradia quem paga é o proprietário.",
+        "Sim, você paga dois meses.",
+        "Não, é grátis para todos."
+      ],
+      "correct": 0,
+      "explanation": "Vale para contratos de moradia habitual firmados desde 26/05/2023."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "arrendador",
+          "kind": "quase",
+          "meaning": "locador",
+          "tip": "Quem aluga o imóvel."
+        },
+        {
+          "es": "arrendatario",
+          "kind": "quase",
+          "meaning": "locatário / inquilino",
+          "tip": "Quem mora."
+        },
+        {
+          "es": "honorarios",
+          "kind": "quase",
+          "meaning": "honorários / comissão",
+          "tip": "Honorarios de agencia."
+        },
+        {
+          "es": "renovar",
+          "kind": "igual",
+          "meaning": "renovar",
+          "tip": "Igual!"
+        },
+        {
+          "es": "prórroga",
+          "kind": "armadilha",
+          "meaning": "prorrogação",
+          "tip": "Não é prorrogativa."
+        },
+        {
+          "es": "aval",
+          "kind": "quase",
+          "meaning": "fiador / garantia",
+          "tip": "Aval bancario."
+        },
+        {
+          "es": "inventario",
+          "kind": "quase",
+          "meaning": "inventário",
+          "tip": "Lista dos móveis."
+        },
+        {
+          "es": "desperfecto",
+          "kind": "armadilha",
+          "meaning": "dano / estrago",
+          "tip": "Não é \"desperfeito\"."
+        },
+        {
+          "es": "rescindir",
+          "kind": "quase",
+          "meaning": "rescindir",
+          "tip": "Romper o contrato."
+        },
+        {
+          "es": "preaviso",
+          "kind": "quase",
+          "meaning": "aviso prévio",
+          "tip": "Com 30 dias de preaviso."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Desperfectos\" no piso são:",
+      "options": [
+        "Danos / estragos",
+        "Coisas perfeitas",
+        "Móveis novos"
+      ],
+      "correct": 0,
+      "explanation": "A caução cobre desperfectos."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Quero ler bem antes de assinar.",
+      "answer": [
+        "Quiero",
+        "leer",
+        "bien",
+        "antes",
+        "de",
+        "firmar."
+      ],
+      "distractors": [
+        "assinar",
+        "leyer"
+      ],
+      "explanation": "\"Firmar\" = assinar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Un año, pero puedes renovarlo cada año hasta cinco años.",
+      "options": [
+        "Um ano, mas você pode renovar todo ano até cinco anos.",
+        "Cinco anos sem poder sair.",
+        "Um mês só."
+      ],
+      "correct": 0,
+      "explanation": "Com proprietário pessoa física, prorrogação obrigatória até 5 anos (7 se for empresa)."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Hay que avisar con 30 días de ___.\" (aviso prévio)",
+      "options": [
+        "preaviso",
+        "preavisión",
+        "prévio"
+      ],
+      "correct": 0,
+      "explanation": "Preaviso = aviso prévio."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "El piso tiene desperfectos.",
+          "options": [
+            "O apartamento tem danos.",
+            "O apartamento é imperfeito de propósito."
+          ],
+          "correct": 0,
+          "joke": "Desperfecto = estrago."
+        },
+        {
+          "spanish": "Pido una prórroga del contrato.",
+          "options": [
+            "Peço uma prorrogação do contrato.",
+            "Peço uma prerrogativa do contrato."
+          ],
+          "correct": 0,
+          "joke": "Prórroga = prorrogação."
+        },
+        {
+          "spanish": "El arrendador paga la agencia.",
+          "options": [
+            "O locador paga a imobiliária.",
+            "O inquilino paga a imobiliária."
+          ],
+          "correct": 0,
+          "joke": "Arrendador = quem aluga."
+        },
+        {
+          "spanish": "Necesito un aval bancario.",
+          "options": [
+            "Preciso de uma garantia bancária.",
+            "Preciso de um aval do banco para viajar."
+          ],
+          "correct": 0,
+          "joke": "Aval = garantia."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "🏠",
+          "title": "Caução e garantias",
+          "es": "Un mes de fianza.",
+          "pt": "Para moradia habitual, a fiança legal é de 1 mês de aluguel; podem pedir garantias extras de no máximo 2 meses. Desde 2023 a comissão da imobiliária é paga pelo proprietário. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "📅",
+          "title": "Duração",
+          "es": "Prórroga hasta cinco años.",
+          "pt": "Contratos de moradia desde 2019: se pactuados por menos, prorrogam-se ano a ano até 5 anos (7 se o proprietário for empresa), salvo se o inquilino avisar que sai. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}

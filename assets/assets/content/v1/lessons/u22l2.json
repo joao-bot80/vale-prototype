@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "u22l2",
+  "title": "Luz e gás",
+  "scenario": "Papelada · llamada a la comercializadora",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 65: Mudar a titularidade",
+      "lines": [
+        {
+          "speaker": "Operadora",
+          "es": "Compañía eléctrica, buenos días. ¿En qué puedo ayudarte?",
+          "pt": "Companhia elétrica, bom dia. Em que posso ajudar?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Hola. Me he mudado y quiero cambiar el titular de la luz.",
+          "pt": "Olá. Me mudei e quero mudar o titular da luz."
+        },
+        {
+          "speaker": "Operadora",
+          "es": "Necesito el CUPS, que viene en la factura anterior, y tu NIE.",
+          "pt": "Preciso do CUPS, que vem na conta anterior, e do seu NIE."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Vale. ¿Y cuánta potencia tengo contratada?",
+          "pt": "Beleza. E quanta potência tenho contratada?"
+        },
+        {
+          "speaker": "Operadora",
+          "es": "Tres coma cuatro kilovatios. Si se te va la luz a menudo, puedes subirla.",
+          "pt": "Três vírgula quatro quilowatts. Se a luz cair com frequência, você pode aumentar."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Perfecto. ¿Y la factura llega cada mes?",
+          "pt": "Perfeito. E a conta chega todo mês?"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Se va la luz\" significa:",
+      "options": [
+        "A luz cai / acaba a energia",
+        "A luz vai embora para sempre",
+        "A conta de luz vence"
+      ],
+      "correct": 0,
+      "explanation": "Irse la luz = queda de energia."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Quero mudar o titular da luz.",
+      "answer": [
+        "Quiero",
+        "cambiar",
+        "el",
+        "titular",
+        "de",
+        "la",
+        "luz."
+      ],
+      "distractors": [
+        "mudar",
+        "titularidad"
+      ],
+      "explanation": "\"Cambiar\" = mudar (algo). Mudarse = mudar de casa."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Necesito el CUPS, que viene en la factura anterior, y tu NIE.",
+      "options": [
+        "Preciso do CUPS, que vem na conta anterior, e do seu NIE.",
+        "Preciso do seu passaporte e de uma foto.",
+        "Não preciso de nada."
+      ],
+      "correct": 0,
+      "explanation": "CUPS = código único do ponto de fornecimento."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "consumo",
+          "kind": "quase",
+          "meaning": "consumo",
+          "tip": "Consumo en kWh."
+        },
+        {
+          "es": "kilovatio",
+          "kind": "quase",
+          "meaning": "quilowatt",
+          "tip": "Potencia en kilovatios."
+        },
+        {
+          "es": "alta de suministro",
+          "kind": "quase",
+          "meaning": "ligação do serviço",
+          "tip": "Dar de alta la luz."
+        },
+        {
+          "es": "potencia",
+          "kind": "quase",
+          "meaning": "potência",
+          "tip": "Potencia contratada."
+        },
+        {
+          "es": "contador",
+          "kind": "armadilha",
+          "meaning": "medidor / relógio",
+          "tip": "Não é contador (contable)!"
+        },
+        {
+          "es": "lectura",
+          "kind": "armadilha",
+          "meaning": "leitura do medidor",
+          "tip": "Lectura del contador."
+        },
+        {
+          "es": "comercializadora",
+          "kind": "quase",
+          "meaning": "fornecedora de energia",
+          "tip": "Quem te cobra."
+        },
+        {
+          "es": "tarifa",
+          "kind": "igual",
+          "meaning": "tarifa",
+          "tip": "Igual!"
+        },
+        {
+          "es": "butano",
+          "kind": "quase",
+          "meaning": "botijão de gás",
+          "tip": "La bombona de butano."
+        },
+        {
+          "es": "enchufe",
+          "kind": "armadilha",
+          "meaning": "tomada",
+          "tip": "Não é enchufe de água!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"El contador\" da luz é:",
+      "options": [
+        "O medidor (relógio de luz)",
+        "O contador da empresa",
+        "O contato"
+      ],
+      "correct": 0,
+      "explanation": "Contador = medidor."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Me mudei.",
+      "answer": [
+        "Me",
+        "he",
+        "mudado."
+      ],
+      "distractors": [
+        "cambiado",
+        "mudé"
+      ],
+      "explanation": "\"Mudarse\" = mudar de casa."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Tres coma cuatro kilovatios. Si se te va la luz a menudo, puedes subirla.",
+      "options": [
+        "Três vírgula quatro quilowatts. Se a luz cair com frequência, você pode aumentar.",
+        "Dez quilowatts, não dá para mudar.",
+        "Não sei, ligue amanhã."
+      ],
+      "correct": 0,
+      "explanation": "Mais potência = mais cara a parte fixa."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"¿Dónde hay un ___ para cargar el móvil?\" (tomada)",
+      "options": [
+        "enchufe",
+        "tomada",
+        "enchufo"
+      ],
+      "correct": 0,
+      "explanation": "Enchufe = tomada."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Vienen a leer el contador.",
+          "options": [
+            "Vêm fazer a leitura do medidor.",
+            "Vêm ler um conto."
+          ],
+          "correct": 0,
+          "joke": "Leer el contador = leitura do medidor."
+        },
+        {
+          "spanish": "Mira el contador.",
+          "options": [
+            "Olha o medidor.",
+            "Olha o contador da empresa."
+          ],
+          "correct": 0,
+          "joke": "Contador = medidor."
+        },
+        {
+          "spanish": "No hay ningún enchufe.",
+          "options": [
+            "Não tem nenhuma tomada.",
+            "Não tem nenhum encaixe."
+          ],
+          "correct": 0,
+          "joke": "Enchufe = tomada."
+        },
+        {
+          "spanish": "Ha llegado la factura del gas.",
+          "options": [
+            "Chegou a conta do gás.",
+            "Chegou a fatura do cartão."
+          ],
+          "correct": 0,
+          "joke": "Factura = conta."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "💡",
+          "title": "Mercado livre ou PVPC",
+          "es": "¿Tarifa regulada o libre?",
+          "pt": "Na Espanha você escolhe a comercializadora. Existe a tarifa regulada (PVPC), com preço por hora, e ofertas do mercado livre, com preço fixo. Compare antes de assinar. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "🔌",
+          "title": "Mudança de titular",
+          "es": "Cambio de titular con el CUPS.",
+          "pt": "Para trocar o titular normalmente basta o CUPS (na conta), seu NIE/passaporte e IBAN. Mudar de titular não exige trocar o medidor. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}
