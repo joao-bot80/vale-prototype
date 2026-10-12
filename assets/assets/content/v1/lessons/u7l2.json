@@ -20,23 +20,23 @@
         },
         {
           "speaker": "Lu",
-          "es": "¡Vaya! ¿Y para mañana por la mañana?",
-          "pt": "Poxa! E para amanhã de manhã?"
+          "es": "¡Vaya! ¿Y para mañana?",
+          "pt": "Poxa! E para amanhã?"
         },
         {
           "speaker": "Taquillera",
-          "es": "Sí, quedan para las diez. Los Palacios Nazaríes tienen hora fija.",
-          "pt": "Sim, tem para as dez. Os Palácios Nasridas têm horário fixo."
+          "es": "En taquilla solo vendemos para hoy. Para mañana, cómprala en la web oficial.",
+          "pt": "Na bilheteria só vendemos para hoje. Para amanhã, compre no site oficial."
         },
         {
           "speaker": "Lu",
-          "es": "Vale, una entrada general para mañana a las diez.",
-          "pt": "Beleza, um ingresso geral para amanhã às dez."
+          "es": "Vale, la compro ahora en el móvil.",
+          "pt": "Beleza, compro agora no celular."
         },
         {
           "speaker": "Taquillera",
-          "es": "Muy bien. Necesito tu pasaporte o tu NIE.",
-          "pt": "Muito bem. Preciso do seu passaporte ou NIE."
+          "es": "Los Palacios Nazaríes tienen hora fija. Y trae tu pasaporte o tu NIE.",
+          "pt": "Os Palácios Nasridas têm horário fixo. E traga seu passaporte ou NIE."
         }
       ]
     },
@@ -257,7 +257,7 @@
           "emoji": "🏰",
           "title": "A Alhambra",
           "es": "La Alhambra es preciosa.",
-          "pt": "Complexo de palácios e fortaleza construído pelos reis nasridas. É dos monumentos mais visitados da Espanha: os ingressos esgotam, então compre no site oficial com antecedência."
+          "pt": "Complexo de palácios e fortaleza construído pelos reis nasridas. Os ingressos são nominais (leve documento original), a entrada nos Palácios Nasridas é só no horário marcado, e a bilheteria vende apenas para o mesmo dia. Compre no site oficial com antecedência."
         },
         {
           "emoji": "🫒",

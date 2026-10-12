@@ -20,8 +20,8 @@
         },
         {
           "speaker": "Cajero",
-          "es": "Cinco céntimos. ¿Tienes la tarjeta de socio?",
-          "pt": "Cinco centavos. Tem o cartão de cliente?"
+          "es": "Quince céntimos. ¿Tienes la tarjeta de socio?",
+          "pt": "Quinze centavos. Tem o cartão de cliente?"
         },
         {
           "speaker": "Lu",
@@ -253,7 +253,7 @@
           "emoji": "🕒",
           "title": "Domingo é dia de fechar",
           "es": "¿A qué hora cierra el súper?",
-          "pt": "Supermercados costumam abrir das 9h às 21h ou 21h30. Aos domingos, a maioria fecha na Catalunha. Planeje as compras no sábado!"
+          "pt": "Supermercados costumam abrir das 9h às 21h ou 21h30. Na Catalunha, os supermercados grandes só podem abrir em poucos domingos e feriados por ano, então a maioria fecha aos domingos (lojinhas de bairro e de conveniência costumam abrir). Planeje as compras no sábado!"
         },
         {
           "emoji": "🏷️",

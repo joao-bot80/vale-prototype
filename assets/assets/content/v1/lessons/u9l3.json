@@ -15,8 +15,8 @@
         },
         {
           "speaker": "Señor",
-          "es": "Puedes coger el tranvía o el autobús de la EMT.",
-          "pt": "Você pode pegar o bonde ou o ônibus da EMT."
+          "es": "Puedes coger el autobús diecinueve de la EMT.",
+          "pt": "Você pode pegar o ônibus 19 da EMT."
         },
         {
           "speaker": "Lu",
@@ -25,8 +25,8 @@
         },
         {
           "speaker": "Señor",
-          "es": "En las máquinas de la estación. Es muy fácil.",
-          "pt": "Nas máquinas da estação. É muito fácil."
+          "es": "En las máquinas del metro o en un estanco. Es muy fácil.",
+          "pt": "Nas máquinas do metrô ou numa tabacaria. É muito fácil."
         },
         {
           "speaker": "Lu",
@@ -35,8 +35,8 @@
         },
         {
           "speaker": "Señor",
-          "es": "Unas ocho. Bájate en la última.",
-          "pt": "Umas oito. Desce na última."
+          "es": "Bastantes. Bájate en la última, en la Malvarrosa.",
+          "pt": "Várias. Desce na última, na Malvarrosa."
         }
       ]
     },
@@ -74,14 +74,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Puedes coger el tranvía o el autobús de la EMT.",
+      "spanish": "Puedes coger el autobús diecinueve de la EMT.",
       "options": [
-        "Você pode pegar o bonde ou o ônibus da EMT.",
+        "Você pode pegar o ônibus 19 da EMT.",
         "Você precisa pegar um táxi.",
-        "O metrô não vai para a praia."
+        "O ônibus 19 não vai para a praia."
       ],
       "correct": 0,
-      "explanation": "EMT = empresa de ônibus urbanos de Valencia. \"Tranvía\" = bonde/VLT."
+      "explanation": "EMT = empresa de ônibus urbanos de Valencia. A linha 19 vai da Estació del Nord (Xàtiva) até a Malvarrosa."
     },
     {
       "type": "swipe",
@@ -183,14 +183,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "En las máquinas de la estación. Es muy fácil.",
+      "spanish": "En las máquinas del metro o en un estanco. Es muy fácil.",
       "options": [
-        "Nas máquinas da estação. É muito fácil.",
+        "Nas máquinas do metrô ou numa tabacaria. É muito fácil.",
         "Na bilheteria do centro. É difícil.",
         "Só pelo aplicativo."
       ],
       "correct": 0,
-      "explanation": "\"Fácil\" = fácil."
+      "explanation": "O cartão SUMA se recarrega nas máquinas do metrô, em estancos (tabacarias) e quiosques."
     },
     {
       "type": "choice",
@@ -256,7 +256,7 @@
           "emoji": "🚇",
           "title": "Metrovalencia",
           "es": "Me bajo en la parada de la playa.",
-          "pt": "Valencia tem metrô e bonde (Metrovalencia) e ônibus urbanos da EMT. Os nomes de estações aparecem em valenciano, por exemplo \"Xàtiva\" e \"Platja\" (praia)."
+          "pt": "Valencia tem metrô e bonde (Metrovalencia) e ônibus urbanos da EMT. Com o cartão SUMA você usa todos eles e pode fazer baldeação. Os nomes de estações aparecem em valenciano, por exemplo \"Xàtiva\" e \"Platja de la Malva-rosa\" (praia)."
         },
         {
           "emoji": "🏖️",
