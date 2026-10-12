@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "u11l3",
+  "title": "Saúde e carteira de motorista",
+  "scenario": "Madrid · centro de salud y Jefatura de Tráfico",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 33: Últimos papéis",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Quiero registrarme en el centro de salud. ¿Qué necesito?",
+          "pt": "Quero me registrar no centro de saúde. Do que preciso?"
+        },
+        {
+          "speaker": "Administrativa",
+          "es": "Normalmente, el empadronamiento, tu documento y estar dado de alta en la Seguridad Social.",
+          "pt": "Normalmente, o empadronamiento, seu documento e estar inscrito na Seguridad Social."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Vale. Otra pregunta: ¿puedo conducir con mi carné brasileño?",
+          "pt": "Beleza. Outra pergunta: posso dirigir com minha carteira brasileira?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí, pero solo seis meses desde que eres residente. Después hay que hacer el canje.",
+          "pt": "Sim, mas só seis meses depois que você vira residente. Depois é preciso fazer a troca."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Tengo que hacer el examen otra vez?",
+          "pt": "Tenho que fazer a prova de novo?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Para coche, no. Brasil tiene convenio con España.",
+          "pt": "Para carro, não. O Brasil tem convênio com a Espanha."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que é o \"canje\" da carteira?",
+      "options": [
+        "Trocar a carteira brasileira por uma espanhola",
+        "Renovar a carteira no Brasil",
+        "Fazer autoescola de novo"
+      ],
+      "correct": 0,
+      "explanation": "Canje = troca. Brasil tem convênio com a Espanha desde 2009."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Posso dirigir com minha carteira brasileira?",
+      "answer": [
+        "¿Puedo",
+        "conducir",
+        "con",
+        "mi",
+        "carné",
+        "brasileño?"
+      ],
+      "distractors": [
+        "dirigir",
+        "carteira"
+      ],
+      "explanation": "\"Conducir\" = dirigir. \"Carné de conducir\" = carteira de motorista."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, pero solo seis meses desde que eres residente. Después hay que hacer el canje.",
+      "options": [
+        "Sim, mas só seis meses depois que você vira residente. Depois é preciso fazer a troca.",
+        "Sim, pode dirigir para sempre.",
+        "Não, precisa tirar outra carteira já."
+      ],
+      "correct": 0,
+      "explanation": "A carteira estrangeira vale até 6 meses após a residência normal."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "conducir",
+          "kind": "armadilha",
+          "meaning": "dirigir",
+          "tip": "Conduzir também, mas \"dirigir\" em espanhol é dirigir uma empresa."
+        },
+        {
+          "es": "coche",
+          "kind": "armadilha",
+          "meaning": "carro",
+          "tip": "Não é coche de cavalo: é o carro."
+        },
+        {
+          "es": "canje",
+          "kind": "quase",
+          "meaning": "troca",
+          "tip": "Canjear = trocar."
+        },
+        {
+          "es": "examen",
+          "kind": "quase",
+          "meaning": "prova / exame",
+          "tip": "Examen práctico = prova prática."
+        },
+        {
+          "es": "autoescuela",
+          "kind": "quase",
+          "meaning": "autoescola",
+          "tip": "Junto, sem hífen."
+        },
+        {
+          "es": "multa",
+          "kind": "igual",
+          "meaning": "multa",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "aparcar",
+          "kind": "armadilha",
+          "meaning": "estacionar",
+          "tip": "Aparcamiento = estacionamento."
+        },
+        {
+          "es": "tráfico",
+          "kind": "quase",
+          "meaning": "trânsito",
+          "tip": "DGT = Dirección General de Tráfico."
+        },
+        {
+          "es": "volante",
+          "kind": "armadilha",
+          "meaning": "volante / comprovante",
+          "tip": "Também é o \"volante\" do padrón!"
+        },
+        {
+          "es": "seguro",
+          "kind": "quase",
+          "meaning": "seguro",
+          "tip": "Seguro del coche = seguro do carro."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"No se puede aparcar aquí\" significa:",
+      "options": [
+        "Não pode estacionar aqui",
+        "Não pode parar de andar aqui",
+        "Não pode aparecer aqui"
+      ],
+      "correct": 0,
+      "explanation": "\"Aparcar\" = estacionar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Preciso fazer a troca da carteira.",
+      "answer": [
+        "Necesito",
+        "hacer",
+        "el",
+        "canje",
+        "del",
+        "carné."
+      ],
+      "distractors": [
+        "cambio",
+        "carteira"
+      ],
+      "explanation": "\"Canje\" é a palavra oficial da DGT."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Para coche, no. Brasil tiene convenio con España.",
+      "options": [
+        "Para carro, não. O Brasil tem convênio com a Espanha.",
+        "Para carro, sim, prova teórica.",
+        "O Brasil não tem convênio."
+      ],
+      "correct": 0,
+      "explanation": "Para carro e moto (A e B), o canje da carteira brasileira é sem prova; para caminhão e ônibus há provas."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Me han puesto una ___ por aparcar mal.\"",
+      "options": [
+        "multa",
+        "multo",
+        "pena"
+      ],
+      "correct": 0,
+      "explanation": "\"Multa\" = multa."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Aparca el coche ahí.",
+          "options": [
+            "Estaciona o carro aí.",
+            "Aparece com o coche aí."
+          ],
+          "correct": 0,
+          "joke": "Aparcar = estacionar; coche = carro."
+        },
+        {
+          "spanish": "Conduzco todos los días.",
+          "options": [
+            "Dirijo todos os dias.",
+            "Conduzo uma orquestra todos os dias."
+          ],
+          "correct": 0,
+          "joke": "Conducir = dirigir (carro)."
+        },
+        {
+          "spanish": "Necesito el volante de empadronamiento.",
+          "options": [
+            "Preciso do comprovante de empadronamiento.",
+            "Preciso do volante do carro."
+          ],
+          "correct": 0,
+          "joke": "Volante = comprovante (no padrón)."
+        },
+        {
+          "spanish": "Hay mucho tráfico hoy.",
+          "options": [
+            "Tem muito trânsito hoje.",
+            "Tem muito tráfico de drogas hoje."
+          ],
+          "correct": 0,
+          "joke": "Tráfico = trânsito."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "🩺",
+          "title": "Tarjeta sanitaria",
+          "es": "Pide tu tarjeta sanitaria en el centro de salud.",
+          "pt": "Para ter médico de família na saúde pública, em geral é preciso empadronamiento e estar inscrito na Seguridad Social (ou ter outro direito reconhecido). O procedimento muda por comunidade autônoma. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "🚗",
+          "title": "Canje da carteira",
+          "es": "Brasil tiene convenio de canje con España.",
+          "pt": "A carteira brasileira vale só 6 meses a partir da residência normal. Depois, faça o canje na DGT: para carro/moto é sem prova, mas a DGT primeiro verifica a carteira com o Brasil e há exame médico (psicotécnico) e taxa. Só vale para carteiras tiradas antes de virar residente. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}

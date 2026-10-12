@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "u10l2",
+  "title": "Huellas e TIE",
+  "scenario": "Madrid · comisaría de policía, oficina de extranjería",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 29: Dia das digitais",
+      "lines": [
+        {
+          "speaker": "Policía",
+          "es": "Buenos días. ¿Trae el formulario EX-17 y la tasa pagada?",
+          "pt": "Bom dia. Trouxe o formulário EX-17 e a taxa paga?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Sí, aquí tiene el EX-17, el justificante del 790 y mi pasaporte.",
+          "pt": "Sim, aqui está o EX-17, o comprovante do 790 e meu passaporte."
+        },
+        {
+          "speaker": "Policía",
+          "es": "¿Y la foto?",
+          "pt": "E a foto?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Aquí está: fondo blanco, tamaño carné.",
+          "pt": "Aqui está: fundo branco, tamanho 3x4."
+        },
+        {
+          "speaker": "Policía",
+          "es": "Muy bien. Ponga el dedo índice aquí. Ahora el otro.",
+          "pt": "Muito bem. Coloque o dedo indicador aqui. Agora o outro."
+        },
+        {
+          "speaker": "Policía",
+          "es": "Listo. La tarjeta tarda unas semanas. Para recogerla, pida otra cita.",
+          "pt": "Pronto. O cartão demora algumas semanas. Para retirá-lo, peça outro agendamento."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que é o \"790 código 012\"?",
+      "options": [
+        "O formulário para pagar a taxa da TIE/NIE",
+        "O número da sala",
+        "O código postal da comisaría"
+      ],
+      "correct": 0,
+      "explanation": "O modelo 790 código 012 é a taxa de extranjería da Polícia. Em 2026, a primeira TIE custa 16,08 €."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Aqui está o comprovante da taxa.",
+      "answer": [
+        "Aquí",
+        "tiene",
+        "el",
+        "justificante",
+        "de",
+        "la",
+        "tasa."
+      ],
+      "distractors": [
+        "comprobante",
+        "taxa"
+      ],
+      "explanation": "\"Justificante\" = comprovante."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Ponga el dedo índice aquí. Ahora el otro.",
+      "options": [
+        "Coloque o dedo indicador aqui. Agora o outro.",
+        "Assine aqui. Agora a outra página.",
+        "Olhe para a câmera. Agora sorria."
+      ],
+      "correct": 0,
+      "explanation": "\"Dedo índice\" = indicador. \"Ponga\" = coloque (usted)."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "tasa",
+          "kind": "armadilha",
+          "meaning": "taxa",
+          "tip": "Não é taça (\"copa\")!"
+        },
+        {
+          "es": "justificante",
+          "kind": "armadilha",
+          "meaning": "comprovante",
+          "tip": "Justificativa é \"justificación\"."
+        },
+        {
+          "es": "caducado",
+          "kind": "armadilha",
+          "meaning": "vencido",
+          "tip": "Pasaporte caducado = passaporte vencido."
+        },
+        {
+          "es": "dedo",
+          "kind": "igual",
+          "meaning": "dedo",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "sobre",
+          "kind": "armadilha",
+          "meaning": "envelope",
+          "tip": "Também significa \"sobre\" (acerca de)."
+        },
+        {
+          "es": "fondo",
+          "kind": "quase",
+          "meaning": "fundo",
+          "tip": "Fondo blanco = fundo branco."
+        },
+        {
+          "es": "carné",
+          "kind": "quase",
+          "meaning": "carteirinha",
+          "tip": "\"Tamaño carné\" = tamanho 3x4."
+        },
+        {
+          "es": "recoger",
+          "kind": "armadilha",
+          "meaning": "retirar / buscar",
+          "tip": "Não é recolher-se: recoger la tarjeta = retirar o cartão."
+        },
+        {
+          "es": "fotocopia",
+          "kind": "quase",
+          "meaning": "fotocópia / xerox",
+          "tip": "Leve sempre cópias!"
+        },
+        {
+          "es": "ventanilla",
+          "kind": "armadilha",
+          "meaning": "guichê",
+          "tip": "Não é janelinha de carro, aqui é guichê."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Para recogerla, pida otra cita\" significa:",
+      "options": [
+        "Para retirá-la, peça outro agendamento",
+        "Para recolhê-la, volte amanhã",
+        "Para assiná-la, faça outra foto"
+      ],
+      "correct": 0,
+      "explanation": "\"Recoger\" = retirar, buscar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "A foto tem fundo branco.",
+      "answer": [
+        "La",
+        "foto",
+        "tiene",
+        "fondo",
+        "blanco."
+      ],
+      "distractors": [
+        "fundo",
+        "branco"
+      ],
+      "explanation": "\"Fondo\" = fundo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Listo. La tarjeta tarda unas semanas. Para recogerla, pida otra cita.",
+      "options": [
+        "Pronto. O cartão demora algumas semanas. Para retirá-lo, peça outro agendamento.",
+        "Pronto. O cartão sai hoje mesmo.",
+        "O cartão foi negado, peça outra cita."
+      ],
+      "correct": 0,
+      "explanation": "\"Listo\" = pronto (terminado)."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Firme ___, por favor.\"",
+      "options": [
+        "aquí",
+        "acá",
+        "aqui"
+      ],
+      "correct": 0,
+      "explanation": "\"Firme aquí\" = assine aqui. Firma = assinatura!"
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Hay que pagar la tasa.",
+          "options": [
+            "É preciso pagar a taxa.",
+            "É preciso pagar a taça."
+          ],
+          "correct": 0,
+          "joke": "Tasa = taxa."
+        },
+        {
+          "spanish": "Su firma, por favor.",
+          "options": [
+            "Sua assinatura, por favor.",
+            "Sua empresa, por favor."
+          ],
+          "correct": 0,
+          "joke": "Firma = assinatura."
+        },
+        {
+          "spanish": "Vaya a la ventanilla tres.",
+          "options": [
+            "Vá ao guichê três.",
+            "Vá à janela três."
+          ],
+          "correct": 0,
+          "joke": "Ventanilla = guichê."
+        },
+        {
+          "spanish": "Traiga el justificante.",
+          "options": [
+            "Traga o comprovante.",
+            "Traga a justificativa."
+          ],
+          "correct": 0,
+          "joke": "Justificante = comprovante."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "🪪",
+          "title": "NIE e TIE",
+          "es": "El NIE es tu número; la TIE es la tarjeta.",
+          "pt": "NIE = número de identidade de estrangeiro. TIE = o cartão físico, para quem tem autorização de mais de seis meses; deve ser pedida pessoalmente em até um mês após a entrada ou a concessão. Leve EX-17, passaporte, foto e a taxa 790-012 (16,08 € a primeira TIE em 2026). ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "💶",
+          "title": "Modelo 790-012",
+          "es": "La tasa se paga en el banco antes de la cita.",
+          "pt": "O impresso da taxa 790 código 012 se gera na sede eletrônica da Polícia e se paga em banco ou online antes da cita. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}

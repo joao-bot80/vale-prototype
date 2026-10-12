@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u11l1",
+  "title": "Abrindo conta no banco",
+  "scenario": "Madrid · sucursal bancaria",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 31: No banco",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Hola, quiero abrir una cuenta corriente.",
+          "pt": "Oi, quero abrir uma conta corrente."
+        },
+        {
+          "speaker": "Empleado",
+          "es": "Muy bien. ¿Tiene NIE y es residente?",
+          "pt": "Muito bem. Você tem NIE e é residente?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Sí, tengo la TIE y el certificado de empadronamiento.",
+          "pt": "Sim, tenho a TIE e o certificado de empadronamiento."
+        },
+        {
+          "speaker": "Empleado",
+          "es": "Perfecto. ¿Quiere también una tarjeta de débito?",
+          "pt": "Perfeito. Quer também um cartão de débito?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Sí. ¿La cuenta tiene comisiones?",
+          "pt": "Sim. A conta tem tarifas?"
+        },
+        {
+          "speaker": "Empleado",
+          "es": "No, si domicilia la nómina. Aquí tiene su IBAN.",
+          "pt": "Não, se você receber o salário nela. Aqui está seu IBAN."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Domiciliar la nómina\" significa:",
+      "options": [
+        "Receber o salário nessa conta",
+        "Mudar de endereço",
+        "Pagar a conta de luz"
+      ],
+      "correct": 0,
+      "explanation": "\"Nómina\" = salário/holerite. \"Domiciliar\" = vincular à conta (também contas: luz, água)."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Quero abrir uma conta corrente.",
+      "answer": [
+        "Quiero",
+        "abrir",
+        "una",
+        "cuenta",
+        "corriente."
+      ],
+      "distractors": [
+        "conta",
+        "corrente"
+      ],
+      "explanation": "\"Cuenta\" = conta. \"Corriente\" = corrente."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "No, si domicilia la nómina. Aquí tiene su IBAN.",
+      "options": [
+        "Não, se você receber o salário nela. Aqui está seu IBAN.",
+        "Sim, tem tarifa todo mês.",
+        "Não, mas precisa de fiador."
+      ],
+      "correct": 0,
+      "explanation": "O IBAN espanhol começa com \"ES\" e tem 24 caracteres."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "hipoteca",
+          "kind": "quase",
+          "meaning": "financiamento imobiliário",
+          "tip": "Hipoteca = empréstimo para comprar casa."
+        },
+        {
+          "es": "sucursal",
+          "kind": "quase",
+          "meaning": "agência bancária",
+          "tip": "Sucursal = agência/filial."
+        },
+        {
+          "es": "ahorro",
+          "kind": "quase",
+          "meaning": "poupança",
+          "tip": "Cuenta de ahorro = poupança."
+        },
+        {
+          "es": "préstamo",
+          "kind": "armadilha",
+          "meaning": "empréstimo",
+          "tip": "Prestação é \"cuota\" ou \"plazo\"."
+        },
+        {
+          "es": "cajero",
+          "kind": "armadilha",
+          "meaning": "caixa eletrônico",
+          "tip": "O caixa (pessoa) também é \"cajero\"."
+        },
+        {
+          "es": "comisión",
+          "kind": "quase",
+          "meaning": "tarifa / comissão",
+          "tip": "Banco cobra \"comisiones\"."
+        },
+        {
+          "es": "transferencia",
+          "kind": "quase",
+          "meaning": "transferência",
+          "tip": "Quase igual."
+        },
+        {
+          "es": "moneda",
+          "kind": "quase",
+          "meaning": "moeda",
+          "tip": "Dinheiro em geral = \"dinero\"."
+        },
+        {
+          "es": "recibo",
+          "kind": "quase",
+          "meaning": "conta / boleto",
+          "tip": "O \"recibo de la luz\" = conta de luz."
+        },
+        {
+          "es": "titular",
+          "kind": "igual",
+          "meaning": "titular",
+          "tip": "Igualzinho!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¿Puedo pagar en efectivo?\" pergunta se:",
+      "options": [
+        "Pode pagar em dinheiro",
+        "Pode pagar agora",
+        "Pode pagar parcelado"
+      ],
+      "correct": 0,
+      "explanation": "\"Efectivo\" = dinheiro vivo."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Onde tem um caixa eletrônico?",
+      "answer": [
+        "¿Dónde",
+        "hay",
+        "un",
+        "cajero?"
+      ],
+      "distractors": [
+        "caja",
+        "eletrónico"
+      ],
+      "explanation": "\"Cajero (automático)\" = caixa eletrônico."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, tengo la TIE y el certificado de empadronamiento.",
+      "options": [
+        "Sim, tenho a TIE e o certificado de empadronamiento.",
+        "Não, só tenho o passaporte.",
+        "Sim, mas esqueci o certificado."
+      ],
+      "correct": 0,
+      "explanation": "Com NIE você pode abrir conta de residente; sem ele, alguns bancos oferecem conta de não residente."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Necesito un ___ para comprar el coche.\" (empréstimo)",
+      "options": [
+        "préstamo",
+        "prestación",
+        "empréstimo"
+      ],
+      "correct": 0,
+      "explanation": "\"Préstamo\" = empréstimo."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Saco dinero del cajero.",
+          "options": [
+            "Tiro dinheiro do caixa eletrônico.",
+            "Tiro dinheiro do caixote."
+          ],
+          "correct": 0,
+          "joke": "Cajero = caixa eletrônico."
+        },
+        {
+          "spanish": "Pago en efectivo.",
+          "options": [
+            "Pago em dinheiro.",
+            "Pago efetivamente."
+          ],
+          "correct": 0,
+          "joke": "Efectivo = dinheiro vivo."
+        },
+        {
+          "spanish": "He pedido un préstamo.",
+          "options": [
+            "Pedi um empréstimo.",
+            "Pedi uma prestação."
+          ],
+          "correct": 0,
+          "joke": "Préstamo = empréstimo."
+        },
+        {
+          "spanish": "Me ha llegado el recibo del agua.",
+          "options": [
+            "Chegou a conta de água.",
+            "Chegou o recibo de pagamento da água."
+          ],
+          "correct": 0,
+          "joke": "Recibo = conta a pagar."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "🏦",
+          "title": "Conta de residente",
+          "es": "Con el NIE puedes abrir una cuenta de residente.",
+          "pt": "Bancos pedem identificação (passaporte/TIE) e NIE; muitos pedem também comprovante de endereço ou de renda. Quem ainda não tem NIE pode abrir conta de não residente em alguns bancos. Condições e tarifas variam por banco. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "💳",
+          "title": "Bizum",
+          "es": "¿Te hago un Bizum?",
+          "pt": "Bizum é o sistema de pagamento instantâneo pelo celular entre contas espanholas, parecido com o Pix. Muito usado para dividir a conta. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}

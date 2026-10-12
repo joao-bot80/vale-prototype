@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "u10l1",
+  "title": "Pedindo a cita previa",
+  "scenario": "Madrid · en casa, con el portátil",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 28: De volta a Madrid",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Lino, necesito pedir cita para las huellas de la TIE.",
+          "pt": "Lino, preciso marcar horário para as digitais da TIE."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Se pide en la sede electrónica. Eliges la provincia y el trámite.",
+          "pt": "Pede-se na sede eletrônica. Você escolhe a província e o trâmite."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡No hay citas disponibles! ¿Qué hago?",
+          "pt": "Não tem horário disponível! O que eu faço?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Paciencia. Inténtalo otro día, a primera hora de la mañana.",
+          "pt": "Paciência. Tenta outro dia, logo cedo."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Ya está! Tengo cita el martes a las nueve y media.",
+          "pt": "Pronto! Tenho horário na terça às nove e meia."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Perfecto. Y recuerda: la cita es gratis. Nunca pagues por ella.",
+          "pt": "Perfeito. E lembre: o agendamento é grátis. Nunca pague por ele."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Pedir cita\" significa:",
+      "options": [
+        "Marcar um horário (agendamento)",
+        "Pedir um encontro romântico",
+        "Citar uma frase"
+      ],
+      "correct": 0,
+      "explanation": "\"Cita previa\" = agendamento prévio. Quase tudo na Espanha precisa de cita!"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Preciso marcar horário para as digitais.",
+      "answer": [
+        "Necesito",
+        "pedir",
+        "cita",
+        "para",
+        "las",
+        "huellas."
+      ],
+      "distractors": [
+        "marcar",
+        "digitales"
+      ],
+      "explanation": "\"Huellas\" = impressões digitais."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Se pide en la sede electrónica. Eliges la provincia y el trámite.",
+      "options": [
+        "Pede-se na sede eletrônica. Você escolhe a província e o trâmite.",
+        "Pede-se por telefone, só de manhã.",
+        "Você precisa ir pessoalmente para marcar."
+      ],
+      "correct": 0,
+      "explanation": "O agendamento de extranjería é feito em sede.administracionespublicas.gob.es."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "trámite",
+          "kind": "quase",
+          "meaning": "trâmite / procedimento",
+          "tip": "Muito usado: \"hacer un trámite\"."
+        },
+        {
+          "es": "cita",
+          "kind": "armadilha",
+          "meaning": "agendamento / encontro",
+          "tip": "Não é citação!"
+        },
+        {
+          "es": "huella",
+          "kind": "armadilha",
+          "meaning": "impressão digital",
+          "tip": "Também pegada (huella del pie)."
+        },
+        {
+          "es": "provincia",
+          "kind": "quase",
+          "meaning": "província",
+          "tip": "Na Espanha há 50 províncias."
+        },
+        {
+          "es": "disponible",
+          "kind": "quase",
+          "meaning": "disponível",
+          "tip": "Quase igual."
+        },
+        {
+          "es": "requisito",
+          "kind": "igual",
+          "meaning": "requisito",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "sello",
+          "kind": "quase",
+          "meaning": "carimbo / selo",
+          "tip": "Lembra \"selo\"."
+        },
+        {
+          "es": "solicitud",
+          "kind": "quase",
+          "meaning": "solicitação / requerimento",
+          "tip": "Lembra \"solicitude\"."
+        },
+        {
+          "es": "impreso",
+          "kind": "armadilha",
+          "meaning": "formulário",
+          "tip": "Não é só \"impresso\": é o formulário oficial."
+        },
+        {
+          "es": "gratis",
+          "kind": "quase",
+          "meaning": "grátis",
+          "tip": "Sem acento."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Inténtalo otro día\" significa:",
+      "options": [
+        "Tenta outro dia",
+        "Volta amanhã às dez",
+        "Esquece o trâmite"
+      ],
+      "correct": 0,
+      "explanation": "\"Intentar\" = tentar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Tenho horário na terça.",
+      "answer": [
+        "Tengo",
+        "cita",
+        "el",
+        "martes."
+      ],
+      "distractors": [
+        "horario",
+        "en"
+      ],
+      "explanation": "Com dias da semana: \"el martes\" (sem \"en\")."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "¡Ya está! Tengo cita el martes a las nueve y media.",
+      "options": [
+        "Pronto! Tenho horário na terça às nove e meia.",
+        "Já era! Perdi a cita de terça.",
+        "Pronto! A cita é na quarta às nove."
+      ],
+      "correct": 0,
+      "explanation": "\"¡Ya está!\" = pronto, consegui!"
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"El ___ para pedir la TIE es de un mes.\" (prazo)",
+      "options": [
+        "plazo",
+        "plaza",
+        "prazo"
+      ],
+      "correct": 0,
+      "explanation": "\"Plazo\" = prazo."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Tengo una cita en extranjería.",
+          "options": [
+            "Tenho um agendamento na extranjería.",
+            "Tenho uma citação na extranjería."
+          ],
+          "correct": 0,
+          "joke": "Cita = agendamento."
+        },
+        {
+          "spanish": "El plazo para pedir la TIE es de un mes.",
+          "options": [
+            "O prazo para pedir a TIE é de um mês.",
+            "A praça para pedir a TIE fica a um mês."
+          ],
+          "correct": 0,
+          "joke": "Plazo = prazo."
+        },
+        {
+          "spanish": "Rellena este impreso, por favor.",
+          "options": [
+            "Preencha este formulário, por favor.",
+            "Imprima isto, por favor."
+          ],
+          "correct": 0,
+          "joke": "Impreso = formulário."
+        },
+        {
+          "spanish": "Necesito tus huellas.",
+          "options": [
+            "Preciso das suas digitais.",
+            "Preciso das suas pegadas na areia."
+          ],
+          "correct": 0,
+          "joke": "Huellas = impressões digitais."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "📅",
+          "title": "Cita previa",
+          "es": "Hay que pedir cita previa.",
+          "pt": "Para trâmites de extranjería, a cita se pede na sede eletrônica oficial (sede.administracionespublicas.gob.es), escolhendo província e trâmite. É gratuita: desconfie de quem vende citas. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "🗂️",
+          "title": "Papelada",
+          "es": "¡Qué papeleo!",
+          "pt": "\"Papeleo\" = burocracia, papelada. Organize uma pasta com originais e cópias de tudo: passaporte, contrato, empadronamiento... ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}

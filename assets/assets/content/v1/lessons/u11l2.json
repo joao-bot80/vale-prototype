@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "id": "u11l2",
+  "title": "Número da Seguridad Social",
+  "scenario": "Madrid · oficina de la Tesorería General de la Seguridad Social",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 32: Primeiro emprego",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Me han contratado! Pero la empresa me pide el número de la Seguridad Social.",
+          "pt": "Me contrataram! Mas a empresa pede meu número da Seguridad Social."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Se pide con el modelo TA.1 y tu NIE.",
+          "pt": "Pede-se com o modelo TA.1 e seu NIE."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Tengo que ir a una oficina?",
+          "pt": "Tenho que ir a um escritório?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Puedes ir con cita o hacerlo online en Import@ss.",
+          "pt": "Você pode ir com agendamento ou fazer online no Import@ss."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y online cómo me identifico?",
+          "pt": "E online, como eu me identifico?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Con Cl@ve, certificado digital o una foto tuya con el documento.",
+          "pt": "Com Cl@ve, certificado digital ou uma selfie com o documento."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Para pedir o número da Seguridad Social você usa:",
+      "options": [
+        "O modelo TA.1",
+        "O modelo 790-012",
+        "O formulário EX-17"
+      ],
+      "correct": 0,
+      "explanation": "TA.1 = solicitação de número da Seguridad Social. O 790-012 é a taxa da Polícia."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Me contrataram!",
+      "answer": [
+        "¡Me",
+        "han",
+        "contratado!"
+      ],
+      "distractors": [
+        "contrataron",
+        "contratada"
+      ],
+      "explanation": "Pretérito perfecto: novidade de hoje/agora."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Puedes ir con cita o hacerlo online en Import@ss.",
+      "options": [
+        "Você pode ir com agendamento ou fazer online no Import@ss.",
+        "Só dá para fazer pessoalmente.",
+        "Só a empresa pode pedir."
+      ],
+      "correct": 0,
+      "explanation": "Import@ss é o portal da Seguridad Social para cidadãos."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "empresa",
+          "kind": "igual",
+          "meaning": "empresa",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "jornada",
+          "kind": "armadilha",
+          "meaning": "carga horária",
+          "tip": "Jornada completa = tempo integral."
+        },
+        {
+          "es": "jefe",
+          "kind": "armadilha",
+          "meaning": "chefe",
+          "tip": "Com j e sem \"ch\"."
+        },
+        {
+          "es": "sueldo",
+          "kind": "quase",
+          "meaning": "salário",
+          "tip": "Lembra \"soldo\"."
+        },
+        {
+          "es": "paro",
+          "kind": "armadilha",
+          "meaning": "desemprego / seguro-desemprego",
+          "tip": "Estar en paro = estar desempregado."
+        },
+        {
+          "es": "baja",
+          "kind": "armadilha",
+          "meaning": "licença médica / desligamento",
+          "tip": "Estar de baja = estar afastado."
+        },
+        {
+          "es": "alta",
+          "kind": "armadilha",
+          "meaning": "registro / inscrição",
+          "tip": "Dar de alta = registrar o trabalhador."
+        },
+        {
+          "es": "autónomo",
+          "kind": "armadilha",
+          "meaning": "trabalhador autônomo / MEI",
+          "tip": "Ser autónomo = trabalhar por conta própria."
+        },
+        {
+          "es": "plantilla",
+          "kind": "armadilha",
+          "meaning": "equipe / quadro de funcionários",
+          "tip": "Também é palmilha e modelo (template)."
+        },
+        {
+          "es": "cotizar",
+          "kind": "quase",
+          "meaning": "contribuir (INSS)",
+          "tip": "Cotizar a la Seguridad Social = contribuir."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Estoy de baja\" significa:",
+      "options": [
+        "Estou afastado (licença médica)",
+        "Estou de folga no sábado",
+        "Estou desempregado"
+      ],
+      "correct": 0,
+      "explanation": "Baja = afastamento. Desempregado = \"en paro\"."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "A empresa me deu de alta na Seguridad Social.",
+      "answer": [
+        "La",
+        "empresa",
+        "me",
+        "ha",
+        "dado",
+        "de",
+        "alta",
+        "en",
+        "la",
+        "Seguridad",
+        "Social."
+      ],
+      "distractors": [
+        "registrado",
+        "dio"
+      ],
+      "explanation": "\"Dar de alta\" = registrar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Con Cl@ve, certificado digital o una foto tuya con el documento.",
+      "options": [
+        "Com Cl@ve, certificado digital ou uma selfie com o documento.",
+        "Só com o passaporte original.",
+        "Com a senha do banco."
+      ],
+      "correct": 0,
+      "explanation": "Cl@ve é o sistema de identificação digital do governo."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Mi ___ es muy simpático.\" (chefe)",
+      "options": [
+        "jefe",
+        "chefe",
+        "jefa"
+      ],
+      "correct": 0,
+      "explanation": "\"Jefe\" = chefe; \"jefa\" = chefe (mulher)."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Mi hermano está en el paro.",
+          "options": [
+            "Meu irmão está desempregado.",
+            "Meu irmão está na parada."
+          ],
+          "correct": 0,
+          "joke": "Paro = desemprego."
+        },
+        {
+          "spanish": "Estoy de baja por gripe.",
+          "options": [
+            "Estou afastado por gripe.",
+            "Estou para baixo por gripe."
+          ],
+          "correct": 0,
+          "joke": "Baja = afastamento médico."
+        },
+        {
+          "spanish": "Somos veinte en la plantilla.",
+          "options": [
+            "Somos vinte no quadro de funcionários.",
+            "Somos vinte na planta."
+          ],
+          "correct": 0,
+          "joke": "Plantilla = equipe."
+        },
+        {
+          "spanish": "Mi sueldo llega el día uno.",
+          "options": [
+            "Meu salário chega no dia primeiro.",
+            "Meu soldo militar chega no dia um."
+          ],
+          "correct": 0,
+          "joke": "Sueldo = salário."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "🧾",
+          "title": "Número da Seguridad Social",
+          "es": "Tu número de la Seguridad Social es para toda la vida.",
+          "pt": "O NUSS identifica você na Seguridad Social e é o mesmo a vida toda. Pede-se com o modelo TA.1 e o NIE, na Tesorería (TGSS) ou online pelo Import@ss. Quando você começa a trabalhar, a empresa dá a \"alta\". ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "🔐",
+          "title": "Cl@ve",
+          "es": "Date de alta en Cl@ve.",
+          "pt": "Cl@ve é a identidade digital para trâmites online do governo espanhol. Vale muito a pena ter! ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-5",
+  "contentVersion": "2026.10.12-6",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -248,60 +248,54 @@
     {
       "id": "papelada",
       "name": "Papelada",
-      "subtitle": "De volta a Madrid",
+      "subtitle": "Burocracia sem medo",
       "emoji": "📄",
       "stampText": "PAPELADA",
-      "lon": -3.7,
-      "lat": 40.42,
+      "lon": -4.75,
+      "lat": 41.65,
       "units": [
         {
           "id": "pap-u1",
-          "title": "A cita previa",
+          "title": "Cita, TIE e padrón",
           "emoji": "📅",
           "lessons": [
             {
-              "id": "pap-u1-l1",
-              "title": "Pedindo a cita",
-              "available": false
+              "id": "u10l1",
+              "title": "Pedindo a cita previa",
+              "available": true,
+              "freeSample": true
             },
             {
-              "id": "pap-u1-l2",
-              "title": "Na fila",
-              "available": false
+              "id": "u10l2",
+              "title": "Huellas e TIE",
+              "available": true
+            },
+            {
+              "id": "u10l3",
+              "title": "Empadronamiento",
+              "available": true
             }
           ]
         },
         {
           "id": "pap-u2",
-          "title": "Empadronamiento",
-          "emoji": "🏛️",
+          "title": "Banco, trabalho e saúde",
+          "emoji": "🏦",
           "lessons": [
             {
-              "id": "pap-u2-l1",
-              "title": "Os documentos",
-              "available": false
+              "id": "u11l1",
+              "title": "Abrindo conta no banco",
+              "available": true
             },
             {
-              "id": "pap-u2-l2",
-              "title": "No ayuntamiento",
-              "available": false
-            }
-          ]
-        },
-        {
-          "id": "pap-u3",
-          "title": "NIE e TIE",
-          "emoji": "🪪",
-          "lessons": [
-            {
-              "id": "pap-u3-l1",
-              "title": "A entrevista",
-              "available": false
+              "id": "u11l2",
+              "title": "Número da Seguridad Social",
+              "available": true
             },
             {
-              "id": "pap-u3-l2",
-              "title": "Pegando o cartão",
-              "available": false
+              "id": "u11l3",
+              "title": "Saúde e carteira de motorista",
+              "available": true
             }
           ]
         }

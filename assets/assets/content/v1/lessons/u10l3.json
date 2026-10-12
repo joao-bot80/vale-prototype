@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u10l3",
+  "title": "Empadronamiento",
+  "scenario": "Madrid · oficina de atención al ciudadano del ayuntamiento",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 30: No ayuntamiento",
+      "lines": [
+        {
+          "speaker": "Funcionario",
+          "es": "Buenos días. ¿Qué trámite viene a hacer?",
+          "pt": "Bom dia. Que trâmite veio fazer?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Quiero empadronarme. Acabo de mudarme a este barrio.",
+          "pt": "Quero me registrar no padrão municipal. Acabei de me mudar para este bairro."
+        },
+        {
+          "speaker": "Funcionario",
+          "es": "¿Trae el pasaporte o la TIE y el contrato de alquiler?",
+          "pt": "Trouxe o passaporte ou a TIE e o contrato de aluguel?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Sí, aquí están. El piso está a mi nombre.",
+          "pt": "Sim, aqui estão. O apartamento está no meu nome."
+        },
+        {
+          "speaker": "Funcionario",
+          "es": "Rellene esta hoja de inscripción y fírmela abajo.",
+          "pt": "Preencha esta folha de inscrição e assine embaixo."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Me dan el certificado hoy?",
+          "pt": "Vocês me dão o certificado hoje?"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que é \"empadronarse\"?",
+      "options": [
+        "Registrar seu endereço na prefeitura",
+        "Trocar de banco",
+        "Tirar a carteira de motorista"
+      ],
+      "correct": 0,
+      "explanation": "O padrón é o registro municipal de moradores. O certificado de empadronamiento é pedido em muitos outros trâmites."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Acabei de me mudar.",
+      "answer": [
+        "Acabo",
+        "de",
+        "mudarme."
+      ],
+      "distractors": [
+        "mudé",
+        "cambié"
+      ],
+      "explanation": "\"Acabar de + infinitivo\" = acabar de fazer algo. \"Mudarse\" = mudar de casa."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "¿Trae el pasaporte o la TIE y el contrato de alquiler?",
+      "options": [
+        "Trouxe o passaporte ou a TIE e o contrato de aluguel?",
+        "Trouxe a conta de luz e o RG?",
+        "Você tem contrato de trabalho?"
+      ],
+      "correct": 0,
+      "explanation": "Documentos típicos: identificação e prova da moradia (contrato ou escritura). Cada prefeitura pode pedir algo a mais."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "ayuntamiento",
+          "kind": "armadilha",
+          "meaning": "prefeitura",
+          "tip": "Não é \"ajuntamento\"!"
+        },
+        {
+          "es": "empadronar",
+          "kind": "quase",
+          "meaning": "registrar no padrón",
+          "tip": "Vem de \"padrón\"."
+        },
+        {
+          "es": "mudarse",
+          "kind": "armadilha",
+          "meaning": "mudar de casa",
+          "tip": "Mudar (trocar algo) é \"cambiar\"."
+        },
+        {
+          "es": "padrón",
+          "kind": "quase",
+          "meaning": "registro municipal",
+          "tip": "Lembra \"padrão\"."
+        },
+        {
+          "es": "hoja",
+          "kind": "quase",
+          "meaning": "folha",
+          "tip": "\"H\" no lugar de \"f\": hoja, hacer, hablar."
+        },
+        {
+          "es": "domicilio",
+          "kind": "quase",
+          "meaning": "domicílio / endereço",
+          "tip": "Muito usado em formulários."
+        },
+        {
+          "es": "certificado",
+          "kind": "igual",
+          "meaning": "certificado",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "funcionario",
+          "kind": "quase",
+          "meaning": "funcionário público",
+          "tip": "Em espanhol, quase sempre do governo."
+        },
+        {
+          "es": "abajo",
+          "kind": "armadilha",
+          "meaning": "embaixo",
+          "tip": "Não é \"abaixo-assinado\"... mas quase: abajo = embaixo."
+        },
+        {
+          "es": "escritura",
+          "kind": "armadilha",
+          "meaning": "escritura (de imóvel)",
+          "tip": "Também é \"escrita\"."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Rellene esta hoja\" significa:",
+      "options": [
+        "Preencha esta folha",
+        "Releia esta folha",
+        "Recicle esta folha"
+      ],
+      "correct": 0,
+      "explanation": "\"Rellenar\" = preencher (formulário)."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "O apartamento está no meu nome.",
+      "answer": [
+        "El",
+        "piso",
+        "está",
+        "a",
+        "mi",
+        "nombre."
+      ],
+      "distractors": [
+        "en",
+        "apartamento"
+      ],
+      "explanation": "\"A mi nombre\" = no meu nome."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Rellene esta hoja de inscripción y fírmela abajo.",
+      "options": [
+        "Preencha esta folha de inscrição e assine embaixo.",
+        "Leve esta folha para casa.",
+        "Assine em cima e devolva amanhã."
+      ],
+      "correct": 0,
+      "explanation": "\"Fírmela\" = assine-a."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Quiero ___ en Madrid.\" (me registrar no padrón)",
+      "options": [
+        "empadronarme",
+        "empadronar",
+        "padronizar"
+      ],
+      "correct": 0,
+      "explanation": "Verbo pronominal: empadronarse."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Voy al ayuntamiento.",
+          "options": [
+            "Vou à prefeitura.",
+            "Vou a um ajuntamento."
+          ],
+          "correct": 0,
+          "joke": "Ayuntamiento = prefeitura."
+        },
+        {
+          "spanish": "Me mudo el sábado.",
+          "options": [
+            "Eu me mudo no sábado.",
+            "Eu mudo de ideia no sábado."
+          ],
+          "correct": 0,
+          "joke": "Mudarse = mudar de casa."
+        },
+        {
+          "spanish": "Firme abajo.",
+          "options": [
+            "Assine embaixo.",
+            "Assine o abaixo-assinado."
+          ],
+          "correct": 0,
+          "joke": "Abajo = embaixo."
+        },
+        {
+          "spanish": "Mis vecinos son muy majos.",
+          "options": [
+            "Meus vizinhos são muito legais.",
+            "Meus vizinhos são muito magros."
+          ],
+          "correct": 0,
+          "joke": "Majo = legal, simpático."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "🏛️",
+          "title": "El padrón",
+          "es": "Pide el volante de empadronamiento.",
+          "pt": "O empadronamiento é o registro no padrón municipal da cidade onde você mora. O \"volante\" ou \"certificado\" comprova seu endereço e é pedido para TIE, centro de saúde, escola etc. Documentos e prazos variam por prefeitura. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "🏠",
+          "title": "Sem contrato?",
+          "es": "El dueño puede autorizarte.",
+          "pt": "Se você não está no contrato, muitas prefeituras aceitam uma autorização do titular da moradia com cópia do documento dele. Confira na web do seu ayuntamiento. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}
