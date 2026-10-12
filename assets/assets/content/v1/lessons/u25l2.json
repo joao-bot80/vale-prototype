@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "id": "u25l2",
+  "title": "Subindo Montjuïc",
+  "scenario": "Barcelona · Montjuïc",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 74: A montanha olímpica",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¿Subimos andando o en teleférico?",
+          "pt": "Subimos a pé ou de teleférico?"
+        },
+        {
+          "speaker": "Marta",
+          "es": "En teleférico. Las vistas del puerto son increíbles.",
+          "pt": "De teleférico. A vista do porto é incrível."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Aquí fueron los Juegos Olímpicos?",
+          "pt": "Aqui foram os Jogos Olímpicos?"
+        },
+        {
+          "speaker": "Marta",
+          "es": "Sí, en 1992. El estadio y las piscinas están aquí.",
+          "pt": "Sim, em 1992. O estádio e as piscinas ficam aqui."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y la fuente mágica?",
+          "pt": "E a fonte mágica?"
+        },
+        {
+          "speaker": "Marta",
+          "es": "Abajo, junto a la plaza de España. Hay espectáculos de luz y música algunos días.",
+          "pt": "Lá embaixo, perto da praça de Espanha. Tem espetáculos de luz e música alguns dias."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Subir andando\" significa:",
+      "options": [
+        "Subir a pé",
+        "Subir correndo",
+        "Subir de carro"
+      ],
+      "correct": 0,
+      "explanation": "Andar = caminhar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "A vista é incrível.",
+      "answer": [
+        "Las",
+        "vistas",
+        "son",
+        "increíbles."
+      ],
+      "distractors": [
+        "vista",
+        "incríbles"
+      ],
+      "explanation": "Em espanhol se usa muito no plural: las vistas."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, en 1992. El estadio y las piscinas están aquí.",
+      "options": [
+        "Sim, em 1992. O estádio e as piscinas ficam aqui.",
+        "Não, foram em Madrid.",
+        "Sim, em 1982."
+      ],
+      "correct": 0,
+      "explanation": "Barcelona 92 transformou a cidade."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "teleférico",
+          "kind": "quase",
+          "meaning": "teleférico",
+          "tip": "Igual."
+        },
+        {
+          "es": "vistas",
+          "kind": "quase",
+          "meaning": "vista (paisagem)",
+          "tip": "Con vistas al mar."
+        },
+        {
+          "es": "puerto",
+          "kind": "quase",
+          "meaning": "porto",
+          "tip": "Ditongo ue."
+        },
+        {
+          "es": "piscina",
+          "kind": "igual",
+          "meaning": "piscina",
+          "tip": "Igual!"
+        },
+        {
+          "es": "góndola",
+          "kind": "quase",
+          "meaning": "cabine (do teleférico)",
+          "tip": "Também gôndola."
+        },
+        {
+          "es": "espectáculo",
+          "kind": "quase",
+          "meaning": "espetáculo",
+          "tip": "Com c."
+        },
+        {
+          "es": "subida",
+          "kind": "quase",
+          "meaning": "subida",
+          "tip": "Subida dura."
+        },
+        {
+          "es": "cuesta arriba",
+          "kind": "quase",
+          "meaning": "ladeira acima",
+          "tip": "Cuesta abajo = ladeira abaixo."
+        },
+        {
+          "es": "mirador",
+          "kind": "armadilha",
+          "meaning": "mirante",
+          "tip": "Para ver a cidade."
+        },
+        {
+          "es": "olímpico",
+          "kind": "quase",
+          "meaning": "olímpico",
+          "tip": "Acento no lí."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Un mirador\" é:",
+      "options": [
+        "Um mirante",
+        "Um espelho",
+        "Um vigia"
+      ],
+      "correct": 0,
+      "explanation": "Mirar = olhar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Subimos a pé?",
+      "answer": [
+        "¿Subimos",
+        "andando?"
+      ],
+      "distractors": [
+        "pie",
+        "caminando a"
+      ],
+      "explanation": "\"Andando\" ou \"a pie\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Abajo, junto a la plaza de España. Hay espectáculos de luz y música algunos días.",
+      "options": [
+        "Lá embaixo, perto da praça de Espanha. Tem espetáculos de luz e música alguns dias.",
+        "No topo da montanha, todo dia.",
+        "Não existe mais."
+      ],
+      "correct": 0,
+      "explanation": "Confira os dias de espetáculo no site da prefeitura."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Un hotel con ___ al mar.\" (vista)",
+      "options": [
+        "vistas",
+        "vista",
+        "visión"
+      ],
+      "correct": 0,
+      "explanation": "\"Con vistas al mar\" = com vista para o mar."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Vamos andando.",
+          "options": [
+            "Vamos a pé.",
+            "Vamos andando de bicicleta."
+          ],
+          "correct": 0,
+          "joke": "Andar = caminhar."
+        },
+        {
+          "spanish": "Hay un mirador arriba.",
+          "options": [
+            "Tem um mirante lá em cima.",
+            "Tem um espelho lá em cima."
+          ],
+          "correct": 0,
+          "joke": "Mirador = mirante."
+        },
+        {
+          "spanish": "La fuente está encendida.",
+          "options": [
+            "A fonte está ligada.",
+            "A fonte está pegando fogo."
+          ],
+          "correct": 0,
+          "joke": "Encendido = ligado."
+        },
+        {
+          "spanish": "Es cuesta arriba.",
+          "options": [
+            "É ladeira acima.",
+            "É custoso lá em cima."
+          ],
+          "correct": 0,
+          "joke": "Cuesta arriba = subida."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Cataluña",
+      "items": [
+        {
+          "emoji": "🏟️",
+          "title": "Barcelona 92",
+          "es": "Los Juegos Olímpicos de 1992.",
+          "pt": "Montjuïc recebeu as principais instalações dos Jogos Olímpicos de 1992, que mudaram a cara da cidade e abriram as praias ao público."
+        },
+        {
+          "emoji": "⛲",
+          "title": "Font Màgica",
+          "es": "La Fuente Mágica de Montjuïc.",
+          "pt": "Fonte com espetáculos de água, luz e música em certos dias. Em catalão: \"Font Màgica\". Confira horários antes de ir."
+        }
+      ]
+    }
+  ]
+}

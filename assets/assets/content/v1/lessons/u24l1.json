@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "id": "u24l1",
+  "title": "Bate-volta a Toledo",
+  "scenario": "Madrid → Toledo · estación de Atocha",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 70: De trem",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Un billete de ida y vuelta a Toledo para hoy, por favor.",
+          "pt": "Uma passagem de ida e volta para Toledo para hoje, por favor."
+        },
+        {
+          "speaker": "Taquillero",
+          "es": "El próximo sale a las diez y cuarto. Tarda una media hora.",
+          "pt": "O próximo sai às dez e quinze. Leva uns trinta minutos."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿De qué andén sale?",
+          "pt": "De qual plataforma sai?"
+        },
+        {
+          "speaker": "Taquillero",
+          "es": "Lo verás en la pantalla. Llega con tiempo, hay control de equipaje.",
+          "pt": "Você vai ver no painel. Chegue com antecedência, tem raio X de bagagem."
+        },
+        {
+          "speaker": "Dani",
+          "es": "En Toledo hay que probar el mazapán.",
+          "pt": "Em Toledo tem que provar o marzipã."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Y ver la catedral y las murallas!",
+          "pt": "E ver a catedral e as muralhas!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Ida y vuelta\" significa:",
+      "options": [
+        "Ida e volta",
+        "Só ida",
+        "Volta e meia"
+      ],
+      "correct": 0,
+      "explanation": "Billete de ida = só ida."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "De qual plataforma sai?",
+      "answer": [
+        "¿De",
+        "qué",
+        "andén",
+        "sale?"
+      ],
+      "distractors": [
+        "plataforma",
+        "cual"
+      ],
+      "explanation": "\"Andén\" = plataforma da estação."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "El próximo sale a las diez y cuarto. Tarda una media hora.",
+      "options": [
+        "O próximo sai às dez e quinze. Leva uns trinta minutos.",
+        "O próximo sai às quatro e dez.",
+        "Não tem trem hoje."
+      ],
+      "correct": 0,
+      "explanation": "\"Tardar\" = levar (tempo)."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "trasbordo",
+          "kind": "quase",
+          "meaning": "baldeação",
+          "tip": "Hacer trasbordo."
+        },
+        {
+          "es": "ida y vuelta",
+          "kind": "quase",
+          "meaning": "ida e volta",
+          "tip": "Billete de ida y vuelta."
+        },
+        {
+          "es": "tardar",
+          "kind": "armadilha",
+          "meaning": "demorar / levar tempo",
+          "tip": "¿Cuánto tarda?"
+        },
+        {
+          "es": "vagón",
+          "kind": "quase",
+          "meaning": "vagão",
+          "tip": "Coche também = vagão."
+        },
+        {
+          "es": "asiento",
+          "kind": "armadilha",
+          "meaning": "assento / lugar",
+          "tip": "Não é \"acento\"!"
+        },
+        {
+          "es": "revisor",
+          "kind": "armadilha",
+          "meaning": "fiscal do trem",
+          "tip": "Não é revisor de texto!"
+        },
+        {
+          "es": "pasillo",
+          "kind": "armadilha",
+          "meaning": "corredor",
+          "tip": "Asiento de pasillo."
+        },
+        {
+          "es": "mazapán",
+          "kind": "quase",
+          "meaning": "marzipã",
+          "tip": "Doce típico de Toledo."
+        },
+        {
+          "es": "espada",
+          "kind": "igual",
+          "meaning": "espada",
+          "tip": "Toledo é famosa pelas espadas."
+        },
+        {
+          "es": "excursión",
+          "kind": "quase",
+          "meaning": "excursão / passeio",
+          "tip": "Hacer una excursión."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Asiento de pasillo\" é:",
+      "options": [
+        "Assento no corredor",
+        "Assento na janela",
+        "Assento de passeio"
+      ],
+      "correct": 0,
+      "explanation": "Pasillo = corredor."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Quanto tempo demora?",
+      "answer": [
+        "¿Cuánto",
+        "tarda?"
+      ],
+      "distractors": [
+        "demora",
+        "tiempo"
+      ],
+      "explanation": "\"Tardar\" = demorar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Lo verás en la pantalla. Llega con tiempo, hay control de equipaje.",
+      "options": [
+        "Você vai ver no painel. Chegue com antecedência, tem raio X de bagagem.",
+        "Pergunte ao maquinista.",
+        "Não precisa chegar cedo."
+      ],
+      "correct": 0,
+      "explanation": "Nas estações de alta velocidade há raio X."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Prefiero ___ de ventanilla.\" (assento)",
+      "options": [
+        "asiento",
+        "acento",
+        "assento"
+      ],
+      "correct": 0,
+      "explanation": "Asiento = assento. Acento = sotaque/acento."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "El tren sale del andén tres.",
+          "options": [
+            "O trem sai da plataforma três.",
+            "O trem sai do andaime três."
+          ],
+          "correct": 0,
+          "joke": "Andén = plataforma."
+        },
+        {
+          "spanish": "Quiero un asiento de pasillo.",
+          "options": [
+            "Quero um assento no corredor.",
+            "Quero um assento de passeio."
+          ],
+          "correct": 0,
+          "joke": "Pasillo = corredor."
+        },
+        {
+          "spanish": "No tardes mucho.",
+          "options": [
+            "Não demore muito.",
+            "Não chegue tarde à noite."
+          ],
+          "correct": 0,
+          "joke": "Tardar = demorar."
+        },
+        {
+          "spanish": "Abre la ventanilla.",
+          "options": [
+            "Abre a janelinha.",
+            "Abre a ventania."
+          ],
+          "correct": 0,
+          "joke": "Ventanilla = janela pequena."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Madrid",
+      "items": [
+        {
+          "emoji": "🏰",
+          "title": "Toledo",
+          "es": "La ciudad de las tres culturas.",
+          "pt": "Cidade Patrimônio da Humanidade, a cerca de meia hora de trem rápido de Madrid. Conhecida como cidade das três culturas: cristã, judaica e muçulmana."
+        },
+        {
+          "emoji": "🍬",
+          "title": "Mazapán",
+          "es": "El mazapán de Toledo.",
+          "pt": "Doce de amêndoa e açúcar, típico de Toledo, sobretudo no Natal."
+        }
+      ]
+    }
+  ]
+}

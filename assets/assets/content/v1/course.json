@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-12",
+  "contentVersion": "2026.10.12-13",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -121,6 +121,28 @@
               "available": true
             }
           ]
+        },
+        {
+          "id": "mad-u6",
+          "title": "Escapadas e agenda",
+          "emoji": "🚆",
+          "lessons": [
+            {
+              "id": "u24l1",
+              "title": "Bate-volta a Toledo",
+              "available": true
+            },
+            {
+              "id": "u24l2",
+              "title": "Segovia e o aqueduto",
+              "available": true
+            },
+            {
+              "id": "u24l3",
+              "title": "Cumprindo a agenda",
+              "available": true
+            }
+          ]
         }
       ]
     },
@@ -217,6 +239,28 @@
             {
               "id": "u19l3",
               "title": "Na Boqueria",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "cat-u5",
+          "title": "Barcelona de bairro",
+          "emoji": "🎉",
+          "lessons": [
+            {
+              "id": "u25l1",
+              "title": "Festa Major de Gràcia",
+              "available": true
+            },
+            {
+              "id": "u25l2",
+              "title": "Subindo Montjuïc",
+              "available": true
+            },
+            {
+              "id": "u25l3",
+              "title": "Calçotada",
               "available": true
             }
           ]
@@ -404,7 +448,7 @@
           "lessons": [
             {
               "id": "u21l1",
-              "title": "No Mercado Central",
+              "title": "Arroz al horno",
               "available": true
             },
             {

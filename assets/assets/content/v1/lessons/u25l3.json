@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u25l3",
+  "title": "Calçotada",
+  "scenario": "Cataluña · una calçotada en el campo",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 75: Comer com babador",
+      "lines": [
+        {
+          "speaker": "Marta",
+          "es": "Ponte el babero. ¡Los calçots manchan mucho!",
+          "pt": "Põe o babador. Os calçots sujam muito!"
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Son cebollas?",
+          "pt": "São cebolas?"
+        },
+        {
+          "speaker": "Marta",
+          "es": "Una especie de cebolla tierna, asada a la brasa. Se pelan con la mano.",
+          "pt": "Uma espécie de cebola tenra, assada na brasa. Se descascam com a mão."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y esta salsa naranja?",
+          "pt": "E esse molho laranja?"
+        },
+        {
+          "speaker": "Marta",
+          "es": "Es salsa romesco: tomate, ñoras, almendras, ajo y aceite.",
+          "pt": "É molho romesco: tomate, ñoras, amêndoas, alho e azeite."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Se come levantando la cabeza... ¡Qué divertido!",
+          "pt": "Se come levantando a cabeça... Que divertido!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"El babero\" é:",
+      "options": [
+        "O babador",
+        "O barbeiro",
+        "O avental de cozinha"
+      ],
+      "correct": 0,
+      "explanation": "Barbero = barbeiro."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Põe o babador.",
+      "answer": [
+        "Ponte",
+        "el",
+        "babero."
+      ],
+      "distractors": [
+        "pon",
+        "barbero"
+      ],
+      "explanation": "Imperativo: ponte (tú)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Es salsa romesco: tomate, ñoras, almendras, ajo y aceite.",
+      "options": [
+        "É molho romesco: tomate, ñoras, amêndoas, alho e azeite.",
+        "É maionese com ketchup.",
+        "É molho de queijo."
+      ],
+      "correct": 0,
+      "explanation": "Ñora = pimentão seco pequeno."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "babero",
+          "kind": "armadilha",
+          "meaning": "babador",
+          "tip": "Barbero = barbeiro."
+        },
+        {
+          "es": "puerro",
+          "kind": "quase",
+          "meaning": "alho-poró",
+          "tip": "Parecido com o calçot."
+        },
+        {
+          "es": "parrilla",
+          "kind": "armadilha",
+          "meaning": "grelha",
+          "tip": "Não é parreira!"
+        },
+        {
+          "es": "manchar",
+          "kind": "quase",
+          "meaning": "manchar / sujar",
+          "tip": "Mancha = mancha."
+        },
+        {
+          "es": "almendra",
+          "kind": "quase",
+          "meaning": "amêndoa",
+          "tip": "Almendrado."
+        },
+        {
+          "es": "ñora",
+          "kind": "quase",
+          "meaning": "pimentão seco",
+          "tip": "Tipo de pimentão."
+        },
+        {
+          "es": "pringoso",
+          "kind": "quase",
+          "meaning": "melado / grudento",
+          "tip": "Las manos pringosas."
+        },
+        {
+          "es": "perejil",
+          "kind": "armadilha",
+          "meaning": "salsinha",
+          "tip": "Não é \"pereijil\"."
+        },
+        {
+          "es": "barbacoa",
+          "kind": "quase",
+          "meaning": "churrasqueira / churrasco",
+          "tip": "Hacer una barbacoa."
+        },
+        {
+          "es": "divertido",
+          "kind": "igual",
+          "meaning": "divertido",
+          "tip": "Igual!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Perejil\" é:",
+      "options": [
+        "Salsinha",
+        "Pimenta",
+        "Coentro"
+      ],
+      "correct": 0,
+      "explanation": "Salsa = molho; perejil = salsinha."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "É um molho de amêndoas.",
+      "answer": [
+        "Es",
+        "una",
+        "salsa",
+        "de",
+        "almendras."
+      ],
+      "distractors": [
+        "molho",
+        "amêndoas"
+      ],
+      "explanation": "Salsa = molho."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Una especie de cebolla tierna, asada a la brasa. Se pelan con la mano.",
+      "options": [
+        "Uma espécie de cebola tenra, assada na brasa. Se descascam com a mão.",
+        "Um tipo de batata cozida.",
+        "Um alho cru."
+      ],
+      "correct": 0,
+      "explanation": "Asado a la brasa = na brasa."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Pon un poco de ___ picado.\" (salsinha)",
+      "options": [
+        "perejil",
+        "salsa",
+        "cilantro"
+      ],
+      "correct": 0,
+      "explanation": "Perejil = salsinha. Cilantro = coentro."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Me he manchado la camisa.",
+          "options": [
+            "Sujei a camisa.",
+            "Manchei a cama."
+          ],
+          "correct": 0,
+          "joke": "Mancharse = sujar-se."
+        },
+        {
+          "spanish": "Pásame la salsa.",
+          "options": [
+            "Me passa o molho.",
+            "Me passa a salsinha."
+          ],
+          "correct": 0,
+          "joke": "Salsa = molho."
+        },
+        {
+          "spanish": "Echa perejil.",
+          "options": [
+            "Põe salsinha.",
+            "Põe pimenta."
+          ],
+          "correct": 0,
+          "joke": "Perejil = salsinha."
+        },
+        {
+          "spanish": "Necesito un babero.",
+          "options": [
+            "Preciso de um babador.",
+            "Preciso de um barbeiro."
+          ],
+          "correct": 0,
+          "joke": "Babero = babador."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Cataluña",
+      "items": [
+        {
+          "emoji": "🧅",
+          "title": "Calçotada",
+          "es": "Vamos de calçotada.",
+          "pt": "Encontro típico do inverno e começo da primavera na Catalunha (origem em Valls): calçots na brasa com molho romesco. Em catalão: \"calçotada\"."
+        },
+        {
+          "emoji": "🥣",
+          "title": "Romesco",
+          "es": "Salsa romesco.",
+          "pt": "Molho catalão de tomate e pimentão assados, ñoras, amêndoas ou avelãs, alho, azeite e pão."
+        }
+      ]
+    }
+  ]
+}

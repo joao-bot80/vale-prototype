@@ -1,178 +1,68 @@
 {
   "schemaVersion": 1,
   "id": "u21l1",
-  "title": "No Mercado Central",
-  "scenario": "Valencia · Mercado Central",
+  "title": "Arroz al horno",
+  "scenario": "Valencia · Mercado Central y un horno de barrio",
   "exercises": [
     {
       "type": "dialogue",
-      "title": "Episódio 61: Ingredientes da paella",
+      "title": "Episódio 61: Arroz de forno",
       "lines": [
         {
           "speaker": "Lino",
-          "es": "Hoy cocinamos paella. Vamos al Mercado Central.",
-          "pt": "Hoje cozinhamos paella. Vamos ao Mercado Central."
+          "es": "Hoy hacemos arroz al horno, el arroz de los lunes en muchas casas valencianas.",
+          "pt": "Hoje fazemos arroz de forno, o arroz de segunda-feira em muitas casas valencianas."
         },
         {
           "speaker": "Lu",
-          "es": "¿Qué necesitamos?",
-          "pt": "Do que precisamos?"
+          "es": "¿Qué lleva?",
+          "pt": "O que leva?"
         },
         {
           "speaker": "Lino",
-          "es": "Pollo, conejo, judías verdes, garrofó y arroz bomba.",
-          "pt": "Frango, coelho, vagem, garrofó e arroz bomba."
+          "es": "Costilla de cerdo, morcilla, garbanzos, patata, tomate y una cabeza de ajos.",
+          "pt": "Costela de porco, morcela, grão-de-bico, batata, tomate e uma cabeça de alho."
         },
         {
           "speaker": "Lu",
-          "es": "¿Conejo? ¿En serio?",
-          "pt": "Coelho? Sério?"
+          "es": "¿Y se hace en la paella?",
+          "pt": "E se faz na paella?"
         },
         {
           "speaker": "Lino",
-          "es": "¡Claro! La paella valenciana tradicional lleva pollo y conejo, no marisco.",
-          "pt": "Claro! A paella valenciana tradicional leva frango e coelho, não frutos do mar."
+          "es": "No, en una cazuela de barro, dentro del horno.",
+          "pt": "Não, numa panela de barro, dentro do forno."
         },
         {
           "speaker": "Lu",
-          "es": "Vale, pero me pido el socarrat.",
-          "pt": "Beleza, mas o socarrat é meu."
+          "es": "Entonces compramos los garbanzos ya cocidos para ir más rápido.",
+          "pt": "Então compramos o grão-de-bico já cozido para ir mais rápido."
         }
       ]
     },
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Me pido el socarrat\" significa:",
+      "prompt": "\"¿Qué lleva?\" sobre um prato significa:",
       "options": [
-        "O socarrat é meu!",
-        "Peço desculpas ao socarrat",
-        "Pago o socarrat"
+        "O que leva? (ingredientes)",
+        "Quem leva?",
+        "Para onde leva?"
       ],
       "correct": 0,
-      "explanation": "\"Pedirse algo\" = reivindicar, \"é meu!\"."
+      "explanation": "\"Llevar\" = ter como ingrediente."
     },
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Do que precisamos?",
+      "portuguese": "O que leva?",
       "answer": [
         "¿Qué",
-        "necesitamos?"
+        "lleva?"
       ],
       "distractors": [
-        "precisamos",
-        "de"
-      ],
-      "explanation": "\"Necesitar\" sem \"de\"."
-    },
-    {
-      "type": "listening",
-      "title": "Ouça e escolha",
-      "prompt": "O que você ouviu?",
-      "spanish": "Pollo, conejo, judías verdes, garrofó y arroz bomba.",
-      "options": [
-        "Frango, coelho, vagem, garrofó e arroz bomba.",
-        "Camarão, lula e mexilhão.",
-        "Carne de porco e feijão preto."
-      ],
-      "correct": 0,
-      "explanation": "Garrofó = feijão-branco grande típico."
-    },
-    {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
-        {
-          "es": "arroz al horno",
-          "kind": "quase",
-          "meaning": "arroz de forno",
-          "tip": "Outro arroz valenciano."
-        },
-        {
-          "es": "judía verde",
-          "kind": "armadilha",
-          "meaning": "vagem",
-          "tip": "Judía = feijão."
-        },
-        {
-          "es": "cazuela",
-          "kind": "armadilha",
-          "meaning": "panela de barro",
-          "tip": "Não é caçula!"
-        },
-        {
-          "es": "pelar",
-          "kind": "armadilha",
-          "meaning": "descascar",
-          "tip": "Pelar patatas; também brigar (pelearse)!"
-        },
-        {
-          "es": "fuego lento",
-          "kind": "quase",
-          "meaning": "fogo baixo",
-          "tip": "A fuego lento."
-        },
-        {
-          "es": "rallar",
-          "kind": "quase",
-          "meaning": "ralar",
-          "tip": "Rallar tomate."
-        },
-        {
-          "es": "sartén",
-          "kind": "armadilha",
-          "meaning": "frigideira",
-          "tip": "Paella também é o nome da panela!"
-        },
-        {
-          "es": "cuchara de palo",
-          "kind": "quase",
-          "meaning": "colher de pau",
-          "tip": "Palo = pau."
-        },
-        {
-          "es": "hervir",
-          "kind": "quase",
-          "meaning": "ferver",
-          "tip": "Hierve el agua."
-        },
-        {
-          "es": "puñado",
-          "kind": "quase",
-          "meaning": "punhado",
-          "tip": "Un puñado de arroz."
-        }
-      ]
-    },
-    {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Judías verdes\" são:",
-      "options": [
-        "Vagens",
-        "Judias verdes",
-        "Ervilhas"
-      ],
-      "correct": 0,
-      "explanation": "Judía = feijão; judía verde = vagem."
-    },
-    {
-      "type": "build",
-      "title": "Monte a frase",
-      "portuguese": "A paella leva frango e coelho.",
-      "answer": [
-        "La",
-        "paella",
-        "lleva",
-        "pollo",
-        "y",
-        "conejo."
-      ],
-      "distractors": [
-        "polvo",
-        "lleba"
+        "tiene",
+        "leva"
       ],
       "explanation": "\"Llevar\" = levar (ingrediente)."
     },
@@ -180,26 +70,133 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "¡Claro! La paella valenciana tradicional lleva pollo y conejo, no marisco.",
+      "spanish": "Costilla de cerdo, morcilla, garbanzos, patata, tomate y una cabeza de ajos.",
       "options": [
-        "Claro! A paella valenciana tradicional leva frango e coelho, não frutos do mar.",
-        "A paella valenciana só leva frutos do mar.",
-        "A paella leva chouriço."
+        "Costela de porco, morcela, grão-de-bico, batata, tomate e uma cabeça de alho.",
+        "Frango, coelho e vagem.",
+        "Peixe, lula e mexilhão."
       ],
       "correct": 0,
-      "explanation": "Paella de marisco existe, mas é outra."
+      "explanation": "Ingredientes típicos do arroz al horno."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "costilla",
+          "kind": "quase",
+          "meaning": "costela",
+          "tip": "Costilla de cerdo."
+        },
+        {
+          "es": "morcilla",
+          "kind": "quase",
+          "meaning": "morcela",
+          "tip": "Linguiça de sangue."
+        },
+        {
+          "es": "garbanzo",
+          "kind": "armadilha",
+          "meaning": "grão-de-bico",
+          "tip": "Não é garbanço!"
+        },
+        {
+          "es": "cerdo",
+          "kind": "armadilha",
+          "meaning": "porco",
+          "tip": "Também se diz cochino."
+        },
+        {
+          "es": "barro",
+          "kind": "armadilha",
+          "meaning": "barro / argila",
+          "tip": "Cazuela de barro."
+        },
+        {
+          "es": "horno",
+          "kind": "quase",
+          "meaning": "forno",
+          "tip": "Al horno = assado no forno."
+        },
+        {
+          "es": "cabeza de ajos",
+          "kind": "quase",
+          "meaning": "cabeça de alho",
+          "tip": "Diente de ajo = dente de alho."
+        },
+        {
+          "es": "cocido",
+          "kind": "armadilha",
+          "meaning": "cozido",
+          "tip": "Também um prato madrilenho!"
+        },
+        {
+          "es": "sobras",
+          "kind": "quase",
+          "meaning": "sobras",
+          "tip": "De ayer."
+        },
+        {
+          "es": "precalentar",
+          "kind": "quase",
+          "meaning": "preaquecer",
+          "tip": "Precalienta el horno."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Un garbanzo\" é:",
+      "options": [
+        "Grão-de-bico",
+        "Feijão",
+        "Ervilha"
+      ],
+      "correct": 0,
+      "explanation": "Garbanzos = grão-de-bico."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Preaquece o forno.",
+      "answer": [
+        "Precalienta",
+        "el",
+        "horno."
+      ],
+      "distractors": [
+        "fuego",
+        "preaquece"
+      ],
+      "explanation": "\"Precalentar\" = preaquecer."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "No, en una cazuela de barro, dentro del horno.",
+      "options": [
+        "Não, numa panela de barro, dentro do forno.",
+        "Sim, na paella sobre o fogo.",
+        "Não, na frigideira."
+      ],
+      "correct": 0,
+      "explanation": "A cazuela de barro vai direto ao forno."
     },
     {
       "type": "choice",
       "title": "Complete",
-      "prompt": "Complete: \"Echa un poco de ___.\" (alecrim)",
+      "prompt": "Complete: \"Compramos los garbanzos ya ___.\" (cozidos)",
       "options": [
-        "romero",
-        "alecrín",
-        "romeiro"
+        "cocidos",
+        "cozidos",
+        "cocinados"
       ],
       "correct": 0,
-      "explanation": "Romero = alecrim."
+      "explanation": "\"Cocido\" = cozido."
     },
     {
       "type": "boss",
@@ -207,40 +204,40 @@
       "bossName": "Falso Amigo",
       "questions": [
         {
-          "spanish": "Me encanta el pollo asado.",
+          "spanish": "Me encantan los garbanzos.",
           "options": [
-            "Adoro frango assado.",
-            "Adoro polvo assado."
+            "Adoro grão-de-bico.",
+            "Adoro garbanços."
           ],
           "correct": 0,
-          "joke": "Pollo = frango."
+          "joke": "Garbanzo = grão-de-bico."
         },
         {
-          "spanish": "Pon un poco de romero.",
+          "spanish": "Es carne de cerdo.",
           "options": [
-            "Põe um pouco de alecrim.",
-            "Põe um pouco de romeiro."
+            "É carne de porco.",
+            "É carne de cervo."
           ],
           "correct": 0,
-          "joke": "Romero = alecrim."
+          "joke": "Cerdo = porco."
         },
         {
-          "spanish": "Calienta la sartén.",
+          "spanish": "Mete la cazuela en el horno.",
           "options": [
-            "Esquenta a frigideira.",
-            "Esquenta a sarjeta."
+            "Põe a panela no forno.",
+            "Põe a caçula no forno."
           ],
           "correct": 0,
-          "joke": "Sartén = frigideira."
+          "joke": "Cazuela = panela de barro."
         },
         {
-          "spanish": "Compra conejo en el mercado.",
+          "spanish": "Hoy comemos las sobras.",
           "options": [
-            "Compra coelho no mercado.",
-            "Compra cônego no mercado."
+            "Hoje comemos as sobras.",
+            "Hoje comemos as sombras."
           ],
           "correct": 0,
-          "joke": "Conejo = coelho."
+          "joke": "Sobras = restos."
         }
       ]
     },
@@ -250,10 +247,10 @@
       "region": "Valencia",
       "items": [
         {
-          "emoji": "🥘",
-          "title": "Paella valenciana",
-          "es": "Pollo, conejo, judía verde y garrofó.",
-          "pt": "A paella valenciana tradicional leva frango, coelho, vagem e garrofó, com açafrão e arroz. Em valenciano: \"paella\" é a própria panela."
+          "emoji": "🍲",
+          "title": "Arroz al horno",
+          "es": "Arroz al horno con morcilla y garbanzos.",
+          "pt": "Prato tradicional valenciano, feito numa cazuela de barro no forno. Era um jeito de aproveitar as sobras do cozido. Em valenciano: \"arròs al forn\"."
         },
         {
           "emoji": "🏛️",

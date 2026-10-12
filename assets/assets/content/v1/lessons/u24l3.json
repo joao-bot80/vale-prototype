@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "u24l3",
+  "title": "Cumprindo a agenda",
+  "scenario": "Madrid · oficina y gimnasio",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 72: Semana cheia",
+      "lines": [
+        {
+          "speaker": "Dani",
+          "es": "¿Quedamos el jueves para el pádel?",
+          "pt": "Vamos jogar pádel na quinta?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Imposible, tengo una reunión hasta tarde. ¿Te viene bien el sábado?",
+          "pt": "Impossível, tenho uma reunião até tarde. Sábado fica bom para você?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "El sábado me viene fatal. ¿Y el domingo por la mañana?",
+          "pt": "Sábado fica péssimo para mim. E domingo de manhã?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Vale, el domingo a las once. Reservo yo la pista.",
+          "pt": "Beleza, domingo às onze. Eu reservo a quadra."
+        },
+        {
+          "speaker": "Dani",
+          "es": "Perfecto. ¡Y luego vermut!",
+          "pt": "Perfeito. E depois vermute!"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Ya me conoces. ¡Hecho!",
+          "pt": "Você me conhece. Fechado!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¿Te viene bien el sábado?\" significa:",
+      "options": [
+        "Sábado fica bom para você?",
+        "Você vem bem no sábado?",
+        "Você vem no sábado?"
+      ],
+      "correct": 0,
+      "explanation": "\"Venir bien/mal\" = convir."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Sábado fica péssimo para mim.",
+      "answer": [
+        "El",
+        "sábado",
+        "me",
+        "viene",
+        "fatal."
+      ],
+      "distractors": [
+        "péssimo",
+        "muy mal"
+      ],
+      "explanation": "\"Me viene fatal\" = não dá de jeito nenhum."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Vale, el domingo a las once. Reservo yo la pista.",
+      "options": [
+        "Beleza, domingo às onze. Eu reservo a quadra.",
+        "Domingo à uma, reserva você.",
+        "Não posso nunca."
+      ],
+      "correct": 0,
+      "explanation": "Pista = quadra (de pádel, tênis)."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "pádel",
+          "kind": "quase",
+          "meaning": "padel",
+          "tip": "Esporte de raquete muito popular na Espanha."
+        },
+        {
+          "es": "pista",
+          "kind": "armadilha",
+          "meaning": "quadra",
+          "tip": "Pista de tenis."
+        },
+        {
+          "es": "agenda",
+          "kind": "igual",
+          "meaning": "agenda",
+          "tip": "Igual!"
+        },
+        {
+          "es": "fatal",
+          "kind": "armadilha",
+          "meaning": "péssimo",
+          "tip": "Me viene fatal = péssimo."
+        },
+        {
+          "es": "imposible",
+          "kind": "quase",
+          "meaning": "impossível",
+          "tip": "Um s."
+        },
+        {
+          "es": "reservar",
+          "kind": "igual",
+          "meaning": "reservar",
+          "tip": "Igual!"
+        },
+        {
+          "es": "aplazar",
+          "kind": "armadilha",
+          "meaning": "adiar",
+          "tip": "Não é aplaudir!"
+        },
+        {
+          "es": "cancelar",
+          "kind": "igual",
+          "meaning": "cancelar",
+          "tip": "Igual!"
+        },
+        {
+          "es": "gimnasio",
+          "kind": "quase",
+          "meaning": "academia",
+          "tip": "Ir al gimnasio = ir à academia."
+        },
+        {
+          "es": "liado",
+          "kind": "armadilha",
+          "meaning": "enrolado / ocupado",
+          "tip": "Estoy muy liado."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Estoy muy liada esta semana\" significa:",
+      "options": [
+        "Estou muito ocupada esta semana",
+        "Estou ligada nesta semana",
+        "Estou amarrada"
+      ],
+      "correct": 0,
+      "explanation": "Liado = cheio de coisas."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vamos adiar a reunião.",
+      "answer": [
+        "Vamos",
+        "a",
+        "aplazar",
+        "la",
+        "reunión."
+      ],
+      "distractors": [
+        "adiar",
+        "aplaudir"
+      ],
+      "explanation": "\"Aplazar\" = adiar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "El sábado me viene fatal. ¿Y el domingo por la mañana?",
+      "options": [
+        "Sábado fica péssimo para mim. E domingo de manhã?",
+        "Sábado é perfeito.",
+        "Domingo à noite."
+      ],
+      "correct": 0,
+      "explanation": "Fatal = muito ruim (coloquial)."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Voy al ___ tres veces por semana.\" (academia)",
+      "options": [
+        "gimnasio",
+        "academia",
+        "gimnásio"
+      ],
+      "correct": 0,
+      "explanation": "Academia em espanhol = escola de cursos!"
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Me viene fatal.",
+          "options": [
+            "Não dá de jeito nenhum para mim.",
+            "Isso vai ser fatal para mim."
+          ],
+          "correct": 0,
+          "joke": "Fatal = péssimo."
+        },
+        {
+          "spanish": "Hemos aplazado la cena.",
+          "options": [
+            "Adiamos o jantar.",
+            "Aplaudimos o jantar."
+          ],
+          "correct": 0,
+          "joke": "Aplazar = adiar."
+        },
+        {
+          "spanish": "Estoy liadísima.",
+          "options": [
+            "Estou ocupadíssima.",
+            "Estou ligadíssima."
+          ],
+          "correct": 0,
+          "joke": "Liado = ocupado."
+        },
+        {
+          "spanish": "Voy al gimnasio.",
+          "options": [
+            "Vou à academia.",
+            "Vou ao ginásio da escola."
+          ],
+          "correct": 0,
+          "joke": "Gimnasio = academia."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Madrid",
+      "items": [
+        {
+          "emoji": "🎾",
+          "title": "Pádel",
+          "es": "¿Echamos un pádel?",
+          "pt": "Esporte de raquete em quadra fechada com paredes, jogado em duplas. É um dos esportes mais praticados na Espanha."
+        },
+        {
+          "emoji": "📆",
+          "title": "Marcar e desmarcar",
+          "es": "¿Te viene bien?",
+          "pt": "Para propor um horário: \"¿Te viene bien...?\". Para recusar com educação: \"Me viene fatal, ¿lo dejamos para otro día?\""
+        }
+      ]
+    }
+  ]
+}

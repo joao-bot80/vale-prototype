@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "id": "u25l1",
+  "title": "Festa Major de Gràcia",
+  "scenario": "Barcelona · barrio de Gràcia, agosto",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 73: Ruas decoradas",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Mira esta calle! El techo está hecho de botellas de plástico.",
+          "pt": "Olha esta rua! O teto é feito de garrafas de plástico."
+        },
+        {
+          "speaker": "Marta",
+          "es": "Los vecinos decoran las calles durante meses con material reciclado.",
+          "pt": "Os vizinhos decoram as ruas durante meses com material reciclado."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y hay un premio?",
+          "pt": "E tem um prêmio?"
+        },
+        {
+          "speaker": "Marta",
+          "es": "Sí, hay un concurso para elegir la calle más bonita.",
+          "pt": "Sim, tem um concurso para escolher a rua mais bonita."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Qué currada! Esta es mi favorita.",
+          "pt": "Que trabalheira! Esta é a minha favorita."
+        },
+        {
+          "speaker": "Marta",
+          "es": "Por la noche hay conciertos en las plazas. ¡No te los pierdas!",
+          "pt": "À noite tem shows nas praças. Não perca!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¡Qué currada!\" significa:",
+      "options": [
+        "Que trabalheira! (muito esforço)",
+        "Que curra!",
+        "Que corrida!"
+      ],
+      "correct": 0,
+      "explanation": "Currar = trabalhar (gíria). Currada = trabalhão."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Não perca os shows!",
+      "answer": [
+        "¡No",
+        "te",
+        "pierdas",
+        "los",
+        "conciertos!"
+      ],
+      "distractors": [
+        "perdas",
+        "shows"
+      ],
+      "explanation": "\"Perderse algo\" = perder (um evento)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Los vecinos decoran las calles durante meses con material reciclado.",
+      "options": [
+        "Os vizinhos decoram as ruas durante meses com material reciclado.",
+        "A prefeitura compra tudo pronto.",
+        "Os turistas decoram as ruas."
+      ],
+      "correct": 0,
+      "explanation": "Festa feita pelos próprios vizinhos."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "currar",
+          "kind": "armadilha",
+          "meaning": "trabalhar (gíria)",
+          "tip": "Curro = trampo."
+        },
+        {
+          "es": "concurso",
+          "kind": "igual",
+          "meaning": "concurso",
+          "tip": "Igual!"
+        },
+        {
+          "es": "premio",
+          "kind": "quase",
+          "meaning": "prêmio",
+          "tip": "Sem acento."
+        },
+        {
+          "es": "reciclado",
+          "kind": "quase",
+          "meaning": "reciclado",
+          "tip": "Igual."
+        },
+        {
+          "es": "botella",
+          "kind": "quase",
+          "meaning": "garrafa",
+          "tip": "Botella de agua."
+        },
+        {
+          "es": "concierto",
+          "kind": "quase",
+          "meaning": "show / concerto",
+          "tip": "Concierto de rock = show."
+        },
+        {
+          "es": "adorno",
+          "kind": "igual",
+          "meaning": "enfeite",
+          "tip": "Adornos de la calle."
+        },
+        {
+          "es": "toldo",
+          "kind": "quase",
+          "meaning": "toldo",
+          "tip": "Toldos sobre a rua."
+        },
+        {
+          "es": "verbena",
+          "kind": "armadilha",
+          "meaning": "festa de rua",
+          "tip": "Não é verbena (planta) só!"
+        },
+        {
+          "es": "farolillo",
+          "kind": "quase",
+          "meaning": "lanterninha",
+          "tip": "Farolillos de papel."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Un concierto de rock\" é:",
+      "options": [
+        "Um show de rock",
+        "Um conserto de rock",
+        "Uma orquestra"
+      ],
+      "correct": 0,
+      "explanation": "Concierto = show / concerto."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu trabalho muito.",
+      "answer": [
+        "Curro",
+        "mucho."
+      ],
+      "distractors": [
+        "trabajo",
+        "trampo"
+      ],
+      "explanation": "\"Currar\" = trabalhar (informal)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Por la noche hay conciertos en las plazas. ¡No te los pierdas!",
+      "options": [
+        "À noite tem shows nas praças. Não perca!",
+        "À noite está tudo fechado.",
+        "À noite tem missa."
+      ],
+      "correct": 0,
+      "explanation": "Plaza = praça."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Mañana no ___, es festivo.\" (trabalho, gíria)",
+      "options": [
+        "curro",
+        "curra",
+        "corro"
+      ],
+      "correct": 0,
+      "explanation": "\"Currar\": curro, curras..."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Mañana curro.",
+          "options": [
+            "Amanhã eu trabalho.",
+            "Amanhã eu corro."
+          ],
+          "correct": 0,
+          "joke": "Currar = trabalhar."
+        },
+        {
+          "spanish": "Fuimos a un concierto.",
+          "options": [
+            "Fomos a um show.",
+            "Fomos a um conserto."
+          ],
+          "correct": 0,
+          "joke": "Concierto = show."
+        },
+        {
+          "spanish": "Hay farolillos en la calle.",
+          "options": [
+            "Tem lanterninhas na rua.",
+            "Tem faróis na rua."
+          ],
+          "correct": 0,
+          "joke": "Farolillo = lanterninha."
+        },
+        {
+          "spanish": "Ganamos el premio.",
+          "options": [
+            "Ganhamos o prêmio.",
+            "Ganhamos a premiação de fim de ano."
+          ],
+          "correct": 0,
+          "joke": "Premio = prêmio."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Cataluña",
+      "items": [
+        {
+          "emoji": "🎉",
+          "title": "Festa Major de Gràcia",
+          "es": "Las calles de Gràcia.",
+          "pt": "Em agosto, durante cerca de uma semana, vizinhos do bairro de Gràcia decoram ruas inteiras e competem num concurso. Em catalão: \"Festa Major\"."
+        },
+        {
+          "emoji": "♻️",
+          "title": "Material reciclado",
+          "es": "Decoración con material reciclado.",
+          "pt": "Muitas decorações são feitas com garrafas, papelão e outros materiais reaproveitados, preparados durante meses."
+        }
+      ]
+    }
+  ]
+}

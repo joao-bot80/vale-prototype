@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u24l2",
+  "title": "Segovia e o aqueduto",
+  "scenario": "Segovia · plaza del Azoguejo",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 71: Pedra sobre pedra",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Madre mía! ¿Cuántos años tiene el acueducto?",
+          "pt": "Nossa! Quantos anos tem o aqueduto?"
+        },
+        {
+          "speaker": "Guía",
+          "es": "Es romano, de hace unos dos mil años. Y no lleva cemento.",
+          "pt": "É romano, de uns dois mil anos atrás. E não tem cimento."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Cómo se sujetan las piedras, entonces?",
+          "pt": "Então como as pedras se seguram?"
+        },
+        {
+          "speaker": "Guía",
+          "es": "Por su propio peso. Están muy bien colocadas.",
+          "pt": "Pelo próprio peso. Estão muito bem colocadas."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y qué se come aquí?",
+          "pt": "E o que se come aqui?"
+        },
+        {
+          "speaker": "Guía",
+          "es": "El cochinillo asado. ¡Tan tierno que lo cortan con un plato!",
+          "pt": "O leitão assado. Tão macio que cortam com um prato!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¡Madre mía!\" expressa:",
+      "options": [
+        "Surpresa: nossa!",
+        "Chamar a mãe",
+        "Uma reza"
+      ],
+      "correct": 0,
+      "explanation": "Exclamação muito comum na Espanha."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Quantos anos tem o aqueduto?",
+      "answer": [
+        "¿Cuántos",
+        "años",
+        "tiene",
+        "el",
+        "acueducto?"
+      ],
+      "distractors": [
+        "aqueducto",
+        "tem"
+      ],
+      "explanation": "Idade: tener + años."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Es romano, de hace unos dos mil años. Y no lleva cemento.",
+      "options": [
+        "É romano, de uns dois mil anos atrás. E não tem cimento.",
+        "É medieval, do ano mil.",
+        "É moderno, de 1950."
+      ],
+      "correct": 0,
+      "explanation": "\"Hace\" + tempo = faz / atrás."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "acueducto",
+          "kind": "quase",
+          "meaning": "aqueduto",
+          "tip": "Com c."
+        },
+        {
+          "es": "cochinillo",
+          "kind": "armadilha",
+          "meaning": "leitão",
+          "tip": "Não é cochinilha (inseto)!"
+        },
+        {
+          "es": "asado",
+          "kind": "quase",
+          "meaning": "assado",
+          "tip": "Igual quase."
+        },
+        {
+          "es": "tierno",
+          "kind": "armadilha",
+          "meaning": "macio",
+          "tip": "Também terno (carinhoso)."
+        },
+        {
+          "es": "peso",
+          "kind": "igual",
+          "meaning": "peso",
+          "tip": "Igual!"
+        },
+        {
+          "es": "romano",
+          "kind": "igual",
+          "meaning": "romano",
+          "tip": "Igual!"
+        },
+        {
+          "es": "sujetar",
+          "kind": "armadilha",
+          "meaning": "segurar",
+          "tip": "Não é sujeitar."
+        },
+        {
+          "es": "cemento",
+          "kind": "quase",
+          "meaning": "cimento",
+          "tip": "Com e."
+        },
+        {
+          "es": "alcázar",
+          "kind": "quase",
+          "meaning": "alcácer / castelo",
+          "tip": "O Alcázar de Segovia."
+        },
+        {
+          "es": "madre mía",
+          "kind": "quase",
+          "meaning": "nossa! / minha nossa",
+          "tip": "Exclamação."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"La carne está tierna\" significa:",
+      "options": [
+        "A carne está macia",
+        "A carne está crua",
+        "A carne está terna"
+      ],
+      "correct": 0,
+      "explanation": "Tierno = macio."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Segura bem a bolsa.",
+      "answer": [
+        "Sujeta",
+        "bien",
+        "el",
+        "bolso."
+      ],
+      "distractors": [
+        "segura",
+        "sujeita"
+      ],
+      "explanation": "\"Sujetar\" = segurar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "El cochinillo asado. ¡Tan tierno que lo cortan con un plato!",
+      "options": [
+        "O leitão assado. Tão macio que cortam com um prato!",
+        "Um peixe frito.",
+        "Uma salada de tomate."
+      ],
+      "correct": 0,
+      "explanation": "Tradição em restaurantes de Segovia."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"El cochinillo está muy ___.\" (macio)",
+      "options": [
+        "tierno",
+        "terno",
+        "blando"
+      ],
+      "correct": 0,
+      "explanation": "Tierno = macio (carne)."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Pedimos cochinillo asado.",
+          "options": [
+            "Pedimos leitão assado.",
+            "Pedimos cochinilha assada."
+          ],
+          "correct": 0,
+          "joke": "Cochinillo = leitão."
+        },
+        {
+          "spanish": "La carne está muy tierna.",
+          "options": [
+            "A carne está muito macia.",
+            "A carne está muito terna."
+          ],
+          "correct": 0,
+          "joke": "Tierno = macio."
+        },
+        {
+          "spanish": "Sujeta la puerta, por favor.",
+          "options": [
+            "Segura a porta, por favor.",
+            "Sujeita a porta, por favor."
+          ],
+          "correct": 0,
+          "joke": "Sujetar = segurar."
+        },
+        {
+          "spanish": "¡Madre mía, qué alto!",
+          "options": [
+            "Nossa, que alto!",
+            "Minha mãe, que alto!"
+          ],
+          "correct": 0,
+          "joke": "Madre mía = nossa!"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Madrid",
+      "items": [
+        {
+          "emoji": "🏛️",
+          "title": "Acueducto de Segovia",
+          "es": "El acueducto romano.",
+          "pt": "Aqueduto romano de cerca de dois mil anos, feito de blocos de granito sem argamassa. A cidade velha e o aqueduto são Patrimônio da Humanidade."
+        },
+        {
+          "emoji": "🐖",
+          "title": "Cochinillo",
+          "es": "Cochinillo asado al horno.",
+          "pt": "Leitão assado no forno, prato típico de Segovia. Alguns restaurantes cortam com um prato para mostrar como está macio."
+        }
+      ]
+    }
+  ]
+}
