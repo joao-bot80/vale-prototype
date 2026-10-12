@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u36l1",
+  "title": "Sidrería: txotx!",
+  "scenario": "Gipuzkoa · sidrería en Astigarraga",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 106: Direto do barril",
+      "lines": [
+        {
+          "speaker": "Lino",
+          "es": "Cuando el sidrero grita «¡txotx!», vamos todos a la kupela.",
+          "pt": "Quando o sidreiro grita «txotx!», todos vamos ao barril."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y cómo se bebe?",
+          "pt": "E como se bebe?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Pones el vaso inclinado, recoges un poco de sidra y dejas sitio al siguiente.",
+          "pt": "Você põe o copo inclinado, pega um pouco de sidra e dá lugar ao próximo."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y el menú?",
+          "pt": "E o cardápio?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Tortilla de bacalao, chuletón y de postre queso con membrillo y nueces.",
+          "pt": "Omelete de bacalhau, bisteca grande e, de sobremesa, queijo com marmelada e nozes."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Se come de pie y se bebe mucho! Me encanta.",
+          "pt": "Se come em pé e se bebe muito! Adoro."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Dejar sitio\" significa:",
+      "options": [
+        "Dar lugar",
+        "Deixar o sítio",
+        "Sair do sítio"
+      ],
+      "correct": 0,
+      "explanation": "Sitio = lugar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Se come em pé.",
+      "answer": [
+        "Se",
+        "come",
+        "de",
+        "pie."
+      ],
+      "distractors": [
+        "en",
+        "pé"
+      ],
+      "explanation": "\"De pie\" = em pé."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Tortilla de bacalao, chuletón y de postre queso con membrillo y nueces.",
+      "options": [
+        "Omelete de bacalhau, bisteca grande e, de sobremesa, queijo com marmelada e nozes.",
+        "Paella e sangria.",
+        "Só pão e vinho."
+      ],
+      "correct": 0,
+      "explanation": "O menu clássico de sidrería."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "sidra",
+          "kind": "quase",
+          "meaning": "sidra",
+          "tip": "Igual quase."
+        },
+        {
+          "es": "barrica",
+          "kind": "quase",
+          "meaning": "barril",
+          "tip": "Kupela em basco."
+        },
+        {
+          "es": "chuletón",
+          "kind": "quase",
+          "meaning": "bisteca grande",
+          "tip": "De chuleta."
+        },
+        {
+          "es": "membrillo",
+          "kind": "armadilha",
+          "meaning": "marmelada (de marmelo)",
+          "tip": "Não é mamilo!"
+        },
+        {
+          "es": "nuez",
+          "kind": "quase",
+          "meaning": "noz",
+          "tip": "Nueces."
+        },
+        {
+          "es": "inclinado",
+          "kind": "igual",
+          "meaning": "inclinado",
+          "tip": "Igual!"
+        },
+        {
+          "es": "cola de la sidra",
+          "kind": "quase",
+          "meaning": "fila da sidra",
+          "tip": "Hacer cola en la kupela."
+        },
+        {
+          "es": "de pie",
+          "kind": "quase",
+          "meaning": "em pé",
+          "tip": "Comer de pie."
+        },
+        {
+          "es": "sidrero",
+          "kind": "quase",
+          "meaning": "sidreiro",
+          "tip": "Faz a sidra."
+        },
+        {
+          "es": "temporada",
+          "kind": "igual",
+          "meaning": "temporada",
+          "tip": "Temporada de sidra."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Hay sitio\" significa:",
+      "options": [
+        "Há lugar",
+        "Há um sítio",
+        "Há um site"
+      ],
+      "correct": 0,
+      "explanation": "Sitio = lugar, espaço."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Tem lugar para nós?",
+      "answer": [
+        "¿Hay",
+        "sitio",
+        "para",
+        "nosotros?"
+      ],
+      "distractors": [
+        "lugar",
+        "sítio"
+      ],
+      "explanation": "Sitio = lugar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Pones el vaso inclinado, recoges un poco de sidra y dejas sitio al siguiente.",
+      "options": [
+        "Você põe o copo inclinado, pega um pouco de sidra e dá lugar ao próximo.",
+        "Você enche o copo até a boca.",
+        "Você bebe direto do barril."
+      ],
+      "correct": 0,
+      "explanation": "Pouca quantidade e muitas vezes."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Queso con ___.\" (marmelada)",
+      "options": [
+        "membrillo",
+        "mermelada",
+        "marmelo"
+      ],
+      "correct": 0,
+      "explanation": "Membrillo = doce de marmelo."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "No hay sitio.",
+          "options": [
+            "Não tem lugar.",
+            "Não tem sítio."
+          ],
+          "correct": 0,
+          "joke": "Sitio = lugar."
+        },
+        {
+          "spanish": "Me encanta el membrillo.",
+          "options": [
+            "Adoro marmelada.",
+            "Adoro mamilo."
+          ],
+          "correct": 0,
+          "joke": "Membrillo = doce de marmelo."
+        },
+        {
+          "spanish": "Comemos de pie.",
+          "options": [
+            "Comemos em pé.",
+            "Comemos com o pé."
+          ],
+          "correct": 0,
+          "joke": "De pie = em pé."
+        },
+        {
+          "spanish": "Es temporada de sidra.",
+          "options": [
+            "É temporada de sidra.",
+            "É uma temporada da série Sidra."
+          ],
+          "correct": 0,
+          "joke": "Temporada = época."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "País Vasco",
+      "items": [
+        {
+          "emoji": "🍏",
+          "title": "Txotx",
+          "es": "¡Txotx!",
+          "pt": "Na temporada de sidrería (mais ou menos de janeiro a abril), ao grito de \"txotx\" todos vão ao barril encher o copo. Astigarraga e Hernani são famosas. \"Kupela\" = barril em basco; só para reconhecer."
+        },
+        {
+          "emoji": "🥩",
+          "title": "Menú de sidrería",
+          "es": "Menú de sidrería.",
+          "pt": "Menu clássico: omelete de bacalhau, bacalhau frito com pimentões, chuletón e queijo Idiazabal com marmelada e nozes."
+        }
+      ]
+    }
+  ]
+}

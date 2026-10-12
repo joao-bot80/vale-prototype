@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "id": "u34l3",
+  "title": "Festival de Cinema",
+  "scenario": "Donostia · Kursaal, Festival de Cine",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 102: Tapete vermelho",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Mira cuánta gente en la alfombra roja!",
+          "pt": "Olha quanta gente no tapete vermelho!"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Es el Festival de Cine de San Sebastián. Se celebra cada septiembre.",
+          "pt": "É o Festival de Cinema de San Sebastián. Acontece todo setembro."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Cuál es el premio principal?",
+          "pt": "Qual é o prêmio principal?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "La Concha de Oro, a la mejor película.",
+          "pt": "A Concha de Ouro, para o melhor filme."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Podemos ver alguna película?",
+          "pt": "Podemos ver algum filme?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí, se venden entradas para el público. Pero vuelan.",
+          "pt": "Sim, vendem ingressos para o público. Mas esgotam rápido."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Las entradas vuelan\" significa:",
+      "options": [
+        "Os ingressos esgotam rápido",
+        "Os ingressos voam com o vento",
+        "Os ingressos são de avião"
+      ],
+      "correct": 0,
+      "explanation": "Volar = acabar rapidinho."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Podemos ver algum filme?",
+      "answer": [
+        "¿Podemos",
+        "ver",
+        "alguna",
+        "película?"
+      ],
+      "distractors": [
+        "filme",
+        "algún"
+      ],
+      "explanation": "Película = filme."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Es el Festival de Cine de San Sebastián. Se celebra cada septiembre.",
+      "options": [
+        "É o Festival de Cinema de San Sebastián. Acontece todo setembro.",
+        "É um festival de música em julho.",
+        "É uma feira de livros."
+      ],
+      "correct": 0,
+      "explanation": "Um dos festivais de cinema mais importantes da Europa."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "festival",
+          "kind": "igual",
+          "meaning": "festival",
+          "tip": "Igual!"
+        },
+        {
+          "es": "alfombra roja",
+          "kind": "quase",
+          "meaning": "tapete vermelho",
+          "tip": "Alfombra = tapete."
+        },
+        {
+          "es": "estreno",
+          "kind": "armadilha",
+          "meaning": "estreia",
+          "tip": "Não é estreito!"
+        },
+        {
+          "es": "actriz",
+          "kind": "quase",
+          "meaning": "atriz",
+          "tip": "Actor = ator."
+        },
+        {
+          "es": "director",
+          "kind": "armadilha",
+          "meaning": "diretor (de cinema)",
+          "tip": "Igual, com c."
+        },
+        {
+          "es": "subtítulos",
+          "kind": "quase",
+          "meaning": "legendas",
+          "tip": "V.O.S. = original com legendas."
+        },
+        {
+          "es": "versión original",
+          "kind": "quase",
+          "meaning": "versão original",
+          "tip": "Sin doblar."
+        },
+        {
+          "es": "doblaje",
+          "kind": "armadilha",
+          "meaning": "dublagem",
+          "tip": "Película doblada = dublado."
+        },
+        {
+          "es": "butaca",
+          "kind": "armadilha",
+          "meaning": "poltrona (de cinema)",
+          "tip": "Não é butique!"
+        },
+        {
+          "es": "taquillazo",
+          "kind": "quase",
+          "meaning": "sucesso de bilheteria",
+          "tip": "De taquilla."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Una película doblada\" é:",
+      "options": [
+        "Um filme dublado",
+        "Um filme dobrado",
+        "Um filme duplo"
+      ],
+      "correct": 0,
+      "explanation": "Doblar = dublar (e dobrar)."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Prefiro com legendas.",
+      "answer": [
+        "Prefiero",
+        "con",
+        "subtítulos."
+      ],
+      "distractors": [
+        "legendas",
+        "leyendas"
+      ],
+      "explanation": "Subtítulos = legendas."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, se venden entradas para el público. Pero vuelan.",
+      "options": [
+        "Sim, vendem ingressos para o público. Mas esgotam rápido.",
+        "Não, é só para jornalistas.",
+        "Sim, são grátis e sobram."
+      ],
+      "correct": 0,
+      "explanation": "Compre assim que abrir a venda."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Hoy es el ___ de la película.\" (estreia)",
+      "options": [
+        "estreno",
+        "estreia",
+        "estrecho"
+      ],
+      "correct": 0,
+      "explanation": "Estreno = estreia."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Vamos al estreno.",
+          "options": [
+            "Vamos à estreia.",
+            "Vamos ao estreito."
+          ],
+          "correct": 0,
+          "joke": "Estreno = estreia."
+        },
+        {
+          "spanish": "Es una película francesa.",
+          "options": [
+            "É um filme francês.",
+            "É uma película francesa de plástico."
+          ],
+          "correct": 0,
+          "joke": "Película = filme."
+        },
+        {
+          "spanish": "Mi butaca es la doce.",
+          "options": [
+            "Minha poltrona é a doze.",
+            "Minha butique é a doze."
+          ],
+          "correct": 0,
+          "joke": "Butaca = poltrona."
+        },
+        {
+          "spanish": "No me gusta el doblaje.",
+          "options": [
+            "Não gosto da dublagem.",
+            "Não gosto da dobradura."
+          ],
+          "correct": 0,
+          "joke": "Doblaje = dublagem."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "País Vasco",
+      "items": [
+        {
+          "emoji": "🎬",
+          "title": "Zinemaldia",
+          "es": "Festival de Cine de San Sebastián.",
+          "pt": "Festival internacional de cinema que acontece todo setembro em Donostia, com sede no Kursaal. O prêmio máximo é a Concha de Oro. Em basco: \"Zinemaldia\"."
+        },
+        {
+          "emoji": "🎟️",
+          "title": "Público",
+          "es": "Entradas para todos.",
+          "pt": "Grande parte das sessões é aberta ao público, com venda online. Os ingressos acabam rápido."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u36l2",
+  "title": "Txakoli em Getaria",
+  "scenario": "Getaria · puerto y viñedos",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 107: Vinho do mar",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¿Por qué el camarero sirve el txakoli desde tan alto?",
+          "pt": "Por que o garçom serve o txakoli de tão alto?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Para que coja burbujas. Es un vino blanco joven y un poco ácido.",
+          "pt": "Para que pegue bolhinhas. É um vinho branco jovem e um pouco ácido."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Los viñedos están casi encima del mar.",
+          "pt": "Os vinhedos estão quase em cima do mar."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí, y aquí en el puerto asan el pescado en la calle, a la parrilla.",
+          "pt": "Sim, e aqui no porto assam o peixe na rua, na grelha."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Huele a rodaballo... ¡Qué hambre!",
+          "pt": "Cheira a pregado... Que fome!"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Pues pedimos uno para los dos.",
+          "pt": "Então pedimos um para os dois."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Huele a pescado\" significa:",
+      "options": [
+        "Cheira a peixe",
+        "Olha o peixe",
+        "Ouve o peixe"
+      ],
+      "correct": 0,
+      "explanation": "Oler: huele."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Cheira a peixe.",
+      "answer": [
+        "Huele",
+        "a",
+        "pescado."
+      ],
+      "distractors": [
+        "olle",
+        "cheira"
+      ],
+      "explanation": "\"Oler\": huelo, hueles, huele."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Para que coja burbujas. Es un vino blanco joven y un poco ácido.",
+      "options": [
+        "Para que pegue bolhinhas. É um vinho branco jovem e um pouco ácido.",
+        "Porque está quente.",
+        "Para fazer show para turistas."
+      ],
+      "correct": 0,
+      "explanation": "O txakoli se serve do alto."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "txakoli",
+          "kind": "quase",
+          "meaning": "txakoli (vinho basco)",
+          "tip": "Branco, jovem, ácido."
+        },
+        {
+          "es": "burbuja",
+          "kind": "armadilha",
+          "meaning": "bolha (de gás)",
+          "tip": "Não é burburinho!"
+        },
+        {
+          "es": "ácido",
+          "kind": "igual",
+          "meaning": "ácido",
+          "tip": "Igual!"
+        },
+        {
+          "es": "joven",
+          "kind": "quase",
+          "meaning": "jovem",
+          "tip": "Vino joven."
+        },
+        {
+          "es": "rodaballo",
+          "kind": "quase",
+          "meaning": "pregado (peixe)",
+          "tip": "Típico de Getaria."
+        },
+        {
+          "es": "oler",
+          "kind": "armadilha",
+          "meaning": "cheirar",
+          "tip": "Huele bien = cheira bem."
+        },
+        {
+          "es": "hambre",
+          "kind": "armadilha",
+          "meaning": "fome",
+          "tip": "Tengo hambre (feminino: el hambre)."
+        },
+        {
+          "es": "escanciar",
+          "kind": "quase",
+          "meaning": "servir do alto",
+          "tip": "Escanciar sidra/txakoli."
+        },
+        {
+          "es": "brasas",
+          "kind": "quase",
+          "meaning": "brasas",
+          "tip": "Al carbón."
+        },
+        {
+          "es": "compartir",
+          "kind": "armadilha",
+          "meaning": "dividir / compartilhar",
+          "tip": "Para compartir."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Tengo hambre\" significa:",
+      "options": [
+        "Estou com fome",
+        "Tenho um homem",
+        "Tenho fama"
+      ],
+      "correct": 0,
+      "explanation": "Hambre = fome."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vamos dividir um peixe.",
+      "answer": [
+        "Vamos",
+        "a",
+        "compartir",
+        "un",
+        "pescado."
+      ],
+      "distractors": [
+        "dividir",
+        "pez"
+      ],
+      "explanation": "Pescado = peixe para comer."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, y aquí en el puerto asan el pescado en la calle, a la parrilla.",
+      "options": [
+        "Sim, e aqui no porto assam o peixe na rua, na grelha.",
+        "Não, aqui só tem vinho.",
+        "Sim, mas o peixe é congelado."
+      ],
+      "correct": 0,
+      "explanation": "Getaria é famosa pelo peixe na brasa."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"El vino tiene ___.\" (bolhinhas)",
+      "options": [
+        "burbujas",
+        "borbujas",
+        "bolhas"
+      ],
+      "correct": 0,
+      "explanation": "Burbuja = bolha."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "¡Qué bien huele!",
+          "options": [
+            "Que cheiro bom!",
+            "Que bem ouve!"
+          ],
+          "correct": 0,
+          "joke": "Oler = cheirar."
+        },
+        {
+          "spanish": "Tengo mucha hambre.",
+          "options": [
+            "Estou com muita fome.",
+            "Tenho muita fama."
+          ],
+          "correct": 0,
+          "joke": "Hambre = fome."
+        },
+        {
+          "spanish": "Tiene burbujas.",
+          "options": [
+            "Tem bolhinhas.",
+            "Tem burburinho."
+          ],
+          "correct": 0,
+          "joke": "Burbuja = bolha."
+        },
+        {
+          "spanish": "Lo compartimos.",
+          "options": [
+            "Dividimos.",
+            "Compartilhamos nas redes."
+          ],
+          "correct": 0,
+          "joke": "Compartir = dividir."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "País Vasco",
+      "items": [
+        {
+          "emoji": "🍾",
+          "title": "Txakoli",
+          "es": "Un txakoli, por favor.",
+          "pt": "Vinho branco jovem e levemente ácido da costa basca; Getaria tem a DO Getariako Txakolina. Serve-se de certa altura para ganhar bolhinhas."
+        },
+        {
+          "emoji": "🐟",
+          "title": "Getaria",
+          "es": "Pescado a la parrilla en Getaria.",
+          "pt": "Vila de pescadores famosa pelo peixe grelhado na rua, como o rodaballo (pregado). É também terra do estilista Balenciaga."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "id": "u35l1",
+  "title": "Museu Guggenheim",
+  "scenario": "Bilbao · Museo Guggenheim",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 103: O museu de titânio",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Parece un barco de metal!",
+          "pt": "Parece um barco de metal!"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Es el Guggenheim, de Frank Gehry. Está cubierto de titanio.",
+          "pt": "É o Guggenheim, de Frank Gehry. É coberto de titânio."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y ese perro gigante de flores?",
+          "pt": "E aquele cachorro gigante de flores?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Es Puppy, de Jeff Koons. Cambian las flores según la estación.",
+          "pt": "É o Puppy, de Jeff Koons. Trocam as flores conforme a estação."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Desde cuándo está el museo?",
+          "pt": "Desde quando existe o museu?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Desde 1997. Cambió la imagen de Bilbao por completo.",
+          "pt": "Desde 1997. Mudou a imagem de Bilbao completamente."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Según la estación\" significa:",
+      "options": [
+        "Conforme a estação do ano",
+        "Segundo a estação de trem",
+        "Na segunda estação"
+      ],
+      "correct": 0,
+      "explanation": "Según = conforme."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Parece um barco de metal.",
+      "answer": [
+        "Parece",
+        "un",
+        "barco",
+        "de",
+        "metal."
+      ],
+      "distractors": [
+        "metal de",
+        "navío"
+      ],
+      "explanation": "Igual ao português!"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Desde 1997. Cambió la imagen de Bilbao por completo.",
+      "options": [
+        "Desde 1997. Mudou a imagem de Bilbao completamente.",
+        "Desde 1897.",
+        "Desde 2017, é novo."
+      ],
+      "correct": 0,
+      "explanation": "\"Efecto Guggenheim\": a cidade se transformou."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "titanio",
+          "kind": "quase",
+          "meaning": "titânio",
+          "tip": "Sem acento."
+        },
+        {
+          "es": "perro",
+          "kind": "armadilha",
+          "meaning": "cachorro",
+          "tip": "Cachorro em espanhol = filhote!"
+        },
+        {
+          "es": "acero",
+          "kind": "armadilha",
+          "meaning": "aço",
+          "tip": "Não é acerto!"
+        },
+        {
+          "es": "escultura gigante",
+          "kind": "quase",
+          "meaning": "escultura gigante",
+          "tip": "Puppy."
+        },
+        {
+          "es": "chapa",
+          "kind": "armadilha",
+          "meaning": "chapa / placa de metal",
+          "tip": "Também tampinha!"
+        },
+        {
+          "es": "según",
+          "kind": "quase",
+          "meaning": "conforme / segundo",
+          "tip": "Según el día."
+        },
+        {
+          "es": "ría de Bilbao",
+          "kind": "quase",
+          "meaning": "estuário de Bilbao",
+          "tip": "O Nervión."
+        },
+        {
+          "es": "araña",
+          "kind": "armadilha",
+          "meaning": "aranha",
+          "tip": "Maman, a aranha gigante."
+        },
+        {
+          "es": "vanguardia",
+          "kind": "quase",
+          "meaning": "vanguarda",
+          "tip": "Arte de vanguardia."
+        },
+        {
+          "es": "exposición temporal",
+          "kind": "quase",
+          "meaning": "exposição temporária",
+          "tip": "Muda sempre."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Un cachorro\" em espanhol é:",
+      "options": [
+        "Um filhote",
+        "Um cachorro adulto",
+        "Um gato"
+      ],
+      "correct": 0,
+      "explanation": "Perro = cachorro; cachorro = filhote."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Mudou a imagem da cidade.",
+      "answer": [
+        "Cambió",
+        "la",
+        "imagen",
+        "de",
+        "la",
+        "ciudad."
+      ],
+      "distractors": [
+        "mudó",
+        "cidade"
+      ],
+      "explanation": "\"Cambiar\" = mudar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Es Puppy, de Jeff Koons. Cambian las flores según la estación.",
+      "options": [
+        "É o Puppy, de Jeff Koons. Trocam as flores conforme a estação.",
+        "É um cachorro de verdade.",
+        "É uma estátua de bronze."
+      ],
+      "correct": 0,
+      "explanation": "Puppy fica em frente ao museu."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Mi ___ se llama Toby.\" (cachorro)",
+      "options": [
+        "perro",
+        "cachorro",
+        "perrito de"
+      ],
+      "correct": 0,
+      "explanation": "Perro = cachorro (cão)."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Tengo un perro.",
+          "options": [
+            "Tenho um cachorro.",
+            "Tenho um perro."
+          ],
+          "correct": 0,
+          "joke": "Perro = cão."
+        },
+        {
+          "spanish": "La perra tuvo cachorros.",
+          "options": [
+            "A cadela teve filhotes.",
+            "A cadela teve cachorros adultos."
+          ],
+          "correct": 0,
+          "joke": "Cachorro = filhote."
+        },
+        {
+          "spanish": "Hay una araña enorme.",
+          "options": [
+            "Tem uma aranha enorme.",
+            "Tem um arranhão enorme."
+          ],
+          "correct": 0,
+          "joke": "Araña = aranha."
+        },
+        {
+          "spanish": "Depende de la estación.",
+          "options": [
+            "Depende da estação do ano.",
+            "Depende da estação de metrô."
+          ],
+          "correct": 0,
+          "joke": "Estación = estação."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "País Vasco",
+      "items": [
+        {
+          "emoji": "🏛️",
+          "title": "Guggenheim Bilbao",
+          "es": "El Museo Guggenheim Bilbao.",
+          "pt": "Museu de arte contemporânea projetado por Frank Gehry, inaugurado em 1997, coberto de placas de titânio. Fora estão Puppy (Jeff Koons) e a aranha Maman (Louise Bourgeois)."
+        },
+        {
+          "emoji": "⚙️",
+          "title": "Efeito Guggenheim",
+          "es": "El efecto Guggenheim.",
+          "pt": "O museu virou exemplo mundial de como a arquitetura pode transformar uma cidade industrial."
+        }
+      ]
+    }
+  ]
+}

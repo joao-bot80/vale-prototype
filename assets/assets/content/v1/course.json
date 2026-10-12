@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-17",
+  "contentVersion": "2026.10.12-18",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -755,13 +755,79 @@
     {
       "id": "paisvasco",
       "name": "País Vasco",
-      "subtitle": "Em breve",
+      "subtitle": "Donostia, Bilbao e pintxos",
       "emoji": "🍢",
       "stampText": "EUSKADI",
       "lon": -2.93,
       "lat": 43.26,
-      "comingSoon": true,
-      "units": []
+      "units": [
+        {
+          "id": "pv-u1",
+          "title": "Donostia",
+          "emoji": "🍢",
+          "lessons": [
+            {
+              "id": "u34l1",
+              "title": "Pintxos na Parte Vieja",
+              "available": true
+            },
+            {
+              "id": "u34l2",
+              "title": "A praia de La Concha",
+              "available": true
+            },
+            {
+              "id": "u34l3",
+              "title": "Festival de Cinema",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "pv-u2",
+          "title": "Bilbao",
+          "emoji": "🏛️",
+          "lessons": [
+            {
+              "id": "u35l1",
+              "title": "Museu Guggenheim",
+              "available": true
+            },
+            {
+              "id": "u35l2",
+              "title": "Placas em euskera",
+              "available": true
+            },
+            {
+              "id": "u35l3",
+              "title": "Mercado de la Ribera",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "pv-u3",
+          "title": "Sidra, txakoli e costa",
+          "emoji": "🍏",
+          "lessons": [
+            {
+              "id": "u36l1",
+              "title": "Sidrería: txotx!",
+              "available": true
+            },
+            {
+              "id": "u36l2",
+              "title": "Txakoli em Getaria",
+              "available": true
+            },
+            {
+              "id": "u36l3",
+              "title": "O flysch de Zumaia",
+              "available": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "canarias",

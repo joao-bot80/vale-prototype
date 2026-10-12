@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u35l2",
+  "title": "Placas em euskera",
+  "scenario": "Bilbao · metro y calles",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 104: Duas línguas",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Lino, en el metro todo está en dos idiomas. No entiendo la mitad.",
+          "pt": "Lino, no metrô tudo está em dois idiomas. Não entendo metade."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Es euskera, la lengua vasca. Pero siempre está también en castellano.",
+          "pt": "É euskera, a língua basca. Mas sempre está também em castelhano."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Es parecido al español?",
+          "pt": "É parecido com o espanhol?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Nada. Es una lengua muy antigua y no tiene relación con el latín.",
+          "pt": "Nada. É uma língua muito antiga e não tem relação com o latim."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Entonces leo la parte en castellano: «Salida».",
+          "pt": "Então leio a parte em castelhano: «Saída»."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Exacto. Y si quieres ser amable, aprende a decir gracias en euskera.",
+          "pt": "Exato. E se quiser ser gentil, aprenda a dizer obrigado em euskera."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"La salida\" numa placa é:",
+      "options": [
+        "A saída",
+        "A salada",
+        "A subida"
+      ],
+      "correct": 0,
+      "explanation": "Entrada / salida."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Não entendo metade.",
+      "answer": [
+        "No",
+        "entiendo",
+        "la",
+        "mitad."
+      ],
+      "distractors": [
+        "metade",
+        "medio"
+      ],
+      "explanation": "Mitad = metade."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Nada. Es una lengua muy antigua y no tiene relación con el latín.",
+      "options": [
+        "Nada. É uma língua muito antiga e não tem relação com o latim.",
+        "Sim, é quase igual.",
+        "É um dialeto do catalão."
+      ],
+      "correct": 0,
+      "explanation": "O euskera é uma língua isolada."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "euskera",
+          "kind": "quase",
+          "meaning": "basco (língua)",
+          "tip": "Também euskara."
+        },
+        {
+          "es": "vasco",
+          "kind": "quase",
+          "meaning": "basco (pessoa)",
+          "tip": "Vasca no feminino."
+        },
+        {
+          "es": "mitad",
+          "kind": "quase",
+          "meaning": "metade",
+          "tip": "Sem acento."
+        },
+        {
+          "es": "cartel",
+          "kind": "armadilha",
+          "meaning": "cartaz / placa",
+          "tip": "Não é cartel de drogas só!"
+        },
+        {
+          "es": "bilingüe",
+          "kind": "quase",
+          "meaning": "bilíngue",
+          "tip": "Com trema."
+        },
+        {
+          "es": "lengua",
+          "kind": "armadilha",
+          "meaning": "língua (idioma)",
+          "tip": "Também a do corpo."
+        },
+        {
+          "es": "latín",
+          "kind": "quase",
+          "meaning": "latim",
+          "tip": "Acento no í."
+        },
+        {
+          "es": "amable",
+          "kind": "armadilha",
+          "meaning": "gentil",
+          "tip": "Não é amável no sentido de \"digno de amor\"."
+        },
+        {
+          "es": "aseos",
+          "kind": "armadilha",
+          "meaning": "banheiros (públicos)",
+          "tip": "Também servicios."
+        },
+        {
+          "es": "andén central",
+          "kind": "quase",
+          "meaning": "plataforma central",
+          "tip": "No metrô."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Los aseos\" numa placa são:",
+      "options": [
+        "Os banheiros",
+        "Os assentos",
+        "As escadas"
+      ],
+      "correct": 0,
+      "explanation": "Aseos = banheiros públicos."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Onde fica a saída?",
+      "answer": [
+        "¿Dónde",
+        "está",
+        "la",
+        "salida?"
+      ],
+      "distractors": [
+        "saída",
+        "salada"
+      ],
+      "explanation": "Salida = saída."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Exacto. Y si quieres ser amable, aprende a decir gracias en euskera.",
+      "options": [
+        "Exato. E se quiser ser gentil, aprenda a dizer obrigado em euskera.",
+        "Não, é proibido falar euskera.",
+        "Exato, mas ninguém fala euskera."
+      ],
+      "correct": 0,
+      "explanation": "Uma palavrinha em euskera é sempre bem recebida."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Mira el ___ del metro.\" (placa)",
+      "options": [
+        "cartel",
+        "cartaz",
+        "placa"
+      ],
+      "correct": 0,
+      "explanation": "Cartel = cartaz, placa."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Busco la salida.",
+          "options": [
+            "Procuro a saída.",
+            "Procuro a salada."
+          ],
+          "correct": 0,
+          "joke": "Salida = saída."
+        },
+        {
+          "spanish": "¿Dónde están los aseos?",
+          "options": [
+            "Onde ficam os banheiros?",
+            "Onde ficam os assentos?"
+          ],
+          "correct": 0,
+          "joke": "Aseos = banheiros."
+        },
+        {
+          "spanish": "El cartel está en dos lenguas.",
+          "options": [
+            "A placa está em duas línguas.",
+            "O cartel está em duas línguas de boi."
+          ],
+          "correct": 0,
+          "joke": "Cartel = placa."
+        },
+        {
+          "spanish": "Es muy amable.",
+          "options": [
+            "É muito gentil.",
+            "É muito amável de amar."
+          ],
+          "correct": 0,
+          "joke": "Amable = gentil."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "País Vasco",
+      "items": [
+        {
+          "emoji": "🪧",
+          "title": "Placas bilíngues",
+          "es": "Irteera = salida. Sarrera = entrada.",
+          "pt": "Nas placas bascas: \"irteera\" (saída), \"sarrera\" (entrada), \"komunak\" (banheiros). Só para reconhecer: sempre há o texto em castelhano."
+        },
+        {
+          "emoji": "🙏",
+          "title": "Palavras de cortesia",
+          "es": "Kaixo, agur, eskerrik asko.",
+          "pt": "\"Kaixo\" (oi), \"agur\" (tchau), \"eskerrik asko\" (obrigado). Usar uma delas é simpático, mas no app respondemos sempre em castelhano."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "id": "u34l1",
+  "title": "Pintxos na Parte Vieja",
+  "scenario": "Donostia-San Sebastián · Parte Vieja",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 100: Barra cheia",
+      "lines": [
+        {
+          "speaker": "Lino",
+          "es": "Aquí los pintxos están en la barra. Coges un plato y te sirves.",
+          "pt": "Aqui os pintxos ficam no balcão. Você pega um prato e se serve."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y cómo saben lo que he comido?",
+          "pt": "E como sabem o que eu comi?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Se lo dices al final. Aquí funciona la confianza.",
+          "pt": "Você diz no final. Aqui funciona a confiança."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y los pintxos calientes?",
+          "pt": "E os pintxos quentes?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Esos se piden al camarero. Mira la pizarra.",
+          "pt": "Esses se pedem ao garçom. Olha o quadro."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Uno de cada! Bueno... dos o tres por bar.",
+          "pt": "Um de cada! Bom... dois ou três por bar."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Te sirves\" significa:",
+      "options": [
+        "Você se serve",
+        "Você serve os outros",
+        "Você é útil"
+      ],
+      "correct": 0,
+      "explanation": "Servirse = servir-se."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Você pega um prato.",
+      "answer": [
+        "Coges",
+        "un",
+        "plato."
+      ],
+      "distractors": [
+        "pegas",
+        "tomas un"
+      ],
+      "explanation": "Na Espanha: coger = pegar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Se lo dices al final. Aquí funciona la confianza.",
+      "options": [
+        "Você diz no final. Aqui funciona a confiança.",
+        "Uma câmera filma tudo.",
+        "Você paga antes de pegar."
+      ],
+      "correct": 0,
+      "explanation": "Sistema de confiança nos bares de pintxos."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "pintxo",
+          "kind": "quase",
+          "meaning": "petisco basco",
+          "tip": "Escrito com tx (grafia basca)."
+        },
+        {
+          "es": "palillo",
+          "kind": "armadilha",
+          "meaning": "palito",
+          "tip": "Não é palhinha!"
+        },
+        {
+          "es": "pizarra",
+          "kind": "armadilha",
+          "meaning": "quadro (de giz)",
+          "tip": "Não é pizzaria!"
+        },
+        {
+          "es": "confianza",
+          "kind": "quase",
+          "meaning": "confiança",
+          "tip": "Com z."
+        },
+        {
+          "es": "barra libre",
+          "kind": "quase",
+          "meaning": "open bar",
+          "tip": "Barra = balcão."
+        },
+        {
+          "es": "caliente",
+          "kind": "quase",
+          "meaning": "quente",
+          "tip": "Calentar = esquentar."
+        },
+        {
+          "es": "servirse",
+          "kind": "quase",
+          "meaning": "servir-se",
+          "tip": "Sírvete tú."
+        },
+        {
+          "es": "ronda de pintxos",
+          "kind": "quase",
+          "meaning": "rodada de pintxos",
+          "tip": "Ir de pintxos."
+        },
+        {
+          "es": "gilda",
+          "kind": "quase",
+          "meaning": "gilda (petisco)",
+          "tip": "Azeitona, anchova e guindilla."
+        },
+        {
+          "es": "guindilla",
+          "kind": "armadilha",
+          "meaning": "pimenta verde",
+          "tip": "Não é guindaste!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"La pizarra\" é:",
+      "options": [
+        "O quadro (de giz)",
+        "A pizzaria",
+        "A pizza"
+      ],
+      "correct": 0,
+      "explanation": "Pizarra = lousa."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Olha o quadro.",
+      "answer": [
+        "Mira",
+        "la",
+        "pizarra."
+      ],
+      "distractors": [
+        "quadro",
+        "lousa"
+      ],
+      "explanation": "Pizarra = quadro de giz."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Esos se piden al camarero. Mira la pizarra.",
+      "options": [
+        "Esses se pedem ao garçom. Olha o quadro.",
+        "Esses são grátis.",
+        "Esses acabaram."
+      ],
+      "correct": 0,
+      "explanation": "Pintxos quentes são feitos na hora."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Cuenta los ___ para pagar.\" (palitos)",
+      "options": [
+        "palillos",
+        "palitos",
+        "pajillas"
+      ],
+      "correct": 0,
+      "explanation": "Palillos = palitos."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Escribe en la pizarra.",
+          "options": [
+            "Escreve no quadro.",
+            "Escreve na pizzaria."
+          ],
+          "correct": 0,
+          "joke": "Pizarra = lousa."
+        },
+        {
+          "spanish": "Dame un palillo.",
+          "options": [
+            "Me dá um palito.",
+            "Me dá uma palha."
+          ],
+          "correct": 0,
+          "joke": "Palillo = palito."
+        },
+        {
+          "spanish": "La gilda pica un poco.",
+          "options": [
+            "A gilda arde um pouco.",
+            "A gilda pica como inseto."
+          ],
+          "correct": 0,
+          "joke": "Picar = arder."
+        },
+        {
+          "spanish": "Sírvete tú mismo.",
+          "options": [
+            "Sirva-se você mesmo.",
+            "Sirva você aos outros."
+          ],
+          "correct": 0,
+          "joke": "Servirse = servir-se."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "País Vasco",
+      "items": [
+        {
+          "emoji": "🍢",
+          "title": "Pintxos",
+          "es": "Ir de pintxos.",
+          "pt": "Em Donostia e Bilbao, \"ir de pintxos\": um ou dois por bar com um vinho ou zurito (cerveja pequena). Os frios ficam no balcão; os quentes se pedem na hora."
+        },
+        {
+          "emoji": "🗣️",
+          "title": "Euskera",
+          "es": "Donostia = San Sebastián.",
+          "pt": "No País Basco fala-se também o euskera (basco), língua cooficial sem parentesco com o espanhol. \"Donostia\" é o nome basco da cidade. Só para reconhecer."
+        }
+      ]
+    }
+  ]
+}

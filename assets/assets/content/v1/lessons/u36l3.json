@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u36l3",
+  "title": "O flysch de Zumaia",
+  "scenario": "Zumaia · playa de Itzurun",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 108: Páginas de pedra",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Estas rocas parecen las hojas de un libro!",
+          "pt": "Estas rochas parecem as folhas de um livro!"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Es el flysch. Cada capa son miles de años de historia de la Tierra.",
+          "pt": "É o flysch. Cada camada são milhares de anos de história da Terra."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Se puede caminar por abajo?",
+          "pt": "Dá para caminhar por baixo?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Solo con la marea baja. Hay que mirar la tabla de mareas.",
+          "pt": "Só com a maré baixa. Tem que olhar a tábua de marés."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y aquí no grabaron una serie famosa?",
+          "pt": "E aqui não gravaram uma série famosa?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí, salen en muchas películas y series. ¡Pero no toques nada!",
+          "pt": "Sim, aparecem em muitos filmes e séries. Mas não toque em nada!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"La marea baja\" é:",
+      "options": [
+        "A maré baixa",
+        "A maré alta",
+        "O mar calmo"
+      ],
+      "correct": 0,
+      "explanation": "Marea alta / marea baja."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Dá para caminhar por baixo?",
+      "answer": [
+        "¿Se",
+        "puede",
+        "caminar",
+        "por",
+        "abajo?"
+      ],
+      "distractors": [
+        "dá",
+        "debajo de"
+      ],
+      "explanation": "\"Por abajo\" = por baixo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Solo con la marea baja. Hay que mirar la tabla de mareas.",
+      "options": [
+        "Só com a maré baixa. Tem que olhar a tábua de marés.",
+        "A qualquer hora.",
+        "Nunca, é proibido."
+      ],
+      "correct": 0,
+      "explanation": "A maré sobe rápido: cuidado."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "roca",
+          "kind": "quase",
+          "meaning": "rocha",
+          "tip": "Rocas."
+        },
+        {
+          "es": "capa",
+          "kind": "armadilha",
+          "meaning": "camada",
+          "tip": "Também capa (roupa)!"
+        },
+        {
+          "es": "ola gigante",
+          "kind": "quase",
+          "meaning": "onda gigante",
+          "tip": "Los surfistas buscan olas gigantes."
+        },
+        {
+          "es": "acantilado",
+          "kind": "quase",
+          "meaning": "penhasco / falésia",
+          "tip": "Costa de acantilados."
+        },
+        {
+          "es": "tabla de mareas",
+          "kind": "quase",
+          "meaning": "tábua de marés",
+          "tip": "Para planejar a visita."
+        },
+        {
+          "es": "grabar",
+          "kind": "armadilha",
+          "meaning": "gravar / filmar",
+          "tip": "Não é gravar no sentido de pesar."
+        },
+        {
+          "es": "serie",
+          "kind": "quase",
+          "meaning": "série (de TV)",
+          "tip": "Sem acento."
+        },
+        {
+          "es": "fósil",
+          "kind": "quase",
+          "meaning": "fóssil",
+          "tip": "Um s."
+        },
+        {
+          "es": "geoparque",
+          "kind": "quase",
+          "meaning": "geoparque",
+          "tip": "Proteção UNESCO."
+        },
+        {
+          "es": "resbaladizo",
+          "kind": "quase",
+          "meaning": "escorregadio",
+          "tip": "Suelo resbaladizo."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Una hoja\" pode ser:",
+      "options": [
+        "Uma folha (de papel ou árvore)",
+        "Uma hora",
+        "Uma loja"
+      ],
+      "correct": 0,
+      "explanation": "Hoja = folha."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Cuidado, está escorregadio.",
+      "answer": [
+        "Cuidado,",
+        "está",
+        "resbaladizo."
+      ],
+      "distractors": [
+        "escorregadio",
+        "resbaloso"
+      ],
+      "explanation": "Resbaladizo = escorregadio."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, salen en muchas películas y series. ¡Pero no toques nada!",
+      "options": [
+        "Sim, aparecem em muitos filmes e séries. Mas não toque em nada!",
+        "Não, ninguém vem aqui.",
+        "Sim, e pode levar pedras de lembrança."
+      ],
+      "correct": 0,
+      "explanation": "No geoparque não se tiram rochas nem fósseis."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"El suelo está ___.\" (escorregadio)",
+      "options": [
+        "resbaladizo",
+        "escorregadizo",
+        "resbalado"
+      ],
+      "correct": 0,
+      "explanation": "Resbaladizo = escorregadio."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Dame una hoja.",
+          "options": [
+            "Me dá uma folha.",
+            "Me dá uma hora."
+          ],
+          "correct": 0,
+          "joke": "Hoja = folha."
+        },
+        {
+          "spanish": "Están grabando una serie.",
+          "options": [
+            "Estão gravando uma série.",
+            "Estão pesando uma série."
+          ],
+          "correct": 0,
+          "joke": "Grabar = filmar."
+        },
+        {
+          "spanish": "Hay muchas capas de roca.",
+          "options": [
+            "Há muitas camadas de rocha.",
+            "Há muitas capas de rocha."
+          ],
+          "correct": 0,
+          "joke": "Capa = camada."
+        },
+        {
+          "spanish": "Es un acantilado alto.",
+          "options": [
+            "É um penhasco alto.",
+            "É um acampamento alto."
+          ],
+          "correct": 0,
+          "joke": "Acantilado = falésia."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "País Vasco",
+      "items": [
+        {
+          "emoji": "🪨",
+          "title": "Flysch",
+          "es": "El flysch de Zumaia.",
+          "pt": "Camadas de rocha empilhadas como folhas de livro entre Mutriku, Deba e Zumaia, dentro do Geoparque da Costa Basca (Geoparque Mundial da UNESCO). Visite com maré baixa."
+        },
+        {
+          "emoji": "🎥",
+          "title": "Locação de filmagem",
+          "es": "Aquí se han grabado series famosas.",
+          "pt": "A praia de Itzurun e os penhascos de Zumaia já foram cenário de filmes e séries internacionais."
+        }
+      ]
+    }
+  ]
+}

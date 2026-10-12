@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u34l2",
+  "title": "A praia de La Concha",
+  "scenario": "Donostia · bahía de La Concha",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 101: A baía",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¡Qué bahía tan bonita! Tiene forma de concha.",
+          "pt": "Que baía linda! Tem forma de concha."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Por eso se llama La Concha. Y aquella isla es Santa Clara.",
+          "pt": "Por isso se chama La Concha. E aquela ilha é Santa Clara."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Subimos al monte Igueldo para verla desde arriba?",
+          "pt": "Subimos ao monte Igueldo para vê-la de cima?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí, hay un funicular antiguo. Y arriba, un parque de atracciones.",
+          "pt": "Sim, tem um funicular antigo. E lá em cima, um parque de diversões."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Hoy hace bueno, pero el tiempo aquí cambia rápido.",
+          "pt": "Hoje está bom, mas o tempo aqui muda rápido."
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí, lleva siempre una chaqueta. ¡Nunca se sabe!",
+          "pt": "Sim, leve sempre uma jaqueta. Nunca se sabe!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Hoy hace bueno\" significa:",
+      "options": [
+        "Hoje o tempo está bom",
+        "Hoje faz bem",
+        "Hoje é bonzinho"
+      ],
+      "correct": 0,
+      "explanation": "Hacer bueno/malo = tempo bom/ruim."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "O tempo muda rápido.",
+      "answer": [
+        "El",
+        "tiempo",
+        "cambia",
+        "rápido."
+      ],
+      "distractors": [
+        "muda",
+        "tempo"
+      ],
+      "explanation": "Tiempo = tempo (clima)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, hay un funicular antiguo. Y arriba, un parque de atracciones.",
+      "options": [
+        "Sim, tem um funicular antigo. E lá em cima, um parque de diversões.",
+        "Não, só a pé.",
+        "Sim, de helicóptero."
+      ],
+      "correct": 0,
+      "explanation": "Parque de atracciones = parque de diversões."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "bahía",
+          "kind": "quase",
+          "meaning": "baía",
+          "tip": "Acento no í."
+        },
+        {
+          "es": "funicular",
+          "kind": "igual",
+          "meaning": "funicular",
+          "tip": "Igual!"
+        },
+        {
+          "es": "parque de atracciones",
+          "kind": "quase",
+          "meaning": "parque de diversões",
+          "tip": "Atracción = brinquedo."
+        },
+        {
+          "es": "chaqueta",
+          "kind": "armadilha",
+          "meaning": "jaqueta",
+          "tip": "Não é chaqueta de pijama."
+        },
+        {
+          "es": "monte",
+          "kind": "igual",
+          "meaning": "monte",
+          "tip": "Igual!"
+        },
+        {
+          "es": "isla pequeña",
+          "kind": "quase",
+          "meaning": "ilhota",
+          "tip": "Islote também."
+        },
+        {
+          "es": "barandilla",
+          "kind": "armadilha",
+          "meaning": "corrimão / grade",
+          "tip": "A famosa da Concha."
+        },
+        {
+          "es": "nublarse",
+          "kind": "quase",
+          "meaning": "nublar",
+          "tip": "Se está nublando."
+        },
+        {
+          "es": "despejado",
+          "kind": "armadilha",
+          "meaning": "céu limpo",
+          "tip": "Não é despejado (expulso)!"
+        },
+        {
+          "es": "hacer bueno",
+          "kind": "armadilha",
+          "meaning": "fazer tempo bom",
+          "tip": "Hace bueno."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"El cielo está despejado\" significa:",
+      "options": [
+        "O céu está limpo",
+        "O céu foi despejado",
+        "O céu está nublado"
+      ],
+      "correct": 0,
+      "explanation": "Despejado = sem nuvens."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Leve sempre uma jaqueta.",
+      "answer": [
+        "Lleva",
+        "siempre",
+        "una",
+        "chaqueta."
+      ],
+      "distractors": [
+        "jaqueta",
+        "lleba"
+      ],
+      "explanation": "Chaqueta = jaqueta."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Hoy hace bueno, pero el tiempo aquí cambia rápido.",
+      "options": [
+        "Hoje está bom, mas o tempo aqui muda rápido.",
+        "Hoje está chovendo muito.",
+        "Aqui nunca muda o tempo."
+      ],
+      "correct": 0,
+      "explanation": "Clima atlântico: muda rápido."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Hoy está ___, sin nubes.\" (limpo)",
+      "options": [
+        "despejado",
+        "limpio",
+        "claro"
+      ],
+      "correct": 0,
+      "explanation": "Despejado = céu limpo."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "El cielo está despejado.",
+          "options": [
+            "O céu está limpo.",
+            "O céu está despejado."
+          ],
+          "correct": 0,
+          "joke": "Despejado = sem nuvens."
+        },
+        {
+          "spanish": "Agárrate a la barandilla.",
+          "options": [
+            "Segura no corrimão.",
+            "Segura na bandeirinha."
+          ],
+          "correct": 0,
+          "joke": "Barandilla = corrimão."
+        },
+        {
+          "spanish": "Hoy hace bueno.",
+          "options": [
+            "Hoje o tempo está bom.",
+            "Hoje faz o bem."
+          ],
+          "correct": 0,
+          "joke": "Hacer bueno = tempo bom."
+        },
+        {
+          "spanish": "Ponte la chaqueta.",
+          "options": [
+            "Põe a jaqueta.",
+            "Põe o casaquinho de pijama."
+          ],
+          "correct": 0,
+          "joke": "Chaqueta = jaqueta."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "País Vasco",
+      "items": [
+        {
+          "emoji": "🐚",
+          "title": "La Concha",
+          "es": "La playa de La Concha.",
+          "pt": "Baía em forma de concha no centro de Donostia-San Sebastián, com a ilha de Santa Clara e os montes Igueldo e Urgull. A grade branca do passeio é um símbolo da cidade."
+        },
+        {
+          "emoji": "🌦️",
+          "title": "Tempo",
+          "es": "Txirimiri.",
+          "pt": "Chuvinha fina típica do País Basco; em espanhol local também se diz \"sirimiri\". Só para reconhecer; em castelhano padrão, \"llovizna\"."
+        }
+      ]
+    }
+  ]
+}

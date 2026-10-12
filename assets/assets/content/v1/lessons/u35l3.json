@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u35l3",
+  "title": "Mercado de la Ribera",
+  "scenario": "Bilbao · Mercado de la Ribera, Casco Viejo",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 105: Bacalhau e pimentões",
+      "lines": [
+        {
+          "speaker": "Lino",
+          "es": "Este es el Mercado de la Ribera, junto a la ría.",
+          "pt": "Este é o Mercado de la Ribera, junto à ria."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Cuánto bacalao! ¿Es típico de aquí?",
+          "pt": "Quanto bacalhau! É típico daqui?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí, el bacalao al pil-pil y a la vizcaína son clásicos de Bilbao.",
+          "pt": "Sim, o bacalhau ao pil-pil e à biscainha são clássicos de Bilbao."
+        },
+        {
+          "speaker": "Pescadera",
+          "es": "Este está desalado. Listo para cocinar.",
+          "pt": "Este está dessalgado. Pronto para cozinhar."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Póngame medio kilo, por favor. ¿Cómo se hace el pil-pil?",
+          "pt": "Me dê meio quilo, por favor. Como se faz o pil-pil?"
+        },
+        {
+          "speaker": "Pescadera",
+          "es": "Con aceite, ajo y guindilla. Mueves la cazuela hasta que la salsa liga.",
+          "pt": "Com azeite, alho e pimenta. Você mexe a panela até o molho emulsionar."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Desalado\" significa:",
+      "options": [
+        "Dessalgado",
+        "Sem asas",
+        "Desanimado"
+      ],
+      "correct": 0,
+      "explanation": "Desalar = tirar o sal."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Me dê meio quilo.",
+      "answer": [
+        "Póngame",
+        "medio",
+        "kilo."
+      ],
+      "distractors": [
+        "dême",
+        "quilo"
+      ],
+      "explanation": "\"Póngame\" = me dê (usted)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, el bacalao al pil-pil y a la vizcaína son clásicos de Bilbao.",
+      "options": [
+        "Sim, o bacalhau ao pil-pil e à biscainha são clássicos de Bilbao.",
+        "Não, aqui só se come carne.",
+        "Sim, mas só no Natal."
+      ],
+      "correct": 0,
+      "explanation": "Vizcaína = de Biscaia."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "bacalao",
+          "kind": "quase",
+          "meaning": "bacalhau",
+          "tip": "Bacalao al pil-pil."
+        },
+        {
+          "es": "desalar",
+          "kind": "quase",
+          "meaning": "dessalgar",
+          "tip": "Remojar para desalar."
+        },
+        {
+          "es": "ligar",
+          "kind": "armadilha",
+          "meaning": "emulsionar (molho) / paquerar",
+          "tip": "Não é telefonar!"
+        },
+        {
+          "es": "remojo",
+          "kind": "quase",
+          "meaning": "molho (de deixar na água)",
+          "tip": "Poner en remojo."
+        },
+        {
+          "es": "cocinar",
+          "kind": "armadilha",
+          "meaning": "cozinhar",
+          "tip": "Cozinha = cocina."
+        },
+        {
+          "es": "pescadera",
+          "kind": "quase",
+          "meaning": "peixeira (vendedora)",
+          "tip": "Pescadero/a."
+        },
+        {
+          "es": "vizcaína",
+          "kind": "quase",
+          "meaning": "biscainha",
+          "tip": "De Bizkaia."
+        },
+        {
+          "es": "casco viejo",
+          "kind": "quase",
+          "meaning": "centro histórico",
+          "tip": "Las Siete Calles."
+        },
+        {
+          "es": "mercado cubierto",
+          "kind": "quase",
+          "meaning": "mercado coberto",
+          "tip": "Como a Ribera."
+        },
+        {
+          "es": "lonchas",
+          "kind": "armadilha",
+          "meaning": "fatias",
+          "tip": "Lonchas de jamón."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Los cubiertos\" na mesa são:",
+      "options": [
+        "Os talheres",
+        "As tampas",
+        "Os guardanapos"
+      ],
+      "correct": 0,
+      "explanation": "Cubierto = talher."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Põe o bacalhau de molho.",
+      "answer": [
+        "Pon",
+        "el",
+        "bacalao",
+        "en",
+        "remojo."
+      ],
+      "distractors": [
+        "molho",
+        "salsa"
+      ],
+      "explanation": "\"En remojo\" = de molho (na água)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Con aceite, ajo y guindilla. Mueves la cazuela hasta que la salsa liga.",
+      "options": [
+        "Com azeite, alho e pimenta. Você mexe a panela até o molho emulsionar.",
+        "Com manteiga e creme de leite.",
+        "No micro-ondas, cinco minutos."
+      ],
+      "correct": 0,
+      "explanation": "\"Ligar\" = emulsionar."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Pon los ___ en la mesa.\" (talheres)",
+      "options": [
+        "cubiertos",
+        "talheres",
+        "cubetas"
+      ],
+      "correct": 0,
+      "explanation": "Cubiertos = talheres."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Pon los cubiertos.",
+          "options": [
+            "Põe os talheres.",
+            "Põe as cobertas."
+          ],
+          "correct": 0,
+          "joke": "Cubiertos = talheres."
+        },
+        {
+          "spanish": "La salsa no liga.",
+          "options": [
+            "O molho não emulsiona.",
+            "O molho não liga no telefone."
+          ],
+          "correct": 0,
+          "joke": "Ligar = emulsionar."
+        },
+        {
+          "spanish": "Me gusta cocinar.",
+          "options": [
+            "Gosto de cozinhar.",
+            "Gosto da cozinha."
+          ],
+          "correct": 0,
+          "joke": "Cocinar = cozinhar."
+        },
+        {
+          "spanish": "Cuatro lonchas de queso.",
+          "options": [
+            "Quatro fatias de queijo.",
+            "Quatro lanches de queijo."
+          ],
+          "correct": 0,
+          "joke": "Loncha = fatia."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "País Vasco",
+      "items": [
+        {
+          "emoji": "🐟",
+          "title": "Mercado de la Ribera",
+          "es": "El Mercado de la Ribera.",
+          "pt": "Mercado coberto à beira da ria de Bilbao, no Casco Viejo; é um dos maiores mercados cobertos da Europa."
+        },
+        {
+          "emoji": "🥘",
+          "title": "Pil-pil",
+          "es": "Bacalao al pil-pil.",
+          "pt": "Bacalhau cozido lentamente em azeite com alho e pimenta; mexendo a panela, a gelatina do peixe emulsiona o molho. Clássico basco."
+        }
+      ]
+    }
+  ]
+}
