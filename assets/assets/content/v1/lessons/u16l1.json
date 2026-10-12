@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "u16l1",
+  "title": "Assinando o contrato",
+  "scenario": "Papelada · oficina de RR. HH.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 46: O contrato",
+      "lines": [
+        {
+          "speaker": "Técnico",
+          "es": "Aquí tienes tu contrato. Es indefinido, a jornada completa.",
+          "pt": "Aqui está seu contrato. É por tempo indeterminado, em tempo integral."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Hay periodo de prueba?",
+          "pt": "Tem período de experiência?"
+        },
+        {
+          "speaker": "Técnico",
+          "es": "Sí, de dos meses. Está en la cláusula cinco.",
+          "pt": "Sim, de dois meses. Está na cláusula cinco."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Las pagas extra están prorrateadas?",
+          "pt": "Os pagamentos extras estão divididos nos meses?"
+        },
+        {
+          "speaker": "Técnico",
+          "es": "No, cobras catorce pagas: doce mensuales y dos extra, en junio y diciembre.",
+          "pt": "Não, você recebe catorze pagamentos: doze mensais e dois extras, em junho e dezembro."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Vale. Lo leo con calma y lo firmo mañana.",
+          "pt": "Beleza. Leio com calma e assino amanhã."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Contrato indefinido\" é:",
+      "options": [
+        "Contrato por tempo indeterminado",
+        "Contrato indefinido, sem regras",
+        "Contrato provisório"
+      ],
+      "correct": 0,
+      "explanation": "Indefinido = sem data de fim. Temporal = com data de fim."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Tem período de experiência?",
+      "answer": [
+        "¿Hay",
+        "periodo",
+        "de",
+        "prueba?"
+      ],
+      "distractors": [
+        "experiencia",
+        "tiene"
+      ],
+      "explanation": "\"Periodo de prueba\" = período de experiência."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "No, cobras catorce pagas: doce mensuales y dos extra, en junio y diciembre.",
+      "options": [
+        "Não, você recebe catorze pagamentos: doze mensais e dois extras, em junho e dezembro.",
+        "Não, você recebe doze pagamentos sem extras.",
+        "Sim, recebe tudo em dezembro."
+      ],
+      "correct": 0,
+      "explanation": "Na Espanha, as pagas extra podem vir à parte ou divididas (prorrateadas) nos 12 meses."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "cláusula",
+          "kind": "quase",
+          "meaning": "cláusula",
+          "tip": "Igual!"
+        },
+        {
+          "es": "firmar",
+          "kind": "armadilha",
+          "meaning": "assinar",
+          "tip": "Firma = assinatura."
+        },
+        {
+          "es": "indefinido",
+          "kind": "armadilha",
+          "meaning": "por tempo indeterminado",
+          "tip": "Contrato fijo / indefinido."
+        },
+        {
+          "es": "temporal",
+          "kind": "armadilha",
+          "meaning": "temporário",
+          "tip": "Não é tempestade!"
+        },
+        {
+          "es": "prorratear",
+          "kind": "quase",
+          "meaning": "ratear / dividir",
+          "tip": "Pagas prorrateadas."
+        },
+        {
+          "es": "paga extra",
+          "kind": "quase",
+          "meaning": "pagamento extra",
+          "tip": "Parecido com o 13º."
+        },
+        {
+          "es": "despido",
+          "kind": "armadilha",
+          "meaning": "demissão",
+          "tip": "Não é despido (sem roupa)!"
+        },
+        {
+          "es": "finiquito",
+          "kind": "quase",
+          "meaning": "acerto de contas",
+          "tip": "Quando o contrato termina."
+        },
+        {
+          "es": "convenio",
+          "kind": "armadilha",
+          "meaning": "convenção coletiva",
+          "tip": "Convenio colectivo do setor."
+        },
+        {
+          "es": "baja voluntaria",
+          "kind": "quase",
+          "meaning": "pedido de demissão",
+          "tip": "Darse de baja = sair."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Despido\" significa:",
+      "options": [
+        "Demissão (pela empresa)",
+        "Sem roupa",
+        "Despedida"
+      ],
+      "correct": 0,
+      "explanation": "Despedida = \"despedida\"; despido = ser demitido."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Leio com calma e assino amanhã.",
+      "answer": [
+        "Lo",
+        "leo",
+        "con",
+        "calma",
+        "y",
+        "lo",
+        "firmo",
+        "mañana."
+      ],
+      "distractors": [
+        "asino",
+        "firmé"
+      ],
+      "explanation": "\"Firmar\" = assinar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, de dos meses. Está en la cláusula cinco.",
+      "options": [
+        "Sim, de dois meses. Está na cláusula cinco.",
+        "Não, não tem.",
+        "Sim, de cinco meses."
+      ],
+      "correct": 0,
+      "explanation": "A duração máxima depende do convênio e do tipo de cargo."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Firma aquí, por favor. Necesito tu ___.\" (assinatura)",
+      "options": [
+        "firma",
+        "asinatura",
+        "rúbrica"
+      ],
+      "correct": 0,
+      "explanation": "\"Firma\" = assinatura."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Firma el contrato.",
+          "options": [
+            "Assine o contrato.",
+            "Firme o contrato com a mão."
+          ],
+          "correct": 0,
+          "joke": "Firmar = assinar."
+        },
+        {
+          "spanish": "Le han dado el despido.",
+          "options": [
+            "Ele foi demitido.",
+            "Ele ficou pelado."
+          ],
+          "correct": 0,
+          "joke": "Despido = demissão."
+        },
+        {
+          "spanish": "Es un contrato temporal.",
+          "options": [
+            "É um contrato temporário.",
+            "É um contrato de tempestade."
+          ],
+          "correct": 0,
+          "joke": "Temporal = temporário."
+        },
+        {
+          "spanish": "Me pagan el finiquito.",
+          "options": [
+            "Me pagam o acerto final.",
+            "Me pagam um fininho."
+          ],
+          "correct": 0,
+          "joke": "Finiquito = acerto de contas."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "📝",
+          "title": "Tipos de contrato",
+          "es": "¿Es indefinido o temporal?",
+          "pt": "Desde a reforma trabalhista de 2022, o contrato indefinido é a regra; o temporal só vale para casos concretos. Leia sempre o convenio colectivo do seu setor. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "💶",
+          "title": "Pagas extra",
+          "es": "Cobro catorce pagas.",
+          "pt": "Por lei há pelo menos duas pagas extraordinárias por ano (normalmente junho/julho e dezembro). O convênio pode permitir dividi-las nos 12 meses. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}

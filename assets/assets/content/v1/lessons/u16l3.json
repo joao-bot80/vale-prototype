@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u16l3",
+  "title": "A declaração da renta",
+  "scenario": "Papelada · campaña de la renta",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 48: Hora da renta",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¿Tengo que hacer la declaración de la renta?",
+          "pt": "Tenho que fazer a declaração do imposto de renda?"
+        },
+        {
+          "speaker": "Gestora",
+          "es": "Depende. Con un solo pagador, si ganas menos de veintidós mil euros, en general no estás obligada.",
+          "pt": "Depende. Com uma só fonte pagadora, se ganha menos de vinte e dois mil euros, em geral não é obrigada."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Pero quizás me devuelven dinero, ¿no?",
+          "pt": "Mas talvez me devolvam dinheiro, né?"
+        },
+        {
+          "speaker": "Gestora",
+          "es": "Exacto. Por eso conviene revisar el borrador en Renta WEB.",
+          "pt": "Exato. Por isso convém revisar o rascunho no Renta WEB."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Hasta cuándo hay plazo?",
+          "pt": "Até quando tem prazo?"
+        },
+        {
+          "speaker": "Gestora",
+          "es": "Normalmente de abril a finales de junio. Este año, hasta el treinta de junio.",
+          "pt": "Normalmente de abril ao fim de junho. Este ano, até trinta de junho."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Me devuelven dinero\" significa:",
+      "options": [
+        "Me devolvem dinheiro (restituição)",
+        "Me devem dinheiro",
+        "Me cobram dinheiro"
+      ],
+      "correct": 0,
+      "explanation": "\"Sale a devolver\" = tem restituição. \"Sale a pagar\" = tem que pagar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Tenho que fazer a declaração?",
+      "answer": [
+        "¿Tengo",
+        "que",
+        "hacer",
+        "la",
+        "declaración?"
+      ],
+      "distractors": [
+        "tengo de",
+        "fazer"
+      ],
+      "explanation": "\"Tener que\" + infinitivo = ter que."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Exacto. Por eso conviene revisar el borrador en Renta WEB.",
+      "options": [
+        "Exato. Por isso convém revisar o rascunho no Renta WEB.",
+        "Exato, mas não precisa revisar nada.",
+        "Não, a Receita faz tudo sozinha."
+      ],
+      "correct": 0,
+      "explanation": "\"Borrador\" = rascunho que a Agencia Tributaria prepara."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "borrador",
+          "kind": "armadilha",
+          "meaning": "rascunho",
+          "tip": "Também apagador / borracha!"
+        },
+        {
+          "es": "declaración",
+          "kind": "quase",
+          "meaning": "declaração",
+          "tip": "Igual."
+        },
+        {
+          "es": "casilla",
+          "kind": "armadilha",
+          "meaning": "campo do formulário",
+          "tip": "Não é casinha!"
+        },
+        {
+          "es": "pagador",
+          "kind": "quase",
+          "meaning": "fonte pagadora",
+          "tip": "Un solo pagador."
+        },
+        {
+          "es": "devolución",
+          "kind": "quase",
+          "meaning": "restituição",
+          "tip": "Sale a devolver."
+        },
+        {
+          "es": "gestoría",
+          "kind": "quase",
+          "meaning": "escritório de contabilidade",
+          "tip": "Gestor / gestora."
+        },
+        {
+          "es": "deducir",
+          "kind": "quase",
+          "meaning": "deduzir",
+          "tip": "Gastos deducibles."
+        },
+        {
+          "es": "ejercicio",
+          "kind": "armadilha",
+          "meaning": "ano fiscal",
+          "tip": "Também exercício físico!"
+        },
+        {
+          "es": "domiciliar",
+          "kind": "armadilha",
+          "meaning": "débito automático",
+          "tip": "Domiciliar el pago."
+        },
+        {
+          "es": "recargo",
+          "kind": "armadilha",
+          "meaning": "acréscimo por atraso",
+          "tip": "Recargo por pagar fuera de plazo."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"El ejercicio 2025\" na renta é:",
+      "options": [
+        "O ano fiscal de 2025",
+        "Um treino de 2025",
+        "Uma prova de 2025"
+      ],
+      "correct": 0,
+      "explanation": "A renta 2025 é feita em 2026."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Até quando tem prazo?",
+      "answer": [
+        "¿Hasta",
+        "cuándo",
+        "hay",
+        "plazo?"
+      ],
+      "distractors": [
+        "plaza",
+        "tem"
+      ],
+      "explanation": "\"Plazo\" = prazo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Normalmente de abril a finales de junio. Este año, hasta el treinta de junio.",
+      "options": [
+        "Normalmente de abril ao fim de junho. Este ano, até trinta de junho.",
+        "Só em janeiro.",
+        "Durante o ano todo, sem prazo."
+      ],
+      "correct": 0,
+      "explanation": "Campanha da Renta 2025: de 8 de abril a 30 de junho de 2026."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Mi declaración sale a ___.\" (tenho restituição)",
+      "options": [
+        "devolver",
+        "devolución",
+        "devuelto"
+      ],
+      "correct": 0,
+      "explanation": "\"Sale a devolver\" = Hacienda te devolve dinheiro."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Revisa el borrador.",
+          "options": [
+            "Revise o rascunho.",
+            "Revise a borracha."
+          ],
+          "correct": 0,
+          "joke": "Borrador = rascunho."
+        },
+        {
+          "spanish": "Se acaba el plazo.",
+          "options": [
+            "O prazo está acabando.",
+            "A praça está acabando."
+          ],
+          "correct": 0,
+          "joke": "Plazo = prazo."
+        },
+        {
+          "spanish": "Es la renta del ejercicio 2025.",
+          "options": [
+            "É a declaração do ano fiscal de 2025.",
+            "É o aluguel do exercício de 2025."
+          ],
+          "correct": 0,
+          "joke": "Ejercicio = ano fiscal."
+        },
+        {
+          "spanish": "Quiero domiciliar el pago.",
+          "options": [
+            "Quero pagar por débito automático.",
+            "Quero pagar em domicílio."
+          ],
+          "correct": 0,
+          "joke": "Domiciliar = débito em conta."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "🗓️",
+          "title": "Campanha 2026",
+          "es": "Renta 2025: del 8 de abril al 30 de junio.",
+          "pt": "A campanha da Renta 2025 vai de 8 de abril a 30 de junho de 2026 (até 25 de junho se pagar por débito automático). Faça pelo Renta WEB com Cl@ve, certificado ou número de referência. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "⚖️",
+          "title": "Quem é obrigado?",
+          "es": "¿Estoy obligada a declarar?",
+          "pt": "Em geral não é obrigado quem só tem salário até 22.000 €/ano de um pagador (ou 15.876 € com vários, se do segundo em diante passar de 1.500 €). Mesmo assim pode valer a pena para receber restituição. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}

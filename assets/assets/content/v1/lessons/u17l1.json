@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u17l1",
+  "title": "Rumo à nacionalidade",
+  "scenario": "Papelada · nacionalidad por residencia",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 49: Quero ser espanhola",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Lino, ¿cuántos años tengo que vivir aquí para pedir la nacionalidad?",
+          "pt": "Lino, quantos anos tenho que morar aqui para pedir a nacionalidade?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Para los brasileños, dos años de residencia legal y continuada.",
+          "pt": "Para os brasileiros, dois anos de residência legal e contínua."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Solo dos! ¿Y qué más necesito?",
+          "pt": "Só dois! E o que mais eu preciso?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Aprobar dos exámenes: el DELE A2 y el CCSE, y pagar una tasa.",
+          "pt": "Passar em duas provas: o DELE A2 e o CCSE, e pagar uma taxa."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Pero los brasileños no hablamos ya casi español?",
+          "pt": "Mas nós brasileiros já não falamos quase espanhol?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Casi, pero Brasil no está exento del DELE. ¡Hay que estudiar!",
+          "pt": "Quase, mas o Brasil não está isento do DELE. Tem que estudar!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Para brasileiros, a residência legal exigida é de:",
+      "options": [
+        "2 anos",
+        "10 anos",
+        "5 anos"
+      ],
+      "correct": 0,
+      "explanation": "Países ibero-americanos têm prazo reduzido de 2 anos (Código Civil, art. 22)."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Quero pedir a nacionalidade.",
+      "answer": [
+        "Quiero",
+        "pedir",
+        "la",
+        "nacionalidad."
+      ],
+      "distractors": [
+        "solicitar",
+        "nacionalidade"
+      ],
+      "explanation": "\"Pedir\" ou \"solicitar\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Aprobar dos exámenes: el DELE A2 y el CCSE, y pagar una tasa.",
+      "options": [
+        "Passar em duas provas: o DELE A2 e o CCSE, e pagar uma taxa.",
+        "Fazer uma entrevista na embaixada.",
+        "Só pagar uma taxa."
+      ],
+      "correct": 0,
+      "explanation": "\"Aprobar\" = ser aprovado."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "aprobar",
+          "kind": "armadilha",
+          "meaning": "passar (na prova)",
+          "tip": "Suspender = ser reprovado."
+        },
+        {
+          "es": "suspender",
+          "kind": "armadilha",
+          "meaning": "ser reprovado",
+          "tip": "Não é suspender!"
+        },
+        {
+          "es": "empadronado",
+          "kind": "quase",
+          "meaning": "registrado no padrón",
+          "tip": "Estar empadronado."
+        },
+        {
+          "es": "exento",
+          "kind": "quase",
+          "meaning": "isento",
+          "tip": "Exención = isenção."
+        },
+        {
+          "es": "expediente",
+          "kind": "armadilha",
+          "meaning": "processo",
+          "tip": "Número de expediente."
+        },
+        {
+          "es": "jura",
+          "kind": "quase",
+          "meaning": "juramento",
+          "tip": "Jurar la Constitución."
+        },
+        {
+          "es": "antecedentes penales",
+          "kind": "quase",
+          "meaning": "antecedentes criminais",
+          "tip": "Certidão do país de origem."
+        },
+        {
+          "es": "resolución",
+          "kind": "quase",
+          "meaning": "decisão",
+          "tip": "Resolución favorable."
+        },
+        {
+          "es": "tramitar",
+          "kind": "quase",
+          "meaning": "processar / dar entrada",
+          "tip": "Tramitar la nacionalidad."
+        },
+        {
+          "es": "residencia",
+          "kind": "quase",
+          "meaning": "residência",
+          "tip": "Legal y continuada."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"He suspendido el examen\" significa:",
+      "options": [
+        "Fui reprovado na prova",
+        "Adiei a prova",
+        "Cancelei a prova"
+      ],
+      "correct": 0,
+      "explanation": "Suspender = reprovar. Aprobar = passar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Passei na prova!",
+      "answer": [
+        "¡He",
+        "aprobado",
+        "el",
+        "examen!"
+      ],
+      "distractors": [
+        "pasado",
+        "suspendido"
+      ],
+      "explanation": "\"Aprobar\" = passar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Casi, pero Brasil no está exento del DELE. ¡Hay que estudiar!",
+      "options": [
+        "Quase, mas o Brasil não está isento do DELE. Tem que estudar!",
+        "Sim, o Brasil é isento.",
+        "Não precisa de prova nenhuma."
+      ],
+      "correct": 0,
+      "explanation": "Só nacionais de países de língua oficial espanhola são isentos do DELE."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"¿Cuál es el número de tu ___?\" (processo)",
+      "options": [
+        "expediente",
+        "proceso",
+        "expedição"
+      ],
+      "correct": 0,
+      "explanation": "\"Expediente\" = processo administrativo."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "He suspendido el CCSE.",
+          "options": [
+            "Fui reprovada no CCSE.",
+            "Suspendi o CCSE."
+          ],
+          "correct": 0,
+          "joke": "Suspender = reprovar."
+        },
+        {
+          "spanish": "Paga la tasa.",
+          "options": [
+            "Pague a taxa.",
+            "Pague a taça."
+          ],
+          "correct": 0,
+          "joke": "Tasa = taxa."
+        },
+        {
+          "spanish": "Mira tu expediente.",
+          "options": [
+            "Olha seu processo.",
+            "Olha seu expediente de trabalho."
+          ],
+          "correct": 0,
+          "joke": "Expediente = processo."
+        },
+        {
+          "spanish": "Presento la solicitud.",
+          "options": [
+            "Apresento o requerimento.",
+            "Apresento a solicitude."
+          ],
+          "correct": 0,
+          "joke": "Solicitud = pedido."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "🇪🇸",
+          "title": "Dois anos",
+          "es": "Brasileños: dos años de residencia.",
+          "pt": "Brasileiros (e outros ibero-americanos) podem pedir a nacionalidade por residência após 2 anos de residência legal, contínua e imediatamente anterior ao pedido. O pedido costuma ser feito online no Ministerio de Justicia. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "✋",
+          "title": "A jura",
+          "es": "Juro fidelidad al Rey y obediencia a la Constitución.",
+          "pt": "Depois da resolução favorável, há o juramento de fidelidade ao Rei e obediência à Constituição. A Espanha em geral pede renúncia à nacionalidade anterior, mas isso não se aplica a países ibero-americanos como o Brasil. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}

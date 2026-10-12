@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "u16l2",
+  "title": "Lendo a nómina",
+  "scenario": "Papelada · la primera nómina",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 47: Cadê meu dinheiro?",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Lino, mi sueldo bruto es más alto. ¿Por qué cobro menos?",
+          "pt": "Lino, meu salário bruto é mais alto. Por que recebo menos?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Mira las deducciones: la Seguridad Social y la retención del IRPF.",
+          "pt": "Olha os descontos: a Seguridade Social e a retenção do IRPF."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y cuánto es la Seguridad Social?",
+          "pt": "E quanto é a Seguridade Social?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Con contrato indefinido, en 2026 el trabajador paga un seis coma cinco por ciento.",
+          "pt": "Com contrato indefinido, em 2026 o trabalhador paga seis vírgula cinco por cento."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y el IRPF?",
+          "pt": "E o IRPF?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Depende de tu sueldo y tu situación. Lo que cobras al final es el líquido.",
+          "pt": "Depende do seu salário e da sua situação. O que você recebe no fim é o líquido."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Sueldo bruto\" é:",
+      "options": [
+        "Salário bruto, antes dos descontos",
+        "Salário mal-educado",
+        "Salário líquido"
+      ],
+      "correct": 0,
+      "explanation": "Bruto - deducciones = líquido (neto)."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Por que recebo menos?",
+      "answer": [
+        "¿Por",
+        "qué",
+        "cobro",
+        "menos?"
+      ],
+      "distractors": [
+        "recibo",
+        "ganho"
+      ],
+      "explanation": "\"Cobrar\" = receber (pagamento)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Mira las deducciones: la Seguridad Social y la retención del IRPF.",
+      "options": [
+        "Olha os descontos: a Seguridade Social e a retenção do IRPF.",
+        "Olha os bônus do mês.",
+        "Olha as férias que você tem."
+      ],
+      "correct": 0,
+      "explanation": "IRPF = imposto de renda da Espanha."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "nómina",
+          "kind": "armadilha",
+          "meaning": "holerite / contracheque",
+          "tip": "Não é nominata!"
+        },
+        {
+          "es": "bruto",
+          "kind": "igual",
+          "meaning": "bruto",
+          "tip": "Igual!"
+        },
+        {
+          "es": "líquido",
+          "kind": "quase",
+          "meaning": "líquido",
+          "tip": "Líquido a percibir."
+        },
+        {
+          "es": "deducción",
+          "kind": "quase",
+          "meaning": "desconto / dedução",
+          "tip": "Deducciones da nómina."
+        },
+        {
+          "es": "retención",
+          "kind": "quase",
+          "meaning": "retenção na fonte",
+          "tip": "Retención de IRPF."
+        },
+        {
+          "es": "paga",
+          "kind": "armadilha",
+          "meaning": "pagamento / salário",
+          "tip": "La paga del mes."
+        },
+        {
+          "es": "devengo",
+          "kind": "quase",
+          "meaning": "vencimento / provento",
+          "tip": "Total devengado = bruto."
+        },
+        {
+          "es": "Hacienda",
+          "kind": "armadilha",
+          "meaning": "Receita Federal",
+          "tip": "Não é fazenda (granja)!"
+        },
+        {
+          "es": "ingreso",
+          "kind": "armadilha",
+          "meaning": "entrada / depósito",
+          "tip": "Ingresar dinero = depositar."
+        },
+        {
+          "es": "horas extra",
+          "kind": "quase",
+          "meaning": "horas extras",
+          "tip": "Igual."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Hacienda\" na Espanha é:",
+      "options": [
+        "A Receita (Agencia Tributaria)",
+        "Uma fazenda",
+        "A prefeitura"
+      ],
+      "correct": 0,
+      "explanation": "\"Hacienda somos todos\"."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "O que você recebe no fim é o líquido.",
+      "answer": [
+        "Lo",
+        "que",
+        "cobras",
+        "al",
+        "final",
+        "es",
+        "el",
+        "líquido."
+      ],
+      "distractors": [
+        "recibes",
+        "neto"
+      ],
+      "explanation": "Também \"neto\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Con contrato indefinido, en 2026 el trabajador paga un seis coma cinco por ciento.",
+      "options": [
+        "Com contrato indefinido, em 2026 o trabalhador paga seis vírgula cinco por cento.",
+        "O trabalhador não paga nada.",
+        "A empresa desconta vinte e cinco por cento."
+      ],
+      "correct": 0,
+      "explanation": "4,70 + 1,55 + 0,10 + 0,15 = 6,50 %."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"¿Cuándo ___ la nómina?\" (você recebe)",
+      "options": [
+        "cobras",
+        "cobres",
+        "pagas"
+      ],
+      "correct": 0,
+      "explanation": "\"Cobrar la nómina\" = receber o salário."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Ya he cobrado la nómina.",
+          "options": [
+            "Já recebi o salário.",
+            "Já cobrei a dívida."
+          ],
+          "correct": 0,
+          "joke": "Cobrar = receber."
+        },
+        {
+          "spanish": "Tengo que pagar a Hacienda.",
+          "options": [
+            "Tenho que pagar à Receita.",
+            "Tenho que pagar a fazenda."
+          ],
+          "correct": 0,
+          "joke": "Hacienda = Receita."
+        },
+        {
+          "spanish": "He hecho un ingreso en el banco.",
+          "options": [
+            "Fiz um depósito no banco.",
+            "Fiz um ingresso no banco."
+          ],
+          "correct": 0,
+          "joke": "Ingreso = depósito."
+        },
+        {
+          "spanish": "Mira la nómina de marzo.",
+          "options": [
+            "Olha o holerite de março.",
+            "Olha a lista de nomes de março."
+          ],
+          "correct": 0,
+          "joke": "Nómina = holerite."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "🧾",
+          "title": "Cotização 2026",
+          "es": "4,70 + 1,55 + 0,10 + 0,15",
+          "pt": "Com contrato indefinido, o trabalhador cotiza 6,50 % à Seguridad Social em 2026: contingências comuns 4,70 %, desemprego 1,55 %, formação 0,10 % e MEI 0,15 %. A empresa paga uma parte bem maior. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "📋",
+          "title": "Modelo 145",
+          "es": "Rellena el modelo 145.",
+          "pt": "A retenção de IRPF não é fixa: depende do salário anual e da situação pessoal e familiar que você informa à empresa no modelo 145. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}

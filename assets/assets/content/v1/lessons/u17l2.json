@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u17l2",
+  "title": "A prova DELE",
+  "scenario": "Papelada · Instituto Cervantes",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 50: DELE A2",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Quiero inscribirme en el DELE A2.",
+          "pt": "Quero me inscrever no DELE A2."
+        },
+        {
+          "speaker": "Empleado",
+          "es": "Muy bien. Puedes hacerlo en la web del Instituto Cervantes y elegir un centro de examen.",
+          "pt": "Muito bem. Pode fazer no site do Instituto Cervantes e escolher um centro de prova."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Qué partes tiene el examen?",
+          "pt": "Que partes a prova tem?"
+        },
+        {
+          "speaker": "Empleado",
+          "es": "Comprensión de lectura, comprensión auditiva, expresión escrita y expresión oral.",
+          "pt": "Compreensão de leitura, compreensão auditiva, expressão escrita e expressão oral."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿El certificado caduca?",
+          "pt": "O certificado vence?"
+        },
+        {
+          "speaker": "Empleado",
+          "es": "No, el DELE no caduca. Es para toda la vida.",
+          "pt": "Não, o DELE não vence. É para a vida toda."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¿El certificado caduca?\" significa:",
+      "options": [
+        "O certificado vence?",
+        "O certificado cai?",
+        "O certificado é caro?"
+      ],
+      "correct": 0,
+      "explanation": "\"Caducar\" = vencer, expirar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Quero me inscrever no DELE.",
+      "answer": [
+        "Quiero",
+        "inscribirme",
+        "en",
+        "el",
+        "DELE."
+      ],
+      "distractors": [
+        "inscrever",
+        "matricularme"
+      ],
+      "explanation": "\"Inscribirse\" = inscrever-se."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Comprensión de lectura, comprensión auditiva, expresión escrita y expresión oral.",
+      "options": [
+        "Compreensão de leitura, compreensão auditiva, expressão escrita e expressão oral.",
+        "Só uma prova oral.",
+        "Gramática e tradução."
+      ],
+      "correct": 0,
+      "explanation": "As quatro habilidades."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "inscribirse",
+          "kind": "quase",
+          "meaning": "inscrever-se",
+          "tip": "Inscripción = inscrição."
+        },
+        {
+          "es": "caducar",
+          "kind": "armadilha",
+          "meaning": "vencer / expirar",
+          "tip": "Fecha de caducidad = validade."
+        },
+        {
+          "es": "convocatoria",
+          "kind": "armadilha",
+          "meaning": "data / edição da prova",
+          "tip": "Não é convocação militar!"
+        },
+        {
+          "es": "calificación",
+          "kind": "armadilha",
+          "meaning": "nota",
+          "tip": "Não é qualificação profissional."
+        },
+        {
+          "es": "apto",
+          "kind": "quase",
+          "meaning": "aprovado (apto)",
+          "tip": "Apto / no apto."
+        },
+        {
+          "es": "redacción",
+          "kind": "armadilha",
+          "meaning": "redação",
+          "tip": "Igual, com c."
+        },
+        {
+          "es": "comprensión",
+          "kind": "quase",
+          "meaning": "compreensão",
+          "tip": "Sem acento no ã."
+        },
+        {
+          "es": "oral",
+          "kind": "igual",
+          "meaning": "oral",
+          "tip": "Igual!"
+        },
+        {
+          "es": "aforo",
+          "kind": "armadilha",
+          "meaning": "lotação",
+          "tip": "Aforo limitado."
+        },
+        {
+          "es": "centro examinador",
+          "kind": "quase",
+          "meaning": "centro de prova",
+          "tip": "Onde você faz o exame."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "No DELE e no CCSE, o resultado é:",
+      "options": [
+        "Apto ou no apto",
+        "Uma nota de 0 a 1000",
+        "Bom, ruim ou ótimo"
+      ],
+      "correct": 0,
+      "explanation": "\"Apto\" = aprovado."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "O certificado não vence.",
+      "answer": [
+        "El",
+        "certificado",
+        "no",
+        "caduca."
+      ],
+      "distractors": [
+        "vence",
+        "expira"
+      ],
+      "explanation": "\"Caducar\" = vencer."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "No, el DELE no caduca. Es para toda la vida.",
+      "options": [
+        "Não, o DELE não vence. É para a vida toda.",
+        "Sim, vence em dois anos.",
+        "Sim, vence em quatro anos."
+      ],
+      "correct": 0,
+      "explanation": "Diferente do CCSE, cujo resultado vale 4 anos para a nacionalidade."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"Me presento a la ___ de mayo.\" (edição da prova)",
+      "options": [
+        "convocatoria",
+        "convocación",
+        "convite"
+      ],
+      "correct": 0,
+      "explanation": "\"Convocatoria\" = data/edição do exame."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "El yogur ha caducado.",
+          "options": [
+            "O iogurte venceu.",
+            "O iogurte caiu."
+          ],
+          "correct": 0,
+          "joke": "Caducar = vencer."
+        },
+        {
+          "spanish": "¿Qué calificación has sacado?",
+          "options": [
+            "Que nota você tirou?",
+            "Que qualificação você tem?"
+          ],
+          "correct": 0,
+          "joke": "Calificación = nota."
+        },
+        {
+          "spanish": "Hay convocatoria en mayo.",
+          "options": [
+            "Tem prova em maio.",
+            "Tem convocação militar em maio."
+          ],
+          "correct": 0,
+          "joke": "Convocatoria = edição do exame."
+        },
+        {
+          "spanish": "Soy apta.",
+          "options": [
+            "Fui aprovada.",
+            "Sou apta para o serviço."
+          ],
+          "correct": 0,
+          "joke": "Apto = aprovado."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "🎓",
+          "title": "DELE A2",
+          "es": "El DELE A2 cuesta 138 euros en España.",
+          "pt": "Para a nacionalidade, brasileiros precisam do DELE A2 ou superior. Em 2026 a inscrição custa 138 € na Espanha. O diploma DELE não tem validade limitada. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "🗓️",
+          "title": "Convocatorias",
+          "es": "Hay varias convocatorias al año.",
+          "pt": "O Instituto Cervantes oferece várias datas de prova por ano em centros na Espanha e no Brasil. Inscreva-se com antecedência: as vagas acabam. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}

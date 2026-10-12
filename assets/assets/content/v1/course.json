@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-8",
+  "contentVersion": "2026.10.12-9",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -383,6 +383,50 @@
             {
               "id": "u11l3",
               "title": "Saúde e carteira de motorista",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "pap-u3",
+          "title": "Contrato, nómina e renta",
+          "emoji": "🧾",
+          "lessons": [
+            {
+              "id": "u16l1",
+              "title": "Assinando o contrato",
+              "available": true
+            },
+            {
+              "id": "u16l2",
+              "title": "Lendo a nómina",
+              "available": true
+            },
+            {
+              "id": "u16l3",
+              "title": "A declaração da renta",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "pap-u4",
+          "title": "Nacionalidade, DELE e CCSE",
+          "emoji": "🇪🇸",
+          "lessons": [
+            {
+              "id": "u17l1",
+              "title": "Rumo à nacionalidade",
+              "available": true
+            },
+            {
+              "id": "u17l2",
+              "title": "A prova DELE",
+              "available": true
+            },
+            {
+              "id": "u17l3",
+              "title": "A prova CCSE",
               "available": true
             }
           ]

@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u17l3",
+  "title": "A prova CCSE",
+  "scenario": "Papelada · examen de conocimientos constitucionales",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 51: Constituição e cultura",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "¿Cómo es el examen CCSE?",
+          "pt": "Como é a prova CCSE?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Son veinticinco preguntas tipo test. Necesitas quince respuestas correctas.",
+          "pt": "São vinte e cinco perguntas de múltipla escolha. Você precisa de quinze respostas certas."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y qué preguntan?",
+          "pt": "E o que perguntam?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "La Constitución, el Gobierno, la geografía y la cultura de España.",
+          "pt": "A Constituição, o Governo, a geografia e a cultura da Espanha."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Puedo estudiar con las preguntas oficiales?",
+          "pt": "Posso estudar com as perguntas oficiais?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí, el Instituto Cervantes publica un manual con todas las preguntas.",
+          "pt": "Sim, o Instituto Cervantes publica um manual com todas as perguntas."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Preguntas tipo test\" são:",
+      "options": [
+        "Perguntas de múltipla escolha",
+        "Perguntas abertas",
+        "Perguntas orais"
+      ],
+      "correct": 0,
+      "explanation": "Tipo test = escolher a alternativa certa."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Preciso de quinze respostas certas.",
+      "answer": [
+        "Necesito",
+        "quince",
+        "respuestas",
+        "correctas."
+      ],
+      "distractors": [
+        "preciso",
+        "ciertas"
+      ],
+      "explanation": "\"Correcto\" = certo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "La Constitución, el Gobierno, la geografía y la cultura de España.",
+      "options": [
+        "A Constituição, o Governo, a geografia e a cultura da Espanha.",
+        "Matemática e física.",
+        "Só a história do Brasil."
+      ],
+      "correct": 0,
+      "explanation": "O manual oficial tem todas as perguntas possíveis."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "Constitución",
+          "kind": "quase",
+          "meaning": "Constituição",
+          "tip": "De 1978."
+        },
+        {
+          "es": "Cortes Generales",
+          "kind": "quase",
+          "meaning": "Parlamento",
+          "tip": "Congreso + Senado."
+        },
+        {
+          "es": "comunidad autónoma",
+          "kind": "quase",
+          "meaning": "região autônoma",
+          "tip": "São 17, mais Ceuta e Melilla."
+        },
+        {
+          "es": "Senado",
+          "kind": "quase",
+          "meaning": "Senado",
+          "tip": "Câmara alta das Cortes."
+        },
+        {
+          "es": "alcalde",
+          "kind": "armadilha",
+          "meaning": "prefeito",
+          "tip": "Não é alcaide!"
+        },
+        {
+          "es": "tipo test",
+          "kind": "quase",
+          "meaning": "múltipla escolha",
+          "tip": "Examen tipo test."
+        },
+        {
+          "es": "manual",
+          "kind": "igual",
+          "meaning": "manual",
+          "tip": "Igual!"
+        },
+        {
+          "es": "acertar",
+          "kind": "armadilha",
+          "meaning": "acertar",
+          "tip": "Também \"atinar\"; fallar = errar."
+        },
+        {
+          "es": "fallar",
+          "kind": "armadilha",
+          "meaning": "errar",
+          "tip": "Não é falar!"
+        },
+        {
+          "es": "Rey",
+          "kind": "quase",
+          "meaning": "Rei",
+          "tip": "Monarquia parlamentar."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"El alcalde\" é:",
+      "options": [
+        "O prefeito",
+        "O delegado",
+        "O governador"
+      ],
+      "correct": 0,
+      "explanation": "Alcalde = prefeito; trabalha no ayuntamiento."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Errei três perguntas.",
+      "answer": [
+        "He",
+        "fallado",
+        "tres",
+        "preguntas."
+      ],
+      "distractors": [
+        "errado",
+        "hablado"
+      ],
+      "explanation": "\"Fallar\" = errar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Sí, el Instituto Cervantes publica un manual con todas las preguntas.",
+      "options": [
+        "Sim, o Instituto Cervantes publica um manual com todas as perguntas.",
+        "Não, as perguntas são secretas.",
+        "Sim, mas só em inglês."
+      ],
+      "correct": 0,
+      "explanation": "O manual é atualizado a cada ano."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Complete: \"España es una monarquía ___.\"",
+      "options": [
+        "parlamentaria",
+        "absoluta",
+        "presidencial"
+      ],
+      "correct": 0,
+      "explanation": "Constituição de 1978: monarquia parlamentar."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "He fallado dos preguntas.",
+          "options": [
+            "Errei duas perguntas.",
+            "Falei duas perguntas."
+          ],
+          "correct": 0,
+          "joke": "Fallar = errar."
+        },
+        {
+          "spanish": "El alcalde de Madrid.",
+          "options": [
+            "O prefeito de Madrid.",
+            "O alcaide de Madrid."
+          ],
+          "correct": 0,
+          "joke": "Alcalde = prefeito."
+        },
+        {
+          "spanish": "El Congreso está en Madrid.",
+          "options": [
+            "O Congresso fica em Madrid.",
+            "A conferência fica em Madrid."
+          ],
+          "correct": 0,
+          "joke": "Congreso = Câmara dos Deputados."
+        },
+        {
+          "spanish": "He acertado veinte.",
+          "options": [
+            "Acertei vinte.",
+            "Acertei vinte reais."
+          ],
+          "correct": 0,
+          "joke": "Acertar = acertar."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Papelada",
+      "items": [
+        {
+          "emoji": "📘",
+          "title": "CCSE",
+          "es": "Veinticinco preguntas, quince aciertos.",
+          "pt": "Prova de conhecimentos constitucionais e socioculturais: 25 perguntas, aprova com 15 acertos. Em 2026 custa 85 € e dá direito a duas tentativas. O resultado vale 4 anos para a nacionalidade. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        },
+        {
+          "emoji": "🏛️",
+          "title": "Como estudar",
+          "es": "Descarga el manual del CCSE.",
+          "pt": "O Instituto Cervantes publica um manual gratuito com todas as perguntas possíveis, atualizado anualmente. Estude por ele. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+        }
+      ]
+    }
+  ]
+}
