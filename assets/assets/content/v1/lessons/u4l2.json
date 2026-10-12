@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u4l2",
+  "title": "A visita",
+  "scenario": "Visita al piso, carrer de Mallorca",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 11: Conhecendo o piso",
+      "lines": [
+        {
+          "speaker": "Marta",
+          "es": "¡Bon dia! Pasa, pasa. Este es el salón-comedor.",
+          "pt": "Bom dia! Entra, entra. Esta é a sala de estar e jantar."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Qué luminoso! ¿El piso está amueblado?",
+          "pt": "Que iluminado! O apartamento é mobiliado?"
+        },
+        {
+          "speaker": "Marta",
+          "es": "Sí, tiene todos los muebles y la cocina está equipada.",
+          "pt": "Sim, tem todos os móveis e a cozinha é equipada."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Hay calefacción?",
+          "pt": "Tem aquecimento?"
+        },
+        {
+          "speaker": "Marta",
+          "es": "Sí, y aire acondicionado en el dormitorio.",
+          "pt": "Sim, e ar-condicionado no quarto."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Me encanta. ¿Cuándo podría entrar a vivir?",
+          "pt": "Adorei. Quando eu poderia me mudar?"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como se diz \"mobiliado\"?",
+      "options": [
+        "amueblado",
+        "mueblado",
+        "mobilado"
+      ],
+      "correct": 0,
+      "explanation": "\"Amueblado\" = mobiliado. \"Sin amueblar\" = sem móveis."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "A cozinha é equipada?",
+      "answer": [
+        "¿La",
+        "cocina",
+        "está",
+        "equipada?"
+      ],
+      "distractors": [
+        "cozinha",
+        "es"
+      ],
+      "explanation": "Para o estado de um lugar: \"la cocina está equipada\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Tiene todos los muebles.",
+      "options": [
+        "Tem todos os móveis.",
+        "Não tem nenhum móvel.",
+        "Tem todos os eletrodomésticos."
+      ],
+      "correct": 0,
+      "explanation": "\"Muebles\" = móveis."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "sofá",
+          "kind": "igual",
+          "meaning": "sofá",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "cortina",
+          "kind": "igual",
+          "meaning": "cortina",
+          "tip": "Mesma palavra."
+        },
+        {
+          "es": "mesa",
+          "kind": "igual",
+          "meaning": "mesa",
+          "tip": "Igual!"
+        },
+        {
+          "es": "cocina",
+          "kind": "quase",
+          "meaning": "cozinha",
+          "tip": "O \"z\" vira \"c\"."
+        },
+        {
+          "es": "armario",
+          "kind": "quase",
+          "meaning": "armário",
+          "tip": "Sem acento."
+        },
+        {
+          "es": "dormitorio",
+          "kind": "quase",
+          "meaning": "quarto (de dormir)",
+          "tip": "Mais formal que \"habitación\"."
+        },
+        {
+          "es": "colchón",
+          "kind": "quase",
+          "meaning": "colchão",
+          "tip": "-ão vira -ón."
+        },
+        {
+          "es": "grifo",
+          "kind": "armadilha",
+          "meaning": "torneira",
+          "tip": "Grifo (animal mitológico) também é \"grifo\", mas em casa é torneira."
+        },
+        {
+          "es": "estufa",
+          "kind": "armadilha",
+          "meaning": "aquecedor",
+          "tip": "A estufa de plantas é \"invernadero\"."
+        },
+        {
+          "es": "taller",
+          "kind": "armadilha",
+          "meaning": "oficina mecânica / ateliê",
+          "tip": "Talher é \"cubierto\"."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¿Cuándo podría entrar a vivir?\" significa:",
+      "options": [
+        "Quando eu poderia me mudar?",
+        "Quando eu poderia entrar pra visitar?",
+        "Quando eu poderia sair?"
+      ],
+      "correct": 0,
+      "explanation": "\"Entrar a vivir\" = se mudar para o imóvel."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu adoro esse apartamento!",
+      "answer": [
+        "Me",
+        "encanta",
+        "este",
+        "piso."
+      ],
+      "distractors": [
+        "Adoro",
+        "apartamento"
+      ],
+      "explanation": "\"Me encanta\" = adoro, amo. Funciona como \"gustar\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "La cocina está equipada.",
+      "options": [
+        "A cozinha está equipada.",
+        "A cozinha está em obras.",
+        "A cozinha é compartilhada."
+      ],
+      "correct": 0,
+      "explanation": "\"Equipada\" = com eletrodomésticos."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "¿___ calefacción en el piso?",
+      "options": [
+        "Hay",
+        "Tiene",
+        "Está"
+      ],
+      "correct": 0,
+      "explanation": "\"Hay\" = tem/existe. \"¿Hay calefacción?\" = Tem aquecimento?"
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "El grifo de la cocina gotea.",
+          "options": [
+            "A torneira da cozinha está pingando.",
+            "O grifo da cozinha está pingando."
+          ],
+          "correct": 0,
+          "joke": "Grifo = torneira. Ligue para o \"fontanero\" (encanador)!"
+        },
+        {
+          "spanish": "Enciende la estufa, que hace frío.",
+          "options": [
+            "Liga o aquecedor, que está frio.",
+            "Liga a estufa, que está frio."
+          ],
+          "correct": 0,
+          "joke": "Estufa = aquecedor. A estufa de plantas é \"invernadero\"."
+        },
+        {
+          "spanish": "Llevo el coche al taller.",
+          "options": [
+            "Levo o carro na oficina.",
+            "Levo o carro no talher."
+          ],
+          "correct": 0,
+          "joke": "Taller = oficina mecânica. E oficina = escritório. Confuso? ¡Bienvenida!"
+        },
+        {
+          "spanish": "Este colchón es muy cómodo.",
+          "options": [
+            "Este colchão é muito confortável.",
+            "Este colchão é um cômodo da casa."
+          ],
+          "correct": 0,
+          "joke": "Cómodo = confortável. O cômodo da casa é \"habitación\"."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Cataluña",
+      "items": [
+        {
+          "emoji": "🏛️",
+          "title": "El Eixample",
+          "es": "El Eixample tiene calles muy rectas.",
+          "pt": "O Eixample (\"ampliação\", em catalão) é o bairro quadriculado com quarteirões de esquinas cortadas, projetado por Ildefons Cerdà no século XIX. Lá ficam a Casa Batlló e La Pedrera, de Gaudí."
+        },
+        {
+          "emoji": "🪧",
+          "title": "Placas em catalão",
+          "es": "La salida está por aquí.",
+          "pt": "Em Barcelona você vai ver: \"carrer\" (rua), \"sortida\" (saída), \"obert\" (aberto), \"tancat\" (fechado). Não precisa falar catalão, mas reconhecer ajuda muito!"
+        }
+      ]
+    }
+  ]
+}

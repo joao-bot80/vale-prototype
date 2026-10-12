@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u4l3",
+  "title": "O contrato",
+  "scenario": "Inmobiliaria en Gràcia",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 12: A assinatura",
+      "lines": [
+        {
+          "speaker": "Agente",
+          "es": "Para firmar el contrato necesitamos tu NIE y una nómina.",
+          "pt": "Para assinar o contrato precisamos do seu NIE e de um holerite."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Tengo el NIE, pero acabo de empezar a trabajar.",
+          "pt": "Tenho o NIE, mas acabei de começar a trabalhar."
+        },
+        {
+          "speaker": "Agente",
+          "es": "No pasa nada. Entonces pedimos dos meses de fianza.",
+          "pt": "Sem problema. Então pedimos dois meses de caução."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y cuánto dura el contrato?",
+          "pt": "E quanto tempo dura o contrato?"
+        },
+        {
+          "speaker": "Agente",
+          "es": "Un año, prorrogable. Firma aquí, por favor.",
+          "pt": "Um ano, renovável. Assine aqui, por favor."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Por fin tengo piso en Barcelona!",
+          "pt": "Finalmente tenho apartamento em Barcelona!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como se diz \"assinar\" um contrato?",
+      "options": [
+        "firmar",
+        "asinar",
+        "signar"
+      ],
+      "correct": 0,
+      "explanation": "\"Firmar\" = assinar; \"la firma\" = a assinatura."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Preciso assinar o contrato.",
+      "answer": [
+        "Tengo",
+        "que",
+        "firmar",
+        "el",
+        "contrato."
+      ],
+      "distractors": [
+        "asinar",
+        "preciso"
+      ],
+      "explanation": "\"Tengo que\" = tenho que, preciso."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "El contrato dura un año.",
+      "options": [
+        "O contrato dura um ano.",
+        "O contrato acaba hoje.",
+        "O contrato custa um ano de aluguel."
+      ],
+      "correct": 0,
+      "explanation": "\"Durar\" = durar. Fácil!"
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "contrato",
+          "kind": "igual",
+          "meaning": "contrato",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "documento",
+          "kind": "igual",
+          "meaning": "documento",
+          "tip": "Mesma palavra."
+        },
+        {
+          "es": "banco",
+          "kind": "igual",
+          "meaning": "banco",
+          "tip": "Igual (e também é o banco de sentar)."
+        },
+        {
+          "es": "fianza",
+          "kind": "quase",
+          "meaning": "caução / fiança",
+          "tip": "Em aluguel, é o depósito de garantia."
+        },
+        {
+          "es": "factura",
+          "kind": "quase",
+          "meaning": "fatura, conta",
+          "tip": "\"La factura de la luz\" = a conta de luz."
+        },
+        {
+          "es": "plazo",
+          "kind": "quase",
+          "meaning": "prazo",
+          "tip": "Só troca uma letra."
+        },
+        {
+          "es": "inmobiliaria",
+          "kind": "quase",
+          "meaning": "imobiliária",
+          "tip": "Com \"n\" no começo."
+        },
+        {
+          "es": "firma",
+          "kind": "armadilha",
+          "meaning": "assinatura",
+          "tip": "A empresa é \"empresa\"."
+        },
+        {
+          "es": "renta",
+          "kind": "armadilha",
+          "meaning": "renda (ganhos)",
+          "tip": "Aluguel é \"alquiler\"."
+        },
+        {
+          "es": "acordar",
+          "kind": "armadilha",
+          "meaning": "combinar, chegar a um acordo",
+          "tip": "Acordar (despertar) é \"despertarse\"."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que é uma \"nómina\"?",
+      "options": [
+        "O holerite / contracheque",
+        "Uma lista de nomes",
+        "O nome do proprietário"
+      ],
+      "correct": 0,
+      "explanation": "\"Nómina\" = holerite. Muitos proprietários pedem as últimas nóminas."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vocês aceitam pagamento por transferência?",
+      "answer": [
+        "¿Aceptáis",
+        "pago",
+        "por",
+        "transferencia?"
+      ],
+      "distractors": [
+        "aceptan",
+        "pagamento"
+      ],
+      "explanation": "\"Aceptáis\" = vocês aceitam (vosotros)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Necesitamos tu NIE y una nómina.",
+      "options": [
+        "Precisamos do seu NIE e de um holerite.",
+        "Precisamos do seu nome e do seu número.",
+        "Você não precisa de documentos."
+      ],
+      "correct": 0,
+      "explanation": "NIE = número de identidade de estrangeiro."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Firma ___, por favor.",
+      "options": [
+        "aquí",
+        "aqui",
+        "acá"
+      ],
+      "correct": 0,
+      "explanation": "Com acento: \"aquí\". \"Acá\" se ouve mais na América Latina."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Falta tu firma en la última página.",
+          "options": [
+            "Falta sua assinatura na última página.",
+            "Falta sua empresa na última página."
+          ],
+          "correct": 0,
+          "joke": "Firma = assinatura. A empresa é \"empresa\"."
+        },
+        {
+          "spanish": "Mi renta anual es baja.",
+          "options": [
+            "Minha renda anual é baixa.",
+            "Meu aluguel anual é baixo."
+          ],
+          "correct": 0,
+          "joke": "Renta = renda (ganhos). Aluguel é \"alquiler\". E a declaração de IR é \"la declaración de la renta\"."
+        },
+        {
+          "spanish": "Hemos acordado el precio.",
+          "options": [
+            "Combinamos o preço.",
+            "Acordamos cedo por causa do preço."
+          ],
+          "correct": 0,
+          "joke": "Acordar = combinar. Acordar de manhã é \"despertarse\"."
+        },
+        {
+          "spanish": "El plazo termina el viernes.",
+          "options": [
+            "O prazo termina na sexta.",
+            "O plano termina na sexta."
+          ],
+          "correct": 0,
+          "joke": "Plazo = prazo. Quase igual, só troca uma letra!"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Cataluña",
+      "items": [
+        {
+          "emoji": "📝",
+          "title": "NIE, nómina e fianza",
+          "es": "¿Me enseñas tu NIE?",
+          "pt": "Para alugar costumam pedir NIE, contrato de trabalho ou nóminas e uma \"fianza\" (caução). Desde a Lei de Moradia de 2023, os honorários da imobiliária devem ser pagos pelo proprietário, não pelo inquilino."
+        },
+        {
+          "emoji": "🎉",
+          "title": "Gràcia, bairro de praças",
+          "es": "Vamos a tomar algo a una plaza de Gràcia.",
+          "pt": "Gràcia já foi uma vila separada e mantém o clima de bairro, cheio de pracinhas. Em agosto acontece a Festa Major de Gràcia, com ruas decoradas pelos vizinhos. Em catalão: \"plaça\" = praça."
+        }
+      ]
+    }
+  ]
+}

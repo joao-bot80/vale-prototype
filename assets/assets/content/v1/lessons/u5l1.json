@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u5l1",
+  "title": "No supermercado",
+  "scenario": "Supermercado de barrio en Sants",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 13: Primeira compra",
+      "lines": [
+        {
+          "speaker": "Cajero",
+          "es": "Hola, ¿necesitas bolsa?",
+          "pt": "Oi, precisa de sacola?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Sí, una, por favor. ¿Cuánto cuesta?",
+          "pt": "Sim, uma, por favor. Quanto custa?"
+        },
+        {
+          "speaker": "Cajero",
+          "es": "Cinco céntimos. ¿Tienes la tarjeta de socio?",
+          "pt": "Cinco centavos. Tem o cartão de cliente?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "No, no tengo. Perdona, ¿dónde está el aceite de oliva?",
+          "pt": "Não, não tenho. Desculpa, onde fica o azeite?"
+        },
+        {
+          "speaker": "Cajero",
+          "es": "En el pasillo tres, al lado del vinagre.",
+          "pt": "No corredor três, ao lado do vinagre."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Gracias! Ahora vuelvo.",
+          "pt": "Obrigada! Já volto."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como se diz \"azeite\" em espanhol?",
+      "options": [
+        "aceite de oliva",
+        "azeite",
+        "oliva"
+      ],
+      "correct": 0,
+      "explanation": "\"Aceite\" = azeite ou óleo. \"Aceite de oliva\" = azeite; \"aceite de girasol\" = óleo de girassol."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Onde fica o leite?",
+      "answer": [
+        "¿Dónde",
+        "está",
+        "la",
+        "leche?"
+      ],
+      "distractors": [
+        "el",
+        "leite"
+      ],
+      "explanation": "Atenção: \"la leche\" é feminino em espanhol!"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "En el pasillo tres, al lado del vinagre.",
+      "options": [
+        "No corredor três, ao lado do vinagre.",
+        "No caixa três, perto da saída.",
+        "No terceiro andar, ao lado do vinho."
+      ],
+      "correct": 0,
+      "explanation": "\"Pasillo\" = corredor. \"Al lado de\" = ao lado de."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "arroz",
+          "kind": "igual",
+          "meaning": "arroz",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "fruta",
+          "kind": "igual",
+          "meaning": "fruta",
+          "tip": "Mesma palavra."
+        },
+        {
+          "es": "pepino",
+          "kind": "igual",
+          "meaning": "pepino",
+          "tip": "Igual!"
+        },
+        {
+          "es": "carne",
+          "kind": "igual",
+          "meaning": "carne",
+          "tip": "Igual!"
+        },
+        {
+          "es": "leche",
+          "kind": "quase",
+          "meaning": "leite",
+          "tip": "E é feminino: la leche."
+        },
+        {
+          "es": "pan",
+          "kind": "quase",
+          "meaning": "pão",
+          "tip": "-ão vira -an."
+        },
+        {
+          "es": "queso",
+          "kind": "quase",
+          "meaning": "queijo",
+          "tip": "O \"ij\" vira \"s\"."
+        },
+        {
+          "es": "bolsa",
+          "kind": "quase",
+          "meaning": "sacola",
+          "tip": "A bolsa de mão é \"bolso\"."
+        },
+        {
+          "es": "aceite",
+          "kind": "armadilha",
+          "meaning": "azeite / óleo",
+          "tip": "Aceito é \"aceptado\"."
+        },
+        {
+          "es": "manteca",
+          "kind": "armadilha",
+          "meaning": "banha (gordura)",
+          "tip": "Manteiga é \"mantequilla\"."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Ahora vuelvo\" significa:",
+      "options": [
+        "Já volto",
+        "Agora volto pra casa",
+        "Volto amanhã"
+      ],
+      "correct": 0,
+      "explanation": "\"Ahora vuelvo\" = já volto. Bem útil no mercado!"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vocês têm sacolas de papel?",
+      "answer": [
+        "¿Tenéis",
+        "bolsas",
+        "de",
+        "papel?"
+      ],
+      "distractors": [
+        "sacolas",
+        "tienen"
+      ],
+      "explanation": "\"Bolsa\" = sacola. \"Tenéis\" = vocês têm."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "¿Tienes la tarjeta de socio?",
+      "options": [
+        "Você tem o cartão de cliente?",
+        "Você tem um sócio?",
+        "Você tem trocado?"
+      ],
+      "correct": 0,
+      "explanation": "\"Tarjeta de socio\" = cartão fidelidade do mercado."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Quiero un kilo ___ tomates.",
+      "options": [
+        "de",
+        "con",
+        "en"
+      ],
+      "correct": 0,
+      "explanation": "Quantidades com \"de\": un kilo de tomates, un litro de leche."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Pásame el aceite, por favor.",
+          "options": [
+            "Me passa o azeite, por favor.",
+            "Me passa o aceite, por favor."
+          ],
+          "correct": 0,
+          "joke": "Aceite = azeite ou óleo. Aceito é \"aceptado\"!"
+        },
+        {
+          "spanish": "No cocino con manteca.",
+          "options": [
+            "Não cozinho com banha.",
+            "Não cozinho com manteiga."
+          ],
+          "correct": 0,
+          "joke": "Manteca = banha. Manteiga é \"mantequilla\"."
+        },
+        {
+          "spanish": "La leche está fría.",
+          "options": [
+            "O leite está gelado.",
+            "A leite está fria."
+          ],
+          "correct": 0,
+          "joke": "Em espanhol \"leche\" é feminino: la leche fría. Em português é \"o leite\"!"
+        },
+        {
+          "spanish": "¿Me das una bolsa?",
+          "options": [
+            "Me dá uma sacola?",
+            "Me dá uma bolsa de mão?"
+          ],
+          "correct": 0,
+          "joke": "Bolsa = sacola. A bolsa de mão é \"bolso\". Sim, é ao contrário!"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Cataluña",
+      "items": [
+        {
+          "emoji": "🕒",
+          "title": "Domingo é dia de fechar",
+          "es": "¿A qué hora cierra el súper?",
+          "pt": "Supermercados costumam abrir das 9h às 21h ou 21h30. Aos domingos, a maioria fecha na Catalunha. Planeje as compras no sábado!"
+        },
+        {
+          "emoji": "🏷️",
+          "title": "Catalão nas etiquetas",
+          "es": "¿Esto es aceite de oliva?",
+          "pt": "Em Barcelona, etiquetas e avisos aparecem em catalão: \"oli d'oliva\" (azeite), \"llet\" (leite), \"pa\" (pão), \"formatge\" (queijo). Reconhecer ajuda nas compras!"
+        }
+      ]
+    }
+  ]
+}

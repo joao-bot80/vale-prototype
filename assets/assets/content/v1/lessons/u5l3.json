@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "id": "u5l3",
+  "title": "Que horas abre?",
+  "scenario": "Una tienda en el Born",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 15: Fechado?!",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Perdona, ¿a qué hora abrís mañana?",
+          "pt": "Desculpa, que horas vocês abrem amanhã?"
+        },
+        {
+          "speaker": "Dependienta",
+          "es": "De lunes a viernes, de diez a dos y de cinco a ocho y media.",
+          "pt": "De segunda a sexta, das dez às duas e das cinco às oito e meia."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y los sábados?",
+          "pt": "E aos sábados?"
+        },
+        {
+          "speaker": "Dependienta",
+          "es": "Los sábados solo por la mañana. Los domingos está cerrado.",
+          "pt": "Aos sábados só de manhã. Aos domingos fica fechado."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Cerráis a mediodía?",
+          "pt": "Vocês fecham na hora do almoço?"
+        },
+        {
+          "speaker": "Dependienta",
+          "es": "Sí, de dos a cinco. ¡Es lo normal en las tiendas pequeñas!",
+          "pt": "Sim, das duas às cinco. É o normal nas lojas pequenas!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como se diz \"segunda-feira\" em espanhol?",
+      "options": [
+        "lunes",
+        "segunda",
+        "martes"
+      ],
+      "correct": 0,
+      "explanation": "Os dias: lunes, martes, miércoles, jueves, viernes, sábado, domingo. Nada de \"-feira\"!"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "A loja fecha às oito e meia.",
+      "answer": [
+        "La",
+        "tienda",
+        "cierra",
+        "a",
+        "las",
+        "ocho",
+        "y",
+        "media."
+      ],
+      "distractors": [
+        "loja",
+        "fecha"
+      ],
+      "explanation": "\"Cerrar\" = fechar. Cuidado: \"fecha\" em espanhol é data!"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Los domingos está cerrado.",
+      "options": [
+        "Aos domingos fica fechado.",
+        "Aos domingos abre o dia todo.",
+        "Fecha só no sábado."
+      ],
+      "correct": 0,
+      "explanation": "\"Cerrado\" = fechado. \"Abierto\" = aberto."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "sábado",
+          "kind": "igual",
+          "meaning": "sábado",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "semana",
+          "kind": "igual",
+          "meaning": "semana",
+          "tip": "Mesma palavra."
+        },
+        {
+          "es": "abierto",
+          "kind": "quase",
+          "meaning": "aberto",
+          "tip": "Ganha um \"i\"."
+        },
+        {
+          "es": "horario",
+          "kind": "quase",
+          "meaning": "horário",
+          "tip": "Sem acento."
+        },
+        {
+          "es": "mes",
+          "kind": "quase",
+          "meaning": "mês",
+          "tip": "Sem acento."
+        },
+        {
+          "es": "mediodía",
+          "kind": "quase",
+          "meaning": "meio-dia / hora do almoço",
+          "tip": "Também é o horário do almoço."
+        },
+        {
+          "es": "cerrado",
+          "kind": "armadilha",
+          "meaning": "fechado",
+          "tip": "No Brasil, cerrado é bioma!"
+        },
+        {
+          "es": "fecha",
+          "kind": "armadilha",
+          "meaning": "data",
+          "tip": "Fechar é \"cerrar\"."
+        },
+        {
+          "es": "tienda",
+          "kind": "armadilha",
+          "meaning": "loja",
+          "tip": "A tenda de acampar é \"tienda de campaña\"."
+        },
+        {
+          "es": "talla",
+          "kind": "armadilha",
+          "meaning": "tamanho (de roupa)",
+          "tip": "Talha (escultura) é \"talla\" também, mas na loja é o tamanho!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Cerramos a mediodía\" significa:",
+      "options": [
+        "Fechamos na hora do almoço",
+        "Fechamos à meia-noite",
+        "Fechamos na metade do sábado"
+      ],
+      "correct": 0,
+      "explanation": "Muitas lojinhas fecham entre 14h e 17h, mais ou menos."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vocês abrem no sábado?",
+      "answer": [
+        "¿Abrís",
+        "el",
+        "sábado?"
+      ],
+      "distractors": [
+        "abren",
+        "sábados"
+      ],
+      "explanation": "\"Abrís\" = vocês abrem (vosotros)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "De lunes a viernes, de diez a dos.",
+      "options": [
+        "De segunda a sexta, das dez às duas.",
+        "De segunda a sábado, das duas às dez.",
+        "De terça a sexta, das dez às doze."
+      ],
+      "correct": 0,
+      "explanation": "\"De... a...\" = de... a/até..."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "¿Cuál es la ___ de hoy? —12 de octubre.",
+      "options": [
+        "fecha",
+        "data",
+        "hora"
+      ],
+      "correct": 0,
+      "explanation": "\"Fecha\" = data. \"Data\" não existe com esse sentido em espanhol."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Pon la fecha en el contrato.",
+          "options": [
+            "Coloque a data no contrato.",
+            "Feche o contrato."
+          ],
+          "correct": 0,
+          "joke": "Fecha = data! Fechar é \"cerrar\"."
+        },
+        {
+          "spanish": "La tienda está cerrada.",
+          "options": [
+            "A loja está fechada.",
+            "A tenda está cerrada."
+          ],
+          "correct": 0,
+          "joke": "Tienda = loja. A tenda de acampar é \"tienda de campaña\"!"
+        },
+        {
+          "spanish": "¿Tienes esta camiseta en otra talla?",
+          "options": [
+            "Tem essa camiseta em outro tamanho?",
+            "Tem essa camiseta em outra talha?"
+          ],
+          "correct": 0,
+          "joke": "Talla = tamanho de roupa. Na época de \"rebajas\" (liquidação), corre!"
+        },
+        {
+          "spanish": "Abrimos de lunes a sábado.",
+          "options": [
+            "Abrimos de segunda a sábado.",
+            "Abrimos de domingo a sábado."
+          ],
+          "correct": 0,
+          "joke": "Lunes = segunda. Dica: vem de \"luna\", o dia da lua!"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Cataluña",
+      "items": [
+        {
+          "emoji": "🛍️",
+          "title": "Horario partido",
+          "es": "Muchas tiendas cierran a mediodía.",
+          "pt": "O \"horario partido\" (manhã e tarde, com pausa longa pro almoço) ainda é comum no comércio pequeno. Lojas grandes e shoppings abrem direto."
+        },
+        {
+          "emoji": "🐉",
+          "title": "Sant Jordi",
+          "es": "El veintitrés de abril se regalan libros y rosas.",
+          "pt": "No dia de Sant Jordi (São Jorge), padroeiro da Catalunha, as ruas de Barcelona se enchem de bancas de livros e rosas. Em catalão: \"Bona diada de Sant Jordi!\""
+        }
+      ]
+    }
+  ]
+}

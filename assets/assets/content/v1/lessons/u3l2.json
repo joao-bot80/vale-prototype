@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "id": "u3l2",
+  "title": "Na Puerta del Sol",
+  "scenario": "Puerta del Sol, junto al Oso y el Madroño",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 8: Atrasada!",
+      "lines": [
+        {
+          "speaker": "Dani",
+          "es": "¡Lu! ¿Dónde estás? Ya son las siete y media.",
+          "pt": "Lu! Cadê você? Já são sete e meia."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Perdona, llego en cinco minutos. ¿Dónde quedamos?",
+          "pt": "Desculpa, chego em cinco minutos. Onde a gente se encontra?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "Debajo del reloj, en la Puerta del Sol.",
+          "pt": "Embaixo do relógio, na Puerta del Sol."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Vale. ¿Y a qué hora empieza la película?",
+          "pt": "Beleza. E que horas começa o filme?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "A las ocho menos cuarto. ¡Date prisa!",
+          "pt": "Às quinze para as oito. Corre!"
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Voy corriendo!",
+          "pt": "Tô indo correndo!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como se diz \"marcar de se encontrar\" na Espanha?",
+      "options": [
+        "quedar",
+        "combinar",
+        "encontrarse de"
+      ],
+      "correct": 0,
+      "explanation": "\"Quedar\" = marcar um encontro. \"¿Quedamos a las ocho?\" = A gente se vê às oito?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Que horas são?",
+      "answer": [
+        "¿Qué",
+        "hora",
+        "es?"
+      ],
+      "distractors": [
+        "horas",
+        "son"
+      ],
+      "explanation": "Na Espanha se pergunta \"¿Qué hora es?\" (no singular). \"¿Qué horas son?\" soa latino-americano."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Son las siete y media.",
+      "options": [
+        "São sete e meia.",
+        "São seis e meia.",
+        "São sete e quinze."
+      ],
+      "correct": 0,
+      "explanation": "\"Y media\" = e meia. \"Y cuarto\" = e quinze."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "minuto",
+          "kind": "igual",
+          "meaning": "minuto",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "hora",
+          "kind": "igual",
+          "meaning": "hora",
+          "tip": "Mesma palavra."
+        },
+        {
+          "es": "tarde",
+          "kind": "igual",
+          "meaning": "tarde",
+          "tip": "Serve pra \"atrasado\" e pro período da tarde."
+        },
+        {
+          "es": "reloj",
+          "kind": "quase",
+          "meaning": "relógio",
+          "tip": "Termina em \"j\"."
+        },
+        {
+          "es": "cine",
+          "kind": "quase",
+          "meaning": "cinema",
+          "tip": "Os espanhóis dizem \"ir al cine\"."
+        },
+        {
+          "es": "once",
+          "kind": "quase",
+          "meaning": "onze",
+          "tip": "Quase igual: once = 11."
+        },
+        {
+          "es": "película",
+          "kind": "armadilha",
+          "meaning": "filme",
+          "tip": "Película (camada fina) é \"film\" ou \"lámina\"."
+        },
+        {
+          "es": "apenas",
+          "kind": "armadilha",
+          "meaning": "quase não",
+          "tip": "\"Só\" é \"solo\"."
+        },
+        {
+          "es": "doce",
+          "kind": "armadilha",
+          "meaning": "doze",
+          "tip": "O doce de comer é \"dulce\"."
+        },
+        {
+          "es": "constipado",
+          "kind": "armadilha",
+          "meaning": "resfriado",
+          "tip": "Prisão de ventre é \"estreñimiento\"."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Na Espanha, \"a las ocho menos cuarto\" é:",
+      "options": [
+        "7h45",
+        "8h15",
+        "8h04"
+      ],
+      "correct": 0,
+      "explanation": "\"Menos cuarto\" = quinze pra. 8h15 = \"las ocho y cuarto\"."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Onde a gente se encontra amanhã?",
+      "answer": [
+        "¿Dónde",
+        "quedamos",
+        "mañana?"
+      ],
+      "distractors": [
+        "encontramos",
+        "manhã"
+      ],
+      "explanation": "\"Quedar\" é o verbo dos encontros na Espanha."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "La película empieza a las ocho menos cuarto.",
+      "options": [
+        "O filme começa às quinze para as oito.",
+        "O filme começa às oito e quinze.",
+        "O filme acabou às oito."
+      ],
+      "correct": 0,
+      "explanation": "\"Empezar\" = começar."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Son las ___. (12h)",
+      "options": [
+        "doce",
+        "dos",
+        "diez"
+      ],
+      "correct": 0,
+      "explanation": "12 = doce (não é o doce de comer!). 2 = dos, 10 = diez."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "La película dura dos horas.",
+          "options": [
+            "O filme dura duas horas.",
+            "A película dura duas horas."
+          ],
+          "correct": 0,
+          "joke": "Película = filme. \"Vamos al cine a ver una peli\"."
+        },
+        {
+          "spanish": "Apenas tengo tiempo.",
+          "options": [
+            "Quase não tenho tempo.",
+            "Só tenho tempo."
+          ],
+          "correct": 0,
+          "joke": "\"Apenas\" = quase não. \"Só\" é \"solo\"."
+        },
+        {
+          "spanish": "Quedamos a las doce.",
+          "options": [
+            "A gente se encontra ao meio-dia.",
+            "A gente fica com o doce."
+          ],
+          "correct": 0,
+          "joke": "Doce = 12! O doce de comer é \"dulce\"."
+        },
+        {
+          "spanish": "Estoy constipado.",
+          "options": [
+            "Estou resfriado.",
+            "Estou com prisão de ventre."
+          ],
+          "correct": 0,
+          "joke": "Constipado = resfriado! Prisão de ventre é \"estreñido\". Cuidado na farmácia! 😂"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Madrid",
+      "items": [
+        {
+          "emoji": "🐻",
+          "title": "O Urso e o Madroño",
+          "es": "Quedamos en el Oso y el Madroño.",
+          "pt": "A estátua do urso comendo os frutos do madroño (medronheiro) é o símbolo de Madrid e ponto de encontro clássico na Puerta del Sol."
+        },
+        {
+          "emoji": "🍇",
+          "title": "As uvas da sorte",
+          "es": "¡Feliz Año Nuevo! ¡Que no se te atraganten las uvas!",
+          "pt": "No Réveillon, os espanhóis comem 12 uvas, uma a cada badalada do relógio da Real Casa de Correos, na Puerta del Sol, transmitido ao vivo pela TV."
+        }
+      ]
+    }
+  ]
+}

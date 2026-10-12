@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "u4l1",
+  "title": "O anúncio",
+  "scenario": "Barcelona · buscando piso en el Eixample",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 10: Rumo a Barcelona",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Hola, llamo por el anuncio del piso en el Eixample.",
+          "pt": "Oi, estou ligando pelo anúncio do apartamento no Eixample."
+        },
+        {
+          "speaker": "Marta",
+          "es": "¡Hola! Sí, todavía está disponible.",
+          "pt": "Oi! Sim, ainda está disponível."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Cuántas habitaciones tiene?",
+          "pt": "Quantos quartos tem?"
+        },
+        {
+          "speaker": "Marta",
+          "es": "Dos habitaciones, un baño y una terraza pequeña.",
+          "pt": "Dois quartos, um banheiro e um terracinho."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y cuánto es el alquiler?",
+          "pt": "E quanto é o aluguel?"
+        },
+        {
+          "speaker": "Marta",
+          "es": "Mil cien euros al mes, gastos aparte. ¿Quieres venir a verlo?",
+          "pt": "Mil e cem euros por mês, contas à parte. Quer vir ver?"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como se diz \"aluguel\" na Espanha?",
+      "options": [
+        "el alquiler",
+        "el aluguel",
+        "la renta"
+      ],
+      "correct": 0,
+      "explanation": "\"Alquiler\" = aluguel; \"alquilar\" = alugar. Na Espanha, \"renta\" costuma ser renda (ganhos)."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Quantos quartos tem o apartamento?",
+      "answer": [
+        "¿Cuántas",
+        "habitaciones",
+        "tiene",
+        "el",
+        "piso?"
+      ],
+      "distractors": [
+        "cuartos",
+        "apartamento"
+      ],
+      "explanation": "Na Espanha, apartamento = \"piso\". \"Apartamento\" existe, mas costuma ser um piso pequeno."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Todavía está disponible.",
+      "options": [
+        "Ainda está disponível.",
+        "Já foi alugado.",
+        "Fica disponível amanhã."
+      ],
+      "correct": 0,
+      "explanation": "\"Todavía\" = ainda. \"Ya\" = já."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "luz",
+          "kind": "igual",
+          "meaning": "luz (e a conta de luz)",
+          "tip": "Igual!"
+        },
+        {
+          "es": "gas",
+          "kind": "igual",
+          "meaning": "gás",
+          "tip": "Só perde o acento."
+        },
+        {
+          "es": "exterior",
+          "kind": "igual",
+          "meaning": "exterior (com janela pra rua)",
+          "tip": "Em anúncio: \"piso exterior\" = com janelas pra rua."
+        },
+        {
+          "es": "terraza",
+          "kind": "quase",
+          "meaning": "terraço",
+          "tip": "O \"ç\" vira \"z\"."
+        },
+        {
+          "es": "barrio",
+          "kind": "quase",
+          "meaning": "bairro",
+          "tip": "Quase igual."
+        },
+        {
+          "es": "vecino",
+          "kind": "quase",
+          "meaning": "vizinho",
+          "tip": "\"Los vecinos\" = os vizinhos."
+        },
+        {
+          "es": "piso",
+          "kind": "armadilha",
+          "meaning": "apartamento / andar",
+          "tip": "O chão é \"suelo\"."
+        },
+        {
+          "es": "ático",
+          "kind": "armadilha",
+          "meaning": "cobertura (último andar)",
+          "tip": "O sótão é \"buhardilla\"."
+        },
+        {
+          "es": "despacho",
+          "kind": "armadilha",
+          "meaning": "escritório (sala)",
+          "tip": "Despacho (envio) é \"envío\"."
+        },
+        {
+          "es": "salón",
+          "kind": "armadilha",
+          "meaning": "sala de estar",
+          "tip": "Salão de festas é \"salón de actos\" ou \"sala de fiestas\"."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Gastos aparte\" significa:",
+      "options": [
+        "As contas (luz, água, gás) não estão incluídas",
+        "Despesas com móveis",
+        "Sem nenhum custo extra"
+      ],
+      "correct": 0,
+      "explanation": "\"Gastos incluidos\" = contas incluídas. \"Aparte\" = à parte."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vocês podem vir amanhã?",
+      "answer": [
+        "¿Podéis",
+        "venir",
+        "mañana?"
+      ],
+      "distractors": [
+        "pueden",
+        "vir"
+      ],
+      "explanation": "\"Podéis\" = vocês podem (vosotros)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Mil cien euros al mes, gastos aparte.",
+      "options": [
+        "Mil e cem euros por mês, contas à parte.",
+        "Mil e quinhentos euros por mês, tudo incluído.",
+        "Cem euros por semana."
+      ],
+      "correct": 0,
+      "explanation": "\"Al mes\" = por mês. \"Mil cien\" = 1.100."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "El piso ___ dos habitaciones.",
+      "options": [
+        "tiene",
+        "hay",
+        "es"
+      ],
+      "correct": 0,
+      "explanation": "\"Tener\" para o que o piso tem. Com \"hay\" seria: \"En el piso hay dos habitaciones\"."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Vivo en un piso en el Eixample.",
+          "options": [
+            "Moro num apartamento no Eixample.",
+            "Moro num chão no Eixample."
+          ],
+          "correct": 0,
+          "joke": "Piso = apartamento (e também andar). O chão é \"suelo\"."
+        },
+        {
+          "spanish": "El ático tiene vistas al mar.",
+          "options": [
+            "A cobertura tem vista para o mar.",
+            "O sótão tem vista para o mar."
+          ],
+          "correct": 0,
+          "joke": "Ático = último andar, muitas vezes com terraço."
+        },
+        {
+          "spanish": "Trabajo en el despacho de casa.",
+          "options": [
+            "Trabalho no escritório de casa.",
+            "Trabalho no despacho de casa."
+          ],
+          "correct": 0,
+          "joke": "Despacho = escritório (sala). Lembra que \"oficina\" também é escritório!"
+        },
+        {
+          "spanish": "El salón es muy luminoso.",
+          "options": [
+            "A sala de estar é muito iluminada.",
+            "O salão é muito luminoso."
+          ],
+          "correct": 0,
+          "joke": "Salón = sala de estar. Nos anúncios você vai ler muito \"salón-comedor\"."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Cataluña",
+      "items": [
+        {
+          "emoji": "🗣️",
+          "title": "Catalão: duas línguas oficiais",
+          "es": "En Barcelona se habla castellano y catalán.",
+          "pt": "Na Catalunha, catalão e castelhano são oficiais. Você vai ver placas em catalão, mas todo mundo entende castelhano, que é o que você está aprendendo. Reconheça: \"Bon dia\" (bom dia), \"Gràcies\" (obrigado), \"Si us plau\" (por favor)."
+        },
+        {
+          "emoji": "🏠",
+          "title": "Pis i lloguer",
+          "es": "Busco un piso de alquiler cerca del metro.",
+          "pt": "Nos anúncios em catalão aparecem \"pis\" (apartamento) e \"lloguer\" (aluguel). Em Barcelona, procurar piso é concorrido: tenha os documentos prontos e responda rápido!"
+        }
+      ]
+    }
+  ]
+}

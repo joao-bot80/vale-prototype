@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.12-2",
+  "contentVersion": "2026.10.12-3",
   "courseId": "es-ES_for_pt-BR",
   "regions": [
     {
@@ -62,14 +62,19 @@
           "emoji": "🚶",
           "lessons": [
             {
-              "id": "mad-u3-l1",
+              "id": "u3l1",
               "title": "Perdido na Gran Vía",
-              "available": false
+              "available": true
             },
             {
-              "id": "mad-u3-l2",
+              "id": "u3l2",
               "title": "Na Puerta del Sol",
-              "available": false
+              "available": true
+            },
+            {
+              "id": "u3l3",
+              "title": "Domingo no Retiro",
+              "available": true
             }
           ]
         }
@@ -90,19 +95,19 @@
           "emoji": "🏠",
           "lessons": [
             {
-              "id": "cat-u1-l1",
+              "id": "u4l1",
               "title": "O anúncio",
-              "available": false
+              "available": true
             },
             {
-              "id": "cat-u1-l2",
+              "id": "u4l2",
               "title": "A visita",
-              "available": false
+              "available": true
             },
             {
-              "id": "cat-u1-l3",
+              "id": "u4l3",
               "title": "O contrato",
-              "available": false
+              "available": true
             }
           ]
         },
@@ -112,14 +117,19 @@
           "emoji": "🛒",
           "lessons": [
             {
-              "id": "cat-u2-l1",
+              "id": "u5l1",
               "title": "No supermercado",
-              "available": false
+              "available": true
             },
             {
-              "id": "cat-u2-l2",
+              "id": "u5l2",
+              "title": "Na Boqueria",
+              "available": true
+            },
+            {
+              "id": "u5l3",
               "title": "Que horas abre?",
-              "available": false
+              "available": true
             }
           ]
         }

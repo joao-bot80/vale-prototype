@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "u5l2",
+  "title": "Na Boqueria",
+  "scenario": "Mercat de la Boqueria, La Rambla",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 14: O mercado",
+      "lines": [
+        {
+          "speaker": "Vendedora",
+          "es": "¡Hola, guapa! ¿Qué te pongo?",
+          "pt": "Oi, querida! O que vai ser?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Medio kilo de fresas y dos aguacates, por favor.",
+          "pt": "Meio quilo de morangos e dois abacates, por favor."
+        },
+        {
+          "speaker": "Vendedora",
+          "es": "¿Los aguacates para hoy o para mañana?",
+          "pt": "Os abacates são pra hoje ou pra amanhã?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Para hoy, que voy a hacer guacamole.",
+          "pt": "Pra hoje, que vou fazer guacamole."
+        },
+        {
+          "speaker": "Vendedora",
+          "es": "Aquí tienes. ¿Algo más?",
+          "pt": "Aqui está. Mais alguma coisa?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Nada más, gracias. ¿Cuánto es?",
+          "pt": "Só isso, obrigada. Quanto é?"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Guapa\" significa:",
+      "options": [
+        "Linda / querida",
+        "Brava",
+        "Rápida"
+      ],
+      "correct": 0,
+      "explanation": "\"Guapo/guapa\" = bonito(a). No mercado, é um jeito carinhoso de chamar a cliente."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Meio quilo de morangos, por favor.",
+      "answer": [
+        "Medio",
+        "kilo",
+        "de",
+        "fresas,",
+        "por",
+        "favor."
+      ],
+      "distractors": [
+        "morangos",
+        "mitad"
+      ],
+      "explanation": "\"Fresas\" = morangos. \"Medio kilo\" = meio quilo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "¿Los aguacates para hoy o para mañana?",
+      "options": [
+        "Os abacates são pra hoje ou pra amanhã?",
+        "Os abacates são de hoje ou de ontem?",
+        "Você quer abacate hoje?"
+      ],
+      "correct": 0,
+      "explanation": "Ela pergunta se você quer abacates maduros (pra hoje) ou que vão amadurecer até amanhã."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "uva",
+          "kind": "igual",
+          "meaning": "uva",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "kiwi",
+          "kind": "igual",
+          "meaning": "kiwi",
+          "tip": "Mesma palavra."
+        },
+        {
+          "es": "coco",
+          "kind": "igual",
+          "meaning": "coco",
+          "tip": "Igual!"
+        },
+        {
+          "es": "mango",
+          "kind": "quase",
+          "meaning": "manga (fruta)",
+          "tip": "Masculino: el mango."
+        },
+        {
+          "es": "melón",
+          "kind": "quase",
+          "meaning": "melão",
+          "tip": "-ão vira -ón."
+        },
+        {
+          "es": "naranja",
+          "kind": "quase",
+          "meaning": "laranja",
+          "tip": "Começa com \"n\"."
+        },
+        {
+          "es": "berenjena",
+          "kind": "quase",
+          "meaning": "berinjela",
+          "tip": "Quase igual."
+        },
+        {
+          "es": "plátano",
+          "kind": "armadilha",
+          "meaning": "banana",
+          "tip": "Também se diz \"banana\", mas \"plátano\" é o mais comum na Espanha."
+        },
+        {
+          "es": "piña",
+          "kind": "armadilha",
+          "meaning": "abacaxi",
+          "tip": "A pinha (fruta-do-conde) é \"chirimoya\"."
+        },
+        {
+          "es": "seta",
+          "kind": "armadilha",
+          "meaning": "cogumelo",
+          "tip": "A seta (flecha) é \"flecha\"."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¿Cuánto es?\" serve para:",
+      "options": [
+        "Perguntar o total a pagar",
+        "Perguntar a hora",
+        "Perguntar o peso"
+      ],
+      "correct": 0,
+      "explanation": "\"¿Cuánto es?\" = quanto é (o total)? \"¿Cuánto cuesta?\" = quanto custa (um item)?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vocês vendem cogumelos frescos?",
+      "answer": [
+        "¿Vendéis",
+        "setas",
+        "frescas?"
+      ],
+      "distractors": [
+        "venden",
+        "cogumelos"
+      ],
+      "explanation": "\"Setas\" = cogumelos. \"Vendéis\" = vocês vendem."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Nada más, gracias. ¿Cuánto es?",
+      "options": [
+        "Só isso, obrigada. Quanto é?",
+        "Nada, obrigada. Que horas são?",
+        "Mais nada? Quanto custa cada um?"
+      ],
+      "correct": 0,
+      "explanation": "\"Nada más\" = só isso, mais nada."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Un ___ de jamón. (250 g)",
+      "options": [
+        "cuarto",
+        "cuatro",
+        "medio"
+      ],
+      "correct": 0,
+      "explanation": "\"Un cuarto\" = 1/4 kg = 250 g. \"Cuatro\" = 4."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "¿Me pones un kilo de plátanos?",
+          "options": [
+            "Me vê um quilo de bananas?",
+            "Me vê um quilo de plátanos (árvores)?"
+          ],
+          "correct": 0,
+          "joke": "Plátano = banana. Os das Canárias são famosos!"
+        },
+        {
+          "spanish": "La piña está muy dulce.",
+          "options": [
+            "O abacaxi está muito doce.",
+            "A pinha está muito doce."
+          ],
+          "correct": 0,
+          "joke": "Piña = abacaxi. Não confunda com pinha!"
+        },
+        {
+          "spanish": "En otoño buscamos setas.",
+          "options": [
+            "No outono procuramos cogumelos.",
+            "No outono procuramos flechas."
+          ],
+          "correct": 0,
+          "joke": "Seta = cogumelo. Na Catalunha, catar cogumelos (\"anar a buscar bolets\") é paixão!"
+        },
+        {
+          "spanish": "Este chico es muy guapo.",
+          "options": [
+            "Este rapaz é muito bonito.",
+            "Este rapaz é muito valente."
+          ],
+          "correct": 0,
+          "joke": "Guapo = bonito. Valente é \"valiente\"."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Cataluña",
+      "items": [
+        {
+          "emoji": "🍓",
+          "title": "La Boqueria",
+          "es": "¿Vamos a la Boqueria por la mañana?",
+          "pt": "O Mercat de Sant Josep de la Boqueria, na Rambla, é um dos mercados mais famosos da Europa. Vá cedo, quando os moradores fazem compras. \"Mercat\" = mercado em catalão."
+        },
+        {
+          "emoji": "🥖",
+          "title": "Pa amb tomàquet",
+          "es": "Me encanta el pan con tomate.",
+          "pt": "O clássico catalão: pão esfregado com tomate maduro, azeite e sal. Em catalão se chama \"pa amb tomàquet\"."
+        }
+      ]
+    }
+  ]
+}

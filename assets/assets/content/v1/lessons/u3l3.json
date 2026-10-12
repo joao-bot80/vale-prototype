@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "u3l3",
+  "title": "Domingo no Retiro",
+  "scenario": "Parque del Retiro, junto al estanque",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 9: Planos de domingo",
+      "lines": [
+        {
+          "speaker": "Dani",
+          "es": "¿Qué vas a hacer este domingo?",
+          "pt": "O que você vai fazer neste domingo?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Me apetece ir al Retiro. ¡Hace muy buen tiempo!",
+          "pt": "Tô a fim de ir ao Retiro. O tempo está ótimo!"
+        },
+        {
+          "speaker": "Dani",
+          "es": "¡Buena idea! Podemos alquilar una barca en el estanque.",
+          "pt": "Boa ideia! Podemos alugar um barquinho no lago."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Genial. ¿Y luego vamos al Rastro?",
+          "pt": "Ótimo. E depois vamos ao Rastro?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "El Rastro es por la mañana. Mejor primero el Rastro y después el Retiro.",
+          "pt": "O Rastro é de manhã. Melhor primeiro o Rastro e depois o Retiro."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Hecho! Nos vemos a las diez.",
+          "pt": "Fechado! Nos vemos às dez."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Me apetece\" significa:",
+      "options": [
+        "Estou a fim / tenho vontade",
+        "Estou com apetite",
+        "Me parece"
+      ],
+      "correct": 0,
+      "explanation": "\"¿Te apetece un café?\" = Tá a fim de um café?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "O tempo está ótimo hoje.",
+      "answer": [
+        "Hoy",
+        "hace",
+        "muy",
+        "buen",
+        "tiempo."
+      ],
+      "distractors": [
+        "está",
+        "bueno"
+      ],
+      "explanation": "Para o clima se usa \"hacer\": hace calor, hace frío, hace buen tiempo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Podemos alquilar una barca en el estanque.",
+      "options": [
+        "Podemos alugar um barquinho no lago.",
+        "Podemos comprar uma barraca no parque.",
+        "Podemos nadar no lago."
+      ],
+      "correct": 0,
+      "explanation": "\"Alquilar\" = alugar. \"Estanque\" = laguinho."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "domingo",
+          "kind": "igual",
+          "meaning": "domingo",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "sol",
+          "kind": "igual",
+          "meaning": "sol",
+          "tip": "Mesma palavra."
+        },
+        {
+          "es": "calor",
+          "kind": "igual",
+          "meaning": "calor",
+          "tip": "Igual!"
+        },
+        {
+          "es": "frío",
+          "kind": "quase",
+          "meaning": "frio",
+          "tip": "Só ganha acento."
+        },
+        {
+          "es": "barca",
+          "kind": "quase",
+          "meaning": "barco pequeno",
+          "tip": "Feminino em espanhol: la barca."
+        },
+        {
+          "es": "estanque",
+          "kind": "armadilha",
+          "meaning": "laguinho, lago artificial",
+          "tip": "Estanque (vedado) é \"hermético\"."
+        },
+        {
+          "es": "cachorro",
+          "kind": "armadilha",
+          "meaning": "filhote",
+          "tip": "O cachorro é \"perro\"."
+        },
+        {
+          "es": "borracha",
+          "kind": "armadilha",
+          "meaning": "bêbada",
+          "tip": "A borracha de apagar é \"goma\"."
+        },
+        {
+          "es": "flaco",
+          "kind": "armadilha",
+          "meaning": "magro",
+          "tip": "Fraco é \"débil\"."
+        },
+        {
+          "es": "barata",
+          "kind": "armadilha",
+          "meaning": "barata (= de preço baixo)",
+          "tip": "O inseto barata é \"cucaracha\"."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que é o Rastro?",
+      "options": [
+        "Uma feira de rua aos domingos de manhã",
+        "Um restaurante famoso",
+        "Uma estação de metrô"
+      ],
+      "correct": 0,
+      "explanation": "O Rastro é a feira de rua mais famosa de Madrid, em La Latina, aos domingos e feriados de manhã."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vocês estão a fim de ir ao parque?",
+      "answer": [
+        "¿Os",
+        "apetece",
+        "ir",
+        "al",
+        "parque?"
+      ],
+      "distractors": [
+        "Les",
+        "apetecen"
+      ],
+      "explanation": "\"¿Os apetece...?\" = vocês estão a fim de...? (vosotros)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Primero el Rastro y después el Retiro.",
+      "options": [
+        "Primeiro o Rastro e depois o Retiro.",
+        "Primeiro o Retiro e depois o Rastro.",
+        "Só o Retiro hoje."
+      ],
+      "correct": 0,
+      "explanation": "\"Primero\" = primeiro, \"después\" = depois."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Hoy ___ mucho calor.",
+      "options": [
+        "hace",
+        "está",
+        "tiene"
+      ],
+      "correct": 0,
+      "explanation": "Clima com \"hacer\": hace calor, hace frío, hace sol."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "Mira qué cachorro tan mono.",
+          "options": [
+            "Olha que filhotinho fofo.",
+            "Olha que cachorro macaco."
+          ],
+          "correct": 0,
+          "joke": "Cachorro = filhote. E \"mono\" = fofo (ou macaco!)."
+        },
+        {
+          "spanish": "Mi amigo está muy flaco.",
+          "options": [
+            "Meu amigo está muito magro.",
+            "Meu amigo está muito fraco."
+          ],
+          "correct": 0,
+          "joke": "Flaco = magro. Fraco é \"débil\"."
+        },
+        {
+          "spanish": "Esa chica está borracha.",
+          "options": [
+            "Essa moça está bêbada.",
+            "Essa moça está com uma borracha."
+          ],
+          "correct": 0,
+          "joke": "Borracha = bêbada! A borracha de apagar é \"goma\"."
+        },
+        {
+          "spanish": "Este bolso es muy bonito.",
+          "options": [
+            "Esta bolsa é muito bonita.",
+            "Este bolso é muito bonito."
+          ],
+          "correct": 0,
+          "joke": "Bolso = bolsa de mão. O bolso da calça é \"bolsillo\"."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Madrid",
+      "items": [
+        {
+          "emoji": "🚣",
+          "title": "El Retiro",
+          "es": "¿Alquilamos una barca en el Retiro?",
+          "pt": "O Parque del Retiro é o pulmão de Madrid e, desde 2021, Patrimônio Mundial da UNESCO junto com o Paseo del Prado. Domingo é dia de remar no lago, ver músicos e fazer piquenique."
+        },
+        {
+          "emoji": "🧺",
+          "title": "El Rastro",
+          "es": "Este domingo vamos al Rastro.",
+          "pt": "Feira de rua com antiguidades, roupas e mil coisas, aos domingos e feriados de manhã. Depois, um vermute e tapas em La Latina!"
+        }
+      ]
+    }
+  ]
+}

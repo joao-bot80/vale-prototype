@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "id": "u3l1",
+  "title": "Perdido na Gran Vía",
+  "scenario": "Gran Vía, cerca de Callao",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 7: Para onde agora?",
+      "lines": [
+        {
+          "speaker": "Lu",
+          "es": "Perdone, ¿sabe dónde está la Plaza de España?",
+          "pt": "Com licença, a senhora sabe onde fica a Plaza de España?"
+        },
+        {
+          "speaker": "Señora",
+          "es": "Sí, mira, sigue todo recto por la Gran Vía.",
+          "pt": "Sim, olha, siga reto pela Gran Vía."
+        },
+        {
+          "speaker": "Señora",
+          "es": "Al final de la calle, gira a la derecha y ya la verás.",
+          "pt": "No fim da rua, vire à direita e você já vai ver."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Está lejos?",
+          "pt": "É longe?"
+        },
+        {
+          "speaker": "Señora",
+          "es": "Qué va, está a diez minutos andando.",
+          "pt": "Que nada, fica a dez minutos a pé."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Muchas gracias, muy amable!",
+          "pt": "Muito obrigada, muito gentil!"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como se diz \"siga reto\" na Espanha?",
+      "options": [
+        "Sigue todo recto",
+        "Sigue todo derecho",
+        "Sigue a la derecha"
+      ],
+      "correct": 0,
+      "explanation": "Na Espanha: \"todo recto\". \"Derecho\" é mais latino-americano, e \"a la derecha\" = à direita."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vire à esquerda na próxima rua.",
+      "answer": [
+        "Gira",
+        "a",
+        "la",
+        "izquierda",
+        "en",
+        "la",
+        "próxima",
+        "calle."
+      ],
+      "distractors": [
+        "rua",
+        "esquerda"
+      ],
+      "explanation": "\"Girar\" = virar. \"Izquierda\" = esquerda, \"calle\" = rua."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Está a diez minutos andando.",
+      "options": [
+        "Fica a dez minutos a pé.",
+        "Fica a dez minutos de carro.",
+        "Faltam dez minutos."
+      ],
+      "correct": 0,
+      "explanation": "\"Andando\" = a pé, caminhando."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 6,
+      "cards": [
+        {
+          "es": "semáforo",
+          "kind": "igual",
+          "meaning": "semáforo",
+          "tip": "Igualzinho!"
+        },
+        {
+          "es": "esquina",
+          "kind": "igual",
+          "meaning": "esquina",
+          "tip": "Mesma palavra."
+        },
+        {
+          "es": "teatro",
+          "kind": "igual",
+          "meaning": "teatro",
+          "tip": "A Gran Vía está cheia deles."
+        },
+        {
+          "es": "parque",
+          "kind": "igual",
+          "meaning": "parque",
+          "tip": "Igual!"
+        },
+        {
+          "es": "plaza",
+          "kind": "quase",
+          "meaning": "praça",
+          "tip": "O \"ç\" vira \"z\"."
+        },
+        {
+          "es": "museo",
+          "kind": "quase",
+          "meaning": "museu",
+          "tip": "-eu vira -eo."
+        },
+        {
+          "es": "cerca",
+          "kind": "armadilha",
+          "meaning": "perto",
+          "tip": "A cerca de madeira é \"valla\"."
+        },
+        {
+          "es": "tirar",
+          "kind": "armadilha",
+          "meaning": "puxar / jogar fora",
+          "tip": "Nas portas: \"tirar\" = puxe, \"empujar\" = empurre."
+        },
+        {
+          "es": "pronto",
+          "kind": "armadilha",
+          "meaning": "logo, cedo",
+          "tip": "\"Pronto\" (preparado) é \"listo\"."
+        },
+        {
+          "es": "contestar",
+          "kind": "armadilha",
+          "meaning": "responder, atender",
+          "tip": "Contestar (discordar) é \"rebatir\" ou \"discutir\"."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"¡Qué va!\" significa:",
+      "options": [
+        "Que nada! / Imagina!",
+        "O que vai?",
+        "Vá embora!"
+      ],
+      "correct": 0,
+      "explanation": "\"¡Qué va!\" é um \"que nada!\" bem espanhol."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vocês sabem onde fica o museu?",
+      "answer": [
+        "¿Sabéis",
+        "dónde",
+        "está",
+        "el",
+        "museo?"
+      ],
+      "distractors": [
+        "saben",
+        "fica"
+      ],
+      "explanation": "\"Sabéis\" = vocês sabem (vosotros)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "spanish": "Al final de la calle, gira a la derecha.",
+      "options": [
+        "No fim da rua, vire à direita.",
+        "No começo da rua, vire à esquerda.",
+        "A rua termina aqui."
+      ],
+      "correct": 0,
+      "explanation": "\"Al final de\" = no fim de. \"Derecha\" = direita."
+    },
+    {
+      "type": "choice",
+      "title": "Complete",
+      "prompt": "Perdone, ¿la Plaza de España está ___?",
+      "options": [
+        "cerca",
+        "perto",
+        "pronto"
+      ],
+      "correct": 0,
+      "explanation": "Perto = \"cerca\". \"Pronto\" = logo, cedo."
+    },
+    {
+      "type": "boss",
+      "title": "Chefão do dia",
+      "bossName": "Falso Amigo",
+      "questions": [
+        {
+          "spanish": "La parada está muy cerca.",
+          "options": [
+            "A parada fica muito perto.",
+            "A parada tem uma cerca enorme."
+          ],
+          "correct": 0,
+          "joke": "Cerca = perto. A cerca de madeira é \"valla\"."
+        },
+        {
+          "spanish": "Tira de la puerta.",
+          "options": [
+            "Puxe a porta.",
+            "Tire a porta."
+          ],
+          "correct": 0,
+          "joke": "Nas portas da Espanha: TIRAR = puxar, EMPUJAR = empurrar."
+        },
+        {
+          "spanish": "Nos vemos pronto.",
+          "options": [
+            "Nos vemos logo.",
+            "Nos vemos quando estiver pronto."
+          ],
+          "correct": 0,
+          "joke": "\"Pronto\" = logo. O \"pronto\" do português é \"listo\"."
+        },
+        {
+          "spanish": "No me contesta el teléfono.",
+          "options": [
+            "Não me atende o telefone.",
+            "Não me contesta o telefone."
+          ],
+          "correct": 0,
+          "joke": "\"Contestar\" = responder, atender."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Pílula cultural",
+      "region": "Madrid",
+      "items": [
+        {
+          "emoji": "🎭",
+          "title": "Gran Vía, a Broadway de Madrid",
+          "es": "Esta noche vamos a un musical en la Gran Vía.",
+          "pt": "A Gran Vía é cheia de teatros com musicais, além de lojas e cinemas. À noite fica toda iluminada."
+        },
+        {
+          "emoji": "🗺️",
+          "title": "Pedindo direções",
+          "es": "Perdone, ¿me puede ayudar?",
+          "pt": "Com pessoas mais velhas, use \"usted\": perdone, ¿me puede...? Com jovens, \"tú\": perdona, ¿me puedes...? Os madrileños costumam ajudar com gosto."
+        }
+      ]
+    }
+  ]
+}
