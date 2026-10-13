@@ -126,9 +126,9 @@
       "cards": [
         {
           "es": "partido",
-          "kind": "armadilha",
-          "meaning": "jogo (de futebol)",
-          "tip": "Partido = jogo. Em português, partido é partido político ou quebrado."
+          "kind": "quase",
+          "meaning": "partida, jogo (de futebol)",
+          "tip": "Na Espanha, partido é a palavra do dia a dia para uma partida esportiva: un partido de fútbol = uma partida de futebol. Em português, a palavra mais próxima é partida."
         },
         {
           "es": "equipo local",
