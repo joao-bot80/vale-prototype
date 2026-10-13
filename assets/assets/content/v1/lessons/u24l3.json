@@ -47,17 +47,20 @@
         {
           "es": "la agenda",
           "pt": "a agenda",
-          "emoji": "📒"
+          "emoji": "📒",
+          "image": "assets/vocab/agenda.png"
         },
         {
           "es": "el gimnasio",
           "pt": "a academia",
-          "emoji": "🏋️"
+          "emoji": "🏋️",
+          "image": "assets/vocab/gimnasio.png"
         },
         {
           "es": "la pista de pádel",
           "pt": "a quadra de padel",
-          "emoji": "🎾"
+          "emoji": "🎾",
+          "image": "assets/vocab/pista_de_padel.png"
         },
         {
           "es": "mañana",

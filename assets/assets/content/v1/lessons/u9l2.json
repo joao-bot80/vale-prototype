@@ -57,17 +57,20 @@
         {
           "es": "la receta",
           "pt": "a receita",
-          "emoji": "📝"
+          "emoji": "📝",
+          "image": "assets/vocab/receta.png"
         },
         {
           "es": "la farmacia",
           "pt": "a farmácia",
-          "emoji": "💊"
+          "emoji": "💊",
+          "image": "assets/vocab/farmacia.png"
         },
         {
           "es": "la tirita",
           "pt": "o band-aid",
-          "emoji": "🩹"
+          "emoji": "🩹",
+          "image": "assets/vocab/tirita.png"
         }
       ]
     },

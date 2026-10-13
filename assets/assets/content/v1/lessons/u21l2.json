@@ -47,22 +47,26 @@
         {
           "es": "la barca",
           "pt": "o barco",
-          "emoji": "🛶"
+          "emoji": "🛶",
+          "image": "assets/vocab/barca.png"
         },
         {
           "es": "el atardecer",
           "pt": "o pôr do sol",
-          "emoji": "🌅"
+          "emoji": "🌅",
+          "image": "assets/vocab/atardecer.png"
         },
         {
           "es": "el arrozal",
           "pt": "o arrozal",
-          "emoji": "🌾"
+          "emoji": "🌾",
+          "image": "assets/vocab/arrozal.png"
         },
         {
           "es": "el pájaro",
           "pt": "o pássaro",
-          "emoji": "🐦"
+          "emoji": "🐦",
+          "image": "assets/vocab/pajaro.png"
         }
       ]
     },

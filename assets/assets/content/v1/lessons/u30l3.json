@@ -47,17 +47,20 @@
         {
           "es": "la maleta",
           "pt": "a mala",
-          "emoji": "🧳"
+          "emoji": "🧳",
+          "image": "assets/vocab/maleta.png"
         },
         {
           "es": "el aeropuerto",
           "pt": "o aeroporto",
-          "emoji": "🛫"
+          "emoji": "🛫",
+          "image": "assets/vocab/aeropuerto.png"
         },
         {
           "es": "la tarjeta de embarque",
           "pt": "o cartão de embarque",
-          "emoji": "🎫"
+          "emoji": "🎫",
+          "image": "assets/vocab/tarjeta_de_embarque.png"
         },
         {
           "es": "adiós",

@@ -47,22 +47,26 @@
         {
           "es": "la bici",
           "pt": "a bike",
-          "emoji": "🚲"
+          "emoji": "🚲",
+          "image": "assets/vocab/bici.png"
         },
         {
           "es": "el casco",
           "pt": "o capacete",
-          "emoji": "⛑️"
+          "emoji": "⛑️",
+          "image": "assets/vocab/casco.png"
         },
         {
           "es": "el puente",
           "pt": "a ponte",
-          "emoji": "🌉"
+          "emoji": "🌉",
+          "image": "assets/vocab/puente.png"
         },
         {
           "es": "el timbre",
           "pt": "a campainha",
-          "emoji": "🔔"
+          "emoji": "🔔",
+          "image": "assets/vocab/timbre.png"
         }
       ]
     },

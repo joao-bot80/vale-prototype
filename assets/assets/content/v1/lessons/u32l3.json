@@ -47,22 +47,26 @@
         {
           "es": "el barco",
           "pt": "o barco",
-          "emoji": "⛴️"
+          "emoji": "⛴️",
+          "image": "assets/vocab/barco.png"
         },
         {
           "es": "la isla",
           "pt": "a ilha",
-          "emoji": "🏝️"
+          "emoji": "🏝️",
+          "image": "assets/vocab/isla.png"
         },
         {
           "es": "la gaviota",
           "pt": "a gaivota",
-          "emoji": "🐦"
+          "emoji": "🐦",
+          "image": "assets/vocab/gaviota.png"
         },
         {
           "es": "la tienda de campaña",
           "pt": "a barraca de camping",
-          "emoji": "⛺"
+          "emoji": "⛺",
+          "image": "assets/vocab/tienda_de_campana.png"
         }
       ]
     },

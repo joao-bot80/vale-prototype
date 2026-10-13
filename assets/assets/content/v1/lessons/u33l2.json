@@ -47,22 +47,26 @@
         {
           "es": "el faro",
           "pt": "o farol",
-          "emoji": "🗼"
+          "emoji": "🗼",
+          "image": "assets/vocab/faro.png"
         },
         {
           "es": "el viento",
           "pt": "o vento",
-          "emoji": "💨"
+          "emoji": "💨",
+          "image": "assets/vocab/viento.png"
         },
         {
           "es": "la bufanda",
           "pt": "o cachecol",
-          "emoji": "🧣"
+          "emoji": "🧣",
+          "image": "assets/vocab/bufanda.png"
         },
         {
           "es": "el abrigo",
           "pt": "o casaco",
-          "emoji": "🧥"
+          "emoji": "🧥",
+          "image": "assets/vocab/abrigo.png"
         }
       ]
     },

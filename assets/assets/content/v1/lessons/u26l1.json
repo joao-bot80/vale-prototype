@@ -47,22 +47,26 @@
         {
           "es": "el espeto",
           "pt": "o espeto",
-          "emoji": "🍢"
+          "emoji": "🍢",
+          "image": "assets/vocab/espeto.png"
         },
         {
           "es": "la sardina",
           "pt": "a sardinha",
-          "emoji": "🐟"
+          "emoji": "🐟",
+          "image": "assets/vocab/sardina.png"
         },
         {
           "es": "el chiringuito",
           "pt": "a barraca de praia",
-          "emoji": "⛱️"
+          "emoji": "⛱️",
+          "image": "assets/vocab/chiringuito.png"
         },
         {
           "es": "la caña de pescar",
           "pt": "a vara de pescar",
-          "emoji": "🎣"
+          "emoji": "🎣",
+          "image": "assets/vocab/cana_de_pescar.png"
         }
       ]
     },

@@ -47,22 +47,26 @@
         {
           "es": "el teleférico",
           "pt": "o teleférico",
-          "emoji": "🚡"
+          "emoji": "🚡",
+          "image": "assets/vocab/teleferico.png"
         },
         {
           "es": "el mirador",
           "pt": "o mirante",
-          "emoji": "🔭"
+          "emoji": "🔭",
+          "image": "assets/vocab/mirador.png"
         },
         {
           "es": "la montaña",
           "pt": "a montanha",
-          "emoji": "⛰️"
+          "emoji": "⛰️",
+          "image": "assets/vocab/montana.png"
         },
         {
           "es": "el puerto",
           "pt": "o porto",
-          "emoji": "⚓"
+          "emoji": "⚓",
+          "image": "assets/vocab/puerto.png"
         }
       ]
     },

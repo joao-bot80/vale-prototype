@@ -47,27 +47,32 @@
         {
           "es": "la sidra",
           "pt": "a sidra",
-          "emoji": "🍏"
+          "emoji": "🍏",
+          "image": "assets/vocab/sidra.png"
         },
         {
           "es": "la barrica",
           "pt": "o barril",
-          "emoji": "🛢️"
+          "emoji": "🛢️",
+          "image": "assets/vocab/barrica.png"
         },
         {
           "es": "la chuleta",
           "pt": "a bisteca",
-          "emoji": "🥩"
+          "emoji": "🥩",
+          "image": "assets/vocab/chuleta.png"
         },
         {
           "es": "el membrillo",
           "pt": "o doce de marmelo",
-          "emoji": "🍐"
+          "emoji": "🍐",
+          "image": "assets/vocab/membrillo.png"
         },
         {
           "es": "el queso",
           "pt": "o queijo",
-          "emoji": "🧀"
+          "emoji": "🧀",
+          "image": "assets/vocab/queso.png"
         }
       ]
     },

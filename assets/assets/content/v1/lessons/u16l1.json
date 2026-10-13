@@ -57,7 +57,8 @@
         {
           "es": "el bolígrafo",
           "pt": "a caneta",
-          "emoji": "🖊️"
+          "emoji": "🖊️",
+          "image": "assets/vocab/boligrafo.png"
         },
         {
           "es": "el despido",

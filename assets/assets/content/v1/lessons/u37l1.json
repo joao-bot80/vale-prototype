@@ -47,22 +47,26 @@
         {
           "es": "el volcán",
           "pt": "o vulcão",
-          "emoji": "🌋"
+          "emoji": "🌋",
+          "image": "assets/vocab/volcan.png"
         },
         {
           "es": "la cima",
           "pt": "o cume",
-          "emoji": "⛰️"
+          "emoji": "⛰️",
+          "image": "assets/vocab/cima.png"
         },
         {
           "es": "el teleférico",
           "pt": "o teleférico",
-          "emoji": "🚡"
+          "emoji": "🚡",
+          "image": "assets/vocab/teleferico.png"
         },
         {
           "es": "el forro polar",
           "pt": "a blusa de fleece",
-          "emoji": "🧥"
+          "emoji": "🧥",
+          "image": "assets/vocab/forro_polar.png"
         }
       ]
     },

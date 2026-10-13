@@ -47,22 +47,26 @@
         {
           "es": "el vino blanco",
           "pt": "o vinho branco",
-          "emoji": "🥂"
+          "emoji": "🥂",
+          "image": "assets/vocab/vino_blanco.png"
         },
         {
           "es": "la uva",
           "pt": "a uva",
-          "emoji": "🍇"
+          "emoji": "🍇",
+          "image": "assets/vocab/uva.png"
         },
         {
           "es": "la botella",
           "pt": "a garrafa",
-          "emoji": "🍾"
+          "emoji": "🍾",
+          "image": "assets/vocab/botella.png"
         },
         {
           "es": "el sacacorchos",
           "pt": "o saca-rolhas",
-          "emoji": "🍷"
+          "emoji": "🍷",
+          "image": "assets/vocab/sacacorchos.png"
         }
       ]
     },

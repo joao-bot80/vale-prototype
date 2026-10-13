@@ -47,22 +47,26 @@
         {
           "es": "el pañal",
           "pt": "a fralda",
-          "emoji": "🧷"
+          "emoji": "🧷",
+          "image": "assets/vocab/panal.png"
         },
         {
           "es": "el chupete",
           "pt": "a chupeta",
-          "emoji": "🍼"
+          "emoji": "🍼",
+          "image": "assets/vocab/chupete.png"
         },
         {
           "es": "el termómetro",
           "pt": "o termômetro",
-          "emoji": "🌡️"
+          "emoji": "🌡️",
+          "image": "assets/vocab/termometro.png"
         },
         {
           "es": "la vacuna",
           "pt": "a vacina",
-          "emoji": "💉"
+          "emoji": "💉",
+          "image": "assets/vocab/vacuna.png"
         }
       ]
     },

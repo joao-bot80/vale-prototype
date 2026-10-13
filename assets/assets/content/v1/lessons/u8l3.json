@@ -47,22 +47,26 @@
         {
           "es": "el fuego",
           "pt": "o fogo",
-          "emoji": "🔥"
+          "emoji": "🔥",
+          "image": "assets/vocab/fuego.png"
         },
         {
           "es": "los petardos",
           "pt": "as bombinhas",
-          "emoji": "🧨"
+          "emoji": "🧨",
+          "image": "assets/vocab/petardos.png"
         },
         {
           "es": "el humo",
           "pt": "a fumaça",
-          "emoji": "💨"
+          "emoji": "💨",
+          "image": "assets/vocab/humo.png"
         },
         {
           "es": "la falla",
           "pt": "o monumento da falla",
-          "emoji": "🗿"
+          "emoji": "🗿",
+          "image": "assets/vocab/falla.png"
         },
         {
           "es": "marzo",

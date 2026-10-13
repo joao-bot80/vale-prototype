@@ -47,22 +47,26 @@
         {
           "es": "el acantilado",
           "pt": "o penhasco",
-          "emoji": "🏔️"
+          "emoji": "🏔️",
+          "image": "assets/vocab/acantilado.png"
         },
         {
           "es": "la roca",
           "pt": "a rocha",
-          "emoji": "🪨"
+          "emoji": "🪨",
+          "image": "assets/vocab/roca.png"
         },
         {
           "es": "la marea",
           "pt": "a maré",
-          "emoji": "🌊"
+          "emoji": "🌊",
+          "image": "assets/vocab/marea.png"
         },
         {
           "es": "el fósil",
           "pt": "o fóssil",
-          "emoji": "🐚"
+          "emoji": "🐚",
+          "image": "assets/vocab/fosil.png"
         }
       ]
     },

@@ -52,12 +52,14 @@
         {
           "es": "el sol",
           "pt": "o sol",
-          "emoji": "☀️"
+          "emoji": "☀️",
+          "image": "assets/vocab/sol.png"
         },
         {
           "es": "la calima",
           "pt": "a névoa de poeira",
-          "emoji": "🌫️"
+          "emoji": "🌫️",
+          "image": "assets/vocab/calima.png"
         },
         {
           "es": "temprano",

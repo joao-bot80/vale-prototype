@@ -47,27 +47,32 @@
         {
           "es": "la aceituna",
           "pt": "a azeitona",
-          "emoji": "🫒"
+          "emoji": "🫒",
+          "image": "assets/vocab/aceituna.png"
         },
         {
           "es": "el ajo",
           "pt": "o alho",
-          "emoji": "🧄"
+          "emoji": "🧄",
+          "image": "assets/vocab/ajo.png"
         },
         {
           "es": "el pimiento",
           "pt": "o pimentão",
-          "emoji": "🫑"
+          "emoji": "🫑",
+          "image": "assets/vocab/pimiento.png"
         },
         {
           "es": "el tenedor",
           "pt": "o garfo",
-          "emoji": "🍴"
+          "emoji": "🍴",
+          "image": "assets/vocab/tenedor.png"
         },
         {
           "es": "la cuchara",
           "pt": "a colher",
-          "emoji": "🥄"
+          "emoji": "🥄",
+          "image": "assets/vocab/cuchara.png"
         }
       ]
     },

@@ -47,22 +47,26 @@
         {
           "es": "la duna",
           "pt": "a duna",
-          "emoji": "🏜️"
+          "emoji": "🏜️",
+          "image": "assets/vocab/duna.png"
         },
         {
           "es": "el camello",
           "pt": "o camelo",
-          "emoji": "🐪"
+          "emoji": "🐪",
+          "image": "assets/vocab/camello.png"
         },
         {
           "es": "la pamela",
           "pt": "o chapéu de aba larga",
-          "emoji": "👒"
+          "emoji": "👒",
+          "image": "assets/vocab/pamela.png"
         },
         {
           "es": "el faro",
           "pt": "o farol",
-          "emoji": "🗼"
+          "emoji": "🗼",
+          "image": "assets/vocab/faro.png"
         }
       ]
     },

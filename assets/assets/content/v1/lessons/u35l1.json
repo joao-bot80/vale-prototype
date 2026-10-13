@@ -47,22 +47,26 @@
         {
           "es": "el perro de flores",
           "pt": "o cachorro de flores",
-          "emoji": "🐶"
+          "emoji": "🐶",
+          "image": "assets/vocab/perro_de_flores.png"
         },
         {
           "es": "la araña",
           "pt": "a aranha",
-          "emoji": "🕷️"
+          "emoji": "🕷️",
+          "image": "assets/vocab/arana.png"
         },
         {
           "es": "el acero",
           "pt": "o aço",
-          "emoji": "🔩"
+          "emoji": "🔩",
+          "image": "assets/vocab/acero.png"
         },
         {
           "es": "el museo",
           "pt": "o museu",
-          "emoji": "🏛️"
+          "emoji": "🏛️",
+          "image": "assets/vocab/museo.png"
         }
       ]
     },

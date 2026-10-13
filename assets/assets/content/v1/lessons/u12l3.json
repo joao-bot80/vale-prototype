@@ -47,22 +47,26 @@
         {
           "es": "el desayuno",
           "pt": "o café da manhã",
-          "emoji": "🥐"
+          "emoji": "🥐",
+          "image": "assets/vocab/desayuno.png"
         },
         {
           "es": "el cepillo de dientes",
           "pt": "a escova de dente",
-          "emoji": "🪥"
+          "emoji": "🪥",
+          "image": "assets/vocab/cepillo_de_dientes.png"
         },
         {
           "es": "la cama",
           "pt": "a cama",
-          "emoji": "🛏️"
+          "emoji": "🛏️",
+          "image": "assets/vocab/cama.png"
         },
         {
           "es": "el despertador",
           "pt": "o despertador",
-          "emoji": "⏰"
+          "emoji": "⏰",
+          "image": "assets/vocab/despertador.png"
         },
         {
           "es": "la siesta",

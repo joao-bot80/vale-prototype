@@ -47,22 +47,26 @@
         {
           "es": "el tren",
           "pt": "o trem",
-          "emoji": "🚆"
+          "emoji": "🚆",
+          "image": "assets/vocab/tren.png"
         },
         {
           "es": "el asiento",
           "pt": "o assento",
-          "emoji": "💺"
+          "emoji": "💺",
+          "image": "assets/vocab/asiento.png"
         },
         {
           "es": "el pasillo",
           "pt": "o corredor",
-          "emoji": "🚶"
+          "emoji": "🚶",
+          "image": "assets/vocab/pasillo.png"
         },
         {
           "es": "la ventanilla",
           "pt": "a janela (do trem)",
-          "emoji": "🪟"
+          "emoji": "🪟",
+          "image": "assets/vocab/ventanilla.png"
         }
       ]
     },

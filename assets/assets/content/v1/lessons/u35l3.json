@@ -47,22 +47,26 @@
         {
           "es": "el bacalao",
           "pt": "o bacalhau",
-          "emoji": "🐟"
+          "emoji": "🐟",
+          "image": "assets/vocab/bacalao.png"
         },
         {
           "es": "el mercado",
           "pt": "o mercado",
-          "emoji": "🏪"
+          "emoji": "🏪",
+          "image": "assets/vocab/mercado.png"
         },
         {
           "es": "la pescadera",
           "pt": "a peixeira",
-          "emoji": "👩‍🍳"
+          "emoji": "👩‍🍳",
+          "image": "assets/vocab/pescadera.png"
         },
         {
           "es": "la merluza",
           "pt": "a merluza",
-          "emoji": "🐟"
+          "emoji": "🐟",
+          "image": "assets/vocab/merluza.png"
         }
       ]
     },

@@ -47,12 +47,14 @@
         {
           "es": "la carpeta",
           "pt": "a pasta",
-          "emoji": "📁"
+          "emoji": "📁",
+          "image": "assets/vocab/carpeta.png"
         },
         {
           "es": "la grapa",
           "pt": "o grampo",
-          "emoji": "📎"
+          "emoji": "📎",
+          "image": "assets/vocab/grapa.png"
         },
         {
           "es": "la fotocopia",

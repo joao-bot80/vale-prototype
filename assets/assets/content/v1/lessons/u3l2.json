@@ -47,17 +47,20 @@
         {
           "es": "el reloj",
           "pt": "o relógio",
-          "emoji": "🕰️"
+          "emoji": "🕰️",
+          "image": "assets/vocab/reloj.png"
         },
         {
           "es": "las campanadas",
           "pt": "as badaladas",
-          "emoji": "🔔"
+          "emoji": "🔔",
+          "image": "assets/vocab/campanadas.png"
         },
         {
           "es": "las uvas",
           "pt": "as uvas",
-          "emoji": "🍇"
+          "emoji": "🍇",
+          "image": "assets/vocab/uvas.png"
         },
         {
           "es": "la medianoche",

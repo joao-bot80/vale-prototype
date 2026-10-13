@@ -47,17 +47,20 @@
         {
           "es": "el disfraz",
           "pt": "a fantasia",
-          "emoji": "🎭"
+          "emoji": "🎭",
+          "image": "assets/vocab/disfraz.png"
         },
         {
           "es": "la peluca",
           "pt": "a peruca",
-          "emoji": "👩‍🦱"
+          "emoji": "👩‍🦱",
+          "image": "assets/vocab/peluca.png"
         },
         {
           "es": "el antifaz",
           "pt": "a máscara de olhos",
-          "emoji": "🥸"
+          "emoji": "🥸",
+          "image": "assets/vocab/antifaz.png"
         },
         {
           "es": "la chirigota",

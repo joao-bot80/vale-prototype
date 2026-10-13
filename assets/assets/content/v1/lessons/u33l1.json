@@ -47,22 +47,26 @@
         {
           "es": "las ostras",
           "pt": "as ostras",
-          "emoji": "🦪"
+          "emoji": "🦪",
+          "image": "assets/vocab/ostras.png"
         },
         {
           "es": "el puerto",
           "pt": "o porto",
-          "emoji": "⚓"
+          "emoji": "⚓",
+          "image": "assets/vocab/puerto.png"
         },
         {
           "es": "el pescador",
           "pt": "o pescador",
-          "emoji": "🎣"
+          "emoji": "🎣",
+          "image": "assets/vocab/pescador.png"
         },
         {
           "es": "la red",
           "pt": "a rede",
-          "emoji": "🕸️"
+          "emoji": "🕸️",
+          "image": "assets/vocab/red.png"
         }
       ]
     },

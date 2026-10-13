@@ -57,7 +57,8 @@
         {
           "es": "la bombona",
           "pt": "o botijão",
-          "emoji": "🛢️"
+          "emoji": "🛢️",
+          "image": "assets/vocab/bombona.png"
         },
         {
           "es": "la factura",

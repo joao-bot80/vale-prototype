@@ -47,22 +47,26 @@
         {
           "es": "la arena",
           "pt": "a areia",
-          "emoji": "🏖️"
+          "emoji": "🏖️",
+          "image": "assets/vocab/arena.png"
         },
         {
           "es": "el bañador",
           "pt": "o maiô / a sunga",
-          "emoji": "🩱"
+          "emoji": "🩱",
+          "image": "assets/vocab/banador.png"
         },
         {
           "es": "la gorra",
           "pt": "o boné",
-          "emoji": "🧢"
+          "emoji": "🧢",
+          "image": "assets/vocab/gorra.png"
         },
         {
           "es": "las gafas de sol",
           "pt": "os óculos de sol",
-          "emoji": "🕶️"
+          "emoji": "🕶️",
+          "image": "assets/vocab/gafas_de_sol.png"
         }
       ]
     },

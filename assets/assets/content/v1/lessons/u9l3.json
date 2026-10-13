@@ -47,22 +47,26 @@
         {
           "es": "el autobús",
           "pt": "o ônibus",
-          "emoji": "🚌"
+          "emoji": "🚌",
+          "image": "assets/vocab/autobus.png"
         },
         {
           "es": "la parada",
           "pt": "o ponto",
-          "emoji": "🚏"
+          "emoji": "🚏",
+          "image": "assets/vocab/parada.png"
         },
         {
           "es": "el metro",
           "pt": "o metrô",
-          "emoji": "🚇"
+          "emoji": "🚇",
+          "image": "assets/vocab/metro.png"
         },
         {
           "es": "la tarjeta de transporte",
           "pt": "o cartão de transporte",
-          "emoji": "💳"
+          "emoji": "💳",
+          "image": "assets/vocab/tarjeta_de_transporte.png"
         }
       ]
     },

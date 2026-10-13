@@ -47,12 +47,14 @@
         {
           "es": "la ambulancia",
           "pt": "a ambulância",
-          "emoji": "🚑"
+          "emoji": "🚑",
+          "image": "assets/vocab/ambulancia.png"
         },
         {
           "es": "el fuego",
           "pt": "o fogo",
-          "emoji": "🔥"
+          "emoji": "🔥",
+          "image": "assets/vocab/fuego.png"
         },
         {
           "es": "¡Socorro!",

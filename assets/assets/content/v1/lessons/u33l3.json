@@ -47,22 +47,26 @@
         {
           "es": "la queimada",
           "pt": "a queimada",
-          "emoji": "🔥"
+          "emoji": "🔥",
+          "image": "assets/vocab/queimada.png"
         },
         {
           "es": "la bruja",
           "pt": "a bruxa",
-          "emoji": "🧙"
+          "emoji": "🧙",
+          "image": "assets/vocab/bruja.png"
         },
         {
           "es": "la calabaza",
           "pt": "a abóbora",
-          "emoji": "🎃"
+          "emoji": "🎃",
+          "image": "assets/vocab/calabaza.png"
         },
         {
           "es": "la hoguera",
           "pt": "a fogueira",
-          "emoji": "🔥"
+          "emoji": "🔥",
+          "image": "assets/vocab/hoguera.png"
         }
       ]
     },

@@ -47,22 +47,26 @@
         {
           "es": "el acueducto",
           "pt": "o aqueduto",
-          "emoji": "🏛️"
+          "emoji": "🏛️",
+          "image": "assets/vocab/acueducto.png"
         },
         {
           "es": "el cochinillo",
           "pt": "o leitão",
-          "emoji": "🐖"
+          "emoji": "🐖",
+          "image": "assets/vocab/cochinillo.png"
         },
         {
           "es": "el plato",
           "pt": "o prato",
-          "emoji": "🍽️"
+          "emoji": "🍽️",
+          "image": "assets/vocab/plato.png"
         },
         {
           "es": "el castillo",
           "pt": "o castelo",
-          "emoji": "🏰"
+          "emoji": "🏰",
+          "image": "assets/vocab/castillo.png"
         }
       ]
     },

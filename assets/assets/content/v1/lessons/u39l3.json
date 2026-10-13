@@ -47,17 +47,20 @@
         {
           "es": "el volcán",
           "pt": "o vulcão",
-          "emoji": "🌋"
+          "emoji": "🌋",
+          "image": "assets/vocab/volcan.png"
         },
         {
           "es": "la ceniza",
           "pt": "a cinza",
-          "emoji": "⚫"
+          "emoji": "⚫",
+          "image": "assets/vocab/ceniza.png"
         },
         {
           "es": "la cueva",
           "pt": "a caverna",
-          "emoji": "🕳️"
+          "emoji": "🕳️",
+          "image": "assets/vocab/cueva.png"
         },
         {
           "es": "el artista",

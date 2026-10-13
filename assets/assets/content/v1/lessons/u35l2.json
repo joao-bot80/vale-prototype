@@ -47,22 +47,26 @@
         {
           "es": "el cartel",
           "pt": "a placa",
-          "emoji": "🪧"
+          "emoji": "🪧",
+          "image": "assets/vocab/cartel.png"
         },
         {
           "es": "la calle",
           "pt": "a rua",
-          "emoji": "🛣️"
+          "emoji": "🛣️",
+          "image": "assets/vocab/calle.png"
         },
         {
           "es": "el metro",
           "pt": "o metrô",
-          "emoji": "🚇"
+          "emoji": "🚇",
+          "image": "assets/vocab/metro.png"
         },
         {
           "es": "la salida",
           "pt": "a saída",
-          "emoji": "🚪"
+          "emoji": "🚪",
+          "image": "assets/vocab/salida.png"
         }
       ]
     },

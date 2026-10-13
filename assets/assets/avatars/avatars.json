@@ -1,0 +1,138 @@
+{
+ "Dani": {
+  "file": "assets/avatars/dani.png",
+  "gender": "M"
+ },
+ "Marta": {
+  "file": "assets/avatars/marta.png",
+  "gender": "F"
+ },
+ "Camarero": {
+  "file": "assets/avatars/camarero.png",
+  "gender": "M"
+ },
+ "Camarera": {
+  "file": "assets/avatars/camarera.png",
+  "gender": "F"
+ },
+ "Empleado": {
+  "file": "assets/avatars/empleado.png",
+  "gender": "M"
+ },
+ "Agente": {
+  "file": "assets/avatars/agente.png",
+  "gender": "F"
+ },
+ "Taquillera": {
+  "file": "assets/avatars/taquillera.png",
+  "gender": "F"
+ },
+ "Guía": {
+  "file": "assets/avatars/guia.png",
+  "gender": "F"
+ },
+ "Policía": {
+  "file": "assets/avatars/policia.png",
+  "gender": "M"
+ },
+ "Recepcionista": {
+  "file": "assets/avatars/recepcionista.png",
+  "gender": "F"
+ },
+ "Señora": {
+  "file": "assets/avatars/senora.png",
+  "gender": "F"
+ },
+ "Pescadera": {
+  "file": "assets/avatars/pescadera.png",
+  "gender": "F"
+ },
+ "Señor": {
+  "file": "assets/avatars/senor.png",
+  "gender": "M"
+ },
+ "Dependiente": {
+  "file": "assets/avatars/dependiente.png",
+  "gender": "M"
+ },
+ "Vecina": {
+  "file": "assets/avatars/vecina.png",
+  "gender": "F"
+ },
+ "Vendedor": {
+  "file": "assets/avatars/vendedor.png",
+  "gender": "M"
+ },
+ "Secretaria": {
+  "file": "assets/avatars/secretaria.png",
+  "gender": "F"
+ },
+ "Dependienta": {
+  "file": "assets/avatars/dependienta.png",
+  "gender": "F"
+ },
+ "Gestora": {
+  "file": "assets/avatars/gestora.png",
+  "gender": "F"
+ },
+ "Taquillero": {
+  "file": "assets/avatars/taquillero.png",
+  "gender": "M"
+ },
+ "Cajero": {
+  "file": "assets/avatars/cajero.png",
+  "gender": "M"
+ },
+ "Pediatra": {
+  "file": "assets/avatars/pediatra.png",
+  "gender": "M"
+ },
+ "Jefa": {
+  "file": "assets/avatars/jefa.png",
+  "gender": "F"
+ },
+ "Operadora": {
+  "file": "assets/avatars/operadora.png",
+  "gender": "F"
+ },
+ "Funcionario": {
+  "file": "assets/avatars/funcionario.png",
+  "gender": "M"
+ },
+ "Técnico": {
+  "file": "assets/avatars/tecnico.png",
+  "gender": "M"
+ },
+ "Vendedora": {
+  "file": "assets/avatars/vendedora.png",
+  "gender": "F"
+ },
+ "Operador": {
+  "file": "assets/avatars/operador.png",
+  "gender": "M"
+ },
+ "Enfermera": {
+  "file": "assets/avatars/enfermera.png",
+  "gender": "F"
+ },
+ "Tutora": {
+  "file": "assets/avatars/tutora.png",
+  "gender": "F"
+ },
+ "Entrevistadora": {
+  "file": "assets/avatars/entrevistadora.png",
+  "gender": "F"
+ },
+ "Bodeguero": {
+  "file": "assets/avatars/bodeguero.png",
+  "gender": "M"
+ },
+ "Administrativa": {
+  "file": "assets/avatars/administrativa.png",
+  "gender": "F"
+ },
+ "Médica": {
+  "file": "assets/avatars/medica.png",
+  "gender": "F"
+ }
+}

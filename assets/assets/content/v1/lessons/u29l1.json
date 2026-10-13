@@ -47,12 +47,14 @@
         {
           "es": "el álbum",
           "pt": "o álbum",
-          "emoji": "📔"
+          "emoji": "📔",
+          "image": "assets/vocab/album.png"
         },
         {
           "es": "la foto",
           "pt": "a foto",
-          "emoji": "📷"
+          "emoji": "📷",
+          "image": "assets/vocab/foto.png"
         },
         {
           "es": "el recuerdo",

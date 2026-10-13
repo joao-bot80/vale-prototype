@@ -47,12 +47,14 @@
         {
           "es": "la reina",
           "pt": "a rainha",
-          "emoji": "👑"
+          "emoji": "👑",
+          "image": "assets/vocab/reina.png"
         },
         {
           "es": "el disfraz",
           "pt": "a fantasia",
-          "emoji": "🎭"
+          "emoji": "🎭",
+          "image": "assets/vocab/disfraz.png"
         },
         {
           "es": "la murga",
@@ -62,7 +64,8 @@
         {
           "es": "las plumas",
           "pt": "as plumas",
-          "emoji": "🪶"
+          "emoji": "🪶",
+          "image": "assets/vocab/plumas.png"
         }
       ]
     },

@@ -47,22 +47,26 @@
         {
           "es": "el tomate",
           "pt": "o tomate",
-          "emoji": "🍅"
+          "emoji": "🍅",
+          "image": "assets/vocab/tomate.png"
         },
         {
           "es": "el camión",
           "pt": "o caminhão",
-          "emoji": "🚚"
+          "emoji": "🚚",
+          "image": "assets/vocab/camion.png"
         },
         {
           "es": "las gafas de bucear",
           "pt": "os óculos de natação",
-          "emoji": "🥽"
+          "emoji": "🥽",
+          "image": "assets/vocab/gafas_de_bucear.png"
         },
         {
           "es": "la camiseta",
           "pt": "a camiseta",
-          "emoji": "👕"
+          "emoji": "👕",
+          "image": "assets/vocab/camiseta.png"
         },
         {
           "es": "agosto",

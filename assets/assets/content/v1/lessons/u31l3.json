@@ -47,22 +47,26 @@
         {
           "es": "el pulpo",
           "pt": "o polvo",
-          "emoji": "🐙"
+          "emoji": "🐙",
+          "image": "assets/vocab/pulpo.png"
         },
         {
           "es": "el marisco",
           "pt": "os frutos do mar",
-          "emoji": "🦀"
+          "emoji": "🦀",
+          "image": "assets/vocab/marisco.png"
         },
         {
           "es": "el plato de madera",
           "pt": "o prato de madeira",
-          "emoji": "🍽️"
+          "emoji": "🍽️",
+          "image": "assets/vocab/plato_de_madera.png"
         },
         {
           "es": "el pimentón",
           "pt": "a páprica",
-          "emoji": "🌶️"
+          "emoji": "🌶️",
+          "image": "assets/vocab/pimenton.png"
         }
       ]
     },

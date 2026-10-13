@@ -47,7 +47,8 @@
         {
           "es": "la guitarra",
           "pt": "o violão",
-          "emoji": "🎸"
+          "emoji": "🎸",
+          "image": "assets/vocab/guitarra.png"
         },
         {
           "es": "el cante",
@@ -57,12 +58,14 @@
         {
           "es": "las palmas",
           "pt": "as palmas",
-          "emoji": "👏"
+          "emoji": "👏",
+          "image": "assets/vocab/palmas.png"
         },
         {
           "es": "el tablao",
           "pt": "a casa de flamenco",
-          "emoji": "💃"
+          "emoji": "💃",
+          "image": "assets/vocab/tablao.png"
         }
       ]
     },

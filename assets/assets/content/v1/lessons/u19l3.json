@@ -47,22 +47,26 @@
         {
           "es": "el pescado",
           "pt": "o peixe",
-          "emoji": "🐟"
+          "emoji": "🐟",
+          "image": "assets/vocab/pescado.png"
         },
         {
           "es": "la carnicería",
           "pt": "o açougue",
-          "emoji": "🥩"
+          "emoji": "🥩",
+          "image": "assets/vocab/carniceria.png"
         },
         {
           "es": "la frutería",
           "pt": "a quitanda",
-          "emoji": "🍎"
+          "emoji": "🍎",
+          "image": "assets/vocab/fruteria.png"
         },
         {
           "es": "el zumo",
           "pt": "o suco",
-          "emoji": "🧃"
+          "emoji": "🧃",
+          "image": "assets/vocab/zumo.png"
         }
       ]
     },

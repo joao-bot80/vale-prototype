@@ -47,27 +47,32 @@
         {
           "es": "el jamón",
           "pt": "o presunto",
-          "emoji": "🍖"
+          "emoji": "🍖",
+          "image": "assets/vocab/jamon.png"
         },
         {
           "es": "el queso",
           "pt": "o queijo",
-          "emoji": "🧀"
+          "emoji": "🧀",
+          "image": "assets/vocab/queso.png"
         },
         {
           "es": "las gambas",
           "pt": "os camarões",
-          "emoji": "🦐"
+          "emoji": "🦐",
+          "image": "assets/vocab/gambas.png"
         },
         {
           "es": "el pan",
           "pt": "o pão",
-          "emoji": "🥖"
+          "emoji": "🥖",
+          "image": "assets/vocab/pan.png"
         },
         {
           "es": "la servilleta",
           "pt": "o guardanapo",
-          "emoji": "🧻"
+          "emoji": "🧻",
+          "image": "assets/vocab/servilleta.png"
         }
       ]
     },

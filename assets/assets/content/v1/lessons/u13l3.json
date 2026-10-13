@@ -47,22 +47,26 @@
         {
           "es": "la torre",
           "pt": "a torre",
-          "emoji": "🗼"
+          "emoji": "🗼",
+          "image": "assets/vocab/torre.png"
         },
         {
           "es": "la vidriera",
           "pt": "o vitral",
-          "emoji": "🌈"
+          "emoji": "🌈",
+          "image": "assets/vocab/vidriera.png"
         },
         {
           "es": "la escalera",
           "pt": "a escada",
-          "emoji": "🪜"
+          "emoji": "🪜",
+          "image": "assets/vocab/escalera.png"
         },
         {
           "es": "el techo",
           "pt": "o teto",
-          "emoji": "⛪"
+          "emoji": "⛪",
+          "image": "assets/vocab/techo.png"
         }
       ]
     },

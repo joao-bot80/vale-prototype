@@ -47,17 +47,20 @@
         {
           "es": "el coche",
           "pt": "o carro",
-          "emoji": "🚗"
+          "emoji": "🚗",
+          "image": "assets/vocab/coche.png"
         },
         {
           "es": "el carné de conducir",
           "pt": "a carteira de motorista",
-          "emoji": "🪪"
+          "emoji": "🪪",
+          "image": "assets/vocab/carne_de_conducir.png"
         },
         {
           "es": "el médico",
           "pt": "o médico",
-          "emoji": "🩺"
+          "emoji": "🩺",
+          "image": "assets/vocab/medico.png"
         },
         {
           "es": "la multa",

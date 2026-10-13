@@ -47,22 +47,26 @@
         {
           "es": "la entrada",
           "pt": "o ingresso",
-          "emoji": "🎟️"
+          "emoji": "🎟️",
+          "image": "assets/vocab/entrada.png"
         },
         {
           "es": "la fuente",
           "pt": "a fonte",
-          "emoji": "⛲"
+          "emoji": "⛲",
+          "image": "assets/vocab/fuente.png"
         },
         {
           "es": "el palacio",
           "pt": "o palácio",
-          "emoji": "🏰"
+          "emoji": "🏰",
+          "image": "assets/vocab/palacio.png"
         },
         {
           "es": "el azulejo",
           "pt": "o azulejo",
-          "emoji": "🟦"
+          "emoji": "🟦",
+          "image": "assets/vocab/azulejo.png"
         }
       ]
     },

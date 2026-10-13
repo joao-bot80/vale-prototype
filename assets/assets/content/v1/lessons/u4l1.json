@@ -47,12 +47,14 @@
         {
           "es": "el piso",
           "pt": "o apartamento",
-          "emoji": "🏢"
+          "emoji": "🏢",
+          "image": "assets/vocab/piso.png"
         },
         {
           "es": "el anuncio",
           "pt": "o anúncio",
-          "emoji": "📰"
+          "emoji": "📰",
+          "image": "assets/vocab/anuncio.png"
         },
         {
           "es": "el alquiler",
@@ -62,7 +64,8 @@
         {
           "es": "el ascensor",
           "pt": "o elevador",
-          "emoji": "🛗"
+          "emoji": "🛗",
+          "image": "assets/vocab/ascensor.png"
         }
       ]
     },

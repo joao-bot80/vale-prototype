@@ -47,22 +47,26 @@
         {
           "es": "la tumbona",
           "pt": "a espreguiçadeira",
-          "emoji": "🪑"
+          "emoji": "🪑",
+          "image": "assets/vocab/tumbona.png"
         },
         {
           "es": "el sombrero",
           "pt": "o chapéu",
-          "emoji": "👒"
+          "emoji": "👒",
+          "image": "assets/vocab/sombrero.png"
         },
         {
           "es": "la crema solar",
           "pt": "o protetor solar",
-          "emoji": "🧴"
+          "emoji": "🧴",
+          "image": "assets/vocab/crema_solar.png"
         },
         {
           "es": "las palas",
           "pt": "o frescobol",
-          "emoji": "🏓"
+          "emoji": "🏓",
+          "image": "assets/vocab/palas.png"
         }
       ]
     },

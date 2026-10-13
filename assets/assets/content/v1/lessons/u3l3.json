@@ -52,22 +52,26 @@
         {
           "es": "la barca",
           "pt": "o barquinho",
-          "emoji": "🛶"
+          "emoji": "🛶",
+          "image": "assets/vocab/barca.png"
         },
         {
           "es": "el árbol",
           "pt": "a árvore",
-          "emoji": "🌳"
+          "emoji": "🌳",
+          "image": "assets/vocab/arbol.png"
         },
         {
           "es": "el perro",
           "pt": "o cachorro",
-          "emoji": "🐕"
+          "emoji": "🐕",
+          "image": "assets/vocab/perro.png"
         },
         {
           "es": "la manta",
           "pt": "a manta / o cobertor",
-          "emoji": "🧺"
+          "emoji": "🧺",
+          "image": "assets/vocab/manta.png"
         }
       ]
     },

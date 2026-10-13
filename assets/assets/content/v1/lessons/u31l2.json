@@ -47,22 +47,26 @@
         {
           "es": "la catedral",
           "pt": "a catedral",
-          "emoji": "⛪"
+          "emoji": "⛪",
+          "image": "assets/vocab/catedral.png"
         },
         {
           "es": "el incienso",
           "pt": "o incenso",
-          "emoji": "💨"
+          "emoji": "💨",
+          "image": "assets/vocab/incienso.png"
         },
         {
           "es": "la cuerda",
           "pt": "a corda",
-          "emoji": "🪢"
+          "emoji": "🪢",
+          "image": "assets/vocab/cuerda.png"
         },
         {
           "es": "la plaza",
           "pt": "a praça",
-          "emoji": "⛲"
+          "emoji": "⛲",
+          "image": "assets/vocab/plaza.png"
         }
       ]
     },

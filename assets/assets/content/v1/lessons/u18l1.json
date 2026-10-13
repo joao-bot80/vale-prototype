@@ -47,17 +47,20 @@
         {
           "es": "el cuadro",
           "pt": "o quadro",
-          "emoji": "🖼️"
+          "emoji": "🖼️",
+          "image": "assets/vocab/cuadro.png"
         },
         {
           "es": "el pintor",
           "pt": "o pintor",
-          "emoji": "👨‍🎨"
+          "emoji": "👨‍🎨",
+          "image": "assets/vocab/pintor.png"
         },
         {
           "es": "el museo",
           "pt": "o museu",
-          "emoji": "🏛️"
+          "emoji": "🏛️",
+          "image": "assets/vocab/museo.png"
         },
         {
           "es": "la sala",

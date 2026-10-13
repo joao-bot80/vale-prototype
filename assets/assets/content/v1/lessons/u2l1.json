@@ -47,22 +47,26 @@
         {
           "es": "la caña",
           "pt": "o chope",
-          "emoji": "🍺"
+          "emoji": "🍺",
+          "image": "assets/vocab/cana.png"
         },
         {
           "es": "el vaso",
           "pt": "o copo",
-          "emoji": "🥛"
+          "emoji": "🥛",
+          "image": "assets/vocab/vaso.png"
         },
         {
           "es": "el hielo",
           "pt": "o gelo",
-          "emoji": "🧊"
+          "emoji": "🧊",
+          "image": "assets/vocab/hielo.png"
         },
         {
           "es": "el zumo",
           "pt": "o suco",
-          "emoji": "🧃"
+          "emoji": "🧃",
+          "image": "assets/vocab/zumo.png"
         },
         {
           "es": "el camarero",

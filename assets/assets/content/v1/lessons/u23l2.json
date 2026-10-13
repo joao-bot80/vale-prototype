@@ -47,22 +47,26 @@
         {
           "es": "las urgencias",
           "pt": "o pronto-socorro",
-          "emoji": "🏥"
+          "emoji": "🏥",
+          "image": "assets/vocab/urgencias.png"
         },
         {
           "es": "el tobillo",
           "pt": "o tornozelo",
-          "emoji": "🦶"
+          "emoji": "🦶",
+          "image": "assets/vocab/tobillo.png"
         },
         {
           "es": "la escayola",
           "pt": "o gesso",
-          "emoji": "🦴"
+          "emoji": "🦴",
+          "image": "assets/vocab/escayola.png"
         },
         {
           "es": "las muletas",
           "pt": "as muletas",
-          "emoji": "🩼"
+          "emoji": "🩼",
+          "image": "assets/vocab/muletas.png"
         }
       ]
     },

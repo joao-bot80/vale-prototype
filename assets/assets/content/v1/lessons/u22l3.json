@@ -47,7 +47,8 @@
         {
           "es": "el móvil",
           "pt": "o celular",
-          "emoji": "📱"
+          "emoji": "📱",
+          "image": "assets/vocab/movil.png"
         },
         {
           "es": "la tarifa",
@@ -57,12 +58,14 @@
         {
           "es": "el router",
           "pt": "o roteador",
-          "emoji": "📡"
+          "emoji": "📡",
+          "image": "assets/vocab/router.png"
         },
         {
           "es": "la funda",
           "pt": "a capinha",
-          "emoji": "📱"
+          "emoji": "📱",
+          "image": "assets/vocab/funda.png"
         }
       ]
     },

@@ -47,22 +47,26 @@
         {
           "es": "el peregrino",
           "pt": "o peregrino",
-          "emoji": "🚶"
+          "emoji": "🚶",
+          "image": "assets/vocab/peregrino.png"
         },
         {
           "es": "la mochila",
           "pt": "a mochila",
-          "emoji": "🎒"
+          "emoji": "🎒",
+          "image": "assets/vocab/mochila.png"
         },
         {
           "es": "la concha",
           "pt": "a concha",
-          "emoji": "🐚"
+          "emoji": "🐚",
+          "image": "assets/vocab/concha.png"
         },
         {
           "es": "las botas",
           "pt": "as botas",
-          "emoji": "🥾"
+          "emoji": "🥾",
+          "image": "assets/vocab/botas.png"
         }
       ]
     },

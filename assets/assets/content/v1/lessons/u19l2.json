@@ -47,22 +47,26 @@
         {
           "es": "los castellers",
           "pt": "as torres humanas",
-          "emoji": "🧍"
+          "emoji": "🧍",
+          "image": "assets/vocab/castellers.png"
         },
         {
           "es": "los fuegos artificiales",
           "pt": "os fogos de artifício",
-          "emoji": "🎆"
+          "emoji": "🎆",
+          "image": "assets/vocab/fuegos_artificiales.png"
         },
         {
           "es": "el gigante",
           "pt": "o gigante",
-          "emoji": "🗿"
+          "emoji": "🗿",
+          "image": "assets/vocab/gigante.png"
         },
         {
           "es": "el tambor",
           "pt": "o tambor",
-          "emoji": "🥁"
+          "emoji": "🥁",
+          "image": "assets/vocab/tambor.png"
         }
       ]
     },

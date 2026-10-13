@@ -47,7 +47,8 @@
         {
           "es": "el portátil",
           "pt": "o notebook",
-          "emoji": "💻"
+          "emoji": "💻",
+          "image": "assets/vocab/portatil.png"
         },
         {
           "es": "la cita previa",

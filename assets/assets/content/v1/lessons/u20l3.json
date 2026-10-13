@@ -47,22 +47,26 @@
         {
           "es": "la procesión",
           "pt": "a procissão",
-          "emoji": "🕯️"
+          "emoji": "🕯️",
+          "image": "assets/vocab/procesion.png"
         },
         {
           "es": "el paso",
           "pt": "o andor",
-          "emoji": "⛪"
+          "emoji": "⛪",
+          "image": "assets/vocab/paso.png"
         },
         {
           "es": "la vela",
           "pt": "a vela",
-          "emoji": "🕯️"
+          "emoji": "🕯️",
+          "image": "assets/vocab/vela.png"
         },
         {
           "es": "el tambor",
           "pt": "o tambor",
-          "emoji": "🥁"
+          "emoji": "🥁",
+          "image": "assets/vocab/tambor.png"
         }
       ]
     },

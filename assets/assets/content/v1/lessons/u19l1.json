@@ -47,22 +47,26 @@
         {
           "es": "la rosa",
           "pt": "a rosa",
-          "emoji": "🌹"
+          "emoji": "🌹",
+          "image": "assets/vocab/rosa.png"
         },
         {
           "es": "el libro",
           "pt": "o livro",
-          "emoji": "📕"
+          "emoji": "📕",
+          "image": "assets/vocab/libro.png"
         },
         {
           "es": "el dragón",
           "pt": "o dragão",
-          "emoji": "🐉"
+          "emoji": "🐉",
+          "image": "assets/vocab/dragon.png"
         },
         {
           "es": "la librería",
           "pt": "a livraria",
-          "emoji": "📚"
+          "emoji": "📚",
+          "image": "assets/vocab/libreria.png"
         }
       ]
     },

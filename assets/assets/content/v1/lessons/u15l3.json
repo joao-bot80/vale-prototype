@@ -47,17 +47,20 @@
         {
           "es": "la bici",
           "pt": "a bike",
-          "emoji": "🚲"
+          "emoji": "🚲",
+          "image": "assets/vocab/bici.png"
         },
         {
           "es": "el candado",
           "pt": "o cadeado",
-          "emoji": "🔒"
+          "emoji": "🔒",
+          "image": "assets/vocab/candado.png"
         },
         {
           "es": "el carril bici",
           "pt": "a ciclovia",
-          "emoji": "🛣️"
+          "emoji": "🛣️",
+          "image": "assets/vocab/carril_bici.png"
         },
         {
           "es": "alquilar",
@@ -67,7 +70,8 @@
         {
           "es": "la rueda",
           "pt": "a roda",
-          "emoji": "🛞"
+          "emoji": "🛞",
+          "image": "assets/vocab/rueda.png"
         }
       ]
     },

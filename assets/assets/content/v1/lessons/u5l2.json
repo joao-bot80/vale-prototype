@@ -47,27 +47,32 @@
         {
           "es": "la fresa",
           "pt": "o morango",
-          "emoji": "🍓"
+          "emoji": "🍓",
+          "image": "assets/vocab/fresa.png"
         },
         {
           "es": "el plátano",
           "pt": "a banana",
-          "emoji": "🍌"
+          "emoji": "🍌",
+          "image": "assets/vocab/platano.png"
         },
         {
           "es": "la piña",
           "pt": "o abacaxi",
-          "emoji": "🍍"
+          "emoji": "🍍",
+          "image": "assets/vocab/pina.png"
         },
         {
           "es": "el melocotón",
           "pt": "o pêssego",
-          "emoji": "🍑"
+          "emoji": "🍑",
+          "image": "assets/vocab/melocoton.png"
         },
         {
           "es": "la sandía",
           "pt": "a melancia",
-          "emoji": "🍉"
+          "emoji": "🍉",
+          "image": "assets/vocab/sandia.png"
         }
       ]
     },

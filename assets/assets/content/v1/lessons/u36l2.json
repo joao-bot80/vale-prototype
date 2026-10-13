@@ -47,22 +47,26 @@
         {
           "es": "el txakoli",
           "pt": "o txakoli (vinho basco)",
-          "emoji": "🥂"
+          "emoji": "🥂",
+          "image": "assets/vocab/txakoli.png"
         },
         {
           "es": "el rodaballo",
           "pt": "o pregado (peixe)",
-          "emoji": "🐟"
+          "emoji": "🐟",
+          "image": "assets/vocab/rodaballo.png"
         },
         {
           "es": "la parrilla",
           "pt": "a grelha",
-          "emoji": "🔥"
+          "emoji": "🔥",
+          "image": "assets/vocab/parrilla.png"
         },
         {
           "es": "el barco",
           "pt": "o barco",
-          "emoji": "⛵"
+          "emoji": "⛵",
+          "image": "assets/vocab/barco.png"
         }
       ]
     },

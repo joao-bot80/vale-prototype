@@ -52,12 +52,14 @@
         {
           "es": "la tarta",
           "pt": "o bolo",
-          "emoji": "🎂"
+          "emoji": "🎂",
+          "image": "assets/vocab/tarta.png"
         },
         {
           "es": "los globos",
           "pt": "as bexigas",
-          "emoji": "🎈"
+          "emoji": "🎈",
+          "image": "assets/vocab/globos.png"
         },
         {
           "es": "los invitados",
@@ -67,7 +69,8 @@
         {
           "es": "la servilleta",
           "pt": "o guardanapo",
-          "emoji": "🧻"
+          "emoji": "🧻",
+          "image": "assets/vocab/servilleta.png"
         }
       ]
     },

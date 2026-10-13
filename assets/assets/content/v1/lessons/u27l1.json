@@ -47,22 +47,26 @@
         {
           "es": "el tiburón",
           "pt": "o tubarão",
-          "emoji": "🦈"
+          "emoji": "🦈",
+          "image": "assets/vocab/tiburon.png"
         },
         {
           "es": "el delfín",
           "pt": "o golfinho",
-          "emoji": "🐬"
+          "emoji": "🐬",
+          "image": "assets/vocab/delfin.png"
         },
         {
           "es": "la medusa",
           "pt": "a água-viva",
-          "emoji": "🪼"
+          "emoji": "🪼",
+          "image": "assets/vocab/medusa.png"
         },
         {
           "es": "el pingüino",
           "pt": "o pinguim",
-          "emoji": "🐧"
+          "emoji": "🐧",
+          "image": "assets/vocab/pinguino.png"
         }
       ]
     },

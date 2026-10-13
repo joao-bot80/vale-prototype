@@ -47,17 +47,20 @@
         {
           "es": "la huella",
           "pt": "a digital",
-          "emoji": "👆"
+          "emoji": "👆",
+          "image": "assets/vocab/huella.png"
         },
         {
           "es": "el sobre",
           "pt": "o envelope",
-          "emoji": "✉️"
+          "emoji": "✉️",
+          "image": "assets/vocab/sobre.png"
         },
         {
           "es": "la foto",
           "pt": "a foto",
-          "emoji": "📷"
+          "emoji": "📷",
+          "image": "assets/vocab/foto.png"
         },
         {
           "es": "la cola",

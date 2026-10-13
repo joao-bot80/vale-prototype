@@ -47,22 +47,26 @@
         {
           "es": "el pincel",
           "pt": "o pincel",
-          "emoji": "🖌️"
+          "emoji": "🖌️",
+          "image": "assets/vocab/pincel.png"
         },
         {
           "es": "el dibujo",
           "pt": "o desenho",
-          "emoji": "✏️"
+          "emoji": "✏️",
+          "image": "assets/vocab/dibujo.png"
         },
         {
           "es": "el lienzo",
           "pt": "a tela (de pintura)",
-          "emoji": "🖼️"
+          "emoji": "🖼️",
+          "image": "assets/vocab/lienzo.png"
         },
         {
           "es": "la plaza",
           "pt": "a praça",
-          "emoji": "⛲"
+          "emoji": "⛲",
+          "image": "assets/vocab/plaza.png"
         }
       ]
     },

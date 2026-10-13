@@ -47,22 +47,26 @@
         {
           "es": "la butaca",
           "pt": "a poltrona",
-          "emoji": "💺"
+          "emoji": "💺",
+          "image": "assets/vocab/butaca.png"
         },
         {
           "es": "la película",
           "pt": "o filme",
-          "emoji": "🎬"
+          "emoji": "🎬",
+          "image": "assets/vocab/pelicula.png"
         },
         {
           "es": "las palomitas",
           "pt": "a pipoca",
-          "emoji": "🍿"
+          "emoji": "🍿",
+          "image": "assets/vocab/palomitas.png"
         },
         {
           "es": "la alfombra roja",
           "pt": "o tapete vermelho",
-          "emoji": "🟥"
+          "emoji": "🟥",
+          "image": "assets/vocab/alfombra_roja.png"
         }
       ]
     },

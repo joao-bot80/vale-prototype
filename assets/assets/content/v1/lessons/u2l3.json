@@ -57,12 +57,14 @@
         {
           "es": "la tarjeta",
           "pt": "o cartão",
-          "emoji": "💳"
+          "emoji": "💳",
+          "image": "assets/vocab/tarjeta.png"
         },
         {
           "es": "las monedas",
           "pt": "as moedas",
-          "emoji": "🪙"
+          "emoji": "🪙",
+          "image": "assets/vocab/monedas.png"
         }
       ]
     },

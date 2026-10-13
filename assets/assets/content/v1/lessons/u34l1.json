@@ -47,22 +47,26 @@
         {
           "es": "el pintxo",
           "pt": "o pintxo (petisco basco)",
-          "emoji": "🍢"
+          "emoji": "🍢",
+          "image": "assets/vocab/pintxo.png"
         },
         {
           "es": "el palillo",
           "pt": "o palito",
-          "emoji": "🥢"
+          "emoji": "🥢",
+          "image": "assets/vocab/palillo.png"
         },
         {
           "es": "la barra",
           "pt": "o balcão",
-          "emoji": "🍸"
+          "emoji": "🍸",
+          "image": "assets/vocab/barra.png"
         },
         {
           "es": "la servilleta",
           "pt": "o guardanapo",
-          "emoji": "🧻"
+          "emoji": "🧻",
+          "image": "assets/vocab/servilleta.png"
         }
       ]
     },

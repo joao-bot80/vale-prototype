@@ -47,22 +47,26 @@
         {
           "es": "el traje de flamenca",
           "pt": "o vestido de flamenca",
-          "emoji": "💃"
+          "emoji": "💃",
+          "image": "assets/vocab/traje_de_flamenca.png"
         },
         {
           "es": "el caballo",
           "pt": "o cavalo",
-          "emoji": "🐎"
+          "emoji": "🐎",
+          "image": "assets/vocab/caballo.png"
         },
         {
           "es": "el farolillo",
           "pt": "a lanterninha",
-          "emoji": "🏮"
+          "emoji": "🏮",
+          "image": "assets/vocab/farolillo.png"
         },
         {
           "es": "la caseta",
           "pt": "a barraca da feira",
-          "emoji": "🎪"
+          "emoji": "🎪",
+          "image": "assets/vocab/caseta.png"
         }
       ]
     },

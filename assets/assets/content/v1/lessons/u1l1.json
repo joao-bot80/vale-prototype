@@ -47,22 +47,26 @@
         {
           "es": "el vuelo",
           "pt": "o voo",
-          "emoji": "✈️"
+          "emoji": "✈️",
+          "image": "assets/vocab/vuelo.png"
         },
         {
           "es": "la maleta",
           "pt": "a mala (de viagem)",
-          "emoji": "🧳"
+          "emoji": "🧳",
+          "image": "assets/vocab/maleta.png"
         },
         {
           "es": "el equipaje",
           "pt": "a bagagem",
-          "emoji": "🛄"
+          "emoji": "🛄",
+          "image": "assets/vocab/equipaje.png"
         },
         {
           "es": "la puerta",
           "pt": "o portão / a porta",
-          "emoji": "🚪"
+          "emoji": "🚪",
+          "image": "assets/vocab/puerta.png"
         },
         {
           "es": "el retraso",

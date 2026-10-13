@@ -47,27 +47,32 @@
         {
           "es": "el paraguas",
           "pt": "o guarda-chuva",
-          "emoji": "☂️"
+          "emoji": "☂️",
+          "image": "assets/vocab/paraguas.png"
         },
         {
           "es": "la lluvia",
           "pt": "a chuva",
-          "emoji": "🌧️"
+          "emoji": "🌧️",
+          "image": "assets/vocab/lluvia.png"
         },
         {
           "es": "el chubasquero",
           "pt": "a capa de chuva",
-          "emoji": "🧥"
+          "emoji": "🧥",
+          "image": "assets/vocab/chubasquero.png"
         },
         {
           "es": "las botas de agua",
           "pt": "as galochas",
-          "emoji": "🥾"
+          "emoji": "🥾",
+          "image": "assets/vocab/botas_de_agua.png"
         },
         {
           "es": "el charco",
           "pt": "a poça",
-          "emoji": "💧"
+          "emoji": "💧",
+          "image": "assets/vocab/charco.png"
         }
       ]
     },

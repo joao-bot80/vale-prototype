@@ -47,7 +47,8 @@
         {
           "es": "la calle adornada",
           "pt": "a rua enfeitada",
-          "emoji": "🎊"
+          "emoji": "🎊",
+          "image": "assets/vocab/calle_adornada.png"
         },
         {
           "es": "el concierto",
@@ -57,7 +58,8 @@
         {
           "es": "el farolillo",
           "pt": "a lanterninha",
-          "emoji": "🏮"
+          "emoji": "🏮",
+          "image": "assets/vocab/farolillo.png"
         },
         {
           "es": "la verbena",

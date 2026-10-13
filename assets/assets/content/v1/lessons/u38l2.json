@@ -52,12 +52,14 @@
         {
           "es": "el plátano canario",
           "pt": "a banana das Canárias",
-          "emoji": "🍌"
+          "emoji": "🍌",
+          "image": "assets/vocab/platano_canario.png"
         },
         {
           "es": "la guagua",
           "pt": "o ônibus (Canárias)",
-          "emoji": "🚌"
+          "emoji": "🚌",
+          "image": "assets/vocab/guagua.png"
         },
         {
           "es": "el acento",

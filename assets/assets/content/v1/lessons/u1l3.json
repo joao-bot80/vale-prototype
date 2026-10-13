@@ -52,27 +52,32 @@
         {
           "es": "la llave",
           "pt": "a chave",
-          "emoji": "🔑"
+          "emoji": "🔑",
+          "image": "assets/vocab/llave.png"
         },
         {
           "es": "la habitación",
           "pt": "o quarto",
-          "emoji": "🛏️"
+          "emoji": "🛏️",
+          "image": "assets/vocab/habitacion.png"
         },
         {
           "es": "la almohada",
           "pt": "o travesseiro",
-          "emoji": "💤"
+          "emoji": "💤",
+          "image": "assets/vocab/almohada.png"
         },
         {
           "es": "la ducha",
           "pt": "o chuveiro",
-          "emoji": "🚿"
+          "emoji": "🚿",
+          "image": "assets/vocab/ducha.png"
         },
         {
           "es": "el ascensor",
           "pt": "o elevador",
-          "emoji": "🛗"
+          "emoji": "🛗",
+          "image": "assets/vocab/ascensor.png"
         }
       ]
     },

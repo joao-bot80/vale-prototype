@@ -47,22 +47,26 @@
         {
           "es": "la bahía",
           "pt": "a baía",
-          "emoji": "🏖️"
+          "emoji": "🏖️",
+          "image": "assets/vocab/bahia.png"
         },
         {
           "es": "la barandilla",
           "pt": "o corrimão / a grade",
-          "emoji": "🚧"
+          "emoji": "🚧",
+          "image": "assets/vocab/barandilla.png"
         },
         {
           "es": "el funicular",
           "pt": "o funicular",
-          "emoji": "🚞"
+          "emoji": "🚞",
+          "image": "assets/vocab/funicular.png"
         },
         {
           "es": "la isla",
           "pt": "a ilha",
-          "emoji": "🏝️"
+          "emoji": "🏝️",
+          "image": "assets/vocab/isla.png"
         }
       ]
     },

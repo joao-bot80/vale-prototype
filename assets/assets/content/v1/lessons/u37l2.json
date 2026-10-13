@@ -47,22 +47,26 @@
         {
           "es": "las papas arrugadas",
           "pt": "as batatas enrugadas",
-          "emoji": "🥔"
+          "emoji": "🥔",
+          "image": "assets/vocab/papas_arrugadas.png"
         },
         {
           "es": "el mojo",
           "pt": "o molho canário",
-          "emoji": "🥣"
+          "emoji": "🥣",
+          "image": "assets/vocab/mojo.png"
         },
         {
           "es": "la sal",
           "pt": "o sal",
-          "emoji": "🧂"
+          "emoji": "🧂",
+          "image": "assets/vocab/sal.png"
         },
         {
           "es": "el guachinche",
           "pt": "a taberna rústica",
-          "emoji": "🏠"
+          "emoji": "🏠",
+          "image": "assets/vocab/guachinche.png"
         }
       ]
     },

@@ -47,22 +47,26 @@
         {
           "es": "el colegio",
           "pt": "a escola",
-          "emoji": "🏫"
+          "emoji": "🏫",
+          "image": "assets/vocab/colegio.png"
         },
         {
           "es": "la mochila",
           "pt": "a mochila",
-          "emoji": "🎒"
+          "emoji": "🎒",
+          "image": "assets/vocab/mochila.png"
         },
         {
           "es": "el comedor",
           "pt": "o refeitório",
-          "emoji": "🍽️"
+          "emoji": "🍽️",
+          "image": "assets/vocab/comedor.png"
         },
         {
           "es": "el uniforme",
           "pt": "o uniforme",
-          "emoji": "👔"
+          "emoji": "👔",
+          "image": "assets/vocab/uniforme.png"
         }
       ]
     },

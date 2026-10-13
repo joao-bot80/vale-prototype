@@ -47,22 +47,26 @@
         {
           "es": "la guagua",
           "pt": "o ônibus (Canárias)",
-          "emoji": "🚌"
+          "emoji": "🚌",
+          "image": "assets/vocab/guagua.png"
         },
         {
           "es": "el balcón",
           "pt": "a sacada",
-          "emoji": "🪟"
+          "emoji": "🪟",
+          "image": "assets/vocab/balcon.png"
         },
         {
           "es": "la calle",
           "pt": "a rua",
-          "emoji": "🛣️"
+          "emoji": "🛣️",
+          "image": "assets/vocab/calle.png"
         },
         {
           "es": "el plano",
           "pt": "o mapa da cidade",
-          "emoji": "🗺️"
+          "emoji": "🗺️",
+          "image": "assets/vocab/plano.png"
         }
       ]
     },

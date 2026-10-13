@@ -47,22 +47,26 @@
         {
           "es": "el horno",
           "pt": "o forno",
-          "emoji": "🔥"
+          "emoji": "🔥",
+          "image": "assets/vocab/horno.png"
         },
         {
           "es": "el garbanzo",
           "pt": "o grão-de-bico",
-          "emoji": "🫘"
+          "emoji": "🫘",
+          "image": "assets/vocab/garbanzo.png"
         },
         {
           "es": "la cazuela",
           "pt": "a panela de barro",
-          "emoji": "🍲"
+          "emoji": "🍲",
+          "image": "assets/vocab/cazuela.png"
         },
         {
           "es": "la morcilla",
           "pt": "a morcela",
-          "emoji": "🌭"
+          "emoji": "🌭",
+          "image": "assets/vocab/morcilla.png"
         }
       ]
     },

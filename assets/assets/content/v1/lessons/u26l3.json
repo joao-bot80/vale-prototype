@@ -47,22 +47,26 @@
         {
           "es": "el puente",
           "pt": "a ponte",
-          "emoji": "🌉"
+          "emoji": "🌉",
+          "image": "assets/vocab/puente.png"
         },
         {
           "es": "el pueblo",
           "pt": "a cidadezinha",
-          "emoji": "🏘️"
+          "emoji": "🏘️",
+          "image": "assets/vocab/pueblo.png"
         },
         {
           "es": "la carretera",
           "pt": "a estrada",
-          "emoji": "🛣️"
+          "emoji": "🛣️",
+          "image": "assets/vocab/carretera.png"
         },
         {
           "es": "la gasolinera",
           "pt": "o posto de gasolina",
-          "emoji": "⛽"
+          "emoji": "⛽",
+          "image": "assets/vocab/gasolinera.png"
         }
       ]
     },

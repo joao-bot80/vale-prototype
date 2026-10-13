@@ -57,12 +57,14 @@
         {
           "es": "la terraza",
           "pt": "a mesa na calçada",
-          "emoji": "☀️"
+          "emoji": "☀️",
+          "image": "assets/vocab/terraza.png"
         },
         {
           "es": "el abanico",
           "pt": "o leque",
-          "emoji": "🪭"
+          "emoji": "🪭",
+          "image": "assets/vocab/abanico.png"
         }
       ]
     },

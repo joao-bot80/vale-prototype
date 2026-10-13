@@ -47,17 +47,20 @@
         {
           "es": "la maceta",
           "pt": "o vaso de planta",
-          "emoji": "🪴"
+          "emoji": "🪴",
+          "image": "assets/vocab/maceta.png"
         },
         {
           "es": "la flor",
           "pt": "a flor",
-          "emoji": "🌸"
+          "emoji": "🌸",
+          "image": "assets/vocab/flor.png"
         },
         {
           "es": "el pozo",
           "pt": "o poço",
-          "emoji": "🪣"
+          "emoji": "🪣",
+          "image": "assets/vocab/pozo.png"
         },
         {
           "es": "regar",

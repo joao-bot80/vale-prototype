@@ -47,27 +47,32 @@
         {
           "es": "la paella",
           "pt": "a paella",
-          "emoji": "🥘"
+          "emoji": "🥘",
+          "image": "assets/vocab/paella.png"
         },
         {
           "es": "el arroz",
           "pt": "o arroz",
-          "emoji": "🍚"
+          "emoji": "🍚",
+          "image": "assets/vocab/arroz.png"
         },
         {
           "es": "el pollo",
           "pt": "o frango",
-          "emoji": "🍗"
+          "emoji": "🍗",
+          "image": "assets/vocab/pollo.png"
         },
         {
           "es": "el conejo",
           "pt": "o coelho",
-          "emoji": "🐇"
+          "emoji": "🐇",
+          "image": "assets/vocab/conejo.png"
         },
         {
           "es": "la cuchara de palo",
           "pt": "a colher de pau",
-          "emoji": "🥄"
+          "emoji": "🥄",
+          "image": "assets/vocab/cuchara_de_palo.png"
         }
       ]
     },

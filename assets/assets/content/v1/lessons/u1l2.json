@@ -47,17 +47,20 @@
         {
           "es": "el andén",
           "pt": "a plataforma",
-          "emoji": "🚉"
+          "emoji": "🚉",
+          "image": "assets/vocab/anden.png"
         },
         {
           "es": "la salida",
           "pt": "a saída",
-          "emoji": "🚪"
+          "emoji": "🚪",
+          "image": "assets/vocab/salida.png"
         },
         {
           "es": "el billete",
           "pt": "a passagem",
-          "emoji": "🎫"
+          "emoji": "🎫",
+          "image": "assets/vocab/billete.png"
         },
         {
           "es": "la cola",
@@ -67,7 +70,8 @@
         {
           "es": "el tren",
           "pt": "o trem",
-          "emoji": "🚆"
+          "emoji": "🚆",
+          "image": "assets/vocab/tren.png"
         }
       ]
     },

@@ -47,22 +47,26 @@
         {
           "es": "el arco",
           "pt": "o arco",
-          "emoji": "🌙"
+          "emoji": "🌙",
+          "image": "assets/vocab/arco.png"
         },
         {
           "es": "la columna",
           "pt": "a coluna",
-          "emoji": "🏛️"
+          "emoji": "🏛️",
+          "image": "assets/vocab/columna.png"
         },
         {
           "es": "el patio",
           "pt": "o pátio",
-          "emoji": "🌿"
+          "emoji": "🌿",
+          "image": "assets/vocab/patio.png"
         },
         {
           "es": "la campana",
           "pt": "o sino",
-          "emoji": "🔔"
+          "emoji": "🔔",
+          "image": "assets/vocab/campana.png"
         }
       ]
     },

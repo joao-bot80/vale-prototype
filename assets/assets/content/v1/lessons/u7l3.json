@@ -47,27 +47,32 @@
         {
           "es": "la toalla",
           "pt": "a toalha",
-          "emoji": "🏖️"
+          "emoji": "🏖️",
+          "image": "assets/vocab/toalla.png"
         },
         {
           "es": "las chanclas",
           "pt": "os chinelos",
-          "emoji": "🩴"
+          "emoji": "🩴",
+          "image": "assets/vocab/chanclas.png"
         },
         {
           "es": "el bañador",
           "pt": "o maiô / a sunga",
-          "emoji": "🩱"
+          "emoji": "🩱",
+          "image": "assets/vocab/banador.png"
         },
         {
           "es": "la sombrilla",
           "pt": "o guarda-sol",
-          "emoji": "⛱️"
+          "emoji": "⛱️",
+          "image": "assets/vocab/sombrilla.png"
         },
         {
           "es": "la ola",
           "pt": "a onda",
-          "emoji": "🌊"
+          "emoji": "🌊",
+          "image": "assets/vocab/ola.png"
         }
       ]
     },

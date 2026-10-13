@@ -57,7 +57,8 @@
         {
           "es": "las llaves",
           "pt": "as chaves",
-          "emoji": "🔑"
+          "emoji": "🔑",
+          "image": "assets/vocab/llaves.png"
         },
         {
           "es": "el contrato",

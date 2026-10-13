@@ -47,7 +47,8 @@
         {
           "es": "la hoguera",
           "pt": "a fogueira",
-          "emoji": "🔥"
+          "emoji": "🔥",
+          "image": "assets/vocab/hoguera.png"
         },
         {
           "es": "la noche",
@@ -57,12 +58,14 @@
         {
           "es": "la playa",
           "pt": "a praia",
-          "emoji": "🏖️"
+          "emoji": "🏖️",
+          "image": "assets/vocab/playa.png"
         },
         {
           "es": "el cohete",
           "pt": "o rojão",
-          "emoji": "🚀"
+          "emoji": "🚀",
+          "image": "assets/vocab/cohete.png"
         }
       ]
     },

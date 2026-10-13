@@ -47,22 +47,26 @@
         {
           "es": "el vermut",
           "pt": "o vermute",
-          "emoji": "🍷"
+          "emoji": "🍷",
+          "image": "assets/vocab/vermut.png"
         },
         {
           "es": "las aceitunas",
           "pt": "as azeitonas",
-          "emoji": "🫒"
+          "emoji": "🫒",
+          "image": "assets/vocab/aceitunas.png"
         },
         {
           "es": "las patatas fritas",
           "pt": "as batatas chips",
-          "emoji": "🥔"
+          "emoji": "🥔",
+          "image": "assets/vocab/patatas_fritas.png"
         },
         {
           "es": "el sifón",
           "pt": "a soda",
-          "emoji": "🫧"
+          "emoji": "🫧",
+          "image": "assets/vocab/sifon.png"
         }
       ]
     },

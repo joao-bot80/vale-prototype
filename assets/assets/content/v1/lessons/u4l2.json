@@ -47,27 +47,32 @@
         {
           "es": "la ventana",
           "pt": "a janela",
-          "emoji": "🪟"
+          "emoji": "🪟",
+          "image": "assets/vocab/ventana.png"
         },
         {
           "es": "la nevera",
           "pt": "a geladeira",
-          "emoji": "🧊"
+          "emoji": "🧊",
+          "image": "assets/vocab/nevera.png"
         },
         {
           "es": "el grifo",
           "pt": "a torneira",
-          "emoji": "🚰"
+          "emoji": "🚰",
+          "image": "assets/vocab/grifo.png"
         },
         {
           "es": "el enchufe",
           "pt": "a tomada",
-          "emoji": "🔌"
+          "emoji": "🔌",
+          "image": "assets/vocab/enchufe.png"
         },
         {
           "es": "la lavadora",
           "pt": "a máquina de lavar",
-          "emoji": "🧺"
+          "emoji": "🧺",
+          "image": "assets/vocab/lavadora.png"
         }
       ]
     },

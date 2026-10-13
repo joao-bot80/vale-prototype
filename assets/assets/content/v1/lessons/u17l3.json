@@ -47,7 +47,8 @@
         {
           "es": "el Rey",
           "pt": "o Rei",
-          "emoji": "👑"
+          "emoji": "👑",
+          "image": "assets/vocab/rey.png"
         },
         {
           "es": "la Constitución",
@@ -57,7 +58,8 @@
         {
           "es": "la bandera",
           "pt": "a bandeira",
-          "emoji": "🇪🇸"
+          "emoji": "🇪🇸",
+          "image": "assets/vocab/bandera.png"
         },
         {
           "es": "el voto",

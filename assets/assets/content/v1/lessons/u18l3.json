@@ -47,27 +47,32 @@
         {
           "es": "el balón",
           "pt": "a bola",
-          "emoji": "⚽"
+          "emoji": "⚽",
+          "image": "assets/vocab/balon.png"
         },
         {
           "es": "el gol",
           "pt": "o gol",
-          "emoji": "🥅"
+          "emoji": "🥅",
+          "image": "assets/vocab/gol.png"
         },
         {
           "es": "el portero",
           "pt": "o goleiro",
-          "emoji": "🧤"
+          "emoji": "🧤",
+          "image": "assets/vocab/portero.png"
         },
         {
           "es": "el estadio",
           "pt": "o estádio",
-          "emoji": "🏟️"
+          "emoji": "🏟️",
+          "image": "assets/vocab/estadio.png"
         },
         {
           "es": "la camiseta",
           "pt": "a camisa do time",
-          "emoji": "👕"
+          "emoji": "👕",
+          "image": "assets/vocab/camiseta.png"
         }
       ]
     },

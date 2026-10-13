@@ -47,22 +47,26 @@
         {
           "es": "el gofio",
           "pt": "o gofio (farinha torrada)",
-          "emoji": "🌾"
+          "emoji": "🌾",
+          "image": "assets/vocab/gofio.png"
         },
         {
           "es": "la harina",
           "pt": "a farinha",
-          "emoji": "🌾"
+          "emoji": "🌾",
+          "image": "assets/vocab/harina.png"
         },
         {
           "es": "la miel",
           "pt": "o mel",
-          "emoji": "🍯"
+          "emoji": "🍯",
+          "image": "assets/vocab/miel.png"
         },
         {
           "es": "el plátano",
           "pt": "a banana",
-          "emoji": "🍌"
+          "emoji": "🍌",
+          "image": "assets/vocab/platano.png"
         }
       ]
     },

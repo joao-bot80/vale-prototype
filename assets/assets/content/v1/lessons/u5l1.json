@@ -47,27 +47,32 @@
         {
           "es": "la leche",
           "pt": "o leite",
-          "emoji": "🥛"
+          "emoji": "🥛",
+          "image": "assets/vocab/leche.png"
         },
         {
           "es": "los huevos",
           "pt": "os ovos",
-          "emoji": "🥚"
+          "emoji": "🥚",
+          "image": "assets/vocab/huevos.png"
         },
         {
           "es": "el aceite",
           "pt": "o azeite / óleo",
-          "emoji": "🫒"
+          "emoji": "🫒",
+          "image": "assets/vocab/aceite.png"
         },
         {
           "es": "la bolsa",
           "pt": "a sacola",
-          "emoji": "🛍️"
+          "emoji": "🛍️",
+          "image": "assets/vocab/bolsa.png"
         },
         {
           "es": "el carro",
           "pt": "o carrinho de compras",
-          "emoji": "🛒"
+          "emoji": "🛒",
+          "image": "assets/vocab/carro.png"
         }
       ]
     },

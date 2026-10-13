@@ -47,7 +47,8 @@
         {
           "es": "el ayuntamiento",
           "pt": "a prefeitura",
-          "emoji": "🏛️"
+          "emoji": "🏛️",
+          "image": "assets/vocab/ayuntamiento.png"
         },
         {
           "es": "la dirección",
@@ -57,12 +58,14 @@
         {
           "es": "el sello",
           "pt": "o carimbo",
-          "emoji": "🔖"
+          "emoji": "🔖",
+          "image": "assets/vocab/sello.png"
         },
         {
           "es": "la ventanilla",
           "pt": "o guichê",
-          "emoji": "🪟"
+          "emoji": "🪟",
+          "image": "assets/vocab/ventanilla.png"
         }
       ]
     },

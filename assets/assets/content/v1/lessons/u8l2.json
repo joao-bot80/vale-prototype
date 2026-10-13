@@ -47,22 +47,26 @@
         {
           "es": "la horchata",
           "pt": "a horchata",
-          "emoji": "🥛"
+          "emoji": "🥛",
+          "image": "assets/vocab/horchata.png"
         },
         {
           "es": "la pajita",
           "pt": "o canudo",
-          "emoji": "🥤"
+          "emoji": "🥤",
+          "image": "assets/vocab/pajita.png"
         },
         {
           "es": "el helado",
           "pt": "o sorvete",
-          "emoji": "🍦"
+          "emoji": "🍦",
+          "image": "assets/vocab/helado.png"
         },
         {
           "es": "la galleta",
           "pt": "o biscoito",
-          "emoji": "🍪"
+          "emoji": "🍪",
+          "image": "assets/vocab/galleta.png"
         }
       ]
     },

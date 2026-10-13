@@ -47,17 +47,20 @@
         {
           "es": "el ordenador",
           "pt": "o computador",
-          "emoji": "🖥️"
+          "emoji": "🖥️",
+          "image": "assets/vocab/ordenador.png"
         },
         {
           "es": "el ratón",
           "pt": "o mouse",
-          "emoji": "🖱️"
+          "emoji": "🖱️",
+          "image": "assets/vocab/raton.png"
         },
         {
           "es": "la pantalla",
           "pt": "a tela",
-          "emoji": "📺"
+          "emoji": "📺",
+          "image": "assets/vocab/pantalla.png"
         },
         {
           "es": "la reunión",

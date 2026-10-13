@@ -47,17 +47,20 @@
         {
           "es": "la calle",
           "pt": "a rua",
-          "emoji": "🛣️"
+          "emoji": "🛣️",
+          "image": "assets/vocab/calle.png"
         },
         {
           "es": "la acera",
           "pt": "a calçada",
-          "emoji": "🚶"
+          "emoji": "🚶",
+          "image": "assets/vocab/acera.png"
         },
         {
           "es": "el semáforo",
           "pt": "o semáforo",
-          "emoji": "🚦"
+          "emoji": "🚦",
+          "image": "assets/vocab/semaforo.png"
         },
         {
           "es": "a la izquierda",

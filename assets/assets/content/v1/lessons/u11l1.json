@@ -52,7 +52,8 @@
         {
           "es": "el cajero",
           "pt": "o caixa eletrônico",
-          "emoji": "🏧"
+          "emoji": "🏧",
+          "image": "assets/vocab/cajero.png"
         },
         {
           "es": "los ahorros",

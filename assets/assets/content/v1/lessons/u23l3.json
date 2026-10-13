@@ -47,17 +47,20 @@
         {
           "es": "la cartera",
           "pt": "a carteira",
-          "emoji": "👛"
+          "emoji": "👛",
+          "image": "assets/vocab/cartera.png"
         },
         {
           "es": "el ladrón",
           "pt": "o ladrão",
-          "emoji": "🦹"
+          "emoji": "🦹",
+          "image": "assets/vocab/ladron.png"
         },
         {
           "es": "la policía",
           "pt": "a polícia",
-          "emoji": "👮"
+          "emoji": "👮",
+          "image": "assets/vocab/policia.png"
         },
         {
           "es": "la denuncia",

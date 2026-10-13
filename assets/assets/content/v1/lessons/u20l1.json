@@ -47,7 +47,8 @@
         {
           "es": "la tapa",
           "pt": "o petisco",
-          "emoji": "🍢"
+          "emoji": "🍢",
+          "image": "assets/vocab/tapa.png"
         },
         {
           "es": "gratis",
@@ -57,12 +58,14 @@
         {
           "es": "la croqueta",
           "pt": "o croquete",
-          "emoji": "🥟"
+          "emoji": "🥟",
+          "image": "assets/vocab/croqueta.png"
         },
         {
           "es": "el vino",
           "pt": "o vinho",
-          "emoji": "🍷"
+          "emoji": "🍷",
+          "image": "assets/vocab/vino.png"
         }
       ]
     },

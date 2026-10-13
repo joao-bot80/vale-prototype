@@ -47,22 +47,26 @@
         {
           "es": "el calçot",
           "pt": "o calçot (cebolinha catalã)",
-          "emoji": "🧅"
+          "emoji": "🧅",
+          "image": "assets/vocab/cal_ot.png"
         },
         {
           "es": "la salsa romesco",
           "pt": "o molho romesco",
-          "emoji": "🥣"
+          "emoji": "🥣",
+          "image": "assets/vocab/salsa_romesco.png"
         },
         {
           "es": "el babero",
           "pt": "o babador",
-          "emoji": "🧒"
+          "emoji": "🧒",
+          "image": "assets/vocab/babero.png"
         },
         {
           "es": "las brasas",
           "pt": "as brasas",
-          "emoji": "🔥"
+          "emoji": "🔥",
+          "image": "assets/vocab/brasas.png"
         }
       ]
     },
