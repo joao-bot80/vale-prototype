@@ -20,8 +20,8 @@
         },
         {
           "speaker": "Lu",
-          "es": "¿Por eso dice \"pescaíto\" y no \"pescadito\"?",
-          "pt": "Por isso ele diz \"pescaíto\" e não \"pescadito\"?"
+          "es": "¿Por eso dice \"gracia\" y no \"gracias\"?",
+          "pt": "Por isso ele diz \"gracia\" e não \"gracias\"?"
         },
         {
           "speaker": "Dani",
@@ -56,7 +56,7 @@
         },
         {
           "es": "la terraza",
-          "pt": "a mesa na calçada",
+          "pt": "a área externa do bar (com mesas)",
           "emoji": "☀️",
           "image": "assets/vocab/terraza.png"
         },
@@ -121,8 +121,8 @@
         },
         {
           "speaker": "Lu",
-          "es": "¿Por eso dice \"pescaíto\" y no \"pescadito\"?",
-          "pt": "Por isso ele diz \"pescaíto\" e não \"pescadito\"?"
+          "es": "¿Por eso dice \"gracia\" y no \"gracias\"?",
+          "pt": "Por isso ele diz \"gracia\" e não \"gracias\"?"
         }
       ],
       "speaker": "Dani",
@@ -176,7 +176,7 @@
         "E muitos compram sapatos aqui."
       ],
       "correct": 0,
-      "explanation": "Isso é o seseo. No espanhol padrão, \"z\" soa como o \"th\" do inglês."
+      "explanation": "Isso é o seseo, correto e comum no sul. No centro e norte da Espanha, \"z\" (e \"c\" antes de e/i) soa como o \"th\" do inglês \"think\"."
     },
     {
       "type": "boss",

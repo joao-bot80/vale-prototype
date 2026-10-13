@@ -135,9 +135,9 @@
         },
         {
           "es": "reciclado",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "reciclado",
-          "tip": "Igual."
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "verbena",

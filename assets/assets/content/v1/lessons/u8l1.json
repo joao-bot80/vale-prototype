@@ -91,7 +91,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Qual você recomenda?",
+      "portuguese": "Qual você recomenda pra gente?",
       "answer": [
         "¿Cuál",
         "nos",
@@ -124,8 +124,8 @@
         {
           "es": "pimienta",
           "kind": "quase",
-          "meaning": "pimenta",
-          "tip": "Pimienta = pimenta."
+          "meaning": "pimenta-do-reino",
+          "tip": "Pimienta = pimenta-do-reino. A pimenta ardida é \"guindilla\"."
         },
         {
           "es": "grasa",

@@ -26,7 +26,7 @@
         {
           "speaker": "Lino",
           "es": "Sí, pero solo seis meses desde que eres residente. Después hay que hacer el canje.",
-          "pt": "Sim, mas só seis meses depois que você vira residente. Depois é preciso fazer a troca."
+          "pt": "Sim, mas só durante os primeiros seis meses depois que você vira residente. Depois é preciso fazer a troca."
         },
         {
           "speaker": "Lu",
@@ -105,12 +105,12 @@
       "prompt": "O que você ouviu?",
       "spanish": "Sí, pero solo seis meses desde que eres residente. Después hay que hacer el canje.",
       "options": [
-        "Sim, mas só seis meses depois que você vira residente. Depois é preciso fazer a troca.",
+        "Sim, mas só durante os primeiros seis meses depois que você vira residente. Depois é preciso fazer a troca.",
         "Sim, pode dirigir para sempre.",
         "Não, precisa tirar outra carteira já."
       ],
       "correct": 0,
-      "explanation": "A carteira estrangeira vale até 6 meses após a residência normal."
+      "explanation": "A carteira estrangeira vale só durante os primeiros 6 meses de residência normal; depois é preciso fazer o canje."
     },
     {
       "type": "swipe",
@@ -165,14 +165,14 @@
         }
       ],
       "speaker": "Lino",
-      "pt": "Sim, mas só seis meses depois que você vira residente. Depois é preciso fazer a troca.",
+      "pt": "Sim, mas só durante os primeiros seis meses depois que você vira residente. Depois é preciso fazer a troca.",
       "options": [
         "Para coche, no. Brasil tiene convenio con España.",
         "¿Tengo que hacer el examen otra vez?",
         "Sí, pero solo seis meses desde que eres residente. Después hay que hacer el canje."
       ],
       "correct": 2,
-      "explanation": "Lino diz: \"Sí, pero solo seis meses desde que eres residente. Después hay que hacer el canje.\" = \"Sim, mas só seis meses depois que você vira residente. Depois é preciso fazer a troca.\"."
+      "explanation": "Lino diz: \"Sí, pero solo seis meses desde que eres residente. Después hay que hacer el canje.\" = \"Sim, mas só durante os primeiros seis meses depois que você vira residente. Depois é preciso fazer a troca.\"."
     },
     {
       "type": "build",
@@ -187,7 +187,7 @@
         "carné."
       ],
       "distractors": [
-        "cambio",
+        "troca",
         "carteira"
       ],
       "explanation": "\"Canje\" é a palavra oficial da DGT."

@@ -30,8 +30,8 @@
         },
         {
           "speaker": "Lu",
-          "es": "¡Ya está! Tengo cita el martes a las nueve y media.",
-          "pt": "Pronto! Tenho horário na terça às nove e meia."
+          "es": "¡Ya está! Lo he intentado esta mañana y tengo cita el martes a las nueve y media.",
+          "pt": "Pronto! Tentei hoje cedo e tenho horário na terça às nove e meia."
         },
         {
           "speaker": "Lino",
@@ -128,7 +128,7 @@
       "speaker": "Lino",
       "pt": "Paciência. Tenta outro dia, logo cedo.",
       "options": [
-        "¡Ya está! Tengo cita el martes a las nueve y media.",
+        "¡Ya está! Lo he intentado esta mañana y tengo cita el martes a las nueve y media.",
         "Paciencia. Inténtalo otro día, a primera hora de la mañana.",
         "Perfecto. Y recuerda: la cita es gratis. Nunca pagues por ella."
       ],
@@ -167,9 +167,9 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "¡Ya está! Tengo cita el martes a las nueve y media.",
+      "spanish": "¡Ya está! Lo he intentado esta mañana y tengo cita el martes a las nueve y media.",
       "options": [
-        "Pronto! Tenho horário na terça às nove e meia.",
+        "Pronto! Tentei hoje cedo e tenho horário na terça às nove e meia.",
         "Já era! Perdi a cita de terça.",
         "Pronto! A cita é na quarta às nove."
       ],

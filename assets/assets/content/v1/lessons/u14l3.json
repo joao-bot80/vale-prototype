@@ -11,7 +11,7 @@
         {
           "speaker": "Dani",
           "es": "Esta noche vamos a un tablao flamenco.",
-          "pt": "Hoje à noite vamos a um tablado de flamenco."
+          "pt": "Hoje à noite vamos a uma casa de flamenco (um tablao)."
         },
         {
           "speaker": "Lu",
@@ -146,7 +146,7 @@
         "Fiquei com frio de verdade"
       ],
       "correct": 0,
-      "explanation": "Expressão igualzinha à do português!"
+      "explanation": "Literalmente \"pele de galinha\". Em português dizemos \"fiquei arrepiada\"."
     },
     {
       "type": "build",
@@ -161,7 +161,7 @@
       ],
       "distractors": [
         "adoré",
-        "canto"
+        "adorei"
       ],
       "explanation": "\"Me ha encantado\" = adorei."
     },

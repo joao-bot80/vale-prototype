@@ -91,7 +91,7 @@
         "catedral."
       ],
       "distractors": [
-        "visité",
+        "visitei",
         "tengo"
       ],
       "explanation": "Na Espanha, com \"hoy\" se usa muito \"he + particípio\"."
@@ -127,10 +127,10 @@
           "tip": "Mesma palavra, mesmo sentido."
         },
         {
-          "es": "hecho",
+          "es": "abierto",
           "kind": "quase",
-          "meaning": "feito",
-          "tip": "De \"hacer\"."
+          "meaning": "aberto",
+          "tip": "Abierto = aberto (de \"abrir\"): só ganha o \"i\"."
         },
         {
           "es": "dicho",

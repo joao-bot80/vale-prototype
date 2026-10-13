@@ -97,7 +97,7 @@
         "comer?"
       ],
       "distractors": [
-        "almorzar",
+        "almoço",
         "fazer"
       ],
       "explanation": "\"Antes de comer\" = antes do almoço."
@@ -136,7 +136,7 @@
           "es": "bodega",
           "kind": "armadilha",
           "meaning": "adega / bar",
-          "tip": "Bodega = adega ou bar antigo. Em português, bodega é um boteco sujo/coisa ruim."
+          "tip": "Bodega = adega ou bar de vinhos. Em português, bodega costuma ser boteco simples ou, na gíria, coisa ruim."
         },
         {
           "es": "aperitivo",
@@ -216,7 +216,7 @@
           "spanish": "Vamos a una bodega antigua.",
           "options": [
             "Vamos a um bar de vinho antigo.",
-            "Vamos a um armazém antigo."
+            "Vamos ver uma porcaria antiga."
           ],
           "correct": 0,
           "joke": "Bodega = adega/bar de vinho."

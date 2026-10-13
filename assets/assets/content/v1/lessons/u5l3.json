@@ -156,7 +156,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Vocês abrem no sábado?",
+      "portuguese": "Vocês abrem no sábado? (informal)",
       "answer": [
         "¿Abrís",
         "el",
@@ -166,7 +166,7 @@
         "abren",
         "sábados"
       ],
-      "explanation": "\"Abrís\" = vocês abrem (vosotros)."
+      "explanation": "\"Abrís\" = vocês abrem (vosotros). Com \"ustedes\" seria formal; aqui o tratamento é informal: vosotros."
     },
     {
       "type": "listening",

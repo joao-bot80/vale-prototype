@@ -146,7 +146,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "A empresa me deu de alta na Seguridad Social.",
+      "portuguese": "A empresa me inscreveu na Seguridad Social.",
       "answer": [
         "La",
         "empresa",
@@ -161,10 +161,10 @@
         "Social."
       ],
       "distractors": [
-        "registrado",
+        "inscreveu",
         "deu"
       ],
-      "explanation": "\"Dar de alta\" = registrar."
+      "explanation": "\"Dar de alta\" = inscrever, registrar (na Seguridad Social, num serviço)."
     },
     {
       "type": "listening",

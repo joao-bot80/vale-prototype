@@ -16,12 +16,12 @@
         {
           "speaker": "Lu",
           "es": "¿Las asan en esa barca llena de arena?",
-          "pt": "Elas assam naquele barco cheio de areia?"
+          "pt": "Eles assam as sardinhas naquele barco cheio de areia?"
         },
         {
           "speaker": "Dani",
           "es": "Sí, con leña, junto al mar. Se comen con las manos.",
-          "pt": "Sim, com lenha, junto ao mar. Se come com as mãos."
+          "pt": "Sim, com lenha, junto ao mar. São comidas com as mãos."
         },
         {
           "speaker": "Camarero",
@@ -85,7 +85,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Se come com as mãos.",
+      "portuguese": "As sardinhas são comidas com as mãos.",
       "answer": [
         "Se",
         "comen",
@@ -105,7 +105,7 @@
       "prompt": "O que você ouviu?",
       "spanish": "Sí, con leña, junto al mar. Se comen con las manos.",
       "options": [
-        "Sim, com lenha, junto ao mar. Se come com as mãos.",
+        "Sim, com lenha, junto ao mar. São comidas com as mãos.",
         "Não, no micro-ondas.",
         "Sim, mas com garfo e faca."
       ],
@@ -119,12 +119,12 @@
         {
           "speaker": "Lu",
           "es": "¿Las asan en esa barca llena de arena?",
-          "pt": "Elas assam naquele barco cheio de areia?"
+          "pt": "Eles assam as sardinhas naquele barco cheio de areia?"
         },
         {
           "speaker": "Dani",
           "es": "Sí, con leña, junto al mar. Se comen con las manos.",
-          "pt": "Sim, com lenha, junto ao mar. Se come com as mãos."
+          "pt": "Sim, com lenha, junto ao mar. São comidas com as mãos."
         }
       ],
       "speaker": "Camarero",
@@ -175,7 +175,7 @@
         "Não servimos peixe."
       ],
       "correct": 0,
-      "explanation": "Boquerones fritos ou en vinagre: clássicos de Málaga."
+      "explanation": "Boquerones (anchovas frescas) fritos ou marinados no vinagre: clássicos de Málaga."
     },
     {
       "type": "boss",

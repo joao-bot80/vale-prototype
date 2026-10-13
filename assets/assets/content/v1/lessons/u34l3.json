@@ -93,8 +93,8 @@
         "película?"
       ],
       "distractors": [
-        "filme",
-        "algún"
+        "algum",
+        "películas"
       ],
       "explanation": "Película = filme."
     },

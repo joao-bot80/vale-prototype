@@ -92,10 +92,10 @@
         "foto?"
       ],
       "distractors": [
-        "tirar",
-        "tiro"
+        "tiro",
+        "fotografia"
       ],
-      "explanation": "\"Tirar\" em espanhol é jogar fora!"
+      "explanation": "Na Espanha o mais comum é \"hacer una foto\" (também se ouve \"sacar\" ou \"tirar una foto\"). Cuidado: \"tirar\" é, antes de tudo, jogar fora!"
     },
     {
       "type": "listening",
@@ -123,9 +123,9 @@
         },
         {
           "es": "jarra",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "jarra",
-          "tip": "Una jarra de agua."
+          "tip": "Igualzinho! Una jarra de agua = uma jarra de água."
         },
         {
           "es": "regar",
@@ -140,10 +140,10 @@
           "tip": "Não é vassoura (escoba)!"
         },
         {
-          "es": "clavel",
+          "es": "patio",
           "kind": "quase",
-          "meaning": "cravo",
-          "tip": "Flor típica andaluza."
+          "meaning": "pátio",
+          "tip": "Patio = pátio (sem acento). Os pátios de Córdoba se enchem de flores em maio."
         }
       ]
     },

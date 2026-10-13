@@ -157,7 +157,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Vocês têm sacolas de papel?",
+      "portuguese": "Vocês têm sacolas de papel? (informal)",
       "answer": [
         "¿Tenéis",
         "bolsas",
@@ -168,7 +168,7 @@
         "sacolas",
         "tienen"
       ],
-      "explanation": "\"Bolsa\" = sacola. \"Tenéis\" = vocês têm."
+      "explanation": "\"Bolsa\" = sacola. \"Tenéis\" = vocês têm. Com \"ustedes\" seria formal; aqui o tratamento é informal: vosotros."
     },
     {
       "type": "listening",

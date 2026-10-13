@@ -58,7 +58,7 @@
         },
         {
           "es": "la pescadera",
-          "pt": "a peixeira",
+          "pt": "a vendedora de peixe",
           "emoji": "👩‍🍳",
           "image": "assets/vocab/pescadera.png"
         },
@@ -119,13 +119,13 @@
           "es": "bacalao",
           "kind": "quase",
           "meaning": "bacalhau",
-          "tip": "Bacalao al pil-pil."
+          "tip": "Bacalao al pil-pil = bacalhau ao pil-pil, o prato típico basco."
         },
         {
           "es": "desalar",
           "kind": "quase",
           "meaning": "dessalgar",
-          "tip": "Remojar para desalar."
+          "tip": "Deixar o bacalhau de molho para dessalgar."
         },
         {
           "es": "ligar",
@@ -134,10 +134,10 @@
           "tip": "Ligar = dar liga / paquerar. Em português, ligar é telefonar ou acender."
         },
         {
-          "es": "remojo",
-          "kind": "quase",
-          "meaning": "molho (de deixar na água)",
-          "tip": "Poner en remojo."
+          "es": "merluza",
+          "kind": "igual",
+          "meaning": "merluza",
+          "tip": "Mesma palavra, mesmo peixe."
         },
         {
           "es": "casco viejo",

@@ -125,13 +125,13 @@
           "es": "desierto",
           "kind": "quase",
           "meaning": "deserto",
-          "tip": "Con ie."
+          "tip": "Com \"ie\": desierto = deserto."
         },
         {
           "es": "oasis",
           "kind": "quase",
           "meaning": "oásis",
-          "tip": "Oasis de Maspalomas."
+          "tip": "Oasis = oásis, como o de Maspalomas."
         },
         {
           "es": "camello",
@@ -185,7 +185,7 @@
         "chinelos",
         "pon"
       ],
-      "explanation": "Ponerse."
+      "explanation": "Ponerse = pôr, calçar. Chanclas = chinelos."
     },
     {
       "type": "listening",
@@ -230,7 +230,7 @@
             "Traz as chances."
           ],
           "correct": 0,
-          "joke": "Chanclas."
+          "joke": "Chanclas = chinelos."
         },
         {
           "spanish": "Cierra ya la sombrilla.",
@@ -239,7 +239,7 @@
             "Fecha já a sombrinha de chuva."
           ],
           "correct": 0,
-          "joke": "Sombrilla."
+          "joke": "Sombrilla = guarda-sol."
         }
       ]
     },

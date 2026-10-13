@@ -137,15 +137,15 @@
         },
         {
           "es": "casa natal",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "casa onde nasceu",
-          "tip": "Natal ≠ Navidad!"
+          "tip": "Mesma expressão: casa natal = casa onde a pessoa nasceu. (Natal, a festa, é \"Navidad\".)"
         },
         {
           "es": "hacer falta",
           "kind": "armadilha",
           "meaning": "ser preciso",
-          "tip": "Hace falta = é preciso. Em português, fazer falta é sentir a ausência (\"echar de menos\")."
+          "tip": "Hace falta = é preciso. Em português, \"fazer falta\" é mais sentir a ausência (\"echar de menos\")."
         }
       ]
     },

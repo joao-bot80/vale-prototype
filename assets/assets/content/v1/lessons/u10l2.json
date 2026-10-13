@@ -26,7 +26,7 @@
         {
           "speaker": "Lu",
           "es": "Aquí está: fondo blanco, tamaño carné.",
-          "pt": "Aqui está: fundo branco, tamanho 3x4."
+          "pt": "Aqui está: fundo branco, tamanho de foto de documento (32 × 26 mm)."
         },
         {
           "speaker": "Policía",
@@ -95,7 +95,7 @@
         "tasa."
       ],
       "distractors": [
-        "comprobante",
+        "comprovante",
         "taxa"
       ],
       "explanation": "\"Justificante\" = comprovante."
@@ -125,10 +125,10 @@
           "tip": "Tasa = taxa. Taça é \"copa\"."
         },
         {
-          "es": "justificante",
+          "es": "formulario",
           "kind": "quase",
-          "meaning": "comprovante",
-          "tip": "Justificante = comprovante (documento que justifica). Justificativa é \"justificación\"."
+          "meaning": "formulário",
+          "tip": "Formulario = formulário (sem acento). O EX-17 é um formulario."
         },
         {
           "es": "caducado",
@@ -166,14 +166,14 @@
         }
       ],
       "speaker": "Lu",
-      "pt": "Aqui está: fundo branco, tamanho 3x4.",
+      "pt": "Aqui está: fundo branco, tamanho de foto de documento (32 × 26 mm).",
       "options": [
         "Muy bien. Ponga el dedo índice aquí. Ahora el otro.",
         "Aquí está: fondo blanco, tamaño carné.",
         "Listo. La tarjeta tarda unas semanas. Para recogerla, pida otra cita."
       ],
       "correct": 1,
-      "explanation": "Lu diz: \"Aquí está: fondo blanco, tamaño carné.\" = \"Aqui está: fundo branco, tamanho 3x4.\"."
+      "explanation": "Lu diz: \"Aquí está: fondo blanco, tamaño carné.\" = \"Aqui está: fundo branco, tamanho de foto de documento (32 × 26 mm).\"."
     },
     {
       "type": "build",

@@ -76,7 +76,7 @@
         "Salário líquido"
       ],
       "correct": 0,
-      "explanation": "Bruto - deducciones = líquido (neto)."
+      "explanation": "Salário bruto menos os descontos (\"deducciones\") = salário líquido (\"neto\")."
     },
     {
       "type": "build",
@@ -128,7 +128,7 @@
           "es": "deducción",
           "kind": "quase",
           "meaning": "desconto / dedução",
-          "tip": "Deducciones da nómina."
+          "tip": "Deducción = dedução, desconto no holerite (la nómina)."
         },
         {
           "es": "Hacienda",
@@ -254,7 +254,7 @@
           "emoji": "🧾",
           "title": "Cotização 2026",
           "es": "4,70 + 1,55 + 0,10 + 0,15",
-          "pt": "Com contrato indefinido, o trabalhador cotiza 6,50 % à Seguridad Social em 2026: contingências comuns 4,70 %, desemprego 1,55 %, formação 0,10 % e MEI 0,15 %. A empresa paga uma parte bem maior. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "Com contrato indefinido (regime geral, salário abaixo do teto de cotização, sem horas extras), o trabalhador cotiza 6,50 % à Seguridad Social em 2026: contingências comuns 4,70 %, desemprego 1,55 %, formação 0,10 % e MEI 0,15 %. A empresa paga uma parte bem maior. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "📋",

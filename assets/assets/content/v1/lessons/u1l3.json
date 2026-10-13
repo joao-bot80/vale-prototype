@@ -189,7 +189,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Vocês têm toalhas limpas?",
+      "portuguese": "Vocês têm toalhas limpas? (informal)",
       "answer": [
         "¿Tenéis",
         "toallas",
@@ -200,7 +200,7 @@
         "toalhas",
         "limpas"
       ],
-      "explanation": "\"Tenéis\" é o \"vocês têm\" do vosotros, bem espanhol."
+      "explanation": "\"Tenéis\" é o \"vocês têm\" do vosotros, bem espanhol. Com \"ustedes\" seria formal; aqui o tratamento é informal: vosotros."
     },
     {
       "type": "listening",

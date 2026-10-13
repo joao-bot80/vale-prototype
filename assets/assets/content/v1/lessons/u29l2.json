@@ -123,7 +123,7 @@
           "es": "reconocer",
           "kind": "quase",
           "meaning": "reconhecer",
-          "tip": "Reconozco."
+          "tip": "Reconozco = eu reconheço."
         },
         {
           "es": "extrañar",
@@ -182,7 +182,7 @@
       ],
       "distractors": [
         "saudade",
-        "extraño"
+        "sinto"
       ],
       "explanation": "Na Espanha: echar de menos."
     },

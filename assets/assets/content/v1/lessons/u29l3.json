@@ -15,8 +15,8 @@
         },
         {
           "speaker": "Lu",
-          "es": "Aquí está el TIE, el padrón, el contrato de trabajo y las nóminas.",
-          "pt": "Aqui está o TIE, o padrón, o contrato de trabalho e os holerites."
+          "es": "Aquí están la TIE, el padrón, el contrato de trabajo y las nóminas.",
+          "pt": "Aqui estão a TIE, o padrón, o contrato de trabalho e os holerites."
         },
         {
           "speaker": "Lino",
@@ -101,9 +101,9 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Aquí está el TIE, el padrón, el contrato de trabajo y las nóminas.",
+      "spanish": "Aquí están la TIE, el padrón, el contrato de trabajo y las nóminas.",
       "options": [
-        "Aqui está o TIE, o padrón, o contrato de trabalho e os holerites.",
+        "Aqui estão a TIE, o padrón, o contrato de trabalho e os holerites.",
         "Perdi todos os documentos.",
         "Só tenho o passaporte."
       ],
@@ -116,8 +116,8 @@
       "context": [
         {
           "speaker": "Lu",
-          "es": "Aquí está el TIE, el padrón, el contrato de trabajo y las nóminas.",
-          "pt": "Aqui está o TIE, o padrón, o contrato de trabalho e os holerites."
+          "es": "Aquí están la TIE, el padrón, el contrato de trabajo y las nóminas.",
+          "pt": "Aqui estão a TIE, o padrón, o contrato de trabalho e os holerites."
         },
         {
           "speaker": "Lino",
@@ -158,7 +158,7 @@
         "caducado."
       ],
       "distractors": [
-        "vencido",
+        "venceu",
         "caduco"
       ],
       "explanation": "\"Caducado\" = vencido."
@@ -209,10 +209,10 @@
           "joke": "Grapa = grampo."
         },
         {
-          "spanish": "Tengo el TIE caducado.",
+          "spanish": "Tengo la TIE caducada.",
           "options": [
-            "Estou com o TIE vencido.",
-            "Estou com o TIE caduco, velho."
+            "Estou com a TIE vencida.",
+            "Estou com a TIE caduca, velha."
           ],
           "correct": 0,
           "joke": "Caducado = vencido."

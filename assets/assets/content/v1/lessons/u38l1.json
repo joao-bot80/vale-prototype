@@ -163,7 +163,7 @@
         "fantasia",
         "usa"
       ],
-      "explanation": "Llevar = usar (roupa)."
+      "explanation": "Na Espanha, para roupa se diz \"llevar\". \"Usar\" para roupa soa latino-americano."
     },
     {
       "type": "listening",
@@ -176,7 +176,7 @@
         "Aqui o rei manda."
       ],
       "correct": 0,
-      "explanation": "Gala de la Reina."
+      "explanation": "É a Gala de la Reina: o concurso que elege a rainha do carnaval."
     },
     {
       "type": "boss",
@@ -190,7 +190,7 @@
             "Faço careta."
           ],
           "correct": 0,
-          "joke": "Careta."
+          "joke": "Careta = máscara."
         },
         {
           "spanish": "¡Qué disfraz tan bueno!",
@@ -199,7 +199,7 @@
             "Que disfarce de espião!"
           ],
           "correct": 0,
-          "joke": "Disfraz."
+          "joke": "Disfraz = fantasia."
         },
         {
           "spanish": "Es un traje precioso.",
@@ -208,7 +208,7 @@
             "É um trajeto lindo."
           ],
           "correct": 0,
-          "joke": "Traje."
+          "joke": "Traje = roupa, fantasia."
         },
         {
           "spanish": "Canta en una murga.",
@@ -217,7 +217,7 @@
             "Canta na igreja."
           ],
           "correct": 0,
-          "joke": "Murga."
+          "joke": "Murga = grupo de carnaval que canta sátiras."
         }
       ]
     },

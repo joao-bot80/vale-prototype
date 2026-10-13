@@ -96,7 +96,7 @@
       ],
       "distractors": [
         "avó",
-        "coloca"
+        "põe"
       ],
       "explanation": "Poner = pôr."
     },
@@ -199,7 +199,7 @@
             "É areia torrada."
           ],
           "correct": 0,
-          "joke": "Harina."
+          "joke": "Harina = farinha."
         },
         {
           "spanish": "Ese puesto vende queso.",
@@ -208,7 +208,7 @@
             "Esse posto vende queijo."
           ],
           "correct": 0,
-          "joke": "Puesto."
+          "joke": "Puesto = barraca, banca de mercado."
         },
         {
           "spanish": "Amasa el gofio.",
@@ -217,7 +217,7 @@
             "Amassa o carro."
           ],
           "correct": 0,
-          "joke": "Amasar."
+          "joke": "Amasar = amassar (a massa)."
         }
       ]
     },

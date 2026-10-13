@@ -20,8 +20,8 @@
         },
         {
           "speaker": "Lu",
-          "es": "La tarjeta del banco, el TIE y unos cincuenta euros.",
-          "pt": "O cartão do banco, o TIE e uns cinquenta euros."
+          "es": "La tarjeta del banco, la TIE y unos cincuenta euros.",
+          "pt": "O cartão do banco, a TIE e uns cinquenta euros."
         },
         {
           "speaker": "Policía",
@@ -35,8 +35,8 @@
         },
         {
           "speaker": "Policía",
-          "es": "Perfecto. La firma aquí y le doy una copia para pedir el TIE nuevo.",
-          "pt": "Perfeito. Assine aqui e te dou uma cópia para pedir o TIE novo."
+          "es": "Perfecto. La firma aquí y le doy una copia para pedir la TIE nueva.",
+          "pt": "Perfeito. Assine aqui e te dou uma cópia para pedir a nova TIE."
         }
       ]
     },
@@ -102,9 +102,9 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "La tarjeta del banco, el TIE y unos cincuenta euros.",
+      "spanish": "La tarjeta del banco, la TIE y unos cincuenta euros.",
       "options": [
-        "O cartão do banco, o TIE e uns cinquenta euros.",
+        "O cartão do banco, a TIE e uns cinquenta euros.",
         "Só o celular.",
         "O passaporte e mil euros."
       ],
@@ -144,7 +144,7 @@
           "es": "bloquear",
           "kind": "igual",
           "meaning": "bloquear",
-          "tip": "Bloquear la tarjeta."
+          "tip": "Bloquear la tarjeta = bloquear o cartão."
         }
       ]
     },
@@ -159,14 +159,14 @@
         },
         {
           "speaker": "Lu",
-          "es": "La tarjeta del banco, el TIE y unos cincuenta euros.",
-          "pt": "O cartão do banco, o TIE e uns cinquenta euros."
+          "es": "La tarjeta del banco, la TIE y unos cincuenta euros.",
+          "pt": "O cartão do banco, a TIE e uns cinquenta euros."
         }
       ],
       "speaker": "Policía",
       "pt": "Já bloqueou o cartão?",
       "options": [
-        "Perfecto. La firma aquí y le doy una copia para pedir el TIE nuevo.",
+        "Perfecto. La firma aquí y le doy una copia para pedir la TIE nueva.",
         "Sí, ayer. Y empecé la denuncia por internet. Aquí tiene el número de referencia.",
         "¿Ha bloqueado ya la tarjeta?"
       ],
@@ -194,14 +194,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Perfecto. La firma aquí y le doy una copia para pedir el TIE nuevo.",
+      "spanish": "Perfecto. La firma aquí y le doy una copia para pedir la TIE nueva.",
       "options": [
-        "Perfeito. Assine aqui e te dou uma cópia para pedir o TIE novo.",
+        "Perfeito. Assine aqui e te dou uma cópia para pedir a nova TIE.",
         "Volte em um mês.",
         "Não precisa assinar nada."
       ],
       "correct": 0,
-      "explanation": "A cópia da denúncia é pedida para renovar documentos."
+      "explanation": "A cópia da denúncia serve para pedir a segunda via dos documentos."
     },
     {
       "type": "boss",

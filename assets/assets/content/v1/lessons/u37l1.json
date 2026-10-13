@@ -107,7 +107,7 @@
         "Pode subir sem nada."
       ],
       "correct": 0,
-      "explanation": "Permissão gratuita para o cume."
+      "explanation": "Para o último trecho até o cume é preciso reserva no Tenerife ON. Desde 2026 há taxa para quem não mora em Tenerife."
     },
     {
       "type": "swipe",
@@ -115,16 +115,16 @@
       "passMark": 4,
       "cards": [
         {
-          "es": "lava solidificada",
+          "es": "volcán",
           "kind": "quase",
-          "meaning": "lava solidificada",
-          "tip": "Malpaís."
+          "meaning": "vulcão",
+          "tip": "Volcán = vulcão: o Teide é um volcán."
         },
         {
           "es": "cima",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "cume / topo",
-          "tip": "Cima = cume / topo (como \"em cima\")."
+          "tip": "Mesma palavra: cima = topo (como \"em cima\"); em espanhol, também o cume da montanha."
         },
         {
           "es": "lava",
@@ -255,7 +255,7 @@
           "emoji": "🌋",
           "title": "El Teide",
           "es": "El Teide mide 3.715 metros.",
-          "pt": "Vulcão de Tenerife, pico mais alto da Espanha (3.715 m). O Parque Nacional del Teide é Patrimônio Mundial da UNESCO desde 2007. Para o cume é preciso autorização gratuita."
+          "pt": "Vulcão de Tenerife, pico mais alto da Espanha (3.715 m). O Parque Nacional del Teide é Patrimônio Mundial da UNESCO desde 2007. Para o cume é preciso reserva no Tenerife ON; desde janeiro de 2026 há taxa em alguns horários para quem não mora em Tenerife (residentes da ilha e menores de 14 não pagam)."
         },
         {
           "emoji": "🗺️",

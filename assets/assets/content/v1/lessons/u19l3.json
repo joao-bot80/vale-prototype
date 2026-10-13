@@ -142,11 +142,11 @@
       "prompt": "\"Un zumo de naranja\" é:",
       "options": [
         "Um suco de laranja",
-        "Um sumo de laranja",
+        "Um sorvete de laranja",
         "Um doce de laranja"
       ],
       "correct": 0,
-      "explanation": "Na Espanha: zumo."
+      "explanation": "Na Espanha: zumo = suco."
     },
     {
       "type": "build",
@@ -204,10 +204,10 @@
           "spanish": "Un zumo natural.",
           "options": [
             "Um suco natural.",
-            "Um sumo da fruta concentrado."
+            "Um suco concentrado de caixinha."
           ],
           "correct": 0,
-          "joke": "Zumo = suco."
+          "joke": "Zumo natural = suco natural, feito na hora."
         },
         {
           "spanish": "¿Quién es el último?",

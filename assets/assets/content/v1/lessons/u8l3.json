@@ -137,9 +137,9 @@
         },
         {
           "es": "petardo",
-          "kind": "quase",
-          "meaning": "bombinha",
-          "tip": "Petardo também existe em português."
+          "kind": "igual",
+          "meaning": "petardo / bombinha",
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "morro",
@@ -262,7 +262,7 @@
           "emoji": "🔥",
           "title": "Falles",
           "es": "¡Vamos a ver las Fallas!",
-          "pt": "As Fallas vão até 19 de março (São José). Os bairros montam monumentos enormes de papelão e madeira, e na última noite tudo é queimado: la cremà. Em valenciano: \"falles\"."
+          "pt": "As Fallas vão até 19 de março (São José). Os bairros montam monumentos enormes de papelão e madeira, e na última noite tudo é queimado (la cremà), menos o \"ninot indultat\", salvo pelo voto do público. Em valenciano: \"falles\"."
         },
         {
           "emoji": "💐",

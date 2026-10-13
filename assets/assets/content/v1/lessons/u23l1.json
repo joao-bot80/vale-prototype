@@ -123,9 +123,9 @@
         },
         {
           "es": "sangrar",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "sangrar",
-          "tip": "Igual."
+          "tip": "Mesma palavra, mesmo sentido."
         },
         {
           "es": "herido",
@@ -137,13 +137,13 @@
           "es": "ambulancia",
           "kind": "quase",
           "meaning": "ambulância",
-          "tip": "Igual."
+          "tip": "Só muda o acento: ambulância."
         },
         {
           "es": "respirar",
           "kind": "igual",
           "meaning": "respirar",
-          "tip": "¿Respira?"
+          "tip": "¿Respira? = Está respirando?"
         }
       ]
     },

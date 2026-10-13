@@ -136,15 +136,15 @@
         },
         {
           "es": "barca",
-          "kind": "quase",
-          "meaning": "barco pequeno",
-          "tip": "Feminino em espanhol: la barca."
+          "kind": "igual",
+          "meaning": "barca (barco pequeno)",
+          "tip": "Mesma palavra, mesmo sentido: barca também existe em português."
         },
         {
           "es": "cachorro",
           "kind": "armadilha",
           "meaning": "filhote",
-          "tip": "Cachorro = filhote (de qualquer animal). O cachorro brasileiro (cão) é \"perro\"."
+          "tip": "Cachorro = filhote (de cão, gato, leão e outros mamíferos). O cachorro brasileiro (cão) é \"perro\"."
         },
         {
           "es": "borracha",
@@ -182,7 +182,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Vocês estão a fim de ir ao parque?",
+      "portuguese": "Vocês estão a fim de ir ao parque? (informal)",
       "answer": [
         "¿Os",
         "apetece",
@@ -194,7 +194,7 @@
         "Les",
         "apetecen"
       ],
-      "explanation": "\"¿Os apetece...?\" = vocês estão a fim de...? (vosotros)."
+      "explanation": "\"¿Os apetece...?\" = vocês estão a fim de...? (vosotros). Com \"ustedes\" seria formal; aqui o tratamento é informal: vosotros."
     },
     {
       "type": "listening",

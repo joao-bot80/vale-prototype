@@ -126,15 +126,15 @@
         },
         {
           "es": "celebrar",
-          "kind": "quase",
-          "meaning": "comemorar",
-          "tip": "Celebrar un logro."
+          "kind": "igual",
+          "meaning": "celebrar / comemorar",
+          "tip": "Igualzinho! Celebrar uma conquista."
         },
         {
           "es": "tarta",
           "kind": "armadilha",
           "meaning": "bolo (de aniversário)",
-          "tip": "Tarta = bolo. Em português, torta é a salgada ou de frutas (\"pastel salado\")."
+          "tip": "Tarta = bolo (de aniversário). Em português, torta costuma ser outro preparo, com massa e recheio, muitas vezes salgada."
         },
         {
           "es": "debate",

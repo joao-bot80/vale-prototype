@@ -76,10 +76,10 @@
       "options": [
         "el alquiler",
         "el aluguel",
-        "la renta"
+        "la locación"
       ],
       "correct": 0,
-      "explanation": "\"Alquiler\" = aluguel; \"alquilar\" = alugar. Na Espanha, \"renta\" costuma ser renda (ganhos)."
+      "explanation": "\"Alquiler\" = aluguel; \"alquilar\" = alugar. \"Locación\" é usado em partes da América Latina. Na Espanha, \"renta\" costuma ser renda (ganhos), mas em contratos também aparece como o valor do aluguel."
     },
     {
       "type": "build",
@@ -94,9 +94,9 @@
       ],
       "distractors": [
         "cuartos",
-        "apartamento"
+        "departamento"
       ],
-      "explanation": "Na Espanha, apartamento = \"piso\". \"Apartamento\" existe, mas costuma ser um piso pequeno."
+      "explanation": "Na Espanha, o apartamento comum é o \"piso\". \"Departamento\" é da América Latina."
     },
     {
       "type": "listening",
@@ -176,7 +176,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Vocês podem vir amanhã?",
+      "portuguese": "Vocês podem vir amanhã? (informal)",
       "answer": [
         "¿Podéis",
         "venir",
@@ -186,7 +186,7 @@
         "pueden",
         "vir"
       ],
-      "explanation": "\"Podéis\" = vocês podem (vosotros)."
+      "explanation": "\"Podéis\" = vocês podem (vosotros). Com \"ustedes\" seria formal; aqui o tratamento é informal: vosotros."
     },
     {
       "type": "listening",

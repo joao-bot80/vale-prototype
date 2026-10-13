@@ -102,7 +102,7 @@
       ],
       "distractors": [
         "bagaje",
-        "queda"
+        "fica"
       ],
       "explanation": "Bagagem = \"equipaje\". A esteira é \"la cinta de equipajes\"."
     },
@@ -184,7 +184,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Vocês são brasileiros?",
+      "portuguese": "Vocês são brasileiros? (informal)",
       "answer": [
         "¿Vosotros",
         "sois",
@@ -262,7 +262,7 @@
           "emoji": "🍺",
           "title": "El aperitivo: caña y tapa",
           "es": "Ponme una caña, por favor.",
-          "pt": "Antes do almoço ou à noite, o madrileño \"sale de cañas\": pede uma caña (um chope pequeno) e, em muitos bares, ganha uma tapa de cortesia, tipo azeitonas ou batatas. É o jeito mais madrileño de encontrar os amigos."
+          "pt": "Antes do almoço ou à noite, o madrilenho \"sale de cañas\": pede uma caña (um chope pequeno) e, em muitos bares, ganha uma tapa de cortesia, tipo azeitonas ou batatas. É o jeito mais madrilenho de encontrar os amigos."
         },
         {
           "emoji": "📍",

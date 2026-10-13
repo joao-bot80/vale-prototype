@@ -131,7 +131,7 @@
           "es": "hermandad",
           "kind": "quase",
           "meaning": "irmandade",
-          "tip": "Também cofradía."
+          "tip": "Hermandad = irmandade religiosa (também chamada \"cofradía\")."
         },
         {
           "es": "Semana Santa",
@@ -209,7 +209,7 @@
           "spanish": "¡No seas pesado!",
           "options": [
             "Não seja chato!",
-            "Não seja pesado!"
+            "Não fique mais pesado (não engorde)!"
           ],
           "correct": 0,
           "joke": "Pesado = chato."

@@ -124,7 +124,7 @@
           "es": "tradición",
           "kind": "quase",
           "meaning": "tradição",
-          "tip": "Es tradición."
+          "tip": "Es tradición = é tradição."
         },
         {
           "es": "purificar",
@@ -207,7 +207,7 @@
           "spanish": "Es de cartón.",
           "options": [
             "É de papelão.",
-            "É de cartão."
+            "É de cartão de crédito."
           ],
           "correct": 0,
           "joke": "Cartón = papelão."

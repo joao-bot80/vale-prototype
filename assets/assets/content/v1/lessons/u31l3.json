@@ -95,7 +95,7 @@
         "favor."
       ],
       "distractors": [
-        "porción",
+        "porção",
         "polvo"
       ],
       "explanation": "\"Ración\" = porção grande."
@@ -120,9 +120,9 @@
       "cards": [
         {
           "es": "percebe",
-          "kind": "quase",
-          "meaning": "percebe",
-          "tip": "Marisco das rochas."
+          "kind": "armadilha",
+          "meaning": "percebe (marisco das rochas)",
+          "tip": "Percebe = um marisco das rochas da Galícia. Em português, \"percebe\" é do verbo perceber."
         },
         {
           "es": "marisco",

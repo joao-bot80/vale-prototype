@@ -131,7 +131,7 @@
           "es": "marinero",
           "kind": "quase",
           "meaning": "marinheiro",
-          "tip": "Barco marinero."
+          "tip": "Marinero = marinheiro."
         },
         {
           "es": "pescador",
@@ -140,10 +140,10 @@
           "tip": "Igual!"
         },
         {
-          "es": "muelle",
+          "es": "polvo",
           "kind": "armadilha",
-          "meaning": "cais",
-          "tip": "Também mola!"
+          "meaning": "pó, poeira",
+          "tip": "Polvo = pó. O polvo (animal), tão típico de Vigo, é \"pulpo\"."
         }
       ]
     },

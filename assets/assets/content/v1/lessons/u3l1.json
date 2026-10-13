@@ -84,7 +84,7 @@
         "Sigue a la derecha"
       ],
       "correct": 0,
-      "explanation": "Na Espanha: \"todo recto\". \"Reto\" é português, e \"a la derecha\" = à direita. (Na América Latina também se ouve \"todo derecho\".)"
+      "explanation": "Na Espanha: \"todo recto\". Em espanhol, \"reto\" é outra palavra (= desafio); para dar direções é \"recto\". E \"a la derecha\" = à direita. (Na América Latina também se ouve \"todo derecho\".)"
     },
     {
       "type": "build",
@@ -184,7 +184,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Vocês sabem onde fica o museu?",
+      "portuguese": "Vocês sabem onde fica o museu? (informal)",
       "answer": [
         "¿Sabéis",
         "dónde",
@@ -196,7 +196,7 @@
         "saben",
         "fica"
       ],
-      "explanation": "\"Sabéis\" = vocês sabem (vosotros)."
+      "explanation": "\"Sabéis\" = vocês sabem (vosotros). Com \"ustedes\" seria formal; aqui o tratamento é informal: vosotros."
     },
     {
       "type": "listening",
@@ -269,7 +269,7 @@
           "emoji": "🗺️",
           "title": "Pedindo direções",
           "es": "Perdone, ¿me puede ayudar?",
-          "pt": "Com pessoas mais velhas, use \"usted\": perdone, ¿me puede...? Com jovens, \"tú\": perdona, ¿me puedes...? Os madrileños costumam ajudar com gosto."
+          "pt": "Com pessoas mais velhas, use \"usted\": perdone, ¿me puede...? Com jovens, \"tú\": perdona, ¿me puedes...? Os madrilenhos costumam ajudar com gosto."
         }
       ]
     }

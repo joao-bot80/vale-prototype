@@ -25,8 +25,8 @@
         },
         {
           "speaker": "Lu",
-          "es": "Seguir aprendiendo: Galicia, el País Vasco, Canarias... ¡España es enorme!",
-          "pt": "Continuar aprendendo: Galícia, País Basco, Canárias... A Espanha é enorme!"
+          "es": "Seguir aprendiendo y volver a Galicia, al País Vasco, a Canarias... ¡España es enorme!",
+          "pt": "Continuar aprendendo e voltar à Galícia, ao País Basco, às Canárias... A Espanha é enorme!"
         },
         {
           "speaker": "Lino",
@@ -92,7 +92,7 @@
       ],
       "distractors": [
         "volto",
-        "setiembre"
+        "setembro"
       ],
       "explanation": "\"Volver\": vuelvo."
     },
@@ -100,14 +100,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Seguir aprendiendo: Galicia, el País Vasco, Canarias... ¡España es enorme!",
+      "spanish": "Seguir aprendiendo y volver a Galicia, al País Vasco, a Canarias... ¡España es enorme!",
       "options": [
-        "Continuar aprendendo: Galícia, País Basco, Canárias... A Espanha é enorme!",
+        "Continuar aprendendo e voltar à Galícia, ao País Basco, às Canárias... A Espanha é enorme!",
         "Parar de estudar.",
         "Mudar para Portugal."
       ],
       "correct": 0,
-      "explanation": "As próximas regiões estão \"em breve\" no mapa."
+      "explanation": "Lu quer continuar estudando e voltar às regiões que já visitou."
     },
     {
       "type": "swipe",
@@ -162,14 +162,14 @@
         }
       ],
       "speaker": "Lu",
-      "pt": "Continuar aprendendo: Galícia, País Basco, Canárias... A Espanha é enorme!",
+      "pt": "Continuar aprendendo e voltar à Galícia, ao País Basco, às Canárias... A Espanha é enorme!",
       "options": [
         "Entonces no es un adiós.",
-        "Seguir aprendiendo: Galicia, el País Vasco, Canarias... ¡España es enorme!",
+        "Seguir aprendiendo y volver a Galicia, al País Vasco, a Canarias... ¡España es enorme!",
         "¡Claro que no! ¡Hasta pronto, Lino!"
       ],
       "correct": 1,
-      "explanation": "Lu diz: \"Seguir aprendiendo: Galicia, el País Vasco, Canarias... ¡España es enorme!\" = \"Continuar aprendendo: Galícia, País Basco, Canárias... A Espanha é enorme!\"."
+      "explanation": "Lu diz: \"Seguir aprendiendo y volver a Galicia, al País Vasco, a Canarias... ¡España es enorme!\" = \"Continuar aprendendo e voltar à Galícia, ao País Basco, às Canárias... A Espanha é enorme!\"."
     },
     {
       "type": "build",
@@ -249,9 +249,9 @@
       "items": [
         {
           "emoji": "🗺️",
-          "title": "Em breve",
+          "title": "De volta ao mapa",
           "es": "Galicia, País Vasco y Canarias.",
-          "pt": "As próximas paradas da Lu e do Lino aparecem no mapa como \"em breve\". Lá também há línguas cooficiais (galego, basco), que veremos só em notas culturais."
+          "pt": "Você já passou por Galícia, País Basco e Canárias com a Lu e o Lino. Lá também há línguas cooficiais (galego, basco), que aparecem nas notas culturais."
         },
         {
           "emoji": "🎓",

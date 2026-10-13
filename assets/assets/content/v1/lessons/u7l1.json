@@ -228,13 +228,13 @@
           "joke": "Salsa = molho."
         },
         {
-          "spanish": "Toca muy bien la guitarra.",
+          "spanish": "Toca muy bien la guitarra española.",
           "options": [
             "Toca violão muito bem.",
             "Toca guitarra elétrica muito bem."
           ],
           "correct": 0,
-          "joke": "Na Espanha, violão = guitarra (a elétrica é \"guitarra eléctrica\")."
+          "joke": "Guitarra española = violão. A elétrica é \"guitarra eléctrica\"."
         },
         {
           "spanish": "¿Quieres un refresco?",

@@ -94,7 +94,7 @@
       ],
       "distractors": [
         "fantasiado",
-        "está"
+        "estão"
       ],
       "explanation": "\"Ir disfrazado\" = estar fantasiado."
     },
@@ -196,10 +196,10 @@
           "spanish": "Es un chico muy gracioso.",
           "options": [
             "É um menino muito engraçado.",
-            "É um menino muito gracioso."
+            "É um menino muito delicado e elegante."
           ],
           "correct": 0,
-          "joke": "Gracioso = engraçado."
+          "joke": "Gracioso = engraçado. Em português, gracioso é mais \"delicado, elegante\"."
         },
         {
           "spanish": "Llevo una peluca rosa.",
@@ -230,7 +230,7 @@
           "emoji": "🎭",
           "title": "Carnaval de Cádiz",
           "es": "¡Viva el Carnaval de Cádiz!",
-          "pt": "Um dos carnavais mais famosos da Espanha, em fevereiro. Grupos (chirigotas, comparsas, coros) competem no Gran Teatro Falla e depois cantam nas ruas."
+          "pt": "Um dos carnavais mais famosos da Espanha, em fevereiro ou março (depende do ano). Grupos (chirigotas, comparsas, coros) competem no Gran Teatro Falla e depois cantam nas ruas."
         },
         {
           "emoji": "🗣️",

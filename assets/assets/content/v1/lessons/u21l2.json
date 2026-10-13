@@ -52,7 +52,7 @@
         },
         {
           "es": "el atardecer",
-          "pt": "o pôr do sol",
+          "pt": "o entardecer (fim de tarde)",
           "emoji": "🌅",
           "image": "assets/vocab/atardecer.png"
         },
@@ -127,14 +127,14 @@
         {
           "es": "embarcadero",
           "kind": "quase",
-          "meaning": "cais",
-          "tip": "Salimos del embarcadero."
+          "meaning": "embarcadouro, cais",
+          "tip": "Embarcadero = embarcadouro, cais: \"salimos del embarcadero\" = saímos do cais."
         },
         {
           "es": "atardecer",
           "kind": "quase",
           "meaning": "entardecer",
-          "tip": "Al atardecer."
+          "tip": "Al atardecer = ao entardecer."
         },
         {
           "es": "pato",
@@ -200,7 +200,7 @@
         "É uma salada de peixe."
       ],
       "correct": 0,
-      "explanation": "All i pebre = alho e pimentão em valenciano."
+      "explanation": "All i pebre = \"alho e pimenta\" em valenciano; o ensopado leva páprica (pimentón)."
     },
     {
       "type": "boss",
@@ -260,7 +260,7 @@
           "emoji": "🍲",
           "title": "All i pebre",
           "es": "Un plato de all i pebre.",
-          "pt": "Ensopado de enguia com alho, pimentão e batata, típico do povoado de El Palmar. O nome é valenciano: alho e pimenta."
+          "pt": "Ensopado de enguia com alho, páprica (pimentón) e batata, típico do povoado de El Palmar. O nome é valenciano: alho e pimenta."
         }
       ]
     }

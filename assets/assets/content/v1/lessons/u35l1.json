@@ -136,16 +136,16 @@
           "tip": "Mesma palavra, mesmo sentido."
         },
         {
-          "es": "escultura gigante",
-          "kind": "quase",
-          "meaning": "escultura gigante",
-          "tip": "Puppy."
+          "es": "escultura",
+          "kind": "igual",
+          "meaning": "escultura",
+          "tip": "Igual! Como o Puppy, a escultura gigante de flores."
         },
         {
           "es": "chapa",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "chapa / placa de metal",
-          "tip": "Chapa = chapa / placa de metal, e também tampinha."
+          "tip": "Mesma palavra: chapa de metal (e também tampinha)."
         }
       ]
     },
@@ -187,7 +187,7 @@
         "ciudad."
       ],
       "distractors": [
-        "mudó",
+        "trocou",
         "cidade"
       ],
       "explanation": "\"Cambiar\" = mudar."

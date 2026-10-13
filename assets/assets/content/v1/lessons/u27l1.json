@@ -132,13 +132,13 @@
           "es": "delfín",
           "kind": "quase",
           "meaning": "golfinho",
-          "tip": "Não é delfim!"
+          "tip": "Delfín = golfinho. (\"Delfim\" existe em português, mas quase não se usa.)"
         },
         {
-          "es": "medusa gigante",
-          "kind": "quase",
-          "meaning": "água-viva gigante",
-          "tip": "Medusa = água-viva."
+          "es": "medusa",
+          "kind": "igual",
+          "meaning": "medusa / água-viva",
+          "tip": "Medusa também existe em português, mas no Brasil se diz mais água-viva."
         },
         {
           "es": "falda",
@@ -176,7 +176,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Sai mais barato.",
+      "portuguese": "O bilhete sai mais barato.",
       "answer": [
         "Sale",
         "más",
@@ -228,7 +228,7 @@
           "spanish": "Los delfines saltan.",
           "options": [
             "Os golfinhos pulam.",
-            "Os delfins pulam."
+            "Os peixes-boi pulam."
           ],
           "correct": 0,
           "joke": "Delfín = golfinho."

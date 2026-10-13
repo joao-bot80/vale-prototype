@@ -137,13 +137,13 @@
           "es": "recto",
           "kind": "quase",
           "meaning": "reto",
-          "tip": "Calle recta."
+          "tip": "Calle recta = rua reta."
         },
         {
           "es": "casona",
           "kind": "quase",
           "meaning": "casarão",
-          "tip": "Casona colonial."
+          "tip": "Casona colonial = casarão colonial."
         }
       ]
     },
@@ -213,7 +213,7 @@
             "Pega o bebê."
           ],
           "correct": 0,
-          "joke": "Guagua."
+          "joke": "Guagua = ônibus, nas Canárias."
         },
         {
           "spanish": "Pide un plano.",
@@ -231,7 +231,7 @@
             "Fale com o fio."
           ],
           "correct": 0,
-          "joke": "Conductor."
+          "joke": "Conductor = motorista."
         },
         {
           "spanish": "Saca un bono.",
@@ -240,7 +240,7 @@
             "Tire um bônus."
           ],
           "correct": 0,
-          "joke": "Bono."
+          "joke": "Bono = passe de transporte."
         }
       ]
     },

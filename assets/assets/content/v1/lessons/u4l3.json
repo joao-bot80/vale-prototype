@@ -46,7 +46,7 @@
       "words": [
         {
           "es": "la fianza",
-          "pt": "o caução",
+          "pt": "a caução",
           "emoji": "💰"
         },
         {
@@ -74,10 +74,10 @@
       "options": [
         "firmar",
         "asinar",
-        "signar"
+        "assinar"
       ],
       "correct": 0,
-      "explanation": "\"Firmar\" = assinar; \"la firma\" = a assinatura."
+      "explanation": "\"Firmar\" = assinar; \"la firma\" = a assinatura. \"Asinar\" e \"assinar\" não existem em espanhol."
     },
     {
       "type": "build",
@@ -174,7 +174,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Vocês aceitam pagamento por transferência?",
+      "portuguese": "Vocês aceitam pagamento por transferência? (informal)",
       "answer": [
         "¿Aceptáis",
         "pago",
@@ -185,7 +185,7 @@
         "aceptan",
         "pagamento"
       ],
-      "explanation": "\"Aceptáis\" = vocês aceitam (vosotros)."
+      "explanation": "\"Aceptáis\" = vocês aceitam (vosotros). Com \"ustedes\" seria formal; aqui o tratamento é informal: vosotros."
     },
     {
       "type": "listening",
@@ -215,10 +215,10 @@
           "joke": "Firma = assinatura. A empresa é \"empresa\"."
         },
         {
-          "spanish": "Mi renta anual es baja.",
+          "spanish": "Gano poco: mi renta anual es baja.",
           "options": [
-            "Minha renda anual é baixa.",
-            "Meu aluguel anual é baixo."
+            "Ganho pouco: minha renda anual é baixa.",
+            "Ganho pouco: meu aluguel anual é baixo."
           ],
           "correct": 0,
           "joke": "Renta = renda (ganhos). Aluguel é \"alquiler\". E a declaração de IR é \"la declaración de la renta\"."
@@ -252,7 +252,7 @@
           "emoji": "📝",
           "title": "NIE, nómina e fianza",
           "es": "¿Me enseñas tu NIE?",
-          "pt": "Para alugar costumam pedir NIE, contrato de trabalho ou nóminas e uma \"fianza\" (caução): por lei é 1 mês de aluguel, e na Catalunha o proprietário deve depositá-la no INCASÒL. O proprietário pode pedir uma garantia adicional de no máximo 2 meses. Desde a Lei de Moradia de 2023, os honorários da imobiliária devem ser pagos pelo proprietário, não pelo inquilino."
+          "pt": "Para alugar costumam pedir NIE, contrato de trabalho ou nóminas e uma \"fianza\" (caução): por lei é 1 mês de aluguel, e na Catalunha o proprietário deve depositá-la no INCASÒL. Em contratos de moradia de até 5 anos (7 se o proprietário for empresa), a garantia adicional é de no máximo 2 meses. Desde a Lei de Moradia de 2023, os honorários da imobiliária devem ser pagos pelo proprietário, não pelo inquilino."
         },
         {
           "emoji": "🎉",

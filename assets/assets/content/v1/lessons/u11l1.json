@@ -117,14 +117,14 @@
         {
           "es": "hipoteca",
           "kind": "igual",
-          "meaning": "financiamento imobiliário",
-          "tip": "Mesma palavra, mesmo sentido."
+          "meaning": "hipoteca / financiamento imobiliário",
+          "tip": "Mesma palavra: na Espanha, \"hipoteca\" é também o próprio financiamento da casa."
         },
         {
           "es": "sucursal",
-          "kind": "quase",
-          "meaning": "agência bancária",
-          "tip": "Sucursal = agência/filial."
+          "kind": "igual",
+          "meaning": "sucursal / agência",
+          "tip": "Mesma palavra, mesmo sentido: sucursal = filial, agência."
         },
         {
           "es": "interés",
@@ -198,7 +198,7 @@
         "Sim, mas esqueci o certificado."
       ],
       "correct": 0,
-      "explanation": "Com NIE você pode abrir conta de residente; sem ele, alguns bancos oferecem conta de não residente."
+      "explanation": "Para conta de residente, o banco costuma pedir NIE/TIE e comprovação de residência (como o empadronamiento). Sem isso, alguns bancos oferecem conta de não residente."
     },
     {
       "type": "boss",
@@ -233,13 +233,13 @@
           "joke": "Préstamo = empréstimo."
         },
         {
-          "spanish": "Me ha llegado el recibo del agua.",
+          "spanish": "Tengo que pagar el recibo del agua.",
           "options": [
-            "Chegou a conta de água.",
-            "Chegou o recibo de pagamento da água."
+            "Tenho que pagar a conta de água.",
+            "Tenho que pagar o comprovante da água."
           ],
           "correct": 0,
-          "joke": "Recibo = conta a pagar."
+          "joke": "Recibo da luz/água = a conta a pagar. (Recibo também pode ser comprovante, mas aqui é cobrança.)"
         }
       ]
     },

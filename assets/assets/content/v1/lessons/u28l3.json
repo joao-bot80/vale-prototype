@@ -36,7 +36,7 @@
         {
           "speaker": "Lu",
           "es": "Genial. Le pregunto qué le apetece.",
-          "pt": "Ótimo. Vou perguntar o que ela está a fim."
+          "pt": "Ótimo. Vou perguntar o que ela está a fim de fazer."
         }
       ]
     },
@@ -181,7 +181,7 @@
           "spanish": "Termina los deberes.",
           "options": [
             "Termina a lição de casa.",
-            "Cumpra seus deveres."
+            "Cumpra suas obrigações."
           ],
           "correct": 0,
           "joke": "Deberes = lição de casa."

@@ -35,8 +35,8 @@
         },
         {
           "speaker": "Dani",
-          "es": "¡Que hable, que hable! ¡Por Lu!",
-          "pt": "Discurso, discurso! À Lu!"
+          "es": "¡Bravo, bravo! ¡Por Lu!",
+          "pt": "Bravo, bravo! À Lu!"
         }
       ]
     },
@@ -93,7 +93,7 @@
       ],
       "distractors": [
         "agradezer",
-        "dar"
+        "agradezco"
       ],
       "explanation": "\"Daros\" = dar a vocês."
     },
@@ -130,7 +130,7 @@
       "options": [
         "Ha sido un placer. ¡Eres una alumna estupenda!",
         "Gracias, Lino, por tu paciencia infinita.",
-        "¡Que hable, que hable! ¡Por Lu!"
+        "¡Bravo, bravo! ¡Por Lu!"
       ],
       "correct": 1,
       "explanation": "Lu diz: \"Gracias, Lino, por tu paciencia infinita.\" = \"Obrigada, Lino, pela sua paciência infinita.\"."
@@ -234,7 +234,7 @@
           "emoji": "🎓",
           "title": "Seu nível",
           "es": "Del A1 al B1.",
-          "pt": "Depois de 30 unidades você tem vocabulário de sobrevivência e do dia a dia. Para provar seu nível oficialmente, existem os exames DELE do Instituto Cervantes."
+          "pt": "Depois de 39 unidades você tem vocabulário de sobrevivência e do dia a dia. Para provar seu nível oficialmente, existem os exames DELE do Instituto Cervantes."
         }
       ]
     }

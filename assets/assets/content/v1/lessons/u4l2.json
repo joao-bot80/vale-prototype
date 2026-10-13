@@ -11,7 +11,7 @@
         {
           "speaker": "Marta",
           "es": "¡Bon dia! Pasa, pasa. Este es el salón-comedor.",
-          "pt": "Bom dia! Entra, entra. Esta é a sala de estar e jantar."
+          "pt": "Bom dia (em catalão)! Entra, entra. Esta é a sala de estar e jantar."
         },
         {
           "speaker": "Lu",
@@ -166,7 +166,7 @@
       ],
       "distractors": [
         "Gusto",
-        "apartamento"
+        "departamento"
       ],
       "explanation": "\"Me encanta\" = adoro, amo. Funciona como \"gustar\"."
     },
@@ -201,7 +201,7 @@
           "spanish": "Enciende la estufa, que hace frío.",
           "options": [
             "Liga o aquecedor, que está frio.",
-            "Liga a estufa, que está frio."
+            "Liga a estufa de plantas, que está frio."
           ],
           "correct": 0,
           "joke": "Estufa = aquecedor. A estufa de plantas é \"invernadero\"."
@@ -213,7 +213,7 @@
             "Levo o carro no talher."
           ],
           "correct": 0,
-          "joke": "Taller = oficina mecânica. E oficina = escritório. Confuso? ¡Bienvenida!"
+          "joke": "Taller = oficina mecânica. E oficina = escritório. Confuso? Bem-vinda à Espanha!"
         },
         {
           "spanish": "Este colchón es muy cómodo.",

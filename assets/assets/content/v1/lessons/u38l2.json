@@ -73,12 +73,12 @@
       "title": "Escolha a resposta",
       "prompt": "\"Seseo\" é:",
       "options": [
-        "Pronunciar z/c como s",
+        "Pronunciar z (e c antes de e/i) como s",
         "Falar baixinho",
         "Gaguejar"
       ],
       "correct": 0,
-      "explanation": "Comum em Canárias, Andaluzia e América."
+      "explanation": "Comum em Canárias, Andaluzia e América. O c de \"casa\" não muda."
     },
     {
       "type": "build",
@@ -127,15 +127,15 @@
         },
         {
           "es": "pronunciar",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "pronunciar",
-          "tip": "Pronuncia bien."
+          "tip": "Mesma palavra, mesmo sentido: pronuncia bien = pronuncia bem."
         },
         {
           "es": "dejo",
           "kind": "armadilha",
           "meaning": "sotaque leve / entonação",
-          "tip": "Dejo = sotaque leve. Soa como \"deixo\" (de deixar)."
+          "tip": "Dejo = sotaque leve. Na escrita lembra \"deixo\" (de deixar), mas não tem nada a ver."
         },
         {
           "es": "cacho",
@@ -173,18 +173,19 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Não pronunciam o z.",
+      "portuguese": "Pronunciam o z como s.",
       "answer": [
-        "No",
-        "pronuncian",
+        "Pronuncian",
         "la",
-        "zeta."
+        "zeta",
+        "como",
+        "ese."
       ],
       "distractors": [
         "pronuncia",
         "o"
       ],
-      "explanation": "La zeta = a letra z."
+      "explanation": "La zeta = a letra z; la ese = a letra s. No seseo o z não some: soa como s."
     },
     {
       "type": "listening",
@@ -211,7 +212,7 @@
             "Tem assento canário."
           ],
           "correct": 0,
-          "joke": "Acento."
+          "joke": "Acento = sotaque. Assento é \"asiento\"."
         },
         {
           "spanish": "Suena bonito.",
@@ -220,7 +221,7 @@
             "Sonha bonito."
           ],
           "correct": 0,
-          "joke": "Sonar ≠ soñar."
+          "joke": "Sonar = soar. Sonhar é \"soñar\"."
         },
         {
           "spanish": "Es muy isleño.",
@@ -229,7 +230,7 @@
             "É bem isolado."
           ],
           "correct": 0,
-          "joke": "Isleño."
+          "joke": "Isleño = ilhéu, da ilha."
         },
         {
           "spanish": "Tiene un dejo dulce.",
@@ -238,7 +239,7 @@
             "Deixa um doce."
           ],
           "correct": 0,
-          "joke": "Dejo."
+          "joke": "Dejo = sotaque leve."
         }
       ]
     },
@@ -251,7 +252,7 @@
           "emoji": "🗣️",
           "title": "Sotaque canário",
           "es": "Seseo y eses suaves.",
-          "pt": "Nas Canárias usa-se o seseo (z/c como s) e o s final se aspira. Entenda-o; o curso ensina a pronúncia peninsular padrão."
+          "pt": "Nas Canárias usa-se o seseo (z, e c antes de e/i, como s) e o s final se aspira. Entenda-o; o curso ensina a pronúncia peninsular padrão."
         },
         {
           "emoji": "👥",

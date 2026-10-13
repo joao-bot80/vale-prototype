@@ -118,15 +118,15 @@
       "cards": [
         {
           "es": "peregrino",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "peregrino",
-          "tip": "Peregrina no feminino."
+          "tip": "Mesma palavra, mesmo sentido (peregrina no feminino)."
         },
         {
           "es": "credencial",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "credencial do peregrino",
-          "tip": "O \"passaporte\" do Caminho."
+          "tip": "Mesma palavra: a credencial é o \"passaporte\" do Caminho."
         },
         {
           "es": "ampolla",

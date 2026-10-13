@@ -197,7 +197,7 @@
         "Não precisa de prova nenhuma."
       ],
       "correct": 0,
-      "explanation": "Só nacionais de países de língua oficial espanhola são isentos do DELE."
+      "explanation": "Ser brasileiro não isenta do DELE: a isenção é para nacionais de países de língua oficial espanhola (e alguns outros casos, como quem estudou o ensino médio na Espanha)."
     },
     {
       "type": "boss",

@@ -118,15 +118,15 @@
       "cards": [
         {
           "es": "consumo",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "consumo",
-          "tip": "Consumo en kWh."
+          "tip": "Mesma palavra, mesmo sentido: consumo em kWh."
         },
         {
           "es": "kilovatio",
           "kind": "quase",
           "meaning": "quilowatt",
-          "tip": "Potencia en kilovatios."
+          "tip": "Kilovatio = quilowatt: potência em quilowatts."
         },
         {
           "es": "alta de suministro",

@@ -46,7 +46,7 @@
       "words": [
         {
           "es": "los castellers",
-          "pt": "as torres humanas",
+          "pt": "os castellers (quem monta as torres humanas)",
           "emoji": "🧍",
           "image": "assets/vocab/castellers.png"
         },
@@ -120,13 +120,13 @@
           "es": "miedo",
           "kind": "quase",
           "meaning": "medo",
-          "tip": "Tener miedo."
+          "tip": "Tener miedo = ter medo."
         },
         {
           "es": "escalar",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "escalar",
-          "tip": "Escalar la torre."
+          "tip": "Mesma palavra, mesmo sentido: escalar a torre."
         },
         {
           "es": "pegar",
@@ -136,9 +136,9 @@
         },
         {
           "es": "pólvora",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "pólvora",
-          "tip": "Cheiro de pólvora."
+          "tip": "Mesma palavra, mesmo sentido: cheiro de pólvora."
         },
         {
           "es": "desfile",
@@ -228,7 +228,7 @@
           "spanish": "Cuidado con las chispas.",
           "options": [
             "Cuidado com as faíscas.",
-            "Cuidado com as chispas do carvão."
+            "Cuidado com as lascas de madeira."
           ],
           "correct": 0,
           "joke": "Chispa = faísca."

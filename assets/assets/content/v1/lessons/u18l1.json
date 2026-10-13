@@ -15,8 +15,8 @@
         },
         {
           "speaker": "Taquillera",
-          "es": "¿Tienes menos de veinticinco años? Los estudiantes tienen descuento.",
-          "pt": "Você tem menos de vinte e cinco anos? Estudantes têm desconto."
+          "es": "¿Eres estudiante de entre dieciocho y veinticinco años? Entonces entras gratis.",
+          "pt": "Você é estudante de 18 a 25 anos? Então entra de graça."
         },
         {
           "speaker": "Lu",
@@ -94,7 +94,7 @@
         "fila",
         "costuma"
       ],
-      "explanation": "\"Cola\" = fila. \"Fila\" em espanhol é fileira."
+      "explanation": "\"Cola\" = fila. Na Espanha, \"fila\" é mais a fileira (de cadeiras, no cinema)."
     },
     {
       "type": "listening",
@@ -130,7 +130,7 @@
           "es": "exposición",
           "kind": "quase",
           "meaning": "exposição",
-          "tip": "Exposición temporal."
+          "tip": "Exposición temporal = exposição temporária."
         },
         {
           "es": "lienzo",
@@ -152,8 +152,8 @@
       "context": [
         {
           "speaker": "Taquillera",
-          "es": "¿Tienes menos de veinticinco años? Los estudiantes tienen descuento.",
-          "pt": "Você tem menos de vinte e cinco anos? Estudantes têm desconto."
+          "es": "¿Eres estudiante de entre dieciocho y veinticinco años? Entonces entras gratis.",
+          "pt": "Você é estudante de 18 a 25 anos? Então entra de graça."
         },
         {
           "speaker": "Lu",
@@ -182,10 +182,10 @@
         "fotos."
       ],
       "distractors": [
-        "tirar",
+        "tomar",
         "sacando"
       ],
-      "explanation": "\"Tirar\" = jogar fora!"
+      "explanation": "Na Espanha se diz \"hacer fotos\" (também \"sacar fotos\"). \"Tomar fotos\" soa latino-americano."
     },
     {
       "type": "listening",

@@ -73,14 +73,14 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Matricular\" significa:",
+      "prompt": "Na escola, \"matricular\" significa:",
       "options": [
         "Matricular / inscrever na escola",
         "Fazer matrícula do carro",
         "Pagar a mensalidade"
       ],
       "correct": 0,
-      "explanation": "Matrícula também é a placa do carro!"
+      "explanation": "Matricular = inscrever na escola. Cuidado: \"matrícula\" também é a placa do carro, e \"matricular un coche\" é emplacar o carro."
     },
     {
       "type": "build",
@@ -205,11 +205,11 @@
         {
           "spanish": "Va al instituto.",
           "options": [
-            "Vai à escola de ensino médio.",
+            "Vai à escola secundária (12 a 18 anos).",
             "Vai ao instituto de pesquisa."
           ],
           "correct": 0,
-          "joke": "Instituto = escola secundária."
+          "joke": "Instituto = escola pública de ensino secundário (ESO e bachillerato)."
         },
         {
           "spanish": "Este curso empieza en septiembre.",

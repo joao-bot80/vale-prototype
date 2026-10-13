@@ -129,13 +129,13 @@
           "es": "vacante",
           "kind": "quase",
           "meaning": "vaga aberta",
-          "tip": "Hay una vacante."
+          "tip": "Vacante = vaga (de emprego): \"hay una vacante\" = tem uma vaga aberta."
         },
         {
           "es": "contratar",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "contratar",
-          "tip": "Me han contratado = fui contratada."
+          "tip": "Igualzinho! Me han contratado = fui contratada."
         },
         {
           "es": "prácticas",

@@ -119,13 +119,13 @@
           "es": "erupción",
           "kind": "quase",
           "meaning": "erupção",
-          "tip": "Erupción volcánica."
+          "tip": "Erupción volcánica = erupção vulcânica."
         },
         {
           "es": "islote",
           "kind": "quase",
           "meaning": "ilhota",
-          "tip": "Islote de Hilario."
+          "tip": "Islote = ilhota, como o Islote de Hilario, em Lanzarote."
         },
         {
           "es": "artista",
@@ -212,7 +212,7 @@
             "O solo de guitarra está quente."
           ],
           "correct": 0,
-          "joke": "Suelo."
+          "joke": "Suelo = chão."
         },
         {
           "spanish": "Hay un hoyo.",
@@ -221,7 +221,7 @@
             "Tem hoje."
           ],
           "correct": 0,
-          "joke": "Hoyo."
+          "joke": "Hoyo = buraco."
         },
         {
           "spanish": "Asan la carne.",
@@ -230,7 +230,7 @@
             "Asam a carne."
           ],
           "correct": 0,
-          "joke": "Asar."
+          "joke": "Asar = assar."
         },
         {
           "spanish": "Es ceniza.",
@@ -239,7 +239,7 @@
             "É cereja."
           ],
           "correct": 0,
-          "joke": "Ceniza."
+          "joke": "Ceniza = cinza."
         }
       ]
     },

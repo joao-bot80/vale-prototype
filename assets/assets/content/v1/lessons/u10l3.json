@@ -16,7 +16,7 @@
         {
           "speaker": "Lu",
           "es": "Quiero empadronarme. Acabo de mudarme a este barrio.",
-          "pt": "Quero me registrar no padrão municipal. Acabei de me mudar para este bairro."
+          "pt": "Quero me cadastrar no padrón (o registro municipal de moradores). Acabei de me mudar para este bairro."
         },
         {
           "speaker": "Funcionario",
@@ -116,7 +116,7 @@
         {
           "speaker": "Lu",
           "es": "Quiero empadronarme. Acabo de mudarme a este barrio.",
-          "pt": "Quero me registrar no padrão municipal. Acabei de me mudar para este bairro."
+          "pt": "Quero me cadastrar no padrón (o registro municipal de moradores). Acabei de me mudar para este bairro."
         },
         {
           "speaker": "Funcionario",
@@ -160,7 +160,7 @@
       ],
       "distractors": [
         "en",
-        "apartamento"
+        "departamento"
       ],
       "explanation": "\"A mi nombre\" = no meu nome."
     },

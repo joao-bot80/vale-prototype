@@ -184,7 +184,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Vocês vendem cogumelos frescos?",
+      "portuguese": "Vocês vendem cogumelos frescos? (informal)",
       "answer": [
         "¿Vendéis",
         "setas",
@@ -194,7 +194,7 @@
         "venden",
         "cogumelos"
       ],
-      "explanation": "\"Setas\" = cogumelos. \"Vendéis\" = vocês vendem."
+      "explanation": "\"Setas\" = cogumelos. \"Vendéis\" = vocês vendem. Com \"ustedes\" seria formal; aqui o tratamento é informal: vosotros."
     },
     {
       "type": "listening",

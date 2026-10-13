@@ -153,12 +153,12 @@
         "Suco de uva"
       ],
       "correct": 0,
-      "explanation": "É o drinque do verão madrileño: mais leve que a sangria e mais pedido pelos locais."
+      "explanation": "É o drinque do verão madrilenho: mais leve que a sangria e mais pedido pelos locais."
     },
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Vocês querem uma cerveja?",
+      "portuguese": "Vocês querem uma cerveja? (informal)",
       "answer": [
         "¿Queréis",
         "una",
@@ -168,7 +168,7 @@
         "quieren",
         "cerveja"
       ],
-      "explanation": "\"Queréis\" = vocês querem (vosotros)."
+      "explanation": "\"Queréis\" = vocês querem (vosotros). Com \"ustedes\" seria formal; aqui o tratamento é informal: vosotros."
     },
     {
       "type": "listening",
@@ -235,13 +235,13 @@
           "emoji": "🍺",
           "title": "Caña, doble ou tercio",
           "es": "Una caña y un doble, por favor.",
-          "pt": "A caña é o chope pequeno (uns 200 ml), o \"doble\" é um chope maior e o \"tercio\" é a garrafinha de 33 cl. Pedir caña é o mais madrileño."
+          "pt": "A caña é o chope pequeno (uns 200 ml), o \"doble\" é um chope maior e o \"tercio\" é a garrafinha de 33 cl. Pedir caña é o mais madrilenho."
         },
         {
           "emoji": "🍷",
           "title": "Tinto de verano",
           "es": "En verano, un tinto de verano bien fresquito.",
-          "pt": "Vinho tinto com refrigerante de limão (ou gaseosa) e muito gelo. A sangria é mais pedida por turistas; os madrileños preferem o tinto de verano."
+          "pt": "Vinho tinto com refrigerante de limão (ou gaseosa) e muito gelo. A sangria é mais pedida por turistas; os madrilenhos preferem o tinto de verano."
         }
       ]
     }

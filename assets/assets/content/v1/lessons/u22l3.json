@@ -209,7 +209,7 @@
         {
           "spanish": "Me doy de alta en la compañía.",
           "options": [
-            "Contrato a companhia.",
+            "Contrato o serviço da operadora.",
             "Recebo alta da companhia."
           ],
           "correct": 0,

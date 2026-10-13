@@ -61,7 +61,7 @@
         },
         {
           "es": "la fianza",
-          "pt": "o caução",
+          "pt": "a caução",
           "emoji": "💰"
         }
       ]
@@ -205,7 +205,7 @@
             "O inquilino paga a imobiliária."
           ],
           "correct": 0,
-          "joke": "Arrendador = quem aluga."
+          "joke": "Arrendador = locador (o dono que aluga o imóvel)."
         },
         {
           "spanish": "Necesito un aval bancario.",
@@ -227,7 +227,7 @@
           "emoji": "🏠",
           "title": "Caução e garantias",
           "es": "Un mes de fianza.",
-          "pt": "Para moradia habitual, a fiança legal é de 1 mês de aluguel; podem pedir garantias extras de no máximo 2 meses. Desde 2023 a comissão da imobiliária é paga pelo proprietário. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "Para moradia habitual, a fiança legal é de 1 mês de aluguel; em contratos de até 5 anos (7 se o proprietário for empresa), as garantias extras são de no máximo 2 meses. Desde 2023 a comissão da imobiliária é paga pelo proprietário. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "📅",

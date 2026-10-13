@@ -30,8 +30,8 @@
         },
         {
           "speaker": "Médica",
-          "es": "Le voy a recetar un antibiótico. Vaya a la farmacia con la tarjeta.",
-          "pt": "Vou receitar um antibiótico. Vá à farmácia com o cartão."
+          "es": "Le voy a recetar algo para la fiebre. Vaya a la farmacia con la tarjeta.",
+          "pt": "Vou receitar algo para a febre. Vá à farmácia com o cartão."
         },
         {
           "speaker": "Lu",
@@ -172,7 +172,7 @@
       "options": [
         "Aquí tiene. Me duele la garganta y tengo fiebre.",
         "Muchas gracias, doctora.",
-        "Le voy a recetar un antibiótico. Vaya a la farmacia con la tarjeta."
+        "Le voy a recetar algo para la fiebre. Vaya a la farmacia con la tarjeta."
       ],
       "correct": 0,
       "explanation": "Lu diz: \"Aquí tiene. Me duele la garganta y tengo fiebre.\" = \"Aqui está. Estou com dor de garganta e febre.\"."
@@ -180,14 +180,16 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Vou receitar um antibiótico.",
+      "portuguese": "Vou receitar algo para a febre.",
       "answer": [
         "Le",
         "voy",
         "a",
         "recetar",
-        "un",
-        "antibiótico."
+        "algo",
+        "para",
+        "la",
+        "fiebre."
       ],
       "distractors": [
         "receta",

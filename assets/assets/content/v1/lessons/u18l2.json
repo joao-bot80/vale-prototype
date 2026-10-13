@@ -90,7 +90,7 @@
         "veinte?"
       ],
       "distractors": [
-        "por",
+        "para",
         "faz"
       ],
       "explanation": "\"Dejar en\" = baixar o preço para."
@@ -143,7 +143,7 @@
         "Pagar com cartão"
       ],
       "correct": 0,
-      "explanation": "Efectivo = cash."
+      "explanation": "Efectivo = dinheiro vivo, em espécie."
     },
     {
       "type": "build",

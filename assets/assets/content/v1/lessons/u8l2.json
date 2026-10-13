@@ -80,7 +80,7 @@
         "De manhã vou embora"
       ],
       "correct": 0,
-      "explanation": "Futuro com \"ir a\" + infinitivo: voy a volver = vou voltar. Igual ao português!"
+      "explanation": "Futuro com \"ir a\" + infinitivo: voy a volver = vou voltar. Como em português, mas em espanhol entra o \"a\"."
     },
     {
       "type": "build",
@@ -160,7 +160,7 @@
         "horchata?"
       ],
       "distractors": [
-        "beber",
+        "uma",
         "vais"
       ],
       "explanation": "\"Vamos a + infinitivo\" = vamos + verbo."

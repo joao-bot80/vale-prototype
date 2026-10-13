@@ -71,14 +71,14 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "Como pedir a conta num bar espanhol?",
+      "prompt": "Quais destas frases servem para pedir a conta num bar espanhol?",
       "options": [
-        "¿Nos cobras?",
-        "¿Nos traes la cuenta, por favor?",
-        "As duas funcionam"
+        "Só \"¿Nos cobras?\"",
+        "Só \"¿Nos traes la cuenta, por favor?\"",
+        "As duas"
       ],
       "correct": 2,
-      "explanation": "As duas! \"¿Me cobras?\" é muito comum em bar, e \"la cuenta, por favor\" também funciona."
+      "explanation": "As duas! \"¿Nos cobras?\" / \"¿Me cobras?\" é muito comum em bar, e \"la cuenta, por favor\" também funciona."
     },
     {
       "type": "build",
@@ -149,7 +149,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Vocês pagam em dinheiro?",
+      "portuguese": "Vocês pagam em dinheiro? (informal)",
       "answer": [
         "¿Pagáis",
         "en",
@@ -157,10 +157,10 @@
       ],
       "distractors": [
         "pagan",
-        "dinero",
-        "con"
+        "dinheiro",
+        "em"
       ],
-      "explanation": "\"Pagáis\" = vocês pagam (vosotros). \"En efectivo\" = em dinheiro."
+      "explanation": "\"Pagáis\" = vocês pagam (vosotros). \"En efectivo\" = em dinheiro. Com \"ustedes\" seria formal; aqui o tratamento é informal: vosotros."
     },
     {
       "type": "listening",

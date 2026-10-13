@@ -159,7 +159,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Vocês vão para o centro?",
+      "portuguese": "Vocês vão para o centro? (informal)",
       "answer": [
         "¿Vosotros",
         "vais",
@@ -171,7 +171,7 @@
         "ustedes",
         "a"
       ],
-      "explanation": "\"Vosotros vais\" = vocês vão (informal, na Espanha). E \"a + el\" vira \"al\"."
+      "explanation": "\"Vosotros vais\" = vocês vão (informal, na Espanha). E \"a + el\" vira \"al\". Com \"ustedes\" seria formal; aqui o tratamento é informal: vosotros."
     },
     {
       "type": "listening",
@@ -244,7 +244,7 @@
           "emoji": "↗️",
           "title": "Escada rolante: fique à direita",
           "es": "Perdona, ¿me dejas pasar?",
-          "pt": "Nas escaleras mecánicas, a regra é ficar à direita e deixar a esquerda livre para quem está com pressa. Pra pedir passagem: \"¿me dejas pasar?\""
+          "pt": "Nas escadas rolantes, a regra é ficar à direita e deixar a esquerda livre para quem está com pressa. Pra pedir passagem: \"¿me dejas pasar?\""
         }
       ]
     }

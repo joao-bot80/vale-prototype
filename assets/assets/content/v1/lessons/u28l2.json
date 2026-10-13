@@ -118,9 +118,9 @@
       "cards": [
         {
           "es": "varicela",
-          "kind": "quase",
-          "meaning": "catapora",
-          "tip": "Não é varíola!"
+          "kind": "igual",
+          "meaning": "varicela / catapora",
+          "tip": "Mesma palavra: varicela é a catapora. Não é varíola!"
         },
         {
           "es": "chupete",

@@ -101,7 +101,7 @@
         "favor."
       ],
       "distractors": [
-        "porción",
+        "porção",
         "croquetes"
       ],
       "explanation": "No bar se pede \"tapa\" (pequena), \"media ración\" ou \"ración\" (porção grande)."
@@ -184,7 +184,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Vocês têm tortilla sem cebola?",
+      "portuguese": "Vocês têm tortilla sem cebola? (informal)",
       "answer": [
         "¿Tenéis",
         "tortilla",
@@ -196,7 +196,7 @@
         "tienen",
         "con"
       ],
-      "explanation": "\"Sin\" = sem, \"con\" = com. \"Tenéis\" = vocês têm."
+      "explanation": "\"Sin\" = sem, \"con\" = com. \"Tenéis\" = vocês têm. Com \"ustedes\" seria formal; aqui o tratamento é informal: vosotros."
     },
     {
       "type": "listening",

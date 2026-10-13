@@ -125,9 +125,9 @@
         },
         {
           "es": "obra",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "obra",
-          "tip": "\"En obras\" = em reforma."
+          "tip": "Mesma palavra, mesmo sentido. \"En obras\" = em obras, em reforma."
         },
         {
           "es": "catedral",
@@ -218,13 +218,13 @@
           "joke": "Edificio = prédio."
         },
         {
-          "spanish": "El techo es muy alto.",
+          "spanish": "El techo de la habitación es muy alto.",
           "options": [
-            "O teto é muito alto.",
-            "O telhado é muito alto."
+            "O teto do quarto é muito alto.",
+            "O telhado do quarto é muito alto."
           ],
           "correct": 0,
-          "joke": "Techo = teto."
+          "joke": "Techo = teto (por dentro). O telhado é \"tejado\"."
         },
         {
           "spanish": "La escalera es estrecha.",
