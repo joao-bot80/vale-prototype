@@ -143,13 +143,13 @@
           "es": "cerca",
           "kind": "armadilha",
           "meaning": "perto",
-          "tip": "Cerca = perto. Em PT-BR, cerca é a grade/muro (\"valla\")."
+          "tip": "Cerca = perto. Em português, cerca é a grade/muro (\"valla\")."
         },
         {
           "es": "tirar",
           "kind": "armadilha",
           "meaning": "jogar fora / puxar",
-          "tip": "Tirar = jogar fora ou puxar. Em PT-BR, tirar é \"quitar\" (remover)."
+          "tip": "Tirar = jogar fora ou puxar. Em português, tirar é \"quitar\" (remover)."
         }
       ]
     },

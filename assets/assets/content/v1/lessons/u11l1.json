@@ -129,7 +129,7 @@
           "es": "interés",
           "kind": "armadilha",
           "meaning": "juros",
-          "tip": "Interés = juros (do banco). Em PT-BR, interesse é curiosidade/vontade."
+          "tip": "Interés = juros (do banco). Em português, interesse é curiosidade/vontade."
         },
         {
           "es": "préstamo",
@@ -141,7 +141,7 @@
           "es": "cajero",
           "kind": "armadilha",
           "meaning": "caixa eletrônico",
-          "tip": "Cajero = caixa eletrônico (ou o caixa). Em PT-BR, caixeiro é balconista antigo / caixeiro-viajante."
+          "tip": "Cajero = caixa eletrônico (ou o caixa). Em português, caixeiro é balconista antigo / caixeiro-viajante."
         }
       ]
     },

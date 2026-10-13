@@ -135,13 +135,13 @@
           "es": "piso",
           "kind": "armadilha",
           "meaning": "apartamento / andar",
-          "tip": "Piso = apartamento. Em PT-BR, piso é o chão (\"suelo\")."
+          "tip": "Piso = apartamento. Em português, piso é o chão (\"suelo\")."
         },
         {
           "es": "ático",
           "kind": "armadilha",
           "meaning": "cobertura (último andar)",
-          "tip": "Ático = cobertura. Em PT-BR, ático é o sótão (\"desván\")."
+          "tip": "Ático = cobertura. Em português, ático é o sótão (\"desván\")."
         }
       ]
     },

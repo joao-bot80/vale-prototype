@@ -131,7 +131,7 @@
           "es": "caducado",
           "kind": "armadilha",
           "meaning": "vencido",
-          "tip": "Caducado = vencido. Em PT-BR, caduco é a pessoa senil (\"chocho\")."
+          "tip": "Caducado = vencido. Em português, caduco é a pessoa senil (\"chocho\")."
         },
         {
           "es": "dedo",
@@ -143,7 +143,7 @@
           "es": "carné",
           "kind": "armadilha",
           "meaning": "carteirinha",
-          "tip": "Carné = carteirinha/documento. Em PT-BR, carnê é o bloco de boletos de prestação."
+          "tip": "Carné = carteirinha/documento. Em português, carnê é o bloco de boletos de prestação."
         }
       ]
     },

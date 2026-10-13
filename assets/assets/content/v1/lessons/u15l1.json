@@ -123,7 +123,7 @@
           "es": "sede",
           "kind": "armadilha",
           "meaning": "escritório central",
-          "tip": "Sede = matriz da empresa. Em PT-BR, o uso mais comum é sede = vontade de beber (\"sed\")."
+          "tip": "Sede = matriz da empresa. Em português, o uso mais comum é sede = vontade de beber (\"sed\")."
         },
         {
           "es": "vacante",
@@ -141,7 +141,7 @@
           "es": "prácticas",
           "kind": "armadilha",
           "meaning": "estágio",
-          "tip": "Prácticas = estágio. Em PT-BR, práticas são costumes ou exercícios."
+          "tip": "Prácticas = estágio. Em português, práticas são costumes ou exercícios."
         }
       ]
     },
