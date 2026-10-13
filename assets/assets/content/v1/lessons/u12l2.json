@@ -130,9 +130,9 @@
         },
         {
           "es": "discoteca",
-          "kind": "armadilha",
-          "meaning": "balada",
-          "tip": "Discoteca = balada. Em português, discoteca é a coleção de discos."
+          "kind": "igual",
+          "meaning": "discoteca / balada",
+          "tip": "Mesma palavra: discoteca é casa noturna. Hoje no Brasil se diz mais \"balada\"."
         },
         {
           "es": "madrugar",

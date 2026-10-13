@@ -132,9 +132,9 @@
         },
         {
           "es": "Hacienda",
-          "kind": "armadilha",
-          "meaning": "Receita Federal",
-          "tip": "Hacienda = Receita. Em português, fazenda é propriedade rural (\"finca\")."
+          "kind": "quase",
+          "meaning": "Fazenda (o fisco espanhol)",
+          "tip": "Como \"Fazenda\" em Ministério/Receita da Fazenda: na Espanha, Hacienda é o fisco, não uma propriedade rural."
         },
         {
           "es": "ingreso",

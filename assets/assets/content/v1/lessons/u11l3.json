@@ -119,9 +119,9 @@
       "cards": [
         {
           "es": "conducir",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "dirigir",
-          "tip": "Conducir = dirigir carro. Em português, conduzir é guiar/levar (uma reunião, alguém)."
+          "tip": "Conducir = dirigir. No Brasil, \"conduzir veículo\" existe (está no Código de Trânsito), mas no dia a dia se diz \"dirigir\". Na Espanha, conducir é a palavra normal."
         },
         {
           "es": "coche",
