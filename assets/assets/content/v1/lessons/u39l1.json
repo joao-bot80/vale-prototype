@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la duna",
+          "pt": "a duna",
+          "emoji": "🏜️"
+        },
+        {
+          "es": "el camello",
+          "pt": "o camelo",
+          "emoji": "🐪"
+        },
+        {
+          "es": "la pamela",
+          "pt": "o chapéu de aba larga",
+          "emoji": "👒"
+        },
+        {
+          "es": "el faro",
+          "pt": "o farol",
+          "emoji": "🗼"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Las chanclas\" são:",
@@ -83,7 +109,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "duna",
@@ -110,54 +136,37 @@
           "tip": "Também dromedário."
         },
         {
-          "es": "arena negra",
-          "kind": "quase",
-          "meaning": "areia preta",
-          "tip": "Playas volcánicas."
-        },
-        {
           "es": "mirar",
           "kind": "armadilha",
           "meaning": "olhar",
           "tip": "Mirar = olhar. Em PT-BR, mirar é apontar para um alvo (\"apuntar\")."
-        },
-        {
-          "es": "sudar",
-          "kind": "quase",
-          "meaning": "suar",
-          "tip": "Sudar mucho."
-        },
-        {
-          "es": "insolación",
-          "kind": "quase",
-          "meaning": "insolação",
-          "tip": "Cuidado al sol."
-        },
-        {
-          "es": "duna móvil",
-          "kind": "quase",
-          "meaning": "duna móvel",
-          "tip": "El viento la mueve."
-        },
-        {
-          "es": "lagartija",
-          "kind": "quase",
-          "meaning": "lagartixa",
-          "tip": "Lagartija = lagartixa."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"La sombrilla\" na praia é:",
-      "options": [
-        "O guarda-sol",
-        "A sombrinha de chuva",
-        "A sombra"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lino",
+          "es": "Son las dunas de Maspalomas. Al lado está el faro.",
+          "pt": "São as dunas de Maspalomas. Do lado está o farol."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Podemos caminar por las dunas?",
+          "pt": "Podemos caminhar pelas dunas?"
+        }
       ],
-      "correct": 0,
-      "explanation": "Sombrilla = guarda-sol."
+      "speaker": "Lino",
+      "pt": "Só pelas trilhas marcadas. É uma reserva natural.",
+      "options": [
+        "Ponte las chanclas y bebe agua.",
+        "¡Qué calor! La arena quema.",
+        "Solo por los senderos marcados. Es una reserva natural."
+      ],
+      "correct": 2,
+      "explanation": "Lino diz: \"Solo por los senderos marcados. Es una reserva natural.\" = \"Só pelas trilhas marcadas. É uma reserva natural.\"."
     },
     {
       "type": "build",
@@ -186,18 +195,6 @@
       ],
       "correct": 0,
       "explanation": "Faro de Maspalomas."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Clava la ___ en la arena.\" (guarda-sol)",
-      "options": [
-        "sombrilla",
-        "guarda-sol",
-        "sombra"
-      ],
-      "correct": 0,
-      "explanation": "Sombrilla."
     },
     {
       "type": "boss",

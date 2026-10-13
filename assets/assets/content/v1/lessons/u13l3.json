@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la torre",
+          "pt": "a torre",
+          "emoji": "🗼"
+        },
+        {
+          "es": "la vidriera",
+          "pt": "o vitral",
+          "emoji": "🌈"
+        },
+        {
+          "es": "la escalera",
+          "pt": "a escada",
+          "emoji": "🪜"
+        },
+        {
+          "es": "el techo",
+          "pt": "o teto",
+          "emoji": "⛪"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Con antelación\" significa:",
@@ -85,7 +111,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "edificio",
@@ -100,40 +126,10 @@
           "tip": "\"En obras\" = em reforma."
         },
         {
-          "es": "arquitecto",
-          "kind": "quase",
-          "meaning": "arquiteto",
-          "tip": "Com c."
-        },
-        {
           "es": "catedral",
           "kind": "igual",
           "meaning": "catedral",
           "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "columna",
-          "kind": "quase",
-          "meaning": "coluna",
-          "tip": "Quase igual."
-        },
-        {
-          "es": "techo",
-          "kind": "quase",
-          "meaning": "teto",
-          "tip": "Techo = teto. Telhado é \"tejado\"."
-        },
-        {
-          "es": "escalera",
-          "kind": "quase",
-          "meaning": "escada",
-          "tip": "Escalera = escada."
-        },
-        {
-          "es": "ascensor",
-          "kind": "quase",
-          "meaning": "elevador",
-          "tip": "Ascender = subir."
         },
         {
           "es": "fachada",
@@ -150,16 +146,29 @@
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Escalera\" significa:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Guía",
+          "es": "Sí. Las obras empezaron en 1882 y Gaudí trabajó aquí más de cuarenta años.",
+          "pt": "Sim. As obras começaram em 1882 e Gaudí trabalhou aqui mais de quarenta anos."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Se pueden comprar entradas aquí?",
+          "pt": "Dá para comprar ingressos aqui?"
+        }
+      ],
+      "speaker": "Guía",
+      "pt": "É melhor comprar pela internet com antecedência.",
       "options": [
-        "Escada",
-        "Escala musical",
-        "Escalada"
+        "Es mejor comprarlas por internet con antelación.",
+        "El Park Güell, la Casa Batlló y la Pedrera.",
+        "¿Qué otros edificios de Gaudí me recomiendas?"
       ],
       "correct": 0,
-      "explanation": "\"Subir la escalera\" = subir a escada."
+      "explanation": "Guía diz: \"Es mejor comprarlas por internet con antelación.\" = \"É melhor comprar pela internet com antecedência.\"."
     },
     {
       "type": "build",
@@ -189,18 +198,6 @@
       ],
       "correct": 0,
       "explanation": "Obras de Gaudí em Barcelona."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Subimos por la ___ porque el ascensor no funciona.\"",
-      "options": [
-        "escalera",
-        "escala",
-        "escada"
-      ],
-      "correct": 0,
-      "explanation": "\"Escalera\" = escada."
     },
     {
       "type": "boss",

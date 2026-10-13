@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la cuenta",
+          "pt": "a conta",
+          "emoji": "🏦"
+        },
+        {
+          "es": "el cajero",
+          "pt": "o caixa eletrônico",
+          "emoji": "🏧"
+        },
+        {
+          "es": "los ahorros",
+          "pt": "a poupança",
+          "emoji": "🐷"
+        },
+        {
+          "es": "el préstamo",
+          "pt": "o empréstimo",
+          "emoji": "💸"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Domiciliar la nómina\" significa:",
@@ -85,7 +111,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "hipoteca",
@@ -116,50 +142,33 @@
           "kind": "armadilha",
           "meaning": "caixa eletrônico",
           "tip": "Cajero = caixa eletrônico (ou o caixa). Em PT-BR, caixeiro é balconista antigo / caixeiro-viajante."
-        },
-        {
-          "es": "comisión",
-          "kind": "quase",
-          "meaning": "tarifa / comissão",
-          "tip": "Banco cobra \"comisiones\"."
-        },
-        {
-          "es": "transferencia",
-          "kind": "quase",
-          "meaning": "transferência",
-          "tip": "Quase igual."
-        },
-        {
-          "es": "moneda",
-          "kind": "quase",
-          "meaning": "moeda",
-          "tip": "Dinheiro em geral = \"dinero\"."
-        },
-        {
-          "es": "mostrador",
-          "kind": "armadilha",
-          "meaning": "balcão (de atendimento)",
-          "tip": "Mostrador = balcão. Mostrador de relógio é \"esfera\"."
-        },
-        {
-          "es": "titular",
-          "kind": "igual",
-          "meaning": "titular",
-          "tip": "Igualzinho!"
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"¿Puedo pagar en efectivo?\" pergunta se:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Empleado",
+          "es": "Muy bien. ¿Tiene NIE y es residente?",
+          "pt": "Muito bem. Você tem NIE e é residente?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Sí, tengo la TIE y el certificado de empadronamiento.",
+          "pt": "Sim, tenho a TIE e o certificado de empadronamiento."
+        }
+      ],
+      "speaker": "Empleado",
+      "pt": "Perfeito. Quer também um cartão de débito?",
       "options": [
-        "Pode pagar em dinheiro",
-        "Pode pagar agora",
-        "Pode pagar parcelado"
+        "Perfecto. ¿Quiere también una tarjeta de débito?",
+        "No, si domicilia la nómina. Aquí tiene su IBAN.",
+        "Sí. ¿La cuenta tiene comisiones?"
       ],
       "correct": 0,
-      "explanation": "\"Efectivo\" = dinheiro vivo."
+      "explanation": "Empleado diz: \"Perfecto. ¿Quiere también una tarjeta de débito?\" = \"Perfeito. Quer também um cartão de débito?\"."
     },
     {
       "type": "build",
@@ -189,18 +198,6 @@
       ],
       "correct": 0,
       "explanation": "Com NIE você pode abrir conta de residente; sem ele, alguns bancos oferecem conta de não residente."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Necesito un ___ para comprar el coche.\" (empréstimo)",
-      "options": [
-        "préstamo",
-        "prestación",
-        "empréstimo"
-      ],
-      "correct": 0,
-      "explanation": "\"Préstamo\" = empréstimo."
     },
     {
       "type": "boss",

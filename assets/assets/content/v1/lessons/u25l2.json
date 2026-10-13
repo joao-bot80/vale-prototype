@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el teleférico",
+          "pt": "o teleférico",
+          "emoji": "🚡"
+        },
+        {
+          "es": "el mirador",
+          "pt": "o mirante",
+          "emoji": "🔭"
+        },
+        {
+          "es": "la montaña",
+          "pt": "a montanha",
+          "emoji": "⛰️"
+        },
+        {
+          "es": "el puerto",
+          "pt": "o porto",
+          "emoji": "⚓"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Subir andando\" significa:",
@@ -82,71 +108,29 @@
       "explanation": "Barcelona 92 transformou a cidade."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "teleférico",
-          "kind": "quase",
-          "meaning": "teleférico",
-          "tip": "Igual."
+          "speaker": "Marta",
+          "es": "En teleférico. Las vistas del puerto son increíbles.",
+          "pt": "De teleférico. A vista do porto é incrível."
         },
         {
-          "es": "vistas",
-          "kind": "quase",
-          "meaning": "vista (paisagem)",
-          "tip": "Con vistas al mar."
-        },
-        {
-          "es": "puerto",
-          "kind": "quase",
-          "meaning": "porto",
-          "tip": "Ditongo ue."
-        },
-        {
-          "es": "piscina",
-          "kind": "igual",
-          "meaning": "piscina",
-          "tip": "Igual!"
-        },
-        {
-          "es": "góndola",
-          "kind": "armadilha",
-          "meaning": "cabine (do teleférico)",
-          "tip": "Góndola = cabine. Em PT-BR, gôndola é a prateleira do supermercado."
-        },
-        {
-          "es": "espectáculo",
-          "kind": "quase",
-          "meaning": "espetáculo",
-          "tip": "Com c."
-        },
-        {
-          "es": "subida",
-          "kind": "igual",
-          "meaning": "subida",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "cuesta arriba",
-          "kind": "quase",
-          "meaning": "ladeira acima",
-          "tip": "Cuesta abajo = ladeira abaixo."
-        },
-        {
-          "es": "mirador",
-          "kind": "quase",
-          "meaning": "mirante",
-          "tip": "Mirador = mirante."
-        },
-        {
-          "es": "calzada",
-          "kind": "armadilha",
-          "meaning": "pista (para carros)",
-          "tip": "Calzada = pista da rua. Calçada é \"acera\"!"
+          "speaker": "Lu",
+          "es": "¿Aquí fueron los Juegos Olímpicos?",
+          "pt": "Aqui foram os Jogos Olímpicos?"
         }
-      ]
+      ],
+      "speaker": "Marta",
+      "pt": "Sim, em 1992. O estádio e as piscinas ficam aqui.",
+      "options": [
+        "¿Y la fuente mágica?",
+        "Sí, en 1992. El estadio y las piscinas están aquí.",
+        "Abajo, junto a la plaza de España. Hay espectáculos de luz y música algunos días."
+      ],
+      "correct": 1,
+      "explanation": "Marta diz: \"Sí, en 1992. El estadio y las piscinas están aquí.\" = \"Sim, em 1992. O estádio e as piscinas ficam aqui.\"."
     },
     {
       "type": "choice",
@@ -186,18 +170,6 @@
       ],
       "correct": 0,
       "explanation": "Confira os dias de espetáculo no site da prefeitura."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Un hotel con ___ al mar.\" (vista)",
-      "options": [
-        "vistas",
-        "miradas",
-        "visión"
-      ],
-      "correct": 0,
-      "explanation": "\"Con vistas al mar\" = com vista para o mar (também se ouve \"con vista al mar\")."
     },
     {
       "type": "boss",

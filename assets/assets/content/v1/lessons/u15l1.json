@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la entrevista",
+          "pt": "a entrevista",
+          "emoji": "🤝"
+        },
+        {
+          "es": "el puesto",
+          "pt": "a vaga / o cargo",
+          "emoji": "💼"
+        },
+        {
+          "es": "la empresa",
+          "pt": "a empresa",
+          "emoji": "🏢"
+        },
+        {
+          "es": "el horario",
+          "pt": "o horário",
+          "emoji": "🕘"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Llevo un año en España\" significa:",
@@ -85,7 +111,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "entrevista",
@@ -112,54 +138,37 @@
           "tip": "Me han contratado = fui contratada."
         },
         {
-          "es": "experiencia",
-          "kind": "quase",
-          "meaning": "experiência",
-          "tip": "Sem acento."
-        },
-        {
-          "es": "horario flexible",
-          "kind": "quase",
-          "meaning": "horário flexível",
-          "tip": "Muito valorizado."
-        },
-        {
-          "es": "teletrabajo",
-          "kind": "quase",
-          "meaning": "home office",
-          "tip": "Teletrabajar = trabalhar de casa."
-        },
-        {
-          "es": "encargado",
-          "kind": "quase",
-          "meaning": "gerente / responsável",
-          "tip": "Encargado = encarregado / gerente."
-        },
-        {
           "es": "prácticas",
           "kind": "armadilha",
           "meaning": "estágio",
           "tip": "Prácticas = estágio. Em PT-BR, práticas são costumes ou exercícios."
-        },
-        {
-          "es": "experto",
-          "kind": "armadilha",
-          "meaning": "especialista",
-          "tip": "Experto = especialista. Esperto é \"listo\"."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Hacer prácticas\" significa:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "Soy brasileña, llevo un año en España y trabajo en marketing.",
+          "pt": "Sou brasileira, estou há um ano na Espanha e trabalho com marketing."
+        },
+        {
+          "speaker": "Entrevistadora",
+          "es": "¿Por qué quieres trabajar con nosotros?",
+          "pt": "Por que você quer trabalhar conosco?"
+        }
+      ],
+      "speaker": "Lu",
+      "pt": "Porque gosto do projeto de vocês e quero aprender.",
       "options": [
-        "Fazer estágio",
-        "Praticar esporte",
-        "Fazer exercícios"
+        "Porque me gusta vuestro proyecto y quiero aprender.",
+        "Sí, tengo la tarjeta de residencia y puedo empezar en dos semanas.",
+        "¿Tienes permiso de trabajo?"
       ],
       "correct": 0,
-      "explanation": "\"Prácticas\" = estágio."
+      "explanation": "Lu diz: \"Porque me gusta vuestro proyecto y quiero aprender.\" = \"Porque gosto do projeto de vocês e quero aprender.\"."
     },
     {
       "type": "build",
@@ -190,18 +199,6 @@
       ],
       "correct": 0,
       "explanation": "Ter autorização para trabalhar é essencial."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Busco un ___ de trabajo en Valencia.\" (vaga)",
-      "options": [
-        "puesto",
-        "posto",
-        "vaga"
-      ],
-      "correct": 0,
-      "explanation": "\"Puesto de trabajo\" = vaga, cargo."
     },
     {
       "type": "boss",

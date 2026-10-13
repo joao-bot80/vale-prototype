@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la maceta",
+          "pt": "o vaso de planta",
+          "emoji": "🪴"
+        },
+        {
+          "es": "la flor",
+          "pt": "a flor",
+          "emoji": "🌸"
+        },
+        {
+          "es": "el pozo",
+          "pt": "o poço",
+          "emoji": "🪣"
+        },
+        {
+          "es": "regar",
+          "pt": "regar",
+          "emoji": "🚿"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Hacer una foto\" significa:",
@@ -84,7 +110,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "maceta",
@@ -115,50 +141,33 @@
           "kind": "quase",
           "meaning": "cravo",
           "tip": "Flor típica andaluza."
-        },
-        {
-          "es": "geranio",
-          "kind": "quase",
-          "meaning": "gerânio",
-          "tip": "Muito comum nos pátios."
-        },
-        {
-          "es": "cariño",
-          "kind": "quase",
-          "meaning": "carinho",
-          "tip": "Com ñ."
-        },
-        {
-          "es": "pozo",
-          "kind": "quase",
-          "meaning": "poço",
-          "tip": "Pozo = poço."
-        },
-        {
-          "es": "vecina",
-          "kind": "quase",
-          "meaning": "vizinha",
-          "tip": "Vecino/a."
-        },
-        {
-          "es": "planta",
-          "kind": "igual",
-          "meaning": "planta",
-          "tip": "Também andar do prédio: planta baja = térreo."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Un vaso de agua\" é:",
-      "options": [
-        "Um copo d'água",
-        "Um vaso com água",
-        "Uma jarra de água"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Vecina",
+          "es": "Gracias. Riego las flores todas las tardes.",
+          "pt": "Obrigada. Rego as flores todas as tardes."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Puedo hacer una foto?",
+          "pt": "Posso tirar uma foto?"
+        }
       ],
-      "correct": 0,
-      "explanation": "Vaso = copo. Vaso de planta = maceta."
+      "speaker": "Vecina",
+      "pt": "Claro, mas não toque nas plantas.",
+      "options": [
+        "Mucho cariño y mucha agua. ¡Aquí hace mucho calor!",
+        "¿Cuál es su secreto?",
+        "Claro, pero no toques las plantas."
+      ],
+      "correct": 2,
+      "explanation": "Vecina diz: \"Claro, pero no toques las plantas.\" = \"Claro, mas não toque nas plantas.\"."
     },
     {
       "type": "build",
@@ -188,18 +197,6 @@
       ],
       "correct": 0,
       "explanation": "Córdoba é das cidades mais quentes da Espanha no verão."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"No lo ___, ¡es mío!\" (não jogue fora)",
-      "options": [
-        "tires",
-        "tiras",
-        "tire"
-      ],
-      "correct": 0,
-      "explanation": "\"Tirar\" = jogar fora. No lo tires."
     },
     {
       "type": "boss",

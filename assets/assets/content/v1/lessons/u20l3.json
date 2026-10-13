@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la procesión",
+          "pt": "a procissão",
+          "emoji": "🕯️"
+        },
+        {
+          "es": "el paso",
+          "pt": "o andor",
+          "emoji": "⛪"
+        },
+        {
+          "es": "la vela",
+          "pt": "a vela",
+          "emoji": "🕯️"
+        },
+        {
+          "es": "el tambor",
+          "pt": "o tambor",
+          "emoji": "🥁"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Paso\" na Semana Santa é:",
@@ -83,7 +109,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "procesión",
@@ -104,60 +130,43 @@
           "tip": "Também cofradía."
         },
         {
-          "es": "cofradía",
-          "kind": "quase",
-          "meaning": "confraria",
-          "tip": "Cofradía = confraria."
-        },
-        {
           "es": "Semana Santa",
           "kind": "igual",
           "meaning": "Semana Santa",
           "tip": "Mesma expressão, mesmo sentido."
         },
         {
-          "es": "cirio",
-          "kind": "quase",
-          "meaning": "vela grande",
-          "tip": "Cirio = círio, vela grande."
-        },
-        {
-          "es": "incienso",
-          "kind": "quase",
-          "meaning": "incenso",
-          "tip": "Com ci."
-        },
-        {
           "es": "saeta",
           "kind": "armadilha",
           "meaning": "canto religioso",
           "tip": "Saeta = canto de procissão. Em PT-BR, seta é flecha."
-        },
-        {
-          "es": "pesado",
-          "kind": "quase",
-          "meaning": "pesado / chato",
-          "tip": "Pesado = pesado, e também chato: \"¡Qué pesado eres!\"."
-        },
-        {
-          "es": "latir",
-          "kind": "armadilha",
-          "meaning": "bater (o coração)",
-          "tip": "Latir = bater (coração). Latir (cachorro) é \"ladrar\"."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"¡Qué pesado eres!\" significa:",
-      "options": [
-        "Como você é chato!",
-        "Como você é pesado!",
-        "Como você é forte!"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Dani",
+          "es": "Es Semana Santa. Ahora pasa una procesión con su paso.",
+          "pt": "É Semana Santa. Agora passa uma procissão com o seu andor."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y quiénes son las personas con capirote?",
+          "pt": "E quem são as pessoas com capuz pontudo?"
+        }
       ],
-      "correct": 0,
-      "explanation": "Pesado = chato, insistente."
+      "speaker": "Dani",
+      "pt": "São nazarenos da irmandade. É uma tradição religiosa.",
+      "options": [
+        "Los costaleros, debajo. No se les ve.",
+        "¿Quién lleva el paso? Parece muy pesado.",
+        "Son nazarenos de la hermandad. Es una tradición religiosa."
+      ],
+      "correct": 2,
+      "explanation": "Dani diz: \"Son nazarenos de la hermandad. Es una tradición religiosa.\" = \"São nazarenos da irmandade. É uma tradição religiosa.\"."
     },
     {
       "type": "build",
@@ -186,18 +195,6 @@
       ],
       "correct": 0,
       "explanation": "Costal = saco que protege o pescoço."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"¿Qué ha ___?\" (O que aconteceu?)",
-      "options": [
-        "pasado",
-        "pasando",
-        "pasó"
-      ],
-      "correct": 0,
-      "explanation": "\"¿Qué ha pasado?\" = o que aconteceu? Depois de \"ha\" vem o particípio (pasado), não o gerúndio."
     },
     {
       "type": "boss",

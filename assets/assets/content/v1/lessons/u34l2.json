@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la bahía",
+          "pt": "a baía",
+          "emoji": "🏖️"
+        },
+        {
+          "es": "la barandilla",
+          "pt": "o corrimão / a grade",
+          "emoji": "🚧"
+        },
+        {
+          "es": "el funicular",
+          "pt": "o funicular",
+          "emoji": "🚞"
+        },
+        {
+          "es": "la isla",
+          "pt": "a ilha",
+          "emoji": "🏝️"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Hoy hace bueno\" significa:",
@@ -84,7 +110,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "bahía",
@@ -105,60 +131,43 @@
           "tip": "Atracción = brinquedo."
         },
         {
-          "es": "chaqueta",
-          "kind": "quase",
-          "meaning": "jaqueta",
-          "tip": "Chaqueta = jaqueta / casaco."
-        },
-        {
           "es": "monte",
           "kind": "igual",
           "meaning": "monte",
           "tip": "Igual!"
         },
         {
-          "es": "isla pequeña",
-          "kind": "quase",
-          "meaning": "ilhota",
-          "tip": "Islote também."
-        },
-        {
-          "es": "vista panorámica",
-          "kind": "quase",
-          "meaning": "vista panorâmica",
-          "tip": "Panorámica = panorâmica."
-        },
-        {
-          "es": "nublarse",
-          "kind": "quase",
-          "meaning": "nublar",
-          "tip": "Se está nublando."
-        },
-        {
           "es": "despejado",
           "kind": "armadilha",
           "meaning": "céu limpo",
           "tip": "Despejado = céu aberto. Em PT-BR, despejado é quem foi expulso de casa."
-        },
-        {
-          "es": "hacer bueno",
-          "kind": "quase",
-          "meaning": "fazer tempo bom",
-          "tip": "Hace bueno = faz tempo bom."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"El cielo está despejado\" significa:",
-      "options": [
-        "O céu está limpo",
-        "O céu foi despejado",
-        "O céu está nublado"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lino",
+          "es": "Por eso se llama La Concha. Y aquella isla es Santa Clara.",
+          "pt": "Por isso se chama La Concha. E aquela ilha é Santa Clara."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Subimos al monte Igueldo para verla desde arriba?",
+          "pt": "Subimos ao monte Igueldo para vê-la de cima?"
+        }
       ],
-      "correct": 0,
-      "explanation": "Despejado = sem nuvens."
+      "speaker": "Lino",
+      "pt": "Sim, tem um funicular antigo. E lá em cima, um parque de diversões.",
+      "options": [
+        "Hoy hace bueno, pero el tiempo aquí cambia rápido.",
+        "Sí, hay un funicular antiguo. Y arriba, un parque de atracciones.",
+        "Sí, lleva siempre una chaqueta. ¡Nunca se sabe!"
+      ],
+      "correct": 1,
+      "explanation": "Lino diz: \"Sí, hay un funicular antiguo. Y arriba, un parque de atracciones.\" = \"Sim, tem um funicular antigo. E lá em cima, um parque de diversões.\"."
     },
     {
       "type": "build",
@@ -188,18 +197,6 @@
       ],
       "correct": 0,
       "explanation": "Clima atlântico: muda rápido."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Hoy está ___, sin nubes.\" (limpo)",
-      "options": [
-        "despejado",
-        "limpio",
-        "despejo"
-      ],
-      "correct": 0,
-      "explanation": "Despejado = céu limpo, sem nuvens."
     },
     {
       "type": "boss",

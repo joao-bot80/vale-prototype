@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la videollamada",
+          "pt": "a videochamada",
+          "emoji": "📹"
+        },
+        {
+          "es": "el acento",
+          "pt": "o sotaque",
+          "emoji": "🗣️"
+        },
+        {
+          "es": "lejos",
+          "pt": "longe",
+          "emoji": "🗺️"
+        },
+        {
+          "es": "cerca",
+          "pt": "perto",
+          "emoji": "📍"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Lo mejor\" significa:",
@@ -85,7 +111,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "entonación",
@@ -100,28 +126,10 @@
           "tip": "Reconozco."
         },
         {
-          "es": "estándar",
-          "kind": "quase",
-          "meaning": "padrão",
-          "tip": "Castellano estándar."
-        },
-        {
-          "es": "videollamada",
-          "kind": "quase",
-          "meaning": "videochamada",
-          "tip": "Hacer una videollamada."
-        },
-        {
           "es": "extrañar",
           "kind": "armadilha",
           "meaning": "sentir falta",
           "tip": "Extrañar = sentir saudade. Em PT-BR, estranhar é achar esquisito (\"sorprender\")."
-        },
-        {
-          "es": "sur",
-          "kind": "quase",
-          "meaning": "sul",
-          "tip": "El sur de España."
         },
         {
           "es": "norte",
@@ -134,32 +142,33 @@
           "kind": "igual",
           "meaning": "costa / litoral",
           "tip": "Igual!"
-        },
-        {
-          "es": "nostalgia",
-          "kind": "igual",
-          "meaning": "nostalgia",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "distancia",
-          "kind": "quase",
-          "meaning": "distância",
-          "tip": "Distancia = distância."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Te echo de menos\" significa:",
-      "options": [
-        "Sinto sua falta",
-        "Te jogo para baixo",
-        "Te deixo de lado"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "La Alhambra, el flamenco en Córdoba y las tapas gratis de Granada.",
+          "pt": "A Alhambra, o flamenco em Córdoba e as tapas grátis de Granada."
+        },
+        {
+          "speaker": "Dani",
+          "es": "¿Y ya entiendes a los andaluces?",
+          "pt": "E você já entende os andaluzes?"
+        }
       ],
-      "correct": 0,
-      "explanation": "Echar de menos = sentir saudade."
+      "speaker": "Lu",
+      "pt": "Quase sempre. Embora eu fale castelhano padrão, já reconheço o sotaque.",
+      "options": [
+        "¿Y de Valencia?",
+        "Casi siempre. Aunque yo hablo castellano estándar, ya reconozco el acento.",
+        "Las Fallas, el arroz al horno y pasear en bici por el Turia."
+      ],
+      "correct": 1,
+      "explanation": "Lu diz: \"Casi siempre. Aunque yo hablo castellano estándar, ya reconozco el acento.\" = \"Quase sempre. Embora eu fale castelhano padrão, já reconheço o sotaque.\"."
     },
     {
       "type": "build",
@@ -189,18 +198,6 @@
       ],
       "correct": 0,
       "explanation": "Revisão: Valencia (u8, u15, u21)."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Tiene un ___ andaluz muy bonito.\" (sotaque)",
-      "options": [
-        "acento",
-        "sotaque",
-        "asiento"
-      ],
-      "correct": 0,
-      "explanation": "Acento = sotaque. Asiento = assento!"
     },
     {
       "type": "boss",

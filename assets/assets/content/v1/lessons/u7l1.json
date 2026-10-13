@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el traje de flamenca",
+          "pt": "o vestido de flamenca",
+          "emoji": "💃"
+        },
+        {
+          "es": "el caballo",
+          "pt": "o cavalo",
+          "emoji": "🐎"
+        },
+        {
+          "es": "el farolillo",
+          "pt": "a lanterninha",
+          "emoji": "🏮"
+        },
+        {
+          "es": "la caseta",
+          "pt": "a barraca da feira",
+          "emoji": "🎪"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "O que é uma \"caseta\" na Feria?",
@@ -84,7 +110,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "música",
@@ -99,18 +125,6 @@
           "tip": "\"Bailar\" = dançar."
         },
         {
-          "es": "vestido",
-          "kind": "igual",
-          "meaning": "vestido",
-          "tip": "Mesma palavra."
-        },
-        {
-          "es": "flor",
-          "kind": "igual",
-          "meaning": "flor",
-          "tip": "Igual!"
-        },
-        {
           "es": "caballo",
           "kind": "quase",
           "meaning": "cavalo",
@@ -123,42 +137,37 @@
           "tip": "Guitarra = violão. A guitarra elétrica é \"guitarra eléctrica\"."
         },
         {
-          "es": "feria",
-          "kind": "quase",
-          "meaning": "feira / festa",
-          "tip": "Aqui é a grande festa da cidade."
-        },
-        {
-          "es": "refresco",
-          "kind": "quase",
-          "meaning": "refrigerante",
-          "tip": "Refresco = refrigerante (e também refresco/bebida gelada)."
-        },
-        {
           "es": "brinco",
           "kind": "armadilha",
           "meaning": "pulo",
           "tip": "Brinco = pulo (pular a fogueira). Brinco (joia) é \"pendiente\"."
-        },
-        {
-          "es": "palmas",
-          "kind": "igual",
-          "meaning": "palmas",
-          "tip": "No flamenco, as palmas marcam o ritmo."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"¿Te enseño los primeros pasos?\" significa:",
-      "options": [
-        "Te ensino os primeiros passos?",
-        "Te mostro a primeira rua?",
-        "Você me ensina a dançar?"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "¡Qué bonito! Hay farolillos por todas partes.",
+          "pt": "Que lindo! Tem lanterninhas por todo lado."
+        },
+        {
+          "speaker": "Dani",
+          "es": "¿Quieres probar el rebujito? Es manzanilla con refresco.",
+          "pt": "Quer provar o rebujito? É manzanilla com refrigerante."
+        }
       ],
-      "correct": 0,
-      "explanation": "\"Enseñar\" = ensinar ou mostrar. \"Pasos\" = passos."
+      "speaker": "Lu",
+      "pt": "Sim, mas pouquinho. E o que o pessoal está dançando?",
+      "options": [
+        "¡Venga! Pero no te rías de mí.",
+        "Sevillanas. ¿Te enseño los primeros pasos?",
+        "Sí, pero poquito. ¿Y qué baila la gente?"
+      ],
+      "correct": 2,
+      "explanation": "Lu diz: \"Sí, pero poquito. ¿Y qué baila la gente?\" = \"Sim, mas pouquinho. E o que o pessoal está dançando?\"."
     },
     {
       "type": "build",
@@ -190,18 +199,6 @@
       ],
       "correct": 0,
       "explanation": "\"¡Venga!\" = bora / vamos. Muito usado na Espanha."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Hay farolillos por todas ___.\"",
-      "options": [
-        "partes",
-        "lados",
-        "sitio"
-      ],
-      "correct": 0,
-      "explanation": "\"Por todas partes\" = por todo lado."
     },
     {
       "type": "boss",

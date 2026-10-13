@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la fianza",
+          "pt": "o caução",
+          "emoji": "💰"
+        },
+        {
+          "es": "la firma",
+          "pt": "a assinatura",
+          "emoji": "✍️"
+        },
+        {
+          "es": "las llaves",
+          "pt": "as chaves",
+          "emoji": "🔑"
+        },
+        {
+          "es": "el contrato",
+          "pt": "o contrato",
+          "emoji": "📄"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "Como se diz \"assinar\" um contrato?",
@@ -85,25 +111,13 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "contrato",
           "kind": "igual",
           "meaning": "contrato",
           "tip": "Igualzinho!"
-        },
-        {
-          "es": "documento",
-          "kind": "igual",
-          "meaning": "documento",
-          "tip": "Mesma palavra."
-        },
-        {
-          "es": "banco",
-          "kind": "igual",
-          "meaning": "banco",
-          "tip": "Igual (e também é o banco de sentar)."
         },
         {
           "es": "fianza",
@@ -118,28 +132,10 @@
           "tip": "\"La factura de la luz\" = a conta de luz."
         },
         {
-          "es": "plazo",
-          "kind": "quase",
-          "meaning": "prazo",
-          "tip": "Só troca uma letra."
-        },
-        {
-          "es": "inmobiliaria",
-          "kind": "quase",
-          "meaning": "imobiliária",
-          "tip": "Com \"n\" no começo."
-        },
-        {
           "es": "firma",
           "kind": "armadilha",
           "meaning": "assinatura",
           "tip": "Firma = assinatura. Em PT-BR, firma é uma empresa (\"empresa\")."
-        },
-        {
-          "es": "renta",
-          "kind": "quase",
-          "meaning": "renda (ganhos)",
-          "tip": "Renta = renda (ganhos), como em português. Aluguel é \"alquiler\"."
         },
         {
           "es": "escoba",
@@ -150,16 +146,29 @@
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "O que é uma \"nómina\"?",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "Tengo el NIE, pero acabo de empezar a trabajar.",
+          "pt": "Tenho o NIE, mas acabei de começar a trabalhar."
+        },
+        {
+          "speaker": "Agente",
+          "es": "No pasa nada. La fianza es un mes, y pedimos dos meses más de garantía.",
+          "pt": "Sem problema. A caução é um mês, e pedimos mais dois meses de garantia."
+        }
+      ],
+      "speaker": "Lu",
+      "pt": "E quanto tempo dura o contrato?",
       "options": [
-        "O holerite / contracheque",
-        "Uma lista de nomes",
-        "O nome do proprietário"
+        "¿Y cuánto dura el contrato?",
+        "¡Por fin tengo piso en Barcelona!",
+        "Un año, prorrogable. Firma aquí, por favor."
       ],
       "correct": 0,
-      "explanation": "\"Nómina\" = holerite. Muitos proprietários pedem as últimas nóminas."
+      "explanation": "Lu diz: \"¿Y cuánto dura el contrato?\" = \"E quanto tempo dura o contrato?\"."
     },
     {
       "type": "build",
@@ -189,18 +198,6 @@
       ],
       "correct": 0,
       "explanation": "NIE = número de identidade de estrangeiro."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Firma ___, por favor.",
-      "options": [
-        "aquí",
-        "aqui",
-        "acá"
-      ],
-      "correct": 0,
-      "explanation": "Com acento: \"aquí\". \"Acá\" se ouve mais na América Latina."
     },
     {
       "type": "boss",

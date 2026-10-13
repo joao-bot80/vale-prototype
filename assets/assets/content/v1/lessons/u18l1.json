@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el cuadro",
+          "pt": "o quadro",
+          "emoji": "🖼️"
+        },
+        {
+          "es": "el pintor",
+          "pt": "o pintor",
+          "emoji": "👨‍🎨"
+        },
+        {
+          "es": "el museo",
+          "pt": "o museu",
+          "emoji": "🏛️"
+        },
+        {
+          "es": "la sala",
+          "pt": "a sala",
+          "emoji": "🚪"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Suele haber cola\" significa:",
@@ -83,7 +109,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "cuadro",
@@ -104,40 +130,10 @@
           "tip": "Exposición temporal."
         },
         {
-          "es": "descuento",
-          "kind": "quase",
-          "meaning": "desconto",
-          "tip": "Ditongo ue."
-        },
-        {
-          "es": "sala",
-          "kind": "igual",
-          "meaning": "sala",
-          "tip": "Sala 12."
-        },
-        {
-          "es": "retrato",
-          "kind": "igual",
-          "meaning": "retrato",
-          "tip": "Igual!"
-        },
-        {
           "es": "lienzo",
           "kind": "armadilha",
           "meaning": "tela (de pintura)",
           "tip": "Lienzo = tela (de pintura). Lenço é \"pañuelo\"."
-        },
-        {
-          "es": "audioguía",
-          "kind": "quase",
-          "meaning": "audioguia",
-          "tip": "Com acento."
-        },
-        {
-          "es": "obra maestra",
-          "kind": "quase",
-          "meaning": "obra-prima",
-          "tip": "Maestra = mestra."
         },
         {
           "es": "suceso",
@@ -148,16 +144,29 @@
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Una obra maestra\" é:",
-      "options": [
-        "Uma obra-prima",
-        "Uma professora",
-        "Uma reforma grande"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Taquillera",
+          "es": "¿Tienes menos de veinticinco años? Los estudiantes tienen descuento.",
+          "pt": "Você tem menos de vinte e cinco anos? Estudantes têm desconto."
+        },
+        {
+          "speaker": "Lu",
+          "es": "No, pero vuelvo más tarde, que a última hora es gratis, ¿no?",
+          "pt": "Não, mas volto mais tarde, já que no fim do dia é grátis, né?"
+        }
       ],
-      "correct": 0,
-      "explanation": "Las Meninas é a obra-prima de Velázquez."
+      "speaker": "Taquillera",
+      "pt": "Sim, nas duas últimas horas. Mas costuma ter fila.",
+      "options": [
+        "En la primera planta. Está prohibido hacer fotos dentro.",
+        "¿Dónde están Las Meninas?",
+        "Sí, las dos últimas horas. Pero suele haber cola."
+      ],
+      "correct": 2,
+      "explanation": "Taquillera diz: \"Sí, las dos últimas horas. Pero suele haber cola.\" = \"Sim, nas duas últimas horas. Mas costuma ter fila.\"."
     },
     {
       "type": "build",
@@ -187,18 +196,6 @@
       ],
       "correct": 0,
       "explanation": "\"Planta\" = andar."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Los domingos ___ ir al Rastro.\" (costumo)",
-      "options": [
-        "suelo",
-        "soelo",
-        "costumo"
-      ],
-      "correct": 0,
-      "explanation": "\"Soler\": suelo, sueles, suele... \"Costumo\" é português."
     },
     {
       "type": "boss",

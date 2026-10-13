@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el tomate",
+          "pt": "o tomate",
+          "emoji": "🍅"
+        },
+        {
+          "es": "el camión",
+          "pt": "o caminhão",
+          "emoji": "🚚"
+        },
+        {
+          "es": "las gafas de bucear",
+          "pt": "os óculos de natação",
+          "emoji": "🥽"
+        },
+        {
+          "es": "la camiseta",
+          "pt": "a camiseta",
+          "emoji": "👕"
+        },
+        {
+          "es": "agosto",
+          "pt": "agosto",
+          "emoji": "📅"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"La gente se tira tomates\" significa:",
@@ -83,71 +114,29 @@
       "explanation": "Desde 2013 a Tomatina tem ingresso."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "batalla",
-          "kind": "quase",
-          "meaning": "batalha",
-          "tip": "Batalla de tomates."
+          "speaker": "Lino",
+          "es": "¡Sí! Es la Tomatina de Buñol, el último miércoles de agosto.",
+          "pt": "Sim! É a Tomatina de Buñol, na última quarta-feira de agosto."
         },
         {
-          "es": "mancha",
-          "kind": "igual",
-          "meaning": "mancha",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "agosto",
-          "kind": "igual",
-          "meaning": "agosto",
-          "tip": "Igual!"
-        },
-        {
-          "es": "camión",
-          "kind": "quase",
-          "meaning": "caminhão",
-          "tip": "Os tomates chegam em caminhões."
-        },
-        {
-          "es": "ropa",
-          "kind": "quase",
-          "meaning": "roupa",
-          "tip": "Ropa = roupa."
-        },
-        {
-          "es": "natación",
-          "kind": "quase",
-          "meaning": "natação",
-          "tip": "Gafas de natación."
-        },
-        {
-          "es": "manguera",
-          "kind": "quase",
-          "meaning": "mangueira (de água)",
-          "tip": "Manguera = mangueira de água. A árvore mangueira é \"mango\"."
-        },
-        {
-          "es": "pueblo",
-          "kind": "armadilha",
-          "meaning": "cidade pequena / povoado",
-          "tip": "Pueblo = cidadezinha. Em PT-BR, povo é a população (\"gente\")."
-        },
-        {
-          "es": "zapatillas",
-          "kind": "armadilha",
-          "meaning": "tênis",
-          "tip": "Zapatillas = tênis (e pantufas). Sapatilha de balé é \"bailarinas\"."
-        },
-        {
-          "es": "camiseta",
-          "kind": "igual",
-          "meaning": "camiseta",
-          "tip": "Mesma palavra, mesmo sentido."
+          "speaker": "Lu",
+          "es": "¿Se puede ir sin entrada?",
+          "pt": "Dá para ir sem ingresso?"
         }
-      ]
+      ],
+      "speaker": "Lino",
+      "pt": "Não, tem que comprar o ingresso antes pela internet. A lotação é limitada.",
+      "options": [
+        "No, hay que comprar la entrada antes por internet. El aforo es limitado.",
+        "Ropa que puedas tirar después, y gafas de natación.",
+        "¿Qué me pongo?"
+      ],
+      "correct": 0,
+      "explanation": "Lino diz: \"No, hay que comprar la entrada antes por internet. El aforo es limitado.\" = \"Não, tem que comprar o ingresso antes pela internet. A lotação é limitada.\"."
     },
     {
       "type": "choice",
@@ -188,18 +177,6 @@
       ],
       "correct": 0,
       "explanation": "Os tomates mancham tudo."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Después nos limpian con una ___.\" (mangueira)",
-      "options": [
-        "manguera",
-        "mangueira",
-        "mango"
-      ],
-      "correct": 0,
-      "explanation": "Manguera = mangueira."
     },
     {
       "type": "boss",

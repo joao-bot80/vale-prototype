@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la ambulancia",
+          "pt": "a ambulância",
+          "emoji": "🚑"
+        },
+        {
+          "es": "el fuego",
+          "pt": "o fogo",
+          "emoji": "🔥"
+        },
+        {
+          "es": "¡Socorro!",
+          "pt": "Socorro!",
+          "emoji": "🆘"
+        },
+        {
+          "es": "herido",
+          "pt": "ferido",
+          "emoji": "🤕"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"No cuelgue\" significa:",
@@ -85,7 +111,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "embarazo",
@@ -112,54 +138,37 @@
           "tip": "Igual."
         },
         {
-          "es": "mareado",
-          "kind": "quase",
-          "meaning": "tonto / zonzo",
-          "tip": "Mareado = tonto, zonzo, e também enjoado, como em português."
-        },
-        {
-          "es": "desmayarse",
-          "kind": "quase",
-          "meaning": "desmaiar",
-          "tip": "Se ha desmayado."
-        },
-        {
           "es": "respirar",
           "kind": "igual",
           "meaning": "respirar",
           "tip": "¿Respira?"
-        },
-        {
-          "es": "quemadura",
-          "kind": "quase",
-          "meaning": "queimadura",
-          "tip": "Quemarse = queimar-se."
-        },
-        {
-          "es": "incendio",
-          "kind": "quase",
-          "meaning": "incêndio",
-          "tip": "Bomberos = bombeiros."
-        },
-        {
-          "es": "socorro",
-          "kind": "quase",
-          "meaning": "socorro",
-          "tip": "¡Socorro!"
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Estoy mareada\" significa:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "Mi vecino se ha caído y no puede levantarse. Sangra por la cabeza.",
+          "pt": "Meu vizinho caiu e não consegue se levantar. Está sangrando na cabeça."
+        },
+        {
+          "speaker": "Operador",
+          "es": "¿Cuál es la dirección exacta?",
+          "pt": "Qual é o endereço exato?"
+        }
+      ],
+      "speaker": "Lu",
+      "pt": "Rua del Pez, número dez, segundo andar, porta da esquerda, em Madrid.",
       "options": [
-        "Estou tonta / zonza",
-        "Estou no mar",
-        "Estou maravilhada"
+        "Calle del Pez, número diez, segundo izquierda, en Madrid.",
+        "De acuerdo. Estoy con él.",
+        "Le envío una ambulancia. No lo mueva y no cuelgue."
       ],
       "correct": 0,
-      "explanation": "Mareado = tonto, enjoado."
+      "explanation": "Lu diz: \"Calle del Pez, número diez, segundo izquierda, en Madrid.\" = \"Rua del Pez, número dez, segundo andar, porta da esquerda, em Madrid.\"."
     },
     {
       "type": "build",
@@ -187,18 +196,6 @@
       ],
       "correct": 0,
       "explanation": "\"Segundo izquierda\" = 2º andar, porta esquerda."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"¡Hay un incendio! Llama a los ___.\"",
-      "options": [
-        "bomberos",
-        "bombeiros",
-        "fuegos"
-      ],
-      "correct": 0,
-      "explanation": "Bomberos = bombeiros."
     },
     {
       "type": "boss",

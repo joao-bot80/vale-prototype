@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el paraguas",
+          "pt": "o guarda-chuva",
+          "emoji": "☂️"
+        },
+        {
+          "es": "la lluvia",
+          "pt": "a chuva",
+          "emoji": "🌧️"
+        },
+        {
+          "es": "el chubasquero",
+          "pt": "a capa de chuva",
+          "emoji": "🧥"
+        },
+        {
+          "es": "las botas de agua",
+          "pt": "as galochas",
+          "emoji": "🥾"
+        },
+        {
+          "es": "el charco",
+          "pt": "a poça",
+          "emoji": "💧"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Llovizna\" é:",
@@ -84,71 +115,29 @@
       "explanation": "O galego tem um vocabulário enorme para a chuva."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "acordar",
-          "kind": "armadilha",
-          "meaning": "combinar, concordar",
-          "tip": "Acordar = combinar. Em PT-BR, acordar é despertar (\"despertarse\")."
+          "speaker": "Lino",
+          "es": "Bienvenida a Galicia. Aquí hay mil palabras para la lluvia.",
+          "pt": "Bem-vinda à Galícia. Aqui há mil palavras para a chuva."
         },
         {
-          "es": "tormenta",
-          "kind": "igual",
-          "meaning": "tormenta / tempestade",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "temperatura",
-          "kind": "igual",
-          "meaning": "temperatura",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "aguacero",
-          "kind": "quase",
-          "meaning": "aguaceiro",
-          "tip": "Chuva forte."
-        },
-        {
-          "es": "humedad",
-          "kind": "quase",
-          "meaning": "umidade",
-          "tip": "Humedad = umidade."
-        },
-        {
-          "es": "botas de agua",
-          "kind": "quase",
-          "meaning": "galochas",
-          "tip": "Botas de borracha."
-        },
-        {
-          "es": "charco",
-          "kind": "quase",
-          "meaning": "poça",
-          "tip": "Charco = poça (em português \"charco\" também)."
-        },
-        {
-          "es": "empapado",
-          "kind": "quase",
-          "meaning": "encharcado",
-          "tip": "Estoy empapada."
-        },
-        {
-          "es": "niebla",
-          "kind": "quase",
-          "meaning": "neblina / névoa",
-          "tip": "Niebla = neblina / névoa."
-        },
-        {
-          "es": "verde",
-          "kind": "igual",
-          "meaning": "verde",
-          "tip": "Igual!"
+          "speaker": "Lu",
+          "es": "¿Ah, sí? ¿Como cuáles?",
+          "pt": "Ah, é? Como quais?"
         }
-      ]
+      ],
+      "speaker": "Lino",
+      "pt": "Em castelhano dizemos garoa, pancada de chuva, aguaceiro... e em galego, muitas mais.",
+      "options": [
+        "Pues necesito unas botas de agua.",
+        "En castellano decimos llovizna, chaparrón, aguacero... y en gallego, muchas más.",
+        "Y un chubasquero. ¡Por eso todo está tan verde!"
+      ],
+      "correct": 1,
+      "explanation": "Lino diz: \"En castellano decimos llovizna, chaparrón, aguacero... y en gallego, muchas más.\" = \"Em castelhano dizemos garoa, pancada de chuva, aguaceiro... e em galego, muitas mais.\"."
     },
     {
       "type": "choice",
@@ -188,18 +177,6 @@
       ],
       "correct": 0,
       "explanation": "Chubasquero = capa de chuva."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Hay mucha ___, no se ve nada.\" (névoa)",
-      "options": [
-        "niebla",
-        "névoa",
-        "nube"
-      ],
-      "correct": 0,
-      "explanation": "Niebla = névoa (neblina é uma névoa mais fraca). \"Névoa\" é português."
     },
     {
       "type": "boss",

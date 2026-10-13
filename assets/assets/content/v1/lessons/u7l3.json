@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la toalla",
+          "pt": "a toalha",
+          "emoji": "🏖️"
+        },
+        {
+          "es": "las chanclas",
+          "pt": "os chinelos",
+          "emoji": "🩴"
+        },
+        {
+          "es": "el bañador",
+          "pt": "o maiô / a sunga",
+          "emoji": "🩱"
+        },
+        {
+          "es": "la sombrilla",
+          "pt": "o guarda-sol",
+          "emoji": "⛱️"
+        },
+        {
+          "es": "la ola",
+          "pt": "a onda",
+          "emoji": "🌊"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "O que é um \"chiringuito\"?",
@@ -86,7 +117,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "nadar",
@@ -113,54 +144,37 @@
           "tip": "Não é \"olá\"! Olá = \"hola\"."
         },
         {
-          "es": "bronceado",
-          "kind": "quase",
-          "meaning": "bronzeado",
-          "tip": "Bronceado = bronzeado."
-        },
-        {
           "es": "sombrilla",
           "kind": "armadilha",
           "meaning": "guarda-sol",
           "tip": "Sombrilla = guarda-sol. Em PT-BR, sombrinha é o guarda-chuva pequeno (\"paraguas\")."
-        },
-        {
-          "es": "mar",
-          "kind": "igual",
-          "meaning": "mar",
-          "tip": "Mesma palavra."
-        },
-        {
-          "es": "crema",
-          "kind": "quase",
-          "meaning": "creme",
-          "tip": "Protetor solar = \"crema solar\"."
-        },
-        {
-          "es": "cangrejo",
-          "kind": "quase",
-          "meaning": "caranguejo",
-          "tip": "Quase igual."
-        },
-        {
-          "es": "verano",
-          "kind": "quase",
-          "meaning": "verão",
-          "tip": "Verano = verão."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Paseo marítimo\" significa:",
-      "options": [
-        "Calçadão da praia",
-        "Passeio de barco",
-        "Porto de navios"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Camarera",
+          "es": "Hola, chicos. ¿Queréis un espeto de sardinas?",
+          "pt": "Oi, pessoal. Querem um espeto de sardinhas?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Sí, uno para compartir. Y dos tintos de verano.",
+          "pt": "Sim, um para dividir. E dois tintos de verão."
+        }
       ],
-      "correct": 0,
-      "explanation": "O \"paseo marítimo\" é a avenida/calçadão à beira-mar."
+      "speaker": "Camarera",
+      "pt": "Com limão ou com soda?",
+      "options": [
+        "Hay una farmacia en el paseo marítimo.",
+        "Con limón, por favor. ¿Dónde puedo comprar crema solar?",
+        "¿Con limón o con gaseosa?"
+      ],
+      "correct": 2,
+      "explanation": "Camarera diz: \"¿Con limón o con gaseosa?\" = \"Com limão ou com soda?\"."
     },
     {
       "type": "build",
@@ -191,18 +205,6 @@
       ],
       "correct": 0,
       "explanation": "Na Espanha, protetor solar se compra no supermercado ou na farmácia."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"¡Cuidado con las ___! El mar está movido.\"",
-      "options": [
-        "olas",
-        "holas",
-        "ondas"
-      ],
-      "correct": 0,
-      "explanation": "\"Ola\" = onda. \"Hola\" = olá."
     },
     {
       "type": "boss",

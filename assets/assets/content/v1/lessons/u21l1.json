@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el horno",
+          "pt": "o forno",
+          "emoji": "🔥"
+        },
+        {
+          "es": "el garbanzo",
+          "pt": "o grão-de-bico",
+          "emoji": "🫘"
+        },
+        {
+          "es": "la cazuela",
+          "pt": "a panela de barro",
+          "emoji": "🍲"
+        },
+        {
+          "es": "la morcilla",
+          "pt": "a morcela",
+          "emoji": "🌭"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"¿Qué lleva?\" sobre um prato significa:",
@@ -80,71 +106,29 @@
       "explanation": "Ingredientes típicos do arroz al horno."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "costilla",
-          "kind": "quase",
-          "meaning": "costela",
-          "tip": "Costilla de cerdo."
+          "speaker": "Lu",
+          "es": "¿Qué lleva?",
+          "pt": "O que leva?"
         },
         {
-          "es": "morcilla",
-          "kind": "quase",
-          "meaning": "morcela",
-          "tip": "Linguiça de sangue."
-        },
-        {
-          "es": "lenteja",
-          "kind": "quase",
-          "meaning": "lentilha",
-          "tip": "Lenteja = lentilha."
-        },
-        {
-          "es": "olla",
-          "kind": "armadilha",
-          "meaning": "panela",
-          "tip": "Olla = panela. \"Olha!\" é \"¡mira!\"."
-        },
-        {
-          "es": "barro",
-          "kind": "igual",
-          "meaning": "barro / argila",
-          "tip": "Barro = barro / argila (\"cazuela de barro\")."
-        },
-        {
-          "es": "horno",
-          "kind": "quase",
-          "meaning": "forno",
-          "tip": "Al horno = assado no forno."
-        },
-        {
-          "es": "cabeza de ajos",
-          "kind": "quase",
-          "meaning": "cabeça de alho",
-          "tip": "Diente de ajo = dente de alho."
-        },
-        {
-          "es": "cocido",
-          "kind": "quase",
-          "meaning": "cozido",
-          "tip": "Cocido = cozido, e também o prato madrilenho."
-        },
-        {
-          "es": "sobras",
-          "kind": "quase",
-          "meaning": "sobras",
-          "tip": "De ayer."
-        },
-        {
-          "es": "precalentar",
-          "kind": "quase",
-          "meaning": "preaquecer",
-          "tip": "Precalienta el horno."
+          "speaker": "Lino",
+          "es": "Costilla de cerdo, morcilla, garbanzos, patata, tomate y una cabeza de ajos.",
+          "pt": "Costela de porco, morcela, grão-de-bico, batata, tomate e uma cabeça de alho."
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "E se faz na paella?",
+      "options": [
+        "¿Y se hace en la paella?",
+        "Entonces compramos los garbanzos ya cocidos para ir más rápido.",
+        "No, en una cazuela de barro, dentro del horno."
+      ],
+      "correct": 0,
+      "explanation": "Lu diz: \"¿Y se hace en la paella?\" = \"E se faz na paella?\"."
     },
     {
       "type": "choice",
@@ -185,18 +169,6 @@
       ],
       "correct": 0,
       "explanation": "A cazuela de barro vai direto ao forno."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Compramos los garbanzos ya ___.\" (cozidos)",
-      "options": [
-        "cocidos",
-        "cozidos",
-        "cocidas"
-      ],
-      "correct": 0,
-      "explanation": "\"Cocido\" = cozido; concorda com \"los garbanzos\": cocidos."
     },
     {
       "type": "boss",

@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el peregrino",
+          "pt": "o peregrino",
+          "emoji": "🚶"
+        },
+        {
+          "es": "la mochila",
+          "pt": "a mochila",
+          "emoji": "🎒"
+        },
+        {
+          "es": "la concha",
+          "pt": "a concha",
+          "emoji": "🐚"
+        },
+        {
+          "es": "las botas",
+          "pt": "as botas",
+          "emoji": "🥾"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Tengo ampollas\" significa:",
@@ -84,7 +110,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "peregrino",
@@ -105,40 +131,10 @@
           "tip": "Ampolla = bolha no pé. Em PT-BR, ampola é o frasquinho de remédio."
         },
         {
-          "es": "albergue",
-          "kind": "quase",
-          "meaning": "albergue",
-          "tip": "Para peregrinos."
-        },
-        {
-          "es": "bastón",
-          "kind": "quase",
-          "meaning": "cajado / bastão",
-          "tip": "Bastón = cajado / bastão."
-        },
-        {
-          "es": "concha",
-          "kind": "quase",
-          "meaning": "concha (vieira)",
-          "tip": "Símbolo do Caminho."
-        },
-        {
           "es": "etapa",
           "kind": "igual",
           "meaning": "etapa",
           "tip": "Cada dia de caminhada."
-        },
-        {
-          "es": "descansar",
-          "kind": "igual",
-          "meaning": "descansar",
-          "tip": "Igual!"
-        },
-        {
-          "es": "ganarse",
-          "kind": "quase",
-          "meaning": "merecer",
-          "tip": "Ganarse = merecer (\"te lo has ganado\"), e também ganhar."
         },
         {
           "es": "zueco",
@@ -149,16 +145,29 @@
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Te lo has ganado\" significa:",
-      "options": [
-        "Você mereceu",
-        "Você ganhou na loteria",
-        "Você ganhou peso"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lino",
+          "es": "¡Enhorabuena, peregrina! ¿Tienes la credencial sellada?",
+          "pt": "Parabéns, peregrina! Tem a credencial carimbada?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Sí, dos sellos al día, como piden.",
+          "pt": "Sim, dois carimbos por dia, como pedem."
+        }
       ],
-      "correct": 0,
-      "explanation": "Ganarse algo = merecer."
+      "speaker": "Lino",
+      "pt": "Então te dão a Compostela. Tem que fazer pelo menos os últimos cem quilômetros a pé.",
+      "options": [
+        "Ahora, a descansar. ¡Te lo has ganado!",
+        "Tengo ampollas en los pies, pero estoy feliz.",
+        "Entonces te dan la Compostela. Hay que hacer al menos los últimos cien kilómetros a pie."
+      ],
+      "correct": 2,
+      "explanation": "Lino diz: \"Entonces te dan la Compostela. Hay que hacer al menos los últimos cien kilómetros a pie.\" = \"Então te dão a Compostela. Tem que fazer pelo menos os últimos cem quilômetros a pé.\"."
     },
     {
       "type": "build",
@@ -188,18 +197,6 @@
       ],
       "correct": 0,
       "explanation": "Ampollas: o terror do peregrino."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Dormimos en un ___ de peregrinos.\"",
-      "options": [
-        "albergue",
-        "alberge",
-        "albergaria"
-      ],
-      "correct": 0,
-      "explanation": "Albergue = albergue de peregrinos. (Hostal = pousada simples com quarto privado; não é a mesma coisa.)"
     },
     {
       "type": "boss",

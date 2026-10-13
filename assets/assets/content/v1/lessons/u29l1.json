@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el álbum",
+          "pt": "o álbum",
+          "emoji": "📔"
+        },
+        {
+          "es": "la foto",
+          "pt": "a foto",
+          "emoji": "📷"
+        },
+        {
+          "es": "el recuerdo",
+          "pt": "a lembrança",
+          "emoji": "🎁"
+        },
+        {
+          "es": "echar de menos",
+          "pt": "sentir saudade",
+          "emoji": "💭"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"¿Te acuerdas?\" significa:",
@@ -82,71 +108,29 @@
       "explanation": "Revisão: hacer el vermut (u13)."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "recuerdo",
-          "kind": "quase",
-          "meaning": "lembrança / souvenir",
-          "tip": "Recuerdo = lembrança / souvenir. \"Recuerdos\" também = abraços."
+          "speaker": "Lu",
+          "es": "¡Qué vergüenza! No sabía ni pedir una caña.",
+          "pt": "Que vergonha! Eu não sabia nem pedir uma cerveja."
         },
         {
-          "es": "memoria",
-          "kind": "quase",
-          "meaning": "memória",
-          "tip": "Memoria = memória."
-        },
-        {
-          "es": "álbum",
-          "kind": "quase",
-          "meaning": "álbum",
-          "tip": "Acento no á."
-        },
-        {
-          "es": "orgullosa",
-          "kind": "quase",
-          "meaning": "orgulhosa",
-          "tip": "Estoy orgullosa."
-        },
-        {
-          "es": "raro",
-          "kind": "armadilha",
-          "meaning": "estranho",
-          "tip": "Raro = estranho. Em PT-BR, raro é incomum, difícil de achar."
-        },
-        {
-          "es": "local",
-          "kind": "igual",
-          "meaning": "local / morador",
-          "tip": "Como una local."
-        },
-        {
-          "es": "principiante",
-          "kind": "quase",
-          "meaning": "iniciante",
-          "tip": "Nível principiante."
-        },
-        {
-          "es": "avanzar",
-          "kind": "quase",
-          "meaning": "avançar",
-          "tip": "Avanzar mucho."
-        },
-        {
-          "es": "felicidad",
-          "kind": "quase",
-          "meaning": "felicidade",
-          "tip": "-dad = -dade."
-        },
-        {
-          "es": "apodo",
-          "kind": "armadilha",
-          "meaning": "apelido (alcunha)",
-          "tip": "Apodo = apelido (em Cádiz todo mundo tem um!). Sobrenome é \"apellido\"."
+          "speaker": "Lino",
+          "es": "Y ahora pides el vermut en Barcelona como una local.",
+          "pt": "E agora você pede o vermute em Barcelona como uma local."
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "E já não confundo «exquisito» com «esquisito».",
+      "options": [
+        "Y ya no confundo «exquisito» con «esquisito».",
+        "¡Claro! Ahora sé leer un contrato sin miedo.",
+        "¿Te acuerdas de cuando buscabas piso?"
+      ],
+      "correct": 0,
+      "explanation": "Lu diz: \"Y ya no confundo «exquisito» con «esquisito».\" = \"E já não confundo «exquisito» com «esquisito».\"."
     },
     {
       "type": "choice",
@@ -188,18 +172,6 @@
       ],
       "correct": 0,
       "explanation": "Revisão: piso e contrato (u4, u22)."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Dale ___ a tu madre.\" (mande lembranças)",
-      "options": [
-        "recuerdos",
-        "recordaciones",
-        "lembranzas"
-      ],
-      "correct": 0,
-      "explanation": "\"Dar recuerdos\" = mandar lembranças."
     },
     {
       "type": "boss",

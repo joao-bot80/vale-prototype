@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el autobús",
+          "pt": "o ônibus",
+          "emoji": "🚌"
+        },
+        {
+          "es": "la parada",
+          "pt": "o ponto",
+          "emoji": "🚏"
+        },
+        {
+          "es": "el metro",
+          "pt": "o metrô",
+          "emoji": "🚇"
+        },
+        {
+          "es": "la tarjeta de transporte",
+          "pt": "o cartão de transporte",
+          "emoji": "💳"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Bájate en la última\" significa:",
@@ -84,71 +110,29 @@
       "explanation": "EMT = empresa de ônibus urbanos de Valencia. A linha 19 vai da Estació del Nord (Xàtiva) até a Malvarrosa."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "línea",
-          "kind": "quase",
-          "meaning": "linha",
-          "tip": "\"Í\" no lugar de \"inh\"."
+          "speaker": "Señor",
+          "es": "Puedes coger el autobús diecinueve de la EMT.",
+          "pt": "Você pode pegar o ônibus 19 da EMT."
         },
         {
-          "es": "abono",
-          "kind": "armadilha",
-          "meaning": "passe (de transporte)",
-          "tip": "Abono = passe (de transporte). Abono salarial (bônus) é \"paga extra\"."
-        },
-        {
-          "es": "metro",
-          "kind": "quase",
-          "meaning": "metrô",
-          "tip": "Metro = metrô."
-        },
-        {
-          "es": "máquina",
-          "kind": "igual",
-          "meaning": "máquina",
-          "tip": "Igualzinho!"
-        },
-        {
-          "es": "recargar",
-          "kind": "quase",
-          "meaning": "recarregar",
-          "tip": "Quase igual."
-        },
-        {
-          "es": "parada",
-          "kind": "quase",
-          "meaning": "ponto / parada",
-          "tip": "Ponto de ônibus = parada."
-        },
-        {
-          "es": "mala",
-          "kind": "armadilha",
-          "meaning": "má, ruim",
-          "tip": "Mala = má. Mala de viagem é \"maleta\"."
-        },
-        {
-          "es": "billetera",
-          "kind": "armadilha",
-          "meaning": "carteira",
-          "tip": "Não é bilheteria! Bilheteria = \"taquilla\"."
-        },
-        {
-          "es": "retraso",
-          "kind": "quase",
-          "meaning": "atraso",
-          "tip": "Retraso = atraso (retrasar = atrasar)."
-        },
-        {
-          "es": "transbordo",
-          "kind": "quase",
-          "meaning": "baldeação",
-          "tip": "Fazer transbordo = trocar de linha."
+          "speaker": "Lu",
+          "es": "¿Dónde puedo recargar la tarjeta?",
+          "pt": "Onde posso recarregar o cartão?"
         }
-      ]
+      ],
+      "speaker": "Señor",
+      "pt": "Nas máquinas do metrô ou numa tabacaria. É muito fácil.",
+      "options": [
+        "¿Y cuántas paradas son?",
+        "En las máquinas del metro o en un estanco. Es muy fácil.",
+        "Bastantes. Bájate en la última, en la Malvarrosa."
+      ],
+      "correct": 1,
+      "explanation": "Señor diz: \"En las máquinas del metro o en un estanco. Es muy fácil.\" = \"Nas máquinas do metrô ou numa tabacaria. É muito fácil.\"."
     },
     {
       "type": "choice",
@@ -191,18 +175,6 @@
       ],
       "correct": 0,
       "explanation": "O cartão SUMA se recarrega nas máquinas do metrô, em estancos (tabacarias) e quiosques."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"¿Cuántas ___ son?\" (paradas)",
-      "options": [
-        "paradas",
-        "parados",
-        "pares"
-      ],
-      "correct": 0,
-      "explanation": "\"Parada\" = ponto/estação."
     },
     {
       "type": "boss",

@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la bici",
+          "pt": "a bike",
+          "emoji": "🚲"
+        },
+        {
+          "es": "el candado",
+          "pt": "o cadeado",
+          "emoji": "🔒"
+        },
+        {
+          "es": "el carril bici",
+          "pt": "a ciclovia",
+          "emoji": "🛣️"
+        },
+        {
+          "es": "alquilar",
+          "pt": "alugar",
+          "emoji": "🏷️"
+        },
+        {
+          "es": "la rueda",
+          "pt": "a roda",
+          "emoji": "🛞"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Carril bici\" é:",
@@ -84,7 +115,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "rodilla",
@@ -105,60 +136,43 @@
           "tip": "Peatón = pedestre. Em PT-BR, peão é o do xadrez ou da obra (\"peón\")."
         },
         {
-          "es": "avenida",
-          "kind": "igual",
-          "meaning": "avenida",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "ciclista",
-          "kind": "igual",
-          "meaning": "ciclista",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
           "es": "inundación",
           "kind": "quase",
           "meaning": "inundação",
           "tip": "-ción = -ção."
         },
         {
-          "es": "salada",
-          "kind": "armadilha",
-          "meaning": "salgada",
-          "tip": "Salada = salgada (\"el agua está salada\"). Salada (prato) é \"ensalada\"."
-        },
-        {
           "es": "velocidad",
           "kind": "quase",
           "meaning": "velocidade",
           "tip": "-dad = -dade."
-        },
-        {
-          "es": "pedalear",
-          "kind": "quase",
-          "meaning": "pedalar",
-          "tip": "Quase igual."
-        },
-        {
-          "es": "sillín",
-          "kind": "quase",
-          "meaning": "selim",
-          "tip": "O banco da bici."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Ponte el casco\" significa:",
-      "options": [
-        "Põe o capacete",
-        "Põe o casaco",
-        "Põe o calçado"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lino",
+          "es": "Antes aquí pasaba el río Turia. Lo desviaron y ahora es un jardín.",
+          "pt": "Antes aqui passava o rio Turia. Desviaram o rio e agora é um jardim."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Qué buena idea! ¿Podemos ir en bici?",
+          "pt": "Que boa ideia! Podemos ir de bike?"
+        }
       ],
-      "correct": 0,
-      "explanation": "Casco = capacete."
+      "speaker": "Lino",
+      "pt": "Claro. Tem ciclovia e você pode alugar uma no Valenbisi.",
+      "options": [
+        "Me pongo el casco y vamos hasta la Ciudad de las Artes.",
+        "Claro. Hay carril bici y puedes alquilar una con Valenbisi.",
+        "¡Cuidado con los peatones!"
+      ],
+      "correct": 1,
+      "explanation": "Lino diz: \"Claro. Hay carril bici y puedes alquilar una con Valenbisi.\" = \"Claro. Tem ciclovia e você pode alugar uma no Valenbisi.\"."
     },
     {
       "type": "build",
@@ -188,18 +202,6 @@
       ],
       "correct": 0,
       "explanation": "Valenbisi é o sistema público de bicicletas de Valencia."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Toca el ___ para avisar.\" (campainha)",
-      "options": [
-        "timbre",
-        "sino",
-        "tímpano"
-      ],
-      "correct": 0,
-      "explanation": "\"Timbre\" = campainha."
     },
     {
       "type": "boss",

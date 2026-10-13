@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la butaca",
+          "pt": "a poltrona",
+          "emoji": "💺"
+        },
+        {
+          "es": "la película",
+          "pt": "o filme",
+          "emoji": "🎬"
+        },
+        {
+          "es": "las palomitas",
+          "pt": "a pipoca",
+          "emoji": "🍿"
+        },
+        {
+          "es": "la alfombra roja",
+          "pt": "o tapete vermelho",
+          "emoji": "🟥"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Las entradas vuelan\" significa:",
@@ -82,71 +108,29 @@
       "explanation": "Um dos festivais de cinema mais importantes da Europa."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "festival",
-          "kind": "igual",
-          "meaning": "festival",
-          "tip": "Igual!"
+          "speaker": "Lino",
+          "es": "Es el Festival de Cine de San Sebastián. Se celebra cada septiembre.",
+          "pt": "É o Festival de Cinema de San Sebastián. Acontece todo setembro."
         },
         {
-          "es": "alfombra roja",
-          "kind": "quase",
-          "meaning": "tapete vermelho",
-          "tip": "Alfombra = tapete."
-        },
-        {
-          "es": "estreno",
-          "kind": "quase",
-          "meaning": "estreia",
-          "tip": "Estreno = estreia (estrenar = estrear)."
-        },
-        {
-          "es": "actriz",
-          "kind": "quase",
-          "meaning": "atriz",
-          "tip": "Actor = ator."
-        },
-        {
-          "es": "director",
-          "kind": "quase",
-          "meaning": "diretor (de cinema)",
-          "tip": "Director = diretor: com c."
-        },
-        {
-          "es": "subtítulos",
-          "kind": "armadilha",
-          "meaning": "legendas",
-          "tip": "Subtítulos = legendas. Em PT-BR, subtítulo é a linha abaixo do título."
-        },
-        {
-          "es": "versión original",
-          "kind": "quase",
-          "meaning": "versão original",
-          "tip": "Sin doblar."
-        },
-        {
-          "es": "doblaje",
-          "kind": "quase",
-          "meaning": "dublagem",
-          "tip": "Doblaje = dublagem. \"Película doblada\" = filme dublado."
-        },
-        {
-          "es": "actor",
-          "kind": "quase",
-          "meaning": "ator",
-          "tip": "Actor = ator."
-        },
-        {
-          "es": "cámara",
-          "kind": "quase",
-          "meaning": "câmera",
-          "tip": "Cámara = câmera."
+          "speaker": "Lu",
+          "es": "¿Cuál es el premio principal?",
+          "pt": "Qual é o prêmio principal?"
         }
-      ]
+      ],
+      "speaker": "Lino",
+      "pt": "A Concha de Ouro, para o melhor filme.",
+      "options": [
+        "¿Podemos ver alguna película?",
+        "La Concha de Oro, a la mejor película.",
+        "Sí, se venden entradas para el público. Pero vuelan."
+      ],
+      "correct": 1,
+      "explanation": "Lino diz: \"La Concha de Oro, a la mejor película.\" = \"A Concha de Ouro, para o melhor filme.\"."
     },
     {
       "type": "choice",
@@ -187,18 +171,6 @@
       ],
       "correct": 0,
       "explanation": "Compre assim que abrir a venda."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Hoy es el ___ de la película.\" (estreia)",
-      "options": [
-        "estreno",
-        "estreia",
-        "estrecho"
-      ],
-      "correct": 0,
-      "explanation": "Estreno = estreia."
     },
     {
       "type": "boss",

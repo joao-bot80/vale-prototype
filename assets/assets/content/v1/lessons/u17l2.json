@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el examen",
+          "pt": "a prova",
+          "emoji": "📝"
+        },
+        {
+          "es": "aprobar",
+          "pt": "passar (na prova)",
+          "emoji": "✅"
+        },
+        {
+          "es": "suspender",
+          "pt": "ser reprovado",
+          "emoji": "❌"
+        },
+        {
+          "es": "la nota",
+          "pt": "a nota",
+          "emoji": "💯"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"¿El certificado caduca?\" significa:",
@@ -83,71 +109,29 @@
       "explanation": "As quatro habilidades."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "inscribirse",
-          "kind": "quase",
-          "meaning": "inscrever-se",
-          "tip": "Inscripción = inscrição."
+          "speaker": "Empleado",
+          "es": "Muy bien. Puedes hacerlo en la web del Instituto Cervantes y elegir un centro de examen.",
+          "pt": "Muito bem. Pode fazer no site do Instituto Cervantes e escolher um centro de prova."
         },
         {
-          "es": "caducar",
-          "kind": "armadilha",
-          "meaning": "vencer / expirar",
-          "tip": "Caducar = vencer (documento). Em PT-BR, caducar é ficar senil."
-        },
-        {
-          "es": "convocatoria",
-          "kind": "quase",
-          "meaning": "data / edição da prova",
-          "tip": "Convocatoria = edição / data da prova, como uma convocatória."
-        },
-        {
-          "es": "calificación",
-          "kind": "armadilha",
-          "meaning": "nota",
-          "tip": "Calificación = nota. Em PT-BR, qualificação é preparo profissional (\"cualificación\")."
-        },
-        {
-          "es": "apto",
-          "kind": "quase",
-          "meaning": "aprovado (apto)",
-          "tip": "Apto / no apto."
-        },
-        {
-          "es": "redacción",
-          "kind": "quase",
-          "meaning": "redação",
-          "tip": "Redacción = redação: só muda a grafia."
-        },
-        {
-          "es": "comprensión",
-          "kind": "quase",
-          "meaning": "compreensão",
-          "tip": "Sem acento no ã."
-        },
-        {
-          "es": "oral",
-          "kind": "igual",
-          "meaning": "oral",
-          "tip": "Igual!"
-        },
-        {
-          "es": "examinador",
-          "kind": "igual",
-          "meaning": "examinador",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "asignatura",
-          "kind": "armadilha",
-          "meaning": "matéria (escolar)",
-          "tip": "Asignatura = matéria. Assinatura é \"firma\"."
+          "speaker": "Lu",
+          "es": "¿Qué partes tiene el examen?",
+          "pt": "Que partes a prova tem?"
         }
-      ]
+      ],
+      "speaker": "Empleado",
+      "pt": "Compreensão de leitura, compreensão auditiva, expressão escrita e expressão oral.",
+      "options": [
+        "Comprensión de lectura, comprensión auditiva, expresión escrita y expresión oral.",
+        "No, el DELE no caduca. Es para toda la vida.",
+        "¿El certificado caduca?"
+      ],
+      "correct": 0,
+      "explanation": "Empleado diz: \"Comprensión de lectura, comprensión auditiva, expresión escrita y expresión oral.\" = \"Compreensão de leitura, compreensão auditiva, expressão escrita e expressão oral.\"."
     },
     {
       "type": "choice",
@@ -189,18 +173,6 @@
       ],
       "correct": 0,
       "explanation": "Diferente do CCSE, cujo resultado vale 4 anos para a nacionalidade."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Me presento a la ___ de mayo.\" (edição da prova)",
-      "options": [
-        "convocatoria",
-        "convocación",
-        "convite"
-      ],
-      "correct": 0,
-      "explanation": "\"Convocatoria\" = data/edição do exame."
     },
     {
       "type": "boss",

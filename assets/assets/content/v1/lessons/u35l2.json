@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el cartel",
+          "pt": "a placa",
+          "emoji": "🪧"
+        },
+        {
+          "es": "la calle",
+          "pt": "a rua",
+          "emoji": "🛣️"
+        },
+        {
+          "es": "el metro",
+          "pt": "o metrô",
+          "emoji": "🚇"
+        },
+        {
+          "es": "la salida",
+          "pt": "a saída",
+          "emoji": "🚪"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"La salida\" numa placa é:",
@@ -82,71 +108,29 @@
       "explanation": "O euskera é uma língua isolada."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "traducción",
-          "kind": "quase",
-          "meaning": "tradução",
-          "tip": "-ción = -ção."
+          "speaker": "Lino",
+          "es": "Es euskera, la lengua vasca. Pero siempre está también en castellano.",
+          "pt": "É euskera, a língua basca. Mas sempre está também em castelhano."
         },
         {
-          "es": "vasco",
-          "kind": "quase",
-          "meaning": "basco (pessoa)",
-          "tip": "Vasca no feminino."
-        },
-        {
-          "es": "mitad",
-          "kind": "quase",
-          "meaning": "metade",
-          "tip": "Sem acento."
-        },
-        {
-          "es": "cartel",
-          "kind": "armadilha",
-          "meaning": "cartaz / placa",
-          "tip": "Cartel = cartaz. Em PT-BR, cartel é o do crime ou de empresas."
-        },
-        {
-          "es": "bilingüe",
-          "kind": "quase",
-          "meaning": "bilíngue",
-          "tip": "Com trema."
-        },
-        {
-          "es": "lengua",
-          "kind": "quase",
-          "meaning": "língua (idioma)",
-          "tip": "Lengua = língua (idioma e a do corpo)."
-        },
-        {
-          "es": "latín",
-          "kind": "quase",
-          "meaning": "latim",
-          "tip": "Acento no í."
-        },
-        {
-          "es": "amable",
-          "kind": "quase",
-          "meaning": "gentil",
-          "tip": "Amable = gentil, amável."
-        },
-        {
-          "es": "aseos",
-          "kind": "armadilha",
-          "meaning": "banheiros (públicos)",
-          "tip": "Também servicios."
-        },
-        {
-          "es": "viajero",
-          "kind": "quase",
-          "meaning": "viajante",
-          "tip": "Viajero = viajante."
+          "speaker": "Lu",
+          "es": "¿Es parecido al español?",
+          "pt": "É parecido com o espanhol?"
         }
-      ]
+      ],
+      "speaker": "Lino",
+      "pt": "Nada. É uma língua muito antiga e não tem relação com o latim.",
+      "options": [
+        "Entonces leo la parte en castellano: «Salida».",
+        "Nada. Es una lengua muy antigua y no tiene relación con el latín.",
+        "Exacto. Y si quieres ser amable, aprende a decir gracias en euskera."
+      ],
+      "correct": 1,
+      "explanation": "Lino diz: \"Nada. Es una lengua muy antigua y no tiene relación con el latín.\" = \"Nada. É uma língua muito antiga e não tem relação com o latim.\"."
     },
     {
       "type": "choice",
@@ -188,18 +172,6 @@
       ],
       "correct": 0,
       "explanation": "Uma palavrinha em euskera é sempre bem recebida."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Mira el ___ del metro.\" (placa)",
-      "options": [
-        "cartel",
-        "cartaz",
-        "letreiro"
-      ],
-      "correct": 0,
-      "explanation": "Cartel = cartaz, placa. \"Letreiro\" é português."
     },
     {
       "type": "boss",

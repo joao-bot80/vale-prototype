@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la horchata",
+          "pt": "a horchata",
+          "emoji": "🥛"
+        },
+        {
+          "es": "la pajita",
+          "pt": "o canudo",
+          "emoji": "🥤"
+        },
+        {
+          "es": "el helado",
+          "pt": "o sorvete",
+          "emoji": "🍦"
+        },
+        {
+          "es": "la galleta",
+          "pt": "o biscoito",
+          "emoji": "🍪"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Mañana voy a volver\" significa:",
@@ -82,71 +108,29 @@
       "explanation": "A chufa é um tubérculo pequeno, cultivado na região de Valencia."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "azúcar",
-          "kind": "quase",
-          "meaning": "açúcar",
-          "tip": "Quase igual, com z."
+          "speaker": "Lu",
+          "es": "¡Vale! ¿Qué es exactamente la horchata?",
+          "pt": "Beleza! O que é exatamente a horchata?"
         },
         {
-          "es": "hielo",
-          "kind": "quase",
-          "meaning": "gelo",
-          "tip": "\"Hi\" no lugar de \"ge\"."
-        },
-        {
-          "es": "pajita",
-          "kind": "quase",
-          "meaning": "canudo",
-          "tip": "Pajita = canudo de bebida."
-        },
-        {
-          "es": "helado",
-          "kind": "armadilha",
-          "meaning": "sorvete",
-          "tip": "Helado = sorvete. Em PT-BR, gelado é só \"muito frio\" (\"frío\")."
-        },
-        {
-          "es": "grande",
-          "kind": "igual",
-          "meaning": "grande",
-          "tip": "Igualzinho!"
-        },
-        {
-          "es": "dulce",
-          "kind": "quase",
-          "meaning": "doce",
-          "tip": "Lembra \"doce\"."
-        },
-        {
-          "es": "mojar",
-          "kind": "quase",
-          "meaning": "molhar",
-          "tip": "Mojar = molhar: só muda a grafia."
-        },
-        {
-          "es": "canela",
-          "kind": "igual",
-          "meaning": "canela",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "bizcocho",
-          "kind": "armadilha",
-          "meaning": "bolo simples",
-          "tip": "Biscoito é \"galleta\"."
-        },
-        {
-          "es": "merienda",
-          "kind": "quase",
-          "meaning": "lanche da tarde",
-          "tip": "Lembra \"merenda\"."
+          "speaker": "Camarera",
+          "es": "Es una bebida fría hecha con chufa, agua y azúcar.",
+          "pt": "É uma bebida gelada feita com chufa, água e açúcar."
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Então uma horchata grande e dois fartons, por favor.",
+      "options": [
+        "Los fartons se mojan en la horchata. ¡Ya verás!",
+        "Pues una horchata grande y dos fartons, por favor.",
+        "¡Está buenísima! Mañana voy a volver."
+      ],
+      "correct": 1,
+      "explanation": "Lu diz: \"Pues una horchata grande y dos fartons, por favor.\" = \"Então uma horchata grande e dois fartons, por favor.\"."
     },
     {
       "type": "choice",
@@ -189,18 +173,6 @@
       ],
       "correct": 0,
       "explanation": "\"¡Ya verás!\" = você vai ver!"
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Esta tarde ___ a ir a la playa.\" (nós)",
-      "options": [
-        "vamos",
-        "voy",
-        "van"
-      ],
-      "correct": 0,
-      "explanation": "Nosotros vamos a + infinitivo."
     },
     {
       "type": "boss",

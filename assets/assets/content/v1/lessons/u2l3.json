@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la cuenta",
+          "pt": "a conta",
+          "emoji": "🧾"
+        },
+        {
+          "es": "la propina",
+          "pt": "a gorjeta",
+          "emoji": "💶"
+        },
+        {
+          "es": "la tarjeta",
+          "pt": "o cartão",
+          "emoji": "💳"
+        },
+        {
+          "es": "las monedas",
+          "pt": "as moedas",
+          "emoji": "🪙"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "Como pedir a conta num bar espanhol?",
@@ -82,71 +108,29 @@
       "spanish": "Son dieciocho euros con cincuenta."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "euro",
-          "kind": "igual",
-          "meaning": "euro",
-          "tip": "Igualzinho!"
+          "speaker": "Camarero",
+          "es": "Sí, ahora mismo. Son dieciocho euros con cincuenta.",
+          "pt": "Sim, agora mesmo. Dá dezoito euros e cinquenta."
         },
         {
-          "es": "barato",
-          "kind": "igual",
-          "meaning": "barato",
-          "tip": "Mesma palavra."
-        },
-        {
-          "es": "cobrar",
-          "kind": "igual",
-          "meaning": "cobrar",
-          "tip": "Mesma palavra e mesmo sentido."
-        },
-        {
-          "es": "cuenta",
-          "kind": "quase",
-          "meaning": "conta",
-          "tip": "O \"o\" vira \"ue\"."
-        },
-        {
-          "es": "cambio",
-          "kind": "armadilha",
-          "meaning": "troco / câmbio / mudança",
-          "tip": "Cambio = troco ou mudança. Em PT-BR, câmbio é a troca de moeda ou a marcha do carro."
-        },
-        {
-          "es": "tarjeta",
-          "kind": "armadilha",
-          "meaning": "cartão",
-          "tip": "Tarja (faixa) é \"franja\"."
-        },
-        {
-          "es": "cartón",
-          "kind": "armadilha",
-          "meaning": "papelão",
-          "tip": "Cartão é \"tarjeta\"."
-        },
-        {
-          "es": "suelto",
-          "kind": "armadilha",
-          "meaning": "trocado (moedas)",
-          "tip": "Suelto = trocado. Em PT-BR, solto é \"suelto\" no sentido de livre, desamarrado — nada a ver com moedas."
-        },
-        {
-          "es": "efectivo",
-          "kind": "armadilha",
-          "meaning": "dinheiro vivo",
-          "tip": "Efectivo = dinheiro vivo. Em PT-BR, efetivo é funcionário permanente ou algo eficaz."
-        },
-        {
-          "es": "precio",
-          "kind": "quase",
-          "meaning": "preço",
-          "tip": "Só muda a grafia: precio = preço."
+          "speaker": "Dani",
+          "es": "¿Puedo pagar con tarjeta?",
+          "pt": "Posso pagar com cartão?"
         }
-      ]
+      ],
+      "speaker": "Camarero",
+      "pt": "Claro, aqui está a maquininha.",
+      "options": [
+        "¡Vale! La próxima ronda la pago yo.",
+        "Hoy invito yo, Dani.",
+        "Claro, aquí tienes el datáfono."
+      ],
+      "correct": 2,
+      "explanation": "Camarero diz: \"Claro, aquí tienes el datáfono.\" = \"Claro, aqui está a maquininha.\"."
     },
     {
       "type": "choice",
@@ -188,18 +172,6 @@
       "correct": 0,
       "explanation": "\"Invitar\" no bar = pagar pra alguém. \"Te invito a una caña\" = te pago uma caña.",
       "spanish": "Hoy invito yo."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Son ___ euros. (15)",
-      "options": [
-        "quince",
-        "cincuenta",
-        "cinco"
-      ],
-      "correct": 0,
-      "explanation": "15 = quince, 50 = cincuenta, 5 = cinco."
     },
     {
       "type": "boss",

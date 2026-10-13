@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el ayuntamiento",
+          "pt": "a prefeitura",
+          "emoji": "🏛️"
+        },
+        {
+          "es": "la dirección",
+          "pt": "o endereço",
+          "emoji": "📍"
+        },
+        {
+          "es": "el sello",
+          "pt": "o carimbo",
+          "emoji": "🔖"
+        },
+        {
+          "es": "la ventanilla",
+          "pt": "o guichê",
+          "emoji": "🪟"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "O que é \"empadronarse\"?",
@@ -81,71 +107,29 @@
       "explanation": "Documentos típicos: identificação e prova da moradia (contrato ou escritura). Cada prefeitura pode pedir algo a mais."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "ayuntamiento",
-          "kind": "armadilha",
-          "meaning": "prefeitura",
-          "tip": "Não é \"ajuntamento\"!"
+          "speaker": "Lu",
+          "es": "Quiero empadronarme. Acabo de mudarme a este barrio.",
+          "pt": "Quero me registrar no padrão municipal. Acabei de me mudar para este bairro."
         },
         {
-          "es": "registro",
-          "kind": "igual",
-          "meaning": "registro",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "mudarse",
-          "kind": "quase",
-          "meaning": "mudar de casa",
-          "tip": "Mudarse = mudar de casa, igual. Mas mudar (trocar algo) é \"cambiar\"."
-        },
-        {
-          "es": "padrón",
-          "kind": "armadilha",
-          "meaning": "registro municipal",
-          "tip": "Padrón = cadastro de moradores. Em PT-BR, padrão é norma/modelo (\"estándar\")."
-        },
-        {
-          "es": "hoja",
-          "kind": "quase",
-          "meaning": "folha",
-          "tip": "\"H\" no lugar de \"f\": hoja, hacer, hablar."
-        },
-        {
-          "es": "domicilio",
-          "kind": "quase",
-          "meaning": "domicílio / endereço",
-          "tip": "Muito usado em formulários."
-        },
-        {
-          "es": "certificado",
-          "kind": "igual",
-          "meaning": "certificado",
-          "tip": "Igualzinho!"
-        },
-        {
-          "es": "funcionario",
-          "kind": "quase",
-          "meaning": "funcionário público",
-          "tip": "Em espanhol, quase sempre do governo."
-        },
-        {
-          "es": "abajo",
-          "kind": "quase",
-          "meaning": "embaixo",
-          "tip": "Abajo = embaixo / abaixo."
-        },
-        {
-          "es": "escritura",
-          "kind": "quase",
-          "meaning": "escritura (de imóvel)",
-          "tip": "Escritura = escritura de imóvel, e também escrita, como em português."
+          "speaker": "Funcionario",
+          "es": "¿Trae el pasaporte o la TIE y el contrato de alquiler?",
+          "pt": "Trouxe o passaporte ou a TIE e o contrato de aluguel?"
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Sim, aqui estão. O apartamento está no meu nome.",
+      "options": [
+        "Rellene esta hoja de inscripción y fírmela abajo.",
+        "Sí, aquí están. El piso está a mi nombre.",
+        "¿Me dan el certificado hoy?"
+      ],
+      "correct": 1,
+      "explanation": "Lu diz: \"Sí, aquí están. El piso está a mi nombre.\" = \"Sim, aqui estão. O apartamento está no meu nome.\"."
     },
     {
       "type": "choice",
@@ -189,18 +173,6 @@
       ],
       "correct": 0,
       "explanation": "\"Fírmela\" = assine-a."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Quiero ___ en Madrid.\" (me registrar no padrón)",
-      "options": [
-        "empadronarme",
-        "empadronar",
-        "padronizar"
-      ],
-      "correct": 0,
-      "explanation": "Verbo pronominal: empadronarse."
     },
     {
       "type": "boss",

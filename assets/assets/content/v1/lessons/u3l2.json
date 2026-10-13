@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el reloj",
+          "pt": "o relógio",
+          "emoji": "🕰️"
+        },
+        {
+          "es": "las campanadas",
+          "pt": "as badaladas",
+          "emoji": "🔔"
+        },
+        {
+          "es": "las uvas",
+          "pt": "as uvas",
+          "emoji": "🍇"
+        },
+        {
+          "es": "la medianoche",
+          "pt": "a meia-noite",
+          "emoji": "🌙"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "Como se diz \"marcar de se encontrar\" na Espanha?",
@@ -81,71 +107,29 @@
       "explanation": "\"Y media\" = e meia. \"Y cuarto\" = e quinze."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "minuto",
-          "kind": "igual",
-          "meaning": "minuto",
-          "tip": "Igualzinho!"
+          "speaker": "Lu",
+          "es": "Perdona, llego en cinco minutos. ¿Dónde quedamos?",
+          "pt": "Desculpa, chego em cinco minutos. Onde a gente se encontra?"
         },
         {
-          "es": "hora",
-          "kind": "igual",
-          "meaning": "hora",
-          "tip": "Mesma palavra."
-        },
-        {
-          "es": "tarde",
-          "kind": "igual",
-          "meaning": "tarde",
-          "tip": "Serve pra \"atrasado\" e pro período da tarde."
-        },
-        {
-          "es": "reloj",
-          "kind": "quase",
-          "meaning": "relógio",
-          "tip": "Termina em \"j\"."
-        },
-        {
-          "es": "cine",
-          "kind": "quase",
-          "meaning": "cinema",
-          "tip": "Os espanhóis dizem \"ir al cine\"."
-        },
-        {
-          "es": "once",
-          "kind": "quase",
-          "meaning": "onze",
-          "tip": "Quase igual: once = 11."
-        },
-        {
-          "es": "película",
-          "kind": "armadilha",
-          "meaning": "filme",
-          "tip": "Película = filme. Em PT-BR, película é a camada fina (do vidro, da pele)."
-        },
-        {
-          "es": "apenas",
-          "kind": "armadilha",
-          "meaning": "quase não",
-          "tip": "\"Só\" é \"solo\"."
-        },
-        {
-          "es": "doce",
-          "kind": "armadilha",
-          "meaning": "doze",
-          "tip": "O doce de comer é \"dulce\"."
-        },
-        {
-          "es": "constipado",
-          "kind": "armadilha",
-          "meaning": "resfriado",
-          "tip": "Constipado = resfriado. Não é prisão de ventre (isso é \"estreñido\")."
+          "speaker": "Dani",
+          "es": "Debajo del reloj, en la Puerta del Sol.",
+          "pt": "Embaixo do relógio, na Puerta del Sol."
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Beleza. E que horas começa o filme?",
+      "options": [
+        "¡Voy corriendo!",
+        "A las ocho menos cuarto. ¡Date prisa!",
+        "Vale. ¿Y a qué hora empieza la película?"
+      ],
+      "correct": 2,
+      "explanation": "Lu diz: \"Vale. ¿Y a qué hora empieza la película?\" = \"Beleza. E que horas começa o filme?\"."
     },
     {
       "type": "choice",
@@ -186,18 +170,6 @@
       ],
       "correct": 0,
       "explanation": "\"Empezar\" = começar."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Son las ___. (12h)",
-      "options": [
-        "doce",
-        "dos",
-        "diez"
-      ],
-      "correct": 0,
-      "explanation": "12 = doce (não é o doce de comer!). 2 = dos, 10 = diez."
     },
     {
       "type": "boss",

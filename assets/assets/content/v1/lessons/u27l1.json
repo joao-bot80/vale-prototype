@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el tiburón",
+          "pt": "o tubarão",
+          "emoji": "🦈"
+        },
+        {
+          "es": "el delfín",
+          "pt": "o golfinho",
+          "emoji": "🐬"
+        },
+        {
+          "es": "la medusa",
+          "pt": "a água-viva",
+          "emoji": "🪼"
+        },
+        {
+          "es": "el pingüino",
+          "pt": "o pinguim",
+          "emoji": "🐧"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Sale más barata\" significa:",
@@ -84,7 +110,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "tiburón",
@@ -111,36 +137,6 @@
           "tip": "Medusa = água-viva."
         },
         {
-          "es": "ciencia ficción",
-          "kind": "quase",
-          "meaning": "ficção científica",
-          "tip": "Ordem invertida."
-        },
-        {
-          "es": "entrada combinada",
-          "kind": "quase",
-          "meaning": "ingresso combinado",
-          "tip": "Para vários lugares."
-        },
-        {
-          "es": "tortuga",
-          "kind": "quase",
-          "meaning": "tartaruga",
-          "tip": "Tortuga = tartaruga."
-        },
-        {
-          "es": "pingüino",
-          "kind": "quase",
-          "meaning": "pinguim",
-          "tip": "Com trema."
-        },
-        {
-          "es": "raya",
-          "kind": "quase",
-          "meaning": "arraia",
-          "tip": "Raya = arraia, e também risco/listra (como \"raia\")."
-        },
-        {
           "es": "falda",
           "kind": "armadilha",
           "meaning": "saia",
@@ -149,16 +145,29 @@
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Un pulpo\" é:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lino",
+          "es": "Es la Ciudad de las Artes y las Ciencias, del arquitecto Santiago Calatrava.",
+          "pt": "É a Cidade das Artes e das Ciências, do arquiteto Santiago Calatrava."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Qué hay dentro de esos edificios?",
+          "pt": "O que tem dentro desses prédios?"
+        }
+      ],
+      "speaker": "Lino",
+      "pt": "Um museu de ciências, um cinema, uma ópera e o Oceanogràfic, um aquário enorme.",
       "options": [
-        "Um polvo",
-        "Um pulo",
-        "Um pó"
+        "Un museo de ciencias, un cine, una ópera y el Oceanogràfic, un acuario enorme.",
+        "Pues compramos la entrada combinada. Sale más barata.",
+        "¡Quiero ver los tiburones!"
       ],
       "correct": 0,
-      "explanation": "Polvo em espanhol = pó!"
+      "explanation": "Lino diz: \"Un museo de ciencias, un cine, una ópera y el Oceanogràfic, un acuario enorme.\" = \"Um museu de ciências, um cinema, uma ópera e o Oceanogràfic, um aquário enorme.\"."
     },
     {
       "type": "build",
@@ -187,18 +196,6 @@
       ],
       "correct": 0,
       "explanation": "Combinada = vale para vários espaços."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Hay un ___ con ocho brazos.\" (polvo)",
-      "options": [
-        "pulpo",
-        "polvo",
-        "pulpa"
-      ],
-      "correct": 0,
-      "explanation": "Pulpo = polvo (animal)."
     },
     {
       "type": "boss",

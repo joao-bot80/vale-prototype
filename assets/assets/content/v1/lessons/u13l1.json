@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el vermut",
+          "pt": "o vermute",
+          "emoji": "🍷"
+        },
+        {
+          "es": "las aceitunas",
+          "pt": "as azeitonas",
+          "emoji": "🫒"
+        },
+        {
+          "es": "las patatas fritas",
+          "pt": "as batatas chips",
+          "emoji": "🥔"
+        },
+        {
+          "es": "el sifón",
+          "pt": "a soda",
+          "emoji": "🫧"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Hacer el vermut\" significa:",
@@ -88,7 +114,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "vermut",
@@ -103,18 +129,6 @@
           "tip": "Na Catalunha, as de L'Escala são famosas."
         },
         {
-          "es": "sifón",
-          "kind": "quase",
-          "meaning": "sifão / soda",
-          "tip": "Água com gás."
-        },
-        {
-          "es": "berberecho",
-          "kind": "quase",
-          "meaning": "berbigão",
-          "tip": "Berberecho = berbigão: marisco pequeno, em lata."
-        },
-        {
           "es": "bodega",
           "kind": "armadilha",
           "meaning": "adega / bar",
@@ -127,24 +141,6 @@
           "tip": "Igualzinho!"
         },
         {
-          "es": "lata",
-          "kind": "igual",
-          "meaning": "lata / conserva",
-          "tip": "Lata = lata. E \"dar la lata\" = encher o saco!"
-        },
-        {
-          "es": "brindar",
-          "kind": "quase",
-          "meaning": "brindar",
-          "tip": "Igual!"
-        },
-        {
-          "es": "salud",
-          "kind": "quase",
-          "meaning": "saúde / tim-tim",
-          "tip": "Salud = saúde, e no brinde \"¡Salud!\" = tim-tim."
-        },
-        {
           "es": "crianza",
           "kind": "armadilha",
           "meaning": "envelhecimento (vinho); criação",
@@ -153,16 +149,29 @@
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "Ao brindar na Espanha, você diz:",
-      "options": [
-        "¡Salud!",
-        "¡Tim-tim!",
-        "¡Saúde!"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "¿El vermut es una bebida o un plan?",
+          "pt": "O vermute é uma bebida ou um programa?"
+        },
+        {
+          "speaker": "Marta",
+          "es": "¡Las dos cosas! Un vermut, unas olivas y unas patatas.",
+          "pt": "As duas coisas! Um vermute, umas azeitonas e umas batatinhas."
+        }
       ],
-      "correct": 0,
-      "explanation": "\"¡Salud!\" é o brinde. Também se diz \"¡Chinchín!\"."
+      "speaker": "Camarero",
+      "pt": "O que vai ser?",
+      "options": [
+        "Dos vermuts con sifón y unas anchoas.",
+        "¿Qué os pongo?",
+        "¡Salud! Esto es un domingo perfecto."
+      ],
+      "correct": 1,
+      "explanation": "Camarero diz: \"¿Qué os pongo?\" = \"O que vai ser?\"."
     },
     {
       "type": "build",
@@ -193,18 +202,6 @@
       ],
       "correct": 0,
       "explanation": "\"Olivas\" também se usa em Barcelona; no resto da Espanha, mais \"aceitunas\"."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"No me des la ___.\" (não me encha o saco)",
-      "options": [
-        "lata",
-        "lada",
-        "latita"
-      ],
-      "correct": 0,
-      "explanation": "\"Dar la lata\" = encher o saco."
     },
     {
       "type": "boss",

@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la bici",
+          "pt": "a bike",
+          "emoji": "🚲"
+        },
+        {
+          "es": "el casco",
+          "pt": "o capacete",
+          "emoji": "⛑️"
+        },
+        {
+          "es": "el puente",
+          "pt": "a ponte",
+          "emoji": "🌉"
+        },
+        {
+          "es": "el timbre",
+          "pt": "a campainha",
+          "emoji": "🔔"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Creo que es una idea genial\" significa:",
@@ -84,71 +110,29 @@
       "explanation": "\"Riada\" = enchente de rio."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "bici",
-          "kind": "quase",
-          "meaning": "bike / bicicleta",
-          "tip": "Abreviação de \"bicicleta\"."
+          "speaker": "Dani",
+          "es": "Buena idea. El jardín va de un lado a otro de la ciudad.",
+          "pt": "Boa ideia. O jardim atravessa a cidade de um lado a outro."
         },
         {
-          "es": "carril",
-          "kind": "armadilha",
-          "meaning": "faixa / pista",
-          "tip": "Carril = faixa (bici, ônibus). Em PT-BR, carril é o trilho do trem (\"vía\")."
-        },
-        {
-          "es": "río",
-          "kind": "quase",
-          "meaning": "rio",
-          "tip": "Com acento."
-        },
-        {
-          "es": "puente",
-          "kind": "quase",
-          "meaning": "ponte",
-          "tip": "\"Ue\" no lugar de \"o\"."
-        },
-        {
-          "es": "árbol",
-          "kind": "quase",
-          "meaning": "árvore",
-          "tip": "\"L\" no lugar de \"r\"."
-        },
-        {
-          "es": "casco",
-          "kind": "armadilha",
-          "meaning": "capacete",
-          "tip": "Casco = capacete. Em PT-BR, casco é a pata do cavalo ou o do navio."
-        },
-        {
-          "es": "rueda",
-          "kind": "quase",
-          "meaning": "roda",
-          "tip": "Ganha um \"e\"."
-        },
-        {
-          "es": "timbre",
-          "kind": "armadilha",
-          "meaning": "campainha",
-          "tip": "Timbre = campainha. Em PT-BR, timbre é a cor da voz ou o carimbo oficial."
-        },
-        {
-          "es": "frenar",
-          "kind": "quase",
-          "meaning": "frear",
-          "tip": "Frenos = freios."
-        },
-        {
-          "es": "tuerto",
-          "kind": "armadilha",
-          "meaning": "caolho",
-          "tip": "Tuerto = caolho (de um olho só). Torto é \"torcido\"."
+          "speaker": "Lu",
+          "es": "¿Antes era un río de verdad?",
+          "pt": "Antes era um rio de verdade?"
         }
-      ]
+      ],
+      "speaker": "Dani",
+      "pt": "Sim. Depois de uma grande enchente, desviaram o rio e fizeram um parque.",
+      "options": [
+        "Sí. Después de una gran riada, desviaron el río y hicieron un parque.",
+        "Yo también. Al final está la Ciudad de las Artes y las Ciencias.",
+        "Creo que es una idea genial."
+      ],
+      "correct": 0,
+      "explanation": "Dani diz: \"Sí. Después de una gran riada, desviaron el río y hicieron un parque.\" = \"Sim. Depois de uma grande enchente, desviaram o rio e fizeram um parque.\"."
     },
     {
       "type": "choice",
@@ -193,18 +177,6 @@
       ],
       "correct": 0,
       "explanation": "\"Alquilar\" = alugar. Valencia é plana e cheia de ciclovias."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"¿Hay ___ bici en esta calle?\" (ciclovia)",
-      "options": [
-        "carril",
-        "calle",
-        "vía"
-      ],
-      "correct": 0,
-      "explanation": "\"Carril bici\" = ciclovia."
     },
     {
       "type": "boss",

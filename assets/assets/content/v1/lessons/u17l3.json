@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el Rey",
+          "pt": "o Rei",
+          "emoji": "👑"
+        },
+        {
+          "es": "la Constitución",
+          "pt": "a Constituição",
+          "emoji": "📜"
+        },
+        {
+          "es": "la bandera",
+          "pt": "a bandeira",
+          "emoji": "🇪🇸"
+        },
+        {
+          "es": "el voto",
+          "pt": "o voto",
+          "emoji": "🗳️"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Preguntas tipo test\" são:",
@@ -84,7 +110,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "Constitución",
@@ -105,60 +131,43 @@
           "tip": "São 17, mais Ceuta e Melilla."
         },
         {
-          "es": "Senado",
-          "kind": "quase",
-          "meaning": "Senado",
-          "tip": "Câmara alta das Cortes."
-        },
-        {
           "es": "alcalde",
           "kind": "armadilha",
           "meaning": "prefeito",
           "tip": "Não é alcaide!"
         },
         {
-          "es": "tipo test",
-          "kind": "quase",
-          "meaning": "múltipla escolha",
-          "tip": "Examen tipo test."
-        },
-        {
           "es": "manual",
           "kind": "igual",
           "meaning": "manual",
           "tip": "Igual!"
-        },
-        {
-          "es": "acertar",
-          "kind": "igual",
-          "meaning": "acertar",
-          "tip": "Acertar = acertar. O contrário é \"fallar\"."
-        },
-        {
-          "es": "fallar",
-          "kind": "armadilha",
-          "meaning": "errar",
-          "tip": "Não é falar!"
-        },
-        {
-          "es": "Rey",
-          "kind": "quase",
-          "meaning": "Rei",
-          "tip": "Monarquia parlamentar."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"El alcalde\" é:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lino",
+          "es": "Son veinticinco preguntas tipo test. Necesitas quince respuestas correctas.",
+          "pt": "São vinte e cinco perguntas de múltipla escolha. Você precisa de quinze respostas certas."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y qué preguntan?",
+          "pt": "E o que perguntam?"
+        }
+      ],
+      "speaker": "Lino",
+      "pt": "A Constituição, o Governo, a geografia e a cultura da Espanha.",
       "options": [
-        "O prefeito",
-        "O delegado",
-        "O governador"
+        "La Constitución, el Gobierno, la geografía y la cultura de España.",
+        "Sí, el Instituto Cervantes publica un manual con todas las preguntas.",
+        "¿Puedo estudiar con las preguntas oficiales?"
       ],
       "correct": 0,
-      "explanation": "Alcalde = prefeito; trabalha no ayuntamiento."
+      "explanation": "Lino diz: \"La Constitución, el Gobierno, la geografía y la cultura de España.\" = \"A Constituição, o Governo, a geografia e a cultura da Espanha.\"."
     },
     {
       "type": "build",
@@ -188,18 +197,6 @@
       ],
       "correct": 0,
       "explanation": "O manual é atualizado a cada ano."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"España es una monarquía ___.\"",
-      "options": [
-        "parlamentaria",
-        "absoluta",
-        "presidencial"
-      ],
-      "correct": 0,
-      "explanation": "Constituição de 1978: monarquia parlamentar."
     },
     {
       "type": "boss",

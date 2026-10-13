@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la fiebre",
+          "pt": "a febre",
+          "emoji": "🤒"
+        },
+        {
+          "es": "la tos",
+          "pt": "a tosse",
+          "emoji": "😷"
+        },
+        {
+          "es": "la receta",
+          "pt": "a receita",
+          "emoji": "📝"
+        },
+        {
+          "es": "la farmacia",
+          "pt": "a farmácia",
+          "emoji": "💊"
+        },
+        {
+          "es": "la tirita",
+          "pt": "o band-aid",
+          "emoji": "🩹"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Me duele la garganta\" significa:",
@@ -84,7 +115,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "fiebre",
@@ -99,22 +130,10 @@
           "tip": "Curtinho: tos = tosse."
         },
         {
-          "es": "receta",
-          "kind": "quase",
-          "meaning": "receita",
-          "tip": "Também é receita de cozinha."
-        },
-        {
           "es": "médico",
           "kind": "igual",
           "meaning": "médico",
           "tip": "Igualzinho!"
-        },
-        {
-          "es": "garganta",
-          "kind": "igual",
-          "meaning": "garganta",
-          "tip": "Mesma palavra."
         },
         {
           "es": "venda",
@@ -123,42 +142,37 @@
           "tip": "Venda = atadura. Em PT-BR, venda é o ato de vender (\"venta\")."
         },
         {
-          "es": "alergia",
-          "kind": "igual",
-          "meaning": "alergia",
-          "tip": "Igualzinho!"
-        },
-        {
-          "es": "jarabe",
-          "kind": "quase",
-          "meaning": "xarope",
-          "tip": "Jarabe = xarope: muda a grafia."
-        },
-        {
           "es": "pastilla",
           "kind": "armadilha",
           "meaning": "comprimido",
           "tip": "Pastilla = comprimido. Em PT-BR, pastilha é bala de menta ou de freio."
-        },
-        {
-          "es": "lentilla",
-          "kind": "armadilha",
-          "meaning": "lente de contato",
-          "tip": "Lentilla = lente de contato. Lentilha é \"lenteja\"."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Estoy constipada\" quer dizer:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "Sí, a las diez con la médica de cabecera.",
+          "pt": "Sim, às dez com a médica de família."
+        },
+        {
+          "speaker": "Recepcionista",
+          "es": "¿Me deja su tarjeta sanitaria, por favor?",
+          "pt": "Me empresta seu cartão de saúde, por favor?"
+        }
+      ],
+      "speaker": "Lu",
+      "pt": "Aqui está. Estou com dor de garganta e febre.",
       "options": [
-        "Estou resfriada",
-        "Estou com prisão de ventre",
-        "Estou grávida"
+        "Aquí tiene. Me duele la garganta y tengo fiebre.",
+        "Muchas gracias, doctora.",
+        "Le voy a recetar un antibiótico. Vaya a la farmacia con la tarjeta."
       ],
       "correct": 0,
-      "explanation": "Falso amigo! Prisão de ventre = \"estreñimiento\"."
+      "explanation": "Lu diz: \"Aquí tiene. Me duele la garganta y tengo fiebre.\" = \"Aqui está. Estou com dor de garganta e febre.\"."
     },
     {
       "type": "build",
@@ -190,18 +204,6 @@
       ],
       "correct": 0,
       "explanation": "\"Aquí tiene\" = aqui está (formal)."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Médico que você consulta primeiro no posto é o:",
-      "options": [
-        "médico de cabecera",
-        "médico de cabeza",
-        "médico de urgencia"
-      ],
-      "correct": 0,
-      "explanation": "\"Médico de cabecera\" = clínico geral / médico de família."
     },
     {
       "type": "boss",

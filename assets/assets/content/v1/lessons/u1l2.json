@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el andén",
+          "pt": "a plataforma",
+          "emoji": "🚉"
+        },
+        {
+          "es": "la salida",
+          "pt": "a saída",
+          "emoji": "🚪"
+        },
+        {
+          "es": "el billete",
+          "pt": "a passagem",
+          "emoji": "🎫"
+        },
+        {
+          "es": "la cola",
+          "pt": "a fila",
+          "emoji": "🧍"
+        },
+        {
+          "es": "el tren",
+          "pt": "o trem",
+          "emoji": "🚆"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "Como se diz \"passagem\" do metrô na Espanha?",
@@ -85,71 +116,29 @@
       "explanation": "\"Próxima estación\" = próxima estação. Você vai ouvir isso o dia todo!"
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "túnel",
-          "kind": "igual",
-          "meaning": "túnel",
-          "tip": "Mesma palavra, mesmo sentido."
+          "speaker": "Empleado",
+          "es": "Coge la línea 8 hasta Nuevos Ministerios y allí cambias a la línea 10.",
+          "pt": "Pegue a linha 8 até Nuevos Ministerios e lá você troca para a linha 10."
         },
         {
-          "es": "estación",
-          "kind": "quase",
-          "meaning": "estação",
-          "tip": "Só muda a terminação: -ción = -ção."
-        },
-        {
-          "es": "largo",
-          "kind": "armadilha",
-          "meaning": "comprido",
-          "tip": "Largo em português é \"ancho\"."
-        },
-        {
-          "es": "mapa",
-          "kind": "igual",
-          "meaning": "mapa",
-          "tip": "Igualzinho!"
-        },
-        {
-          "es": "cola",
-          "kind": "armadilha",
-          "meaning": "fila",
-          "tip": "Cola = fila. Em PT-BR, cola é a de colar (\"pegamento\")."
-        },
-        {
-          "es": "salida",
-          "kind": "quase",
-          "meaning": "saída",
-          "tip": "Saída = salida. Entrada é igual."
-        },
-        {
-          "es": "propina",
-          "kind": "armadilha",
-          "meaning": "gorjeta",
-          "tip": "Propina (suborno) é \"soborno\"."
-        },
-        {
-          "es": "billete",
-          "kind": "armadilha",
-          "meaning": "passagem / bilhete de viagem",
-          "tip": "Billete = passagem (e cédula). Em PT-BR, bilhete é sobretudo um recadinho escrito (\"nota\")."
-        },
-        {
-          "es": "acordarse",
-          "kind": "armadilha",
-          "meaning": "lembrar-se",
-          "tip": "Acordar (despertar) é \"despertarse\"."
-        },
-        {
-          "es": "brincar",
-          "kind": "armadilha",
-          "meaning": "pular",
-          "tip": "Brincar (de criança) é \"jugar\"."
+          "speaker": "Lu",
+          "es": "¿Y dónde compro el billete?",
+          "pt": "E onde eu compro a passagem?"
         }
-      ]
+      ],
+      "speaker": "Empleado",
+      "pt": "Naquelas máquinas. Atenção: saindo do aeroporto tem uma taxa extra.",
+      "options": [
+        "De nada. ¡Que te vaya bien!",
+        "Vale, ¡muchas gracias!",
+        "En esas máquinas. Ojo, desde el aeropuerto hay un suplemento."
+      ],
+      "correct": 2,
+      "explanation": "Empleado diz: \"En esas máquinas. Ojo, desde el aeropuerto hay un suplemento.\" = \"Naquelas máquinas. Atenção: saindo do aeroporto tem uma taxa extra.\"."
     },
     {
       "type": "choice",
@@ -192,18 +181,6 @@
       ],
       "correct": 0,
       "explanation": "\"Cambiar de línea\" = fazer baldeação. Sol é a estação da Puerta del Sol!"
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "—¿Esta es la parada de Sol? —No, es la ___.",
-      "options": [
-        "siguiente",
-        "próximo",
-        "después"
-      ],
-      "correct": 0,
-      "explanation": "\"La siguiente\" = a próxima. \"Próximo\" teria que concordar: \"la próxima\"."
     },
     {
       "type": "boss",

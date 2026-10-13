@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la reina",
+          "pt": "a rainha",
+          "emoji": "👑"
+        },
+        {
+          "es": "el disfraz",
+          "pt": "a fantasia",
+          "emoji": "🎭"
+        },
+        {
+          "es": "la murga",
+          "pt": "o grupo satírico",
+          "emoji": "🎺"
+        },
+        {
+          "es": "las plumas",
+          "pt": "as plumas",
+          "emoji": "🪶"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Disfrazarse\" significa:",
@@ -84,71 +110,29 @@
       "explanation": "Um dos maiores carnavais."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "lentejuela",
-          "kind": "quase",
-          "meaning": "lantejoula",
-          "tip": "Lentejuela = lantejoula."
+          "speaker": "Lino",
+          "es": "El de Santa Cruz es de los más grandes del mundo.",
+          "pt": "O de Santa Cruz é dos maiores do mundo."
         },
         {
-          "es": "reina",
-          "kind": "quase",
-          "meaning": "rainha",
-          "tip": "Reina del carnaval."
-        },
-        {
-          "es": "carnaval",
-          "kind": "igual",
-          "meaning": "carnaval",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "serpentina",
-          "kind": "igual",
-          "meaning": "serpentina",
-          "tip": "Igual!"
-        },
-        {
-          "es": "cabalgata",
-          "kind": "armadilha",
-          "meaning": "desfile",
-          "tip": "Cabalgata = desfile de carros. Em PT-BR, cavalgada é passeio a cavalo."
-        },
-        {
-          "es": "pirata",
-          "kind": "igual",
-          "meaning": "pirata",
-          "tip": "Igual!"
-        },
-        {
-          "es": "traje",
-          "kind": "quase",
-          "meaning": "roupa / fantasia",
-          "tip": "Traje = roupa / fantasia, como \"traje\" em português."
-        },
-        {
-          "es": "purpurina",
-          "kind": "quase",
-          "meaning": "purpurina / glitter",
-          "tip": "Por todas partes."
-        },
-        {
-          "es": "careta",
-          "kind": "armadilha",
-          "meaning": "máscara",
-          "tip": "Careta = máscara. Em PT-BR, careta é a cara feia (\"mueca\")."
-        },
-        {
-          "es": "atestado",
-          "kind": "armadilha",
-          "meaning": "lotado",
-          "tip": "Atestado = lotado, cheio. Atestado médico é \"certificado médico\"."
+          "speaker": "Lu",
+          "es": "¿De qué te vas a disfrazar?",
+          "pt": "De que você vai se fantasiar?"
         }
-      ]
+      ],
+      "speaker": "Lino",
+      "pt": "De pirata. E você?",
+      "options": [
+        "De reina del carnaval, claro.",
+        "De pirata. ¿Y tú?",
+        "Pues mira, aquí eligen a una reina con trajes enormes."
+      ],
+      "correct": 1,
+      "explanation": "Lino diz: \"De pirata. ¿Y tú?\" = \"De pirata. E você?\"."
     },
     {
       "type": "choice",
@@ -190,18 +174,6 @@
       ],
       "correct": 0,
       "explanation": "Gala de la Reina."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Me pongo una ___ de gato.\" (máscara)",
-      "options": [
-        "careta",
-        "mascarilla",
-        "cara"
-      ],
-      "correct": 0,
-      "explanation": "Careta = máscara (de fantasia). Mascarilla = máscara cirúrgica!"
     },
     {
       "type": "boss",

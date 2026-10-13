@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el puente",
+          "pt": "a ponte",
+          "emoji": "🌉"
+        },
+        {
+          "es": "el pueblo",
+          "pt": "a cidadezinha",
+          "emoji": "🏘️"
+        },
+        {
+          "es": "la carretera",
+          "pt": "a estrada",
+          "emoji": "🛣️"
+        },
+        {
+          "es": "la gasolinera",
+          "pt": "o posto de gasolina",
+          "emoji": "⛽"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"¡Qué vértigo!\" significa:",
@@ -81,71 +107,29 @@
       "explanation": "A cal reflete o sol."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "vértigo",
-          "kind": "quase",
-          "meaning": "vertigem",
-          "tip": "Tener vértigo."
+          "speaker": "Dani",
+          "es": "Es el Puente Nuevo de Ronda, sobre el Tajo. Tiene casi cien metros de altura.",
+          "pt": "É a Ponte Nova de Ronda, sobre o Tajo. Tem quase cem metros de altura."
         },
         {
-          "es": "precipicio",
-          "kind": "quase",
-          "meaning": "precipício",
-          "tip": "Com ci."
-        },
-        {
-          "es": "cal",
-          "kind": "igual",
-          "meaning": "cal (para pintar)",
-          "tip": "Cal = cal (para pintar). Não confundir com sal!"
-        },
-        {
-          "es": "carretera",
-          "kind": "armadilha",
-          "meaning": "estrada",
-          "tip": "Não é carreteira!"
-        },
-        {
-          "es": "curva",
-          "kind": "igual",
-          "meaning": "curva",
-          "tip": "Igual!"
-        },
-        {
-          "es": "mirador de carretera",
-          "kind": "quase",
-          "meaning": "mirante de estrada",
-          "tip": "Parada para foto."
-        },
-        {
-          "es": "kilómetro",
-          "kind": "quase",
-          "meaning": "quilômetro",
-          "tip": "Kilómetro = quilômetro."
-        },
-        {
-          "es": "peaje",
-          "kind": "quase",
-          "meaning": "pedágio",
-          "tip": "Peaje = pedágio."
-        },
-        {
-          "es": "altura",
-          "kind": "igual",
-          "meaning": "altura",
-          "tip": "Igual!"
-        },
-        {
-          "es": "alrededor",
-          "kind": "quase",
-          "meaning": "ao redor",
-          "tip": "De alrededor = em volta."
+          "speaker": "Lu",
+          "es": "¿Y por qué los pueblos de alrededor son todos blancos?",
+          "pt": "E por que os povoados em volta são todos brancos?"
         }
-      ]
+      ],
+      "speaker": "Dani",
+      "pt": "As casas são pintadas com cal. É tradicional e refresca no verão.",
+      "options": [
+        "Alquilamos un coche y hacemos la ruta mañana.",
+        "Las casas se pintan con cal. Es tradicional y refresca en verano.",
+        "¡Vale! Pero las carreteras tienen muchas curvas."
+      ],
+      "correct": 1,
+      "explanation": "Dani diz: \"Las casas se pintan con cal. Es tradicional y refresca en verano.\" = \"As casas são pintadas com cal. É tradicional e refresca no verão.\"."
     },
     {
       "type": "choice",
@@ -186,18 +170,6 @@
       ],
       "correct": 0,
       "explanation": "Estradas de serra: dirija com calma."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"No hay sitio para ___.\" (estacionar)",
-      "options": [
-        "aparcar",
-        "parcar",
-        "parquear"
-      ],
-      "correct": 0,
-      "explanation": "Aparcar = estacionar (Espanha). \"Parquear\" é latino-americano e \"parcar\" não existe."
     },
     {
       "type": "boss",

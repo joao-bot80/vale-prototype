@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el colegio",
+          "pt": "a escola",
+          "emoji": "🏫"
+        },
+        {
+          "es": "la mochila",
+          "pt": "a mochila",
+          "emoji": "🎒"
+        },
+        {
+          "es": "el comedor",
+          "pt": "o refeitório",
+          "emoji": "🍽️"
+        },
+        {
+          "es": "el uniforme",
+          "pt": "o uniforme",
+          "emoji": "👔"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Matricular\" significa:",
@@ -83,71 +109,29 @@
       "explanation": "Toda criança tem direito à escola, chegue quando chegar."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "colegio",
-          "kind": "quase",
-          "meaning": "escola (primária)",
-          "tip": "Colegio = escola (primária), como colégio."
+          "speaker": "Secretaria",
+          "es": "¿Estáis empadronadas en el barrio? Da puntos para la plaza.",
+          "pt": "Vocês estão registradas no bairro? Dá pontos para a vaga."
         },
         {
-          "es": "matrícula",
-          "kind": "quase",
-          "meaning": "matrícula / placa do carro",
-          "tip": "Matrícula = matrícula e também placa do carro."
-        },
-        {
-          "es": "curso",
-          "kind": "quase",
-          "meaning": "curso / ano letivo",
-          "tip": "Curso = curso; na escola, também o ano/série."
-        },
-        {
-          "es": "primaria",
-          "kind": "quase",
-          "meaning": "ensino fundamental I",
-          "tip": "6 a 12 anos."
-        },
-        {
-          "es": "profesor",
-          "kind": "quase",
-          "meaning": "professor",
-          "tip": "Profesor = professor."
-        },
-        {
-          "es": "comedor",
-          "kind": "armadilha",
-          "meaning": "refeitório",
-          "tip": "Comedor = refeitório. Em PT-BR, comedor é quem come muito (ou paquerador)."
-        },
-        {
-          "es": "sobrina",
-          "kind": "quase",
-          "meaning": "sobrinha",
-          "tip": "Sobrino = sobrinho."
-        },
-        {
-          "es": "instituto",
-          "kind": "armadilha",
-          "meaning": "escola de ensino médio",
-          "tip": "Instituto = colégio de ensino médio. Em PT-BR, instituto é órgão de pesquisa."
-        },
-        {
-          "es": "oso",
-          "kind": "armadilha",
-          "meaning": "urso",
-          "tip": "Oso = urso. Osso é \"hueso\"."
-        },
-        {
-          "es": "uniforme",
-          "kind": "igual",
-          "meaning": "uniforme",
-          "tip": "Em muitas públicas não tem."
+          "speaker": "Lu",
+          "es": "Sí, aquí tiene el volante de empadronamiento y su pasaporte.",
+          "pt": "Sim, aqui está o comprovante de padrón e o passaporte dela."
         }
-      ]
+      ],
+      "speaker": "Secretaria",
+      "pt": "O prazo normal é na primavera, mas se chegarem no meio do ano há vaga fora do prazo.",
+      "options": [
+        "Sí. Solo se pagan el comedor, las excursiones y el material.",
+        "Buenos días. Quiero matricular a mi sobrina. Tiene siete años.",
+        "El plazo ordinario es en primavera, pero si llegáis a mitad de curso hay plaza fuera de plazo."
+      ],
+      "correct": 2,
+      "explanation": "Secretaria diz: \"El plazo ordinario es en primavera, pero si llegáis a mitad de curso hay plaza fuera de plazo.\" = \"O prazo normal é na primavera, mas se chegarem no meio do ano há vaga fora do prazo.\"."
     },
     {
       "type": "choice",
@@ -190,18 +174,6 @@
       ],
       "correct": 0,
       "explanation": "Algumas comunidades dão bolsas para refeitório e livros."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Mi hijo va al ___ en Secundaria.\" (escola de ensino médio)",
-      "options": [
-        "instituto",
-        "ginasio",
-        "liceo"
-      ],
-      "correct": 0,
-      "explanation": "Instituto = escola pública de secundária. \"Colegio\" é mais a escola de infantil e primária."
     },
     {
       "type": "boss",

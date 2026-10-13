@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el barco",
+          "pt": "o barco",
+          "emoji": "⛴️"
+        },
+        {
+          "es": "la isla",
+          "pt": "a ilha",
+          "emoji": "🏝️"
+        },
+        {
+          "es": "la gaviota",
+          "pt": "a gaivota",
+          "emoji": "🐦"
+        },
+        {
+          "es": "la tienda de campaña",
+          "pt": "a barraca de camping",
+          "emoji": "⛺"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"El agua está helada\" significa:",
@@ -82,71 +108,29 @@
       "explanation": "As Cíes limitam o número de visitantes."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "isla",
-          "kind": "quase",
-          "meaning": "ilha",
-          "tip": "Islas Cíes."
+          "speaker": "Taquillera",
+          "es": "¿Tenéis la autorización del Parque Nacional? En verano es obligatoria.",
+          "pt": "Vocês têm a autorização do Parque Nacional? No verão é obrigatória."
         },
         {
-          "es": "autorización",
-          "kind": "quase",
-          "meaning": "autorização",
-          "tip": "Pedirla online."
-        },
-        {
-          "es": "barco",
-          "kind": "igual",
-          "meaning": "barco",
-          "tip": "Igual!"
-        },
-        {
-          "es": "marea",
-          "kind": "quase",
-          "meaning": "maré",
-          "tip": "Marea = maré. \"Marea baja\" = maré baixa."
-        },
-        {
-          "es": "gaviota",
-          "kind": "quase",
-          "meaning": "gaivota",
-          "tip": "Muitas nas Cíes."
-        },
-        {
-          "es": "faro",
-          "kind": "armadilha",
-          "meaning": "farol",
-          "tip": "Não é faro (olfato)!"
-        },
-        {
-          "es": "acampar",
-          "kind": "quase",
-          "meaning": "acampar",
-          "tip": "Camping nas Cíes."
-        },
-        {
-          "es": "sendero",
-          "kind": "quase",
-          "meaning": "trilha",
-          "tip": "Sendero = trilha, senda."
-        },
-        {
-          "es": "Atlántico",
-          "kind": "quase",
-          "meaning": "Atlântico",
-          "tip": "Acento no lán."
-        },
-        {
-          "es": "excursión",
-          "kind": "quase",
-          "meaning": "excursão",
-          "tip": "-sión = -são."
+          "speaker": "Lino",
+          "es": "Sí, la pedimos por internet la semana pasada.",
+          "pt": "Sim, pedimos pela internet na semana passada."
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Dizem que a praia de Rodas parece do Caribe.",
+      "options": [
+        "No pasa nada. Me baño rapidito.",
+        "Sí, pero el agua está helada. ¡Esto es el Atlántico!",
+        "Dicen que la playa de Rodas parece del Caribe."
+      ],
+      "correct": 2,
+      "explanation": "Lu diz: \"Dicen que la playa de Rodas parece del Caribe.\" = \"Dizem que a praia de Rodas parece do Caribe.\"."
     },
     {
       "type": "choice",
@@ -191,18 +175,6 @@
       ],
       "correct": 0,
       "explanation": "No Atlântico galego a água é fria até no verão."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Subimos por el ___ hasta el faro.\" (trilha)",
-      "options": [
-        "sendero",
-        "sendeiro",
-        "camino de"
-      ],
-      "correct": 0,
-      "explanation": "Sendero = trilha."
     },
     {
       "type": "boss",

@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el ordenador",
+          "pt": "o computador",
+          "emoji": "🖥️"
+        },
+        {
+          "es": "el ratón",
+          "pt": "o mouse",
+          "emoji": "🖱️"
+        },
+        {
+          "es": "la pantalla",
+          "pt": "a tela",
+          "emoji": "📺"
+        },
+        {
+          "es": "la reunión",
+          "pt": "a reunião",
+          "emoji": "👥"
+        },
+        {
+          "es": "el despacho",
+          "pt": "a sala",
+          "emoji": "🚪"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Te presento al equipo\" significa:",
@@ -82,71 +113,29 @@
       "explanation": "\"Comer\" na Espanha = almoçar (a refeição principal)."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "equipo",
-          "kind": "quase",
-          "meaning": "equipe",
-          "tip": "Masculino: el equipo."
+          "speaker": "Lu",
+          "es": "Encantada. ¿A qué hora empezamos por la mañana?",
+          "pt": "Prazer. A que horas começamos de manhã?"
         },
         {
-          "es": "reunión",
-          "kind": "quase",
-          "meaning": "reunião",
-          "tip": "-ão vira -ión."
-        },
-        {
-          "es": "compañero",
-          "kind": "quase",
-          "meaning": "colega",
-          "tip": "Compañero de trabajo = colega."
-        },
-        {
-          "es": "ordenador",
-          "kind": "armadilha",
-          "meaning": "computador",
-          "tip": "Ordenador = computador. Cuidado: \"ordenado\" no Brasil é salário!"
-        },
-        {
-          "es": "teclado",
-          "kind": "igual",
-          "meaning": "teclado",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "ratón",
-          "kind": "armadilha",
-          "meaning": "mouse",
-          "tip": "Ratón = mouse (e camundongo). Em PT-BR, ratão é rato grande."
-        },
-        {
-          "es": "correo",
-          "kind": "quase",
-          "meaning": "e-mail / correio",
-          "tip": "Correo = correio, e também e-mail (\"correo electrónico\")."
-        },
-        {
-          "es": "archivo",
-          "kind": "quase",
-          "meaning": "arquivo",
-          "tip": "Archivo = arquivo."
-        },
-        {
-          "es": "duda",
-          "kind": "quase",
-          "meaning": "dúvida",
-          "tip": "Sem o \"v\"."
-        },
-        {
-          "es": "quitar",
-          "kind": "armadilha",
-          "meaning": "tirar, remover",
-          "tip": "Quitar = tirar (\"quítese las gafas\" = tire os óculos). Quitar uma dívida é \"saldar\"."
+          "speaker": "Jefa",
+          "es": "Entramos a las nueve y salimos a las seis, con una hora para comer.",
+          "pt": "Entramos às nove e saímos às seis, com uma hora de almoço."
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "E onde fica minha mesa?",
+      "options": [
+        "Genial. Muchas gracias por todo.",
+        "Al lado de la ventana. Si tienes dudas, pregúntale a Carlos.",
+        "¿Y dónde está mi mesa?"
+      ],
+      "correct": 2,
+      "explanation": "Lu diz: \"¿Y dónde está mi mesa?\" = \"E onde fica minha mesa?\"."
     },
     {
       "type": "choice",
@@ -190,18 +179,6 @@
       ],
       "correct": 0,
       "explanation": "\"Al lado de\" = ao lado de."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Mándame un ___ con el informe.\" (e-mail)",
-      "options": [
-        "correo",
-        "carta",
-        "correio"
-      ],
-      "correct": 0,
-      "explanation": "\"Correo (electrónico)\" = e-mail. Também se ouve \"email\"/\"mail\". \"Correio\" é português."
     },
     {
       "type": "boss",

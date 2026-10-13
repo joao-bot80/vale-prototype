@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el brindis",
+          "pt": "o brinde",
+          "emoji": "🥂"
+        },
+        {
+          "es": "las lágrimas",
+          "pt": "as lágrimas",
+          "emoji": "😢"
+        },
+        {
+          "es": "el abrazo",
+          "pt": "o abraço",
+          "emoji": "🤗"
+        },
+        {
+          "es": "gracias",
+          "pt": "obrigado / obrigada",
+          "emoji": "🙏"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Me voy a emocionar\" significa:",
@@ -84,71 +110,29 @@
       "explanation": "\"Hace un año\" = há um ano."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "discurso",
-          "kind": "igual",
-          "meaning": "discurso",
-          "tip": "Igual!"
+          "speaker": "Lu",
+          "es": "Hace un año no sabía pedir un café. Hoy hablo, entiendo y me río en español.",
+          "pt": "Há um ano eu não sabia pedir um café. Hoje falo, entendo e rio em espanhol."
         },
         {
-          "es": "emocionarse",
-          "kind": "quase",
-          "meaning": "emocionar-se",
-          "tip": "Me emociono."
-        },
-        {
-          "es": "paciencia",
-          "kind": "quase",
-          "meaning": "paciência",
-          "tip": "Com c."
-        },
-        {
-          "es": "estupendo",
-          "kind": "quase",
-          "meaning": "excelente / ótimo",
-          "tip": "Estupendo = ótimo, excelente (em português também). Não é estúpido!"
-        },
-        {
-          "es": "placer",
-          "kind": "quase",
-          "meaning": "prazer",
-          "tip": "Ha sido un placer."
-        },
-        {
-          "es": "alumna",
-          "kind": "quase",
-          "meaning": "aluna",
-          "tip": "Alumno = aluno."
-        },
-        {
-          "es": "agradecido",
-          "kind": "igual",
-          "meaning": "agradecido / grato",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "lágrima",
-          "kind": "quase",
-          "meaning": "lágrima",
-          "tip": "Igual."
-        },
-        {
-          "es": "reírse",
-          "kind": "quase",
-          "meaning": "rir",
-          "tip": "Me río."
-        },
-        {
-          "es": "cana",
-          "kind": "armadilha",
-          "meaning": "cabelo branco",
-          "tip": "Cana = fio de cabelo branco. Cana (de açúcar) é \"caña\"."
+          "speaker": "Marta",
+          "es": "¡Qué bonito! Me voy a emocionar.",
+          "pt": "Que lindo! Vou me emocionar."
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Obrigada, Lino, pela sua paciência infinita.",
+      "options": [
+        "Ha sido un placer. ¡Eres una alumna estupenda!",
+        "Gracias, Lino, por tu paciencia infinita.",
+        "¡Que hable, que hable! ¡Por Lu!"
+      ],
+      "correct": 1,
+      "explanation": "Lu diz: \"Gracias, Lino, por tu paciencia infinita.\" = \"Obrigada, Lino, pela sua paciência infinita.\"."
     },
     {
       "type": "choice",
@@ -190,18 +174,6 @@
       ],
       "correct": 0,
       "explanation": "Estupenda = excelente."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Estoy muy ___ a todos.\" (agradecida)",
-      "options": [
-        "agradecida",
-        "agradecía",
-        "grata"
-      ],
-      "correct": 0,
-      "explanation": "Agradecido/a a alguien."
     },
     {
       "type": "boss",

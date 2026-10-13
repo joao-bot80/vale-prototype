@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el volcán",
+          "pt": "o vulcão",
+          "emoji": "🌋"
+        },
+        {
+          "es": "la cima",
+          "pt": "o cume",
+          "emoji": "⛰️"
+        },
+        {
+          "es": "el teleférico",
+          "pt": "o teleférico",
+          "emoji": "🚡"
+        },
+        {
+          "es": "el forro polar",
+          "pt": "a blusa de fleece",
+          "emoji": "🧥"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Hace falta un permiso\" significa:",
@@ -82,7 +108,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "lava solidificada",
@@ -97,28 +123,10 @@
           "tip": "Cima = cume / topo (como \"em cima\")."
         },
         {
-          "es": "montaña",
-          "kind": "quase",
-          "meaning": "montanha",
-          "tip": "Montaña = montanha."
-        },
-        {
-          "es": "volcán",
-          "kind": "quase",
-          "meaning": "vulcão",
-          "tip": "Volcánico."
-        },
-        {
           "es": "lava",
           "kind": "igual",
           "meaning": "lava",
           "tip": "Igual!"
-        },
-        {
-          "es": "cráter",
-          "kind": "quase",
-          "meaning": "cratera",
-          "tip": "Masculino em espanhol."
         },
         {
           "es": "forro polar",
@@ -131,32 +139,33 @@
           "kind": "armadilha",
           "meaning": "floco (de neve)",
           "tip": "Copo = floco. Copo (de beber) é \"vaso\"."
-        },
-        {
-          "es": "cumbre",
-          "kind": "quase",
-          "meaning": "cume",
-          "tip": "Sinônimo de cima."
-        },
-        {
-          "es": "pico",
-          "kind": "igual",
-          "meaning": "pico",
-          "tip": "Igual!"
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Llévate un abrigo\" significa:",
-      "options": [
-        "Leve um casaco",
-        "Leve um refúgio",
-        "Leve um guarda-chuva"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lino",
+          "es": "Unos tres mil setecientos metros. Es el pico más alto de España.",
+          "pt": "Uns três mil e setecentos metros. É o pico mais alto da Espanha."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Se puede subir hasta la cima?",
+          "pt": "Dá para subir até o cume?"
+        }
       ],
-      "correct": 0,
-      "explanation": "Abrigo = casaco."
+      "speaker": "Lino",
+      "pt": "O teleférico chega perto. Para o último trecho precisa de uma autorização.",
+      "options": [
+        "Mucho. Abajo playa, arriba abrigo. Así es Tenerife.",
+        "Arriba hace frío, ¿no?",
+        "El teleférico llega cerca. Para el último tramo hace falta un permiso."
+      ],
+      "correct": 2,
+      "explanation": "Lino diz: \"El teleférico llega cerca. Para el último tramo hace falta un permiso.\" = \"O teleférico chega perto. Para o último trecho precisa de uma autorização.\"."
     },
     {
       "type": "build",
@@ -189,18 +198,6 @@
       ],
       "correct": 0,
       "explanation": "Contrastes de altitude."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Llegamos a la ___ del volcán.\" (topo)",
-      "options": [
-        "cima",
-        "topo",
-        "encima"
-      ],
-      "correct": 0,
-      "explanation": "Cima = topo."
     },
     {
       "type": "boss",

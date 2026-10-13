@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "vosotros",
+          "pt": "vocês (Península)",
+          "emoji": "👥"
+        },
+        {
+          "es": "el plátano canario",
+          "pt": "a banana das Canárias",
+          "emoji": "🍌"
+        },
+        {
+          "es": "la guagua",
+          "pt": "o ônibus (Canárias)",
+          "emoji": "🚌"
+        },
+        {
+          "es": "el acento",
+          "pt": "o sotaque",
+          "emoji": "🗣️"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Seseo\" é:",
@@ -83,7 +109,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "dialecto",
@@ -104,40 +130,10 @@
           "tip": "Pronuncia bien."
         },
         {
-          "es": "caribeño",
-          "kind": "quase",
-          "meaning": "caribenho",
-          "tip": "Do Caribe."
-        },
-        {
-          "es": "sonar",
-          "kind": "quase",
-          "meaning": "soar",
-          "tip": "Sonar = soar. Sonhar é \"soñar\"!"
-        },
-        {
           "es": "dejo",
           "kind": "armadilha",
           "meaning": "sotaque leve / entonação",
           "tip": "Dejo = sotaque leve. Soa como \"deixo\" (de deixar)."
-        },
-        {
-          "es": "isleño",
-          "kind": "quase",
-          "meaning": "ilhéu",
-          "tip": "Da ilha."
-        },
-        {
-          "es": "peninsular",
-          "kind": "quase",
-          "meaning": "peninsular",
-          "tip": "Da Península."
-        },
-        {
-          "es": "aspirar",
-          "kind": "quase",
-          "meaning": "aspirar (som)",
-          "tip": "La s se aspira."
         },
         {
           "es": "cacho",
@@ -148,16 +144,29 @@
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Tiene un acento canario\" significa:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lino",
+          "es": "Sí. No pronuncian la zeta como en Madrid: \"zapato\" suena con ese.",
+          "pt": "Sim. Não pronunciam o z como em Madri: \"zapato\" soa com s."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Como nosotros en portugués!",
+          "pt": "Como nós em português!"
+        }
+      ],
+      "speaker": "Lino",
+      "pt": "E os s no final às vezes quase somem.",
       "options": [
-        "Tem um sotaque canário",
-        "Tem um acento gráfico",
-        "Tem um assento canário"
+        "Y las eses al final a veces casi desaparecen.",
+        "Entiéndelo bien. Pero aprende el castellano de la Península como base.",
+        "¿Debo copiar el acento?"
       ],
       "correct": 0,
-      "explanation": "Acento = sotaque."
+      "explanation": "Lino diz: \"Y las eses al final a veces casi desaparecen.\" = \"E os s no final às vezes quase somem.\"."
     },
     {
       "type": "build",
@@ -187,18 +196,6 @@
       ],
       "correct": 0,
       "explanation": "Seseo."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Me gusta su ___ canario.\" (sotaque)",
-      "options": [
-        "acento",
-        "sotaque",
-        "asiento"
-      ],
-      "correct": 0,
-      "explanation": "Acento = sotaque."
     },
     {
       "type": "boss",

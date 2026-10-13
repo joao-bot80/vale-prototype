@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la ventana",
+          "pt": "a janela",
+          "emoji": "🪟"
+        },
+        {
+          "es": "la nevera",
+          "pt": "a geladeira",
+          "emoji": "🧊"
+        },
+        {
+          "es": "el grifo",
+          "pt": "a torneira",
+          "emoji": "🚰"
+        },
+        {
+          "es": "el enchufe",
+          "pt": "a tomada",
+          "emoji": "🔌"
+        },
+        {
+          "es": "la lavadora",
+          "pt": "a máquina de lavar",
+          "emoji": "🧺"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "Como se diz \"mobiliado\"?",
@@ -82,71 +113,29 @@
       "explanation": "\"Muebles\" = móveis."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "sofá",
-          "kind": "igual",
-          "meaning": "sofá",
-          "tip": "Igualzinho!"
+          "speaker": "Lu",
+          "es": "¡Qué luminoso! ¿El piso está amueblado?",
+          "pt": "Que iluminado! O apartamento é mobiliado?"
         },
         {
-          "es": "cortina",
-          "kind": "igual",
-          "meaning": "cortina",
-          "tip": "Mesma palavra."
-        },
-        {
-          "es": "mesa",
-          "kind": "igual",
-          "meaning": "mesa",
-          "tip": "Igual!"
-        },
-        {
-          "es": "cocina",
-          "kind": "quase",
-          "meaning": "cozinha",
-          "tip": "O \"z\" vira \"c\"."
-        },
-        {
-          "es": "armario",
-          "kind": "quase",
-          "meaning": "armário",
-          "tip": "Sem acento."
-        },
-        {
-          "es": "dormitorio",
-          "kind": "quase",
-          "meaning": "quarto (de dormir)",
-          "tip": "Mais formal que \"habitación\"."
-        },
-        {
-          "es": "colchón",
-          "kind": "quase",
-          "meaning": "colchão",
-          "tip": "-ão vira -ón."
-        },
-        {
-          "es": "grifo",
-          "kind": "armadilha",
-          "meaning": "torneira",
-          "tip": "Grifo = torneira. Em PT-BR, grifo é o itálico do texto ou o animal mitológico."
-        },
-        {
-          "es": "estufa",
-          "kind": "armadilha",
-          "meaning": "aquecedor",
-          "tip": "Estufa = aquecedor. A estufa de plantas é \"invernadero\"."
-        },
-        {
-          "es": "taller",
-          "kind": "armadilha",
-          "meaning": "oficina mecânica / ateliê",
-          "tip": "Talher é \"cubierto\"."
+          "speaker": "Marta",
+          "es": "Sí, tiene todos los muebles y la cocina está equipada.",
+          "pt": "Sim, tem todos os móveis e a cozinha é equipada."
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Tem aquecimento?",
+      "options": [
+        "Sí, y aire acondicionado en el dormitorio.",
+        "¿Hay calefacción?",
+        "Me encanta. ¿Cuándo podría entrar a vivir?"
+      ],
+      "correct": 1,
+      "explanation": "Lu diz: \"¿Hay calefacción?\" = \"Tem aquecimento?\"."
     },
     {
       "type": "choice",
@@ -188,18 +177,6 @@
       ],
       "correct": 0,
       "explanation": "\"Equipada\" = com eletrodomésticos."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "¿___ calefacción en el piso?",
-      "options": [
-        "Hay",
-        "Tiene",
-        "Está"
-      ],
-      "correct": 0,
-      "explanation": "\"Hay\" = tem/existe. \"¿Hay calefacción?\" = Tem aquecimento?"
     },
     {
       "type": "boss",

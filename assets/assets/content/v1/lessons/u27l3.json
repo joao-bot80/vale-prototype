@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la hoguera",
+          "pt": "a fogueira",
+          "emoji": "🔥"
+        },
+        {
+          "es": "la noche",
+          "pt": "a noite",
+          "emoji": "🌙"
+        },
+        {
+          "es": "la playa",
+          "pt": "a praia",
+          "emoji": "🏖️"
+        },
+        {
+          "es": "el cohete",
+          "pt": "o rojão",
+          "emoji": "🚀"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"¡Qué pena!\" significa:",
@@ -83,7 +109,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "hoguera",
@@ -98,24 +124,6 @@
           "tip": "Es tradición."
         },
         {
-          "es": "palmera",
-          "kind": "quase",
-          "meaning": "palmeira",
-          "tip": "Também fogos assim."
-        },
-        {
-          "es": "castillo",
-          "kind": "quase",
-          "meaning": "castelo",
-          "tip": "Castillo de Santa Bárbara."
-        },
-        {
-          "es": "lanzar",
-          "kind": "quase",
-          "meaning": "lançar",
-          "tip": "Com z."
-        },
-        {
           "es": "purificar",
           "kind": "igual",
           "meaning": "purificar",
@@ -128,18 +136,6 @@
           "tip": "¡Qué pena! = que pena. Atenção: vergonha é \"vergüenza\"."
         },
         {
-          "es": "vergüenza",
-          "kind": "quase",
-          "meaning": "vergonha",
-          "tip": "Vergüenza = vergonha."
-        },
-        {
-          "es": "fuegos artificiales",
-          "kind": "quase",
-          "meaning": "fogos de artifício",
-          "tip": "Fuegos artificiales = fogos de artifício."
-        },
-        {
           "es": "cazar",
           "kind": "armadilha",
           "meaning": "caçar",
@@ -148,16 +144,29 @@
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Me da vergüenza\" significa:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lino",
+          "es": "Parecido, pero son las Hogueras de San Juan de Alicante, en junio.",
+          "pt": "Parecido, mas são as Fogueiras de São João de Alicante, em junho."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y también los queman?",
+          "pt": "E também queimam?"
+        }
+      ],
+      "speaker": "Lino",
+      "pt": "Sim, na noite do dia vinte e quatro. Antes lançam uma palmeira de fogos do castelo.",
       "options": [
-        "Tenho vergonha",
-        "Me dá pena",
-        "Me dá raiva"
+        "Sí, la noche del veinticuatro. Antes lanzan una palmera de fuegos desde el castillo.",
+        "Es la tradición: el fuego purifica y empieza el verano.",
+        "¡Qué pena quemar algo tan bonito!"
       ],
       "correct": 0,
-      "explanation": "Vergüenza = vergonha. Pena = pena."
+      "explanation": "Lino diz: \"Sí, la noche del veinticuatro. Antes lanzan una palmera de fuegos desde el castillo.\" = \"Sim, na noite do dia vinte e quatro. Antes lançam uma palmeira de fogos do castelo.\"."
     },
     {
       "type": "build",
@@ -185,18 +194,6 @@
       ],
       "correct": 0,
       "explanation": "A noite de San Juan marca o início do verão."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Es una caja de ___.\" (papelão)",
-      "options": [
-        "cartón",
-        "cartão",
-        "carta"
-      ],
-      "correct": 0,
-      "explanation": "Cartón = papelão."
     },
     {
       "type": "boss",

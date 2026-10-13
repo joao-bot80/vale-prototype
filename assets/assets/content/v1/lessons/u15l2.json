@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el currículum",
+          "pt": "o currículo",
+          "emoji": "📄"
+        },
+        {
+          "es": "los idiomas",
+          "pt": "os idiomas",
+          "emoji": "🗣️"
+        },
+        {
+          "es": "la carrera",
+          "pt": "a faculdade",
+          "emoji": "🎓"
+        },
+        {
+          "es": "las prácticas",
+          "pt": "o estágio",
+          "emoji": "🧑‍💻"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"¿Has trabajado alguna vez en España?\" significa:",
@@ -81,71 +107,29 @@
       "explanation": "\"Gestionar\" = gerenciar, administrar."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "currículum",
-          "kind": "quase",
-          "meaning": "currículo",
-          "tip": "Também \"CV\"."
+          "speaker": "Lu",
+          "es": "He organizado eventos y he gestionado las redes sociales.",
+          "pt": "Organizei eventos e gerenciei as redes sociais."
         },
         {
-          "es": "idioma",
-          "kind": "igual",
-          "meaning": "idioma / língua",
-          "tip": "Idioma = idioma. Mais comum que \"lengua\" no CV."
-        },
-        {
-          "es": "nativo",
-          "kind": "igual",
-          "meaning": "nativo",
-          "tip": "Igual!"
-        },
-        {
-          "es": "gestionar",
-          "kind": "quase",
-          "meaning": "gerenciar",
-          "tip": "Gestión = gestão."
-        },
-        {
-          "es": "evento",
-          "kind": "igual",
-          "meaning": "evento",
-          "tip": "Igual!"
-        },
-        {
-          "es": "logro",
-          "kind": "armadilha",
-          "meaning": "conquista",
-          "tip": "Não é logro (engano)!"
-        },
-        {
-          "es": "formación",
-          "kind": "quase",
-          "meaning": "formação",
-          "tip": "Estudos e cursos."
-        },
-        {
-          "es": "carrera",
-          "kind": "quase",
-          "meaning": "carreira / faculdade",
-          "tip": "Carrera = carreira; também o curso superior e a corrida."
-        },
-        {
-          "es": "título",
-          "kind": "quase",
-          "meaning": "título / diploma",
-          "tip": "Título = título; também o diploma."
-        },
-        {
-          "es": "referencia",
-          "kind": "quase",
-          "meaning": "referência",
-          "tip": "Sem acento."
+          "speaker": "Lino",
+          "es": "¡Muy bien! ¿Has trabajado alguna vez en España?",
+          "pt": "Muito bem! Já trabalhou alguma vez na Espanha?"
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Sim, trabalhei seis meses numa loja.",
+      "options": [
+        "Sí, he trabajado seis meses en una tienda.",
+        "Y una foto no, ¿verdad? En Brasil a veces se pone.",
+        "Pon también los idiomas: portugués nativo y español."
+      ],
+      "correct": 0,
+      "explanation": "Lu diz: \"Sí, he trabajado seis meses en una tienda.\" = \"Sim, trabalhei seis meses numa loja.\"."
     },
     {
       "type": "choice",
@@ -187,18 +171,6 @@
       ],
       "correct": 0,
       "explanation": "\"Tienda\" = loja."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Mi mayor ___ fue duplicar las ventas.\" (conquista)",
-      "options": [
-        "logro",
-        "lucro",
-        "logo"
-      ],
-      "correct": 0,
-      "explanation": "\"Logro\" = conquista, realização."
     },
     {
       "type": "boss",

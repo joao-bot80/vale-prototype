@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "despacio",
+          "pt": "devagar",
+          "emoji": "🐢"
+        },
+        {
+          "es": "deprisa",
+          "pt": "rápido",
+          "emoji": "🐇"
+        },
+        {
+          "es": "la terraza",
+          "pt": "a mesa na calçada",
+          "emoji": "☀️"
+        },
+        {
+          "es": "el abanico",
+          "pt": "o leque",
+          "emoji": "🪭"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "O que é o \"seseo\"?",
@@ -83,71 +109,29 @@
       "explanation": "\"La ese\" = a letra s."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "rápido",
-          "kind": "quase",
-          "meaning": "rápido",
-          "tip": "Igual, só o acento muda de lugar na fala."
+          "speaker": "Dani",
+          "es": "Es el acento andaluz. Muchas veces no pronuncian la ese final.",
+          "pt": "É o sotaque andaluz. Muitas vezes não pronunciam o s final."
         },
         {
-          "es": "acento",
-          "kind": "armadilha",
-          "meaning": "sotaque",
-          "tip": "Acento = sotaque. Em PT-BR, acento é o sinal gráfico (´ ^)."
-        },
-        {
-          "es": "entender",
-          "kind": "igual",
-          "meaning": "entender",
-          "tip": "Igualzinho!"
-        },
-        {
-          "es": "hablar",
-          "kind": "quase",
-          "meaning": "falar",
-          "tip": "\"H\" no lugar de \"f\": hablar, hacer, hijo."
-        },
-        {
-          "es": "conversación",
-          "kind": "quase",
-          "meaning": "conversa",
-          "tip": "-ción vira -ção/-a: conversación = conversa."
-        },
-        {
-          "es": "despacio",
-          "kind": "armadilha",
-          "meaning": "devagar",
-          "tip": "Não é \"espaço\"! Espaço = \"espacio\"."
-        },
-        {
-          "es": "enfadado",
-          "kind": "armadilha",
-          "meaning": "zangado",
-          "tip": "Enfadado = bravo, irritado. Enfadado no Brasil (entediado) é \"aburrido\"."
-        },
-        {
-          "es": "jubilado",
-          "kind": "armadilha",
-          "meaning": "aposentado",
-          "tip": "Jubilado = aposentado. Em PT-BR, jubilado é o aluno desligado da faculdade."
-        },
-        {
-          "es": "zurdo",
-          "kind": "armadilha",
-          "meaning": "canhoto",
-          "tip": "Zurdo = canhoto. Surdo é \"sordo\"."
-        },
-        {
-          "es": "rubio",
-          "kind": "armadilha",
-          "meaning": "loiro",
-          "tip": "Ruivo = \"pelirrojo\"."
+          "speaker": "Lu",
+          "es": "¿Por eso dice \"pescaíto\" y no \"pescadito\"?",
+          "pt": "Por isso ele diz \"pescaíto\" e não \"pescadito\"?"
         }
-      ]
+      ],
+      "speaker": "Dani",
+      "pt": "Exato. E muitos dizem \"sapato\" em vez de \"zapato\".",
+      "options": [
+        "Exacto. Y muchos dicen \"sapato\" en vez de \"zapato\".",
+        "Tú habla normal, que te entienden perfectamente.",
+        "¡Como en portugués! Me gusta este acento."
+      ],
+      "correct": 0,
+      "explanation": "Dani diz: \"Exacto. Y muchos dicen \"sapato\" en vez de \"zapato\".\" = \"Exato. E muitos dizem \"sapato\" em vez de \"zapato\".\"."
     },
     {
       "type": "choice",
@@ -191,18 +175,6 @@
       ],
       "correct": 0,
       "explanation": "Isso é o seseo. No espanhol padrão, \"z\" soa como o \"th\" do inglês."
-    },
-    {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "O que é o \"ceceo\"?",
-      "options": [
-        "Pronunciar o \"s\" como o \"th\" inglês",
-        "Pronunciar o \"z\" como \"s\"",
-        "Engolir o \"d\" final"
-      ],
-      "correct": 0,
-      "explanation": "Ceceo: \"sí\" soa parecido com \"thí\". Existe em algumas zonas da Andaluzia. É só para reconhecer, não para imitar."
     },
     {
       "type": "boss",

@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la entrada",
+          "pt": "o ingresso",
+          "emoji": "🎟️"
+        },
+        {
+          "es": "la fuente",
+          "pt": "a fonte",
+          "emoji": "⛲"
+        },
+        {
+          "es": "el palacio",
+          "pt": "o palácio",
+          "emoji": "🏰"
+        },
+        {
+          "es": "el azulejo",
+          "pt": "o azulejo",
+          "emoji": "🟦"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Las entradas están agotadas\" significa:",
@@ -82,71 +108,29 @@
       "explanation": "O ingresso indica a hora exata de entrar nos Palácios Nasridas."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "palacio",
-          "kind": "quase",
-          "meaning": "palácio",
-          "tip": "Igual, sem acento."
+          "speaker": "Taquillera",
+          "es": "Lo siento, para hoy están agotadas.",
+          "pt": "Sinto muito, para hoje estão esgotados."
         },
         {
-          "es": "jardín",
-          "kind": "quase",
-          "meaning": "jardim",
-          "tip": "-im vira -ín."
-        },
-        {
-          "es": "fuente",
-          "kind": "quase",
-          "meaning": "fonte",
-          "tip": "\"Ue\" no lugar de \"o\"."
-        },
-        {
-          "es": "torre",
-          "kind": "igual",
-          "meaning": "torre",
-          "tip": "Igualzinho!"
-        },
-        {
-          "es": "historia",
-          "kind": "quase",
-          "meaning": "história",
-          "tip": "Sem acento."
-        },
-        {
-          "es": "patio",
-          "kind": "quase",
-          "meaning": "pátio",
-          "tip": "Sem acento."
-        },
-        {
-          "es": "entrada",
-          "kind": "igual",
-          "meaning": "ingresso / entrada",
-          "tip": "Entrada = entrada, e também ingresso. \"Ingreso\" é depósito no banco."
-        },
-        {
-          "es": "visita",
-          "kind": "igual",
-          "meaning": "visita",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "chorro",
-          "kind": "armadilha",
-          "meaning": "jato (de água)",
-          "tip": "Chorro = jato. Choro é \"llanto\"."
-        },
-        {
-          "es": "azulejo",
-          "kind": "igual",
-          "meaning": "azulejo",
-          "tip": "Palavra de origem árabe, igual nas duas línguas!"
+          "speaker": "Lu",
+          "es": "¡Vaya! ¿Y para mañana?",
+          "pt": "Poxa! E para amanhã?"
         }
-      ]
+      ],
+      "speaker": "Taquillera",
+      "pt": "Na bilheteria só vendemos para hoje. Para amanhã, compre no site oficial.",
+      "options": [
+        "Los Palacios Nazaríes tienen hora fija. Y trae tu pasaporte o tu NIE.",
+        "Vale, la compro ahora en el móvil.",
+        "En taquilla solo vendemos para hoy. Para mañana, cómprala en la web oficial."
+      ],
+      "correct": 2,
+      "explanation": "Taquillera diz: \"En taquilla solo vendemos para hoy. Para mañana, cómprala en la web oficial.\" = \"Na bilheteria só vendemos para hoje. Para amanhã, compre no site oficial.\"."
     },
     {
       "type": "choice",
@@ -192,18 +176,6 @@
       ],
       "correct": 0,
       "explanation": "\"Lo siento\" = sinto muito."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Hay mucha ___ para entrar.\" (fila)",
-      "options": [
-        "cola",
-        "fila",
-        "línea"
-      ],
-      "correct": 0,
-      "explanation": "Na Espanha: \"hacer cola\" = fazer fila. \"Fila\" em espanhol é fileira (e \"hacer fila\" é mais latino-americano)."
     },
     {
       "type": "boss",

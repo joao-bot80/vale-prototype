@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el acueducto",
+          "pt": "o aqueduto",
+          "emoji": "🏛️"
+        },
+        {
+          "es": "el cochinillo",
+          "pt": "o leitão",
+          "emoji": "🐖"
+        },
+        {
+          "es": "el plato",
+          "pt": "o prato",
+          "emoji": "🍽️"
+        },
+        {
+          "es": "el castillo",
+          "pt": "o castelo",
+          "emoji": "🏰"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"¡Madre mía!\" expressa:",
@@ -85,7 +111,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "acueducto",
@@ -116,50 +142,33 @@
           "kind": "igual",
           "meaning": "peso",
           "tip": "Igual!"
-        },
-        {
-          "es": "romano",
-          "kind": "igual",
-          "meaning": "romano",
-          "tip": "Igual!"
-        },
-        {
-          "es": "sujetar",
-          "kind": "armadilha",
-          "meaning": "segurar",
-          "tip": "Não é sujeitar."
-        },
-        {
-          "es": "cemento",
-          "kind": "quase",
-          "meaning": "cimento",
-          "tip": "Com e."
-        },
-        {
-          "es": "alcázar",
-          "kind": "quase",
-          "meaning": "alcácer / castelo",
-          "tip": "O Alcázar de Segovia."
-        },
-        {
-          "es": "madre mía",
-          "kind": "quase",
-          "meaning": "nossa! / minha nossa",
-          "tip": "Exclamação."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"La carne está tierna\" significa:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Guía",
+          "es": "Es romano, de hace unos dos mil años. Y no lleva cemento.",
+          "pt": "É romano, de uns dois mil anos atrás. E não tem cimento."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Cómo se sujetan las piedras, entonces?",
+          "pt": "Então como as pedras se seguram?"
+        }
+      ],
+      "speaker": "Guía",
+      "pt": "Pelo próprio peso. Estão muito bem colocadas.",
       "options": [
-        "A carne está macia",
-        "A carne está crua",
-        "A carne está terna"
+        "Por su propio peso. Están muy bien colocadas.",
+        "El cochinillo asado. ¡Tan tierno que lo cortan con un plato!",
+        "¿Y qué se come aquí?"
       ],
       "correct": 0,
-      "explanation": "Tierno = macio."
+      "explanation": "Guía diz: \"Por su propio peso. Están muy bien colocadas.\" = \"Pelo próprio peso. Estão muito bem colocadas.\"."
     },
     {
       "type": "build",
@@ -189,18 +198,6 @@
       ],
       "correct": 0,
       "explanation": "Tradição em restaurantes de Segovia."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"El cochinillo está muy ___.\" (macio)",
-      "options": [
-        "tierno",
-        "terno",
-        "tenro"
-      ],
-      "correct": 0,
-      "explanation": "Tierno = macio (carne). \"Tenro\" é português."
     },
     {
       "type": "boss",

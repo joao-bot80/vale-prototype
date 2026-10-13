@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el lunes",
+          "pt": "a segunda-feira",
+          "emoji": "1️⃣"
+        },
+        {
+          "es": "el martes",
+          "pt": "a terça-feira",
+          "emoji": "2️⃣"
+        },
+        {
+          "es": "el miércoles",
+          "pt": "a quarta-feira",
+          "emoji": "3️⃣"
+        },
+        {
+          "es": "el jueves",
+          "pt": "a quinta-feira",
+          "emoji": "4️⃣"
+        },
+        {
+          "es": "el viernes",
+          "pt": "a sexta-feira",
+          "emoji": "5️⃣"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "Como se diz \"segunda-feira\" em espanhol?",
@@ -86,71 +117,29 @@
       "explanation": "\"Cerrado\" = fechado. \"Abierto\" = aberto."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "sábado",
-          "kind": "igual",
-          "meaning": "sábado",
-          "tip": "Igualzinho!"
+          "speaker": "Dependienta",
+          "es": "De lunes a viernes, de diez a dos y de cinco a ocho y media.",
+          "pt": "De segunda a sexta, das dez às duas e das cinco às oito e meia."
         },
         {
-          "es": "semana",
-          "kind": "igual",
-          "meaning": "semana",
-          "tip": "Mesma palavra."
-        },
-        {
-          "es": "abierto",
-          "kind": "quase",
-          "meaning": "aberto",
-          "tip": "Ganha um \"i\"."
-        },
-        {
-          "es": "horario",
-          "kind": "quase",
-          "meaning": "horário",
-          "tip": "Sem acento."
-        },
-        {
-          "es": "mes",
-          "kind": "quase",
-          "meaning": "mês",
-          "tip": "Sem acento."
-        },
-        {
-          "es": "mediodía",
-          "kind": "quase",
-          "meaning": "meio-dia / hora do almoço",
-          "tip": "Também é o horário do almoço."
-        },
-        {
-          "es": "cerrado",
-          "kind": "armadilha",
-          "meaning": "fechado",
-          "tip": "Cerrado = fechado. Em PT-BR, cerrado é o bioma do Centro-Oeste ou algo denso."
-        },
-        {
-          "es": "fecha",
-          "kind": "armadilha",
-          "meaning": "data",
-          "tip": "Fechar é \"cerrar\"."
-        },
-        {
-          "es": "tienda",
-          "kind": "armadilha",
-          "meaning": "loja",
-          "tip": "Tienda = loja. Em PT-BR, tenda é a barraca de acampar (\"carpa\")."
-        },
-        {
-          "es": "talla",
-          "kind": "armadilha",
-          "meaning": "tamanho (de roupa)",
-          "tip": "Talla = tamanho. Em PT-BR, talha é escultura em madeira."
+          "speaker": "Lu",
+          "es": "¿Y los sábados?",
+          "pt": "E aos sábados?"
         }
-      ]
+      ],
+      "speaker": "Dependienta",
+      "pt": "Aos sábados só de manhã. Aos domingos fica fechado.",
+      "options": [
+        "Sí, de dos a cinco. ¡Es lo normal en las tiendas pequeñas!",
+        "¿Cerráis a mediodía?",
+        "Los sábados solo por la mañana. Los domingos está cerrado."
+      ],
+      "correct": 2,
+      "explanation": "Dependienta diz: \"Los sábados solo por la mañana. Los domingos está cerrado.\" = \"Aos sábados só de manhã. Aos domingos fica fechado.\"."
     },
     {
       "type": "choice",
@@ -191,18 +180,6 @@
       ],
       "correct": 0,
       "explanation": "\"De... a...\" = de... a/até..."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "¿Cuál es la ___ de hoy? —12 de octubre.",
-      "options": [
-        "fecha",
-        "data",
-        "hora"
-      ],
-      "correct": 0,
-      "explanation": "\"Fecha\" = data. \"Data\" não existe com esse sentido em espanhol."
     },
     {
       "type": "boss",

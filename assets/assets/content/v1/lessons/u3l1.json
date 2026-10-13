@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la calle",
+          "pt": "a rua",
+          "emoji": "🛣️"
+        },
+        {
+          "es": "la acera",
+          "pt": "a calçada",
+          "emoji": "🚶"
+        },
+        {
+          "es": "el semáforo",
+          "pt": "o semáforo",
+          "emoji": "🚦"
+        },
+        {
+          "es": "a la izquierda",
+          "pt": "à esquerda",
+          "emoji": "⬅️"
+        },
+        {
+          "es": "a la derecha",
+          "pt": "à direita",
+          "emoji": "➡️"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "Como se diz \"siga reto\" na Espanha?",
@@ -88,31 +119,13 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "semáforo",
           "kind": "igual",
           "meaning": "semáforo",
           "tip": "Igualzinho!"
-        },
-        {
-          "es": "esquina",
-          "kind": "igual",
-          "meaning": "esquina",
-          "tip": "Mesma palavra."
-        },
-        {
-          "es": "teatro",
-          "kind": "igual",
-          "meaning": "teatro",
-          "tip": "A Gran Vía está cheia deles."
-        },
-        {
-          "es": "parque",
-          "kind": "igual",
-          "meaning": "parque",
-          "tip": "Igual!"
         },
         {
           "es": "plaza",
@@ -137,32 +150,33 @@
           "kind": "armadilha",
           "meaning": "jogar fora / puxar",
           "tip": "Tirar = jogar fora ou puxar. Em PT-BR, tirar é \"quitar\" (remover)."
-        },
-        {
-          "es": "pronto",
-          "kind": "armadilha",
-          "meaning": "logo, cedo",
-          "tip": "\"Pronto\" (preparado) é \"listo\"."
-        },
-        {
-          "es": "contestar",
-          "kind": "armadilha",
-          "meaning": "responder, atender",
-          "tip": "Contestar = responder/atender. Em PT-BR, contestar é discordar, questionar (\"impugnar\")."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"¡Qué va!\" significa:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Señora",
+          "es": "Sí, mira, sigue todo recto por la Gran Vía.",
+          "pt": "Sim, olha, siga reto pela Gran Vía."
+        },
+        {
+          "speaker": "Señora",
+          "es": "Al final de la calle, gira a la derecha y ya la verás.",
+          "pt": "No fim da rua, vire à direita e você já vai ver."
+        }
+      ],
+      "speaker": "Lu",
+      "pt": "É longe?",
       "options": [
-        "Que nada! / Imagina!",
-        "O que vai?",
-        "Vá embora!"
+        "¿Está lejos?",
+        "¡Muchas gracias, muy amable!",
+        "Qué va, está a diez minutos andando."
       ],
       "correct": 0,
-      "explanation": "\"¡Qué va!\" é um \"que nada!\" bem espanhol."
+      "explanation": "Lu diz: \"¿Está lejos?\" = \"É longe?\"."
     },
     {
       "type": "build",
@@ -193,18 +207,6 @@
       ],
       "correct": 0,
       "explanation": "\"Al final de\" = no fim de. \"Derecha\" = direita."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Perdone, ¿la Plaza de España está ___?",
-      "options": [
-        "cerca",
-        "perto",
-        "pronto"
-      ],
-      "correct": 0,
-      "explanation": "Perto = \"cerca\". \"Pronto\" = logo, cedo."
     },
     {
       "type": "boss",

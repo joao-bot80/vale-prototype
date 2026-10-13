@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "los castellers",
+          "pt": "as torres humanas",
+          "emoji": "🧍"
+        },
+        {
+          "es": "los fuegos artificiales",
+          "pt": "os fogos de artifício",
+          "emoji": "🎆"
+        },
+        {
+          "es": "el gigante",
+          "pt": "o gigante",
+          "emoji": "🗿"
+        },
+        {
+          "es": "el tambor",
+          "pt": "o tambor",
+          "emoji": "🥁"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"¡Qué miedo!\" significa:",
@@ -84,7 +110,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "miedo",
@@ -111,54 +137,37 @@
           "tip": "Cheiro de pólvora."
         },
         {
-          "es": "diablo",
-          "kind": "quase",
-          "meaning": "diabo",
-          "tip": "Ditongo ia."
-        },
-        {
-          "es": "multitud",
-          "kind": "quase",
-          "meaning": "multidão",
-          "tip": "Multitud = multidão."
-        },
-        {
-          "es": "hombro",
-          "kind": "quase",
-          "meaning": "ombro",
-          "tip": "Hombro = ombro: com h."
-        },
-        {
-          "es": "equilibrio",
-          "kind": "quase",
-          "meaning": "equilíbrio",
-          "tip": "Sem acento."
-        },
-        {
           "es": "desfile",
           "kind": "igual",
           "meaning": "desfile",
           "tip": "Desfile = desfile."
-        },
-        {
-          "es": "cabezudo",
-          "kind": "quase",
-          "meaning": "cabeçudo",
-          "tip": "Gigantes y cabezudos."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Sube a los hombros\" significa:",
-      "options": [
-        "Sobe nos ombros",
-        "Sobe nos homens",
-        "Sobe nas costas"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Marta",
+          "es": "Son los castells, torres humanas. ¡El niño de arriba sube hasta lo más alto!",
+          "pt": "São os castells, torres humanas. A criança de cima sobe até o mais alto!"
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Qué miedo! ¿Y no se caen?",
+          "pt": "Que medo! E não caem?"
+        }
       ],
-      "correct": 0,
-      "explanation": "Hombro = ombro."
+      "speaker": "Marta",
+      "pt": "Às vezes sim, mas a criança usa capacete e tem muita gente embaixo.",
+      "options": [
+        "El correfoc: diablos con fuego. Ponte ropa vieja y una gorra.",
+        "¿Y esta noche qué hay?",
+        "A veces sí, pero el niño lleva casco y hay mucha gente abajo."
+      ],
+      "correct": 2,
+      "explanation": "Marta diz: \"A veces sí, pero el niño lleva casco y hay mucha gente abajo.\" = \"Às vezes sim, mas a criança usa capacete e tem muita gente embaixo.\"."
     },
     {
       "type": "build",
@@ -187,18 +196,6 @@
       ],
       "correct": 0,
       "explanation": "Faíscas queimam roupa: proteja-se."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Mira los fuegos ___.\" (fogos de artifício)",
-      "options": [
-        "artificiales",
-        "artificios",
-        "artifícios"
-      ],
-      "correct": 0,
-      "explanation": "Fuegos artificiales = fogos de artifício."
     },
     {
       "type": "boss",

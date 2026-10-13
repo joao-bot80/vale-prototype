@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el faro",
+          "pt": "o farol",
+          "emoji": "🗼"
+        },
+        {
+          "es": "el viento",
+          "pt": "o vento",
+          "emoji": "💨"
+        },
+        {
+          "es": "la bufanda",
+          "pt": "o cachecol",
+          "emoji": "🧣"
+        },
+        {
+          "es": "el abrigo",
+          "pt": "o casaco",
+          "emoji": "🧥"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Abrígate bien\" significa:",
@@ -81,71 +107,29 @@
       "explanation": "Patrimônio Mundial desde 2009."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "cristal",
-          "kind": "armadilha",
-          "meaning": "vidro",
-          "tip": "Cristal = vidro comum. Em PT-BR, cristal é vidro fino e caro."
+          "speaker": "Lino",
+          "es": "Sí, la Torre de Hércules. Es el faro romano en funcionamiento más antiguo del mundo.",
+          "pt": "Sim, a Torre de Hércules. É o farol romano em funcionamento mais antigo do mundo."
         },
         {
-          "es": "galería",
-          "kind": "quase",
-          "meaning": "galeria (varanda envidraçada)",
-          "tip": "Típica da Coruña."
-        },
-        {
-          "es": "viento",
-          "kind": "quase",
-          "meaning": "vento",
-          "tip": "Hace viento."
-        },
-        {
-          "es": "abrigo",
-          "kind": "armadilha",
-          "meaning": "casaco",
-          "tip": "Abrigo = casaco. Em PT-BR, abrigo é refúgio (\"refugio\")."
-        },
-        {
-          "es": "abrigarse",
-          "kind": "quase",
-          "meaning": "agasalhar-se",
-          "tip": "Abrígate."
-        },
-        {
-          "es": "gorro",
-          "kind": "igual",
-          "meaning": "gorro",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "paseo",
-          "kind": "quase",
-          "meaning": "passeio / calçadão",
-          "tip": "Paseo marítimo."
-        },
-        {
-          "es": "antiguo",
-          "kind": "quase",
-          "meaning": "antigo",
-          "tip": "Ditongo uo."
-        },
-        {
-          "es": "funcionar",
-          "kind": "quase",
-          "meaning": "funcionar",
-          "tip": "Sigue funcionando."
-        },
-        {
-          "es": "chocolate caliente",
-          "kind": "quase",
-          "meaning": "chocolate quente",
-          "tip": "Con churros."
+          "speaker": "Lu",
+          "es": "¡Increíble! ¿Y por qué las casas tienen tantas ventanas de cristal?",
+          "pt": "Incrível! E por que as casas têm tantas janelas de vidro?"
         }
-      ]
+      ],
+      "speaker": "Lino",
+      "pt": "São as galerias. Protegem do vento e deixam a luz entrar.",
+      "options": [
+        "Son las galerías. Protegen del viento y dejan entrar la luz.",
+        "Abrígate bien. ¡Vamos a por un chocolate caliente!",
+        "Hace un viento que me lleva."
+      ],
+      "correct": 0,
+      "explanation": "Lino diz: \"Son las galerías. Protegen del viento y dejan entrar la luz.\" = \"São as galerias. Protegem do vento e deixam a luz entrar.\"."
     },
     {
       "type": "choice",
@@ -186,18 +170,6 @@
       ],
       "correct": 0,
       "explanation": "A Coruña é chamada \"cidade de cristal\"."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"La ventana es de ___.\" (vidro)",
-      "options": [
-        "cristal",
-        "cristalo",
-        "vidro"
-      ],
-      "correct": 0,
-      "explanation": "Cristal = vidro (de janela). Vidrio também. \"Cristalo\" não existe."
     },
     {
       "type": "boss",

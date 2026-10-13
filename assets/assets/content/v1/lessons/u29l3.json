@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la carpeta",
+          "pt": "a pasta",
+          "emoji": "📁"
+        },
+        {
+          "es": "la grapa",
+          "pt": "o grampo",
+          "emoji": "📎"
+        },
+        {
+          "es": "la fotocopia",
+          "pt": "a cópia",
+          "emoji": "📠"
+        },
+        {
+          "es": "el original",
+          "pt": "o original",
+          "emoji": "📄"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Recoge tu habitación\" significa:",
@@ -83,71 +109,29 @@
       "explanation": "Revisão Papelada (u10–u17)."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "carpeta",
-          "kind": "armadilha",
-          "meaning": "pasta (de documentos)",
-          "tip": "Não é carpete!"
+          "speaker": "Lu",
+          "es": "Aquí está el TIE, el padrón, el contrato de trabajo y las nóminas.",
+          "pt": "Aqui está o TIE, o padrón, o contrato de trabalho e os holerites."
         },
         {
-          "es": "sellar",
-          "kind": "quase",
-          "meaning": "carimbar / selar",
-          "tip": "Sellar = selar/carimbar."
-        },
-        {
-          "es": "escanear",
-          "kind": "quase",
-          "meaning": "escanear",
-          "tip": "Escanea el documento."
-        },
-        {
-          "es": "original",
-          "kind": "igual",
-          "meaning": "original",
-          "tip": "Original y copia."
-        },
-        {
-          "es": "plastificar",
-          "kind": "quase",
-          "meaning": "plastificar",
-          "tip": "Plastifica el documento."
-        },
-        {
-          "es": "renovación",
-          "kind": "quase",
-          "meaning": "renovação",
-          "tip": "Renovación del TIE."
-        },
-        {
-          "es": "compulsar",
-          "kind": "armadilha",
-          "meaning": "autenticar cópia",
-          "tip": "Compulsar = autenticar cópia. Em PT-BR, compulsar é folhear/consultar documentos."
-        },
-        {
-          "es": "grapa",
-          "kind": "armadilha",
-          "meaning": "grampo (de papel)",
-          "tip": "Grapadora = grampeador."
-        },
-        {
-          "es": "clip",
-          "kind": "igual",
-          "meaning": "clipe",
-          "tip": "Igual!"
-        },
-        {
-          "es": "archivar",
-          "kind": "quase",
-          "meaning": "arquivar",
-          "tip": "Archivo = arquivo."
+          "speaker": "Lino",
+          "es": "¿Y la declaración de la renta?",
+          "pt": "E a declaração da renda?"
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Feita. Tive restituição.",
+      "options": [
+        "Hecha. Me salió a devolver.",
+        "Aprobar el DELE y el CCSE. ¡Ya estoy estudiando el manual!",
+        "¡Qué bien! ¿Y qué te falta para la nacionalidad?"
+      ],
+      "correct": 0,
+      "explanation": "Lu diz: \"Hecha. Me salió a devolver.\" = \"Feita. Tive restituição.\"."
     },
     {
       "type": "choice",
@@ -189,18 +173,6 @@
       ],
       "correct": 0,
       "explanation": "Revisão: u17."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Pásame la ___, quiero unir las hojas.\" (grampeador)",
-      "options": [
-        "grapadora",
-        "grampeadora",
-        "grapa"
-      ],
-      "correct": 0,
-      "explanation": "Grapadora = grampeador; grapa = grampo."
     },
     {
       "type": "boss",

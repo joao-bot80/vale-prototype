@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el tren",
+          "pt": "o trem",
+          "emoji": "🚆"
+        },
+        {
+          "es": "el asiento",
+          "pt": "o assento",
+          "emoji": "💺"
+        },
+        {
+          "es": "el pasillo",
+          "pt": "o corredor",
+          "emoji": "🚶"
+        },
+        {
+          "es": "la ventanilla",
+          "pt": "a janela (do trem)",
+          "emoji": "🪟"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Ida y vuelta\" significa:",
@@ -82,71 +108,29 @@
       "explanation": "\"Tardar\" = levar (tempo)."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "trasbordo",
-          "kind": "quase",
-          "meaning": "baldeação",
-          "tip": "Hacer trasbordo."
+          "speaker": "Taquillero",
+          "es": "El próximo sale a las diez y cuarto. Tarda una media hora.",
+          "pt": "O próximo sai às dez e quinze. Leva uns trinta minutos."
         },
         {
-          "es": "ida y vuelta",
-          "kind": "quase",
-          "meaning": "ida e volta",
-          "tip": "Billete de ida y vuelta."
-        },
-        {
-          "es": "tardar",
-          "kind": "quase",
-          "meaning": "demorar / levar tempo",
-          "tip": "Tardar = demorar (em português \"tardar\" também). ¿Cuánto tarda?"
-        },
-        {
-          "es": "vagón",
-          "kind": "quase",
-          "meaning": "vagão",
-          "tip": "Coche também = vagão."
-        },
-        {
-          "es": "asiento",
-          "kind": "quase",
-          "meaning": "assento / lugar",
-          "tip": "Asiento = assento / lugar. Acento é \"acento\"."
-        },
-        {
-          "es": "revisor",
-          "kind": "armadilha",
-          "meaning": "fiscal do trem",
-          "tip": "Revisor = fiscal de bilhetes. Em PT-BR, revisor é quem corrige textos."
-        },
-        {
-          "es": "tren",
-          "kind": "quase",
-          "meaning": "trem",
-          "tip": "Tren = trem."
-        },
-        {
-          "es": "mazapán",
-          "kind": "quase",
-          "meaning": "marzipã",
-          "tip": "Doce típico de Toledo."
-        },
-        {
-          "es": "espada",
-          "kind": "igual",
-          "meaning": "espada",
-          "tip": "Toledo é famosa pelas espadas."
-        },
-        {
-          "es": "sobrenombre",
-          "kind": "armadilha",
-          "meaning": "apelido (alcunha)",
-          "tip": "Sobrenombre = apelido. Sobrenome é \"apellido\"."
+          "speaker": "Lu",
+          "es": "¿De qué andén sale?",
+          "pt": "De qual plataforma sai?"
         }
-      ]
+      ],
+      "speaker": "Taquillero",
+      "pt": "Você vai ver no painel. Chegue com antecedência, tem raio X de bagagem.",
+      "options": [
+        "¡Y ver la catedral y las murallas!",
+        "En Toledo hay que probar el mazapán.",
+        "Lo verás en la pantalla. Llega con tiempo, hay control de equipaje."
+      ],
+      "correct": 2,
+      "explanation": "Taquillero diz: \"Lo verás en la pantalla. Llega con tiempo, hay control de equipaje.\" = \"Você vai ver no painel. Chegue com antecedência, tem raio X de bagagem.\"."
     },
     {
       "type": "choice",
@@ -186,18 +170,6 @@
       ],
       "correct": 0,
       "explanation": "Nas estações de alta velocidade há raio X."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Prefiero ___ de ventanilla.\" (assento)",
-      "options": [
-        "asiento",
-        "acento",
-        "assento"
-      ],
-      "correct": 0,
-      "explanation": "Asiento = assento. Acento = sotaque/acento."
     },
     {
       "type": "boss",

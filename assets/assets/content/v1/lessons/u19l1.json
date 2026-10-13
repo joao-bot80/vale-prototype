@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la rosa",
+          "pt": "a rosa",
+          "emoji": "🌹"
+        },
+        {
+          "es": "el libro",
+          "pt": "o livro",
+          "emoji": "📕"
+        },
+        {
+          "es": "el dragón",
+          "pt": "o dragão",
+          "emoji": "🐉"
+        },
+        {
+          "es": "la librería",
+          "pt": "a livraria",
+          "emoji": "📚"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"¿Es festivo?\" significa:",
@@ -81,71 +107,29 @@
       "explanation": "Sant Jordi não é feriado, mas a cidade vira uma festa."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "novela",
-          "kind": "armadilha",
-          "meaning": "romance (livro)",
-          "tip": "Novela = romance (livro). A novela de TV é \"telenovela\" ou \"culebrón\"."
+          "speaker": "Lu",
+          "es": "¿Qué se regala?",
+          "pt": "O que se dá de presente?"
         },
         {
-          "es": "librería",
-          "kind": "quase",
-          "meaning": "livraria",
-          "tip": "Librería = livraria. Biblioteca é \"biblioteca\"."
-        },
-        {
-          "es": "festivo",
-          "kind": "armadilha",
-          "meaning": "feriado",
-          "tip": "Festivo = feriado. Em PT-BR, festivo é alegre, de festa."
-        },
-        {
-          "es": "rosa",
-          "kind": "igual",
-          "meaning": "rosa",
-          "tip": "Igual!"
-        },
-        {
-          "es": "dragón",
-          "kind": "quase",
-          "meaning": "dragão",
-          "tip": "São Jorge e o dragão."
-        },
-        {
-          "es": "firma de libros",
-          "kind": "armadilha",
-          "meaning": "sessão de autógrafos",
-          "tip": "Firma = assinatura. Em PT-BR, firma é uma empresa."
-        },
-        {
-          "es": "escritor",
-          "kind": "igual",
-          "meaning": "escritor",
-          "tip": "Igual!"
-        },
-        {
-          "es": "leyenda",
-          "kind": "quase",
-          "meaning": "lenda",
-          "tip": "Ditongo ey."
-        },
-        {
-          "es": "caballero",
-          "kind": "quase",
-          "meaning": "cavaleiro / senhor",
-          "tip": "Caballero = cavaleiro, e também \"senhor\" educado."
-        },
-        {
-          "es": "desenvolver",
-          "kind": "armadilha",
-          "meaning": "desembrulhar",
-          "tip": "Desenvolver = desembrulhar (um presente). Desenvolver é \"desarrollar\"."
+          "speaker": "Marta",
+          "es": "Tradicionalmente, una rosa y un libro. Hoy cada uno regala lo que quiere.",
+          "pt": "Tradicionalmente, uma rosa e um livro. Hoje cada um dá o que quiser."
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "E é feriado?",
+      "options": [
+        "No, se trabaja, pero la gente sale a la calle igual.",
+        "¿Y es festivo?",
+        "Pues te regalo esta novela. ¡Feliz Sant Jordi!"
+      ],
+      "correct": 1,
+      "explanation": "Lu diz: \"¿Y es festivo?\" = \"E é feriado?\"."
     },
     {
       "type": "choice",
@@ -187,18 +171,6 @@
       ],
       "correct": 0,
       "explanation": "Antes: rosa para elas, livro para eles. Hoje, sem regras."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Compro libros en la ___.\" (livraria)",
-      "options": [
-        "librería",
-        "biblioteca",
-        "libraría"
-      ],
-      "correct": 0,
-      "explanation": "Librería = livraria. Biblioteca = biblioteca."
     },
     {
       "type": "boss",

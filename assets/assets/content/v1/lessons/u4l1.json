@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el piso",
+          "pt": "o apartamento",
+          "emoji": "🏢"
+        },
+        {
+          "es": "el anuncio",
+          "pt": "o anúncio",
+          "emoji": "📰"
+        },
+        {
+          "es": "el alquiler",
+          "pt": "o aluguel",
+          "emoji": "🏷️"
+        },
+        {
+          "es": "el ascensor",
+          "pt": "o elevador",
+          "emoji": "🛗"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "Como se diz \"aluguel\" na Espanha?",
@@ -85,25 +111,13 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "luz",
           "kind": "igual",
           "meaning": "luz (e a conta de luz)",
           "tip": "Igual!"
-        },
-        {
-          "es": "gas",
-          "kind": "igual",
-          "meaning": "gás",
-          "tip": "Só perde o acento."
-        },
-        {
-          "es": "exterior",
-          "kind": "igual",
-          "meaning": "exterior (com janela pra rua)",
-          "tip": "Em anúncio: \"piso exterior\" = com janelas pra rua."
         },
         {
           "es": "terraza",
@@ -118,12 +132,6 @@
           "tip": "Quase igual."
         },
         {
-          "es": "vecino",
-          "kind": "quase",
-          "meaning": "vizinho",
-          "tip": "\"Los vecinos\" = os vizinhos."
-        },
-        {
           "es": "piso",
           "kind": "armadilha",
           "meaning": "apartamento / andar",
@@ -134,32 +142,33 @@
           "kind": "armadilha",
           "meaning": "cobertura (último andar)",
           "tip": "Ático = cobertura. Em PT-BR, ático é o sótão (\"desván\")."
-        },
-        {
-          "es": "despacho",
-          "kind": "armadilha",
-          "meaning": "escritório (sala)",
-          "tip": "Despacho = sala de escritório. Em PT-BR, despacho é envio ou oferenda (\"envío\")."
-        },
-        {
-          "es": "sótano",
-          "kind": "armadilha",
-          "meaning": "porão, subsolo",
-          "tip": "Sótano = porão (embaixo). Sótão é \"desván\" (em cima)!"
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Gastos aparte\" significa:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Marta",
+          "es": "¡Hola! Sí, todavía está disponible.",
+          "pt": "Oi! Sim, ainda está disponível."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Cuántas habitaciones tiene?",
+          "pt": "Quantos quartos tem?"
+        }
+      ],
+      "speaker": "Marta",
+      "pt": "Dois quartos, um banheiro e um terracinho.",
       "options": [
-        "As contas (luz, água, gás) não estão incluídas",
-        "Despesas com móveis",
-        "Sem nenhum custo extra"
+        "Dos habitaciones, un baño y una terraza pequeña.",
+        "Mil setecientos euros al mes, gastos aparte. ¿Quieres venir a verlo?",
+        "¿Y cuánto es el alquiler?"
       ],
       "correct": 0,
-      "explanation": "\"Gastos incluidos\" = contas incluídas. \"Aparte\" = à parte."
+      "explanation": "Marta diz: \"Dos habitaciones, un baño y una terraza pequeña.\" = \"Dois quartos, um banheiro e um terracinho.\"."
     },
     {
       "type": "build",
@@ -188,18 +197,6 @@
       ],
       "correct": 0,
       "explanation": "\"Al mes\" = por mês. \"Mil setecientos\" = 1.700. Valor realista para 2 quartos no Eixample em 2026 (~25 €/m²)."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "El piso ___ dos habitaciones.",
-      "options": [
-        "tiene",
-        "hay",
-        "es"
-      ],
-      "correct": 0,
-      "explanation": "\"Tener\" para o que o piso tem. Com \"hay\" seria: \"En el piso hay dos habitaciones\"."
     },
     {
       "type": "boss",

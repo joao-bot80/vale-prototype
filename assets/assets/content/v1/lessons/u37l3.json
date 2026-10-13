@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la guagua",
+          "pt": "o ônibus (Canárias)",
+          "emoji": "🚌"
+        },
+        {
+          "es": "el balcón",
+          "pt": "a sacada",
+          "emoji": "🪟"
+        },
+        {
+          "es": "la calle",
+          "pt": "a rua",
+          "emoji": "🛣️"
+        },
+        {
+          "es": "el plano",
+          "pt": "o mapa da cidade",
+          "emoji": "🗺️"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "Nas Canárias, \"guagua\" é:",
@@ -83,7 +109,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "turista",
@@ -104,60 +130,43 @@
           "tip": "Tarjeta = cartão. Em PT-BR, tarja é uma faixa/listra."
         },
         {
-          "es": "bono",
-          "kind": "armadilha",
-          "meaning": "passe / cartão de viagens",
-          "tip": "Não é bônus!"
-        },
-        {
           "es": "recto",
           "kind": "quase",
           "meaning": "reto",
           "tip": "Calle recta."
         },
         {
-          "es": "plano",
-          "kind": "armadilha",
-          "meaning": "mapa da cidade",
-          "tip": "Plano = mapa da cidade. Em PT-BR, plano é um projeto, intenção."
-        },
-        {
-          "es": "balcón de madera",
-          "kind": "armadilha",
-          "meaning": "sacada de madeira",
-          "tip": "Balcón = sacada. Em PT-BR, balcão é o da loja (\"mostrador\")."
-        },
-        {
           "es": "casona",
           "kind": "quase",
           "meaning": "casarão",
           "tip": "Casona colonial."
-        },
-        {
-          "es": "colorido",
-          "kind": "quase",
-          "meaning": "colorido",
-          "tip": "Igual quase."
-        },
-        {
-          "es": "conductor",
-          "kind": "quase",
-          "meaning": "motorista",
-          "tip": "Conductor = motorista, e também condutor."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"El conductor de la guagua\" é:",
-      "options": [
-        "O motorista do ônibus",
-        "O fio elétrico",
-        "O cobrador"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lino",
+          "es": "En guagua. Aquí el autobús se llama guagua.",
+          "pt": "De guagua. Aqui o ônibus se chama guagua."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Qué palabra tan simpática! ¿Y el tranvía?",
+          "pt": "Que palavra simpática! E o bonde?"
+        }
       ],
-      "correct": 0,
-      "explanation": "Conductor = motorista."
+      "speaker": "Lino",
+      "pt": "Também tem bonde desde Santa Cruz. Mas hoje, guagua.",
+      "options": [
+        "Es Patrimonio de la Humanidad. Su plano inspiró ciudades de América.",
+        "La ciudad tiene calles rectas y casas de colores.",
+        "También hay tranvía desde Santa Cruz. Pero hoy, guagua."
+      ],
+      "correct": 2,
+      "explanation": "Lino diz: \"También hay tranvía desde Santa Cruz. Pero hoy, guagua.\" = \"Também tem bonde desde Santa Cruz. Mas hoje, guagua.\"."
     },
     {
       "type": "build",
@@ -187,18 +196,6 @@
       ],
       "correct": 0,
       "explanation": "Palavra canária."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Compra un ___ de diez viajes.\" (passe)",
-      "options": [
-        "bono",
-        "bônus",
-        "passe"
-      ],
-      "correct": 0,
-      "explanation": "Bono = passe (de viagens). \"Passe\" é português."
     },
     {
       "type": "boss",

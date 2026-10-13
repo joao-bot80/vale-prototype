@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la sidra",
+          "pt": "a sidra",
+          "emoji": "🍏"
+        },
+        {
+          "es": "la barrica",
+          "pt": "o barril",
+          "emoji": "🛢️"
+        },
+        {
+          "es": "la chuleta",
+          "pt": "a bisteca",
+          "emoji": "🥩"
+        },
+        {
+          "es": "el membrillo",
+          "pt": "o doce de marmelo",
+          "emoji": "🍐"
+        },
+        {
+          "es": "el queso",
+          "pt": "o queijo",
+          "emoji": "🧀"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Dejar sitio\" significa:",
@@ -82,71 +113,29 @@
       "explanation": "O menu clássico de sidrería."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "sidra",
-          "kind": "quase",
-          "meaning": "sidra",
-          "tip": "Igual quase."
+          "speaker": "Lu",
+          "es": "¿Y cómo se bebe?",
+          "pt": "E como se bebe?"
         },
         {
-          "es": "barrica",
-          "kind": "quase",
-          "meaning": "barril",
-          "tip": "Kupela em basco."
-        },
-        {
-          "es": "manzana",
-          "kind": "quase",
-          "meaning": "maçã",
-          "tip": "Manzana = maçã."
-        },
-        {
-          "es": "mermelada",
-          "kind": "armadilha",
-          "meaning": "geleia",
-          "tip": "Mermelada = geleia. Em PT-BR, marmelada é o doce de marmelo (\"dulce de membrillo\")."
-        },
-        {
-          "es": "nuez",
-          "kind": "quase",
-          "meaning": "noz",
-          "tip": "Nueces."
-        },
-        {
-          "es": "inclinado",
-          "kind": "igual",
-          "meaning": "inclinado",
-          "tip": "Igual!"
-        },
-        {
-          "es": "cola de la sidra",
-          "kind": "armadilha",
-          "meaning": "fila da sidra",
-          "tip": "Cola = fila. Em PT-BR, cola é a de colar."
-        },
-        {
-          "es": "de pie",
-          "kind": "quase",
-          "meaning": "em pé",
-          "tip": "Comer de pie."
-        },
-        {
-          "es": "sidrero",
-          "kind": "quase",
-          "meaning": "sidreiro",
-          "tip": "Faz a sidra."
-        },
-        {
-          "es": "temporada",
-          "kind": "igual",
-          "meaning": "temporada",
-          "tip": "Temporada de sidra."
+          "speaker": "Lino",
+          "es": "Pones el vaso inclinado, recoges un poco de sidra y dejas sitio al siguiente.",
+          "pt": "Você põe o copo inclinado, pega um pouco de sidra e dá lugar ao próximo."
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "E o cardápio?",
+      "options": [
+        "Cuando el sidrero grita «¡txotx!», vamos todos a la kupela.",
+        "¿Y el menú?",
+        "¡Se come de pie y se bebe mucho! Me encanta."
+      ],
+      "correct": 1,
+      "explanation": "Lu diz: \"¿Y el menú?\" = \"E o cardápio?\"."
     },
     {
       "type": "choice",
@@ -188,18 +177,6 @@
       ],
       "correct": 0,
       "explanation": "Pouca quantidade e muitas vezes."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Queso con ___.\" (marmelada)",
-      "options": [
-        "membrillo",
-        "mermelada",
-        "marmelo"
-      ],
-      "correct": 0,
-      "explanation": "Membrillo = doce de marmelo."
     },
     {
       "type": "boss",

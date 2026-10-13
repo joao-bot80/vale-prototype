@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la nómina",
+          "pt": "o holerite",
+          "emoji": "🧾"
+        },
+        {
+          "es": "el sueldo bruto",
+          "pt": "o salário bruto",
+          "emoji": "💶"
+        },
+        {
+          "es": "el sueldo neto",
+          "pt": "o salário líquido",
+          "emoji": "💵"
+        },
+        {
+          "es": "la paga extra",
+          "pt": "o pagamento extra",
+          "emoji": "➕"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Sueldo bruto\" é:",
@@ -84,7 +110,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "salario",
@@ -99,34 +125,10 @@
           "tip": "Igual!"
         },
         {
-          "es": "líquido",
-          "kind": "igual",
-          "meaning": "líquido",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
           "es": "deducción",
           "kind": "quase",
           "meaning": "desconto / dedução",
           "tip": "Deducciones da nómina."
-        },
-        {
-          "es": "retención",
-          "kind": "quase",
-          "meaning": "retenção na fonte",
-          "tip": "Retención de IRPF."
-        },
-        {
-          "es": "paga",
-          "kind": "quase",
-          "meaning": "pagamento / salário",
-          "tip": "Paga = pagamento / salário (\"la paga extra\")."
-        },
-        {
-          "es": "impuesto",
-          "kind": "quase",
-          "meaning": "imposto",
-          "tip": "Impuesto = imposto."
         },
         {
           "es": "Hacienda",
@@ -139,26 +141,33 @@
           "kind": "armadilha",
           "meaning": "entrada / depósito",
           "tip": "Ingreso = depósito / entrada de dinheiro. Ingresso (de show) é \"entrada\"."
-        },
-        {
-          "es": "ganancia",
-          "kind": "armadilha",
-          "meaning": "lucro, ganho",
-          "tip": "Ganancia = lucro (ganancias = ganhos na declaração). Ganância é \"codicia\"."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Hacienda\" na Espanha é:",
-      "options": [
-        "A Receita (Agencia Tributaria)",
-        "Uma fazenda",
-        "A prefeitura"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lino",
+          "es": "Mira las deducciones: la Seguridad Social y la retención del IRPF.",
+          "pt": "Olha os descontos: a Seguridade Social e a retenção do IRPF."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y cuánto es la Seguridad Social?",
+          "pt": "E quanto é a Seguridade Social?"
+        }
       ],
-      "correct": 0,
-      "explanation": "\"Hacienda somos todos\"."
+      "speaker": "Lino",
+      "pt": "Com contrato indefinido, em 2026 o trabalhador paga seis vírgula cinco por cento.",
+      "options": [
+        "Depende de tu sueldo y tu situación. Lo que cobras al final es el líquido.",
+        "Lino, mi sueldo bruto es más alto. ¿Por qué cobro menos?",
+        "Con contrato indefinido, en 2026 el trabajador paga un seis coma cinco por ciento."
+      ],
+      "correct": 2,
+      "explanation": "Lino diz: \"Con contrato indefinido, en 2026 el trabajador paga un seis coma cinco por ciento.\" = \"Com contrato indefinido, em 2026 o trabalhador paga seis vírgula cinco por cento.\"."
     },
     {
       "type": "build",
@@ -192,18 +201,6 @@
       ],
       "correct": 0,
       "explanation": "4,70 + 1,55 + 0,10 + 0,15 = 6,50 %."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"¿Cuándo ___ la nómina?\" (você recebe)",
-      "options": [
-        "cobras",
-        "cobres",
-        "pagas"
-      ],
-      "correct": 0,
-      "explanation": "\"Cobrar la nómina\" = receber o salário."
     },
     {
       "type": "boss",

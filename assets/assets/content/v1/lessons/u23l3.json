@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la cartera",
+          "pt": "a carteira",
+          "emoji": "👛"
+        },
+        {
+          "es": "el ladrón",
+          "pt": "o ladrão",
+          "emoji": "🦹"
+        },
+        {
+          "es": "la policía",
+          "pt": "a polícia",
+          "emoji": "👮"
+        },
+        {
+          "es": "la denuncia",
+          "pt": "o boletim de ocorrência",
+          "emoji": "📝"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Poner una denuncia\" significa:",
@@ -85,7 +111,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "denuncia",
@@ -112,54 +138,37 @@
           "tip": "Robo = roubo."
         },
         {
-          "es": "hurto",
-          "kind": "quase",
-          "meaning": "furto",
-          "tip": "Sem violência."
-        },
-        {
           "es": "bloquear",
           "kind": "igual",
           "meaning": "bloquear",
           "tip": "Bloquear la tarjeta."
-        },
-        {
-          "es": "copia",
-          "kind": "quase",
-          "meaning": "cópia",
-          "tip": "Sem acento."
-        },
-        {
-          "es": "ladrón",
-          "kind": "quase",
-          "meaning": "ladrão",
-          "tip": "Ladrón = ladrão."
-        },
-        {
-          "es": "sospechoso",
-          "kind": "quase",
-          "meaning": "suspeito",
-          "tip": "Sospechar = suspeitar."
-        },
-        {
-          "es": "extraviar",
-          "kind": "quase",
-          "meaning": "extraviar / perder",
-          "tip": "Documento extraviado."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Un testigo\" é:",
-      "options": [
-        "Uma testemunha",
-        "Um teste",
-        "Um documento"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Policía",
+          "es": "¿Qué llevaba en la cartera?",
+          "pt": "O que tinha na carteira?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "La tarjeta del banco, el TIE y unos cincuenta euros.",
+          "pt": "O cartão do banco, o TIE e uns cinquenta euros."
+        }
       ],
-      "correct": 0,
-      "explanation": "Testigo = testemunha."
+      "speaker": "Policía",
+      "pt": "Já bloqueou o cartão?",
+      "options": [
+        "Perfecto. La firma aquí y le doy una copia para pedir el TIE nuevo.",
+        "Sí, ayer. Y empecé la denuncia por internet. Aquí tiene el número de referencia.",
+        "¿Ha bloqueado ya la tarjeta?"
+      ],
+      "correct": 2,
+      "explanation": "Policía diz: \"¿Ha bloqueado ya la tarjeta?\" = \"Já bloqueou o cartão?\"."
     },
     {
       "type": "build",
@@ -190,18 +199,6 @@
       ],
       "correct": 0,
       "explanation": "A cópia da denúncia é pedida para renovar documentos."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"¿Hubo algún ___?\" (testemunha)",
-      "options": [
-        "testigo",
-        "testimonio",
-        "teste"
-      ],
-      "correct": 0,
-      "explanation": "Testigo = testemunha. Testimonio = depoimento."
     },
     {
       "type": "boss",

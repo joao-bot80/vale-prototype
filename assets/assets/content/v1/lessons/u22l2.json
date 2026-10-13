@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la luz",
+          "pt": "a luz (conta de luz)",
+          "emoji": "💡"
+        },
+        {
+          "es": "el gas",
+          "pt": "o gás",
+          "emoji": "🔥"
+        },
+        {
+          "es": "la bombona",
+          "pt": "o botijão",
+          "emoji": "🛢️"
+        },
+        {
+          "es": "la factura",
+          "pt": "a conta",
+          "emoji": "🧾"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Se va la luz\" significa:",
@@ -87,7 +113,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "consumo",
@@ -108,60 +134,43 @@
           "tip": "Alta de suministro = ligar a luz/gás. Em PT-BR, alta é a do hospital."
         },
         {
-          "es": "potencia",
-          "kind": "quase",
-          "meaning": "potência",
-          "tip": "Potencia contratada."
-        },
-        {
           "es": "contador",
           "kind": "armadilha",
           "meaning": "medidor / relógio",
           "tip": "Contador = medidor (de luz, de água). Contador (profissão) na Espanha é \"contable\"."
         },
         {
-          "es": "lectura",
-          "kind": "quase",
-          "meaning": "leitura do medidor",
-          "tip": "Lectura = leitura (do medidor, de um livro)."
-        },
-        {
-          "es": "comercializadora",
-          "kind": "quase",
-          "meaning": "fornecedora de energia",
-          "tip": "Quem te cobra."
-        },
-        {
           "es": "tarifa",
           "kind": "igual",
           "meaning": "tarifa",
           "tip": "Igual!"
-        },
-        {
-          "es": "butano",
-          "kind": "quase",
-          "meaning": "botijão de gás",
-          "tip": "La bombona de butano."
-        },
-        {
-          "es": "bombona",
-          "kind": "armadilha",
-          "meaning": "botijão (de gás)",
-          "tip": "Bombona (de butano) = botijão de gás. Não é bombom nem bomba!"
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"El contador\" da luz é:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "Hola. Me he mudado y quiero cambiar el titular de la luz.",
+          "pt": "Olá. Me mudei e quero mudar o titular da luz."
+        },
+        {
+          "speaker": "Operadora",
+          "es": "Necesito el CUPS, que viene en la factura anterior, y tu NIE.",
+          "pt": "Preciso do CUPS, que vem na conta anterior, e do seu NIE."
+        }
+      ],
+      "speaker": "Lu",
+      "pt": "Beleza. E quanta potência tenho contratada?",
       "options": [
-        "O medidor (relógio de luz)",
-        "O contador da empresa",
-        "O contato"
+        "Vale. ¿Y cuánta potencia tengo contratada?",
+        "Perfecto. ¿Y la factura llega cada mes?",
+        "Tres coma cuatro kilovatios. Si se te va la luz a menudo, puedes subirla."
       ],
       "correct": 0,
-      "explanation": "Contador = medidor."
+      "explanation": "Lu diz: \"Vale. ¿Y cuánta potencia tengo contratada?\" = \"Beleza. E quanta potência tenho contratada?\"."
     },
     {
       "type": "build",
@@ -190,18 +199,6 @@
       ],
       "correct": 0,
       "explanation": "Mais potência = mais cara a parte fixa."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"¿Dónde hay un ___ para cargar el móvil?\" (tomada)",
-      "options": [
-        "enchufe",
-        "tomada",
-        "enchufo"
-      ],
-      "correct": 0,
-      "explanation": "Enchufe = tomada."
     },
     {
       "type": "boss",

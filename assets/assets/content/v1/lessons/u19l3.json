@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el pescado",
+          "pt": "o peixe",
+          "emoji": "🐟"
+        },
+        {
+          "es": "la carnicería",
+          "pt": "o açougue",
+          "emoji": "🥩"
+        },
+        {
+          "es": "la frutería",
+          "pt": "a quitanda",
+          "emoji": "🍎"
+        },
+        {
+          "es": "el zumo",
+          "pt": "o suco",
+          "emoji": "🧃"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"¿Quién es el último?\" no mercado significa:",
@@ -82,71 +108,29 @@
       "explanation": "Gamba = camarão."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "sepia",
-          "kind": "quase",
-          "meaning": "choco (molusco)",
-          "tip": "Sepia = choco (molusco), como a \"sépia\" em português, e também a cor sépia."
+          "speaker": "Señora",
+          "es": "Yo. Después de mí vas tú.",
+          "pt": "Eu. Depois de mim vai você."
         },
         {
-          "es": "docena",
-          "kind": "quase",
-          "meaning": "dúzia",
-          "tip": "Media docena."
-        },
-        {
-          "es": "pescado",
-          "kind": "quase",
-          "meaning": "peixe (para comer)",
-          "tip": "Pescado = peixe para comer (o pescado). O peixe vivo é \"pez\"."
-        },
-        {
-          "es": "pescadería",
-          "kind": "quase",
-          "meaning": "peixaria",
-          "tip": "Pescadero/a."
-        },
-        {
-          "es": "mercado",
-          "kind": "igual",
-          "meaning": "mercado",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "fresco",
-          "kind": "igual",
-          "meaning": "fresco",
-          "tip": "Igual!"
-        },
-        {
-          "es": "verdura",
-          "kind": "igual",
-          "meaning": "verdura",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "frutería",
-          "kind": "quase",
-          "meaning": "quitanda",
-          "tip": "Frutero/a."
-        },
-        {
-          "es": "almeja",
-          "kind": "quase",
-          "meaning": "amêijoa / vôngole",
-          "tip": "Almejas a la marinera."
-        },
-        {
-          "es": "cadera",
-          "kind": "armadilha",
-          "meaning": "quadril",
-          "tip": "Cadera = quadril. Cadeira é \"silla\"."
+          "speaker": "Pescadera",
+          "es": "¿Qué te pongo, guapa?",
+          "pt": "O que vai ser, querida?"
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Meio quilo de camarão e uma dúzia de ovos, por favor.",
+      "options": [
+        "No, nada más. ¿Me pones una bolsa?",
+        "Los huevos, en el puesto de al lado. ¿Algo más?",
+        "Medio kilo de gambas y una docena de huevos, por favor."
+      ],
+      "correct": 2,
+      "explanation": "Lu diz: \"Medio kilo de gambas y una docena de huevos, por favor.\" = \"Meio quilo de camarão e uma dúzia de ovos, por favor.\"."
     },
     {
       "type": "choice",
@@ -188,18 +172,6 @@
       ],
       "correct": 0,
       "explanation": "\"Al lado\" = ao lado."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Un ___ de naranja, por favor.\"",
-      "options": [
-        "zumo",
-        "jugo",
-        "suco"
-      ],
-      "correct": 0,
-      "explanation": "Zumo é o termo da Espanha."
     },
     {
       "type": "boss",

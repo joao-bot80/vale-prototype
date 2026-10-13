@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el disfraz",
+          "pt": "a fantasia",
+          "emoji": "🎭"
+        },
+        {
+          "es": "la peluca",
+          "pt": "a peruca",
+          "emoji": "👩‍🦱"
+        },
+        {
+          "es": "el antifaz",
+          "pt": "a máscara de olhos",
+          "emoji": "🥸"
+        },
+        {
+          "es": "la chirigota",
+          "pt": "o grupo de carnaval",
+          "emoji": "🎶"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Ir disfrazado\" significa:",
@@ -83,71 +109,29 @@
       "explanation": "\"Gracioso\" = engraçado."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "disfraz",
-          "kind": "armadilha",
-          "meaning": "fantasia",
-          "tip": "Disfraz = fantasia. Em PT-BR, disfarce é esconder quem você é."
+          "speaker": "Dani",
+          "es": "¡Es Carnaval! El de Cádiz es famoso por las chirigotas.",
+          "pt": "É Carnaval! O de Cádiz é famoso pelas chirigotas."
         },
         {
-          "es": "gracioso",
-          "kind": "armadilha",
-          "meaning": "engraçado",
-          "tip": "Gracioso = engraçado. Gracioso (delicado, gracinha) é \"grácil\" ou \"mono\"."
-        },
-        {
-          "es": "letra",
-          "kind": "quase",
-          "meaning": "letra (de música)",
-          "tip": "Igual."
-        },
-        {
-          "es": "actualidad",
-          "kind": "quase",
-          "meaning": "atualidade / notícias",
-          "tip": "Actualidad = atualidade / notícias do momento. \"Atualmente\" é \"actualmente\"."
-        },
-        {
-          "es": "carroza",
-          "kind": "armadilha",
-          "meaning": "carro alegórico",
-          "tip": "Carroza = carro alegórico. Em PT-BR, carroça é a do cavalo."
-        },
-        {
-          "es": "comparsa",
-          "kind": "quase",
-          "meaning": "grupo de carnaval",
-          "tip": "Chirigota, comparsa, coro."
-        },
-        {
-          "es": "pito",
-          "kind": "armadilha",
-          "meaning": "apito",
-          "tip": "Pito = apito. Em PT-BR, pito é gíria (cigarro, pinto) — cuidado!"
-        },
-        {
-          "es": "máscara",
-          "kind": "igual",
-          "meaning": "máscara",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "peluca",
-          "kind": "quase",
-          "meaning": "peruca",
-          "tip": "Peluca = peruca. Pelúcia é \"peluche\"."
-        },
-        {
-          "es": "enfadarse",
-          "kind": "armadilha",
-          "meaning": "zangar-se",
-          "tip": "Enfadarse = ficar bravo. Enfadar-se (entediar-se) é \"aburrirse\"."
+          "speaker": "Lu",
+          "es": "¿Qué es una chirigota?",
+          "pt": "O que é uma chirigota?"
         }
-      ]
+      ],
+      "speaker": "Dani",
+      "pt": "Um grupo que canta músicas engraçadas e críticas sobre a atualidade.",
+      "options": [
+        "Parecido. Pero aquí lo importante es la letra, no bailar.",
+        "¡Como las marchinhas de Brasil!",
+        "Un grupo que canta canciones graciosas y críticas sobre la actualidad."
+      ],
+      "correct": 2,
+      "explanation": "Dani diz: \"Un grupo que canta canciones graciosas y críticas sobre la actualidad.\" = \"Um grupo que canta músicas engraçadas e críticas sobre a atualidade.\"."
     },
     {
       "type": "choice",
@@ -190,18 +174,6 @@
       ],
       "correct": 0,
       "explanation": "O Carnaval de Cádiz é de humor e canções."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"¡Qué ___ eres!\" (engraçado)",
-      "options": [
-        "gracioso",
-        "engrazado",
-        "engraçado"
-      ],
-      "correct": 0,
-      "explanation": "Gracioso = engraçado. \"Engraçado\" é português."
     },
     {
       "type": "boss",

@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la hora",
+          "pt": "a hora",
+          "emoji": "🕐"
+        },
+        {
+          "es": "el sol",
+          "pt": "o sol",
+          "emoji": "☀️"
+        },
+        {
+          "es": "la calima",
+          "pt": "a névoa de poeira",
+          "emoji": "🌫️"
+        },
+        {
+          "es": "temprano",
+          "pt": "cedo",
+          "emoji": "🌅"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Una hora menos\" significa:",
@@ -85,71 +111,29 @@
       "explanation": "Igual a Lisboa/Londres."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "huso horario",
-          "kind": "quase",
-          "meaning": "fuso horário",
-          "tip": "Huso."
+          "speaker": "Lino",
+          "es": "En Canarias hay una hora menos que en la Península.",
+          "pt": "Nas Canárias tem uma hora a menos que na Península."
         },
         {
-          "es": "suave",
-          "kind": "quase",
-          "meaning": "ameno / suave",
-          "tip": "Clima suave."
-        },
-        {
-          "es": "primavera",
-          "kind": "igual",
-          "meaning": "primavera",
-          "tip": "Igual!"
-        },
-        {
-          "es": "adelantar",
-          "kind": "quase",
-          "meaning": "adiantar",
-          "tip": "Adelantar el reloj."
-        },
-        {
-          "es": "atrasar",
-          "kind": "quase",
-          "meaning": "atrasar",
-          "tip": "Atrasar una hora."
-        },
-        {
-          "es": "tele",
-          "kind": "quase",
-          "meaning": "TV",
-          "tip": "Televisión."
-        },
-        {
-          "es": "cielo",
-          "kind": "quase",
-          "meaning": "céu",
-          "tip": "Cielo azul."
-        },
-        {
-          "es": "temprano",
-          "kind": "armadilha",
-          "meaning": "cedo",
-          "tip": "Temprano = cedo. Em PT-BR, temporão é a fruta fora de época ou o filho caçula tardio."
-        },
-        {
-          "es": "alisios",
-          "kind": "quase",
-          "meaning": "ventos alísios",
-          "tip": "Refrescam as ilhas."
-        },
-        {
-          "es": "horario de verano",
-          "kind": "quase",
-          "meaning": "horário de verão",
-          "tip": "Cambio de hora."
+          "speaker": "Lu",
+          "es": "Por eso la radio dice \"una hora menos en Canarias\".",
+          "pt": "Por isso o rádio diz \"uma hora menos em Canárias\"."
         }
-      ]
+      ],
+      "speaker": "Lino",
+      "pt": "Exato. E aqui o clima é ameno o ano todo.",
+      "options": [
+        "Exacto. Y aquí el clima es suave todo el año.",
+        "Casi nunca en la costa. Por eso las llaman islas de la eterna primavera.",
+        "¿Nunca hace frío?"
+      ],
+      "correct": 0,
+      "explanation": "Lino diz: \"Exacto. Y aquí el clima es suave todo el año.\" = \"Exato. E aqui o clima é ameno o ano todo.\"."
     },
     {
       "type": "choice",
@@ -192,18 +176,6 @@
       ],
       "correct": 0,
       "explanation": "Clima ameno."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Hoy hay ___ y no se ve el mar.\" (poeira)",
-      "options": [
-        "calima",
-        "calma",
-        "niebla seca"
-      ],
-      "correct": 0,
-      "explanation": "Calima."
     },
     {
       "type": "boss",

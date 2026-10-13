@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el acantilado",
+          "pt": "o penhasco",
+          "emoji": "🏔️"
+        },
+        {
+          "es": "la roca",
+          "pt": "a rocha",
+          "emoji": "🪨"
+        },
+        {
+          "es": "la marea",
+          "pt": "a maré",
+          "emoji": "🌊"
+        },
+        {
+          "es": "el fósil",
+          "pt": "o fóssil",
+          "emoji": "🐚"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"La marea baja\" é:",
@@ -83,71 +109,29 @@
       "explanation": "A maré sobe rápido: cuidado."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "roca",
-          "kind": "armadilha",
-          "meaning": "rocha",
-          "tip": "Roca = rocha. Em PT-BR, roça é plantação no campo."
+          "speaker": "Lino",
+          "es": "Es el flysch. Cada capa son miles de años de historia de la Tierra.",
+          "pt": "É o flysch. Cada camada são milhares de anos de história da Terra."
         },
         {
-          "es": "capa",
-          "kind": "armadilha",
-          "meaning": "camada",
-          "tip": "Capa = camada. Em PT-BR, capa é a de livro ou de chuva."
-        },
-        {
-          "es": "ola gigante",
-          "kind": "quase",
-          "meaning": "onda gigante",
-          "tip": "Los surfistas buscan olas gigantes."
-        },
-        {
-          "es": "paisaje",
-          "kind": "quase",
-          "meaning": "paisagem",
-          "tip": "Paisaje = paisagem."
-        },
-        {
-          "es": "tabla de mareas",
-          "kind": "quase",
-          "meaning": "tábua de marés",
-          "tip": "Para planejar a visita."
-        },
-        {
-          "es": "grabar",
-          "kind": "quase",
-          "meaning": "gravar / filmar",
-          "tip": "Grabar = gravar / filmar."
-        },
-        {
-          "es": "serie",
-          "kind": "quase",
-          "meaning": "série (de TV)",
-          "tip": "Sem acento."
-        },
-        {
-          "es": "fósil",
-          "kind": "quase",
-          "meaning": "fóssil",
-          "tip": "Um s."
-        },
-        {
-          "es": "geoparque",
-          "kind": "quase",
-          "meaning": "geoparque",
-          "tip": "Proteção UNESCO."
-        },
-        {
-          "es": "risco",
-          "kind": "armadilha",
-          "meaning": "penhasco, rochedo",
-          "tip": "Risco = penhasco. Risco (perigo) é \"riesgo\"."
+          "speaker": "Lu",
+          "es": "¿Se puede caminar por abajo?",
+          "pt": "Dá para caminhar por baixo?"
         }
-      ]
+      ],
+      "speaker": "Lino",
+      "pt": "Só com a maré baixa. Tem que olhar a tábua de marés.",
+      "options": [
+        "Solo con la marea baja. Hay que mirar la tabla de mareas.",
+        "Sí, salen en muchas películas y series. ¡Pero no toques nada!",
+        "¿Y aquí no grabaron una serie famosa?"
+      ],
+      "correct": 0,
+      "explanation": "Lino diz: \"Solo con la marea baja. Hay que mirar la tabla de mareas.\" = \"Só com a maré baixa. Tem que olhar a tábua de marés.\"."
     },
     {
       "type": "choice",
@@ -188,18 +172,6 @@
       ],
       "correct": 0,
       "explanation": "No geoparque não se tiram rochas nem fósseis."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"El suelo está ___.\" (escorregadio)",
-      "options": [
-        "resbaladizo",
-        "escorregadizo",
-        "resbalado"
-      ],
-      "correct": 0,
-      "explanation": "Resbaladizo = escorregadio."
     },
     {
       "type": "boss",

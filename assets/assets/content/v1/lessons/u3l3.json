@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el domingo",
+          "pt": "o domingo",
+          "emoji": "📅"
+        },
+        {
+          "es": "la barca",
+          "pt": "o barquinho",
+          "emoji": "🛶"
+        },
+        {
+          "es": "el árbol",
+          "pt": "a árvore",
+          "emoji": "🌳"
+        },
+        {
+          "es": "el perro",
+          "pt": "o cachorro",
+          "emoji": "🐕"
+        },
+        {
+          "es": "la manta",
+          "pt": "a manta / o cobertor",
+          "emoji": "🧺"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Me apetece\" significa:",
@@ -85,25 +116,13 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "domingo",
           "kind": "igual",
           "meaning": "domingo",
           "tip": "Igualzinho!"
-        },
-        {
-          "es": "sol",
-          "kind": "igual",
-          "meaning": "sol",
-          "tip": "Mesma palavra."
-        },
-        {
-          "es": "calor",
-          "kind": "igual",
-          "meaning": "calor",
-          "tip": "Igual!"
         },
         {
           "es": "frío",
@@ -118,12 +137,6 @@
           "tip": "Feminino em espanhol: la barca."
         },
         {
-          "es": "estanque",
-          "kind": "quase",
-          "meaning": "laguinho, lago artificial",
-          "tip": "Estanque = laguinho, lago artificial (em português também é reservatório de água). Vedado é \"hermético\"."
-        },
-        {
           "es": "cachorro",
           "kind": "armadilha",
           "meaning": "filhote",
@@ -134,32 +147,33 @@
           "kind": "armadilha",
           "meaning": "bêbada",
           "tip": "A borracha de apagar é \"goma\"."
-        },
-        {
-          "es": "flaco",
-          "kind": "armadilha",
-          "meaning": "magro",
-          "tip": "Fraco é \"débil\"."
-        },
-        {
-          "es": "barata",
-          "kind": "armadilha",
-          "meaning": "de preço baixo",
-          "tip": "Barata = barata de preço. Em PT-BR, barata é o inseto (\"cucaracha\")!"
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "O que é o Rastro?",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "Me apetece ir al Retiro. ¡Hace muy buen tiempo!",
+          "pt": "Tô a fim de ir ao Retiro. O tempo está ótimo!"
+        },
+        {
+          "speaker": "Dani",
+          "es": "¡Buena idea! Podemos alquilar una barca en el estanque.",
+          "pt": "Boa ideia! Podemos alugar um barquinho no lago."
+        }
+      ],
+      "speaker": "Lu",
+      "pt": "Ótimo. E depois vamos ao Rastro?",
       "options": [
-        "Uma feira de rua aos domingos de manhã",
-        "Um restaurante famoso",
-        "Uma estação de metrô"
+        "Genial. ¿Y luego vamos al Rastro?",
+        "¡Hecho! Nos vemos a las diez.",
+        "El Rastro es por la mañana. Mejor primero el Rastro y después el Retiro."
       ],
       "correct": 0,
-      "explanation": "O Rastro é a feira de rua mais famosa de Madrid, em La Latina, aos domingos e feriados de manhã."
+      "explanation": "Lu diz: \"Genial. ¿Y luego vamos al Rastro?\" = \"Ótimo. E depois vamos ao Rastro?\"."
     },
     {
       "type": "build",
@@ -190,18 +204,6 @@
       ],
       "correct": 0,
       "explanation": "\"Primero\" = primeiro, \"después\" = depois."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Hoy ___ mucho calor.",
-      "options": [
-        "hace",
-        "está",
-        "tiene"
-      ],
-      "correct": 0,
-      "explanation": "Clima com \"hacer\": hace calor, hace frío, hace sol."
     },
     {
       "type": "boss",

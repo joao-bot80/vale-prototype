@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la paella",
+          "pt": "a paella",
+          "emoji": "🥘"
+        },
+        {
+          "es": "el arroz",
+          "pt": "o arroz",
+          "emoji": "🍚"
+        },
+        {
+          "es": "el pollo",
+          "pt": "o frango",
+          "emoji": "🍗"
+        },
+        {
+          "es": "el conejo",
+          "pt": "o coelho",
+          "emoji": "🐇"
+        },
+        {
+          "es": "la cuchara de palo",
+          "pt": "a colher de pau",
+          "emoji": "🥄"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Tarda unos veinte minutos\" significa:",
@@ -83,7 +114,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "pimienta",
@@ -110,54 +141,37 @@
           "tip": "Judía = feijão (verde ou branco). Em PT-BR, judia é a mulher judia."
         },
         {
-          "es": "azafrán",
-          "kind": "quase",
-          "meaning": "açafrão",
-          "tip": "Quase igual."
-        },
-        {
-          "es": "romero",
-          "kind": "armadilha",
-          "meaning": "alecrim",
-          "tip": "Romero = alecrim. Em PT-BR, romeiro é o peregrino (\"peregrino\")."
-        },
-        {
           "es": "caldo",
           "kind": "igual",
           "meaning": "caldo",
           "tip": "Igualzinho!"
-        },
-        {
-          "es": "paellera",
-          "kind": "quase",
-          "meaning": "paelleira",
-          "tip": "A panela da paella (em Valencia, a panela também se chama \"paella\")."
-        },
-        {
-          "es": "agua",
-          "kind": "quase",
-          "meaning": "água",
-          "tip": "Agua = água."
-        },
-        {
-          "es": "leña",
-          "kind": "quase",
-          "meaning": "lenha",
-          "tip": "Leña = lenha: só muda a grafia (ñ)."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"¿Lleva marisco?\" serve para perguntar:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Camarero",
+          "es": "Sí. La paella se hace al momento, tarda unos veinte minutos.",
+          "pt": "Sim. A paella é feita na hora, demora uns vinte minutos."
+        },
+        {
+          "speaker": "Lu",
+          "es": "No pasa nada. ¿Cuál nos recomiendas?",
+          "pt": "Sem problema. Qual você recomenda?"
+        }
+      ],
+      "speaker": "Camarero",
+      "pt": "A valenciana: frango, coelho, vagem e garrofó.",
       "options": [
-        "Se o prato tem frutos do mar",
-        "Se dá para levar para viagem",
-        "Se o prato é picante"
+        "La valenciana: pollo, conejo, judías verdes y garrofó.",
+        "No, la valenciana no. Si queréis marisco, pedid la de marisco.",
+        "¿Y lleva marisco?"
       ],
       "correct": 0,
-      "explanation": "\"Llevar\" num prato = ter como ingrediente."
+      "explanation": "Camarero diz: \"La valenciana: pollo, conejo, judías verdes y garrofó.\" = \"A valenciana: frango, coelho, vagem e garrofó.\"."
     },
     {
       "type": "build",
@@ -189,18 +203,6 @@
       ],
       "correct": 0,
       "explanation": "\"Pedid\" = peçam (imperativo de vosotros)."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"¿___ mesa para dos?\"",
-      "options": [
-        "Tenéis",
-        "Tenemos",
-        "Tenés"
-      ],
-      "correct": 0,
-      "explanation": "\"Tenéis\" = vocês têm (vosotros), o normal na Espanha num bar informal. \"Tenés\" é voseo argentino."
     },
     {
       "type": "boss",

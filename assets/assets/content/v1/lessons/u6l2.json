@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "hoy",
+          "pt": "hoje",
+          "emoji": "📆"
+        },
+        {
+          "es": "ayer",
+          "pt": "ontem",
+          "emoji": "⏪"
+        },
+        {
+          "es": "el paseo",
+          "pt": "o passeio",
+          "emoji": "🚶"
+        },
+        {
+          "es": "el río",
+          "pt": "o rio",
+          "emoji": "🏞️"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"¿Qué has hecho hoy?\" significa:",
@@ -85,7 +111,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "comido",
@@ -112,54 +138,37 @@
           "tip": "De \"decir\"."
         },
         {
-          "es": "vuelto",
-          "kind": "quase",
-          "meaning": "voltado",
-          "tip": "De \"volver\"."
-        },
-        {
-          "es": "escrito",
-          "kind": "igual",
-          "meaning": "escrito",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "puesto",
-          "kind": "quase",
-          "meaning": "posto / colocado",
-          "tip": "De \"poner\"."
-        },
-        {
           "es": "todavía",
           "kind": "armadilha",
           "meaning": "ainda",
           "tip": "Não é \"todavia\" (porém)! Porém = \"sin embargo\"."
-        },
-        {
-          "es": "ya",
-          "kind": "quase",
-          "meaning": "já",
-          "tip": "Curtinho: \"ya\" = já."
-        },
-        {
-          "es": "andar",
-          "kind": "igual",
-          "meaning": "caminhar",
-          "tip": "Mesma palavra, mesmo sentido."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Todavía no\" significa:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "He visitado la catedral y he subido a la Giralda.",
+          "pt": "Visitei a catedral e subi a Giralda."
+        },
+        {
+          "speaker": "Dani",
+          "es": "¡Qué bien! ¿Has comido ya?",
+          "pt": "Que legal! Já comeu?"
+        }
+      ],
+      "speaker": "Lu",
+      "pt": "Ainda não. Passei a manhã toda andando.",
       "options": [
-        "Ainda não",
-        "Porém não",
-        "Nunca"
+        "Todavía no. He estado toda la mañana andando.",
+        "¡Perfecto! Hoy he caminado mucho.",
+        "Pues vamos a comer. Conozco un sitio en el barrio de Santa Cruz."
       ],
       "correct": 0,
-      "explanation": "Todavía = ainda. Falso amigo clássico!"
+      "explanation": "Lu diz: \"Todavía no. He estado toda la mañana andando.\" = \"Ainda não. Passei a manhã toda andando.\"."
     },
     {
       "type": "build",
@@ -188,18 +197,6 @@
       ],
       "correct": 0,
       "explanation": "\"He estado andando\" = estive andando."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Hoy ___ caminado mucho.\"",
-      "options": [
-        "he",
-        "ha",
-        "hemos"
-      ],
-      "correct": 0,
-      "explanation": "Yo he, tú has, él/ella ha, nosotros hemos."
     },
     {
       "type": "boss",

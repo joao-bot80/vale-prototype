@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la queimada",
+          "pt": "a queimada",
+          "emoji": "🔥"
+        },
+        {
+          "es": "la bruja",
+          "pt": "a bruxa",
+          "emoji": "🧙"
+        },
+        {
+          "es": "la calabaza",
+          "pt": "a abóbora",
+          "emoji": "🎃"
+        },
+        {
+          "es": "la hoguera",
+          "pt": "a fogueira",
+          "emoji": "🔥"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Prender fuego\" significa:",
@@ -83,7 +109,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "aguardiente",
@@ -114,50 +140,33 @@
           "kind": "igual",
           "meaning": "apagar",
           "tip": "Igual!"
-        },
-        {
-          "es": "conjuro",
-          "kind": "quase",
-          "meaning": "conjuro / feitiço",
-          "tip": "Recitado na queimada."
-        },
-        {
-          "es": "bruja",
-          "kind": "quase",
-          "meaning": "bruxa",
-          "tip": "Meiga em galego."
-        },
-        {
-          "es": "espantar",
-          "kind": "quase",
-          "meaning": "espantar",
-          "tip": "Afastar."
-        },
-        {
-          "es": "cazo",
-          "kind": "armadilha",
-          "meaning": "concha (de servir)",
-          "tip": "Não é caso!"
-        },
-        {
-          "es": "barro cocido",
-          "kind": "quase",
-          "meaning": "barro cozido",
-          "tip": "A tigela da queimada."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"La piel del limón\" é:",
-      "options": [
-        "A casca do limão",
-        "A pele do braço",
-        "O suco do limão"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "¿Qué es exactamente?",
+          "pt": "O que é exatamente?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Aguardiente con azúcar, piel de limón y granos de café. Se le prende fuego.",
+          "pt": "Aguardente com açúcar, casca de limão e grãos de café. Põe-se fogo nela."
+        }
       ],
-      "correct": 0,
-      "explanation": "Piel = pele, casca."
+      "speaker": "Lu",
+      "pt": "E por que apagam as luzes?",
+      "options": [
+        "Me da un poco de miedo... ¡pero me encanta!",
+        "Porque alguien recita el conjuro para espantar a las meigas, las brujas.",
+        "¿Y por qué apagan las luces?"
+      ],
+      "correct": 2,
+      "explanation": "Lu diz: \"¿Y por qué apagan las luces?\" = \"E por que apagam as luzes?\"."
     },
     {
       "type": "build",
@@ -189,18 +198,6 @@
       ],
       "correct": 0,
       "explanation": "Meiga = bruxa em galego."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Sírvelo con el ___.\" (concha de servir)",
-      "options": [
-        "cazo",
-        "caso",
-        "cazón"
-      ],
-      "correct": 0,
-      "explanation": "Cazo = concha/caneco de servir."
     },
     {
       "type": "boss",

@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el puesto",
+          "pt": "a barraca",
+          "emoji": "🛍️"
+        },
+        {
+          "es": "regatear",
+          "pt": "pechinchar",
+          "emoji": "🤝"
+        },
+        {
+          "es": "barato",
+          "pt": "barato",
+          "emoji": "🏷️"
+        },
+        {
+          "es": "caro",
+          "pt": "caro",
+          "emoji": "💰"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"¿Me la deja en veinte?\" significa:",
@@ -83,71 +109,29 @@
       "explanation": "Contraproposta clássica."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "lámpara",
-          "kind": "armadilha",
-          "meaning": "luminária",
-          "tip": "Lámpara = luminária/abajur. Em PT-BR, lâmpada é a \"bombilla\"."
+          "speaker": "Vendedor",
+          "es": "Treinta euros. Es antigua, de los años sesenta.",
+          "pt": "Trinta euros. É antiga, dos anos sessenta."
         },
         {
-          "es": "bombilla",
-          "kind": "armadilha",
-          "meaning": "lâmpada",
-          "tip": "Bombilla = lâmpada. Em PT-BR, bombinha é o rojão pequeno ou a de asma."
-        },
-        {
-          "es": "regatear",
-          "kind": "igual",
-          "meaning": "pechinchar",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "ganga",
-          "kind": "armadilha",
-          "meaning": "pechincha",
-          "tip": "Não é gangue!"
-        },
-        {
-          "es": "tapete",
-          "kind": "armadilha",
-          "meaning": "toalhinha de mesa",
-          "tip": "Tapete = toalhinha/caminho de mesa. Tapete (do chão) é \"alfombra\"."
-        },
-        {
-          "es": "monedero",
-          "kind": "armadilha",
-          "meaning": "porta-moedas",
-          "tip": "Não é moedeiro."
-        },
-        {
-          "es": "mercadillo",
-          "kind": "quase",
-          "meaning": "mercadinho / feirinha",
-          "tip": "Mercadillo = mercadinho de rua."
-        },
-        {
-          "es": "antigüedad",
-          "kind": "quase",
-          "meaning": "antiguidade",
-          "tip": "Tienda de antigüedades."
-        },
-        {
-          "es": "trato hecho",
-          "kind": "quase",
-          "meaning": "negócio fechado",
-          "tip": "Hecho = feito."
-        },
-        {
-          "es": "vinilo",
-          "kind": "quase",
-          "meaning": "disco de vinil",
-          "tip": "Muitos no Rastro."
+          "speaker": "Lu",
+          "es": "Es un poco cara. ¿Me la deja en veinte?",
+          "pt": "Está um pouco cara. Faz por vinte?"
         }
-      ]
+      ],
+      "speaker": "Vendedor",
+      "pt": "Vinte e cinco e é sua.",
+      "options": [
+        "Solo efectivo, guapa. Hay un cajero en la esquina.",
+        "Vale, trato hecho. ¿Aceptas tarjeta?",
+        "Veinticinco y es tuya."
+      ],
+      "correct": 2,
+      "explanation": "Vendedor diz: \"Veinticinco y es tuya.\" = \"Vinte e cinco e é sua.\"."
     },
     {
       "type": "choice",
@@ -188,18 +172,6 @@
       ],
       "correct": 0,
       "explanation": "\"Guapa\" é tratamento carinhoso comum em Madrid."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Se ha fundido la ___.\" (lâmpada)",
-      "options": [
-        "bombilla",
-        "lámpara",
-        "bomba"
-      ],
-      "correct": 0,
-      "explanation": "Bombilla = lâmpada. Lámpara = luminária."
     },
     {
       "type": "boss",

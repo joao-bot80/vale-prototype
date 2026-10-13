@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la nacionalidad",
+          "pt": "a nacionalidade",
+          "emoji": "🇪🇸"
+        },
+        {
+          "es": "el pasaporte",
+          "pt": "o passaporte",
+          "emoji": "🛂"
+        },
+        {
+          "es": "el juramento",
+          "pt": "o juramento",
+          "emoji": "✋"
+        },
+        {
+          "es": "el expediente",
+          "pt": "o processo",
+          "emoji": "📁"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "Para brasileiros, a residência legal exigida é de:",
@@ -84,7 +110,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "aprobar",
@@ -105,40 +131,10 @@
           "tip": "-dad = -dade."
         },
         {
-          "es": "exento",
-          "kind": "quase",
-          "meaning": "isento",
-          "tip": "Exención = isenção."
-        },
-        {
           "es": "expediente",
           "kind": "armadilha",
           "meaning": "processo",
           "tip": "Expediente = processo (administrativo). Expediente (horário de trabalho) é \"horario\" ou \"jornada\"."
-        },
-        {
-          "es": "jura",
-          "kind": "quase",
-          "meaning": "juramento",
-          "tip": "Jurar la Constitución."
-        },
-        {
-          "es": "antecedentes penales",
-          "kind": "quase",
-          "meaning": "antecedentes criminais",
-          "tip": "Certidão do país de origem."
-        },
-        {
-          "es": "resolución",
-          "kind": "quase",
-          "meaning": "decisão",
-          "tip": "Resolución favorable."
-        },
-        {
-          "es": "tramitar",
-          "kind": "quase",
-          "meaning": "processar / dar entrada",
-          "tip": "Tramitar la nacionalidad."
         },
         {
           "es": "prejuicio",
@@ -149,16 +145,29 @@
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"He suspendido el examen\" significa:",
-      "options": [
-        "Fui reprovado na prova",
-        "Adiei a prova",
-        "Cancelei a prova"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lino",
+          "es": "Para los brasileños, dos años de residencia legal y continuada.",
+          "pt": "Para os brasileiros, dois anos de residência legal e contínua."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Solo dos! ¿Y qué más necesito?",
+          "pt": "Só dois! E o que mais eu preciso?"
+        }
       ],
-      "correct": 0,
-      "explanation": "Suspender = reprovar. Aprobar = passar."
+      "speaker": "Lino",
+      "pt": "Passar em duas provas: o DELE A2 e o CCSE, e pagar uma taxa.",
+      "options": [
+        "Casi, pero Brasil no está exento del DELE. ¡Hay que estudiar!",
+        "¿Pero los brasileños no hablamos ya casi español?",
+        "Aprobar dos exámenes: el DELE A2 y el CCSE, y pagar una tasa."
+      ],
+      "correct": 2,
+      "explanation": "Lino diz: \"Aprobar dos exámenes: el DELE A2 y el CCSE, y pagar una tasa.\" = \"Passar em duas provas: o DELE A2 e o CCSE, e pagar uma taxa.\"."
     },
     {
       "type": "build",
@@ -188,18 +197,6 @@
       ],
       "correct": 0,
       "explanation": "Só nacionais de países de língua oficial espanhola são isentos do DELE."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"¿Cuál es el número de tu ___?\" (processo)",
-      "options": [
-        "expediente",
-        "processo",
-        "expedição"
-      ],
-      "correct": 0,
-      "explanation": "\"Expediente\" = processo administrativo. \"Processo\" é português."
     },
     {
       "type": "boss",

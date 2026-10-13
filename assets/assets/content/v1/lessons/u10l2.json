@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la huella",
+          "pt": "a digital",
+          "emoji": "👆"
+        },
+        {
+          "es": "el sobre",
+          "pt": "o envelope",
+          "emoji": "✉️"
+        },
+        {
+          "es": "la foto",
+          "pt": "a foto",
+          "emoji": "📷"
+        },
+        {
+          "es": "la cola",
+          "pt": "a fila",
+          "emoji": "🧍"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "O que é o \"790 código 012\"?",
@@ -87,7 +113,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "tasa",
@@ -114,54 +140,37 @@
           "tip": "Igualzinho!"
         },
         {
-          "es": "sobre",
-          "kind": "quase",
-          "meaning": "sobre (a respeito de) / envelope",
-          "tip": "Sobre = sobre (a respeito de, em cima de). De quebra, \"un sobre\" = envelope."
-        },
-        {
-          "es": "fondo",
-          "kind": "quase",
-          "meaning": "fundo",
-          "tip": "Fondo blanco = fundo branco."
-        },
-        {
           "es": "carné",
           "kind": "armadilha",
           "meaning": "carteirinha",
           "tip": "Carné = carteirinha/documento. Em PT-BR, carnê é o bloco de boletos de prestação."
-        },
-        {
-          "es": "recoger",
-          "kind": "quase",
-          "meaning": "retirar / buscar",
-          "tip": "Recoger = retirar / buscar / recolher (\"recoger la tarjeta\" = retirar o cartão)."
-        },
-        {
-          "es": "fotocopia",
-          "kind": "quase",
-          "meaning": "fotocópia / xerox",
-          "tip": "Leve sempre cópias!"
-        },
-        {
-          "es": "rasgo",
-          "kind": "armadilha",
-          "meaning": "traço (do rosto, de estilo)",
-          "tip": "Rasgo = traço. Rasgo (rasgão) é \"rotura\" ou \"desgarrón\"."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Para recogerla, pida otra cita\" significa:",
-      "options": [
-        "Para retirá-la, peça outro agendamento",
-        "Para recolhê-la, volte amanhã",
-        "Para assiná-la, faça outra foto"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "Sí, aquí tiene el EX-17, el justificante del 790 y mi pasaporte.",
+          "pt": "Sim, aqui está o EX-17, o comprovante do 790 e meu passaporte."
+        },
+        {
+          "speaker": "Policía",
+          "es": "¿Y la foto?",
+          "pt": "E a foto?"
+        }
       ],
-      "correct": 0,
-      "explanation": "\"Recoger\" = retirar, buscar."
+      "speaker": "Lu",
+      "pt": "Aqui está: fundo branco, tamanho 3x4.",
+      "options": [
+        "Muy bien. Ponga el dedo índice aquí. Ahora el otro.",
+        "Aquí está: fondo blanco, tamaño carné.",
+        "Listo. La tarjeta tarda unas semanas. Para recogerla, pida otra cita."
+      ],
+      "correct": 1,
+      "explanation": "Lu diz: \"Aquí está: fondo blanco, tamaño carné.\" = \"Aqui está: fundo branco, tamanho 3x4.\"."
     },
     {
       "type": "build",
@@ -192,18 +201,6 @@
       ],
       "correct": 0,
       "explanation": "\"Listo\" = pronto (terminado)."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Firme ___, por favor.\"",
-      "options": [
-        "aquí",
-        "acá",
-        "aqui"
-      ],
-      "correct": 0,
-      "explanation": "\"Firme aquí\" = assine aqui. Firma = assinatura!"
     },
     {
       "type": "boss",

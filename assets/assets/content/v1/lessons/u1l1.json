@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el vuelo",
+          "pt": "o voo",
+          "emoji": "✈️"
+        },
+        {
+          "es": "la maleta",
+          "pt": "a mala (de viagem)",
+          "emoji": "🧳"
+        },
+        {
+          "es": "el equipaje",
+          "pt": "a bagagem",
+          "emoji": "🛄"
+        },
+        {
+          "es": "la puerta",
+          "pt": "o portão / a porta",
+          "emoji": "🚪"
+        },
+        {
+          "es": "el retraso",
+          "pt": "o atraso",
+          "emoji": "⏰"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "Como um espanhol diz \"ok, combinado\"?",
@@ -87,7 +118,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "hotel",
@@ -114,54 +145,37 @@
           "tip": "Envergonhada é \"avergonzada\". Não confunda!"
         },
         {
-          "es": "oficina",
-          "kind": "armadilha",
-          "meaning": "escritório",
-          "tip": "Oficina mecânica é \"taller\"."
-        },
-        {
-          "es": "polvo",
-          "kind": "armadilha",
-          "meaning": "pó / poeira",
-          "tip": "O polvo do mar é \"pulpo\"."
-        },
-        {
           "es": "maleta",
           "kind": "quase",
           "meaning": "mala",
           "tip": "Na Espanha, a mala de viagem é \"maleta\"."
-        },
-        {
-          "es": "rato",
-          "kind": "armadilha",
-          "meaning": "um momento",
-          "tip": "\"Espera un rato\" = espera um pouco. O rato é \"ratón\"."
-        },
-        {
-          "es": "vaso",
-          "kind": "armadilha",
-          "meaning": "copo",
-          "tip": "\"Un vaso de agua\" = um copo d'água. O vaso de flores é \"jarrón\"."
-        },
-        {
-          "es": "apellido",
-          "kind": "armadilha",
-          "meaning": "sobrenome",
-          "tip": "Apelido em espanhol é \"apodo\" ou \"mote\"."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "Como dizer \"Vamos pegar o metrô\" na Espanha?",
-      "options": [
-        "Vamos a coger el metro.",
-        "Vamos a pegar el metro.",
-        "Vamos a tomar el subte."
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Agente",
+          "es": "Buenos días. ¿Me enseña su pasaporte, por favor?",
+          "pt": "Bom dia. Pode me mostrar seu passaporte, por favor?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Claro, aquí tiene.",
+          "pt": "Claro, aqui está."
+        }
       ],
-      "correct": 0,
-      "explanation": "Na Espanha se diz \"coger\" (pegar). \"Pegar\" em espanhol é bater/colar! \"Subte\" é da Argentina."
+      "speaker": "Agente",
+      "pt": "Qual é o motivo da sua viagem?",
+      "options": [
+        "Vale. Bienvenida a España.",
+        "Vengo a vivir aquí con mi marido.",
+        "¿Cuál es el motivo de su viaje?"
+      ],
+      "correct": 2,
+      "explanation": "Agente diz: \"¿Cuál es el motivo de su viaje?\" = \"Qual é o motivo da sua viagem?\"."
     },
     {
       "type": "build",
@@ -191,18 +205,6 @@
       ],
       "correct": 0,
       "explanation": "\"Salida\" = saída, \"derecha\" = direita, \"izquierda\" = esquerda."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Perdona, ¿dónde ___ los taxis?",
-      "options": [
-        "están",
-        "son",
-        "hay"
-      ],
-      "correct": 0,
-      "explanation": "Para localização usamos \"estar\": ¿dónde están...?"
     },
     {
       "type": "boss",

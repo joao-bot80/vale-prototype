@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la barca",
+          "pt": "o barco",
+          "emoji": "🛶"
+        },
+        {
+          "es": "el atardecer",
+          "pt": "o pôr do sol",
+          "emoji": "🌅"
+        },
+        {
+          "es": "el arrozal",
+          "pt": "o arrozal",
+          "emoji": "🌾"
+        },
+        {
+          "es": "el pájaro",
+          "pt": "o pássaro",
+          "emoji": "🐦"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"La puesta de sol\" é:",
@@ -86,7 +112,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "laguna",
@@ -107,60 +133,43 @@
           "tip": "Al atardecer."
         },
         {
-          "es": "anguila",
-          "kind": "quase",
-          "meaning": "enguia",
-          "tip": "Ingrediente do all i pebre."
-        },
-        {
           "es": "pato",
           "kind": "igual",
           "meaning": "pato",
           "tip": "Mesma palavra, mesmo sentido."
         },
         {
-          "es": "arrozal",
-          "kind": "quase",
-          "meaning": "arrozal",
-          "tip": "Campo de arroz."
-        },
-        {
-          "es": "garza",
-          "kind": "quase",
-          "meaning": "garça",
-          "tip": "Ave da Albufera."
-        },
-        {
-          "es": "mosquito",
-          "kind": "igual",
-          "meaning": "mosquito",
-          "tip": "Leve repelente!"
-        },
-        {
           "es": "orilla",
           "kind": "armadilha",
           "meaning": "margem / beira",
           "tip": "Não é orelha (oreja)!"
-        },
-        {
-          "es": "amanecer",
-          "kind": "quase",
-          "meaning": "amanhecer",
-          "tip": "Al amanecer."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"En la orilla\" significa:",
-      "options": [
-        "Na margem / beira",
-        "Na orelha",
-        "Na ilha"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lino",
+          "es": "Es la Albufera, una laguna junto al mar. Aquí se cultiva arroz desde hace siglos.",
+          "pt": "É a Albufera, uma lagoa junto ao mar. Aqui se cultiva arroz há séculos."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Podemos dar un paseo en barca?",
+          "pt": "Podemos dar um passeio de barco?"
+        }
       ],
-      "correct": 0,
-      "explanation": "Orilla = margem. Oreja = orelha."
+      "speaker": "Lino",
+      "pt": "Sim, no fim da tarde. É o melhor momento para ver o pôr do sol.",
+      "options": [
+        "¡Claro! Es un guiso de anguila típico de El Palmar.",
+        "¿Y luego comemos all i pebre?",
+        "Sí, al atardecer. Es el mejor momento para ver la puesta de sol."
+      ],
+      "correct": 2,
+      "explanation": "Lino diz: \"Sí, al atardecer. Es el mejor momento para ver la puesta de sol.\" = \"Sim, no fim da tarde. É o melhor momento para ver o pôr do sol.\"."
     },
     {
       "type": "build",
@@ -188,18 +197,6 @@
       ],
       "correct": 0,
       "explanation": "All i pebre = alho e pimentão em valenciano."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Paseamos por la ___ del lago.\" (beira)",
-      "options": [
-        "orilla",
-        "oreja",
-        "borda"
-      ],
-      "correct": 0,
-      "explanation": "Orilla = beira."
     },
     {
       "type": "boss",

@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el portátil",
+          "pt": "o notebook",
+          "emoji": "💻"
+        },
+        {
+          "es": "la cita previa",
+          "pt": "o agendamento",
+          "emoji": "📅"
+        },
+        {
+          "es": "el correo",
+          "pt": "o e-mail",
+          "emoji": "📧"
+        },
+        {
+          "es": "la contraseña",
+          "pt": "a senha",
+          "emoji": "🔒"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Pedir cita\" significa:",
@@ -84,71 +110,29 @@
       "explanation": "O agendamento de extranjería é feito em sede.administracionespublicas.gob.es."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "trámite",
-          "kind": "quase",
-          "meaning": "trâmite / procedimento",
-          "tip": "Muito usado: \"hacer un trámite\"."
+          "speaker": "Lino",
+          "es": "Se pide en la sede electrónica. Eliges la provincia y el trámite.",
+          "pt": "Pede-se na sede eletrônica. Você escolhe a província e o trâmite."
         },
         {
-          "es": "cita",
-          "kind": "armadilha",
-          "meaning": "agendamento / encontro",
-          "tip": "Cita = horário marcado. Em PT-BR, cita é do verbo citar (\"cita textual\" = citação)."
-        },
-        {
-          "es": "fotografía",
-          "kind": "quase",
-          "meaning": "foto / fotografia",
-          "tip": "Fotografía = fotografia."
-        },
-        {
-          "es": "provincia",
-          "kind": "quase",
-          "meaning": "província",
-          "tip": "Na Espanha há 50 províncias."
-        },
-        {
-          "es": "disponible",
-          "kind": "quase",
-          "meaning": "disponível",
-          "tip": "Quase igual."
-        },
-        {
-          "es": "requisito",
-          "kind": "igual",
-          "meaning": "requisito",
-          "tip": "Igualzinho!"
-        },
-        {
-          "es": "sello",
-          "kind": "quase",
-          "meaning": "carimbo / selo",
-          "tip": "Lembra \"selo\"."
-        },
-        {
-          "es": "solicitud",
-          "kind": "quase",
-          "meaning": "solicitação / requerimento",
-          "tip": "Lembra \"solicitude\"."
-        },
-        {
-          "es": "impreso",
-          "kind": "quase",
-          "meaning": "formulário",
-          "tip": "Impreso = impresso, igual, mas na papelada também é o formulário oficial."
-        },
-        {
-          "es": "borrar",
-          "kind": "armadilha",
-          "meaning": "apagar (escrita)",
-          "tip": "Borrar = apagar. Borrar (manchar) é \"emborronar\"."
+          "speaker": "Lu",
+          "es": "¡No hay citas disponibles! ¿Qué hago?",
+          "pt": "Não tem horário disponível! O que eu faço?"
         }
-      ]
+      ],
+      "speaker": "Lino",
+      "pt": "Paciência. Tenta outro dia, logo cedo.",
+      "options": [
+        "¡Ya está! Tengo cita el martes a las nueve y media.",
+        "Paciencia. Inténtalo otro día, a primera hora de la mañana.",
+        "Perfecto. Y recuerda: la cita es gratis. Nunca pagues por ella."
+      ],
+      "correct": 1,
+      "explanation": "Lino diz: \"Paciencia. Inténtalo otro día, a primera hora de la mañana.\" = \"Paciência. Tenta outro dia, logo cedo.\"."
     },
     {
       "type": "choice",
@@ -190,18 +174,6 @@
       ],
       "correct": 0,
       "explanation": "\"¡Ya está!\" = pronto, consegui!"
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"El ___ para pedir la TIE es de un mes.\" (prazo)",
-      "options": [
-        "plazo",
-        "plaza",
-        "prazo"
-      ],
-      "correct": 0,
-      "explanation": "\"Plazo\" = prazo."
     },
     {
       "type": "boss",

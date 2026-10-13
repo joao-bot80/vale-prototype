@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el bacalao",
+          "pt": "o bacalhau",
+          "emoji": "🐟"
+        },
+        {
+          "es": "el mercado",
+          "pt": "o mercado",
+          "emoji": "🏪"
+        },
+        {
+          "es": "la pescadera",
+          "pt": "a peixeira",
+          "emoji": "👩‍🍳"
+        },
+        {
+          "es": "la merluza",
+          "pt": "a merluza",
+          "emoji": "🐟"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Desalado\" significa:",
@@ -83,7 +109,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "bacalao",
@@ -110,54 +136,37 @@
           "tip": "Poner en remojo."
         },
         {
-          "es": "cocinar",
-          "kind": "quase",
-          "meaning": "cozinhar",
-          "tip": "Cocinar = cozinhar. Cozinha = cocina."
-        },
-        {
-          "es": "pescadera",
-          "kind": "quase",
-          "meaning": "peixeira (vendedora)",
-          "tip": "Pescadero/a."
-        },
-        {
-          "es": "vizcaína",
-          "kind": "quase",
-          "meaning": "biscainha",
-          "tip": "De Bizkaia."
-        },
-        {
           "es": "casco viejo",
           "kind": "armadilha",
           "meaning": "centro histórico",
           "tip": "Casco (urbano) = centro. Em PT-BR, casco é a pata do cavalo ou o do navio."
-        },
-        {
-          "es": "mercado cubierto",
-          "kind": "quase",
-          "meaning": "mercado coberto",
-          "tip": "Como a Ribera."
-        },
-        {
-          "es": "lonchas",
-          "kind": "armadilha",
-          "meaning": "fatias",
-          "tip": "Lonchas de jamón."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Los cubiertos\" na mesa são:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "¡Cuánto bacalao! ¿Es típico de aquí?",
+          "pt": "Quanto bacalhau! É típico daqui?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí, el bacalao al pil-pil y a la vizcaína son clásicos de Bilbao.",
+          "pt": "Sim, o bacalhau ao pil-pil e à biscainha são clássicos de Bilbao."
+        }
+      ],
+      "speaker": "Pescadera",
+      "pt": "Este está dessalgado. Pronto para cozinhar.",
       "options": [
-        "Os talheres",
-        "As tampas",
-        "Os guardanapos"
+        "Este está desalado. Listo para cocinar.",
+        "Con aceite, ajo y guindilla. Mueves la cazuela hasta que la salsa liga.",
+        "Póngame medio kilo, por favor. ¿Cómo se hace el pil-pil?"
       ],
       "correct": 0,
-      "explanation": "Cubierto = talher."
+      "explanation": "Pescadera diz: \"Este está desalado. Listo para cocinar.\" = \"Este está dessalgado. Pronto para cozinhar.\"."
     },
     {
       "type": "build",
@@ -188,18 +197,6 @@
       ],
       "correct": 0,
       "explanation": "\"Ligar\" = emulsionar."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Pon los ___ en la mesa.\" (talheres)",
-      "options": [
-        "cubiertos",
-        "talheres",
-        "cubetas"
-      ],
-      "correct": 0,
-      "explanation": "Cubiertos = talheres."
     },
     {
       "type": "boss",

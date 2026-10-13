@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "las papas arrugadas",
+          "pt": "as batatas enrugadas",
+          "emoji": "🥔"
+        },
+        {
+          "es": "el mojo",
+          "pt": "o molho canário",
+          "emoji": "🥣"
+        },
+        {
+          "es": "la sal",
+          "pt": "o sal",
+          "emoji": "🧂"
+        },
+        {
+          "es": "el guachinche",
+          "pt": "a taberna rústica",
+          "emoji": "🏠"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Papa\" nas Canárias significa:",
@@ -82,71 +108,29 @@
       "explanation": "Cilantro = coentro."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "papa",
-          "kind": "armadilha",
-          "meaning": "batata",
-          "tip": "Papa = batata (Canárias). Em PT-BR, papa é o Papa ou mingau."
+          "speaker": "Lu",
+          "es": "¿Por eso tienen la piel arrugada?",
+          "pt": "Por isso têm a casca enrugada?"
         },
         {
-          "es": "arrugado",
-          "kind": "quase",
-          "meaning": "enrugado",
-          "tip": "Arruga = ruga."
-        },
-        {
-          "es": "mojo",
-          "kind": "quase",
-          "meaning": "molho canário",
-          "tip": "Rojo o verde."
-        },
-        {
-          "es": "cilantro",
-          "kind": "quase",
-          "meaning": "coentro",
-          "tip": "Cilantro = coentro (o nome cilantro também é usado no Brasil)."
-        },
-        {
-          "es": "salado",
-          "kind": "armadilha",
-          "meaning": "salgado",
-          "tip": "Não é salada!"
-        },
-        {
-          "es": "cocer",
-          "kind": "quase",
-          "meaning": "cozinhar (em água)",
-          "tip": "Se cuecen."
-        },
-        {
-          "es": "comino",
-          "kind": "quase",
-          "meaning": "cominho",
-          "tip": "No mojo rojo."
-        },
-        {
-          "es": "restaurante",
-          "kind": "igual",
-          "meaning": "restaurante",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "salmuera",
-          "kind": "quase",
-          "meaning": "salmoura",
-          "tip": "Agua con sal."
-        },
-        {
-          "es": "vinagre",
-          "kind": "igual",
-          "meaning": "vinagre",
-          "tip": "Mesma palavra, mesmo sentido."
+          "speaker": "Lino",
+          "es": "Exacto. Y se comen con mojo rojo o mojo verde.",
+          "pt": "Exato. E se comem com mojo vermelho ou mojo verde."
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Qual arde mais?",
+      "options": [
+        "¿Cuál pica más?",
+        "Entonces el verde para mí, por favor.",
+        "El rojo, el picón. El verde lleva cilantro."
+      ],
+      "correct": 0,
+      "explanation": "Lu diz: \"¿Cuál pica más?\" = \"Qual arde mais?\"."
     },
     {
       "type": "choice",
@@ -188,18 +172,6 @@
       ],
       "correct": 0,
       "explanation": "Antigamente com água do mar."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"El mojo verde lleva ___.\" (coentro)",
-      "options": [
-        "cilantro",
-        "coentro",
-        "cilindro"
-      ],
-      "correct": 0,
-      "explanation": "Cilantro = coentro."
     },
     {
       "type": "boss",

@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el trabajo",
+          "pt": "o trabalho",
+          "emoji": "💼"
+        },
+        {
+          "es": "el sueldo",
+          "pt": "o salário",
+          "emoji": "💶"
+        },
+        {
+          "es": "el jefe",
+          "pt": "o chefe",
+          "emoji": "👔"
+        },
+        {
+          "es": "el paro",
+          "pt": "o seguro-desemprego",
+          "emoji": "📉"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "Para pedir o número da Seguridad Social você usa:",
@@ -81,71 +107,29 @@
       "explanation": "Import@ss é o portal da Seguridad Social para cidadãos."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "empresa",
-          "kind": "igual",
-          "meaning": "empresa",
-          "tip": "Igualzinho!"
+          "speaker": "Lino",
+          "es": "Se pide con el modelo TA.1 y tu NIE.",
+          "pt": "Pede-se com o modelo TA.1 e seu NIE."
         },
         {
-          "es": "jornada",
-          "kind": "armadilha",
-          "meaning": "carga horária",
-          "tip": "Jornada = dia/carga de trabalho. Em PT-BR, jornada é sobretudo uma viagem longa (\"travesía\")."
-        },
-        {
-          "es": "jefe",
-          "kind": "quase",
-          "meaning": "chefe",
-          "tip": "Jefe = chefe: com j e sem \"ch\"."
-        },
-        {
-          "es": "sueldo",
-          "kind": "armadilha",
-          "meaning": "salário",
-          "tip": "Sueldo = salário. Em PT-BR, soldo é o pagamento de militar."
-        },
-        {
-          "es": "horas extra",
-          "kind": "quase",
-          "meaning": "horas extras",
-          "tip": "Horas extra = horas extras."
-        },
-        {
-          "es": "baja",
-          "kind": "quase",
-          "meaning": "baixa / licença médica",
-          "tip": "Baja = baixa; \"estar de baja\" = de licença médica."
-        },
-        {
-          "es": "alta",
-          "kind": "quase",
-          "meaning": "alta / inscrição",
-          "tip": "Alta = alta; \"darse de alta\" = cadastrar-se."
-        },
-        {
-          "es": "autónomo",
-          "kind": "quase",
-          "meaning": "trabalhador autônomo / MEI",
-          "tip": "Autónomo = trabalhador autônomo. Só muda o acento."
-        },
-        {
-          "es": "plantilla",
-          "kind": "armadilha",
-          "meaning": "equipe / quadro de funcionários",
-          "tip": "Plantilla = quadro de funcionários. Em PT-BR, palmilha/plantilha é a do sapato ou um modelo."
-        },
-        {
-          "es": "jornal",
-          "kind": "armadilha",
-          "meaning": "diária (pagamento por dia)",
-          "tip": "Jornal = diária de trabalho. Jornal (de notícias) é \"periódico\"."
+          "speaker": "Lu",
+          "es": "¿Tengo que ir a una oficina?",
+          "pt": "Tenho que ir a um escritório?"
         }
-      ]
+      ],
+      "speaker": "Lino",
+      "pt": "Você pode ir com agendamento ou fazer online no Import@ss.",
+      "options": [
+        "Con Cl@ve, certificado digital o una foto tuya con el documento.",
+        "¿Y online cómo me identifico?",
+        "Puedes ir con cita o hacerlo online en Import@ss."
+      ],
+      "correct": 2,
+      "explanation": "Lino diz: \"Puedes ir con cita o hacerlo online en Import@ss.\" = \"Você pode ir com agendamento ou fazer online no Import@ss.\"."
     },
     {
       "type": "choice",
@@ -194,18 +178,6 @@
       ],
       "correct": 0,
       "explanation": "Cl@ve é o sistema de identificação digital do governo."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Mi ___ es muy simpático.\" (chefe)",
-      "options": [
-        "jefe",
-        "chefe",
-        "jefa"
-      ],
-      "correct": 0,
-      "explanation": "\"Jefe\" = chefe; \"jefa\" = chefe (mulher)."
     },
     {
       "type": "boss",

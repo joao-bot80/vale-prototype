@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "los deberes",
+          "pt": "a lição de casa",
+          "emoji": "📚"
+        },
+        {
+          "es": "la tutora",
+          "pt": "a professora da turma",
+          "emoji": "👩‍🏫"
+        },
+        {
+          "es": "el recreo",
+          "pt": "o recreio",
+          "emoji": "⚽"
+        },
+        {
+          "es": "las notas",
+          "pt": "as notas",
+          "emoji": "💯"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Apuntarse\" significa:",
@@ -80,71 +106,29 @@
       "explanation": "Apoyo = reforço, ajuda."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "tutora",
-          "kind": "armadilha",
-          "meaning": "professora responsável pela turma",
-          "tip": "Tutora = professora da turma. Em PT-BR, tutora é a guardiã legal (ou de pet)."
+          "speaker": "Lu",
+          "es": "Me alegro. ¿Y con el idioma?",
+          "pt": "Que bom. E com o idioma?"
         },
         {
-          "es": "apoyo",
-          "kind": "quase",
-          "meaning": "apoio / reforço",
-          "tip": "Clase de apoyo."
-        },
-        {
-          "es": "extraescolar",
-          "kind": "quase",
-          "meaning": "extracurricular",
-          "tip": "Actividades extraescolares."
-        },
-        {
-          "es": "reunión de padres",
-          "kind": "quase",
-          "meaning": "reunião de pais",
-          "tip": "Reunión = reunião, padres = pais."
-        },
-        {
-          "es": "apuntarse",
-          "kind": "armadilha",
-          "meaning": "inscrever-se",
-          "tip": "¿Te apuntas? = topa?"
-        },
-        {
-          "es": "apetecer",
-          "kind": "quase",
-          "meaning": "estar a fim",
-          "tip": "¿Qué te apetece? = o que você está a fim? (em português \"apetecer\" também existe)."
-        },
-        {
-          "es": "notas",
-          "kind": "igual",
-          "meaning": "notas / boletim",
-          "tip": "Notas = notas / boletim."
-        },
-        {
-          "es": "deberes",
-          "kind": "armadilha",
-          "meaning": "lição de casa",
-          "tip": "Deberes = lição de casa. Em PT-BR, deveres são obrigações."
-        },
-        {
-          "es": "recreo",
-          "kind": "quase",
-          "meaning": "recreio",
-          "tip": "Hora del recreo."
-        },
-        {
-          "es": "adaptarse",
-          "kind": "quase",
-          "meaning": "adaptar-se",
-          "tip": "Se está adaptando."
+          "speaker": "Tutora",
+          "es": "Entiende casi todo. Tiene apoyo de lengua dos horas por semana.",
+          "pt": "Entende quase tudo. Tem reforço de língua duas horas por semana."
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Ela pode se inscrever em alguma atividade extracurricular?",
+      "options": [
+        "Genial. Le pregunto qué le apetece.",
+        "Sí, la AMPA organiza fútbol, teatro e inglés por la tarde.",
+        "¿Puede apuntarse a alguna actividad extraescolar?"
+      ],
+      "correct": 2,
+      "explanation": "Lu diz: \"¿Puede apuntarse a alguna actividad extraescolar?\" = \"Ela pode se inscrever em alguma atividade extracurricular?\"."
     },
     {
       "type": "choice",
@@ -187,18 +171,6 @@
       ],
       "correct": 0,
       "explanation": "AMPA = associação de mães e pais."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"¿Has hecho los ___?\" (lição de casa)",
-      "options": [
-        "deberes",
-        "debers",
-        "liciones"
-      ],
-      "correct": 0,
-      "explanation": "Deberes = lição de casa (Espanha). \"Tareas\" também se ouve, sobretudo na América Latina."
     },
     {
       "type": "boss",

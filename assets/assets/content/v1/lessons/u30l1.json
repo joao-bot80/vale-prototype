@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la fiesta",
+          "pt": "a festa",
+          "emoji": "🎉"
+        },
+        {
+          "es": "la tarta",
+          "pt": "o bolo",
+          "emoji": "🎂"
+        },
+        {
+          "es": "los globos",
+          "pt": "as bexigas",
+          "emoji": "🎈"
+        },
+        {
+          "es": "los invitados",
+          "pt": "os convidados",
+          "emoji": "👥"
+        },
+        {
+          "es": "la servilleta",
+          "pt": "o guardanapo",
+          "emoji": "🧻"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"¡Ni se te ocurra!\" significa:",
@@ -82,7 +113,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "decoración",
@@ -95,24 +126,6 @@
           "kind": "quase",
           "meaning": "comemorar",
           "tip": "Celebrar un logro."
-        },
-        {
-          "es": "invitado",
-          "kind": "quase",
-          "meaning": "convidado",
-          "tip": "Invitado = convidado."
-        },
-        {
-          "es": "brindis",
-          "kind": "quase",
-          "meaning": "brinde",
-          "tip": "Hacer un brindis."
-        },
-        {
-          "es": "anfitriona",
-          "kind": "quase",
-          "meaning": "anfitriã",
-          "tip": "Quem recebe."
         },
         {
           "es": "tarta",
@@ -131,32 +144,33 @@
           "kind": "armadilha",
           "meaning": "elogio",
           "tip": "Cumplido = elogio. Em PT-BR, cumprido é algo realizado."
-        },
-        {
-          "es": "vecino ruidoso",
-          "kind": "quase",
-          "meaning": "vizinho barulhento",
-          "tip": "Cuidado com o barulho."
-        },
-        {
-          "es": "traer",
-          "kind": "armadilha",
-          "meaning": "trazer",
-          "tip": "Llevar = levar."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Traer\" ou \"llevar\"? Dani vai À festa da Lu. A Lu diz:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Dani",
+          "es": "¡Enhorabuena! ¿Qué llevo?",
+          "pt": "Parabéns! O que eu levo?"
+        },
+        {
+          "speaker": "Lu",
+          "es": "Trae hielo y unas patatas. Marta trae la tortilla.",
+          "pt": "Traz gelo e umas batatinhas. A Marta traz a tortilha."
+        }
+      ],
+      "speaker": "Dani",
+      "pt": "Com cebola ou sem cebola?",
       "options": [
-        "Trae hielo (traz)",
-        "Lleva hielo (leva)",
-        "Coge hielo"
+        "¿Con cebolla o sin cebolla?",
+        "Jaja, vale. ¿A qué hora empieza?",
+        "¡Ni se te ocurra empezar ese debate!"
       ],
       "correct": 0,
-      "explanation": "Traer = para onde está quem fala."
+      "explanation": "Dani diz: \"¿Con cebolla o sin cebolla?\" = \"Com cebola ou sem cebola?\"."
     },
     {
       "type": "build",
@@ -187,18 +201,6 @@
       ],
       "correct": 0,
       "explanation": "A tortilha com ou sem cebola é a eterna polêmica espanhola."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Somos veinte ___ en la fiesta.\" (convidados)",
-      "options": [
-        "invitados",
-        "convidados",
-        "invitos"
-      ],
-      "correct": 0,
-      "explanation": "Invitado = convidado."
     },
     {
       "type": "boss",

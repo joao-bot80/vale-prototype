@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el coche",
+          "pt": "o carro",
+          "emoji": "🚗"
+        },
+        {
+          "es": "el carné de conducir",
+          "pt": "a carteira de motorista",
+          "emoji": "🪪"
+        },
+        {
+          "es": "el médico",
+          "pt": "o médico",
+          "emoji": "🩺"
+        },
+        {
+          "es": "la multa",
+          "pt": "a multa",
+          "emoji": "🧾"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "O que é o \"canje\" da carteira?",
@@ -86,7 +112,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "conducir",
@@ -117,50 +143,33 @@
           "kind": "quase",
           "meaning": "autoescola",
           "tip": "Junto, sem hífen."
-        },
-        {
-          "es": "multa",
-          "kind": "igual",
-          "meaning": "multa",
-          "tip": "Igualzinho!"
-        },
-        {
-          "es": "señal",
-          "kind": "quase",
-          "meaning": "sinal / placa",
-          "tip": "Señal = sinal."
-        },
-        {
-          "es": "tráfico",
-          "kind": "armadilha",
-          "meaning": "trânsito",
-          "tip": "Tráfico = trânsito. Em PT-BR, tráfico é o de drogas/armas (\"narcotráfico\")."
-        },
-        {
-          "es": "volante",
-          "kind": "quase",
-          "meaning": "volante / comprovante",
-          "tip": "Volante = volante do carro, igual, e também o comprovante do padrón."
-        },
-        {
-          "es": "neto",
-          "kind": "armadilha",
-          "meaning": "líquido (salário, peso)",
-          "tip": "Sueldo neto = salário líquido. Neto é \"nieto\"."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"No se puede aparcar aquí\" significa:",
-      "options": [
-        "Não pode estacionar aqui",
-        "Não pode parar de andar aqui",
-        "Não pode aparecer aqui"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Administrativa",
+          "es": "Normalmente, el empadronamiento, tu documento y estar dado de alta en la Seguridad Social.",
+          "pt": "Normalmente, o empadronamiento, seu documento e estar inscrito na Seguridad Social."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Vale. Otra pregunta: ¿puedo conducir con mi carné brasileño?",
+          "pt": "Beleza. Outra pergunta: posso dirigir com minha carteira brasileira?"
+        }
       ],
-      "correct": 0,
-      "explanation": "\"Aparcar\" = estacionar."
+      "speaker": "Lino",
+      "pt": "Sim, mas só seis meses depois que você vira residente. Depois é preciso fazer a troca.",
+      "options": [
+        "Para coche, no. Brasil tiene convenio con España.",
+        "¿Tengo que hacer el examen otra vez?",
+        "Sí, pero solo seis meses desde que eres residente. Después hay que hacer el canje."
+      ],
+      "correct": 2,
+      "explanation": "Lino diz: \"Sí, pero solo seis meses desde que eres residente. Después hay que hacer el canje.\" = \"Sim, mas só seis meses depois que você vira residente. Depois é preciso fazer a troca.\"."
     },
     {
       "type": "build",
@@ -192,18 +201,6 @@
       ],
       "correct": 0,
       "explanation": "Para carro e moto (A e B), o canje da carteira brasileira é sem prova; para caminhão e ônibus há provas."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Me han puesto una ___ por aparcar mal.\"",
-      "options": [
-        "multa",
-        "multo",
-        "pena"
-      ],
-      "correct": 0,
-      "explanation": "\"Multa\" = multa."
     },
     {
       "type": "boss",

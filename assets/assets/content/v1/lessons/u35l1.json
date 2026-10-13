@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el perro de flores",
+          "pt": "o cachorro de flores",
+          "emoji": "🐶"
+        },
+        {
+          "es": "la araña",
+          "pt": "a aranha",
+          "emoji": "🕷️"
+        },
+        {
+          "es": "el acero",
+          "pt": "o aço",
+          "emoji": "🔩"
+        },
+        {
+          "es": "el museo",
+          "pt": "o museu",
+          "emoji": "🏛️"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Según la estación\" significa:",
@@ -85,7 +111,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "titanio",
@@ -116,50 +142,33 @@
           "kind": "quase",
           "meaning": "chapa / placa de metal",
           "tip": "Chapa = chapa / placa de metal, e também tampinha."
-        },
-        {
-          "es": "según",
-          "kind": "quase",
-          "meaning": "conforme / segundo",
-          "tip": "Según el día."
-        },
-        {
-          "es": "ría de Bilbao",
-          "kind": "quase",
-          "meaning": "estuário de Bilbao",
-          "tip": "O Nervión."
-        },
-        {
-          "es": "araña",
-          "kind": "quase",
-          "meaning": "aranha",
-          "tip": "Araña = aranha. Maman, a aranha gigante."
-        },
-        {
-          "es": "vanguardia",
-          "kind": "quase",
-          "meaning": "vanguarda",
-          "tip": "Arte de vanguardia."
-        },
-        {
-          "es": "exposición temporal",
-          "kind": "quase",
-          "meaning": "exposição temporária",
-          "tip": "Temporal = temporário."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Un cachorro\" em espanhol é:",
-      "options": [
-        "Um filhote",
-        "Um cachorro adulto",
-        "Um gato"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lino",
+          "es": "Es el Guggenheim, de Frank Gehry. Está cubierto de titanio.",
+          "pt": "É o Guggenheim, de Frank Gehry. É coberto de titânio."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y ese perro gigante de flores?",
+          "pt": "E aquele cachorro gigante de flores?"
+        }
       ],
-      "correct": 0,
-      "explanation": "Perro = cachorro; cachorro = filhote."
+      "speaker": "Lino",
+      "pt": "É o Puppy, de Jeff Koons. Trocam as flores conforme a estação.",
+      "options": [
+        "¿Desde cuándo está el museo?",
+        "Es Puppy, de Jeff Koons. Cambian las flores según la estación.",
+        "Desde 1997. Cambió la imagen de Bilbao por completo."
+      ],
+      "correct": 1,
+      "explanation": "Lino diz: \"Es Puppy, de Jeff Koons. Cambian las flores según la estación.\" = \"É o Puppy, de Jeff Koons. Trocam as flores conforme a estação.\"."
     },
     {
       "type": "build",
@@ -191,18 +200,6 @@
       ],
       "correct": 0,
       "explanation": "Puppy fica em frente ao museu."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Mi ___ se llama Toby.\" (cachorro)",
-      "options": [
-        "perro",
-        "cachorro",
-        "perrito de"
-      ],
-      "correct": 0,
-      "explanation": "Perro = cachorro (cão)."
     },
     {
       "type": "boss",

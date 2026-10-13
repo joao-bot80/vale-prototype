@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la caña",
+          "pt": "o chope",
+          "emoji": "🍺"
+        },
+        {
+          "es": "el vaso",
+          "pt": "o copo",
+          "emoji": "🥛"
+        },
+        {
+          "es": "el hielo",
+          "pt": "o gelo",
+          "emoji": "🧊"
+        },
+        {
+          "es": "el zumo",
+          "pt": "o suco",
+          "emoji": "🧃"
+        },
+        {
+          "es": "el camarero",
+          "pt": "o garçom",
+          "emoji": "🧑‍🍳"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "No bar, como o garçom pergunta \"o que vão querer?\"",
@@ -84,71 +115,29 @@
       "spanish": "¿Queréis algo de picar?"
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "café",
-          "kind": "igual",
-          "meaning": "café",
-          "tip": "Igualzinho!"
+          "speaker": "Lu",
+          "es": "Para mí, una caña, por favor.",
+          "pt": "Pra mim, um chope pequeno, por favor."
         },
         {
-          "es": "chocolate",
-          "kind": "igual",
-          "meaning": "chocolate",
-          "tip": "Mesma palavra, mesmo sabor."
-        },
-        {
-          "es": "cerveza",
-          "kind": "quase",
-          "meaning": "cerveja",
-          "tip": "O \"j\" vira \"z\"."
-        },
-        {
-          "es": "limón",
-          "kind": "quase",
-          "meaning": "limão",
-          "tip": "-ão vira -ón."
-        },
-        {
-          "es": "copa",
-          "kind": "armadilha",
-          "meaning": "taça / drinque",
-          "tip": "Copa = taça ou drinque. Em PT-BR, copa é o cômodo junto à cozinha ou a Copa do Mundo."
-        },
-        {
-          "es": "garrafa",
-          "kind": "armadilha",
-          "meaning": "garrafão",
-          "tip": "Garrafa = garrafão grande. Em PT-BR, garrafa é \"botella\"."
-        },
-        {
-          "es": "pastel",
-          "kind": "armadilha",
-          "meaning": "bolo / doce",
-          "tip": "Pastel = bolo / doce de confeitaria. O pastel brasileiro (frito) é \"empanadilla\"."
-        },
-        {
-          "es": "tapa",
-          "kind": "armadilha",
-          "meaning": "petisco (e também tampa)",
-          "tip": "Tapa = petisco. Em PT-BR, tapa é um tabefe (\"bofetada\")."
-        },
-        {
-          "es": "bocadillo",
-          "kind": "armadilha",
-          "meaning": "sanduíche de pão baguete",
-          "tip": "Um pouquinho é \"un poquito\"."
-        },
-        {
-          "es": "sobremesa",
-          "kind": "armadilha",
-          "meaning": "papo à mesa depois de comer",
-          "tip": "A sobremesa (doce) é \"el postre\"."
+          "speaker": "Dani",
+          "es": "Y para mí, un tinto de verano.",
+          "pt": "E pra mim, um tinto de verano (vinho tinto com refri de limão)."
         }
-      ]
+      ],
+      "speaker": "Camarero",
+      "pt": "Saindo! Querem algo pra beliscar?",
+      "options": [
+        "Hoy os ponemos unas aceitunas. ¡Ahora mismo os lo traigo!",
+        "¿Qué tapa viene con la caña?",
+        "Marchando. ¿Queréis algo de picar?"
+      ],
+      "correct": 2,
+      "explanation": "Camarero diz: \"Marchando. ¿Queréis algo de picar?\" = \"Saindo! Querem algo pra beliscar?\"."
     },
     {
       "type": "choice",
@@ -189,18 +178,6 @@
       "correct": 0,
       "explanation": "\"Ahora mismo\" = agora mesmo, já. \"Os lo traigo\" = trago pra vocês.",
       "spanish": "Ahora mismo os lo traigo."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Una caña y ___ tinto de verano.",
-      "options": [
-        "un",
-        "una",
-        "uno"
-      ],
-      "correct": 0,
-      "explanation": "\"Tinto\" é masculino: \"un tinto\". \"Uno\" só aparece sozinho: \"¿Cuántos? Uno.\""
     },
     {
       "type": "boss",

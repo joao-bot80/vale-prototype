@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la leche",
+          "pt": "o leite",
+          "emoji": "🥛"
+        },
+        {
+          "es": "los huevos",
+          "pt": "os ovos",
+          "emoji": "🥚"
+        },
+        {
+          "es": "el aceite",
+          "pt": "o azeite / óleo",
+          "emoji": "🫒"
+        },
+        {
+          "es": "la bolsa",
+          "pt": "a sacola",
+          "emoji": "🛍️"
+        },
+        {
+          "es": "el carro",
+          "pt": "o carrinho de compras",
+          "emoji": "🛒"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "Como se diz \"azeite\" em espanhol?",
@@ -82,71 +113,29 @@
       "explanation": "\"Pasillo\" = corredor. \"Al lado de\" = ao lado de."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "arroz",
-          "kind": "igual",
-          "meaning": "arroz",
-          "tip": "Igualzinho!"
+          "speaker": "Lu",
+          "es": "Sí, una, por favor. ¿Cuánto cuesta?",
+          "pt": "Sim, uma, por favor. Quanto custa?"
         },
         {
-          "es": "fruta",
-          "kind": "igual",
-          "meaning": "fruta",
-          "tip": "Mesma palavra."
-        },
-        {
-          "es": "pepino",
-          "kind": "igual",
-          "meaning": "pepino",
-          "tip": "Igual!"
-        },
-        {
-          "es": "carne",
-          "kind": "igual",
-          "meaning": "carne",
-          "tip": "Igual!"
-        },
-        {
-          "es": "leche",
-          "kind": "quase",
-          "meaning": "leite",
-          "tip": "E é feminino: la leche."
-        },
-        {
-          "es": "pan",
-          "kind": "quase",
-          "meaning": "pão",
-          "tip": "-ão vira -an."
-        },
-        {
-          "es": "queso",
-          "kind": "quase",
-          "meaning": "queijo",
-          "tip": "O \"ij\" vira \"s\"."
-        },
-        {
-          "es": "bolsa",
-          "kind": "armadilha",
-          "meaning": "sacola",
-          "tip": "Bolsa = sacola de compras. Em PT-BR, bolsa é a de mão (\"bolso\") ou a de valores."
-        },
-        {
-          "es": "aceite",
-          "kind": "armadilha",
-          "meaning": "azeite / óleo",
-          "tip": "Aceito é \"aceptado\"."
-        },
-        {
-          "es": "manteca",
-          "kind": "armadilha",
-          "meaning": "banha (gordura)",
-          "tip": "Manteiga é \"mantequilla\"."
+          "speaker": "Cajero",
+          "es": "Quince céntimos. ¿Tienes la tarjeta de socio?",
+          "pt": "Quinze centavos. Tem o cartão de cliente?"
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Não, não tenho. Desculpa, onde fica o azeite?",
+      "options": [
+        "No, no tengo. Perdona, ¿dónde está el aceite de oliva?",
+        "¡Gracias! Ahora vuelvo.",
+        "En el pasillo tres, al lado del vinagre."
+      ],
+      "correct": 0,
+      "explanation": "Lu diz: \"No, no tengo. Perdona, ¿dónde está el aceite de oliva?\" = \"Não, não tenho. Desculpa, onde fica o azeite?\"."
     },
     {
       "type": "choice",
@@ -188,18 +177,6 @@
       ],
       "correct": 0,
       "explanation": "\"Tarjeta de socio\" = cartão fidelidade do mercado."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Quiero un kilo ___ tomates.",
-      "options": [
-        "de",
-        "con",
-        "en"
-      ],
-      "correct": 0,
-      "explanation": "Quantidades com \"de\": un kilo de tomates, un litro de leche."
     },
     {
       "type": "boss",

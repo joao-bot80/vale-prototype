@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la aceituna",
+          "pt": "a azeitona",
+          "emoji": "🫒"
+        },
+        {
+          "es": "el ajo",
+          "pt": "o alho",
+          "emoji": "🧄"
+        },
+        {
+          "es": "el pimiento",
+          "pt": "o pimentão",
+          "emoji": "🫑"
+        },
+        {
+          "es": "el tenedor",
+          "pt": "o garfo",
+          "emoji": "🍴"
+        },
+        {
+          "es": "la cuchara",
+          "pt": "a colher",
+          "emoji": "🥄"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "Qual é a diferença entre \"tapa\" e \"ración\"?",
@@ -84,71 +115,29 @@
       "explanation": "\"Pescaíto\" é \"pescadito\" (peixinho) do jeito andaluz de falar."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "pimentón",
-          "kind": "armadilha",
-          "meaning": "páprica",
-          "tip": "Pimentón = páprica. Em PT-BR, pimentão é \"pimiento\"."
+          "speaker": "Lu",
+          "es": "Dos cervezas y la carta de tapas, por favor.",
+          "pt": "Duas cervejas e o cardápio de tapas, por favor."
         },
         {
-          "es": "pimiento",
-          "kind": "quase",
-          "meaning": "pimentão",
-          "tip": "Pimiento = pimentão. Pimenta é \"pimienta\"."
-        },
-        {
-          "es": "gamba",
-          "kind": "armadilha",
-          "meaning": "camarão",
-          "tip": "Gamba = camarão, não o bicho."
-        },
-        {
-          "es": "ajo",
-          "kind": "quase",
-          "meaning": "alho",
-          "tip": "\"J\" no lugar de \"lh\"."
-        },
-        {
-          "es": "atún",
-          "kind": "quase",
-          "meaning": "atum",
-          "tip": "Atún = atum."
-        },
-        {
-          "es": "calamar",
-          "kind": "quase",
-          "meaning": "lula (anéis de lula)",
-          "tip": "Calamar = lula; no Brasil, \"calamares\" são os anéis empanados."
-        },
-        {
-          "es": "aceituna",
-          "kind": "quase",
-          "meaning": "azeitona",
-          "tip": "Lembra \"azeitona\"."
-        },
-        {
-          "es": "embutido",
-          "kind": "quase",
-          "meaning": "embutido / frios",
-          "tip": "Chorizo, salchichón, lomo..."
-        },
-        {
-          "es": "cubierto",
-          "kind": "armadilha",
-          "meaning": "talher",
-          "tip": "Cubierto = talher. Em PT-BR, coberto é o que tem tampa/teto."
-        },
-        {
-          "es": "brasa",
-          "kind": "igual",
-          "meaning": "brasa",
-          "tip": "Igualzinho!"
+          "speaker": "Camarero",
+          "es": "Hoy tenemos salmorejo y pescaíto frito.",
+          "pt": "Hoje temos salmorejo e peixinho frito."
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Então uma tapa de salmorejo e uma porção de peixinho.",
+      "options": [
+        "Vale, unas aceitunas también. ¡Gracias!",
+        "¿Algo más? ¿Unas aceitunas?",
+        "Pues una tapa de salmorejo y una ración de pescaíto."
+      ],
+      "correct": 2,
+      "explanation": "Lu diz: \"Pues una tapa de salmorejo y una ración de pescaíto.\" = \"Então uma tapa de salmorejo e uma porção de peixinho.\"."
     },
     {
       "type": "choice",
@@ -190,18 +179,6 @@
       ],
       "correct": 0,
       "explanation": "Preste atenção em qual é \"tapa\" e qual é \"ración\"."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Dos ___ y la carta, por favor.\"",
-      "options": [
-        "cervezas",
-        "cerveza",
-        "cervejas"
-      ],
-      "correct": 0,
-      "explanation": "Plural em espanhol: cerveza → cervezas."
     },
     {
       "type": "boss",

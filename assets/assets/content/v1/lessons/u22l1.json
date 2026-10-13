@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el casero",
+          "pt": "o proprietário / senhorio",
+          "emoji": "🏠"
+        },
+        {
+          "es": "el inquilino",
+          "pt": "o inquilino",
+          "emoji": "🧑"
+        },
+        {
+          "es": "el alquiler",
+          "pt": "o aluguel",
+          "emoji": "💶"
+        },
+        {
+          "es": "la fianza",
+          "pt": "o caução",
+          "emoji": "💰"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "Quem paga a comissão da imobiliária no aluguel de moradia (contratos desde 2023)?",
@@ -82,71 +108,29 @@
       "explanation": "Vale para contratos de moradia habitual firmados desde 26/05/2023."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "arrendador",
-          "kind": "quase",
-          "meaning": "locador",
-          "tip": "Quem aluga o imóvel."
+          "speaker": "Lu",
+          "es": "¿Y los honorarios de la agencia? ¿Los pago yo?",
+          "pt": "E a comissão da imobiliária? Eu pago?"
         },
         {
-          "es": "arrendatario",
-          "kind": "quase",
-          "meaning": "locatário / inquilino",
-          "tip": "Quem mora."
-        },
-        {
-          "es": "honorarios",
-          "kind": "quase",
-          "meaning": "honorários / comissão",
-          "tip": "Honorarios de agencia."
-        },
-        {
-          "es": "renovar",
-          "kind": "igual",
-          "meaning": "renovar",
-          "tip": "Igual!"
-        },
-        {
-          "es": "prórroga",
-          "kind": "quase",
-          "meaning": "prorrogação",
-          "tip": "Prórroga = prorrogação."
-        },
-        {
-          "es": "aval",
-          "kind": "quase",
-          "meaning": "fiador / garantia",
-          "tip": "Aval bancario."
-        },
-        {
-          "es": "inventario",
-          "kind": "quase",
-          "meaning": "inventário",
-          "tip": "Lista dos móveis."
-        },
-        {
-          "es": "propietario",
-          "kind": "quase",
-          "meaning": "proprietário",
-          "tip": "Propietario = proprietário."
-        },
-        {
-          "es": "rescindir",
-          "kind": "quase",
-          "meaning": "rescindir",
-          "tip": "Romper o contrato."
-        },
-        {
-          "es": "billón",
-          "kind": "armadilha",
-          "meaning": "trilhão",
-          "tip": "Un billón = um trilhão (10¹²). Um bilhão é \"mil millones\"."
+          "speaker": "Agente",
+          "es": "No, en alquiler de vivienda los paga el propietario.",
+          "pt": "Não, no aluguel de moradia quem paga é o proprietário."
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Quanto dura o contrato?",
+      "options": [
+        "Perfecto. Quiero leer bien las cláusulas antes de firmar.",
+        "Un año, pero puedes renovarlo cada año hasta cinco años.",
+        "¿Cuánto dura el contrato?"
+      ],
+      "correct": 2,
+      "explanation": "Lu diz: \"¿Cuánto dura el contrato?\" = \"Quanto dura o contrato?\"."
     },
     {
       "type": "choice",
@@ -190,18 +174,6 @@
       ],
       "correct": 0,
       "explanation": "Com proprietário pessoa física, prorrogação obrigatória até 5 anos (7 se for empresa)."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Hay que avisar con 30 días de ___.\" (aviso prévio)",
-      "options": [
-        "preaviso",
-        "preavisión",
-        "prévio"
-      ],
-      "correct": 0,
-      "explanation": "Preaviso = aviso prévio."
     },
     {
       "type": "boss",

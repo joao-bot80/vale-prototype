@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la guitarra",
+          "pt": "o violão",
+          "emoji": "🎸"
+        },
+        {
+          "es": "el cante",
+          "pt": "o canto",
+          "emoji": "🎤"
+        },
+        {
+          "es": "las palmas",
+          "pt": "as palmas",
+          "emoji": "👏"
+        },
+        {
+          "es": "el tablao",
+          "pt": "a casa de flamenco",
+          "emoji": "💃"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"¡Qué ilusión!\" significa:",
@@ -83,71 +109,29 @@
       "explanation": "\"Escuchar\" = ouvir com atenção."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "ilusión",
-          "kind": "armadilha",
-          "meaning": "animação / expectativa",
-          "tip": "Ilusión = animação (\"me hace ilusión\" = estou animada). Em PT-BR, ilusão é engano."
+          "speaker": "Lu",
+          "es": "¡Qué ilusión! ¿Hay que llevar ropa especial?",
+          "pt": "Que animação! Precisa levar roupa especial?"
         },
         {
-          "es": "cante",
-          "kind": "quase",
-          "meaning": "canto (flamenco)",
-          "tip": "No flamenco: cante, toque, baile."
-        },
-        {
-          "es": "compás",
-          "kind": "quase",
-          "meaning": "ritmo / compasso",
-          "tip": "Compás = compasso / ritmo. No flamenco, o compás é tudo."
-        },
-        {
-          "es": "bailaora",
-          "kind": "quase",
-          "meaning": "bailarina de flamenco",
-          "tip": "Bailaor / bailaora."
-        },
-        {
-          "es": "tablao",
-          "kind": "quase",
-          "meaning": "casa de flamenco",
-          "tip": "De \"tablado\"."
-        },
-        {
-          "es": "zapateado",
-          "kind": "quase",
-          "meaning": "sapateado",
-          "tip": "Os pés marcando o ritmo."
-        },
-        {
-          "es": "gallina",
-          "kind": "quase",
-          "meaning": "galinha",
-          "tip": "Piel de gallina = arrepio."
-        },
-        {
-          "es": "respeto",
-          "kind": "quase",
-          "meaning": "respeito",
-          "tip": "Sem o \"i\"."
-        },
-        {
-          "es": "gritar",
-          "kind": "igual",
-          "meaning": "gritar",
-          "tip": "Igual!"
-        },
-        {
-          "es": "vello",
-          "kind": "armadilha",
-          "meaning": "pelo do corpo",
-          "tip": "Vello = pelinho do corpo. Velho é \"viejo\"."
+          "speaker": "Dani",
+          "es": "No, ropa normal. Solo hay que escuchar con respeto.",
+          "pt": "Não, roupa normal. Só precisa ouvir com respeito."
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Posso gritar «olé»?",
+      "options": [
+        "Me ha encantado el cante. ¡Se me ha puesto la piel de gallina!",
+        "Sí, pero en el momento justo. Mira lo que hace la gente.",
+        "¿Puedo gritar «¡olé!»?"
+      ],
+      "correct": 2,
+      "explanation": "Lu diz: \"¿Puedo gritar «¡olé!»?\" = \"Posso gritar «olé»?\"."
     },
     {
       "type": "choice",
@@ -190,18 +174,6 @@
       ],
       "correct": 0,
       "explanation": "\"Justo\" aqui = exato, certo."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"¡Me hace mucha ___ el viaje!\" (estou muito animada)",
-      "options": [
-        "ilusión",
-        "alusión",
-        "ilusionada"
-      ],
-      "correct": 0,
-      "explanation": "\"Me hace ilusión\" = estou animada com isso."
     },
     {
       "type": "boss",

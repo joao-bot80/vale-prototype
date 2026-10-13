@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la arena",
+          "pt": "a areia",
+          "emoji": "🏖️"
+        },
+        {
+          "es": "el bañador",
+          "pt": "o maiô / a sunga",
+          "emoji": "🩱"
+        },
+        {
+          "es": "la gorra",
+          "pt": "o boné",
+          "emoji": "🧢"
+        },
+        {
+          "es": "las gafas de sol",
+          "pt": "os óculos de sol",
+          "emoji": "🕶️"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Carterista\" é:",
@@ -82,71 +108,29 @@
       "explanation": "\"Móvil\" = celular."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "móvil",
-          "kind": "armadilha",
-          "meaning": "celular",
-          "tip": "Móvil = celular. Móvel (de casa) é \"mueble\"."
+          "speaker": "Marta",
+          "es": "Sí, pero cuidado con el móvil. Hay carteristas.",
+          "pt": "Sim, mas cuidado com o celular. Tem batedores de carteira."
         },
         {
-          "es": "mochila",
-          "kind": "igual",
-          "meaning": "mochila",
-          "tip": "Igualzinho!"
-        },
-        {
-          "es": "carterista",
-          "kind": "armadilha",
-          "meaning": "batedor de carteira",
-          "tip": "Carteiro = \"cartero\"."
-        },
-        {
-          "es": "bañarse",
-          "kind": "quase",
-          "meaning": "entrar na água / tomar banho",
-          "tip": "Bañarse = banhar-se; na praia, entrar na água."
-        },
-        {
-          "es": "bolso",
-          "kind": "armadilha",
-          "meaning": "bolsa (de mão)",
-          "tip": "Bolso = bolsa de mão. Bolso (da roupa) é \"bolsillo\"."
-        },
-        {
-          "es": "gorra",
-          "kind": "quase",
-          "meaning": "boné",
-          "tip": "Gorro = touca de frio."
-        },
-        {
-          "es": "protector solar",
-          "kind": "quase",
-          "meaning": "protetor solar",
-          "tip": "Protector = protetor."
-        },
-        {
-          "es": "socorrista",
-          "kind": "quase",
-          "meaning": "salva-vidas",
-          "tip": "Na praia, procure a bandeira e o socorrista."
-        },
-        {
-          "es": "medusa",
-          "kind": "igual",
-          "meaning": "água-viva",
-          "tip": "Medusa = água-viva!"
-        },
-        {
-          "es": "bandera",
-          "kind": "quase",
-          "meaning": "bandeira",
-          "tip": "Bandera roja = proibido nadar."
+          "speaker": "Lu",
+          "es": "Vale, lo guardo en la mochila. ¿Nos bañamos?",
+          "pt": "Beleza, guardo na mochila. Vamos entrar na água?"
         }
-      ]
+      ],
+      "speaker": "Marta",
+      "pt": "Bora! Embora a água esteja um pouco fria.",
+      "options": [
+        "Después podemos comer arroz en el paseo.",
+        "¡Venga! Aunque el agua está un poco fría.",
+        "Buena idea. Hay muchos restaurantes con terraza."
+      ],
+      "correct": 1,
+      "explanation": "Marta diz: \"¡Venga! Aunque el agua está un poco fría.\" = \"Bora! Embora a água esteja um pouco fria.\"."
     },
     {
       "type": "choice",
@@ -189,18 +173,6 @@
       ],
       "correct": 0,
       "explanation": "\"Aunque\" = embora, ainda que."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Hay bandera ___. No te bañes.\" (vermelha)",
-      "options": [
-        "roja",
-        "rosa",
-        "vermella"
-      ],
-      "correct": 0,
-      "explanation": "\"Roja\" = vermelha. \"Vermella\" é catalão."
     },
     {
       "type": "boss",

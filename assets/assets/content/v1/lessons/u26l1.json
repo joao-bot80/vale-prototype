@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el espeto",
+          "pt": "o espeto",
+          "emoji": "🍢"
+        },
+        {
+          "es": "la sardina",
+          "pt": "a sardinha",
+          "emoji": "🐟"
+        },
+        {
+          "es": "el chiringuito",
+          "pt": "a barraca de praia",
+          "emoji": "⛱️"
+        },
+        {
+          "es": "la caña de pescar",
+          "pt": "a vara de pescar",
+          "emoji": "🎣"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Marchando\" na boca do garçom significa:",
@@ -83,71 +109,29 @@
       "explanation": "Assadas em barquinhos com areia, na lenha."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "espeto",
-          "kind": "quase",
-          "meaning": "espeto de sardinhas",
-          "tip": "Típico de Málaga."
+          "speaker": "Lu",
+          "es": "¿Las asan en esa barca llena de arena?",
+          "pt": "Elas assam naquele barco cheio de areia?"
         },
         {
-          "es": "sardina",
-          "kind": "quase",
-          "meaning": "sardinha",
-          "tip": "Com i."
-        },
-        {
-          "es": "sal",
-          "kind": "igual",
-          "meaning": "sal",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "boquerón",
-          "kind": "armadilha",
-          "meaning": "anchova fresca",
-          "tip": "Não é bocão!"
-        },
-        {
-          "es": "fritura",
-          "kind": "igual",
-          "meaning": "fritura",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "salitre",
-          "kind": "armadilha",
-          "meaning": "maresia",
-          "tip": "Salitre = maresia. Em PT-BR, salitre é o nitrato (adubo, pólvora)."
-        },
-        {
-          "es": "espina",
-          "kind": "quase",
-          "meaning": "espinha (de peixe)",
-          "tip": "Espina = espinha de peixe, e também espinho."
-        },
-        {
-          "es": "marchando",
-          "kind": "armadilha",
-          "meaning": "saindo! (pedido)",
-          "tip": "Gíria de garçom."
-        },
-        {
-          "es": "orilla del mar",
-          "kind": "quase",
-          "meaning": "beira-mar",
-          "tip": "Pasear por la orilla."
-        },
-        {
-          "es": "luna",
-          "kind": "quase",
-          "meaning": "lua",
-          "tip": "Luna = lua."
+          "speaker": "Dani",
+          "es": "Sí, con leña, junto al mar. Se comen con las manos.",
+          "pt": "Sim, com lenha, junto ao mar. Se come com as mãos."
         }
-      ]
+      ],
+      "speaker": "Camarero",
+      "pt": "O que vai ser?",
+      "options": [
+        "Un espeto, una ensalada malagueña y dos botellines.",
+        "¿Qué os pongo?",
+        "Marchando. ¿Os pongo también unos boquerones?"
+      ],
+      "correct": 1,
+      "explanation": "Camarero diz: \"¿Qué os pongo?\" = \"O que vai ser?\"."
     },
     {
       "type": "choice",
@@ -188,18 +172,6 @@
       ],
       "correct": 0,
       "explanation": "Boquerones fritos ou en vinagre: clássicos de Málaga."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Hay mucha ___ en la toalla.\" (areia)",
-      "options": [
-        "arena",
-        "areia",
-        "tierra"
-      ],
-      "correct": 0,
-      "explanation": "Arena = areia."
     },
     {
       "type": "boss",

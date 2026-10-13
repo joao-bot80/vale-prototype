@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la fresa",
+          "pt": "o morango",
+          "emoji": "🍓"
+        },
+        {
+          "es": "el plátano",
+          "pt": "a banana",
+          "emoji": "🍌"
+        },
+        {
+          "es": "la piña",
+          "pt": "o abacaxi",
+          "emoji": "🍍"
+        },
+        {
+          "es": "el melocotón",
+          "pt": "o pêssego",
+          "emoji": "🍑"
+        },
+        {
+          "es": "la sandía",
+          "pt": "a melancia",
+          "emoji": "🍉"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Guapa\" significa:",
@@ -86,25 +117,13 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "uva",
           "kind": "igual",
           "meaning": "uva",
           "tip": "Igualzinho!"
-        },
-        {
-          "es": "kiwi",
-          "kind": "igual",
-          "meaning": "kiwi",
-          "tip": "Mesma palavra."
-        },
-        {
-          "es": "coco",
-          "kind": "igual",
-          "meaning": "coco",
-          "tip": "Igual!"
         },
         {
           "es": "mango",
@@ -125,42 +144,37 @@
           "tip": "Começa com \"n\"."
         },
         {
-          "es": "berenjena",
-          "kind": "quase",
-          "meaning": "berinjela",
-          "tip": "Quase igual."
-        },
-        {
           "es": "plátano",
           "kind": "armadilha",
           "meaning": "banana",
           "tip": "Plátano = banana. Em PT-BR, plátano é uma árvore de praça."
-        },
-        {
-          "es": "piña",
-          "kind": "armadilha",
-          "meaning": "abacaxi",
-          "tip": "Piña = abacaxi. Em PT-BR, pinha é a fruta-do-conde ou a do pinheiro."
-        },
-        {
-          "es": "seta",
-          "kind": "armadilha",
-          "meaning": "cogumelo",
-          "tip": "A seta (flecha) é \"flecha\"."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"¿Cuánto es?\" serve para:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "Medio kilo de fresas y dos aguacates, por favor.",
+          "pt": "Meio quilo de morangos e dois abacates, por favor."
+        },
+        {
+          "speaker": "Vendedora",
+          "es": "¿Los aguacates para hoy o para mañana?",
+          "pt": "Os abacates são pra hoje ou pra amanhã?"
+        }
+      ],
+      "speaker": "Lu",
+      "pt": "Pra hoje, que vou fazer guacamole.",
       "options": [
-        "Perguntar o total a pagar",
-        "Perguntar a hora",
-        "Perguntar o peso"
+        "Para hoy, que voy a hacer guacamole.",
+        "Nada más, gracias. ¿Cuánto es?",
+        "Aquí tienes. ¿Algo más?"
       ],
       "correct": 0,
-      "explanation": "\"¿Cuánto es?\" = quanto é (o total)? \"¿Cuánto cuesta?\" = quanto custa (um item)?"
+      "explanation": "Lu diz: \"Para hoy, que voy a hacer guacamole.\" = \"Pra hoje, que vou fazer guacamole.\"."
     },
     {
       "type": "build",
@@ -189,18 +203,6 @@
       ],
       "correct": 0,
       "explanation": "\"Nada más\" = só isso, mais nada."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Un ___ de jamón. (250 g)",
-      "options": [
-        "cuarto",
-        "cuatro",
-        "medio"
-      ],
-      "correct": 0,
-      "explanation": "\"Un cuarto\" = 1/4 kg = 250 g. \"Cuatro\" = 4."
     },
     {
       "type": "boss",

@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la catedral",
+          "pt": "a catedral",
+          "emoji": "⛪"
+        },
+        {
+          "es": "el incienso",
+          "pt": "o incenso",
+          "emoji": "💨"
+        },
+        {
+          "es": "la cuerda",
+          "pt": "a corda",
+          "emoji": "🪢"
+        },
+        {
+          "es": "la plaza",
+          "pt": "a praça",
+          "emoji": "⛲"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Tumbarse en el suelo\" significa:",
@@ -82,71 +108,29 @@
       "explanation": "Os homens que o movem são os \"tiraboleiros\"."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "incensario",
-          "kind": "quase",
-          "meaning": "incensário",
-          "tip": "De incienso."
+          "speaker": "Lino",
+          "es": "Es la plaza del Obradoiro, delante de la catedral.",
+          "pt": "É a praça do Obradoiro, em frente à catedral."
         },
         {
-          "es": "cuerda",
-          "kind": "quase",
-          "meaning": "corda",
-          "tip": "Ditongo ue."
-        },
-        {
-          "es": "suelo",
-          "kind": "armadilha",
-          "meaning": "chão",
-          "tip": "Suelo = chão. Em PT-BR, solo é terra/solo agrícola ou solo musical."
-        },
-        {
-          "es": "misa",
-          "kind": "quase",
-          "meaning": "missa",
-          "tip": "Com um s."
-        },
-        {
-          "es": "órgano",
-          "kind": "quase",
-          "meaning": "órgão",
-          "tip": "Órgano = órgão."
-        },
-        {
-          "es": "fachada barroca",
-          "kind": "quase",
-          "meaning": "fachada barroca",
-          "tip": "A do Obradoiro."
-        },
-        {
-          "es": "campana",
-          "kind": "armadilha",
-          "meaning": "sino",
-          "tip": "Campana = sino. Em PT-BR, campana é o exaustor do fogão."
-        },
-        {
-          "es": "piedra mojada",
-          "kind": "quase",
-          "meaning": "pedra molhada",
-          "tip": "Em Santiago, sempre!"
-        },
-        {
-          "es": "habitación",
-          "kind": "armadilha",
-          "meaning": "quarto",
-          "tip": "Habitación = quarto. Habitação (moradia) é \"vivienda\"."
-        },
-        {
-          "es": "cripta",
-          "kind": "igual",
-          "meaning": "cripta",
-          "tip": "Igual!"
+          "speaker": "Lu",
+          "es": "¿Es verdad que hay un incensario gigante que vuela?",
+          "pt": "É verdade que tem um incensário gigante que voa?"
         }
-      ]
+      ],
+      "speaker": "Lino",
+      "pt": "Sim, o botafumeiro. Oito homens o movem com uma corda.",
+      "options": [
+        "En algunas misas y fiestas. Mira el calendario de la catedral.",
+        "¿Cuándo se puede ver?",
+        "Sí, el botafumeiro. Lo mueven entre ocho hombres con una cuerda."
+      ],
+      "correct": 2,
+      "explanation": "Lino diz: \"Sí, el botafumeiro. Lo mueven entre ocho hombres con una cuerda.\" = \"Sim, o botafumeiro. Oito homens o movem com uma corda.\"."
     },
     {
       "type": "choice",
@@ -187,18 +171,6 @@
       ],
       "correct": 0,
       "explanation": "Os dias mudam: confira o calendário oficial."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Suenan las ___ de la catedral.\" (sinos)",
-      "options": [
-        "campanas",
-        "campañas",
-        "sinos"
-      ],
-      "correct": 0,
-      "explanation": "Campana = sino."
     },
     {
       "type": "boss",

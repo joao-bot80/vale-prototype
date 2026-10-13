@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "Hacienda",
+          "pt": "a Receita",
+          "emoji": "🏛️"
+        },
+        {
+          "es": "el borrador",
+          "pt": "o rascunho",
+          "emoji": "📝"
+        },
+        {
+          "es": "la devolución",
+          "pt": "a restituição",
+          "emoji": "💸"
+        },
+        {
+          "es": "el plazo",
+          "pt": "o prazo",
+          "emoji": "⏳"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Me devuelven dinero\" significa:",
@@ -83,71 +109,29 @@
       "explanation": "\"Borrador\" = rascunho que a Agencia Tributaria prepara."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "formulario",
-          "kind": "quase",
-          "meaning": "formulário",
-          "tip": "Formulario = formulário."
+          "speaker": "Gestora",
+          "es": "Depende. Con un solo pagador, si ganas menos de veintidós mil euros, en general no estás obligada.",
+          "pt": "Depende. Com uma só fonte pagadora, se ganha menos de vinte e dois mil euros, em geral não é obrigada."
         },
         {
-          "es": "declaración",
-          "kind": "quase",
-          "meaning": "declaração",
-          "tip": "Igual."
-        },
-        {
-          "es": "casilla",
-          "kind": "armadilha",
-          "meaning": "campo do formulário",
-          "tip": "Casilla = quadradinho/campo. Em PT-BR, casinha é casa pequena."
-        },
-        {
-          "es": "pagador",
-          "kind": "quase",
-          "meaning": "fonte pagadora",
-          "tip": "Un solo pagador."
-        },
-        {
-          "es": "devolución",
-          "kind": "quase",
-          "meaning": "restituição",
-          "tip": "Sale a devolver."
-        },
-        {
-          "es": "documentación",
-          "kind": "quase",
-          "meaning": "documentação",
-          "tip": "-ción = -ção."
-        },
-        {
-          "es": "deducir",
-          "kind": "quase",
-          "meaning": "deduzir",
-          "tip": "Gastos deducibles."
-        },
-        {
-          "es": "ejercicio",
-          "kind": "armadilha",
-          "meaning": "ano fiscal",
-          "tip": "Ejercicio (fiscal) = ano fiscal. Em PT-BR, exercício é atividade física ou de escola."
-        },
-        {
-          "es": "domiciliar",
-          "kind": "armadilha",
-          "meaning": "débito automático",
-          "tip": "Domiciliar = pôr em débito automático. Em PT-BR, domiciliar é \"em casa\" (prisão domiciliar)."
-        },
-        {
-          "es": "estafa",
-          "kind": "armadilha",
-          "meaning": "golpe, fraude",
-          "tip": "Estafa = golpe/fraude. Estafa (cansaço) é \"agotamiento\"."
+          "speaker": "Lu",
+          "es": "Pero quizás me devuelven dinero, ¿no?",
+          "pt": "Mas talvez me devolvam dinheiro, né?"
         }
-      ]
+      ],
+      "speaker": "Gestora",
+      "pt": "Exato. Por isso convém revisar o rascunho no Renta WEB.",
+      "options": [
+        "Normalmente de abril a finales de junio. Este año, hasta el treinta de junio.",
+        "¿Hasta cuándo hay plazo?",
+        "Exacto. Por eso conviene revisar el borrador en Renta WEB."
+      ],
+      "correct": 2,
+      "explanation": "Gestora diz: \"Exacto. Por eso conviene revisar el borrador en Renta WEB.\" = \"Exato. Por isso convém revisar o rascunho no Renta WEB.\"."
     },
     {
       "type": "choice",
@@ -189,18 +173,6 @@
       ],
       "correct": 0,
       "explanation": "Campanha da Renta 2025: de 8 de abril a 30 de junho de 2026."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Mi declaración sale a ___.\" (tenho restituição)",
-      "options": [
-        "devolver",
-        "devolución",
-        "devuelto"
-      ],
-      "correct": 0,
-      "explanation": "\"Sale a devolver\" = Hacienda te devolve dinheiro."
     },
     {
       "type": "boss",

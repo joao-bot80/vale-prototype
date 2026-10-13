@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el calçot",
+          "pt": "o calçot (cebolinha catalã)",
+          "emoji": "🧅"
+        },
+        {
+          "es": "la salsa romesco",
+          "pt": "o molho romesco",
+          "emoji": "🥣"
+        },
+        {
+          "es": "el babero",
+          "pt": "o babador",
+          "emoji": "🧒"
+        },
+        {
+          "es": "las brasas",
+          "pt": "as brasas",
+          "emoji": "🔥"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"El babero\" é:",
@@ -83,7 +109,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "babero",
@@ -104,24 +130,6 @@
           "tip": "Parrilla = grelha; no Brasil também se diz parrilla."
         },
         {
-          "es": "manchar",
-          "kind": "quase",
-          "meaning": "manchar / sujar",
-          "tip": "Mancha = mancha."
-        },
-        {
-          "es": "almendra",
-          "kind": "quase",
-          "meaning": "amêndoa",
-          "tip": "Almendrado."
-        },
-        {
-          "es": "carbón",
-          "kind": "quase",
-          "meaning": "carvão",
-          "tip": "Carbón = carvão."
-        },
-        {
           "es": "comida",
           "kind": "igual",
           "meaning": "comida",
@@ -132,32 +140,33 @@
           "kind": "armadilha",
           "meaning": "pãozinho doce",
           "tip": "Bollo = pãozinho doce (bollería = doces de padaria). Bolo é \"tarta\" ou \"bizcocho\"."
-        },
-        {
-          "es": "salchicha",
-          "kind": "quase",
-          "meaning": "salsicha",
-          "tip": "Salchicha = salsicha."
-        },
-        {
-          "es": "divertido",
-          "kind": "igual",
-          "meaning": "divertido",
-          "tip": "Igual!"
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Perejil\" é:",
-      "options": [
-        "Salsinha",
-        "Pimenta",
-        "Coentro"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "¿Son cebollas?",
+          "pt": "São cebolas?"
+        },
+        {
+          "speaker": "Marta",
+          "es": "Una especie de cebolla tierna, asada a la brasa. Se pelan con la mano.",
+          "pt": "Uma espécie de cebola tenra, assada na brasa. Se descascam com a mão."
+        }
       ],
-      "correct": 0,
-      "explanation": "Salsa = molho; perejil = salsinha."
+      "speaker": "Lu",
+      "pt": "E esse molho laranja?",
+      "options": [
+        "Se come levantando la cabeza... ¡Qué divertido!",
+        "Es salsa romesco: tomate, ñoras, almendras, ajo y aceite.",
+        "¿Y esta salsa naranja?"
+      ],
+      "correct": 2,
+      "explanation": "Lu diz: \"¿Y esta salsa naranja?\" = \"E esse molho laranja?\"."
     },
     {
       "type": "build",
@@ -188,18 +197,6 @@
       ],
       "correct": 0,
       "explanation": "Asado a la brasa = na brasa."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Pon un poco de ___ picado.\" (salsinha)",
-      "options": [
-        "perejil",
-        "salsa",
-        "cilantro"
-      ],
-      "correct": 0,
-      "explanation": "Perejil = salsinha. Cilantro = coentro."
     },
     {
       "type": "boss",

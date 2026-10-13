@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el contrato",
+          "pt": "o contrato",
+          "emoji": "📄"
+        },
+        {
+          "es": "firmar",
+          "pt": "assinar",
+          "emoji": "✍️"
+        },
+        {
+          "es": "el bolígrafo",
+          "pt": "a caneta",
+          "emoji": "🖊️"
+        },
+        {
+          "es": "el despido",
+          "pt": "a demissão",
+          "emoji": "📤"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Contrato indefinido\" é:",
@@ -82,71 +108,29 @@
       "explanation": "Na Espanha, as pagas extra podem vir à parte ou divididas (prorrateadas) nos 12 meses."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "cláusula",
-          "kind": "quase",
-          "meaning": "cláusula",
-          "tip": "Igual!"
+          "speaker": "Lu",
+          "es": "¿Hay periodo de prueba?",
+          "pt": "Tem período de experiência?"
         },
         {
-          "es": "firmar",
-          "kind": "armadilha",
-          "meaning": "assinar",
-          "tip": "Firmar = assinar. Em PT-BR, firmar é fixar, estabilizar (\"afianzar\")."
-        },
-        {
-          "es": "indefinido",
-          "kind": "armadilha",
-          "meaning": "por tempo indeterminado",
-          "tip": "Contrato indefinido = efetivo. Em PT-BR, indefinido é vago, não decidido."
-        },
-        {
-          "es": "temporal",
-          "kind": "quase",
-          "meaning": "temporário",
-          "tip": "Temporal = temporário (e também tempestade, como em PT)."
-        },
-        {
-          "es": "prorratear",
-          "kind": "quase",
-          "meaning": "ratear / dividir",
-          "tip": "Pagas prorrateadas."
-        },
-        {
-          "es": "paga extra",
-          "kind": "quase",
-          "meaning": "pagamento extra",
-          "tip": "Parecido com o 13º."
-        },
-        {
-          "es": "despido",
-          "kind": "armadilha",
-          "meaning": "demissão",
-          "tip": "Não é despido (sem roupa)!"
-        },
-        {
-          "es": "indemnización",
-          "kind": "quase",
-          "meaning": "indenização",
-          "tip": "-ción = -ção."
-        },
-        {
-          "es": "convenio",
-          "kind": "armadilha",
-          "meaning": "convenção coletiva",
-          "tip": "Convenio = convenção coletiva. Em PT-BR, convênio é o plano de saúde."
-        },
-        {
-          "es": "baja voluntaria",
-          "kind": "armadilha",
-          "meaning": "pedido de demissão",
-          "tip": "Baja voluntaria = pedir demissão. Em PT-BR, baixa voluntária soa como queda espontânea."
+          "speaker": "Técnico",
+          "es": "Sí, de dos meses. Está en la cláusula cinco.",
+          "pt": "Sim, de dois meses. Está na cláusula cinco."
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Os pagamentos extras estão divididos nos meses?",
+      "options": [
+        "¿Las pagas extra están prorrateadas?",
+        "Vale. Lo leo con calma y lo firmo mañana.",
+        "No, cobras catorce pagas: doce mensuales y dos extra, en junio y diciembre."
+      ],
+      "correct": 0,
+      "explanation": "Lu diz: \"¿Las pagas extra están prorrateadas?\" = \"Os pagamentos extras estão divididos nos meses?\"."
     },
     {
       "type": "choice",
@@ -192,18 +176,6 @@
       ],
       "correct": 0,
       "explanation": "A duração máxima depende do convênio e do tipo de cargo."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Firma aquí, por favor. Necesito tu ___.\" (assinatura)",
-      "options": [
-        "firma",
-        "asinatura",
-        "asignatura"
-      ],
-      "correct": 0,
-      "explanation": "\"Firma\" = assinatura. Cuidado: \"asignatura\" é matéria escolar!"
     },
     {
       "type": "boss",

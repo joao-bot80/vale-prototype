@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la maleta",
+          "pt": "a mala",
+          "emoji": "🧳"
+        },
+        {
+          "es": "el aeropuerto",
+          "pt": "o aeroporto",
+          "emoji": "🛫"
+        },
+        {
+          "es": "la tarjeta de embarque",
+          "pt": "o cartão de embarque",
+          "emoji": "🎫"
+        },
+        {
+          "es": "adiós",
+          "pt": "tchau",
+          "emoji": "👋"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Cuando vuelvas\" significa:",
@@ -83,7 +109,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "aeropuerto",
@@ -96,12 +122,6 @@
           "kind": "quase",
           "meaning": "despedir-se",
           "tip": "Despedirse = despedir-se. Mas \"despedir a alguien\" = demitir."
-        },
-        {
-          "es": "adiós",
-          "kind": "quase",
-          "meaning": "adeus / tchau",
-          "tip": "Muito comum."
         },
         {
           "es": "hasta pronto",
@@ -120,44 +140,33 @@
           "kind": "igual",
           "meaning": "continuar",
           "tip": "Seguir = seguir / continuar. \"Sigue recto\" = siga reto."
-        },
-        {
-          "es": "familia",
-          "kind": "quase",
-          "meaning": "família",
-          "tip": "Sem acento."
-        },
-        {
-          "es": "abrazo",
-          "kind": "quase",
-          "meaning": "abraço",
-          "tip": "Un abrazo fuerte."
-        },
-        {
-          "es": "septiembre",
-          "kind": "quase",
-          "meaning": "setembro",
-          "tip": "Com p."
-        },
-        {
-          "es": "puerta de embarque",
-          "kind": "quase",
-          "meaning": "portão de embarque",
-          "tip": "Puerta B12."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Vuelvo a empezar\" significa:",
-      "options": [
-        "Começo de novo",
-        "Volto a parar",
-        "Começo a voltar"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "Sí, dos semanas. Voy a ver a mi familia y vuelvo en septiembre.",
+          "pt": "Sim, duas semanas. Vou ver minha família e volto em setembro."
+        },
+        {
+          "speaker": "Lino",
+          "es": "¿Y qué vas a hacer cuando vuelvas?",
+          "pt": "E o que você vai fazer quando voltar?"
+        }
       ],
-      "correct": 0,
-      "explanation": "Volver a + infinitivo = fazer de novo."
+      "speaker": "Lu",
+      "pt": "Continuar aprendendo: Galícia, País Basco, Canárias... A Espanha é enorme!",
+      "options": [
+        "Entonces no es un adiós.",
+        "Seguir aprendiendo: Galicia, el País Vasco, Canarias... ¡España es enorme!",
+        "¡Claro que no! ¡Hasta pronto, Lino!"
+      ],
+      "correct": 1,
+      "explanation": "Lu diz: \"Seguir aprendiendo: Galicia, el País Vasco, Canarias... ¡España es enorme!\" = \"Continuar aprendendo: Galícia, País Basco, Canárias... A Espanha é enorme!\"."
     },
     {
       "type": "build",
@@ -186,18 +195,6 @@
       ],
       "correct": 0,
       "explanation": "Ir a + infinitivo = futuro próximo."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Sigue ___ hasta la puerta de embarque.\" (reto)",
-      "options": [
-        "recto",
-        "reto",
-        "direito"
-      ],
-      "correct": 0,
-      "explanation": "\"Todo recto\" = sempre reto. \"Direito\" é português."
     },
     {
       "type": "boss",

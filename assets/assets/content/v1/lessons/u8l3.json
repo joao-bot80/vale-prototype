@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el fuego",
+          "pt": "o fogo",
+          "emoji": "🔥"
+        },
+        {
+          "es": "los petardos",
+          "pt": "as bombinhas",
+          "emoji": "🧨"
+        },
+        {
+          "es": "el humo",
+          "pt": "a fumaça",
+          "emoji": "💨"
+        },
+        {
+          "es": "la falla",
+          "pt": "o monumento da falla",
+          "emoji": "🗿"
+        },
+        {
+          "es": "marzo",
+          "pt": "março",
+          "emoji": "🗓️"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Ruido\" significa:",
@@ -86,7 +117,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "fuego",
@@ -107,12 +138,6 @@
           "tip": "Petardo também existe em português."
         },
         {
-          "es": "ruido",
-          "kind": "quase",
-          "meaning": "barulho",
-          "tip": "Ruido = ruído, barulho."
-        },
-        {
           "es": "morro",
           "kind": "armadilha",
           "meaning": "focinho; cara de pau",
@@ -123,44 +148,33 @@
           "kind": "igual",
           "meaning": "gigante",
           "tip": "Igualzinho!"
-        },
-        {
-          "es": "quemar",
-          "kind": "quase",
-          "meaning": "queimar",
-          "tip": "Quase igual."
-        },
-        {
-          "es": "bomberos",
-          "kind": "quase",
-          "meaning": "bombeiros",
-          "tip": "Quase igual."
-        },
-        {
-          "es": "marzo",
-          "kind": "quase",
-          "meaning": "março",
-          "tip": "Com z."
-        },
-        {
-          "es": "ofrenda",
-          "kind": "quase",
-          "meaning": "oferenda",
-          "tip": "As falleras levam flores à Virgem."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "O que acontece na \"cremà\"?",
-      "options": [
-        "Queimam os monumentos das fallas",
-        "Começa a festa com flores",
-        "Há uma corrida de bicicletas"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lino",
+          "es": "Es la mascletà. Son petardos a las dos de la tarde.",
+          "pt": "É a mascletà. São bombinhas às duas da tarde."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y esas figuras gigantes de cartón?",
+          "pt": "E essas figuras gigantes de papelão?"
+        }
       ],
-      "correct": 0,
-      "explanation": "La cremà é a noite final: os monumentos são queimados."
+      "speaker": "Lino",
+      "pt": "São os ninots da falla. No último dia eles são queimados.",
+      "options": [
+        "¿Los queman? ¡Pero son preciosos!",
+        "Son los ninots de la falla. El último día los queman.",
+        "Sí, es la cremà. Esa noche vamos a verla juntos."
+      ],
+      "correct": 1,
+      "explanation": "Lino diz: \"Son los ninots de la falla. El último día los queman.\" = \"São os ninots da falla. No último dia eles são queimados.\"."
     },
     {
       "type": "build",
@@ -191,18 +205,6 @@
       ],
       "correct": 0,
       "explanation": "Os \"ninots\" são as figuras. Um deles, escolhido por votação, é salvo do fogo."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"El último día los ___.\"",
-      "options": [
-        "queman",
-        "quemar",
-        "quemó"
-      ],
-      "correct": 0,
-      "explanation": "Ellos queman = eles queimam."
     },
     {
       "type": "boss",

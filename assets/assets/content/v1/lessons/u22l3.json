@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el móvil",
+          "pt": "o celular",
+          "emoji": "📱"
+        },
+        {
+          "es": "la tarifa",
+          "pt": "o plano",
+          "emoji": "📶"
+        },
+        {
+          "es": "el router",
+          "pt": "o roteador",
+          "emoji": "📡"
+        },
+        {
+          "es": "la funda",
+          "pt": "a capinha",
+          "emoji": "📱"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Permanencia\" num contrato de telefone é:",
@@ -80,71 +106,29 @@
       "explanation": "Darse de baja = cancelar."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "permanencia",
-          "kind": "armadilha",
-          "meaning": "fidelidade (contrato)",
-          "tip": "Permanencia = fidelidade de contrato. Em PT-BR, permanência é ficar num lugar."
+          "speaker": "Dependiente",
+          "es": "Tenemos fibra de seiscientos megas con línea móvil por treinta y cinco euros al mes.",
+          "pt": "Temos fibra de seiscentos megas com linha móvel por trinta e cinco euros por mês."
         },
         {
-          "es": "darse de baja",
-          "kind": "armadilha",
-          "meaning": "cancelar",
-          "tip": "Darse de baja = cancelar. Em PT-BR, dar baixa soa como queda ou registro de saída de estoque."
-        },
-        {
-          "es": "darse de alta",
-          "kind": "armadilha",
-          "meaning": "cadastrar-se / contratar",
-          "tip": "Darse de alta = contratar/cadastrar. Em PT-BR, dar alta é liberar do hospital."
-        },
-        {
-          "es": "penalización",
-          "kind": "quase",
-          "meaning": "multa contratual",
-          "tip": "Por romper a permanência."
-        },
-        {
-          "es": "portabilidad",
-          "kind": "quase",
-          "meaning": "portabilidade",
-          "tip": "Manter o número."
-        },
-        {
-          "es": "tarjeta SIM",
-          "kind": "armadilha",
-          "meaning": "chip",
-          "tip": "Tarjeta = cartão. Em PT-BR, tarja é uma faixa/listra."
-        },
-        {
-          "es": "cobertura",
-          "kind": "quase",
-          "meaning": "sinal",
-          "tip": "Cobertura = sinal / cobertura de rede (\"no tengo cobertura\"). Cobertura (apartamento) é \"ático\"."
-        },
-        {
-          "es": "router",
-          "kind": "quase",
-          "meaning": "roteador",
-          "tip": "Pronuncia-se \"rúter\"."
-        },
-        {
-          "es": "megas",
-          "kind": "quase",
-          "meaning": "mega (velocidade)",
-          "tip": "Fibra de 600 megas."
-        },
-        {
-          "es": "funda",
-          "kind": "armadilha",
-          "meaning": "capa (de celular, de notebook)",
-          "tip": "Funda = capa protetora. Fundo é \"fondo\"."
+          "speaker": "Lu",
+          "es": "¿Tiene permanencia?",
+          "pt": "Tem fidelidade?"
         }
-      ]
+      ],
+      "speaker": "Dependiente",
+      "pt": "Sim, doze meses. Se cancelar antes, paga uma multa.",
+      "options": [
+        "Claro. Y el técnico te instala el router en dos o tres días.",
+        "¿Puedo mantener mi número? Hago la portabilidad.",
+        "Sí, doce meses. Si te das de baja antes, pagas una penalización."
+      ],
+      "correct": 2,
+      "explanation": "Dependiente diz: \"Sí, doce meses. Si te das de baja antes, pagas una penalización.\" = \"Sim, doze meses. Se cancelar antes, paga uma multa.\"."
     },
     {
       "type": "choice",
@@ -186,18 +170,6 @@
       ],
       "correct": 0,
       "explanation": "Router = roteador."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Me quiero dar de ___ del gimnasio.\" (cancelar)",
-      "options": [
-        "baja",
-        "alta",
-        "bajo"
-      ],
-      "correct": 0,
-      "explanation": "Darse de baja = cancelar."
     },
     {
       "type": "boss",

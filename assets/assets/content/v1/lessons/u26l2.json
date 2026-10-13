@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el pincel",
+          "pt": "o pincel",
+          "emoji": "🖌️"
+        },
+        {
+          "es": "el dibujo",
+          "pt": "o desenho",
+          "emoji": "✏️"
+        },
+        {
+          "es": "el lienzo",
+          "pt": "a tela (de pintura)",
+          "emoji": "🖼️"
+        },
+        {
+          "es": "la plaza",
+          "pt": "a praça",
+          "emoji": "⛲"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Me cuesta entender\" significa:",
@@ -85,7 +111,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "pintar",
@@ -112,54 +138,37 @@
           "tip": "Natal ≠ Navidad!"
         },
         {
-          "es": "costar",
-          "kind": "quase",
-          "meaning": "custar / ser difícil",
-          "tip": "Costar = custar, e \"me cuesta\" = tenho dificuldade."
-        },
-        {
           "es": "hacer falta",
           "kind": "armadilha",
           "meaning": "ser preciso",
           "tip": "Hace falta = é preciso. Em PT-BR, fazer falta é sentir a ausência (\"echar de menos\")."
-        },
-        {
-          "es": "disfrutar",
-          "kind": "quase",
-          "meaning": "curtir / aproveitar",
-          "tip": "¡Disfruta!"
-        },
-        {
-          "es": "cubismo",
-          "kind": "igual",
-          "meaning": "cubismo",
-          "tip": "Igual!"
-        },
-        {
-          "es": "escultura",
-          "kind": "igual",
-          "meaning": "escultura",
-          "tip": "Igual!"
-        },
-        {
-          "es": "colección",
-          "kind": "quase",
-          "meaning": "coleção",
-          "tip": "-ción = -ção."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Dibujos animados\" são:",
-      "options": [
-        "Desenhos animados",
-        "Bonecos animados",
-        "Filmes de ação"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Dani",
+          "es": "Sí, en Málaga, en 1881. Su casa natal está en la plaza de la Merced.",
+          "pt": "Sim, em Málaga, em 1881. A casa onde nasceu fica na praça da Merced."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¿Y el museo tiene obras suyas?",
+          "pt": "E o museu tem obras dele?"
+        }
       ],
-      "correct": 0,
-      "explanation": "Dibujo = desenho."
+      "speaker": "Dani",
+      "pt": "Muitas: pinturas, desenhos e cerâmicas.",
+      "options": [
+        "A mí me cuesta entender el cubismo.",
+        "Muchas: pinturas, dibujos y cerámicas.",
+        "No hace falta entenderlo todo. ¡Disfrútalo!"
+      ],
+      "correct": 1,
+      "explanation": "Dani diz: \"Muchas: pinturas, dibujos y cerámicas.\" = \"Muitas: pinturas, desenhos e cerâmicas.\"."
     },
     {
       "type": "build",
@@ -188,18 +197,6 @@
       ],
       "correct": 0,
       "explanation": "Picasso também fez cerâmica."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"No hace ___ reservar.\" (não é preciso)",
-      "options": [
-        "falta",
-        "falla",
-        "falte"
-      ],
-      "correct": 0,
-      "explanation": "\"Hace falta\" = é preciso."
     },
     {
       "type": "boss",

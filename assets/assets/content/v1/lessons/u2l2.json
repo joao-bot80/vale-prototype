@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el jamón",
+          "pt": "o presunto",
+          "emoji": "🍖"
+        },
+        {
+          "es": "el queso",
+          "pt": "o queijo",
+          "emoji": "🧀"
+        },
+        {
+          "es": "las gambas",
+          "pt": "os camarões",
+          "emoji": "🦐"
+        },
+        {
+          "es": "el pan",
+          "pt": "o pão",
+          "emoji": "🥖"
+        },
+        {
+          "es": "la servilleta",
+          "pt": "o guardanapo",
+          "emoji": "🧻"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "Como se diz \"cardápio\" num bar na Espanha?",
@@ -86,19 +117,13 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "tomate",
           "kind": "igual",
           "meaning": "tomate",
           "tip": "Igualzinho!"
-        },
-        {
-          "es": "picante",
-          "kind": "igual",
-          "meaning": "picante",
-          "tip": "Mesma palavra."
         },
         {
           "es": "patata",
@@ -113,24 +138,6 @@
           "tip": "O \"l\" vira \"ll\"."
         },
         {
-          "es": "ensalada",
-          "kind": "quase",
-          "meaning": "salada",
-          "tip": "Ganha um \"en\" na frente."
-        },
-        {
-          "es": "pulpo",
-          "kind": "quase",
-          "meaning": "polvo",
-          "tip": "E \"polvo\" em espanhol é pó!"
-        },
-        {
-          "es": "tortilla",
-          "kind": "quase",
-          "meaning": "omelete de batata",
-          "tip": "Na Espanha, tortilla = omelete de batata. A tortilla mexicana é outra coisa."
-        },
-        {
           "es": "rico",
           "kind": "armadilha",
           "meaning": "gostoso (comida)",
@@ -141,26 +148,33 @@
           "kind": "armadilha",
           "meaning": "suposto (ex.: presunto culpable)",
           "tip": "Presunto = suposto, alegado (\"el presunto culpable\"). O presunto brasileiro (de comer) é \"jamón\"."
-        },
-        {
-          "es": "batata",
-          "kind": "armadilha",
-          "meaning": "batata-doce",
-          "tip": "A batata comum é \"patata\"."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"¿La tortilla lleva cebolla?\" O que \"lleva\" significa aqui?",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Camarera",
+          "es": "Claro. Os recomiendo las croquetas de jamón, son caseras.",
+          "pt": "Claro. Recomendo os croquetes de presunto, são caseiros."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Vale. Pues una ración de croquetas y unas patatas bravas.",
+          "pt": "Beleza. Então uma porção de croquetes e umas batatas bravas."
+        }
+      ],
+      "speaker": "Camarera",
+      "pt": "Algo mais? A tortilla também está muito gostosa.",
       "options": [
-        "tem (como ingrediente)",
-        "carrega pra viagem",
-        "demora"
+        "¿Algo más? La tortilla también está muy rica.",
+        "Sí, con cebolla, como debe ser.",
+        "¿La tortilla lleva cebolla?"
       ],
       "correct": 0,
-      "explanation": "\"Llevar\" = ter como ingrediente. E \"para llevar\" = pra viagem!"
+      "explanation": "Camarera diz: \"¿Algo más? La tortilla también está muy rica.\" = \"Algo mais? A tortilla também está muito gostosa.\"."
     },
     {
       "type": "build",
@@ -191,18 +205,6 @@
       "correct": 0,
       "explanation": "\"Media ración\" = meia porção. Ótimo pra provar várias tapas.",
       "spanish": "Media ración es suficiente para dos."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Me ___ mucho las croquetas.",
-      "options": [
-        "gustan",
-        "gusta",
-        "gusto"
-      ],
-      "correct": 0,
-      "explanation": "\"Me gustan\" concorda com \"las croquetas\" (plural)."
     },
     {
       "type": "boss",

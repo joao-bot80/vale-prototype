@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el vino blanco",
+          "pt": "o vinho branco",
+          "emoji": "🥂"
+        },
+        {
+          "es": "la uva",
+          "pt": "a uva",
+          "emoji": "🍇"
+        },
+        {
+          "es": "la botella",
+          "pt": "a garrafa",
+          "emoji": "🍾"
+        },
+        {
+          "es": "el sacacorchos",
+          "pt": "o saca-rolhas",
+          "emoji": "🍷"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Una copa de vino\" é:",
@@ -83,7 +109,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "ría",
@@ -114,50 +140,33 @@
           "kind": "armadilha",
           "meaning": "produtor de vinho",
           "tip": "Bodeguero = produtor de vinho. Em PT-BR, bodegueiro é dono de boteco."
-        },
-        {
-          "es": "viñedo",
-          "kind": "quase",
-          "meaning": "vinhedo",
-          "tip": "Viña = vinha."
-        },
-        {
-          "es": "sacacorchos",
-          "kind": "quase",
-          "meaning": "saca-rolhas",
-          "tip": "Saca + corchos."
-        },
-        {
-          "es": "vendimia",
-          "kind": "quase",
-          "meaning": "vindima",
-          "tip": "Colheita da uva."
-        },
-        {
-          "es": "carné de conducir",
-          "kind": "armadilha",
-          "meaning": "carteira de motorista",
-          "tip": "Carné = documento. Em PT-BR, carnê é o bloco de boletos de prestação."
-        },
-        {
-          "es": "brindar con agua",
-          "kind": "quase",
-          "meaning": "brindar com água",
-          "tip": "Quem dirige!"
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Conduce Lino\" significa:",
-      "options": [
-        "O Lino dirige",
-        "O Lino conduz a orquestra",
-        "O Lino conduz a conversa"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "¿Qué es una ría? ¿Un río?",
+          "pt": "O que é uma ria? Um rio?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Es un valle de río inundado por el mar. Por eso hay tanto marisco.",
+          "pt": "É um vale de rio inundado pelo mar. Por isso há tantos frutos do mar."
+        }
       ],
-      "correct": 0,
-      "explanation": "Conducir = dirigir carro."
+      "speaker": "Bodeguero",
+      "pt": "Querem provar o albariño? É fresco e frutado.",
+      "options": [
+        "Sí, pero solo una copa, que luego conduce Lino.",
+        "¿Queréis probar el albariño? Es fresco y afrutado.",
+        "¡Yo agua, como siempre!"
+      ],
+      "correct": 1,
+      "explanation": "Bodeguero diz: \"¿Queréis probar el albariño? Es fresco y afrutado.\" = \"Querem provar o albariño? É fresco e frutado.\"."
     },
     {
       "type": "build",
@@ -186,18 +195,6 @@
       ],
       "correct": 0,
       "explanation": "Álcool e direção: tolerância baixa na Espanha."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"¿Tienes carné de ___?\" (dirigir)",
-      "options": [
-        "conducir",
-        "dirigir",
-        "manejar"
-      ],
-      "correct": 0,
-      "explanation": "Na Espanha: conducir."
     },
     {
       "type": "boss",

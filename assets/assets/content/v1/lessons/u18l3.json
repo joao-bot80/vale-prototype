@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el balón",
+          "pt": "a bola",
+          "emoji": "⚽"
+        },
+        {
+          "es": "el gol",
+          "pt": "o gol",
+          "emoji": "🥅"
+        },
+        {
+          "es": "el portero",
+          "pt": "o goleiro",
+          "emoji": "🧤"
+        },
+        {
+          "es": "el estadio",
+          "pt": "o estádio",
+          "emoji": "🏟️"
+        },
+        {
+          "es": "la camiseta",
+          "pt": "a camisa do time",
+          "emoji": "👕"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Partido\" no futebol é:",
@@ -86,7 +117,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "partido",
@@ -107,27 +138,9 @@
           "tip": "Afición = torcida / hobby. Afeição (carinho) é \"cariño\" ou \"afecto\"."
         },
         {
-          "es": "portero",
-          "kind": "armadilha",
-          "meaning": "goleiro",
-          "tip": "Portero = goleiro (e porteiro). Em PT-BR, porteiro é só o do prédio."
-        },
-        {
-          "es": "delantero",
-          "kind": "armadilha",
-          "meaning": "atacante",
-          "tip": "Delantero = atacante. Em PT-BR, dianteiro é só \"o da frente\"."
-        },
-        {
           "es": "empate",
           "kind": "igual",
           "meaning": "empate",
-          "tip": "Igual!"
-        },
-        {
-          "es": "árbitro",
-          "kind": "igual",
-          "meaning": "árbitro",
           "tip": "Igual!"
         },
         {
@@ -135,32 +148,33 @@
           "kind": "quase",
           "meaning": "pênalti",
           "tip": "Sem acento no e."
-        },
-        {
-          "es": "gol",
-          "kind": "igual",
-          "meaning": "gol",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "palco",
-          "kind": "armadilha",
-          "meaning": "camarote (de estádio/teatro)",
-          "tip": "Palco = camarote. Palco (onde se apresentam) é \"escenario\"."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"El portero\" no futebol é:",
-      "options": [
-        "O goleiro",
-        "O porteiro do estádio",
-        "O atacante"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "Todavía no lo sé. En Brasil soy del Flamengo.",
+          "pt": "Ainda não sei. No Brasil sou Flamengo."
+        },
+        {
+          "speaker": "Dani",
+          "es": "Hoy juega el Madrid en casa. Tengo dos entradas.",
+          "pt": "Hoje o Madrid joga em casa. Tenho dois ingressos."
+        }
       ],
-      "correct": 0,
-      "explanation": "Portero = goleiro (e porteiro de prédio)."
+      "speaker": "Lu",
+      "pt": "Ótimo! Que horas começa o jogo?",
+      "options": [
+        "¡Vamos! ¡Que meta un gol el número diez!",
+        "A las nueve. Hay que llegar pronto para pasar el control.",
+        "¡Genial! ¿A qué hora empieza el partido?"
+      ],
+      "correct": 2,
+      "explanation": "Lu diz: \"¡Genial! ¿A qué hora empieza el partido?\" = \"Ótimo! Que horas começa o jogo?\"."
     },
     {
       "type": "build",
@@ -190,18 +204,6 @@
       ],
       "correct": 0,
       "explanation": "\"Pronto\" = cedo."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"El ___ ha parado el penalti.\" (goleiro)",
-      "options": [
-        "portero",
-        "goleiro",
-        "arquero"
-      ],
-      "correct": 0,
-      "explanation": "Na Espanha: portero. \"Arquero\" é mais latino-americano."
     },
     {
       "type": "boss",

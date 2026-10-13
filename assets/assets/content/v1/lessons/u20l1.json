@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la tapa",
+          "pt": "o petisco",
+          "emoji": "🍢"
+        },
+        {
+          "es": "gratis",
+          "pt": "de graça",
+          "emoji": "🆓"
+        },
+        {
+          "es": "la croqueta",
+          "pt": "o croquete",
+          "emoji": "🥟"
+        },
+        {
+          "es": "el vino",
+          "pt": "o vinho",
+          "emoji": "🍷"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Hoy toca croquetas\" significa:",
@@ -85,7 +111,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "ronda",
@@ -106,40 +132,10 @@
           "tip": "Feminino!"
         },
         {
-          "es": "habas",
-          "kind": "quase",
-          "meaning": "favas",
-          "tip": "Habas con jamón, típico de Granada."
-        },
-        {
-          "es": "distinto",
-          "kind": "quase",
-          "meaning": "diferente",
-          "tip": "Distinto = diferente, e também distinto, igual."
-        },
-        {
-          "es": "tocar",
-          "kind": "quase",
-          "meaning": "tocar / ser a vez",
-          "tip": "Tocar = tocar. Bônus: \"te toca\" = é a sua vez."
-        },
-        {
-          "es": "barra",
-          "kind": "quase",
-          "meaning": "barra / balcão do bar",
-          "tip": "Barra = barra; no bar, é o balcão."
-        },
-        {
           "es": "taberna",
           "kind": "igual",
           "meaning": "taberna",
           "tip": "Igual!"
-        },
-        {
-          "es": "patatas bravas",
-          "kind": "quase",
-          "meaning": "batatas bravas",
-          "tip": "Patata = batata."
         },
         {
           "es": "estofado",
@@ -150,16 +146,29 @@
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Pago yo esta ronda\" significa:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Camarero",
+          "es": "Aquí tenéis. Y vuestra tapa: hoy toca croquetas.",
+          "pt": "Aqui estão. E a tapa de vocês: hoje é croquete."
+        },
+        {
+          "speaker": "Lu",
+          "es": "¡Pero no hemos pedido comida!",
+          "pt": "Mas não pedimos comida!"
+        }
+      ],
+      "speaker": "Dani",
+      "pt": "Em Granada, em muitos bares, a tapa vem com a bebida.",
       "options": [
-        "Eu pago esta rodada",
-        "Eu pago esta ronda policial",
-        "Eu pago a volta"
+        "En Granada, en muchos bares, la tapa viene con la bebida.",
+        "Otra tapa distinta. ¡Así se cena gratis!",
+        "¡Qué maravilla! ¿Y con la segunda ronda?"
       ],
       "correct": 0,
-      "explanation": "Ronda = rodada."
+      "explanation": "Dani diz: \"En Granada, en muchos bares, la tapa viene con la bebida.\" = \"Em Granada, em muitos bares, a tapa vem com a bebida.\"."
     },
     {
       "type": "build",
@@ -189,18 +198,6 @@
       ],
       "correct": 0,
       "explanation": "\"Distinto\" = diferente."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Nos sentamos en la ___.\" (balcão)",
-      "options": [
-        "barra",
-        "balcón",
-        "bancada"
-      ],
-      "correct": 0,
-      "explanation": "Barra = balcão de bar. Balcón = sacada!"
     },
     {
       "type": "boss",

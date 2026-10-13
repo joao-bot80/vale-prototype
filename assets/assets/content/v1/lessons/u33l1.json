@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "las ostras",
+          "pt": "as ostras",
+          "emoji": "🦪"
+        },
+        {
+          "es": "el puerto",
+          "pt": "o porto",
+          "emoji": "⚓"
+        },
+        {
+          "es": "el pescador",
+          "pt": "o pescador",
+          "emoji": "🎣"
+        },
+        {
+          "es": "la red",
+          "pt": "a rede",
+          "emoji": "🕸️"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Se comen crudas\" significa:",
@@ -83,7 +109,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "ostra",
@@ -104,60 +130,43 @@
           "tip": "Barco marinero."
         },
         {
-          "es": "pesquero",
-          "kind": "quase",
-          "meaning": "pesqueiro",
-          "tip": "Barco pesquero."
-        },
-        {
           "es": "pescador",
           "kind": "igual",
           "meaning": "pescador",
           "tip": "Igual!"
         },
         {
-          "es": "red",
-          "kind": "quase",
-          "meaning": "rede",
-          "tip": "Red = rede. Não é o \"red\" do inglês!"
-        },
-        {
-          "es": "anzuelo",
-          "kind": "quase",
-          "meaning": "anzol",
-          "tip": "Picar el anzuelo = cair na isca."
-        },
-        {
-          "es": "alumbrado",
-          "kind": "quase",
-          "meaning": "iluminação (de Natal)",
-          "tip": "Alumbrado navideño."
-        },
-        {
           "es": "muelle",
           "kind": "armadilha",
           "meaning": "cais",
           "tip": "Também mola!"
-        },
-        {
-          "es": "grúa",
-          "kind": "quase",
-          "meaning": "guindaste",
-          "tip": "Também guincho."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"La red de pesca\" é:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "¿Se comen crudas?",
+          "pt": "Se comem cruas?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "Sí, con un poco de limón. Son muy frescas.",
+          "pt": "Sim, com um pouco de limão. São muito frescas."
+        }
+      ],
+      "speaker": "Lu",
+      "pt": "Vigo tem um porto enorme. É de pesca?",
       "options": [
-        "A rede de pesca",
-        "A pesca vermelha",
-        "O barco"
+        "Vigo tiene un puerto enorme. ¿Es de pesca?",
+        "Y en Navidad, las luces de Vigo son famosísimas, ¿no?",
+        "Es uno de los puertos pesqueros más importantes de Europa."
       ],
       "correct": 0,
-      "explanation": "Red = rede."
+      "explanation": "Lu diz: \"Vigo tiene un puerto enorme. ¿Es de pesca?\" = \"Vigo tem um porto enorme. É de pesca?\"."
     },
     {
       "type": "build",
@@ -189,18 +198,6 @@
       ],
       "correct": 0,
       "explanation": "Ostras abertas na hora."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"El barco está en el ___.\" (cais)",
-      "options": [
-        "muelle",
-        "cais",
-        "muello"
-      ],
-      "correct": 0,
-      "explanation": "Muelle = cais (e mola)."
     },
     {
       "type": "boss",

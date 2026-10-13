@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "las urgencias",
+          "pt": "o pronto-socorro",
+          "emoji": "🏥"
+        },
+        {
+          "es": "el tobillo",
+          "pt": "o tornozelo",
+          "emoji": "🦶"
+        },
+        {
+          "es": "la escayola",
+          "pt": "o gesso",
+          "emoji": "🦴"
+        },
+        {
+          "es": "las muletas",
+          "pt": "as muletas",
+          "emoji": "🩼"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Me he torcido el tobillo\" significa:",
@@ -81,71 +107,29 @@
       "explanation": "Nas urgências há triagem: casos graves primeiro."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "esparadrapo",
-          "kind": "igual",
-          "meaning": "esparadrapo",
-          "tip": "Mesma palavra, mesmo sentido."
+          "speaker": "Lu",
+          "es": "Me he torcido el tobillo y está muy hinchado.",
+          "pt": "Torci o tornozelo e está muito inchado."
         },
         {
-          "es": "cuello",
-          "kind": "armadilha",
-          "meaning": "pescoço",
-          "tip": "Cuello = pescoço. Coelho é \"conejo\"."
-        },
-        {
-          "es": "hinchado",
-          "kind": "quase",
-          "meaning": "inchado",
-          "tip": "Hincharse = inchar."
-        },
-        {
-          "es": "jeringa",
-          "kind": "quase",
-          "meaning": "seringa",
-          "tip": "Jeringa = seringa."
-        },
-        {
-          "es": "radiografía",
-          "kind": "quase",
-          "meaning": "raio X",
-          "tip": "Hacer una radiografía."
-        },
-        {
-          "es": "muleta",
-          "kind": "igual",
-          "meaning": "muleta",
-          "tip": "Muleta = muleta. E também a capa vermelha do toureiro."
-        },
-        {
-          "es": "tirita",
-          "kind": "armadilha",
-          "meaning": "curativo / band-aid",
-          "tip": "Não é tirinha!"
-        },
-        {
-          "es": "pomada",
-          "kind": "igual",
-          "meaning": "pomada",
-          "tip": "Igual!"
-        },
-        {
-          "es": "triaje",
-          "kind": "quase",
-          "meaning": "triagem",
-          "tip": "Com j."
-        },
-        {
-          "es": "sala de espera",
-          "kind": "quase",
-          "meaning": "sala de espera",
-          "tip": "Igual."
+          "speaker": "Enfermera",
+          "es": "¿Tienes la tarjeta sanitaria?",
+          "pt": "Tem o cartão de saúde?"
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Ainda não. Tenho passaporte e seguro privado.",
+      "options": [
+        "Todavía no. Tengo pasaporte y seguro privado.",
+        "¿Tardarán mucho?",
+        "Vale. Siéntate en la sala de espera. Te llamarán por tu nombre."
+      ],
+      "correct": 0,
+      "explanation": "Lu diz: \"Todavía no. Tengo pasaporte y seguro privado.\" = \"Ainda não. Tenho passaporte e seguro privado.\"."
     },
     {
       "type": "choice",
@@ -188,18 +172,6 @@
       ],
       "correct": 0,
       "explanation": "Em urgência, nenhum hospital público nega atendimento."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Te ponemos una ___ en el pie.\" (gesso)",
-      "options": [
-        "escayola",
-        "escaiola",
-        "gesso"
-      ],
-      "correct": 0,
-      "explanation": "Escayola = gesso ortopédico (também se diz yeso). \"Escaiola\" é a grafia em português."
     },
     {
       "type": "boss",

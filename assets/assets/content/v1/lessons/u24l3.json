@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la agenda",
+          "pt": "a agenda",
+          "emoji": "📒"
+        },
+        {
+          "es": "el gimnasio",
+          "pt": "a academia",
+          "emoji": "🏋️"
+        },
+        {
+          "es": "la pista de pádel",
+          "pt": "a quadra de padel",
+          "emoji": "🎾"
+        },
+        {
+          "es": "mañana",
+          "pt": "amanhã",
+          "emoji": "🌅"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"¿Te viene bien el sábado?\" significa:",
@@ -83,71 +109,29 @@
       "explanation": "Pista = quadra (de pádel, tênis)."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "pádel",
-          "kind": "quase",
-          "meaning": "padel",
-          "tip": "Esporte de raquete muito popular na Espanha."
+          "speaker": "Lu",
+          "es": "Imposible, tengo una reunión hasta tarde. ¿Te viene bien el sábado?",
+          "pt": "Impossível, tenho uma reunião até tarde. Sábado fica bom para você?"
         },
         {
-          "es": "pista",
-          "kind": "quase",
-          "meaning": "quadra",
-          "tip": "Pista = quadra (\"pista de tenis\"), e também pista (de dança, de corrida, dica)."
-        },
-        {
-          "es": "agenda",
-          "kind": "igual",
-          "meaning": "agenda",
-          "tip": "Igual!"
-        },
-        {
-          "es": "fatal",
-          "kind": "armadilha",
-          "meaning": "péssimo",
-          "tip": "Fatal = péssimo. Em PT-BR, fatal é mortal."
-        },
-        {
-          "es": "imposible",
-          "kind": "quase",
-          "meaning": "impossível",
-          "tip": "Um s."
-        },
-        {
-          "es": "reservar",
-          "kind": "igual",
-          "meaning": "reservar",
-          "tip": "Igual!"
-        },
-        {
-          "es": "aplazar",
-          "kind": "armadilha",
-          "meaning": "adiar",
-          "tip": "Não é aplaudir!"
-        },
-        {
-          "es": "cancelar",
-          "kind": "igual",
-          "meaning": "cancelar",
-          "tip": "Igual!"
-        },
-        {
-          "es": "gimnasio",
-          "kind": "quase",
-          "meaning": "academia",
-          "tip": "Ir al gimnasio = ir à academia."
-        },
-        {
-          "es": "encuesta",
-          "kind": "armadilha",
-          "meaning": "pesquisa, questionário",
-          "tip": "Encuesta = pesquisa/questionário. Encosta é \"ladera\"."
+          "speaker": "Dani",
+          "es": "El sábado me viene fatal. ¿Y el domingo por la mañana?",
+          "pt": "Sábado fica péssimo para mim. E domingo de manhã?"
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Beleza, domingo às onze. Eu reservo a quadra.",
+      "options": [
+        "Ya me conoces. ¡Hecho!",
+        "Perfecto. ¡Y luego vermut!",
+        "Vale, el domingo a las once. Reservo yo la pista."
+      ],
+      "correct": 2,
+      "explanation": "Lu diz: \"Vale, el domingo a las once. Reservo yo la pista.\" = \"Beleza, domingo às onze. Eu reservo a quadra.\"."
     },
     {
       "type": "choice",
@@ -190,18 +174,6 @@
       ],
       "correct": 0,
       "explanation": "Fatal = muito ruim (coloquial)."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Voy al ___ tres veces por semana.\" (academia)",
-      "options": [
-        "gimnasio",
-        "academia",
-        "gimnásio"
-      ],
-      "correct": 0,
-      "explanation": "Academia em espanhol = escola de cursos!"
     },
     {
       "type": "boss",

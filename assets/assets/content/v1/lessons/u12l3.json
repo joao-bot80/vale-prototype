@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el desayuno",
+          "pt": "o café da manhã",
+          "emoji": "🥐"
+        },
+        {
+          "es": "el cepillo de dientes",
+          "pt": "a escova de dente",
+          "emoji": "🪥"
+        },
+        {
+          "es": "la cama",
+          "pt": "a cama",
+          "emoji": "🛏️"
+        },
+        {
+          "es": "el despertador",
+          "pt": "o despertador",
+          "emoji": "⏰"
+        },
+        {
+          "es": "la siesta",
+          "pt": "a soneca",
+          "emoji": "😴"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Me levanto a las siete\" significa:",
@@ -81,71 +112,29 @@
       "explanation": "\"Tostada\" = torrada; com tomate e azeite é clássico."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "despertador",
-          "kind": "quase",
-          "meaning": "despertador",
-          "tip": "Igual!"
+          "speaker": "Lu",
+          "es": "Me levanto a las siete y me ducho rápido.",
+          "pt": "Eu me levanto às sete e tomo banho rápido."
         },
         {
-          "es": "ducha",
-          "kind": "quase",
-          "meaning": "chuveiro / ducha",
-          "tip": "Ducharse = tomar banho."
-        },
-        {
-          "es": "tostada",
-          "kind": "quase",
-          "meaning": "torrada",
-          "tip": "Tostada = torrada (não é a tostada mexicana)."
-        },
-        {
-          "es": "café con leche",
-          "kind": "quase",
-          "meaning": "café com leite",
-          "tip": "Con = com."
-        },
-        {
-          "es": "pasta de dientes",
-          "kind": "quase",
-          "meaning": "pasta de dente",
-          "tip": "Pasta de dientes = pasta de dente."
-        },
-        {
-          "es": "toalla de mano",
-          "kind": "quase",
-          "meaning": "toalha de rosto",
-          "tip": "Toalla de mano."
-        },
-        {
-          "es": "siesta",
-          "kind": "quase",
-          "meaning": "sesta / soneca",
-          "tip": "Menos comum na cidade do que se pensa."
-        },
-        {
-          "es": "acostarse",
-          "kind": "armadilha",
-          "meaning": "deitar-se para dormir",
-          "tip": "Não é \"acostumar-se\" (acostumbrarse)!"
-        },
-        {
-          "es": "espejo",
-          "kind": "quase",
-          "meaning": "espelho",
-          "tip": "Espejo = espelho: com j."
-        },
-        {
-          "es": "peine",
-          "kind": "quase",
-          "meaning": "pente",
-          "tip": "Peinarse = pentear-se."
+          "speaker": "Lino",
+          "es": "¿Desayunas en casa?",
+          "pt": "Toma café da manhã em casa?"
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Não, tomo um café com torrada no bar de baixo.",
+      "options": [
+        "Ceno sobre las nueve y me acuesto a las doce. ¡Muy española!",
+        "¿Y por la noche?",
+        "No, desayuno un café con tostada en el bar de abajo."
+      ],
+      "correct": 2,
+      "explanation": "Lu diz: \"No, desayuno un café con tostada en el bar de abajo.\" = \"Não, tomo um café com torrada no bar de baixo.\"."
     },
     {
       "type": "choice",
@@ -188,18 +177,6 @@
       ],
       "correct": 0,
       "explanation": "Horário típico espanhol!"
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Todos los días ___ levanto temprano.\"",
-      "options": [
-        "me",
-        "se",
-        "te"
-      ],
-      "correct": 0,
-      "explanation": "Yo me levanto, tú te levantas, él se levanta."
     },
     {
       "type": "boss",

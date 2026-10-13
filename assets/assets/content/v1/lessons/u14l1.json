@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el arco",
+          "pt": "o arco",
+          "emoji": "🌙"
+        },
+        {
+          "es": "la columna",
+          "pt": "a coluna",
+          "emoji": "🏛️"
+        },
+        {
+          "es": "el patio",
+          "pt": "o pátio",
+          "emoji": "🌿"
+        },
+        {
+          "es": "la campana",
+          "pt": "o sino",
+          "emoji": "🔔"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Merece la pena\" significa:",
@@ -83,71 +109,29 @@
       "explanation": "Mesquita do período islâmico, catedral cristã depois."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "mezquita",
-          "kind": "quase",
-          "meaning": "mesquita",
-          "tip": "Com z."
+          "speaker": "Lu",
+          "es": "¡Cuántas columnas! Parece un bosque de piedra.",
+          "pt": "Quantas colunas! Parece uma floresta de pedra."
         },
         {
-          "es": "arco",
-          "kind": "igual",
-          "meaning": "arco",
-          "tip": "Os arcos bicolores são famosos."
-        },
-        {
-          "es": "piedra",
-          "kind": "quase",
-          "meaning": "pedra",
-          "tip": "Ditongo ie."
-        },
-        {
-          "es": "bosque",
-          "kind": "quase",
-          "meaning": "floresta / bosque",
-          "tip": "Bosque = bosque / floresta."
-        },
-        {
-          "es": "silencio",
-          "kind": "quase",
-          "meaning": "silêncio",
-          "tip": "Sem acento."
-        },
-        {
-          "es": "califa",
-          "kind": "igual",
-          "meaning": "califa",
-          "tip": "Córdoba foi capital de um califado."
-        },
-        {
-          "es": "bajito",
-          "kind": "quase",
-          "meaning": "baixinho",
-          "tip": "Hablar bajito = falar baixo."
-        },
-        {
-          "es": "judería",
-          "kind": "quase",
-          "meaning": "bairro judeu",
-          "tip": "A judería de Córdoba é famosa."
-        },
-        {
-          "es": "puente romano",
-          "kind": "quase",
-          "meaning": "ponte romana",
-          "tip": "Puente romano = ponte romana. Atenção: puente é masculino!"
-        },
-        {
-          "es": "rojo",
-          "kind": "armadilha",
-          "meaning": "vermelho",
-          "tip": "Rojo = vermelho. Roxo é \"morado\"."
+          "speaker": "Dani",
+          "es": "Fue mezquita y después se construyó una catedral dentro.",
+          "pt": "Foi mesquita e depois construíram uma catedral dentro."
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "Tem que pagar para entrar?",
+      "options": [
+        "¿Hay que pagar para entrar?",
+        "Vale, hablo bajito.",
+        "Sí, pero merece la pena. Hay que guardar silencio dentro."
+      ],
+      "correct": 0,
+      "explanation": "Lu diz: \"¿Hay que pagar para entrar?\" = \"Tem que pagar para entrar?\"."
     },
     {
       "type": "choice",
@@ -188,18 +172,6 @@
       ],
       "correct": 0,
       "explanation": "\"Guardar silencio\" = fazer silêncio."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Cruzamos el ___ romano.\"",
-      "options": [
-        "puente",
-        "ponte",
-        "puenta"
-      ],
-      "correct": 0,
-      "explanation": "El puente romano de Córdoba, sobre o Guadalquivir."
     },
     {
       "type": "boss",

@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el pañal",
+          "pt": "a fralda",
+          "emoji": "🧷"
+        },
+        {
+          "es": "el chupete",
+          "pt": "a chupeta",
+          "emoji": "🍼"
+        },
+        {
+          "es": "el termómetro",
+          "pt": "o termômetro",
+          "emoji": "🌡️"
+        },
+        {
+          "es": "la vacuna",
+          "pt": "a vacina",
+          "emoji": "💉"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Las anginas\" são:",
@@ -84,7 +110,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "varicela",
@@ -111,54 +137,37 @@
           "tip": "Igual!"
         },
         {
-          "es": "vacuna",
-          "kind": "quase",
-          "meaning": "vacina",
-          "tip": "Vacunar = vacinar."
-        },
-        {
-          "es": "chupar",
-          "kind": "igual",
-          "meaning": "chupar",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "termómetro",
-          "kind": "quase",
-          "meaning": "termômetro",
-          "tip": "Acento no mó."
-        },
-        {
           "es": "cartilla de vacunación",
           "kind": "armadilha",
           "meaning": "carteira de vacinação",
           "tip": "Cartilla = caderneta. Em PT-BR, cartilha é o livrinho de alfabetização."
-        },
-        {
-          "es": "piojos",
-          "kind": "quase",
-          "meaning": "piolhos",
-          "tip": "Piojos = piolhos. Comum na escola!"
-        },
-        {
-          "es": "mocos",
-          "kind": "quase",
-          "meaning": "catarro / meleca",
-          "tip": "Mocos = catarro / meleca."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Estoy constipada\" significa:",
-      "options": [
-        "Estou resfriada",
-        "Estou com prisão de ventre",
-        "Estou cansada"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "Tiene fiebre desde ayer y le duele la garganta.",
+          "pt": "Está com febre desde ontem e a garganta dói."
+        },
+        {
+          "speaker": "Pediatra",
+          "es": "A ver, abre la boca. Tiene las anginas inflamadas.",
+          "pt": "Vamos ver, abre a boca. Está com as amígdalas inflamadas."
+        }
       ],
-      "correct": 0,
-      "explanation": "Estreñido = prisão de ventre."
+      "speaker": "Lu",
+      "pt": "Precisa de antibiótico?",
+      "options": [
+        "Vale. ¿Y tiene todas las vacunas al día?",
+        "Hola. ¿Qué le pasa a la niña?",
+        "¿Necesita antibiótico?"
+      ],
+      "correct": 2,
+      "explanation": "Lu diz: \"¿Necesita antibiótico?\" = \"Precisa de antibiótico?\"."
     },
     {
       "type": "build",
@@ -188,18 +197,6 @@
       ],
       "correct": 0,
       "explanation": "\"A ver\" = vamos ver."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Dale este ___ para la tos.\" (xarope)",
-      "options": [
-        "jarabe",
-        "jarope",
-        "sirope"
-      ],
-      "correct": 0,
-      "explanation": "Jarabe = xarope (remédio)."
     },
     {
       "type": "boss",

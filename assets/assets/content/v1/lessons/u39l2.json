@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el gofio",
+          "pt": "o gofio (farinha torrada)",
+          "emoji": "🌾"
+        },
+        {
+          "es": "la harina",
+          "pt": "a farinha",
+          "emoji": "🌾"
+        },
+        {
+          "es": "la miel",
+          "pt": "o mel",
+          "emoji": "🍯"
+        },
+        {
+          "es": "el plátano",
+          "pt": "a banana",
+          "emoji": "🍌"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Harina\" significa:",
@@ -84,71 +110,29 @@
       "explanation": "Gofio tem IGP."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "trigo",
-          "kind": "igual",
-          "meaning": "trigo",
-          "tip": "Mesma palavra, mesmo sentido."
+          "speaker": "Lino",
+          "es": "Es gofio: harina de cereales tostados. Muy canario.",
+          "pt": "É gofio: farinha de cereais torrados. Bem canário."
         },
         {
-          "es": "harina",
-          "kind": "quase",
-          "meaning": "farinha",
-          "tip": "Harina = farinha."
-        },
-        {
-          "es": "tostado",
-          "kind": "quase",
-          "meaning": "torrado",
-          "tip": "Pan tostado."
-        },
-        {
-          "es": "tostadero",
-          "kind": "quase",
-          "meaning": "torrefação",
-          "tip": "Onde tostam o gofio."
-        },
-        {
-          "es": "miel de palma",
-          "kind": "quase",
-          "meaning": "mel de palma",
-          "tip": "Da palmeira canária."
-        },
-        {
-          "es": "amasar",
-          "kind": "armadilha",
-          "meaning": "amassar (massa)",
-          "tip": "Amasar = sovar massa. Em PT-BR, amassar é amassar lata/carro."
-        },
-        {
-          "es": "cereal",
-          "kind": "igual",
-          "meaning": "cereal",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "queso de flor",
-          "kind": "quase",
-          "meaning": "queijo de flor (cardo)",
-          "tip": "De Guía."
-        },
-        {
-          "es": "balanza",
-          "kind": "quase",
-          "meaning": "balança",
-          "tip": "Balanza = balança."
-        },
-        {
-          "es": "exprimir",
-          "kind": "armadilha",
-          "meaning": "espremer",
-          "tip": "Exprimir = espremer (uma laranja). Exprimir (expressar) é \"expresar\"."
+          "speaker": "Lu",
+          "es": "¿Cómo se toma?",
+          "pt": "Como se come?"
         }
-      ]
+      ],
+      "speaker": "Lino",
+      "pt": "Com leite, no caldo ou amassado. Minha avó põe em tudo.",
+      "options": [
+        "Con leche, en caldo o amasado. Mi abuela lo pone en todo.",
+        "Queso de flor de Guía. Pruébalo con miel de palma.",
+        "¿Y ese queso?"
+      ],
+      "correct": 0,
+      "explanation": "Lino diz: \"Con leche, en caldo o amasado. Mi abuela lo pone en todo.\" = \"Com leite, no caldo ou amassado. Minha avó põe em tudo.\"."
     },
     {
       "type": "choice",
@@ -189,18 +173,6 @@
       ],
       "correct": 0,
       "explanation": "Versátil."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"El gofio es ___ tostada.\" (farinha)",
-      "options": [
-        "harina",
-        "farinha",
-        "arena"
-      ],
-      "correct": 0,
-      "explanation": "Harina."
     },
     {
       "type": "boss",

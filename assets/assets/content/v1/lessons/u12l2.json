@@ -41,6 +41,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el finde",
+          "pt": "o fim de semana",
+          "emoji": "🎉"
+        },
+        {
+          "es": "el sábado",
+          "pt": "o sábado",
+          "emoji": "6️⃣"
+        },
+        {
+          "es": "el cumpleaños",
+          "pt": "o aniversário",
+          "emoji": "🎂"
+        },
+        {
+          "es": "quedar",
+          "pt": "combinar de se encontrar",
+          "emoji": "🤝"
+        },
+        {
+          "es": "guay",
+          "pt": "legal",
+          "emoji": "😎"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"¿Quedamos el viernes?\" significa:",
@@ -83,7 +114,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "fiesta",
@@ -114,50 +145,33 @@
           "kind": "armadilha",
           "meaning": "depois",
           "tip": "Luego = depois. Em PT-BR, logo é \"pronto\" (já, em breve) ou \"portanto\"."
-        },
-        {
-          "es": "regalo",
-          "kind": "armadilha",
-          "meaning": "presente",
-          "tip": "Regalo = presente. Em PT-BR, regalo é mordomia, conforto (\"lujo\")."
-        },
-        {
-          "es": "amigo",
-          "kind": "igual",
-          "meaning": "amigo",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "tío",
-          "kind": "armadilha",
-          "meaning": "cara / mano",
-          "tip": "Tío (gíria) = cara, mano. Em PT-BR, tio é só o irmão do pai/mãe."
-        },
-        {
-          "es": "genial",
-          "kind": "igual",
-          "meaning": "genial",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "cena",
-          "kind": "armadilha",
-          "meaning": "jantar",
-          "tip": "Cena = jantar. Cena (de filme) é \"escena\"."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Luego cenamos\" significa:",
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "¡Vale! ¿A qué hora quedamos?",
+          "pt": "Beleza! Que horas a gente se encontra?"
+        },
+        {
+          "speaker": "Dani",
+          "es": "Sobre las nueve, en la plaza del Dos de Mayo.",
+          "pt": "Lá pelas nove, na praça do Dos de Mayo."
+        }
+      ],
+      "speaker": "Lu",
+      "pt": "Não é um pouco cedo para jantar?",
       "options": [
-        "Depois jantamos",
-        "Jantamos imediatamente",
-        "Jantamos no lugar"
+        "¿No es un poco pronto para cenar?",
+        "Perfecto. ¡Hasta el viernes!",
+        "Primero unas cañas y luego cenamos a las diez."
       ],
       "correct": 0,
-      "explanation": "\"Luego\" = depois. \"Logo\" (já) = \"enseguida\"."
+      "explanation": "Lu diz: \"¿No es un poco pronto para cenar?\" = \"Não é um pouco cedo para jantar?\"."
     },
     {
       "type": "build",
@@ -189,18 +203,6 @@
       ],
       "correct": 0,
       "explanation": "\"Pronto\" = cedo. Na Espanha, jantar às 21h ou mais tarde é normal."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"¡Qué ___ tu camiseta!\" (legal)",
-      "options": [
-        "guay",
-        "chévere",
-        "güey"
-      ],
-      "correct": 0,
-      "explanation": "\"Guay\" = legal. \"Chévere\" é do Caribe/Venezuela e \"güey\" é do México!"
     },
     {
       "type": "boss",

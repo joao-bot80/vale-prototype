@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el pintxo",
+          "pt": "o pintxo (petisco basco)",
+          "emoji": "🍢"
+        },
+        {
+          "es": "el palillo",
+          "pt": "o palito",
+          "emoji": "🥢"
+        },
+        {
+          "es": "la barra",
+          "pt": "o balcão",
+          "emoji": "🍸"
+        },
+        {
+          "es": "la servilleta",
+          "pt": "o guardanapo",
+          "emoji": "🧻"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Te sirves\" significa:",
@@ -81,71 +107,29 @@
       "explanation": "Sistema de confiança nos bares de pintxos."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "cocinero",
-          "kind": "quase",
-          "meaning": "cozinheiro",
-          "tip": "Cocinero = cozinheiro."
+          "speaker": "Lu",
+          "es": "¿Y cómo saben lo que he comido?",
+          "pt": "E como sabem o que eu comi?"
         },
         {
-          "es": "palillo",
-          "kind": "quase",
-          "meaning": "palito",
-          "tip": "Palillo = palito."
-        },
-        {
-          "es": "bocado",
-          "kind": "igual",
-          "meaning": "bocado",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "confianza",
-          "kind": "quase",
-          "meaning": "confiança",
-          "tip": "Com z."
-        },
-        {
-          "es": "barra libre",
-          "kind": "armadilha",
-          "meaning": "open bar",
-          "tip": "Barra = balcão. Em PT-BR, barra livre soa como caminho desimpedido."
-        },
-        {
-          "es": "caliente",
-          "kind": "quase",
-          "meaning": "quente",
-          "tip": "Calentar = esquentar."
-        },
-        {
-          "es": "servirse",
-          "kind": "quase",
-          "meaning": "servir-se",
-          "tip": "Sírvete tú."
-        },
-        {
-          "es": "ronda de pintxos",
-          "kind": "armadilha",
-          "meaning": "rodada de pintxos",
-          "tip": "Ronda = rodada. Em PT-BR, ronda é a patrulha do vigia."
-        },
-        {
-          "es": "degustación",
-          "kind": "quase",
-          "meaning": "degustação",
-          "tip": "-ción = -ção."
-        },
-        {
-          "es": "pan con tomate",
-          "kind": "quase",
-          "meaning": "pão com tomate",
-          "tip": "Pan = pão, con = com."
+          "speaker": "Lino",
+          "es": "Se lo dices al final. Aquí funciona la confianza.",
+          "pt": "Você diz no final. Aqui funciona a confiança."
         }
-      ]
+      ],
+      "speaker": "Lu",
+      "pt": "E os pintxos quentes?",
+      "options": [
+        "¡Uno de cada! Bueno... dos o tres por bar.",
+        "Esos se piden al camarero. Mira la pizarra.",
+        "¿Y los pintxos calientes?"
+      ],
+      "correct": 2,
+      "explanation": "Lu diz: \"¿Y los pintxos calientes?\" = \"E os pintxos quentes?\"."
     },
     {
       "type": "choice",
@@ -186,18 +170,6 @@
       ],
       "correct": 0,
       "explanation": "Pintxos quentes são feitos na hora."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Cuenta los ___ para pagar.\" (palitos)",
-      "options": [
-        "palillos",
-        "paletas",
-        "pajillas"
-      ],
-      "correct": 0,
-      "explanation": "Palillos = palitos (de dente/pintxo)."
     },
     {
       "type": "boss",

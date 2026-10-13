@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "el txakoli",
+          "pt": "o txakoli (vinho basco)",
+          "emoji": "🥂"
+        },
+        {
+          "es": "el rodaballo",
+          "pt": "o pregado (peixe)",
+          "emoji": "🐟"
+        },
+        {
+          "es": "la parrilla",
+          "pt": "a grelha",
+          "emoji": "🔥"
+        },
+        {
+          "es": "el barco",
+          "pt": "o barco",
+          "emoji": "⛵"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Huele a pescado\" significa:",
@@ -83,7 +109,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "cubo",
@@ -110,54 +136,37 @@
           "tip": "Vino joven."
         },
         {
-          "es": "merluza",
-          "kind": "igual",
-          "meaning": "merluza",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
-          "es": "aroma",
-          "kind": "igual",
-          "meaning": "aroma",
-          "tip": "Mesma palavra, mesmo sentido."
-        },
-        {
           "es": "tapón",
           "kind": "armadilha",
           "meaning": "rolha / tampa",
           "tip": "Tapón = rolha ou tampa. Em PT-BR, tampão é o absorvente interno ou o curativo."
-        },
-        {
-          "es": "fermentación",
-          "kind": "quase",
-          "meaning": "fermentação",
-          "tip": "-ción = -ção."
-        },
-        {
-          "es": "brasas",
-          "kind": "quase",
-          "meaning": "brasas",
-          "tip": "Al carbón."
-        },
-        {
-          "es": "compartir",
-          "kind": "quase",
-          "meaning": "dividir / compartilhar",
-          "tip": "Compartir = compartilhar / dividir."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Tengo hambre\" significa:",
-      "options": [
-        "Estou com fome",
-        "Tenho um homem",
-        "Tenho fama"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lino",
+          "es": "Para que coja burbujas. Es un vino blanco joven y un poco ácido.",
+          "pt": "Para que pegue bolhinhas. É um vinho branco jovem e um pouco ácido."
+        },
+        {
+          "speaker": "Lu",
+          "es": "Los viñedos están casi encima del mar.",
+          "pt": "Os vinhedos estão quase em cima do mar."
+        }
       ],
-      "correct": 0,
-      "explanation": "Hambre = fome."
+      "speaker": "Lino",
+      "pt": "Sim, e aqui no porto assam o peixe na rua, na grelha.",
+      "options": [
+        "Pues pedimos uno para los dos.",
+        "Huele a rodaballo... ¡Qué hambre!",
+        "Sí, y aquí en el puerto asan el pescado en la calle, a la parrilla."
+      ],
+      "correct": 2,
+      "explanation": "Lino diz: \"Sí, y aquí en el puerto asan el pescado en la calle, a la parrilla.\" = \"Sim, e aqui no porto assam o peixe na rua, na grelha.\"."
     },
     {
       "type": "build",
@@ -188,18 +197,6 @@
       ],
       "correct": 0,
       "explanation": "Getaria é famosa pelo peixe na brasa."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"El vino tiene ___.\" (bolhinhas)",
-      "options": [
-        "burbujas",
-        "borbujas",
-        "bolhas"
-      ],
-      "correct": 0,
-      "explanation": "Burbuja = bolha."
     },
     {
       "type": "boss",

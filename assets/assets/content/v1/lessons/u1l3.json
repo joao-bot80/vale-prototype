@@ -46,6 +46,37 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la llave",
+          "pt": "a chave",
+          "emoji": "🔑"
+        },
+        {
+          "es": "la habitación",
+          "pt": "o quarto",
+          "emoji": "🛏️"
+        },
+        {
+          "es": "la almohada",
+          "pt": "o travesseiro",
+          "emoji": "💤"
+        },
+        {
+          "es": "la ducha",
+          "pt": "o chuveiro",
+          "emoji": "🚿"
+        },
+        {
+          "es": "el ascensor",
+          "pt": "o elevador",
+          "emoji": "🛗"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "Como se diz \"quarto\" (de hotel) na Espanha?",
@@ -91,7 +122,7 @@
     {
       "type": "swipe",
       "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
+      "passMark": 4,
       "cards": [
         {
           "es": "cama",
@@ -122,50 +153,33 @@
           "kind": "armadilha",
           "meaning": "varanda / sacada",
           "tip": "O balcão do bar é \"la barra\"."
-        },
-        {
-          "es": "taza",
-          "kind": "armadilha",
-          "meaning": "xícara",
-          "tip": "Taça (de vinho) é \"copa\"."
-        },
-        {
-          "es": "wifi",
-          "kind": "igual",
-          "meaning": "wi-fi",
-          "tip": "Mas os espanhóis falam \"uifi\"!"
-        },
-        {
-          "es": "salsa",
-          "kind": "armadilha",
-          "meaning": "molho",
-          "tip": "Salsa = molho. A salsa brasileira (o tempero verde) é \"perejil\"."
-        },
-        {
-          "es": "jabón",
-          "kind": "quase",
-          "meaning": "sabonete / sabão",
-          "tip": "O \"s\" vira \"j\"."
-        },
-        {
-          "es": "sitio",
-          "kind": "armadilha",
-          "meaning": "lugar",
-          "tip": "Sitio = lugar. Em PT-BR, sítio é uma chácara no campo (\"finca\")."
         }
       ]
     },
     {
-      "type": "choice",
-      "title": "Escolha a resposta",
-      "prompt": "\"Tu habitación está en la segunda planta.\" O que é \"planta\" aqui?",
-      "options": [
-        "andar",
-        "planta (vegetal)",
-        "planta baixa (desenho)"
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Lu",
+          "es": "Hola, tengo una reserva a nombre de Luciana.",
+          "pt": "Oi, tenho uma reserva no nome de Luciana."
+        },
+        {
+          "speaker": "Recepcionista",
+          "es": "Perfecto. ¿Me dejas tu pasaporte, por favor?",
+          "pt": "Perfeito. Pode me passar seu passaporte, por favor?"
+        }
       ],
-      "correct": 0,
-      "explanation": "\"Planta\" também é o andar de um prédio. \"Planta baja\" = térreo."
+      "speaker": "Lu",
+      "pt": "Aqui está. Que horas é o café da manhã?",
+      "options": [
+        "Está en la tarjeta de la llave. ¡Que descanses!",
+        "¡Genial! ¿Y la contraseña del wifi?",
+        "Aquí tienes. ¿A qué hora es el desayuno?"
+      ],
+      "correct": 2,
+      "explanation": "Lu diz: \"Aquí tienes. ¿A qué hora es el desayuno?\" = \"Aqui está. Que horas é o café da manhã?\"."
     },
     {
       "type": "build",
@@ -195,18 +209,6 @@
       ],
       "correct": 0,
       "explanation": "\"Ascensor\" = elevador, \"al fondo\" = no fundo, \"izquierda\" = esquerda."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "¿A qué hora ___ que dejar la habitación?",
-      "options": [
-        "hay",
-        "tiene",
-        "es"
-      ],
-      "correct": 0,
-      "explanation": "\"Hay que\" = é preciso. \"Dejar la habitación\" = fazer o check-out."
     },
     {
       "type": "boss",

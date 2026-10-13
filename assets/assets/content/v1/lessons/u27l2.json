@@ -41,6 +41,32 @@
       ]
     },
     {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "es": "la tumbona",
+          "pt": "a espreguiçadeira",
+          "emoji": "🪑"
+        },
+        {
+          "es": "el sombrero",
+          "pt": "o chapéu",
+          "emoji": "👒"
+        },
+        {
+          "es": "la crema solar",
+          "pt": "o protetor solar",
+          "emoji": "🧴"
+        },
+        {
+          "es": "las palas",
+          "pt": "o frescobol",
+          "emoji": "🏓"
+        }
+      ]
+    },
+    {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"El sol pega fuerte\" significa:",
@@ -80,71 +106,29 @@
       "explanation": "Paseo marítimo = calçadão."
     },
     {
-      "type": "swipe",
-      "title": "Igual, Quase ou Armadilha?",
-      "passMark": 6,
-      "cards": [
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
         {
-          "es": "toalla de playa",
-          "kind": "quase",
-          "meaning": "toalha de praia",
-          "tip": "Toalla = toalha, playa = praia."
+          "speaker": "Lino",
+          "es": "Vale. Pero ponte crema, que el sol pega fuerte.",
+          "pt": "Beleza. Mas passa protetor, que o sol está forte."
         },
         {
-          "es": "crema solar",
-          "kind": "quase",
-          "meaning": "protetor solar",
-          "tip": "Ponerse crema."
-        },
-        {
-          "es": "palas",
-          "kind": "armadilha",
-          "meaning": "frescobol",
-          "tip": "Palas = raquetes de frescobol. Em PT-BR, pás são as de cavar."
-        },
-        {
-          "es": "paseo marítimo",
-          "kind": "quase",
-          "meaning": "calçadão",
-          "tip": "Na beira da praia."
-        },
-        {
-          "es": "quemarse",
-          "kind": "quase",
-          "meaning": "queimar-se",
-          "tip": "Me he quemado."
-        },
-        {
-          "es": "bronceador",
-          "kind": "quase",
-          "meaning": "bronzeador",
-          "tip": "Bronceador = bronzeador."
-        },
-        {
-          "es": "bandera azul",
-          "kind": "quase",
-          "meaning": "bandeira azul (praia)",
-          "tip": "Selo de qualidade da praia."
-        },
-        {
-          "es": "surf",
-          "kind": "quase",
-          "meaning": "surfe",
-          "tip": "Surf = surfe."
-        },
-        {
-          "es": "aftersun",
-          "kind": "quase",
-          "meaning": "pós-sol",
-          "tip": "Crema aftersun."
-        },
-        {
-          "es": "botar",
-          "kind": "armadilha",
-          "meaning": "quicar (bola)",
-          "tip": "Botar = quicar (a bola). Botar (pôr) é \"poner\"."
+          "speaker": "Lu",
+          "es": "Ya me la he puesto. ¿Jugamos a las palas?",
+          "pt": "Já passei. Vamos jogar frescobol?"
         }
-      ]
+      ],
+      "speaker": "Lino",
+      "pt": "Bora! E depois uma caminhada pelo calçadão.",
+      "options": [
+        "Me he quemado un poco los hombros...",
+        "¡Venga! Y luego un paseo por el paseo marítimo.",
+        "Te lo dije. Mañana, sombrero y más crema."
+      ],
+      "correct": 1,
+      "explanation": "Lino diz: \"¡Venga! Y luego un paseo por el paseo marítimo.\" = \"Bora! E depois uma caminhada pelo calçadão.\"."
     },
     {
       "type": "choice",
@@ -187,18 +171,6 @@
       ],
       "correct": 0,
       "explanation": "Sombrero = chapéu."
-    },
-    {
-      "type": "choice",
-      "title": "Complete",
-      "prompt": "Complete: \"Me pongo el ___ para nadar.\" (maiô)",
-      "options": [
-        "bañador",
-        "bañero",
-        "malla"
-      ],
-      "correct": 0,
-      "explanation": "Bañador = maiô / roupa de banho na Espanha. \"Malla\" é da Argentina."
     },
     {
       "type": "boss",
