@@ -131,9 +131,9 @@
         },
         {
           "es": "frío",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "frio",
-          "tip": "Só ganha acento."
+          "tip": "Igual! Só que em espanhol se escreve com acento: frío."
         },
         {
           "es": "barca",

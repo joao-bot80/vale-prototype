@@ -118,9 +118,9 @@
       "cards": [
         {
           "es": "bahía",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "baía",
-          "tip": "Acento no í."
+          "tip": "Igual! Só que em espanhol se escreve com h e acento: bahía."
         },
         {
           "es": "funicular",

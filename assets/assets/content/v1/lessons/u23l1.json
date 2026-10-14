@@ -135,9 +135,9 @@
         },
         {
           "es": "ambulancia",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "ambulância",
-          "tip": "Só muda o acento: ambulância."
+          "tip": "Igual! Só que em espanhol se escreve sem acento: ambulancia."
         },
         {
           "es": "respirar",

@@ -150,9 +150,9 @@
         },
         {
           "es": "penalti",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "pênalti",
-          "tip": "Sem acento no e."
+          "tip": "Igual! Só que em espanhol se escreve sem acento: penalti."
         }
       ]
     },

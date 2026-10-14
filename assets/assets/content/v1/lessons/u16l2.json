@@ -114,9 +114,9 @@
       "cards": [
         {
           "es": "salario",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "salário",
-          "tip": "Salario = salário."
+          "tip": "Igual! Só que em espanhol se escreve sem acento: salario."
         },
         {
           "es": "bruto",

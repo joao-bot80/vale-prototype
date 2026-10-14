@@ -119,9 +119,9 @@
       "cards": [
         {
           "es": "edificio",
-          "kind": "quase",
-          "meaning": "prédio",
-          "tip": "Edificio = edifício / prédio."
+          "kind": "igual",
+          "meaning": "edifício / prédio",
+          "tip": "Igual! Só que em espanhol se escreve sem acento: edificio. No dia a dia, o brasileiro diz prédio."
         },
         {
           "es": "obra",

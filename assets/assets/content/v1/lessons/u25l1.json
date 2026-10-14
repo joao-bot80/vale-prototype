@@ -129,9 +129,9 @@
         },
         {
           "es": "premio",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "prêmio",
-          "tip": "Sem acento."
+          "tip": "Igual! Só que em espanhol se escreve sem acento: premio."
         },
         {
           "es": "reciclado",

@@ -131,9 +131,9 @@
         },
         {
           "es": "cerámica",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "cerâmica",
-          "tip": "Acento no rá."
+          "tip": "Igual! Só que em espanhol o acento é agudo: cerámica."
         },
         {
           "es": "casa natal",

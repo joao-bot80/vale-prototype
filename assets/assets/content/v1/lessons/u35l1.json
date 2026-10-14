@@ -119,9 +119,9 @@
       "cards": [
         {
           "es": "titanio",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "titânio",
-          "tip": "Sem acento."
+          "tip": "Igual! Só que em espanhol se escreve sem acento: titanio."
         },
         {
           "es": "batido",

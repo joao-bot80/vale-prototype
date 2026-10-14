@@ -126,9 +126,9 @@
         },
         {
           "es": "formulario",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "formulário",
-          "tip": "Formulario = formulário (sem acento). O EX-17 é um formulario."
+          "tip": "Igual! Só que em espanhol se escreve sem acento: formulario. O EX-17 é um formulario."
         },
         {
           "es": "caducado",

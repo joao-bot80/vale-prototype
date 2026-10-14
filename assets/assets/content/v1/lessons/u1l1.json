@@ -138,9 +138,9 @@
         },
         {
           "es": "pasaporte",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "passaporte",
-          "tip": "Só muda a grafia: um \"s\" só."
+          "tip": "Igual! Só que em espanhol se escreve com um \"s\" só: pasaporte."
         },
         {
           "es": "embarazada",

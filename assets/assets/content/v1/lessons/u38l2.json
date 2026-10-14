@@ -115,9 +115,9 @@
       "cards": [
         {
           "es": "dialecto",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "dialeto",
-          "tip": "Dialecto = dialeto."
+          "tip": "Igual! Só que em espanhol se escreve com c: dialecto."
         },
         {
           "es": "variedad",

@@ -135,9 +135,9 @@
         },
         {
           "es": "recto",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "reto",
-          "tip": "Calle recta = rua reta."
+          "tip": "Igual! Só que em espanhol se escreve com c: recto. Calle recta = rua reta."
         },
         {
           "es": "casona",
