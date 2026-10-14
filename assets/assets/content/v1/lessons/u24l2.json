@@ -131,9 +131,9 @@
         },
         {
           "es": "asado",
-          "kind": "quase",
+          "kind": "igual",
           "meaning": "assado",
-          "tip": "Igual quase."
+          "tip": "Igual! Só que em espanhol se escreve com um s só: asado."
         },
         {
           "es": "tierno",

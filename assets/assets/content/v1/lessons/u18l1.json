@@ -31,7 +31,7 @@
         {
           "speaker": "Lu",
           "es": "¿Dónde están Las Meninas?",
-          "pt": "Onde está As Meninas?"
+          "pt": "Onde fica o quadro As Meninas?"
         },
         {
           "speaker": "Taquillera",
@@ -182,10 +182,10 @@
         "fotos."
       ],
       "distractors": [
-        "tomar",
+        "tomando",
         "sacando"
       ],
-      "explanation": "Na Espanha se diz \"hacer fotos\" (também \"sacar fotos\"). \"Tomar fotos\" soa latino-americano."
+      "explanation": "Na Espanha o mais comum é \"hacer fotos\" (também se diz \"sacar fotos\" e \"tomar fotos\")."
     },
     {
       "type": "listening",

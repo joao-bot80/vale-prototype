@@ -160,7 +160,7 @@
         "cante."
       ],
       "distractors": [
-        "adoré",
+        "encantó",
         "adorei"
       ],
       "explanation": "\"Me ha encantado\" = adorei."
@@ -214,10 +214,10 @@
           "spanish": "¿Qué ropa llevo?",
           "options": [
             "Que roupa eu visto?",
-            "Que roupa eu carrego?"
+            "Que roupa eu compro?"
           ],
           "correct": 0,
-          "joke": "Llevar ropa = vestir."
+          "joke": "Llevar ropa = vestir (llevar também é levar)."
         }
       ]
     },

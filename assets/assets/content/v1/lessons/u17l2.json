@@ -209,11 +209,11 @@
         {
           "spanish": "Soy apta.",
           "options": [
-            "Fui aprovada.",
-            "Sou apta para o serviço."
+            "Fui aprovada (no exame).",
+            "Fui reprovada."
           ],
           "correct": 0,
-          "joke": "Apto = aprovado."
+          "joke": "No DELE o resultado é apto (aprovado) ou no apto (reprovado)."
         }
       ]
     },

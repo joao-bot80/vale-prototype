@@ -241,10 +241,10 @@
           "spanish": "Depende de la estación.",
           "options": [
             "Depende da estação do ano.",
-            "Depende da estação de metrô."
+            "Depende do horário do museu."
           ],
           "correct": 0,
-          "joke": "Estación = estação."
+          "joke": "Estación = estação (aqui, do ano: as flores mudam)."
         }
       ]
     },

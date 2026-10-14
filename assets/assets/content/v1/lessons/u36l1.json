@@ -64,7 +64,7 @@
         },
         {
           "es": "el membrillo",
-          "pt": "o doce de marmelo",
+          "pt": "o marmelo / doce de marmelo",
           "emoji": "🍐",
           "image": "assets/vocab/membrillo.png"
         },
@@ -204,7 +204,7 @@
             "Adoro mamilo."
           ],
           "correct": 0,
-          "joke": "Membrillo = doce de marmelo."
+          "joke": "Membrillo = marmelo; no cardápio, é o doce de marmelo."
         },
         {
           "spanish": "Comemos de pie.",

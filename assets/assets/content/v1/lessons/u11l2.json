@@ -61,7 +61,7 @@
         },
         {
           "es": "el paro",
-          "pt": "o seguro-desemprego",
+          "pt": "o desemprego",
           "emoji": "📉"
         }
       ]
@@ -191,7 +191,7 @@
             "Meu irmão está na parada."
           ],
           "correct": 0,
-          "joke": "Paro = desemprego."
+          "joke": "Estar en el paro = estar desempregado. Cobrar el paro = receber o seguro-desemprego."
         },
         {
           "spanish": "Estoy de baja por gripe.",
