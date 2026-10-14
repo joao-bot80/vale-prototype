@@ -47,27 +47,32 @@
         {
           "es": "el lunes",
           "pt": "a segunda-feira",
-          "emoji": "1️⃣"
+          "emoji": "1️⃣",
+          "image": "assets/vocab/lunes.png"
         },
         {
           "es": "el martes",
           "pt": "a terça-feira",
-          "emoji": "2️⃣"
+          "emoji": "2️⃣",
+          "image": "assets/vocab/martes.png"
         },
         {
           "es": "el miércoles",
           "pt": "a quarta-feira",
-          "emoji": "3️⃣"
+          "emoji": "3️⃣",
+          "image": "assets/vocab/miercoles.png"
         },
         {
           "es": "el jueves",
           "pt": "a quinta-feira",
-          "emoji": "4️⃣"
+          "emoji": "4️⃣",
+          "image": "assets/vocab/jueves.png"
         },
         {
           "es": "el viernes",
           "pt": "a sexta-feira",
-          "emoji": "5️⃣"
+          "emoji": "5️⃣",
+          "image": "assets/vocab/viernes.png"
         }
       ]
     },

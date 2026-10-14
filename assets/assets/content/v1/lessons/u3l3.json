@@ -47,7 +47,8 @@
         {
           "es": "el domingo",
           "pt": "o domingo",
-          "emoji": "📅"
+          "emoji": "📅",
+          "image": "assets/vocab/domingo.png"
         },
         {
           "es": "la barca",

@@ -52,7 +52,8 @@
         {
           "es": "el sábado",
           "pt": "o sábado",
-          "emoji": "6️⃣"
+          "emoji": "6️⃣",
+          "image": "assets/vocab/sabado.png"
         },
         {
           "es": "el cumpleaños",
