@@ -142,7 +142,8 @@
           "es": "manual",
           "kind": "igual",
           "meaning": "manual",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "manual"
         }
       ]
     },

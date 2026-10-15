@@ -128,7 +128,8 @@
           "es": "celebrar",
           "kind": "igual",
           "meaning": "celebrar / comemorar",
-          "tip": "Igualzinho! Celebrar uma conquista."
+          "tip": "Igualzinho! Celebrar uma conquista.",
+          "pt": "celebrar"
         },
         {
           "es": "tarta",
@@ -140,7 +141,8 @@
           "es": "debate",
           "kind": "igual",
           "meaning": "debate",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "debate"
         },
         {
           "es": "cumplido",

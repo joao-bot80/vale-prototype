@@ -119,7 +119,8 @@
           "es": "turista",
           "kind": "igual",
           "meaning": "turista",
-          "tip": "Mesma palavra, mesmo sentido."
+          "tip": "Mesma palavra, mesmo sentido.",
+          "pt": "turista"
         },
         {
           "es": "casco histórico",
@@ -135,9 +136,9 @@
         },
         {
           "es": "recto",
-          "kind": "igual",
+          "kind": "quase",
           "meaning": "reto",
-          "tip": "Igual! Só que em espanhol se escreve com c: recto. Calle recta = rua reta."
+          "tip": "Quase! Em português é reto. Em espanhol tem um c: recto. Calle recta = rua reta."
         },
         {
           "es": "casona",

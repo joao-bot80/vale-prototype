@@ -137,7 +137,8 @@
           "es": "merluza",
           "kind": "igual",
           "meaning": "merluza",
-          "tip": "Mesma palavra, mesmo peixe."
+          "tip": "Mesma palavra, mesmo peixe.",
+          "pt": "merluza"
         },
         {
           "es": "casco viejo",

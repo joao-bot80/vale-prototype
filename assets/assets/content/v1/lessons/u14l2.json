@@ -125,13 +125,15 @@
           "es": "jarra",
           "kind": "igual",
           "meaning": "jarra",
-          "tip": "Igualzinho! Una jarra de agua = uma jarra de água."
+          "tip": "Igualzinho! Una jarra de agua = uma jarra de água.",
+          "pt": "jarra"
         },
         {
           "es": "regar",
           "kind": "igual",
           "meaning": "regar",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "regar"
         },
         {
           "es": "basura",
@@ -143,7 +145,8 @@
           "es": "patio",
           "kind": "igual",
           "meaning": "pátio",
-          "tip": "Igual! Só que em espanhol se escreve sem acento: patio. Os pátios de Córdoba se enchem de flores em maio."
+          "tip": "Igual! Só que em espanhol se escreve sem acento: patio. Os pátios de Córdoba se enchem de flores em maio.",
+          "pt": "pátio"
         }
       ]
     },

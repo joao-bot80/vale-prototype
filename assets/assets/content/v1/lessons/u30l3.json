@@ -142,7 +142,8 @@
           "es": "seguir",
           "kind": "igual",
           "meaning": "continuar",
-          "tip": "Seguir = seguir / continuar. \"Sigue recto\" = siga reto."
+          "tip": "Seguir = seguir / continuar. \"Sigue recto\" = siga reto.",
+          "pt": "seguir"
         }
       ]
     },

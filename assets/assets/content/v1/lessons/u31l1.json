@@ -120,13 +120,15 @@
           "es": "peregrino",
           "kind": "igual",
           "meaning": "peregrino",
-          "tip": "Mesma palavra, mesmo sentido (peregrina no feminino)."
+          "tip": "Mesma palavra, mesmo sentido (peregrina no feminino).",
+          "pt": "peregrino"
         },
         {
           "es": "credencial",
           "kind": "igual",
           "meaning": "credencial do peregrino",
-          "tip": "Mesma palavra: a credencial é o \"passaporte\" do Caminho."
+          "tip": "Mesma palavra: a credencial é o \"passaporte\" do Caminho.",
+          "pt": "credencial"
         },
         {
           "es": "ampolla",
@@ -138,7 +140,8 @@
           "es": "etapa",
           "kind": "igual",
           "meaning": "etapa",
-          "tip": "Cada dia de caminhada."
+          "tip": "Cada dia de caminhada.",
+          "pt": "etapa"
         },
         {
           "es": "zueco",

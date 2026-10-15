@@ -118,15 +118,16 @@
       "cards": [
         {
           "es": "bahía",
-          "kind": "igual",
+          "kind": "quase",
           "meaning": "baía",
-          "tip": "Igual! Só que em espanhol se escreve com h e acento: bahía."
+          "tip": "Quase! Em português é baía. Em espanhol se escreve com h: bahía."
         },
         {
           "es": "funicular",
           "kind": "igual",
           "meaning": "funicular",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "funicular"
         },
         {
           "es": "parque de atracciones",
@@ -138,7 +139,8 @@
           "es": "monte",
           "kind": "igual",
           "meaning": "monte",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "monte"
         },
         {
           "es": "despejado",

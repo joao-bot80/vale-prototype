@@ -135,13 +135,15 @@
           "es": "norte",
           "kind": "igual",
           "meaning": "norte",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "norte"
         },
         {
           "es": "costa",
           "kind": "igual",
           "meaning": "costa / litoral",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "costa"
         }
       ]
     },

@@ -142,7 +142,8 @@
           "es": "aperitivo",
           "kind": "igual",
           "meaning": "aperitivo",
-          "tip": "Igualzinho!"
+          "tip": "Igualzinho!",
+          "pt": "aperitivo"
         },
         {
           "es": "crianza",

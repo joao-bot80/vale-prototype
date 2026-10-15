@@ -140,7 +140,8 @@
           "es": "pato",
           "kind": "igual",
           "meaning": "pato",
-          "tip": "Mesma palavra, mesmo sentido."
+          "tip": "Mesma palavra, mesmo sentido.",
+          "pt": "pato"
         },
         {
           "es": "orilla",

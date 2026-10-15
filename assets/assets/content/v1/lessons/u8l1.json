@@ -149,7 +149,8 @@
           "es": "caldo",
           "kind": "igual",
           "meaning": "caldo",
-          "tip": "Igualzinho!"
+          "tip": "Igualzinho!",
+          "pt": "caldo"
         }
       ]
     },

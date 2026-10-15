@@ -124,13 +124,15 @@
           "es": "cima",
           "kind": "igual",
           "meaning": "cume / topo",
-          "tip": "Mesma palavra: cima = topo (como \"em cima\"); em espanhol, também o cume da montanha."
+          "tip": "Mesma palavra: cima = topo (como \"em cima\"); em espanhol, também o cume da montanha.",
+          "pt": "cima"
         },
         {
           "es": "lava",
           "kind": "igual",
           "meaning": "lava",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "lava"
         },
         {
           "es": "forro polar",

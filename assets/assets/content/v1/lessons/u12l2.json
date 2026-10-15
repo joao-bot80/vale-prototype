@@ -133,13 +133,15 @@
           "es": "discoteca",
           "kind": "igual",
           "meaning": "discoteca / balada",
-          "tip": "Mesma palavra: discoteca é casa noturna. Hoje no Brasil se diz mais \"balada\"."
+          "tip": "Mesma palavra: discoteca é casa noturna. Hoje no Brasil se diz mais \"balada\".",
+          "pt": "discoteca"
         },
         {
           "es": "madrugar",
           "kind": "igual",
           "meaning": "acordar muito cedo",
-          "tip": "Mesma palavra, mesmo sentido."
+          "tip": "Mesma palavra, mesmo sentido.",
+          "pt": "madrugar"
         },
         {
           "es": "luego",

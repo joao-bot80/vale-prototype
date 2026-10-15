@@ -125,19 +125,22 @@
           "es": "concurso",
           "kind": "igual",
           "meaning": "concurso",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "concurso"
         },
         {
           "es": "premio",
           "kind": "igual",
           "meaning": "prêmio",
-          "tip": "Igual! Só que em espanhol se escreve sem acento: premio."
+          "tip": "Igual! Só que em espanhol se escreve sem acento: premio.",
+          "pt": "prêmio"
         },
         {
           "es": "reciclado",
           "kind": "igual",
           "meaning": "reciclado",
-          "tip": "Mesma palavra, mesmo sentido."
+          "tip": "Mesma palavra, mesmo sentido.",
+          "pt": "reciclado"
         },
         {
           "es": "verbena",

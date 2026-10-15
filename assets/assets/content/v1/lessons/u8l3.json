@@ -139,7 +139,8 @@
           "es": "petardo",
           "kind": "igual",
           "meaning": "petardo / bombinha",
-          "tip": "Mesma palavra, mesmo sentido."
+          "tip": "Mesma palavra, mesmo sentido.",
+          "pt": "petardo"
         },
         {
           "es": "morro",
@@ -151,7 +152,8 @@
           "es": "gigante",
           "kind": "igual",
           "meaning": "gigante",
-          "tip": "Igualzinho!"
+          "tip": "Igualzinho!",
+          "pt": "gigante"
         }
       ]
     },

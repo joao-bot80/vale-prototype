@@ -128,7 +128,8 @@
           "es": "formulario",
           "kind": "igual",
           "meaning": "formulário",
-          "tip": "Igual! Só que em espanhol se escreve sem acento: formulario. O EX-17 é um formulário."
+          "tip": "Igual! Só que em espanhol se escreve sem acento: formulario. O EX-17 é um formulário.",
+          "pt": "formulário"
         },
         {
           "es": "caducado",
@@ -140,7 +141,8 @@
           "es": "dedo",
           "kind": "igual",
           "meaning": "dedo",
-          "tip": "Igualzinho!"
+          "tip": "Igualzinho!",
+          "pt": "dedo"
         },
         {
           "es": "carné",

@@ -128,7 +128,8 @@
           "es": "uva",
           "kind": "igual",
           "meaning": "uva",
-          "tip": "Igualzinho!"
+          "tip": "Igualzinho!",
+          "pt": "uva"
         },
         {
           "es": "mango",

@@ -128,7 +128,8 @@
           "es": "marisco",
           "kind": "igual",
           "meaning": "marisco / frutos do mar",
-          "tip": "Mesma palavra, mesmo sentido."
+          "tip": "Mesma palavra, mesmo sentido.",
+          "pt": "marisco"
         },
         {
           "es": "navaja",

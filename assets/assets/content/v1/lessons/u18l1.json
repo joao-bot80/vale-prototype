@@ -124,7 +124,8 @@
           "es": "pintor",
           "kind": "igual",
           "meaning": "pintor",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "pintor"
         },
         {
           "es": "exposición",

@@ -121,25 +121,29 @@
           "es": "edificio",
           "kind": "igual",
           "meaning": "edifício / prédio",
-          "tip": "Igual! Só que em espanhol se escreve sem acento: edificio. No dia a dia, o brasileiro diz prédio."
+          "tip": "Igual! Só que em espanhol se escreve sem acento: edificio. No dia a dia, o brasileiro diz prédio.",
+          "pt": "edifício"
         },
         {
           "es": "obra",
           "kind": "igual",
           "meaning": "obra",
-          "tip": "Mesma palavra, mesmo sentido. \"En obras\" = em obras, em reforma."
+          "tip": "Mesma palavra, mesmo sentido. \"En obras\" = em obras, em reforma.",
+          "pt": "obra"
         },
         {
           "es": "catedral",
           "kind": "igual",
           "meaning": "catedral",
-          "tip": "Mesma palavra, mesmo sentido."
+          "tip": "Mesma palavra, mesmo sentido.",
+          "pt": "catedral"
         },
         {
           "es": "fachada",
           "kind": "igual",
           "meaning": "fachada",
-          "tip": "Igualzinho!"
+          "tip": "Igualzinho!",
+          "pt": "fachada"
         },
         {
           "es": "flamante",

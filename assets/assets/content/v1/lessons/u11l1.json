@@ -118,13 +118,15 @@
           "es": "hipoteca",
           "kind": "igual",
           "meaning": "hipoteca / financiamento imobiliário",
-          "tip": "Mesma palavra: na Espanha, \"hipoteca\" é também o próprio financiamento da casa."
+          "tip": "Mesma palavra: na Espanha, \"hipoteca\" é também o próprio financiamento da casa.",
+          "pt": "hipoteca"
         },
         {
           "es": "sucursal",
           "kind": "igual",
           "meaning": "sucursal / agência",
-          "tip": "Mesma palavra, mesmo sentido: sucursal = filial, agência."
+          "tip": "Mesma palavra, mesmo sentido: sucursal = filial, agência.",
+          "pt": "sucursal"
         },
         {
           "es": "interés",

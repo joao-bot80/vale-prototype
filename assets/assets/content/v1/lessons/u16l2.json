@@ -116,13 +116,15 @@
           "es": "salario",
           "kind": "igual",
           "meaning": "salário",
-          "tip": "Igual! Só que em espanhol se escreve sem acento: salario."
+          "tip": "Igual! Só que em espanhol se escreve sem acento: salario.",
+          "pt": "salário"
         },
         {
           "es": "bruto",
           "kind": "igual",
           "meaning": "bruto",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "bruto"
         },
         {
           "es": "deducción",

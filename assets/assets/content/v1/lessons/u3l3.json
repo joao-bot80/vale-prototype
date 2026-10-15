@@ -127,19 +127,22 @@
           "es": "domingo",
           "kind": "igual",
           "meaning": "domingo",
-          "tip": "Igualzinho!"
+          "tip": "Igualzinho!",
+          "pt": "domingo"
         },
         {
           "es": "frío",
           "kind": "igual",
           "meaning": "frio",
-          "tip": "Igual! Só que em espanhol se escreve com acento: frío."
+          "tip": "Igual! Só que em espanhol se escreve com acento: frío.",
+          "pt": "frio"
         },
         {
           "es": "barca",
           "kind": "igual",
           "meaning": "barca (barco pequeno)",
-          "tip": "Mesma palavra, mesmo sentido: barca também existe em português."
+          "tip": "Mesma palavra, mesmo sentido: barca também existe em português.",
+          "pt": "barca"
         },
         {
           "es": "cachorro",

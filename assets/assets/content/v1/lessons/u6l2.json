@@ -118,13 +118,15 @@
           "es": "comido",
           "kind": "igual",
           "meaning": "comido",
-          "tip": "Mesma palavra, mesmo sentido."
+          "tip": "Mesma palavra, mesmo sentido.",
+          "pt": "comido"
         },
         {
           "es": "visto",
           "kind": "igual",
           "meaning": "visto",
-          "tip": "Mesma palavra, mesmo sentido."
+          "tip": "Mesma palavra, mesmo sentido.",
+          "pt": "visto"
         },
         {
           "es": "abierto",

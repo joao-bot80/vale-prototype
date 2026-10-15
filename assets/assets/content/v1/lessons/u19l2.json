@@ -126,7 +126,8 @@
           "es": "escalar",
           "kind": "igual",
           "meaning": "escalar",
-          "tip": "Mesma palavra, mesmo sentido: escalar a torre."
+          "tip": "Mesma palavra, mesmo sentido: escalar a torre.",
+          "pt": "escalar"
         },
         {
           "es": "pegar",
@@ -138,13 +139,15 @@
           "es": "pólvora",
           "kind": "igual",
           "meaning": "pólvora",
-          "tip": "Mesma palavra, mesmo sentido: cheiro de pólvora."
+          "tip": "Mesma palavra, mesmo sentido: cheiro de pólvora.",
+          "pt": "pólvora"
         },
         {
           "es": "desfile",
           "kind": "igual",
           "meaning": "desfile",
-          "tip": "Desfile = desfile."
+          "tip": "Desfile = desfile.",
+          "pt": "desfile"
         }
       ]
     },

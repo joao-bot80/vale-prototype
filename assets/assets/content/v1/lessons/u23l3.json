@@ -144,7 +144,8 @@
           "es": "bloquear",
           "kind": "igual",
           "meaning": "bloquear",
-          "tip": "Bloquear la tarjeta = bloquear o cartão."
+          "tip": "Bloquear la tarjeta = bloquear o cartão.",
+          "pt": "bloquear"
         }
       ]
     },

@@ -131,7 +131,8 @@
           "es": "artista",
           "kind": "igual",
           "meaning": "artista",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "artista"
         },
         {
           "es": "diseñar",

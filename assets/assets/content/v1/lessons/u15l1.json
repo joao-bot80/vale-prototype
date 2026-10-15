@@ -117,7 +117,8 @@
           "es": "entrevista",
           "kind": "igual",
           "meaning": "entrevista",
-          "tip": "Igualzinho!"
+          "tip": "Igualzinho!",
+          "pt": "entrevista"
         },
         {
           "es": "sede",
@@ -135,7 +136,8 @@
           "es": "contratar",
           "kind": "igual",
           "meaning": "contratar",
-          "tip": "Igualzinho! Me han contratado = fui contratada."
+          "tip": "Igualzinho! Me han contratado = fui contratada.",
+          "pt": "contratar"
         },
         {
           "es": "prácticas",

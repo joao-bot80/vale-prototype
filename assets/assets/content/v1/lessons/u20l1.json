@@ -138,7 +138,8 @@
           "es": "taberna",
           "kind": "igual",
           "meaning": "taberna",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "taberna"
         },
         {
           "es": "estofado",

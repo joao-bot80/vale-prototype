@@ -128,7 +128,8 @@
           "es": "semáforo",
           "kind": "igual",
           "meaning": "semáforo",
-          "tip": "Igualzinho!"
+          "tip": "Igualzinho!",
+          "pt": "semáforo"
         },
         {
           "es": "plaza",

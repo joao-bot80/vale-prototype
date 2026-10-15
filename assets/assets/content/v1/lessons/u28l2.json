@@ -120,7 +120,8 @@
           "es": "varicela",
           "kind": "igual",
           "meaning": "varicela / catapora",
-          "tip": "Mesma palavra: varicela é a catapora. Não é varíola!"
+          "tip": "Mesma palavra: varicela é a catapora. Não é varíola!",
+          "pt": "varicela"
         },
         {
           "es": "chupete",
@@ -138,7 +139,8 @@
           "es": "pediatra",
           "kind": "igual",
           "meaning": "pediatra",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "pediatra"
         },
         {
           "es": "cartilla de vacunación",

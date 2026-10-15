@@ -118,7 +118,8 @@
           "es": "contrato",
           "kind": "igual",
           "meaning": "contrato",
-          "tip": "Igualzinho!"
+          "tip": "Igualzinho!",
+          "pt": "contrato"
         },
         {
           "es": "fianza",

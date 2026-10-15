@@ -120,7 +120,8 @@
           "es": "luz",
           "kind": "igual",
           "meaning": "luz (e a conta de luz)",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "luz"
         },
         {
           "es": "terraza",

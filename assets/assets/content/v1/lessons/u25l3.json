@@ -131,13 +131,15 @@
           "es": "brasa",
           "kind": "igual",
           "meaning": "brasa",
-          "tip": "Igual! Os calçots são assados na brasa, como no português."
+          "tip": "Igual! Os calçots são assados na brasa, como no português.",
+          "pt": "brasa"
         },
         {
           "es": "comida",
           "kind": "igual",
           "meaning": "comida",
-          "tip": "Mesma palavra, mesmo sentido."
+          "tip": "Mesma palavra, mesmo sentido.",
+          "pt": "comida"
         },
         {
           "es": "bollo",

@@ -130,13 +130,15 @@
           "es": "purificar",
           "kind": "igual",
           "meaning": "purificar",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "purificar"
         },
         {
           "es": "pena",
           "kind": "igual",
           "meaning": "pena / dó",
-          "tip": "¡Qué pena! = que pena. Atenção: vergonha é \"vergüenza\"."
+          "tip": "¡Qué pena! = que pena. Atenção: vergonha é \"vergüenza\".",
+          "pt": "pena"
         },
         {
           "es": "cartón",

@@ -128,7 +128,8 @@
           "es": "hotel",
           "kind": "igual",
           "meaning": "hotel",
-          "tip": "Mesma palavra, mesmo sentido."
+          "tip": "Mesma palavra, mesmo sentido.",
+          "pt": "hotel"
         },
         {
           "es": "exquisito",
@@ -138,9 +139,9 @@
         },
         {
           "es": "pasaporte",
-          "kind": "igual",
+          "kind": "quase",
           "meaning": "passaporte",
-          "tip": "Igual! Só que em espanhol se escreve com um \"s\" só: pasaporte."
+          "tip": "Quase! Em português é passaporte, com dois s. Em espanhol: pasaporte, com um s só."
         },
         {
           "es": "embarazada",

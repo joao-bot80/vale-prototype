@@ -137,7 +137,8 @@
           "es": "Semana Santa",
           "kind": "igual",
           "meaning": "Semana Santa",
-          "tip": "Mesma expressão, mesmo sentido."
+          "tip": "Mesma expressão, mesmo sentido.",
+          "pt": "Semana Santa"
         },
         {
           "es": "saeta",

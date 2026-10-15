@@ -136,7 +136,8 @@
           "es": "médico",
           "kind": "igual",
           "meaning": "médico",
-          "tip": "Igualzinho!"
+          "tip": "Igualzinho!",
+          "pt": "médico"
         },
         {
           "es": "venda",

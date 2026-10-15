@@ -131,7 +131,8 @@
           "es": "patinete",
           "kind": "igual",
           "meaning": "patinete",
-          "tip": "Patinete = patinete. \"Patinete eléctrico\"."
+          "tip": "Patinete = patinete. \"Patinete eléctrico\".",
+          "pt": "patinete"
         },
         {
           "es": "peatón",

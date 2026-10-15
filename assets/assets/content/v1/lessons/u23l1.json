@@ -125,7 +125,8 @@
           "es": "sangrar",
           "kind": "igual",
           "meaning": "sangrar",
-          "tip": "Mesma palavra, mesmo sentido."
+          "tip": "Mesma palavra, mesmo sentido.",
+          "pt": "sangrar"
         },
         {
           "es": "herido",
@@ -137,13 +138,15 @@
           "es": "ambulancia",
           "kind": "igual",
           "meaning": "ambulância",
-          "tip": "Igual! Só que em espanhol se escreve sem acento: ambulancia."
+          "tip": "Igual! Só que em espanhol se escreve sem acento: ambulancia.",
+          "pt": "ambulância"
         },
         {
           "es": "respirar",
           "kind": "igual",
           "meaning": "respirar",
-          "tip": "¿Respira? = Está respirando?"
+          "tip": "¿Respira? = Está respirando?",
+          "pt": "respirar"
         }
       ]
     },

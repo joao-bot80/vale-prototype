@@ -119,7 +119,8 @@
           "es": "ostra",
           "kind": "igual",
           "meaning": "ostra",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "ostra"
         },
         {
           "es": "crudo",
@@ -137,7 +138,8 @@
           "es": "pescador",
           "kind": "igual",
           "meaning": "pescador",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "pescador"
         },
         {
           "es": "polvo",

@@ -115,9 +115,9 @@
       "cards": [
         {
           "es": "dialecto",
-          "kind": "igual",
+          "kind": "quase",
           "meaning": "dialeto",
-          "tip": "Igual! Só que em espanhol se escreve com c: dialecto."
+          "tip": "Quase! Em português é dialeto. Em espanhol tem um c: dialecto."
         },
         {
           "es": "variedad",
@@ -129,7 +129,8 @@
           "es": "pronunciar",
           "kind": "igual",
           "meaning": "pronunciar",
-          "tip": "Mesma palavra, mesmo sentido: pronuncia bien = pronuncia bem."
+          "tip": "Mesma palavra, mesmo sentido: pronuncia bien = pronuncia bem.",
+          "pt": "pronunciar"
         },
         {
           "es": "dejo",

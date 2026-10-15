@@ -120,7 +120,8 @@
           "es": "música",
           "kind": "igual",
           "meaning": "música",
-          "tip": "Igualzinho!"
+          "tip": "Igualzinho!",
+          "pt": "música"
         },
         {
           "es": "baile",

@@ -121,7 +121,8 @@
           "es": "titanio",
           "kind": "igual",
           "meaning": "titânio",
-          "tip": "Igual! Só que em espanhol se escreve sem acento: titanio."
+          "tip": "Igual! Só que em espanhol se escreve sem acento: titanio.",
+          "pt": "titânio"
         },
         {
           "es": "batido",
@@ -133,19 +134,22 @@
           "es": "metal",
           "kind": "igual",
           "meaning": "metal",
-          "tip": "Mesma palavra, mesmo sentido."
+          "tip": "Mesma palavra, mesmo sentido.",
+          "pt": "metal"
         },
         {
           "es": "escultura",
           "kind": "igual",
           "meaning": "escultura",
-          "tip": "Igual! Como o Puppy, a escultura gigante de flores."
+          "tip": "Igual! Como o Puppy, a escultura gigante de flores.",
+          "pt": "escultura"
         },
         {
           "es": "chapa",
           "kind": "igual",
           "meaning": "chapa / placa de metal",
-          "tip": "Mesma palavra: chapa de metal (e também tampinha)."
+          "tip": "Mesma palavra: chapa de metal (e também tampinha).",
+          "pt": "chapa"
         }
       ]
     },

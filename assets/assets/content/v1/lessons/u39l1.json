@@ -119,7 +119,8 @@
           "es": "duna",
           "kind": "igual",
           "meaning": "duna",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "duna"
         },
         {
           "es": "desierto",
@@ -131,7 +132,8 @@
           "es": "oasis",
           "kind": "igual",
           "meaning": "oásis",
-          "tip": "Igual! Só que em espanhol se escreve sem acento: oasis, como o de Maspalomas."
+          "tip": "Igual! Só que em espanhol se escreve sem acento: oasis, como o de Maspalomas.",
+          "pt": "oásis"
         },
         {
           "es": "camello",

@@ -133,7 +133,8 @@
           "es": "cama",
           "kind": "igual",
           "meaning": "cama",
-          "tip": "Igualzinho!"
+          "tip": "Igualzinho!",
+          "pt": "cama"
         },
         {
           "es": "recepción",

@@ -121,25 +121,29 @@
           "es": "pintar",
           "kind": "igual",
           "meaning": "pintar",
-          "tip": "Mesma palavra, mesmo sentido."
+          "tip": "Mesma palavra, mesmo sentido.",
+          "pt": "pintar"
         },
         {
           "es": "pintura",
           "kind": "igual",
           "meaning": "pintura",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "pintura"
         },
         {
           "es": "cerámica",
           "kind": "igual",
           "meaning": "cerâmica",
-          "tip": "Igual! Só que em espanhol o acento é agudo: cerámica."
+          "tip": "Igual! Só que em espanhol o acento é agudo: cerámica.",
+          "pt": "cerâmica"
         },
         {
           "es": "casa natal",
           "kind": "igual",
           "meaning": "casa onde nasceu",
-          "tip": "Mesma expressão: casa natal = casa onde a pessoa nasceu. (Natal, a festa, é \"Navidad\".)"
+          "tip": "Mesma expressão: casa natal = casa onde a pessoa nasceu. (Natal, a festa, é \"Navidad\".)",
+          "pt": "casa natal"
         },
         {
           "es": "hacer falta",

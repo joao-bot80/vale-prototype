@@ -131,9 +131,9 @@
         },
         {
           "es": "asado",
-          "kind": "igual",
+          "kind": "quase",
           "meaning": "assado",
-          "tip": "Igual! Só que em espanhol se escreve com um s só: asado."
+          "tip": "Quase! Em português é assado, com dois s. Em espanhol: asado, com um s só."
         },
         {
           "es": "tierno",
@@ -145,7 +145,8 @@
           "es": "peso",
           "kind": "igual",
           "meaning": "peso",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "peso"
         }
       ]
     },

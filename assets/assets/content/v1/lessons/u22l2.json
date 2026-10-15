@@ -120,7 +120,8 @@
           "es": "consumo",
           "kind": "igual",
           "meaning": "consumo",
-          "tip": "Mesma palavra, mesmo sentido: consumo em kWh."
+          "tip": "Mesma palavra, mesmo sentido: consumo em kWh.",
+          "pt": "consumo"
         },
         {
           "es": "kilovatio",
@@ -144,7 +145,8 @@
           "es": "tarifa",
           "kind": "igual",
           "meaning": "tarifa",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "tarifa"
         }
       ]
     },

@@ -143,7 +143,8 @@
           "es": "apagar",
           "kind": "igual",
           "meaning": "apagar",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "apagar"
         }
       ]
     },

@@ -131,7 +131,8 @@
           "es": "ácido",
           "kind": "igual",
           "meaning": "ácido",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "ácido"
         },
         {
           "es": "joven",

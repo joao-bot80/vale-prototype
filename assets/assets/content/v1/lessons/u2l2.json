@@ -128,7 +128,8 @@
           "es": "tomate",
           "kind": "igual",
           "meaning": "tomate",
-          "tip": "Igualzinho!"
+          "tip": "Igualzinho!",
+          "pt": "tomate"
         },
         {
           "es": "patata",

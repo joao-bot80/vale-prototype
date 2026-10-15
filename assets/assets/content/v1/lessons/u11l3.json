@@ -133,7 +133,8 @@
           "es": "gasolina",
           "kind": "igual",
           "meaning": "gasolina",
-          "tip": "Mesma palavra, mesmo sentido."
+          "tip": "Mesma palavra, mesmo sentido.",
+          "pt": "gasolina"
         },
         {
           "es": "examen",

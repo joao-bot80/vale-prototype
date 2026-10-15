@@ -146,13 +146,15 @@
           "es": "empate",
           "kind": "igual",
           "meaning": "empate",
-          "tip": "Igual!"
+          "tip": "Igual!",
+          "pt": "empate"
         },
         {
           "es": "penalti",
           "kind": "igual",
           "meaning": "pênalti",
-          "tip": "Igual! Só que em espanhol se escreve sem acento: penalti."
+          "tip": "Igual! Só que em espanhol se escreve sem acento: penalti.",
+          "pt": "pênalti"
         }
       ]
     },
