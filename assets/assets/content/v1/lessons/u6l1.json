@@ -21,7 +21,7 @@
         {
           "speaker": "Camarero",
           "es": "Hoy tenemos salmorejo y pescaíto frito.",
-          "pt": "Hoje temos salmorejo e peixinho frito."
+          "pt": "Hoje temos salmorejo (creme frio de tomate) e peixinho frito."
         },
         {
           "speaker": "Lu",
@@ -112,7 +112,7 @@
       "prompt": "O que você ouviu?",
       "spanish": "Hoy tenemos salmorejo y pescaíto frito.",
       "options": [
-        "Hoje temos salmorejo e peixinho frito.",
+        "Hoje temos salmorejo (creme frio de tomate) e peixinho frito.",
         "Hoje não temos peixe frito.",
         "Ontem tinha salmorejo e peixe."
       ],
@@ -131,7 +131,7 @@
         {
           "speaker": "Camarero",
           "es": "Hoy tenemos salmorejo y pescaíto frito.",
-          "pt": "Hoje temos salmorejo e peixinho frito."
+          "pt": "Hoje temos salmorejo (creme frio de tomate) e peixinho frito."
         }
       ],
       "speaker": "Lu",

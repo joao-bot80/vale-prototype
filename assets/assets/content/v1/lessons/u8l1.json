@@ -26,7 +26,7 @@
         {
           "speaker": "Camarero",
           "es": "La valenciana: pollo, conejo, judías verdes y garrofó.",
-          "pt": "A valenciana: frango, coelho, vagem e garrofó."
+          "pt": "A valenciana: frango, coelho, vagem e garrofó (um feijão-branco grande)."
         },
         {
           "speaker": "Lu",
@@ -109,7 +109,7 @@
       "prompt": "O que você ouviu?",
       "spanish": "La valenciana: pollo, conejo, judías verdes y garrofó.",
       "options": [
-        "A valenciana: frango, coelho, vagem e garrofó.",
+        "A valenciana: frango, coelho, vagem e garrofó (um feijão-branco grande).",
         "A valenciana: camarão, lula e mexilhão.",
         "A valenciana: frango, porco e arroz."
       ],
@@ -169,14 +169,14 @@
         }
       ],
       "speaker": "Camarero",
-      "pt": "A valenciana: frango, coelho, vagem e garrofó.",
+      "pt": "A valenciana: frango, coelho, vagem e garrofó (um feijão-branco grande).",
       "options": [
         "La valenciana: pollo, conejo, judías verdes y garrofó.",
         "No, la valenciana no. Si queréis marisco, pedid la de marisco.",
         "¿Y lleva marisco?"
       ],
       "correct": 0,
-      "explanation": "Camarero diz: \"La valenciana: pollo, conejo, judías verdes y garrofó.\" = \"A valenciana: frango, coelho, vagem e garrofó.\"."
+      "explanation": "Camarero diz: \"La valenciana: pollo, conejo, judías verdes y garrofó.\" = \"A valenciana: frango, coelho, vagem e garrofó (um feijão-branco grande).\"."
     },
     {
       "type": "build",

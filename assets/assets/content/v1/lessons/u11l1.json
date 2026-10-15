@@ -21,7 +21,7 @@
         {
           "speaker": "Lu",
           "es": "Sí, tengo la TIE y el certificado de empadronamiento.",
-          "pt": "Sim, tenho a TIE e o certificado de empadronamiento."
+          "pt": "Sim, tenho a TIE e o certificado de empadronamiento (inscrição no padrón)."
         },
         {
           "speaker": "Empleado",
@@ -158,7 +158,7 @@
         {
           "speaker": "Lu",
           "es": "Sí, tengo la TIE y el certificado de empadronamiento.",
-          "pt": "Sim, tenho a TIE e o certificado de empadronamiento."
+          "pt": "Sim, tenho a TIE e o certificado de empadronamiento (inscrição no padrón)."
         }
       ],
       "speaker": "Empleado",
@@ -193,7 +193,7 @@
       "prompt": "O que você ouviu?",
       "spanish": "Sí, tengo la TIE y el certificado de empadronamiento.",
       "options": [
-        "Sim, tenho a TIE e o certificado de empadronamiento.",
+        "Sim, tenho a TIE e o certificado de empadronamiento (inscrição no padrón).",
         "Não, só tenho o passaporte.",
         "Sim, mas esqueci o certificado."
       ],

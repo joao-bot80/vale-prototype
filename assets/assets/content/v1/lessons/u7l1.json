@@ -11,7 +11,7 @@
         {
           "speaker": "Dani",
           "es": "¡Bienvenida a la Feria! Esta caseta es de unos amigos.",
-          "pt": "Bem-vinda à Feria! Esta caseta é de uns amigos."
+          "pt": "Bem-vinda à Feria! Esta caseta (barraca da Feira) é de uns amigos."
         },
         {
           "speaker": "Lu",
@@ -21,7 +21,7 @@
         {
           "speaker": "Dani",
           "es": "¿Quieres probar el rebujito? Es manzanilla con refresco.",
-          "pt": "Quer provar o rebujito? É manzanilla com refrigerante."
+          "pt": "Quer provar o rebujito (drinque típico da Feira)? É vinho manzanilla com refrigerante."
         },
         {
           "speaker": "Lu",
@@ -160,7 +160,7 @@
         {
           "speaker": "Dani",
           "es": "¿Quieres probar el rebujito? Es manzanilla con refresco.",
-          "pt": "Quer provar o rebujito? É manzanilla com refrigerante."
+          "pt": "Quer provar o rebujito (drinque típico da Feira)? É vinho manzanilla com refrigerante."
         }
       ],
       "speaker": "Lu",

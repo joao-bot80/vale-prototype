@@ -21,12 +21,12 @@
         {
           "speaker": "Camarera",
           "es": "Es una bebida fría hecha con chufa, agua y azúcar.",
-          "pt": "É uma bebida gelada feita com chufa, água e açúcar."
+          "pt": "É uma bebida gelada feita com chufa (um tubérculo pequeno), água e açúcar."
         },
         {
           "speaker": "Lu",
           "es": "Pues una horchata grande y dos fartons, por favor.",
-          "pt": "Então uma horchata grande e dois fartons, por favor."
+          "pt": "Então uma horchata grande e dois fartons (pãezinhos doces compridos), por favor."
         },
         {
           "speaker": "Camarera",
@@ -104,7 +104,7 @@
       "prompt": "O que você ouviu?",
       "spanish": "Es una bebida fría hecha con chufa, agua y azúcar.",
       "options": [
-        "É uma bebida gelada feita com chufa, água e açúcar.",
+        "É uma bebida gelada feita com chufa (um tubérculo pequeno), água e açúcar.",
         "É um café gelado com leite.",
         "É um suco de laranja com açúcar."
       ],
@@ -123,18 +123,18 @@
         {
           "speaker": "Camarera",
           "es": "Es una bebida fría hecha con chufa, agua y azúcar.",
-          "pt": "É uma bebida gelada feita com chufa, água e açúcar."
+          "pt": "É uma bebida gelada feita com chufa (um tubérculo pequeno), água e açúcar."
         }
       ],
       "speaker": "Lu",
-      "pt": "Então uma horchata grande e dois fartons, por favor.",
+      "pt": "Então uma horchata grande e dois fartons (pãezinhos doces compridos), por favor.",
       "options": [
         "Los fartons se mojan en la horchata. ¡Ya verás!",
         "Pues una horchata grande y dos fartons, por favor.",
         "¡Está buenísima! Mañana voy a volver."
       ],
       "correct": 1,
-      "explanation": "Lu diz: \"Pues una horchata grande y dos fartons, por favor.\" = \"Então uma horchata grande e dois fartons, por favor.\"."
+      "explanation": "Lu diz: \"Pues una horchata grande y dos fartons, por favor.\" = \"Então uma horchata grande e dois fartons (pãezinhos doces compridos), por favor.\"."
     },
     {
       "type": "choice",

@@ -36,7 +36,7 @@
         {
           "speaker": "Dani",
           "es": "Los costaleros, debajo. No se les ve.",
-          "pt": "Os costaleros, embaixo. Não dá para vê-los."
+          "pt": "Os costaleros (carregadores do andor), embaixo. Não dá para vê-los."
         }
       ]
     },
@@ -193,7 +193,7 @@
       "prompt": "O que você ouviu?",
       "spanish": "Los costaleros, debajo. No se les ve.",
       "options": [
-        "Os costaleros, embaixo. Não dá para vê-los.",
+        "Os costaleros (carregadores do andor), embaixo. Não dá para vê-los.",
         "Um caminhão.",
         "Os nazarenos, nos ombros."
       ],

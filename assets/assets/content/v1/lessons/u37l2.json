@@ -21,7 +21,7 @@
         {
           "speaker": "Lino",
           "es": "Exacto. Y se comen con mojo rojo o mojo verde.",
-          "pt": "Exato. E se comem com mojo vermelho ou mojo verde."
+          "pt": "Exato. E se comem com mojo (molho canário) vermelho ou mojo verde."
         },
         {
           "speaker": "Lu",
@@ -31,7 +31,7 @@
         {
           "speaker": "Lino",
           "es": "El rojo, el picón. El verde lleva cilantro.",
-          "pt": "O vermelho, o picón. O verde leva coentro."
+          "pt": "O vermelho, o picón (picante). O verde leva coentro."
         },
         {
           "speaker": "Lu",
@@ -104,7 +104,7 @@
       "prompt": "O que você ouviu?",
       "spanish": "El rojo, el picón. El verde lleva cilantro.",
       "options": [
-        "O vermelho, o picón. O verde leva coentro.",
+        "O vermelho, o picón (picante). O verde leva coentro.",
         "O verde arde mais.",
         "Os dois são doces."
       ],
@@ -123,7 +123,7 @@
         {
           "speaker": "Lino",
           "es": "Exacto. Y se comen con mojo rojo o mojo verde.",
-          "pt": "Exato. E se comem com mojo vermelho ou mojo verde."
+          "pt": "Exato. E se comem com mojo (molho canário) vermelho ou mojo verde."
         }
       ],
       "speaker": "Lu",

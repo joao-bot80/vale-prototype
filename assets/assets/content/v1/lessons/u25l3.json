@@ -31,7 +31,7 @@
         {
           "speaker": "Marta",
           "es": "Es salsa romesco: tomate, ñoras, almendras, ajo y aceite.",
-          "pt": "É molho romesco: tomate, ñoras, amêndoas, alho e azeite."
+          "pt": "É molho romesco: tomate, ñoras (pimentões secos), amêndoas, alho e azeite."
         },
         {
           "speaker": "Lu",
@@ -103,7 +103,7 @@
       "prompt": "O que você ouviu?",
       "spanish": "Es salsa romesco: tomate, ñoras, almendras, ajo y aceite.",
       "options": [
-        "É molho romesco: tomate, ñoras, amêndoas, alho e azeite.",
+        "É molho romesco: tomate, ñoras (pimentões secos), amêndoas, alho e azeite.",
         "É maionese com ketchup.",
         "É molho de queijo."
       ],

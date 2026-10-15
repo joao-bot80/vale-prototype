@@ -36,7 +36,7 @@
         {
           "speaker": "Camarero",
           "es": "Marchando. ¿Os pongo también unos boquerones?",
-          "pt": "Saindo. Querem também uns boquerones?"
+          "pt": "Saindo. Querem também uns boquerones (manjubinhas fritas)?"
         }
       ]
     },
@@ -170,7 +170,7 @@
       "prompt": "O que você ouviu?",
       "spanish": "Marchando. ¿Os pongo también unos boquerones?",
       "options": [
-        "Saindo. Querem também uns boquerones?",
+        "Saindo. Querem também uns boquerones (manjubinhas fritas)?",
         "Acabou o peixe.",
         "Não servimos peixe."
       ],

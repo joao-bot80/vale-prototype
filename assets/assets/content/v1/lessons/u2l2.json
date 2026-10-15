@@ -21,12 +21,12 @@
         {
           "speaker": "Lu",
           "es": "Vale. Pues una ración de croquetas y unas patatas bravas.",
-          "pt": "Beleza. Então uma porção de croquetes e umas batatas bravas."
+          "pt": "Beleza. Então uma porção de croquetes e umas batatas bravas (com molho picante)."
         },
         {
           "speaker": "Camarera",
           "es": "¿Algo más? La tortilla también está muy rica.",
-          "pt": "Algo mais? A tortilla também está muito gostosa."
+          "pt": "Algo mais? A tortilla (omelete de batata) também está muito gostosa."
         },
         {
           "speaker": "Lu",
@@ -168,18 +168,18 @@
         {
           "speaker": "Lu",
           "es": "Vale. Pues una ración de croquetas y unas patatas bravas.",
-          "pt": "Beleza. Então uma porção de croquetes e umas batatas bravas."
+          "pt": "Beleza. Então uma porção de croquetes e umas batatas bravas (com molho picante)."
         }
       ],
       "speaker": "Camarera",
-      "pt": "Algo mais? A tortilla também está muito gostosa.",
+      "pt": "Algo mais? A tortilla (omelete de batata) também está muito gostosa.",
       "options": [
         "¿Algo más? La tortilla también está muy rica.",
         "Sí, con cebolla, como debe ser.",
         "¿La tortilla lleva cebolla?"
       ],
       "correct": 0,
-      "explanation": "Camarera diz: \"¿Algo más? La tortilla también está muy rica.\" = \"Algo mais? A tortilla também está muito gostosa.\"."
+      "explanation": "Camarera diz: \"¿Algo más? La tortilla también está muy rica.\" = \"Algo mais? A tortilla (omelete de batata) também está muito gostosa.\"."
     },
     {
       "type": "build",

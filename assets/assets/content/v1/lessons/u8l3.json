@@ -26,7 +26,7 @@
         {
           "speaker": "Lino",
           "es": "Son los ninots de la falla. El último día los queman.",
-          "pt": "São os ninots da falla. No último dia eles são queimados."
+          "pt": "São os ninots (bonecos gigantes) da falla. No último dia eles são queimados."
         },
         {
           "speaker": "Lu",
@@ -36,7 +36,7 @@
         {
           "speaker": "Lino",
           "es": "Sí, es la cremà. Esa noche vamos a verla juntos.",
-          "pt": "Sim, é a cremà. Nessa noite vamos ver juntos."
+          "pt": "Sim, é a cremà (a queima das fallas). Nessa noite vamos ver juntos."
         }
       ]
     },
@@ -171,14 +171,14 @@
         }
       ],
       "speaker": "Lino",
-      "pt": "São os ninots da falla. No último dia eles são queimados.",
+      "pt": "São os ninots (bonecos gigantes) da falla. No último dia eles são queimados.",
       "options": [
         "¿Los queman? ¡Pero son preciosos!",
         "Son los ninots de la falla. El último día los queman.",
         "Sí, es la cremà. Esa noche vamos a verla juntos."
       ],
       "correct": 1,
-      "explanation": "Lino diz: \"Son los ninots de la falla. El último día los queman.\" = \"São os ninots da falla. No último dia eles são queimados.\"."
+      "explanation": "Lino diz: \"Son los ninots de la falla. El último día los queman.\" = \"São os ninots (bonecos gigantes) da falla. No último dia eles são queimados.\"."
     },
     {
       "type": "build",
@@ -203,7 +203,7 @@
       "prompt": "O que você ouviu?",
       "spanish": "Son los ninots de la falla. El último día los queman.",
       "options": [
-        "São os ninots da falla. No último dia eles são queimados.",
+        "São os ninots (bonecos gigantes) da falla. No último dia eles são queimados.",
         "Os ninots são guardados num museu.",
         "Hoje é o primeiro dia da falla."
       ],
