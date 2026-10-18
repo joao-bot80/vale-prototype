@@ -16,7 +16,7 @@
         {
           "speaker": "Lino",
           "es": "En guagua. Aquí el autobús se llama guagua.",
-          "pt": "De guagua. Aqui o ônibus se chama guagua."
+          "pt": "De guagua (ônibus). Aqui o ônibus se chama guagua."
         },
         {
           "speaker": "Lu",
@@ -80,7 +80,7 @@
         "Cachorro"
       ],
       "correct": 0,
-      "explanation": "Guagua = autobús em Canárias (e Cuba)."
+      "explanation": "Nas Canárias, guagua é ônibus; em outras regiões do mundo hispânico, a palavra pode ter outro sentido."
     },
     {
       "type": "build",
@@ -126,13 +126,15 @@
           "es": "casco histórico",
           "kind": "armadilha",
           "meaning": "centro histórico",
-          "tip": "Casco (urbano) = centro. Em português, casco é a pata do cavalo ou o do navio."
+          "tip": "Casco histórico é a parte antiga ou o centro histórico da cidade. Casco urbano é a área construída, expressão que também existe em português. Casco não significa sempre centro.",
+          "context": "Paseamos por el casco histórico."
         },
         {
           "es": "tarjeta de transporte",
           "kind": "armadilha",
           "meaning": "cartão de transporte",
-          "tip": "Tarjeta = cartão. Em português, tarja é uma faixa/listra."
+          "tip": "Aqui, tarjeta é um cartão de transporte. Tarja, em português, costuma indicar uma faixa ou listra.",
+          "context": "Recarga la tarjeta."
         },
         {
           "es": "recto",
@@ -155,7 +157,7 @@
         {
           "speaker": "Lino",
           "es": "En guagua. Aquí el autobús se llama guagua.",
-          "pt": "De guagua. Aqui o ônibus se chama guagua."
+          "pt": "De guagua (ônibus). Aqui o ônibus se chama guagua."
         },
         {
           "speaker": "Lu",
@@ -195,7 +197,7 @@
       "prompt": "O que você ouviu?",
       "spanish": "En guagua. Aquí el autobús se llama guagua.",
       "options": [
-        "De guagua. Aqui o ônibus se chama guagua.",
+        "De guagua (ônibus). Aqui o ônibus se chama guagua.",
         "De táxi.",
         "A pé."
       ],
@@ -208,22 +210,22 @@
       "bossName": "Falso Amigo",
       "questions": [
         {
-          "spanish": "Coge la guagua.",
+          "spanish": "En Tenerife, coge la guagua.",
           "options": [
-            "Pega o ônibus.",
-            "Pega o bebê."
+            "Em Tenerife, pegue o ônibus.",
+            "Em Tenerife, pegue o trem."
           ],
           "correct": 0,
-          "joke": "Guagua = ônibus, nas Canárias."
+          "joke": "Em Tenerife, guagua é ônibus. O sentido pode mudar em outras regiões de língua espanhola."
         },
         {
-          "spanish": "Pide un plano.",
+          "spanish": "Pide un plano de La Laguna.",
           "options": [
-            "Peça um mapa da cidade.",
-            "Peça um plano de negócios."
+            "Peça um mapa de La Laguna.",
+            "Peça uma passagem para La Laguna."
           ],
           "correct": 0,
-          "joke": "Plano = mapa."
+          "joke": "Aqui, plano é um mapa da cidade. A palavra tem outros sentidos em espanhol e português."
         },
         {
           "spanish": "Habla con el conductor.",
@@ -235,13 +237,13 @@
           "joke": "Conductor = motorista."
         },
         {
-          "spanish": "Saca un bono.",
+          "spanish": "Compra un bono para la guagua.",
           "options": [
-            "Tire um passe.",
-            "Tire um bônus."
+            "Compre um passe para o ônibus.",
+            "Compre uma recarga para o celular."
           ],
           "correct": 0,
-          "joke": "Bono = passe de transporte."
+          "joke": "Neste contexto, bono é um passe de transporte; a palavra tem outros usos."
         }
       ]
     },
@@ -254,7 +256,7 @@
           "emoji": "🚌",
           "title": "Guagua",
           "es": "Coger la guagua.",
-          "pt": "Nas Canárias, \"guagua\" = ônibus. Entenda; no resto da Espanha se diz \"autobús\"."
+          "pt": "Nas Canárias, guagua é a palavra habitual para ônibus. Autobús também é espanhol correto e é comum em outras partes da Espanha."
         },
         {
           "emoji": "🏛️",

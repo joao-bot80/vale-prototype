@@ -36,7 +36,7 @@
         {
           "speaker": "Policía",
           "es": "Perfecto. La firma aquí y le doy una copia para pedir la TIE nueva.",
-          "pt": "Perfeito. Assine aqui e te dou uma cópia para pedir a nova TIE."
+          "pt": "Perfeito. Assine aqui e lhe dou uma cópia para pedir a segunda via da TIE."
         }
       ]
     },
@@ -65,21 +65,22 @@
         {
           "es": "la denuncia",
           "pt": "o boletim de ocorrência",
-          "emoji": "📝"
+          "emoji": "📝",
+          "image": "assets/vocab/denuncia.png"
         }
       ]
     },
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Poner una denuncia\" significa:",
+      "prompt": "Nesta ida à delegacia, \"poner una denuncia\" significa:",
       "options": [
         "Registrar uma ocorrência (B.O.)",
-        "Denunciar um vizinho anonimamente",
+        "Solicitar um visto",
         "Fazer uma reclamação na loja"
       ],
       "correct": 0,
-      "explanation": "Denuncia = boletim de ocorrência."
+      "explanation": "Neste contexto, é comunicar a ocorrência à polícia. Denuncia também pode ser traduzida por denúncia; não corresponde sempre ao mesmo documento brasileiro."
     },
     {
       "type": "build",
@@ -126,7 +127,8 @@
           "es": "comisaría",
           "kind": "armadilha",
           "meaning": "delegacia",
-          "tip": "Comisaría = delegacia. Em português, comissária é a de bordo (aeromoça)."
+          "tip": "Comisaría, com acento no í, é a delegacia. Comisaria, sem acento, pode ser a comissária: muda a sílaba tônica. Comissária de bordo é auxiliar de vuelo.",
+          "context": "Voy a la comisaría a poner una denuncia."
         },
         {
           "es": "cartera",
@@ -186,7 +188,7 @@
         "denuncia."
       ],
       "distractors": [
-        "dar",
+        "poniendo",
         "fazer"
       ],
       "explanation": "Na Espanha: poner una denuncia."
@@ -197,7 +199,7 @@
       "prompt": "O que você ouviu?",
       "spanish": "Perfecto. La firma aquí y le doy una copia para pedir la TIE nueva.",
       "options": [
-        "Perfeito. Assine aqui e te dou uma cópia para pedir a nova TIE.",
+        "Perfeito. Assine aqui e lhe dou uma cópia para pedir a segunda via da TIE.",
         "Volte em um mês.",
         "Não precisa assinar nada."
       ],
@@ -256,7 +258,7 @@
           "emoji": "👮",
           "title": "Denúncia online",
           "es": "Denuncia por internet y firma en comisaría.",
-          "pt": "Para furtos sem autor conhecido você pode começar a denúncia na Oficina Virtual da Policía Nacional, mas precisa assiná-la na delegacia escolhida em no máximo 72 horas. Na Catalunha atendem os Mossos d'Esquadra; no País Basco, a Ertzaintza. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "A Oficina Virtual da Policía Nacional aceita apenas certas ocorrências. Não use essa via quando houver violência, intimidação, autor conhecido ou testemunhas, entre outras restrições. Se o caso for aceito, assine na delegacia escolhida em até 72 horas para validar o registro. Confira também os canais da polícia competente na região. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "🇧🇷",

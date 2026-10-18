@@ -20,8 +20,8 @@
         },
         {
           "speaker": "Marta",
-          "es": "Una especie de cebolla tierna, asada a la brasa. Se pelan con la mano.",
-          "pt": "Uma espécie de cebola tenra, assada na brasa. Se descascam com a mão."
+          "es": "Son cebollas tiernas asadas a la llama. Se pelan con la mano.",
+          "pt": "São cebolas tenras assadas diretamente na chama. A gente descasca com a mão."
         },
         {
           "speaker": "Lu",
@@ -46,7 +46,7 @@
       "words": [
         {
           "es": "el calçot",
-          "pt": "o calçot (cebolinha catalã)",
+          "pt": "o calçot (cebola alongada catalã)",
           "emoji": "🧅",
           "image": "assets/vocab/cal_ot.png"
         },
@@ -92,10 +92,10 @@
         "babero."
       ],
       "distractors": [
-        "pon",
+        "ponéis",
         "barbero"
       ],
-      "explanation": "Imperativo: ponte (tú)."
+      "explanation": "\"Ponte\" = ponha em você: imperativo de ponerse (tú). \"Babero\" é babador; \"barbero\" é barbeiro."
     },
     {
       "type": "listening",
@@ -131,7 +131,7 @@
           "es": "brasa",
           "kind": "igual",
           "meaning": "brasa",
-          "tip": "Igual! Os calçots são assados na brasa, como no português.",
+          "tip": "Igual! \"Carne a la brasa\" = carne na brasa.",
           "pt": "brasa"
         },
         {
@@ -144,8 +144,9 @@
         {
           "es": "bollo",
           "kind": "armadilha",
-          "meaning": "pãozinho doce",
-          "tip": "Bollo = pãozinho doce (bollería = doces de padaria). Bolo é \"tarta\" ou \"bizcocho\"."
+          "meaning": "pãozinho",
+          "tip": "Aqui, \"bollo de pan\" = pãozinho. \"Bollo\" também pode ser um produto de massa doce, semelhante a um bolo. Para o bolo brasileiro, são comuns \"bizcocho\" ou \"tarta\", conforme o tipo.",
+          "context": "Quiero un bollo de pan."
         }
       ]
     },
@@ -160,8 +161,8 @@
         },
         {
           "speaker": "Marta",
-          "es": "Una especie de cebolla tierna, asada a la brasa. Se pelan con la mano.",
-          "pt": "Uma espécie de cebola tenra, assada na brasa. Se descascam com a mão."
+          "es": "Son cebollas tiernas asadas a la llama. Se pelan con la mano.",
+          "pt": "São cebolas tenras assadas diretamente na chama. A gente descasca com a mão."
         }
       ],
       "speaker": "Lu",
@@ -195,14 +196,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Una especie de cebolla tierna, asada a la brasa. Se pelan con la mano.",
+      "spanish": "Son cebollas tiernas asadas a la llama. Se pelan con la mano.",
       "options": [
-        "Uma espécie de cebola tenra, assada na brasa. Se descascam com a mão.",
+        "São cebolas tenras assadas diretamente na chama. A gente descasca com a mão.",
         "Um tipo de batata cozida.",
         "Um alho cru."
       ],
       "correct": 0,
-      "explanation": "Asado a la brasa = na brasa."
+      "explanation": "\"Asadas a la llama\" = assadas diretamente na chama. É a preparação tradicional dos calçots; as brasas costumam ser aproveitadas depois para a carne."
     },
     {
       "type": "boss",
@@ -256,13 +257,13 @@
           "emoji": "🧅",
           "title": "Calçotada",
           "es": "Vamos de calçotada.",
-          "pt": "Encontro típico do inverno e começo da primavera na Catalunha (origem em Valls): calçots na brasa com molho romesco. Em catalão: \"calçotada\"."
+          "pt": "Encontro típico do inverno e começo da primavera na Catalunha, com origem em Valls. Os calçots são cebolas alongadas assadas diretamente na chama e servidas tradicionalmente com salvitxada, molho parecido com o romesco. Em catalão: \"calçotada\"."
         },
         {
           "emoji": "🥣",
           "title": "Romesco",
           "es": "Salsa romesco.",
-          "pt": "Molho catalão de tomate e pimentão assados, ñoras, amêndoas ou avelãs, alho, azeite e pão."
+          "pt": "Molho catalão com tomate, ñoras (pimentões secos), amêndoas ou avelãs, alho e azeite; muitas receitas levam pão e vinagre. É parecido com a salvitxada usada nas calçotadas."
         }
       ]
     }

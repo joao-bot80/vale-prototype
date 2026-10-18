@@ -15,18 +15,18 @@
         },
         {
           "speaker": "Lino",
-          "es": "Sí. No pronuncian la zeta como en Madrid: \"zapato\" suena con ese.",
-          "pt": "Sim. Não pronunciam o z como em Madri: \"zapato\" soa com s."
+          "es": "Sí, aquí es habitual el seseo: la zeta suena como ese.",
+          "pt": "Sim, aqui o seseo é habitual: o z soa como s."
         },
         {
           "speaker": "Lu",
-          "es": "¡Como nosotros en portugués!",
-          "pt": "Como nós em português!"
+          "es": "¡Como la ese de «sapato» en portugués!",
+          "pt": "Como o s de «sapato» em português!"
         },
         {
           "speaker": "Lino",
-          "es": "Y las eses al final a veces casi desaparecen.",
-          "pt": "E os s no final às vezes quase somem."
+          "es": "Y la ese al final de sílaba a veces se aspira o no se pronuncia.",
+          "pt": "E o s no final de sílaba às vezes vira um sopro ou não é pronunciado."
         },
         {
           "speaker": "Lu",
@@ -35,8 +35,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Entiéndelo bien. Pero aprende el castellano de la Península como base.",
-          "pt": "Entenda bem. Mas aprenda o castelhano da Península como base."
+          "es": "Puedes usar el seseo: también es correcto. Lo importante es que te entiendan.",
+          "pt": "Você pode usar o seseo: também é correto. O importante é que entendam você."
         }
       ]
     },
@@ -45,8 +45,8 @@
       "title": "Palavras novas",
       "words": [
         {
-          "es": "vosotros",
-          "pt": "vocês (Península)",
+          "es": "ustedes",
+          "pt": "vocês (nas Canárias, também entre amigos)",
           "emoji": "👥"
         },
         {
@@ -64,7 +64,8 @@
         {
           "es": "el acento",
           "pt": "o sotaque",
-          "emoji": "🗣️"
+          "emoji": "🗣️",
+          "image": "assets/vocab/acento.png"
         }
       ]
     },
@@ -78,7 +79,7 @@
         "Gaguejar"
       ],
       "correct": 0,
-      "explanation": "Comum em Canárias, Andaluzia e América. O c de \"casa\" não muda."
+      "explanation": "O seseo é normal nas Canárias, em parte da Andaluzia e na América hispânica. É uma pronúncia correta. O c de casa não muda."
     },
     {
       "type": "build",
@@ -99,14 +100,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Entiéndelo bien. Pero aprende el castellano de la Península como base.",
+      "spanish": "Puedes usar el seseo: también es correcto. Lo importante es que te entiendan.",
       "options": [
-        "Entenda bem. Mas aprenda o castelhano da Península como base.",
+        "Você pode usar o seseo: também é correto. O importante é que entendam você.",
         "Copie tudo do sotaque.",
         "Fale só português."
       ],
       "correct": 0,
-      "explanation": "Reconhecer ≠ imitar."
+      "explanation": "Seseo e distinção entre s e z são pronúncias corretas do espanhol. A Península também tem variedades com seseo."
     },
     {
       "type": "swipe",
@@ -136,13 +137,16 @@
           "es": "dejo",
           "kind": "armadilha",
           "meaning": "sotaque leve / entonação",
-          "tip": "El dejo = sotaque leve, entonação. Não confunda com \"yo dejo\" = eu deixo (do verbo dejar)."
+          "tip": "Aqui, dejo é um traço de sotaque ou entonação. Em outros contextos, pode ser um sabor que fica na boca ou a forma verbal yo dejo (eu deixo).",
+          "context": "Su voz tiene un dejo canario."
         },
         {
           "es": "cacho",
-          "kind": "armadilha",
-          "meaning": "pedaço",
-          "tip": "Cacho = pedaço (\"un cacho de pan\"). Cacho de uva é \"racimo\"."
+          "kind": "igual",
+          "meaning": "pedaço / bocado",
+          "tip": "Cacho significa pedaço em espanhol. Em português também pode ser uma pequena porção ou bocado, embora esse uso seja menos comum no Brasil. Cacho de uvas é racimo de uvas em espanhol.",
+          "pt": "cacho",
+          "context": "Quiero un cacho de pan."
         }
       ]
     },
@@ -152,24 +156,24 @@
       "context": [
         {
           "speaker": "Lino",
-          "es": "Sí. No pronuncian la zeta como en Madrid: \"zapato\" suena con ese.",
-          "pt": "Sim. Não pronunciam o z como em Madri: \"zapato\" soa com s."
+          "es": "Sí, aquí es habitual el seseo: la zeta suena como ese.",
+          "pt": "Sim, aqui o seseo é habitual: o z soa como s."
         },
         {
           "speaker": "Lu",
-          "es": "¡Como nosotros en portugués!",
-          "pt": "Como nós em português!"
+          "es": "¡Como la ese de «sapato» en portugués!",
+          "pt": "Como o s de «sapato» em português!"
         }
       ],
       "speaker": "Lino",
-      "pt": "E os s no final às vezes quase somem.",
+      "pt": "E o s no final de sílaba às vezes vira um sopro ou não é pronunciado.",
       "options": [
-        "Y las eses al final a veces casi desaparecen.",
-        "Entiéndelo bien. Pero aprende el castellano de la Península como base.",
+        "Y la ese al final de sílaba a veces se aspira o no se pronuncia.",
+        "Puedes usar el seseo: también es correcto. Lo importante es que te entiendan.",
         "¿Debo copiar el acento?"
       ],
       "correct": 0,
-      "explanation": "Lino diz: \"Y las eses al final a veces casi desaparecen.\" = \"E os s no final às vezes quase somem.\"."
+      "explanation": "Lino diz: \"Y la ese al final de sílaba a veces se aspira o no se pronuncia.\" = \"E o s no final de sílaba às vezes vira um sopro ou não é pronunciado.\"."
     },
     {
       "type": "build",
@@ -192,14 +196,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Sí. No pronuncian la zeta como en Madrid: \"zapato\" suena con ese.",
+      "spanish": "Sí, aquí es habitual el seseo: la zeta suena como ese.",
       "options": [
-        "Sim. Não pronunciam o z como em Madri: zapato soa com s.",
+        "Sim, aqui o seseo é habitual: o z soa como s.",
         "Falam igual Madri.",
         "Falam inglês."
       ],
       "correct": 0,
-      "explanation": "Seseo."
+      "explanation": "Seseo: z e c antes de e/i têm som de s, como o s inicial de sapato em português."
     },
     {
       "type": "boss",
@@ -234,13 +238,13 @@
           "joke": "Isleño = ilhéu, da ilha."
         },
         {
-          "spanish": "Tiene un dejo dulce.",
+          "spanish": "Su voz tiene un dejo canario.",
           "options": [
-            "Tem um sotaque doce.",
-            "Deixa um doce."
+            "Sua voz tem um leve sotaque canário.",
+            "Sua voz tem um leve sotaque francês."
           ],
           "correct": 0,
-          "joke": "Dejo = sotaque leve."
+          "joke": "Dejo indica aqui um traço de sotaque ou entonação."
         }
       ]
     },
@@ -253,13 +257,13 @@
           "emoji": "🗣️",
           "title": "Sotaque canário",
           "es": "Seseo y eses suaves.",
-          "pt": "Nas Canárias usa-se o seseo (z, e c antes de e/i, como s) e o s final se aspira. Entenda-o; o curso usa como referência a pronúncia do centro e norte da Espanha. O seseo também é correto."
+          "pt": "Nas Canárias, o seseo é habitual: z e c antes de e/i soam como s. O s no fim de sílaba pode ser aspirado ou omitido; o uso varia entre falantes e situações. São características legítimas do espanhol canário. O áudio do curso usa como referência a pronúncia do centro e norte da Espanha; não é uma demonstração do sotaque local."
         },
         {
           "emoji": "👥",
           "title": "Vocês",
-          "es": "En las islas, otra forma de decir vosotros.",
-          "pt": "Nas Canárias (como na América) usa-se \"ustedes\" também entre amigos para \"vocês\". Só para reconhecer: aqui praticamos \"vosotros\"."
+          "es": "Ustedes hablan español.",
+          "pt": "Nas Canárias, ustedes é habitual para vocês também entre amigos. Usa-se com a terceira pessoa do plural: ustedes hablan. Na maior parte da Espanha peninsular, entre amigos é comum vosotros habláis. As duas formas são corretas em seus contextos."
         }
       ]
     }

@@ -189,22 +189,22 @@
       "bossName": "Falso Amigo",
       "questions": [
         {
-          "spanish": "Pásame el aceite, por favor.",
+          "spanish": "Pásame el aceite de oliva, por favor.",
           "options": [
             "Me passa o azeite, por favor.",
             "Me passa o aceite, por favor."
           ],
           "correct": 0,
-          "joke": "Aceite = azeite ou óleo. Aceito é \"aceptado\"!"
+          "joke": "\"Aceite de oliva\" = azeite. \"Aceite\" sozinho pode ser óleo de outros tipos; o \"aceite\" de uma proposta é \"aceptación\"."
         },
         {
-          "spanish": "No cocino con manteca.",
+          "spanish": "No cocino con manteca de cerdo.",
           "options": [
-            "Não cozinho com banha.",
+            "Não cozinho com banha de porco.",
             "Não cozinho com manteiga."
           ],
           "correct": 0,
-          "joke": "Manteca = banha. Manteiga é \"mantequilla\"."
+          "joke": "\"Manteca de cerdo\" = banha de porco. \"Manteca\" pode designar outras gorduras e, em alguns usos, manteiga; na Espanha, para manteiga usamos normalmente \"mantequilla\"."
         },
         {
           "spanish": "La leche está fría.",
@@ -233,9 +233,9 @@
       "items": [
         {
           "emoji": "🕒",
-          "title": "Domingo é dia de fechar",
+          "title": "Compras no domingo",
           "es": "¿A qué hora cierra el súper?",
-          "pt": "Supermercados costumam abrir das 9h às 21h ou 21h30. Na Catalunha, os supermercados grandes só podem abrir em poucos domingos e feriados por ano, então a maioria fecha aos domingos (lojinhas de bairro e de conveniência costumam abrir). Planeje as compras no sábado!"
+          "pt": "Muitos supermercados fecham aos domingos, mas há exceções conforme o estabelecimento, a zona e a época do ano. Em Barcelona, lojas em zonas turísticas podem ter abertura dominical autorizada; lojas de conveniência também seguem regras próprias. Confira o horário da loja antes de ir."
         },
         {
           "emoji": "🏷️",

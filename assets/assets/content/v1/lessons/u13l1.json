@@ -58,7 +58,7 @@
         },
         {
           "es": "las patatas fritas",
-          "pt": "as batatas chips",
+          "pt": "as batatas fritas (aqui, chips)",
           "emoji": "🥔",
           "image": "assets/vocab/patatas_fritas.png"
         },
@@ -80,7 +80,7 @@
         "Lavar a louça"
       ],
       "correct": 0,
-      "explanation": "Em Barcelona, \"fer el vermut\" é o aperitivo de fim de semana antes de comer."
+      "explanation": "Em Barcelona, \"hacer el vermut\" é tomar um aperitivo, geralmente antes do almoço. Em catalão se diz \"fer el vermut\"."
     },
     {
       "type": "build",
@@ -100,7 +100,7 @@
         "almoço",
         "fazer"
       ],
-      "explanation": "\"Antes de comer\" = antes do almoço."
+      "explanation": "\"Comer\" = comer. Neste convite para o aperitivo, \"antes de comer\" significa antes do almoço."
     },
     {
       "type": "listening",
@@ -134,9 +134,11 @@
         },
         {
           "es": "bodega",
-          "kind": "armadilha",
-          "meaning": "adega / bar",
-          "tip": "Bodega = adega ou bar de vinhos. Em português, bodega costuma ser boteco simples ou, na gíria, coisa ruim."
+          "kind": "igual",
+          "meaning": "bar / taberna",
+          "tip": "Neste uso, \"bodega\" é um bar ou taberna, sentido que também existe em português. Em espanhol, a palavra ainda pode indicar adega ou vinícola; em português, também pode ser uma mercearia ou ter usos depreciativos.",
+          "pt": "bodega",
+          "context": "En esta bodega sirven vermut."
         },
         {
           "es": "aperitivo",
@@ -148,8 +150,9 @@
         {
           "es": "crianza",
           "kind": "armadilha",
-          "meaning": "envelhecimento (vinho); criação",
-          "tip": "Vino de crianza = vinho envelhecido em barril. Criança é \"niño/niña\"."
+          "meaning": "envelhecimento do vinho",
+          "tip": "Aqui, \"crianza\" se refere ao envelhecimento do vinho. Fora desse contexto, também pode ser criação ou educação de filhos; criança é \"niño/niña\".",
+          "context": "Este vino es de crianza."
         }
       ]
     },
@@ -206,7 +209,7 @@
         "Só a bebida, sem comida."
       ],
       "correct": 0,
-      "explanation": "\"Olivas\" também se usa em Barcelona; no resto da Espanha, mais \"aceitunas\"."
+      "explanation": "\"Olivas\" e \"aceitunas\" são palavras espanholas para azeitonas. \"Olivas\" é frequente na Catalunha, mas não é exclusiva dessa região."
     },
     {
       "type": "boss",

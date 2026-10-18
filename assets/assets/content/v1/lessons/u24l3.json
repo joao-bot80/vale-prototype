@@ -65,7 +65,8 @@
         {
           "es": "mañana",
           "pt": "amanhã",
-          "emoji": "🌅"
+          "emoji": "🌅",
+          "image": "assets/vocab/manana.png"
         }
       ]
     },

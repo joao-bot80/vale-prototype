@@ -16,12 +16,12 @@
         {
           "speaker": "Lu",
           "es": "¡Qué vergüenza! No sabía ni pedir una caña.",
-          "pt": "Que vergonha! Eu não sabia nem pedir uma cerveja."
+          "pt": "Que vergonha! Eu não sabia nem pedir um chope pequeno."
         },
         {
           "speaker": "Lino",
-          "es": "Y ahora pides el vermut en Barcelona como una local.",
-          "pt": "E agora você pede o vermute em Barcelona como uma local."
+          "es": "Y ahora pides el vermut en Barcelona como alguien de allí.",
+          "pt": "E agora você pede o vermute em Barcelona como alguém de lá."
         },
         {
           "speaker": "Lu",
@@ -59,12 +59,14 @@
         {
           "es": "el recuerdo",
           "pt": "a lembrança",
-          "emoji": "🎁"
+          "emoji": "🎁",
+          "image": "assets/vocab/recuerdo.png"
         },
         {
           "es": "echar de menos",
           "pt": "sentir saudade",
-          "emoji": "💭"
+          "emoji": "💭",
+          "image": "assets/vocab/echar_de_menos.png"
         }
       ]
     },
@@ -92,22 +94,22 @@
       ],
       "distractors": [
         "lembras",
-        "recuerdas de"
+        "acordáis"
       ],
-      "explanation": "\"Acordarse de\" + algo."
+      "explanation": "Acordarse de algo = lembrar-se de algo. Recordar algo também pode expressar essa ideia, sem de."
     },
     {
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Y ahora pides el vermut en Barcelona como una local.",
+      "spanish": "Y ahora pides el vermut en Barcelona como alguien de allí.",
       "options": [
-        "E agora você pede o vermute em Barcelona como uma local.",
+        "E agora você pede o vermute em Barcelona como alguém de lá.",
         "E agora você não bebe mais vermute.",
         "E agora você mora em Valencia."
       ],
       "correct": 0,
-      "explanation": "Revisão: hacer el vermut (u13)."
+      "explanation": "Vermut é vermute. Hacer el vermut é tomar um aperitivo, muitas vezes antes do almoço."
     },
     {
       "type": "complete",
@@ -116,12 +118,12 @@
         {
           "speaker": "Lu",
           "es": "¡Qué vergüenza! No sabía ni pedir una caña.",
-          "pt": "Que vergonha! Eu não sabia nem pedir uma cerveja."
+          "pt": "Que vergonha! Eu não sabia nem pedir um chope pequeno."
         },
         {
           "speaker": "Lino",
-          "es": "Y ahora pides el vermut en Barcelona como una local.",
-          "pt": "E agora você pede o vermute em Barcelona como uma local."
+          "es": "Y ahora pides el vermut en Barcelona como alguien de allí.",
+          "pt": "E agora você pede o vermute em Barcelona como alguém de lá."
         }
       ],
       "speaker": "Lu",
@@ -137,14 +139,14 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Esto está exquisito\" significa:",
+      "prompt": "Ao provar a comida, \"esto está exquisito\" significa:",
       "options": [
         "Isto está delicioso",
-        "Isto está esquisito",
+        "Isto está frio",
         "Isto está estragado"
       ],
       "correct": 0,
-      "explanation": "Exquisito = delicioso. Raro = esquisito."
+      "explanation": "Falando da comida, exquisito significa delicioso ou de excelente sabor. Em outros contextos, também pode indicar algo refinado ou de grande qualidade."
     },
     {
       "type": "build",
@@ -157,10 +159,10 @@
         "logro!"
       ],
       "distractors": [
-        "felizidades",
+        "lo",
         "parabéns"
       ],
-      "explanation": "\"Enhorabuena\" para conquistas."
+      "explanation": "Enhorabuena é uma felicitação por uma conquista. Felicidades também pode ser usado para felicitar alguém, além dos aniversários."
     },
     {
       "type": "listening",
@@ -173,7 +175,7 @@
         "Nunca procurei apartamento."
       ],
       "correct": 0,
-      "explanation": "Revisão: piso e contrato (u4, u22)."
+      "explanation": "Piso pode ser apartamento. A fala retoma a experiência de Lu ao procurar moradia e ler um contrato."
     },
     {
       "type": "boss",
@@ -199,13 +201,13 @@
           "joke": "Acordarse = lembrar-se."
         },
         {
-          "spanish": "Recuerdos a tu familia.",
+          "spanish": "Dale recuerdos a tu familia.",
           "options": [
-            "Lembranças à sua família.",
-            "Souvenires para sua família."
+            "Mande lembranças à sua família.",
+            "Peça desculpas à sua família."
           ],
           "correct": 0,
-          "joke": "Recuerdos = lembranças."
+          "joke": "Dar recuerdos a alguien é mandar lembranças ou cumprimentos. Em outros contextos, recuerdos também pode indicar memórias ou recordações materiais."
         },
         {
           "spanish": "¡Enhorabuena, has aprobado!",
@@ -227,7 +229,7 @@
           "emoji": "📸",
           "title": "Madrid e Barcelona",
           "es": "De Madrid a Barcelona.",
-          "pt": "Você aprendeu a se virar no metrô, pedir tapas, procurar piso, marcar compromissos e curtir as festas de Barcelona, sempre em castelhano padrão."
+          "pt": "Você praticou como se virar no metrô, pedir tapas, procurar um apartamento, marcar compromissos e participar das festas de Barcelona. Os exercícios ensinam castelhano; as notas também apresentam a diversidade linguística local."
         },
         {
           "emoji": "🧠",

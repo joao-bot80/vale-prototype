@@ -64,7 +64,7 @@
         },
         {
           "es": "las palas",
-          "pt": "o frescobol",
+          "pt": "as raquetes de praia",
           "emoji": "🏓",
           "image": "assets/vocab/palas.png"
         }
@@ -94,7 +94,7 @@
         "pasa",
         "protector de"
       ],
-      "explanation": "\"Ponerse crema\" = passar protetor."
+      "explanation": "Ponerse crema = passar creme. No contexto da praia, crema é o protetor solar: crema solar."
     },
     {
       "type": "listening",
@@ -161,7 +161,7 @@
         "queimei",
         "queimé"
       ],
-      "explanation": "Pretérito perfeito: me he quemado."
+      "explanation": "Me he quemado é o pretérito perfecto compuesto. Com partes do corpo, usa-se aqui o artigo: los hombros."
     },
     {
       "type": "listening",
@@ -215,7 +215,7 @@
             "Vamos jogar com as pás?"
           ],
           "correct": 0,
-          "joke": "Palas = frescobol."
+          "joke": "Jugar a las palas = jogar com raquetes de praia, como no frescobol. As raquetes são las palas."
         }
       ]
     },
@@ -228,13 +228,13 @@
           "emoji": "🏖️",
           "title": "Malvarrosa",
           "es": "La playa de la Malvarrosa.",
-          "pt": "Praia urbana de Valencia, ao norte do porto, com calçadão à beira-mar (paseo marítimo). Dá para chegar de bonde ou metrô."
+          "pt": "Praia urbana de Valencia, ao norte do porto, com calçadão (paseo marítimo). Há acesso por ônibus e por bonde com caminhada; consulte o trajeto e as paradas para o trecho da praia desejado."
         },
         {
           "emoji": "🧴",
           "title": "Sol mediterrâneo",
           "es": "El sol pega fuerte.",
-          "pt": "No verão o índice UV é alto: protetor, chapéu e água, sobretudo entre 12h e 17h."
+          "pt": "No verão, procure sombra e evite exposição direta nas horas centrais do dia. Use roupa, chapéu e protetor solar; reaplique conforme as instruções, inclusive após banho ou suor. Beba água."
         }
       ]
     }

@@ -30,13 +30,13 @@
         },
         {
           "speaker": "Lu",
-          "es": "¿Y quién diseñó estos lugares tan bonitos?",
-          "pt": "E quem projetou estes lugares tão bonitos?"
+          "es": "¿Y quién diseñó este restaurante tan bonito?",
+          "pt": "E quem projetou este restaurante tão bonito?"
         },
         {
           "speaker": "Lino",
-          "es": "César Manrique, un artista de aquí. Defendió la isla del cemento.",
-          "pt": "César Manrique, um artista daqui. Defendeu a ilha do cimento."
+          "es": "César Manrique, con Eduardo Cáceres y Jesús Soto. Manrique defendió el paisaje de la isla.",
+          "pt": "César Manrique, com Eduardo Cáceres e Jesús Soto. Manrique defendeu a paisagem da ilha."
         }
       ]
     },
@@ -65,7 +65,8 @@
         {
           "es": "el artista",
           "pt": "o artista",
-          "emoji": "🎨"
+          "emoji": "🎨",
+          "image": "assets/vocab/artista.png"
         }
       ]
     },
@@ -93,9 +94,9 @@
       ],
       "distractors": [
         "chão",
-        "continua"
+        "siguen"
       ],
-      "explanation": "Seguir = continuar."
+      "explanation": "Aqui, seguir + adjetivo indica continuidade: sigue caliente = continua quente. Continuar também pode expressar essa ideia."
     },
     {
       "type": "listening",
@@ -104,7 +105,7 @@
       "spanish": "Es Timanfaya. Hubo erupciones durante seis años, en el siglo dieciocho.",
       "options": [
         "É Timanfaya. Teve erupções por seis anos, no século dezoito.",
-        "É um vulcão ativo hoje.",
+        "As erupções aconteceram no século vinte.",
         "É uma praia."
       ],
       "correct": 0,
@@ -125,7 +126,7 @@
           "es": "islote",
           "kind": "quase",
           "meaning": "ilhota",
-          "tip": "Islote = ilhota, como o Islote de Hilario, em Lanzarote."
+          "tip": "Islote = ilhota ou pequena ilha. O nome Islote de Hilario, em Timanfaya, designa uma elevação cercada por campos de lava, não uma ilha no mar."
         },
         {
           "es": "artista",
@@ -136,15 +137,18 @@
         },
         {
           "es": "diseñar",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "projetar / desenhar",
-          "tip": "Diseñar = projetar, fazer o design. Em português, desenhar é \"dibujar\"."
+          "tip": "Diseñar é conceber ou projetar, sentido que desenhar também pode ter em português. Dibujar costuma se referir a representar por traços ou fazer um desenho.",
+          "pt": "desenhar",
+          "context": "Diseñó un edificio."
         },
         {
           "es": "cueva",
           "kind": "armadilha",
           "meaning": "caverna / gruta",
-          "tip": "Cueva = caverna. Em português, cova é a sepultura (\"tumba\")."
+          "tip": "Cueva = caverna ou gruta. Em português, cova pode ser um buraco ou uma cavidade, não apenas uma sepultura; nesta frase, falamos de uma caverna vulcânica.",
+          "context": "Entramos en una cueva volcánica."
         }
       ]
     },
@@ -167,8 +171,8 @@
       "pt": "Sim, no restaurante assam a carne com o calor do vulcão.",
       "options": [
         "Sí, en el restaurante asan la carne con el calor del volcán.",
-        "César Manrique, un artista de aquí. Defendió la isla del cemento.",
-        "¿Y quién diseñó estos lugares tan bonitos?"
+        "César Manrique, con Eduardo Cáceres y Jesús Soto. Manrique defendió el paisaje de la isla.",
+        "¿Y quién diseñó este restaurante tan bonito?"
       ],
       "correct": 0,
       "explanation": "Lino diz: \"Sí, en el restaurante asan la carne con el calor del volcán.\" = \"Sim, no restaurante assam a carne com o calor do vulcão.\"."
@@ -228,19 +232,19 @@
           "spanish": "Asan la carne.",
           "options": [
             "Assam a carne.",
-            "Asam a carne."
+            "Cozinham a carne em água."
           ],
           "correct": 0,
-          "joke": "Asar = assar."
+          "joke": "Asar é assar, diferente de cozinhar em água."
         },
         {
-          "spanish": "Es ceniza.",
+          "spanish": "Es ceniza volcánica.",
           "options": [
             "É cinza vulcânica.",
             "É cereja."
           ],
           "correct": 0,
-          "joke": "Ceniza = cinza."
+          "joke": "Ceniza = cinza; volcánica especifica a origem."
         }
       ]
     },
@@ -259,7 +263,7 @@
           "emoji": "🎨",
           "title": "César Manrique",
           "es": "Arte y naturaleza.",
-          "pt": "Artista lanzarotenho (1919–1992) que criou Jameos del Agua e o Mirador del Río e lutou contra prédios altos na ilha. Lanzarote é Reserva da Biosfera da UNESCO desde 1993."
+          "pt": "César Manrique (1919–1992) foi um artista de Lanzarote que integrou arte e paisagem e defendeu a conservação da ilha. Trabalhou com colaboradores como Jesús Soto e o arquiteto Eduardo Cáceres, inclusive no restaurante El Diablo. Lanzarote é Reserva da Biosfera da UNESCO desde 1993."
         }
       ]
     }

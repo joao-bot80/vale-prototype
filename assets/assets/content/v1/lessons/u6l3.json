@@ -35,8 +35,8 @@
         },
         {
           "speaker": "Dani",
-          "es": "Tú habla normal, que te entienden perfectamente.",
-          "pt": "Fala normal, que te entendem perfeitamente."
+          "es": "No hace falta imitar el acento para que te entiendan.",
+          "pt": "Não precisa imitar o sotaque para que entendam você."
         }
       ]
     },
@@ -47,12 +47,14 @@
         {
           "es": "despacio",
           "pt": "devagar",
-          "emoji": "🐢"
+          "emoji": "🐢",
+          "image": "assets/vocab/despacio.png"
         },
         {
           "es": "deprisa",
           "pt": "rápido",
-          "emoji": "🐇"
+          "emoji": "🐇",
+          "image": "assets/vocab/deprisa.png"
         },
         {
           "es": "la terraza",
@@ -95,7 +97,7 @@
         "entendo",
         "garçom"
       ],
-      "explanation": "Pessoa como objeto leva \"a\": \"al camarero\"."
+      "explanation": "Neste caso, o objeto é uma pessoa determinada: \"a + el camarero\" vira \"al camarero\"."
     },
     {
       "type": "listening",
@@ -129,7 +131,7 @@
       "pt": "Exato. E muitos dizem \"sapato\" em vez de \"zapato\".",
       "options": [
         "Exacto. Y muchos dicen \"sapato\" en vez de \"zapato\".",
-        "Tú habla normal, que te entienden perfectamente.",
+        "No hace falta imitar el acento para que te entiendan.",
         "¡Como en portugués! Me gusta este acento."
       ],
       "correct": 0,
@@ -163,7 +165,7 @@
         "espacio",
         "falar"
       ],
-      "explanation": "Use sem medo: os andaluzes são muito simpáticos."
+      "explanation": "\"¿Puedes...?\" + infinitivo é uma forma natural de fazer um pedido. \"Más despacio\" = mais devagar."
     },
     {
       "type": "listening",
@@ -176,7 +178,7 @@
         "E muitos compram sapatos aqui."
       ],
       "correct": 0,
-      "explanation": "Isso é o seseo, correto e comum no sul. No centro e norte da Espanha, \"z\" (e \"c\" antes de e/i) soa como o \"th\" do inglês \"think\"."
+      "explanation": "O seseo é uma pronúncia aceita: z e c antes de e/i soam como s. \"Sapato\" aqui ilustra o som; a grafia espanhola continua sendo \"zapato\". Muitos falantes do centro e norte distinguem esses sons."
     },
     {
       "type": "boss",
@@ -230,7 +232,7 @@
           "emoji": "👂",
           "title": "Ouvir o sotaque",
           "es": "¿Cómo estás?",
-          "pt": "Muitos andaluzes aspiram ou engolem o s no fim da sílaba: \"¿cómo estás?\" pode soar \"¿cómo ehtáh?\". E o \"d\" entre vogais some: \"pescaíto\", \"cansao\". Aqui é só para reconhecer; no app ensinamos o castelhano padrão."
+          "pt": "Há vários sotaques andaluzes. O s no fim da sílaba pode ser aspirado ou não pronunciado; o d entre vogais também pode desaparecer, como em \"pescaíto\" e \"cansao\". Esses exemplos são só para reconhecer a fala. O seseo é aceito na norma culta; a escrita mantém grafias como \"gracias\" e \"zapato\"."
         },
         {
           "emoji": "🙂",

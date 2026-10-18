@@ -36,7 +36,7 @@
         {
           "speaker": "Lino",
           "es": "Ponte las chanclas y bebe agua.",
-          "pt": "Põe os chinelos e bebe água."
+          "pt": "Calce os chinelos e beba água."
         }
       ]
     },
@@ -139,13 +139,14 @@
           "es": "camello",
           "kind": "quase",
           "meaning": "camelo",
-          "tip": "Também dromedário."
+          "tip": "Camello = camelo. Nas Canárias, o nome também é usado para o dromedário, que tem uma corcova."
         },
         {
           "es": "mirar",
           "kind": "armadilha",
           "meaning": "olhar",
-          "tip": "Mirar = olhar. Em português, mirar é apontar para um alvo (\"apuntar\")."
+          "tip": "Aqui, mirar = olhar. Em português também existe mirar no sentido de olhar ou contemplar, mas no uso brasileiro é comum pensar em apontar para um alvo.",
+          "context": "Mira las dunas."
         }
       ]
     },
@@ -177,7 +178,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Põe os chinelos.",
+      "portuguese": "Calce os chinelos.",
       "answer": [
         "Ponte",
         "las",
@@ -185,9 +186,9 @@
       ],
       "distractors": [
         "chinelos",
-        "pon"
+        "ponerse"
       ],
-      "explanation": "Ponerse = pôr, calçar. Chanclas = chinelos."
+      "explanation": "Ponerse, com calçados, é calçar. Ponte é a forma dirigida a tú; chanclas são chinelos."
     },
     {
       "type": "listening",
@@ -211,10 +212,10 @@
           "spanish": "La arena quema.",
           "options": [
             "A areia queima.",
-            "A arena queima."
+            "A areia está fria."
           ],
           "correct": 0,
-          "joke": "Arena = areia."
+          "joke": "Aqui, arena é areia. Arena também existe em português com esse sentido, embora seja pouco comum no Brasil."
         },
         {
           "spanish": "Mira el faro.",
@@ -238,10 +239,10 @@
           "spanish": "Cierra ya la sombrilla.",
           "options": [
             "Fecha já o guarda-sol.",
-            "Fecha já a sombrinha de chuva."
+            "Abra já o guarda-sol."
           ],
           "correct": 0,
-          "joke": "Sombrilla = guarda-sol."
+          "joke": "Sombrilla é um guarda-sol ou uma sombrinha para se proteger do sol."
         }
       ]
     },
@@ -260,7 +261,7 @@
           "emoji": "🍌",
           "title": "Plátano de Canarias",
           "es": "Plátano de Canarias.",
-          "pt": "Banana canária pequena e doce, com IGP. Na Espanha, banana se diz \"plátano\"."
+          "pt": "Plátano de Canarias é uma Indicação Geográfica Protegida (IGP) para bananas produzidas nas ilhas. Plátano é uma palavra comum na Espanha para banana; banana também existe em espanhol e costuma aparecer para frutos de outras origens."
         }
       ]
     }

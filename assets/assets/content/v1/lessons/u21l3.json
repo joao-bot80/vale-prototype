@@ -35,8 +35,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Ropa que puedas tirar después, y gafas de natación.",
-          "pt": "Roupa que você possa jogar fora depois, e óculos de natação."
+          "es": "Ropa vieja, calzado cerrado y gafas de bucear.",
+          "pt": "Roupa velha, calçado fechado e óculos de mergulho."
         }
       ]
     },
@@ -71,7 +71,8 @@
         {
           "es": "agosto",
           "pt": "agosto",
-          "emoji": "📅"
+          "emoji": "📅",
+          "image": "assets/vocab/agosto.png"
         }
       ]
     },
@@ -81,7 +82,7 @@
       "prompt": "\"La gente se tira tomates\" significa:",
       "options": [
         "O pessoal joga tomates uns nos outros",
-        "O pessoal tira tomates",
+        "O pessoal colhe tomates",
         "O pessoal compra tomates"
       ],
       "correct": 0,
@@ -115,7 +116,7 @@
         "Não, só compra na hora."
       ],
       "correct": 0,
-      "explanation": "Desde 2013 a Tomatina tem ingresso."
+      "explanation": "Aforo é a lotação permitida. Consulte a venda de ingressos e as condições da edição no site oficial da festa."
     },
     {
       "type": "complete",
@@ -136,7 +137,7 @@
       "pt": "Não, tem que comprar o ingresso antes pela internet. A lotação é limitada.",
       "options": [
         "No, hay que comprar la entrada antes por internet. El aforo es limitado.",
-        "Ropa que puedas tirar después, y gafas de natación.",
+        "Ropa vieja, calzado cerrado y gafas de bucear.",
         "¿Qué me pongo?"
       ],
       "correct": 0,
@@ -173,14 +174,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Ropa que puedas tirar después, y gafas de natación.",
+      "spanish": "Ropa vieja, calzado cerrado y gafas de bucear.",
       "options": [
-        "Roupa que você possa jogar fora depois, e óculos de natação.",
+        "Roupa velha, calçado fechado e óculos de mergulho.",
         "Sua melhor roupa.",
         "Roupa branca nova."
       ],
       "correct": 0,
-      "explanation": "Os tomates mancham tudo."
+      "explanation": "Calzado cerrado = calçado fechado; gafas de bucear = óculos de mergulho. São recomendações para participar da batalha de tomates."
     },
     {
       "type": "boss",
@@ -188,13 +189,13 @@
       "bossName": "Falso Amigo",
       "questions": [
         {
-          "spanish": "Me he puesto las chanclas.",
+          "spanish": "No te pongas chanclas.",
           "options": [
-            "Pus os chinelos.",
-            "Pus as chances."
+            "Não calce chinelos.",
+            "Não calce tênis."
           ],
           "correct": 0,
-          "joke": "Chanclas = chinelos."
+          "joke": "Chanclas = chinelos. Na Tomatina, a recomendação é usar calçado fechado."
         },
         {
           "spanish": "Buñol es un pueblo pequeño.",
@@ -234,13 +235,13 @@
           "emoji": "🍅",
           "title": "La Tomatina",
           "es": "La Tomatina de Buñol.",
-          "pt": "Batalha de tomates na última quarta-feira de agosto em Buñol (Valencia). Desde 2013 é preciso comprar ingresso no site oficial, com lotação limitada. É Festa de Interesse Turístico Internacional."
+          "pt": "Batalha de tomates na última quarta-feira de agosto em Buñol (Valencia), com lotação limitada e ingresso. Confira as condições da edição no site oficial. É Festa de Interesse Turístico Internacional."
         },
         {
           "emoji": "🧽",
           "title": "Regras",
           "es": "Aplasta el tomate antes de tirarlo.",
-          "pt": "Esmague o tomate antes de jogar, não rasgue camisetas e pare quando soar o sinal (1 hora). Depois, mangueiras e duchas para limpar."
+          "pt": "Use calçado fechado, esmague os tomates antes de lançar e mantenha distância dos caminhões. Não leve objetos duros nem rasgue camisetas. Pare ao sinal de encerramento e siga as instruções da organização."
         }
       ]
     }

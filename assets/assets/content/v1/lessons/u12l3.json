@@ -71,7 +71,8 @@
         {
           "es": "la siesta",
           "pt": "a soneca",
-          "emoji": "😴"
+          "emoji": "😴",
+          "image": "assets/vocab/siesta.png"
         }
       ]
     },
@@ -217,11 +218,11 @@
         {
           "spanish": "Pon el despertador a las siete.",
           "options": [
-            "Põe o despertador às sete.",
+            "Programe o despertador para as sete.",
             "Acorda o vizinho às sete."
           ],
           "correct": 0,
-          "joke": "Despertador = despertador."
+          "joke": "\"Pon el despertador a las siete\" = programe o despertador para tocar às sete."
         }
       ]
     },

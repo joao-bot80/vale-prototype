@@ -96,7 +96,7 @@
         "troca",
         "tempo"
       ],
-      "explanation": "Tiempo = tempo (clima)."
+      "explanation": "Aqui, tiempo é o tempo meteorológico. A palavra também indica tempo cronológico em outros contextos."
     },
     {
       "type": "listening",
@@ -132,8 +132,8 @@
         {
           "es": "parque de atracciones",
           "kind": "quase",
-          "meaning": "parque de diversões",
-          "tip": "Atracción = brinquedo."
+          "meaning": "parque de atrações / diversões",
+          "tip": "Parque de atracciones = parque de atrações ou de diversões. Neste contexto, atracción pode ser um brinquedo do parque; a palavra tem outros usos."
         },
         {
           "es": "monte",
@@ -145,8 +145,9 @@
         {
           "es": "despejado",
           "kind": "armadilha",
-          "meaning": "céu limpo",
-          "tip": "Despejado = céu aberto. Em português, despejado é quem foi expulso de casa."
+          "meaning": "limpo / sem nuvens",
+          "tip": "Falando do céu, despejado significa sem nuvens. As duas línguas também usam despejado para espaços vazios ou desocupados; em português brasileiro, é comum lembrar um despejo de imóvel.",
+          "context": "El cielo está despejado."
         }
       ]
     },
@@ -202,7 +203,7 @@
         "Aqui nunca muda o tempo."
       ],
       "correct": 0,
-      "explanation": "Clima atlântico: muda rápido."
+      "explanation": "Nesta fala, tiempo se refere às condições meteorológicas."
     },
     {
       "type": "boss",
@@ -213,7 +214,7 @@
           "spanish": "El cielo está despejado.",
           "options": [
             "O céu está limpo.",
-            "O céu está despejado."
+            "O céu está coberto de nuvens."
           ],
           "correct": 0,
           "joke": "Despejado = sem nuvens."
@@ -239,11 +240,11 @@
         {
           "spanish": "Ponte la chaqueta.",
           "options": [
-            "Põe a jaqueta.",
-            "Põe o casaquinho de pijama."
+            "Vista a jaqueta.",
+            "Tire a jaqueta."
           ],
           "correct": 0,
-          "joke": "Chaqueta = jaqueta."
+          "joke": "Ponerse uma peça de roupa = vesti-la; chaqueta é jaqueta ou casaco."
         }
       ]
     },
@@ -262,7 +263,7 @@
           "emoji": "🌦️",
           "title": "Tempo",
           "es": "Txirimiri.",
-          "pt": "Chuvinha fina típica do País Basco; em espanhol local também se diz \"sirimiri\". Só para reconhecer; em castelhano padrão, \"llovizna\"."
+          "pt": "Txirimiri é uma forma basca ligada à chuva fina. Sirimiri também é uma palavra registrada em espanhol para esse tipo de chuva, especialmente usada no norte da Espanha. Llovizna é outra palavra espanhola para garoa."
         }
       ]
     }

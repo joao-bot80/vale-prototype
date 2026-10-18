@@ -35,8 +35,8 @@
         },
         {
           "speaker": "Taquillera",
-          "es": "Los Palacios Nazaríes tienen hora fija. Y trae tu pasaporte o tu NIE.",
-          "pt": "Os Palácios Nasridas têm horário fixo. E traga seu passaporte ou NIE."
+          "es": "Los Palacios Nazaríes tienen hora fija. Trae el documento de identidad original que usaste en la compra.",
+          "pt": "Os Palácios Nasridas têm horário fixo. Traga o documento de identidade original que você usou na compra."
         }
       ]
     },
@@ -129,7 +129,7 @@
       "speaker": "Taquillera",
       "pt": "Na bilheteria só vendemos para hoje. Para amanhã, compre no site oficial.",
       "options": [
-        "Los Palacios Nazaríes tienen hora fija. Y trae tu pasaporte o tu NIE.",
+        "Los Palacios Nazaríes tienen hora fija. Trae el documento de identidad original que usaste en la compra.",
         "Vale, la compro ahora en el móvil.",
         "En taquilla solo vendemos para hoy. Para mañana, cómprala en la web oficial."
       ],
@@ -143,10 +143,10 @@
       "options": [
         "taquilla",
         "bilheteria",
-        "boletería"
+        "farmacia"
       ],
       "correct": 0,
-      "explanation": "\"Taquilla\" = bilheteria. \"Boletería\" é da América Latina."
+      "explanation": "\"Taquilla\" é o termo habitual na Espanha para bilheteria. \"Boletería\" também é espanhol válido, comum na América Latina; \"farmacia\" é farmácia."
     },
     {
       "type": "build",
@@ -233,7 +233,7 @@
           "emoji": "🏰",
           "title": "A Alhambra",
           "es": "La Alhambra es preciosa.",
-          "pt": "Complexo de palácios e fortaleza construído pelos reis nasridas. Os ingressos são nominais (leve documento original), a entrada nos Palácios Nasridas é só no horário marcado, e a bilheteria vende apenas para o mesmo dia. Compre no site oficial com antecedência."
+          "pt": "Complexo de palácios e fortaleza ligado à dinastia nasrida, com construções de diferentes épocas. Os ingressos são nominais: leve o documento original usado na compra, como passaporte ou DNI. O número NIE sozinho não é um documento de identidade. A entrada nos Palácios Nasridas tem horário marcado; as bilheterias vendem para o mesmo dia, conforme disponibilidade. Consulte as regras e compre no site oficial."
         },
         {
           "emoji": "🫒",

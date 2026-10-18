@@ -145,7 +145,8 @@
           "es": "polvo",
           "kind": "armadilha",
           "meaning": "pó, poeira",
-          "tip": "Polvo = pó. O polvo (animal), tão típico de Vigo, é \"pulpo\"."
+          "tip": "Polvo = pó. O polvo (animal), tão típico de Vigo, é \"pulpo\".",
+          "context": "Hay polvo en la mesa."
         }
       ]
     },
@@ -223,7 +224,7 @@
           "spanish": "Este pescado está crudo.",
           "options": [
             "Este peixe está cru.",
-            "Este peixe está bruto."
+            "Este peixe está cozido."
           ],
           "correct": 0,
           "joke": "Crudo = cru."
@@ -232,10 +233,10 @@
           "spanish": "Quedamos en el muelle.",
           "options": [
             "Nos encontramos no cais.",
-            "Nos encontramos na mola."
+            "Nos encontramos no aeroporto."
           ],
           "correct": 0,
-          "joke": "Muelle = cais."
+          "joke": "Aqui, muelle é cais. Em outro contexto, a palavra também pode significar mola."
         },
         {
           "spanish": "Ha picado el anzuelo.",
@@ -244,7 +245,7 @@
             "Picou o anzol com a mão."
           ],
           "correct": 0,
-          "joke": "Picar el anzuelo = cair na armadilha."
+          "joke": "Picar el anzuelo pode ser literal (morder a isca) ou figurado (cair numa armadilha)."
         }
       ]
     },
@@ -257,7 +258,7 @@
           "emoji": "⚓",
           "title": "Porto de Vigo",
           "es": "Vigo, ciudad del mar.",
-          "pt": "Vigo, a maior cidade da Galícia, tem um dos portos pesqueiros mais importantes da Europa. Na rua das Ostras, ostras abertas na hora."
+          "pt": "Vigo é uma importante cidade portuária da Galícia, com um dos portos pesqueiros mais importantes da Europa. Na rua das Ostras, elas são abertas na hora."
         },
         {
           "emoji": "💡",

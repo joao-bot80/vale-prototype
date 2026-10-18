@@ -20,8 +20,8 @@
         },
         {
           "speaker": "Agente",
-          "es": "No, en alquiler de vivienda los paga el propietario.",
-          "pt": "Não, no aluguel de moradia quem paga é o proprietário."
+          "es": "No, en este alquiler de vivienda habitual los paga el propietario.",
+          "pt": "Não, neste aluguel de moradia habitual quem paga é o proprietário."
         },
         {
           "speaker": "Lu",
@@ -30,8 +30,8 @@
         },
         {
           "speaker": "Agente",
-          "es": "Un año, pero puedes renovarlo cada año hasta cinco años.",
-          "pt": "Um ano, mas você pode renovar todo ano até cinco anos."
+          "es": "El propietario es una persona física: un año, con prórrogas hasta cinco según la ley.",
+          "pt": "O proprietário é uma pessoa física: um ano, com prorrogações até cinco, conforme a lei."
         },
         {
           "speaker": "Lu",
@@ -47,36 +47,40 @@
         {
           "es": "el casero",
           "pt": "o proprietário / senhorio",
-          "emoji": "🏠"
+          "emoji": "🏠",
+          "image": "assets/vocab/casero.png"
         },
         {
           "es": "el inquilino",
           "pt": "o inquilino",
-          "emoji": "🧑"
+          "emoji": "🧑",
+          "image": "assets/vocab/inquilino.png"
         },
         {
           "es": "el alquiler",
           "pt": "o aluguel",
-          "emoji": "💶"
+          "emoji": "💶",
+          "image": "assets/vocab/alquiler.png"
         },
         {
           "es": "la fianza",
           "pt": "a caução",
-          "emoji": "💰"
+          "emoji": "💰",
+          "image": "assets/vocab/fianza.png"
         }
       ]
     },
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "Quem paga a comissão da imobiliária no aluguel de moradia (contratos desde 2023)?",
+      "prompt": "No aluguel de moradia habitual sob a regra atual da LAU, quem paga os gastos de gestão da imobiliária?",
       "options": [
         "O proprietário",
         "O inquilino",
         "Metade cada um"
       ],
       "correct": 0,
-      "explanation": "Lei 12/2023: os gastos de gestão são do arrendador."
+      "explanation": "Na moradia habitual regida pela LAU, esses gastos e os de formalização do contrato cabem ao locador."
     },
     {
       "type": "build",
@@ -98,14 +102,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "No, en alquiler de vivienda los paga el propietario.",
+      "spanish": "No, en este alquiler de vivienda habitual los paga el propietario.",
       "options": [
-        "Não, no aluguel de moradia quem paga é o proprietário.",
+        "Não, neste aluguel de moradia habitual quem paga é o proprietário.",
         "Sim, você paga dois meses.",
         "Não, é grátis para todos."
       ],
       "correct": 0,
-      "explanation": "Vale para contratos de moradia habitual firmados desde 26/05/2023."
+      "explanation": "A fala trata de moradia habitual e de despesas de gestão da imobiliária e formalização do contrato, a cargo do locador."
     },
     {
       "type": "complete",
@@ -118,15 +122,15 @@
         },
         {
           "speaker": "Agente",
-          "es": "No, en alquiler de vivienda los paga el propietario.",
-          "pt": "Não, no aluguel de moradia quem paga é o proprietário."
+          "es": "No, en este alquiler de vivienda habitual los paga el propietario.",
+          "pt": "Não, neste aluguel de moradia habitual quem paga é o proprietário."
         }
       ],
       "speaker": "Lu",
       "pt": "Quanto dura o contrato?",
       "options": [
         "Perfecto. Quiero leer bien las cláusulas antes de firmar.",
-        "Un año, pero puedes renovarlo cada año hasta cinco años.",
+        "El propietario es una persona física: un año, con prórrogas hasta cinco según la ley.",
         "¿Cuánto dura el contrato?"
       ],
       "correct": 2,
@@ -142,7 +146,7 @@
         "Móveis novos"
       ],
       "correct": 0,
-      "explanation": "A caução cobre desperfectos."
+      "explanation": "Desperfectos = danos. A responsabilidade depende da causa; desgaste normal não equivale automaticamente a dano cobrável do inquilino."
     },
     {
       "type": "build",
@@ -166,14 +170,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Un año, pero puedes renovarlo cada año hasta cinco años.",
+      "spanish": "El propietario es una persona física: un año, con prórrogas hasta cinco según la ley.",
       "options": [
-        "Um ano, mas você pode renovar todo ano até cinco anos.",
+        "O proprietário é uma pessoa física: um ano, com prorrogações até cinco, conforme a lei.",
         "Cinco anos sem poder sair.",
         "Um mês só."
       ],
       "correct": 0,
-      "explanation": "Com proprietário pessoa física, prorrogação obrigatória até 5 anos (7 se for empresa)."
+      "explanation": "Neste exemplo, o locador é pessoa física. A LAU prevê prorrogações obrigatórias até cinco anos, com exceções legais; cinco anos não é uma duração máxima absoluta."
     },
     {
       "type": "boss",
@@ -211,7 +215,7 @@
           "spanish": "Necesito un aval bancario.",
           "options": [
             "Preciso de uma garantia bancária.",
-            "Preciso de um aval do banco para viajar."
+            "Preciso de uma transferência bancária."
           ],
           "correct": 0,
           "joke": "Aval = garantia."
@@ -227,13 +231,13 @@
           "emoji": "🏠",
           "title": "Caução e garantias",
           "es": "Un mes de fianza.",
-          "pt": "Para moradia habitual, a fiança legal é de 1 mês de aluguel; em contratos de até 5 anos (7 se o proprietário for empresa), as garantias extras são de no máximo 2 meses. Desde 2023 a comissão da imobiliária é paga pelo proprietário. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "Na moradia habitual regida pela LAU, a fiança legal é de um mês. Em contratos de até cinco anos (sete se o locador for pessoa jurídica), a garantia adicional tem limite de duas mensalidades. Os gastos de gestão imobiliária e formalização do contrato cabem ao locador. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "📅",
           "title": "Duração",
-          "es": "Prórroga hasta cinco años.",
-          "pt": "Contratos de moradia desde 2019: se pactuados por menos, prorrogam-se ano a ano até 5 anos (7 se o proprietário for empresa), salvo se o inquilino avisar que sai. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "es": "La duración y las prórrogas dependen del contrato y de la ley.",
+          "pt": "No regime da LAU vigente desde 6/3/2019, contratos de moradia habitual por prazo menor têm prorrogações anuais até cinco anos, ou sete se o locador for pessoa jurídica. Há regras de aviso e exceções, como necessidade de uso do imóvel nas condições legais. Contratos anteriores exigem conferir o regime da data. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         }
       ]
     }

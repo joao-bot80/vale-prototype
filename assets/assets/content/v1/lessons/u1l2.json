@@ -65,7 +65,8 @@
         {
           "es": "la cola",
           "pt": "a fila",
-          "emoji": "🧍"
+          "emoji": "🧍",
+          "image": "assets/vocab/cola.png"
         },
         {
           "es": "el tren",
@@ -142,7 +143,7 @@
         "En esas máquinas. Ojo, desde el aeropuerto hay un suplemento."
       ],
       "correct": 2,
-      "explanation": "Empleado diz: \"En esas máquinas. Ojo, desde el aeropuerto hay un suplemento.\" = \"Naquelas máquinas. Atenção: saindo do aeroporto tem uma taxa extra.\"."
+      "explanation": "Empleado diz: \"En esas máquinas. Ojo, desde el aeropuerto hay un suplemento.\" = \"Naquelas máquinas. Atenção: saindo do aeroporto tem uma taxa extra.\". O suplemento do aeroporto depende do bilhete: é cobrado com bilhetes simples ou de 10 viagens; um Abono Transporte que inclua a zona A ou um Abono Turístico já cobre esse acesso."
     },
     {
       "type": "choice",
@@ -171,7 +172,7 @@
         "ustedes",
         "a"
       ],
-      "explanation": "\"Vosotros vais\" = vocês vão (informal, na Espanha). E \"a + el\" vira \"al\". Em Madri e Barcelona, \"ustedes\" costuma ser formal; aqui o tratamento é informal: vosotros."
+      "explanation": "\"Vosotros vais\" = vocês vão (informal, em Madri). E \"a + el\" vira \"al\". Em Madri e Barcelona, \"ustedes\" costuma ser formal; aqui o tratamento é informal: vosotros."
     },
     {
       "type": "listening",
@@ -238,7 +239,7 @@
           "emoji": "🚇",
           "title": "La boca de metro",
           "es": "¿Dónde está la boca de metro más cercana?",
-          "pt": "A entrada do metrô se chama \"boca de metro\". O metrô de Madrid é um dos maiores da Europa. Quem mora aqui costuma tirar o \"abono\", o passe mensal de transporte."
+          "pt": "A entrada do metrô se chama \"boca de metro\". O metrô de Madrid é um dos maiores da Europa. Quem mora aqui costuma tirar o \"abono\", o passe mensal de transporte. O suplemento do aeroporto depende do bilhete: é cobrado com bilhetes simples ou de 10 viagens; um Abono Transporte que inclua a zona A ou um Abono Turístico já cobre esse acesso."
         },
         {
           "emoji": "↗️",

@@ -30,8 +30,8 @@
         },
         {
           "speaker": "Operadora",
-          "es": "Tres coma cuatro kilovatios. Si se te va la luz a menudo, puedes subirla.",
-          "pt": "Três vírgula quatro quilowatts. Se a luz cair com frequência, você pode aumentar."
+          "es": "Tres coma cuatro kilovatios. Antes de cambiarla, conviene revisar cuánta necesitas.",
+          "pt": "Três vírgula quatro quilowatts. Antes de mudar a potência, convém verificar de quanta você precisa."
         },
         {
           "speaker": "Lu",
@@ -47,12 +47,14 @@
         {
           "es": "la luz",
           "pt": "a luz (conta de luz)",
-          "emoji": "💡"
+          "emoji": "💡",
+          "image": "assets/vocab/luz.png"
         },
         {
           "es": "el gas",
           "pt": "o gás",
-          "emoji": "🔥"
+          "emoji": "🔥",
+          "image": "assets/vocab/gas.png"
         },
         {
           "es": "la bombona",
@@ -63,7 +65,8 @@
         {
           "es": "la factura",
           "pt": "a conta",
-          "emoji": "🧾"
+          "emoji": "🧾",
+          "image": "assets/vocab/factura.png"
         }
       ]
     },
@@ -93,10 +96,10 @@
         "luz."
       ],
       "distractors": [
-        "mudar",
+        "mudando",
         "titularidad"
       ],
-      "explanation": "\"Cambiar\" = mudar (algo). Mudarse = mudar de casa."
+      "explanation": "Cambiar el titular = mudar o titular. Mudar também existe em espanhol com o sentido de mudar; o gerúndio mudando não cabe após quiero nesta frase."
     },
     {
       "type": "listening",
@@ -133,13 +136,14 @@
           "es": "alta de suministro",
           "kind": "armadilha",
           "meaning": "ligação do serviço",
-          "tip": "Alta de suministro = ligar a luz/gás. Em português, alta é a do hospital."
+          "tip": "Alta de suministro = ativação do fornecimento de luz, gás etc. Não é a mesma operação que trocar o titular de um contrato ativo. Alta hospitalar também existe em espanhol."
         },
         {
           "es": "contador",
           "kind": "armadilha",
           "meaning": "medidor / relógio",
-          "tip": "Contador = medidor (de luz, de água). Contador (profissão) na Espanha é \"contable\"."
+          "tip": "Aqui, contador é o medidor de eletricidade, também chamado contador em português. No Brasil, a palavra lembra sobretudo o profissional; na Espanha ele costuma ser contable. Contador também designa essa profissão em países hispânicos.",
+          "context": "Vienen a leer el contador de la luz."
         },
         {
           "es": "tarifa",
@@ -170,7 +174,7 @@
       "options": [
         "Vale. ¿Y cuánta potencia tengo contratada?",
         "Perfecto. ¿Y la factura llega cada mes?",
-        "Tres coma cuatro kilovatios. Si se te va la luz a menudo, puedes subirla."
+        "Tres coma cuatro kilovatios. Antes de cambiarla, conviene revisar cuánta necesitas."
       ],
       "correct": 0,
       "explanation": "Lu diz: \"Vale. ¿Y cuánta potencia tengo contratada?\" = \"Beleza. E quanta potência tenho contratada?\"."
@@ -185,23 +189,23 @@
         "mudado."
       ],
       "distractors": [
-        "cambiado",
+        "mudando",
         "mudei"
       ],
-      "explanation": "\"Mudarse\" = mudar de casa."
+      "explanation": "Mudarse = mudar de casa. Cambiarse também pode ter esse sentido conforme o contexto; he exige o particípio mudado, não mudando."
     },
     {
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Tres coma cuatro kilovatios. Si se te va la luz a menudo, puedes subirla.",
+      "spanish": "Tres coma cuatro kilovatios. Antes de cambiarla, conviene revisar cuánta necesitas.",
       "options": [
-        "Três vírgula quatro quilowatts. Se a luz cair com frequência, você pode aumentar.",
+        "Três vírgula quatro quilowatts. Antes de mudar a potência, convém verificar de quanta você precisa.",
         "Dez quilowatts, não dá para mudar.",
         "Não sei, ligue amanhã."
       ],
       "correct": 0,
-      "explanation": "Mais potência = mais cara a parte fixa."
+      "explanation": "Potencia contratada = potência contratada. Uma queda de luz, por si só, não indica que seja preciso aumentá-la."
     },
     {
       "type": "boss",
@@ -218,22 +222,22 @@
           "joke": "Leer el contador = leitura do medidor."
         },
         {
-          "spanish": "Mira el contador.",
+          "spanish": "Mira la lectura del contador de la luz.",
           "options": [
-            "Olha o medidor.",
-            "Olha o contador da empresa."
+            "Olha a leitura do medidor de eletricidade.",
+            "Olha o trabalho do contador da empresa."
           ],
           "correct": 0,
-          "joke": "Contador = medidor."
+          "joke": "Contador de la luz = medidor de eletricidade; o complemento seleciona o sentido."
         },
         {
           "spanish": "No hay ningún enchufe.",
           "options": [
             "Não tem nenhuma tomada.",
-            "Não tem nenhum encaixe."
+            "Não tem nenhum interruptor."
           ],
           "correct": 0,
-          "joke": "Enchufe = tomada."
+          "joke": "Enchufe pode ser tomada ou plugue; interruptor é o dispositivo que liga e desliga."
         },
         {
           "spanish": "Ha llegado la factura del gas.",
@@ -255,13 +259,13 @@
           "emoji": "💡",
           "title": "Mercado livre ou PVPC",
           "es": "¿Tarifa regulada o libre?",
-          "pt": "Na Espanha você escolhe a comercializadora. Existe a tarifa regulada (PVPC), com preço por hora, e ofertas do mercado livre, com preço fixo. Compare antes de assinar. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "Há o PVPC, tarifa regulada de preço variável, e ofertas do mercado livre, que podem ter preço fixo ou variável. O PVPC combina referências de mercados de curto prazo e futuros. Compare potência, energia, serviços adicionais e condições da oferta. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "🔌",
           "title": "Mudança de titular",
           "es": "Cambio de titular con el CUPS.",
-          "pt": "Para trocar o titular normalmente basta o CUPS (na conta), seu NIE/passaporte e IBAN. Mudar de titular não exige trocar o medidor. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "Para mudar o titular, a comercializadora costuma pedir CUPS, identificação, dados de pagamento e comprovação da relação com o imóvel. Confira a lista exigida. Trocar o titular de um fornecimento ativo é diferente de pedir uma nova ligação. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         }
       ]
     }

@@ -20,13 +20,13 @@
         },
         {
           "speaker": "Lu",
-          "es": "Sí, dos sellos al día, como piden.",
-          "pt": "Sim, dois carimbos por dia, como pedem."
+          "es": "Sí, he sellado al principio y al final de cada etapa.",
+          "pt": "Sim, carimbei no início e no fim de cada etapa."
         },
         {
           "speaker": "Lino",
-          "es": "Entonces te dan la Compostela. Hay que hacer al menos los últimos cien kilómetros a pie.",
-          "pt": "Então te dão a Compostela. Tem que fazer pelo menos os últimos cem quilômetros a pé."
+          "es": "Entonces puedes solicitar la Compostela en la Oficina del Peregrino. Allí comprueban los requisitos.",
+          "pt": "Então você pode solicitar a Compostela na Oficina do Peregrino. Lá verificam os requisitos."
         },
         {
           "speaker": "Lu",
@@ -73,14 +73,14 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Tengo ampollas\" significa:",
+      "prompt": "No Caminho, \"tengo ampollas en los pies\" significa:",
       "options": [
         "Estou com bolhas (nos pés)",
         "Tenho ampolas de remédio",
         "Tenho lâmpadas"
       ],
       "correct": 0,
-      "explanation": "Ampolla = bolha."
+      "explanation": "Ampolla aqui é bolha na pele. A palavra também pode designar uma ampola de medicamento."
     },
     {
       "type": "build",
@@ -102,14 +102,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Entonces te dan la Compostela. Hay que hacer al menos los últimos cien kilómetros a pie.",
+      "spanish": "Entonces puedes solicitar la Compostela en la Oficina del Peregrino. Allí comprueban los requisitos.",
       "options": [
-        "Então te dão a Compostela. Tem que fazer pelo menos os últimos cem quilômetros a pé.",
+        "Então você pode solicitar a Compostela na Oficina do Peregrino. Lá verificam os requisitos.",
         "Te dão a Compostela sem caminhar.",
         "Tem que fazer mil quilômetros."
       ],
       "correct": 0,
-      "explanation": "De bicicleta, os últimos 200 km."
+      "explanation": "Solicitar = pedir. A Oficina do Peregrino verifica o percurso, os carimbos e os demais requisitos da Compostela."
     },
     {
       "type": "swipe",
@@ -132,15 +132,17 @@
         },
         {
           "es": "ampolla",
-          "kind": "armadilha",
-          "meaning": "bolha (na pele)",
-          "tip": "Ampolla = bolha no pé. Em português, ampola é o frasquinho de remédio."
+          "kind": "quase",
+          "meaning": "bolha / ampola (na pele)",
+          "tip": "Ampolla e ampola podem designar uma bolha na pele; no Brasil, bolha é mais usual. As duas palavras também podem indicar o frasco de medicamento.",
+          "pt": "ampola",
+          "context": "Me ha salido una ampolla en el talón."
         },
         {
           "es": "etapa",
           "kind": "igual",
           "meaning": "etapa",
-          "tip": "Cada dia de caminhada.",
+          "tip": "Etapa é uma parte do percurso. No Caminho, costuma corresponder a um dia de caminhada, mas não é uma unidade fixa de tempo.",
           "pt": "etapa"
         },
         {
@@ -162,19 +164,19 @@
         },
         {
           "speaker": "Lu",
-          "es": "Sí, dos sellos al día, como piden.",
-          "pt": "Sim, dois carimbos por dia, como pedem."
+          "es": "Sí, he sellado al principio y al final de cada etapa.",
+          "pt": "Sim, carimbei no início e no fim de cada etapa."
         }
       ],
       "speaker": "Lino",
-      "pt": "Então te dão a Compostela. Tem que fazer pelo menos os últimos cem quilômetros a pé.",
+      "pt": "Então você pode solicitar a Compostela na Oficina do Peregrino. Lá verificam os requisitos.",
       "options": [
         "Ahora, a descansar. ¡Te lo has ganado!",
         "Tengo ampollas en los pies, pero estoy feliz.",
-        "Entonces te dan la Compostela. Hay que hacer al menos los últimos cien kilómetros a pie."
+        "Entonces puedes solicitar la Compostela en la Oficina del Peregrino. Allí comprueban los requisitos."
       ],
       "correct": 2,
-      "explanation": "Lino diz: \"Entonces te dan la Compostela. Hay que hacer al menos los últimos cien kilómetros a pie.\" = \"Então te dão a Compostela. Tem que fazer pelo menos os últimos cem quilômetros a pé.\"."
+      "explanation": "Lino diz: \"Entonces puedes solicitar la Compostela en la Oficina del Peregrino. Allí comprueban los requisitos.\" = \"Então você pode solicitar a Compostela na Oficina do Peregrino. Lá verificam os requisitos.\"."
     },
     {
       "type": "build",
@@ -211,13 +213,13 @@
       "bossName": "Falso Amigo",
       "questions": [
         {
-          "spanish": "Me ha salido una ampolla.",
+          "spanish": "Me ha salido una ampolla en el talón.",
           "options": [
-            "Apareceu uma bolha.",
-            "Saiu uma ampola."
+            "Formou-se uma bolha no meu calcanhar.",
+            "Apareceu uma mancha no meu calcanhar."
           ],
           "correct": 0,
-          "joke": "Ampolla = bolha."
+          "joke": "Ampolla = bolha na pele. Ampola também tem esse sentido em português."
         },
         {
           "spanish": "Llevo un bastón.",
@@ -229,13 +231,13 @@
           "joke": "Bastón = bastão."
         },
         {
-          "spanish": "Sigue las flechas amarillas.",
+          "spanish": "Sigue las flechas amarillas del Camino.",
           "options": [
-            "Siga as setas amarelas.",
-            "Siga as flechas de arco."
+            "Siga as setas amarelas do Caminho.",
+            "Ignore as setas amarelas do Caminho."
           ],
           "correct": 0,
-          "joke": "Flecha = seta."
+          "joke": "Aqui, flechas são as setas que indicam o percurso."
         },
         {
           "spanish": "Hoy es la última etapa.",
@@ -257,7 +259,7 @@
           "emoji": "🐚",
           "title": "A Compostela",
           "es": "La Compostela.",
-          "pt": "Para receber a Compostela na Oficina do Peregrino é preciso percorrer pelo menos os últimos 100 km a pé ou a cavalo (200 km de bicicleta), com a credencial carimbada (2 carimbos por dia nos últimos 100 km)."
+          "pt": "A Compostela certifica uma peregrinação de motivação religiosa ou espiritual. A pé ou a cavalo, são exigidos pelo menos 100 km contínuos na mesma rota reconhecida em direção a Santiago, incluindo a etapa final até a Catedral; de bicicleta, 200 km. Quem faz apenas a distância mínima deve carimbar a credencial no início e no fim de cada etapa, com a data. Há condições específicas para rotas iniciadas fora da Espanha; consulte os requisitos atuais na Oficina do Peregrino."
         },
         {
           "emoji": "🗣️",

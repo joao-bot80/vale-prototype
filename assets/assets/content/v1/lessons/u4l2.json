@@ -91,7 +91,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "A cozinha é equipada?",
+      "portuguese": "A cozinha está equipada?",
       "answer": [
         "¿La",
         "cocina",
@@ -100,7 +100,7 @@
       ],
       "distractors": [
         "cozinha",
-        "es"
+        "están"
       ],
       "explanation": "Para o estado de um lugar: \"la cocina está equipada\"."
     },
@@ -166,9 +166,9 @@
       ],
       "distractors": [
         "Gusto",
-        "departamento"
+        "departamentos"
       ],
-      "explanation": "\"Me encanta\" = adoro, amo. Funciona como \"gustar\"."
+      "explanation": "\"Me encanta\" = adoro. Funciona como \"gustar\": o verbo concorda com \"este piso\". \"Departamento\" também é válido para apartamento, mas aqui praticamos \"piso\"."
     },
     {
       "type": "listening",

@@ -16,7 +16,7 @@
         {
           "speaker": "Lino",
           "es": "Son veinticinco preguntas tipo test. Necesitas quince respuestas correctas.",
-          "pt": "São vinte e cinco perguntas de múltipla escolha. Você precisa de quinze respostas certas."
+          "pt": "São vinte e cinco perguntas com alternativas. Você precisa de quinze respostas certas."
         },
         {
           "speaker": "Lu",
@@ -45,15 +45,16 @@
       "title": "Palavras novas",
       "words": [
         {
-          "es": "el Rey",
-          "pt": "o Rei",
+          "es": "el rey",
+          "pt": "o rei",
           "emoji": "👑",
           "image": "assets/vocab/rey.png"
         },
         {
           "es": "la Constitución",
           "pt": "a Constituição",
-          "emoji": "📜"
+          "emoji": "📜",
+          "image": "assets/vocab/constitucion.png"
         },
         {
           "es": "la bandera",
@@ -64,7 +65,8 @@
         {
           "es": "el voto",
           "pt": "o voto",
-          "emoji": "🗳️"
+          "emoji": "🗳️",
+          "image": "assets/vocab/voto.png"
         }
       ]
     },
@@ -73,12 +75,12 @@
       "title": "Escolha a resposta",
       "prompt": "\"Preguntas tipo test\" são:",
       "options": [
-        "Perguntas de múltipla escolha",
+        "Perguntas com alternativas",
         "Perguntas abertas",
         "Perguntas orais"
       ],
       "correct": 0,
-      "explanation": "Tipo test = escolher a alternativa certa."
+      "explanation": "Tipo test = responder escolhendo alternativas. No CCSE, há perguntas com três opções e outras de verdadeiro ou falso."
     },
     {
       "type": "build",
@@ -122,9 +124,11 @@
         },
         {
           "es": "Cortes Generales",
-          "kind": "armadilha",
-          "meaning": "Parlamento",
-          "tip": "Cortes Generales = Parlamento. Em português, cortes são cortes de tesoura/orçamento."
+          "kind": "quase",
+          "meaning": "Cortes Gerais / Parlamento espanhol",
+          "tip": "Cortes também designa uma assembleia legislativa em português. As Cortes Generales espanholas reúnem o Congreso de los Diputados e o Senado.",
+          "pt": "Cortes Gerais",
+          "context": "Las Cortes Generales aprueban las leyes."
         },
         {
           "es": "comunidad autónoma",
@@ -134,16 +138,18 @@
         },
         {
           "es": "alcalde",
-          "kind": "armadilha",
-          "meaning": "prefeito",
-          "tip": "Alcalde = prefeito. Em português, alcaide é o diretor de presídio."
+          "kind": "quase",
+          "meaning": "alcaide / prefeito",
+          "tip": "Alcaide também pode designar o chefe de um município espanhol em português. No Brasil, prefeito é a tradução mais habitual; os sentidos históricos de alcaide não anulam esse uso.",
+          "pt": "alcaide",
+          "context": "El alcalde dirige el ayuntamiento."
         },
         {
-          "es": "manual",
-          "kind": "igual",
-          "meaning": "manual",
-          "tip": "Igual!",
-          "pt": "manual"
+          "es": "asignatura",
+          "kind": "armadilha",
+          "meaning": "disciplina / matéria escolar",
+          "context": "Historia es mi asignatura favorita.",
+          "tip": "Asignatura = matéria escolar. Assinatura em português corresponde a firma em espanhol."
         }
       ]
     },
@@ -154,7 +160,7 @@
         {
           "speaker": "Lino",
           "es": "Son veinticinco preguntas tipo test. Necesitas quince respuestas correctas.",
-          "pt": "São vinte e cinco perguntas de múltipla escolha. Você precisa de quinze respostas certas."
+          "pt": "São vinte e cinco perguntas com alternativas. Você precisa de quinze respostas certas."
         },
         {
           "speaker": "Lu",
@@ -219,28 +225,28 @@
           "spanish": "El alcalde de Madrid.",
           "options": [
             "O prefeito de Madrid.",
-            "O alcaide de Madrid."
+            "O governador da comunidade de Madrid."
           ],
           "correct": 0,
-          "joke": "Alcalde = prefeito."
+          "joke": "Alcalde = prefeito; alcaide também é uma tradução possível em português."
         },
         {
-          "spanish": "El Congreso está en Madrid.",
+          "spanish": "El Congreso de los Diputados está en Madrid.",
           "options": [
-            "O Congresso fica em Madrid.",
-            "A conferência fica em Madrid."
+            "O Congresso dos Deputados fica em Madrid.",
+            "O Congresso dos Deputados fica em Barcelona."
           ],
           "correct": 0,
-          "joke": "Congreso = Câmara dos Deputados."
+          "joke": "O Congreso de los Diputados é uma das duas câmaras das Cortes Generales; a outra é o Senado."
         },
         {
-          "spanish": "He acertado veinte.",
+          "spanish": "He acertado veinte preguntas.",
           "options": [
-            "Acertei vinte.",
-            "Acertei vinte reais."
+            "Acertei vinte perguntas.",
+            "Errei vinte perguntas."
           ],
           "correct": 0,
-          "joke": "Acertar = acertar."
+          "joke": "Acertar = acertar; fallar = errar."
         }
       ]
     },
@@ -253,13 +259,13 @@
           "emoji": "📘",
           "title": "CCSE",
           "es": "Veinticinco preguntas, quince aciertos.",
-          "pt": "Prova de conhecimentos constitucionais e socioculturais: 25 perguntas, aprova com 15 acertos. Em 2026 custa 85 € e dá direito a duas tentativas. O resultado vale 4 anos para a nacionalidade. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "O CCSE tem 25 perguntas e exige 15 acertos. Em 2026, a inscrição custa 85 € e inclui até duas oportunidades, nas condições e no prazo definidos pelo Instituto Cervantes. O certificado de aprovação vale quatro anos para o pedido de nacionalidade. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "🏛️",
           "title": "Como estudar",
           "es": "Descarga el manual del CCSE.",
-          "pt": "O Instituto Cervantes publica um manual gratuito com todas as perguntas possíveis, atualizado anualmente. Estude por ele. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "O Instituto Cervantes publica gratuitamente o manual com o banco de perguntas. Use a edição correspondente ao ano da sua prova e confira o formato, os prazos e as condições de inscrição. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         }
       ]
     }

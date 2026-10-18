@@ -108,7 +108,7 @@
         "Vá para outro hospital."
       ],
       "correct": 0,
-      "explanation": "Nas urgências há triagem: casos graves primeiro."
+      "explanation": "Siéntate = sente-se; sala de espera = sala de espera. A triagem define a prioridade do atendimento."
     },
     {
       "type": "complete",
@@ -175,7 +175,7 @@
         "Não tenho documentos."
       ],
       "correct": 0,
-      "explanation": "Em urgência, nenhum hospital público nega atendimento."
+      "explanation": "Informe os documentos e a cobertura de saúde disponíveis. A fala não determina gratuidade nem substitui as regras de acesso à assistência."
     },
     {
       "type": "boss",
@@ -210,13 +210,13 @@
           "joke": "Venda = atadura."
         },
         {
-          "spanish": "Llevo escayola un mes.",
+          "spanish": "Llevo un mes con el brazo escayolado.",
           "options": [
-            "Estou de gesso há um mês.",
-            "Uso escaiola há um mês."
+            "Estou com o braço engessado há um mês.",
+            "Estou com o braço engessado há uma semana."
           ],
           "correct": 0,
-          "joke": "Escayola = gesso."
+          "joke": "Llevar un mes con... = estar há um mês com... Escayolado = engessado; escaiola também existe em português."
         }
       ]
     },
@@ -229,13 +229,13 @@
           "emoji": "🏥",
           "title": "Urgências",
           "es": "Urgencias del hospital, 24 horas.",
-          "pt": "Nas urgências dos hospitais públicos há triagem por gravidade. Para algo leve, o centro de saúde ou o PAC/SUAP (atendimento fora de hora) costuma ser mais rápido. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "No pronto-socorro hospitalar, a triagem organiza o atendimento por gravidade, não apenas por ordem de chegada. Consulte os serviços locais para atendimento não urgente; em emergência, ligue 112 e siga as orientações dos profissionais. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "💊",
           "title": "Farmácia de plantão",
           "es": "Farmacia de guardia.",
-          "pt": "Sempre há farmácias de plantão (\"de guardia\") abertas à noite e nos feriados; a lista fica na porta de qualquer farmácia e no site do colégio de farmacêuticos. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "Farmacias de guardia atendem em turnos de plantão. Localização, horário e forma de atendimento variam; algumas funcionam por chamada. Consulte a escala afixada na farmácia ou o site do colégio de farmacêuticos da região. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         }
       ]
     }

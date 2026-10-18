@@ -26,7 +26,7 @@
         {
           "speaker": "Lu",
           "es": "Aquí está: fondo blanco, tamaño carné.",
-          "pt": "Aqui está: fundo branco, tamanho de foto de documento (32 × 26 mm)."
+          "pt": "Aqui está: fundo branco, tamanho de foto de documento."
         },
         {
           "speaker": "Policía",
@@ -65,7 +65,8 @@
         {
           "es": "la cola",
           "pt": "a fila",
-          "emoji": "🧍"
+          "emoji": "🧍",
+          "image": "assets/vocab/cola.png"
         }
       ]
     },
@@ -79,7 +80,7 @@
         "O código postal da comisaría"
       ],
       "correct": 0,
-      "explanation": "O modelo 790 código 012 é a taxa de extranjería da Polícia. Em 2026, a primeira TIE custa 16,08 €."
+      "explanation": "O modelo 790, código 012, serve para pagar taxas de procedimentos policiais de estrangeiros. Selecione o conceito correto: o valor depende do trâmite."
     },
     {
       "type": "build",
@@ -133,9 +134,11 @@
         },
         {
           "es": "caducado",
-          "kind": "armadilha",
-          "meaning": "vencido",
-          "tip": "Caducado = vencido. Em português, caduco é a pessoa senil (\"chocho\")."
+          "kind": "igual",
+          "meaning": "caducado / vencido",
+          "tip": "Caducado existe nas duas línguas para um documento que perdeu a validade. No Brasil também se diz vencido.",
+          "pt": "caducado",
+          "context": "Mi pasaporte está caducado."
         },
         {
           "es": "dedo",
@@ -147,8 +150,9 @@
         {
           "es": "carné",
           "kind": "armadilha",
-          "meaning": "carteirinha",
-          "tip": "Carné = carteirinha/documento. Em português, carnê é o bloco de boletos de prestação."
+          "meaning": "carteira de motorista",
+          "tip": "Carné de conducir = carteira de motorista. Também se escreve carnet. O carnê de prestações brasileiro é outro sentido.",
+          "context": "He perdido el carné de conducir."
         }
       ]
     },
@@ -168,14 +172,14 @@
         }
       ],
       "speaker": "Lu",
-      "pt": "Aqui está: fundo branco, tamanho de foto de documento (32 × 26 mm).",
+      "pt": "Aqui está: fundo branco, tamanho de foto de documento.",
       "options": [
         "Muy bien. Ponga el dedo índice aquí. Ahora el otro.",
         "Aquí está: fondo blanco, tamaño carné.",
         "Listo. La tarjeta tarda unas semanas. Para recogerla, pida otra cita."
       ],
       "correct": 1,
-      "explanation": "Lu diz: \"Aquí está: fondo blanco, tamaño carné.\" = \"Aqui está: fundo branco, tamanho de foto de documento (32 × 26 mm).\"."
+      "explanation": "Lu diz: \"Aquí está: fondo blanco, tamaño carné.\" = \"Aqui está: fundo branco, tamanho de foto de documento.\"."
     },
     {
       "type": "build",
@@ -234,19 +238,19 @@
           "spanish": "Vaya a la ventanilla tres.",
           "options": [
             "Vá ao guichê três.",
-            "Vá à janela três."
+            "Vá ao terceiro andar."
           ],
           "correct": 0,
           "joke": "Ventanilla = guichê."
         },
         {
-          "spanish": "Traiga el justificante.",
+          "spanish": "Traiga el justificante de pago.",
           "options": [
-            "Traga o comprovante.",
-            "Traga a justificativa."
+            "Traga o comprovante de pagamento.",
+            "Traga a autorização de residência."
           ],
           "correct": 0,
-          "joke": "Justificante = comprovante."
+          "joke": "Justificante de pago = comprovante de pagamento. O complemento especifica o documento."
         }
       ]
     },
@@ -259,13 +263,13 @@
           "emoji": "🪪",
           "title": "NIE e TIE",
           "es": "El NIE es tu número; la TIE es la tarjeta.",
-          "pt": "NIE = número de identidade de estrangeiro. TIE = o cartão físico, para quem tem autorização de mais de seis meses; deve ser pedida pessoalmente em até um mês após a entrada ou a concessão. Leve EX-17, passaporte, foto e a taxa 790-012 (16,08 € a primeira TIE em 2026). ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "O NIE é um número de identificação e, por si só, não comprova residência legal. A TIE é o cartão que documenta a situação autorizada. Obrigação, prazo e documentos variam conforme a autorização: consulte a Polícia e a resolução do seu caso; a lista do diálogo não é completa. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "💶",
           "title": "Modelo 790-012",
           "es": "La tasa se paga en el banco antes de la cita.",
-          "pt": "O impresso da taxa 790 código 012 se gera na sede eletrônica da Polícia e se paga em banco ou online antes da cita. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "Gere o modelo 790-012 na sede da Policía Nacional, selecione a taxa correspondente e siga as instruções de pagamento. A Polícia indica bancos e entidades colaboradoras. Guarde o comprovante; gerar o impresso online não equivale a pagar a taxa. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         }
       ]
     }

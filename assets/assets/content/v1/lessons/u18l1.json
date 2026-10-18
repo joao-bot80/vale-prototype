@@ -65,7 +65,8 @@
         {
           "es": "la sala",
           "pt": "a sala",
-          "emoji": "🚪"
+          "emoji": "🚪",
+          "image": "assets/vocab/sala.png"
         }
       ]
     },
@@ -91,10 +92,9 @@
         "cola."
       ],
       "distractors": [
-        "fila",
         "costuma"
       ],
-      "explanation": "\"Cola\" = fila. Na Espanha, \"fila\" é mais a fileira (de cadeiras, no cinema)."
+      "explanation": "Aqui praticamos \"cola\", muito comum em Madri para uma fila de espera. \"Fila\" também pode designar pessoas em fila; não é uma palavra errada em espanhol."
     },
     {
       "type": "listening",

@@ -73,11 +73,11 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Hace falta un permiso\" significa:",
+      "prompt": "Na subida ao Teide, \"hace falta un permiso\" significa:",
       "options": [
         "Precisa de uma autorização",
         "Falta um feriado",
-        "Faz falta uma permissão de férias"
+        "A autorização não é necessária"
       ],
       "correct": 0,
       "explanation": "Hacer falta = precisar."
@@ -94,7 +94,7 @@
         "quanto",
         "medir"
       ],
-      "explanation": "Medir = ter de altura."
+      "explanation": "Aqui, medir se refere à altura do Teide. O verbo também serve para outras medidas, como comprimento."
     },
     {
       "type": "listening",
@@ -107,7 +107,7 @@
         "Pode subir sem nada."
       ],
       "correct": 0,
-      "explanation": "Para o último trecho até o cume é preciso reserva no Tenerife ON. Desde 2026 há taxa para quem não mora em Tenerife."
+      "explanation": "Para chegar ao cume pelo sendero PNT 10 é preciso autorização no Tenerife ON. Há tarifas em determinados horários e isenções; consulte as condições atuais na plataforma."
     },
     {
       "type": "swipe",
@@ -124,7 +124,7 @@
           "es": "cima",
           "kind": "igual",
           "meaning": "cume / topo",
-          "tip": "Mesma palavra: cima = topo (como \"em cima\"); em espanhol, também o cume da montanha.",
+          "tip": "Cima pode significar topo ou cume em ambas as línguas, inclusive o ponto mais alto de uma montanha.",
           "pt": "cima"
         },
         {
@@ -138,13 +138,15 @@
           "es": "forro polar",
           "kind": "armadilha",
           "meaning": "fleece / blusa polar",
-          "tip": "Forro polar = blusa de fleece. Em português, forro é o tecido de dentro da roupa ou o teto."
+          "tip": "Aqui, forro polar é uma blusa de fleece. Forro sozinho também pode ser o revestimento interno de uma roupa em espanhol, como em português.",
+          "context": "Ponte el forro polar."
         },
         {
           "es": "copo",
           "kind": "armadilha",
           "meaning": "floco (de neve)",
-          "tip": "Copo = floco. Copo (de beber) é \"vaso\"."
+          "tip": "Copo de nieve = floco de neve. O copo usado para beber é vaso em espanhol.",
+          "context": "Cae un copo de nieve."
         }
       ]
     },
@@ -220,31 +222,31 @@
           "joke": "Hacer falta = precisar."
         },
         {
-          "spanish": "Llévate el abrigo.",
+          "spanish": "Llévate un abrigo para el frío.",
           "options": [
-            "Leve o casaco.",
-            "Leve o abrigo antiaéreo."
+            "Leve um casaco para o frio.",
+            "Leve um guarda-chuva para a chuva."
           ],
           "correct": 0,
-          "joke": "Abrigo = casaco."
+          "joke": "Aqui, abrigo é uma peça de roupa. A palavra também pode significar proteção ou lugar abrigado em espanhol."
         },
         {
-          "spanish": "Estamos en la cima.",
+          "spanish": "Estamos en la cima de la montaña.",
           "options": [
-            "Estamos no topo.",
-            "Estamos em cima da mesa."
+            "Estamos no topo da montanha.",
+            "Estamos no pé da montanha."
           ],
           "correct": 0,
-          "joke": "Cima = cume."
+          "joke": "Cima = topo ou cume, sentido que também existe em português."
         },
         {
-          "spanish": "¿Cuánto mide?",
+          "spanish": "¿Cuánto mide el Teide?",
           "options": [
-            "Quanto mede de altura?",
-            "Quanto custa?"
+            "Quanto mede o Teide de altura?",
+            "Quanto custa visitar o Teide?"
           ],
           "correct": 0,
-          "joke": "Medir."
+          "joke": "Medir se refere à altura nesta pergunta."
         }
       ]
     },
@@ -257,13 +259,13 @@
           "emoji": "🌋",
           "title": "El Teide",
           "es": "El Teide mide 3.715 metros.",
-          "pt": "Vulcão de Tenerife, pico mais alto da Espanha (3.715 m). O Parque Nacional del Teide é Patrimônio Mundial da UNESCO desde 2007. Para o cume é preciso reserva no Tenerife ON; desde janeiro de 2026 há taxa em alguns horários para quem não mora em Tenerife (residentes da ilha e menores de 14 não pagam)."
+          "pt": "Vulcão de Tenerife, pico mais alto da Espanha, com cerca de 3.715 m. O Parque Nacional del Teide é Patrimônio Mundial da UNESCO desde 2007. O sendero PNT 10 até o cume exige autorização no Tenerife ON. Desde janeiro de 2026 há cobrança em determinadas faixas horárias, com isenção para residentes de Tenerife e menores de 14 anos nesse sendero. Confira horários, tarifas, condições de acesso e equipamento exigido antes da visita."
         },
         {
           "emoji": "🗺️",
           "title": "Canarias",
-          "es": "Siete islas principales.",
-          "pt": "Arquipélago espanhol no Atlântico, perto da costa da África. Lá a hora é uma a menos que em Madri."
+          "es": "Ocho islas principales.",
+          "pt": "Arquipélago espanhol no Atlântico, perto da costa africana. São oito ilhas principais, incluindo La Graciosa. Nas Canárias é uma hora a menos que em Madri."
         }
       ]
     }

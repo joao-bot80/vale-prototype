@@ -47,7 +47,8 @@
         {
           "es": "el finde",
           "pt": "o fim de semana",
-          "emoji": "🎉"
+          "emoji": "🎉",
+          "image": "assets/vocab/finde.png"
         },
         {
           "es": "el sábado",
@@ -58,12 +59,14 @@
         {
           "es": "el cumpleaños",
           "pt": "o aniversário",
-          "emoji": "🎂"
+          "emoji": "🎂",
+          "image": "assets/vocab/cumpleanos.png"
         },
         {
           "es": "quedar",
           "pt": "combinar de se encontrar",
-          "emoji": "🤝"
+          "emoji": "🤝",
+          "image": "assets/vocab/quedar.png"
         },
         {
           "es": "guay",

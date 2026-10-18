@@ -47,7 +47,8 @@
         {
           "es": "la cuenta",
           "pt": "a conta",
-          "emoji": "🏦"
+          "emoji": "🏦",
+          "image": "assets/vocab/cuenta.png"
         },
         {
           "es": "el cajero",
@@ -58,12 +59,14 @@
         {
           "es": "los ahorros",
           "pt": "as economias",
-          "emoji": "🐷"
+          "emoji": "🐷",
+          "image": "assets/vocab/ahorros.png"
         },
         {
           "es": "el préstamo",
           "pt": "o empréstimo",
-          "emoji": "💸"
+          "emoji": "💸",
+          "image": "assets/vocab/prestamo.png"
         }
       ]
     },
@@ -130,9 +133,11 @@
         },
         {
           "es": "interés",
-          "kind": "armadilha",
-          "meaning": "juros",
-          "tip": "Interés = juros (do banco). Em português, interesse é curiosidade/vontade."
+          "kind": "quase",
+          "meaning": "juros / interesse",
+          "tip": "Interesse também pode significar juros em português, embora juros seja mais usual no Brasil. Em espanhol, interés também expressa atenção ou curiosidade.",
+          "pt": "interesse",
+          "context": "El préstamo tiene un interés fijo."
         },
         {
           "es": "préstamo",
@@ -144,7 +149,8 @@
           "es": "cajero",
           "kind": "armadilha",
           "meaning": "caixa eletrônico",
-          "tip": "Cajero = caixa eletrônico (ou o caixa). Em português, caixeiro é balconista antigo / caixeiro-viajante."
+          "tip": "Aqui, cajero automático = caixa eletrônico. Cajero também pode ser o funcionário do caixa; caixeiro em português designa uma pessoa, não a máquina.",
+          "context": "Saco dinero del cajero automático."
         }
       ]
     },
@@ -200,7 +206,7 @@
         "Sim, mas esqueci o certificado."
       ],
       "correct": 0,
-      "explanation": "Para conta de residente, o banco costuma pedir NIE/TIE e comprovação de residência (como o empadronamiento). Sem isso, alguns bancos oferecem conta de não residente."
+      "explanation": "O banco verifica identidade e situação de residência. O padrón comprova domicílio, não residência legal; um NIE isolado também não comprova essa situação. Confira os documentos exigidos para a modalidade de conta."
     },
     {
       "type": "boss",
@@ -253,14 +259,14 @@
         {
           "emoji": "🏦",
           "title": "Conta de residente",
-          "es": "Con el NIE puedes abrir una cuenta de residente.",
-          "pt": "Bancos pedem identificação (passaporte/TIE) e NIE; muitos pedem também comprovante de endereço ou de renda. Quem ainda não tem NIE pode abrir conta de não residente em alguns bancos. Condições e tarifas variam por banco. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "es": "El banco comprueba tu identidad y tu residencia.",
+          "pt": "O banco verifica identificação, residência e outros dados conforme a conta. Ter um NIE não torna alguém residente. Contas de residente e de não residente dependem da situação comprovada e das condições do banco; confira documentos, serviços e tarifas. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "💳",
           "title": "Bizum",
           "es": "¿Te hago un Bizum?",
-          "pt": "Bizum é o sistema de pagamento instantâneo pelo celular entre contas espanholas, parecido com o Pix. Muito usado para dividir a conta. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "Bizum permite pagamentos pelo número de celular em bancos participantes. É usado, por exemplo, para dividir uma conta. A comparação com o Pix ajuda a entender a função, mas cobertura, limites e regras são próprios do serviço. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         }
       ]
     }

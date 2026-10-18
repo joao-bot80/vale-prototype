@@ -156,7 +156,7 @@
         "Fechamos na metade do sábado"
       ],
       "correct": 0,
-      "explanation": "Muitas lojinhas fecham entre 14h e 17h, mais ou menos."
+      "explanation": "\"A mediodía\" pode ser ao meio-dia ou na parte central do dia. Nesta loja, refere-se à pausa para o almoço, das 14h às 17h; o horário varia de loja para loja."
     },
     {
       "type": "build",
@@ -238,7 +238,7 @@
           "emoji": "🛍️",
           "title": "Horario partido",
           "es": "Muchas tiendas cierran a mediodía.",
-          "pt": "O \"horario partido\" (manhã e tarde, com pausa longa pro almoço) ainda é comum no comércio pequeno. Lojas grandes e shoppings abrem direto."
+          "pt": "O \"horario partido\" divide o expediente em manhã e tarde, com uma pausa longa. Algumas lojas pequenas seguem esse horário; outras, assim como muitas lojas grandes e shoppings, abrem sem pausa para o almoço."
         },
         {
           "emoji": "🐉",

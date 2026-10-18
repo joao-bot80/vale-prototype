@@ -85,7 +85,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "É melhor comprar pela internet.",
+      "portuguese": "É melhor comprá-las pela internet (as entradas).",
       "answer": [
         "Es",
         "mejor",
@@ -146,10 +146,10 @@
           "pt": "fachada"
         },
         {
-          "es": "flamante",
+          "es": "sótano",
           "kind": "armadilha",
-          "meaning": "novinho em folha",
-          "tip": "Flamante = novinho, reluzente. Não é flamejante."
+          "meaning": "porão / subsolo",
+          "tip": "\"Sótano\" fica abaixo do nível da rua. O sótão, debaixo do telhado, é \"desván\" ou \"buhardilla\"."
         }
       ]
     },
@@ -225,10 +225,10 @@
           "spanish": "El techo de la habitación es muy alto.",
           "options": [
             "O teto do quarto é muito alto.",
-            "O telhado do quarto é muito alto."
+            "O chão do quarto é muito alto."
           ],
           "correct": 0,
-          "joke": "Techo = teto (por dentro). O telhado é \"tejado\"."
+          "joke": "Aqui, \"techo\" = teto do quarto. Em outros contextos, também pode ser cobertura ou telhado; \"tejado\" é outra palavra para telhado."
         },
         {
           "spanish": "La escalera es estrecha.",
@@ -259,7 +259,7 @@
           "emoji": "⛪",
           "title": "Sagrada Família",
           "es": "La Sagrada Familia es de Gaudí.",
-          "pt": "Templo projetado por Antoni Gaudí; as obras começaram em 1882 e continuam até hoje. Compre o ingresso no site oficial com antecedência. Em catalão: \"Sagrada Família\"."
+          "pt": "A construção começou em 1882, com projeto de Francisco de Paula del Villar. Gaudí assumiu em 1883 e transformou o projeto. Consulte as condições de visita e compre no site oficial com antecedência. Em catalão: \"Sagrada Família\"."
         },
         {
           "emoji": "🦎",

@@ -65,7 +65,8 @@
         {
           "es": "adiós",
           "pt": "tchau",
-          "emoji": "👋"
+          "emoji": "👋",
+          "image": "assets/vocab/adios.png"
         }
       ]
     },
@@ -79,7 +80,7 @@
         "Quando você volta sempre"
       ],
       "correct": 0,
-      "explanation": "Cuando + subjuntivo = futuro."
+      "explanation": "Para uma volta futura ainda não realizada, cuando pede presente do subjuntivo: vuelvas. Em português, usamos o futuro do subjuntivo: quando você voltar."
     },
     {
       "type": "build",
@@ -124,26 +125,29 @@
           "es": "despedirse",
           "kind": "quase",
           "meaning": "despedir-se",
-          "tip": "Despedirse = despedir-se. Mas \"despedir a alguien\" = demitir."
+          "tip": "Despedirse de alguien = despedir-se de alguém. Despedir a alguien pode ser acompanhar alguém na partida ou dispensá-lo do emprego, conforme o contexto."
         },
         {
           "es": "hasta pronto",
           "kind": "armadilha",
           "meaning": "até logo",
-          "tip": "Pronto = logo."
+          "tip": "Hasta pronto = até logo. Pronto indica em breve nessa despedida. Estar pronto para sair se diz estar listo para salir; pronto também pode ter usos adverbiais em português.",
+          "context": "¡Hasta pronto, amigos!"
         },
         {
           "es": "volver",
           "kind": "armadilha",
           "meaning": "voltar",
-          "tip": "Volver = voltar. Em português, volver é virar (olhar, rosto)."
+          "tip": "Aqui, volver = voltar ou regressar. Volver também existe em português com esse sentido, além de virar; voltar é a forma mais habitual no Brasil.",
+          "context": "Vuelvo a España mañana."
         },
         {
           "es": "seguir",
           "kind": "igual",
           "meaning": "continuar",
-          "tip": "Seguir = seguir / continuar. \"Sigue recto\" = siga reto.",
-          "pt": "seguir"
+          "tip": "Seguir + gerúndio expressa continuidade nas duas línguas: sigo aprendiendo = sigo aprendendo / continuo aprendendo.",
+          "pt": "seguir",
+          "context": "Sigo aprendiendo español."
         }
       ]
     },
@@ -183,9 +187,9 @@
       ],
       "distractors": [
         "abraço",
-        "fuerto"
+        "fuertes"
       ],
-      "explanation": "Fechamento comum de mensagens."
+      "explanation": "Un abrazo fuerte e un fuerte abrazo são despedidas afetuosas comuns em mensagens."
     },
     {
       "type": "listening",
@@ -198,7 +202,7 @@
         "Sim, dois meses, volto em dezembro."
       ],
       "correct": 0,
-      "explanation": "Ir a + infinitivo = futuro próximo."
+      "explanation": "Ir a + infinitivo pode expressar uma intenção ou um plano futuro. Aqui, voy a ver a mi familia é vou ver minha família."
     },
     {
       "type": "boss",
@@ -236,10 +240,10 @@
           "spanish": "Vuelvo a leer el libro.",
           "options": [
             "Leio o livro de novo.",
-            "Volto para ler o livro."
+            "Paro de ler o livro."
           ],
           "correct": 0,
-          "joke": "Volver a = de novo."
+          "joke": "Aqui, volver a + infinitivo indica repetição: ler de novo. Volver também pode indicar retorno a um lugar em outros contextos."
         }
       ]
     },
@@ -252,13 +256,13 @@
           "emoji": "🗺️",
           "title": "De volta ao mapa",
           "es": "Galicia, País Vasco y Canarias.",
-          "pt": "Você já passou por Galícia, País Basco e Canárias com a Lu e o Lino. Lá também há línguas cooficiais (galego, basco), que aparecem nas notas culturais."
+          "pt": "Você já passou por Galícia, País Basco e Canárias com Lu e Lino. Na Galícia, galego e castelhano são cooficiais; na Comunidade Autônoma do País Basco, euskera e castelhano. Nas Canárias, você conheceu características regionais do espanhol, como o seseo."
         },
         {
           "emoji": "🎓",
           "title": "¡Graduada!",
-          "es": "¡Enhorabuena, estás graduada!",
-          "pt": "Completar as 3 aulas desta unidade dá o carimbo GRADUACIÓN no passaporte. Parabéns!"
+          "es": "¡Enhorabuena por terminar el curso!",
+          "pt": "Conclua as seis lições de Graduação, nas duas unidades, para receber o carimbo GRADUACIÓN no passaporte do app. Ele celebra sua conclusão do curso. Parabéns!"
         }
       ]
     }

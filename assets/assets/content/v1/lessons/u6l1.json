@@ -11,7 +11,7 @@
         {
           "speaker": "Camarero",
           "es": "¡Buenas! ¿Qué os pongo?",
-          "pt": "Boa! O que vai ser?"
+          "pt": "Oi! O que vai ser?"
         },
         {
           "speaker": "Lu",
@@ -86,7 +86,7 @@
         "A ración é só bebida"
       ],
       "correct": 0,
-      "explanation": "Tapa = porçãozinha individual. Ración = prato maior para dividir. Também existe \"media ración\"."
+      "explanation": "A tapa é uma porção pequena; a ración é maior e costuma ser compartilhada. Também existe \"media ración\". Os tamanhos variam conforme o bar."
     },
     {
       "type": "build",
@@ -117,7 +117,7 @@
         "Ontem tinha salmorejo e peixe."
       ],
       "correct": 0,
-      "explanation": "\"Pescaíto\" é \"pescadito\" (peixinho) do jeito andaluz de falar."
+      "explanation": "\"Pescaíto\" representa a pronúncia de \"pescadito\" (peixinho) sem o d entre vogais, comum na fala andaluza."
     },
     {
       "type": "complete",
@@ -237,7 +237,7 @@
           "emoji": "🍅",
           "title": "Salmorejo",
           "es": "El salmorejo es de Córdoba.",
-          "pt": "Creme frio de tomate, pão, azeite e alho, servido com ovo e presunto por cima. Parente do gazpacho, mas bem mais grosso."
+          "pt": "Creme frio de tomate, pão, azeite e alho, geralmente servido com ovo e presunto curado por cima. Parente do gazpacho, mas bem mais grosso."
         },
         {
           "emoji": "🌉",

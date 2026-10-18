@@ -25,8 +25,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Sí, la noche del veinticuatro. Antes lanzan una palmera de fuegos desde el castillo.",
-          "pt": "Sim, na noite do dia vinte e quatro. Antes lançam uma palmeira de fogos do castelo."
+          "es": "Sí, la noche del veinticuatro al veinticinco de junio. Antes lanzan una palmera de fuegos desde el castillo.",
+          "pt": "Sim, na noite de vinte e quatro para vinte e cinco de junho. Antes lançam uma palmeira de fogos do castelo."
         },
         {
           "speaker": "Lu",
@@ -35,8 +35,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Es la tradición: el fuego purifica y empieza el verano.",
-          "pt": "É a tradição: o fogo purifica e começa o verão."
+          "es": "Es la tradición: el fuego simboliza la renovación y celebramos la llegada del verano.",
+          "pt": "É a tradição: o fogo simboliza a renovação e celebramos a chegada do verão."
         }
       ]
     },
@@ -53,7 +53,8 @@
         {
           "es": "la noche",
           "pt": "a noite",
-          "emoji": "🌙"
+          "emoji": "🌙",
+          "image": "assets/vocab/noche.png"
         },
         {
           "es": "la playa",
@@ -72,19 +73,19 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"¡Qué pena!\" significa:",
+      "prompt": "Ao lamentar a queima de um monumento, \"¡Qué pena!\" significa:",
       "options": [
         "Que pena!",
         "Que vergonha!",
-        "Que pena (de ave)!"
+        "Que alegria!"
       ],
       "correct": 0,
-      "explanation": "Pena = pena, tristeza."
+      "explanation": "Aqui pena expressa tristeza ou dó. Em partes da América, pena também pode significar vergonha; na Espanha, usa-se vergüenza para esse sentido."
     },
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Também queimam?",
+      "portuguese": "Também os queimam?",
       "answer": [
         "¿También",
         "los",
@@ -100,9 +101,9 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Sí, la noche del veinticuatro. Antes lanzan una palmera de fuegos desde el castillo.",
+      "spanish": "Sí, la noche del veinticuatro al veinticinco de junio. Antes lanzan una palmera de fuegos desde el castillo.",
       "options": [
-        "Sim, na noite do dia vinte e quatro. Antes lançam uma palmeira de fogos do castelo.",
+        "Sim, na noite de vinte e quatro para vinte e cinco de junho. Antes lançam uma palmeira de fogos do castelo.",
         "Não, guardam no museu.",
         "Sim, de manhã cedo."
       ],
@@ -127,24 +128,27 @@
           "tip": "Es tradición = é tradição."
         },
         {
-          "es": "purificar",
-          "kind": "igual",
-          "meaning": "purificar",
-          "tip": "Igual!",
-          "pt": "purificar"
+          "es": "vaso",
+          "kind": "armadilha",
+          "context": "Bebo agua en un vaso.",
+          "meaning": "copo",
+          "tip": "Aqui vaso é copo de beber. Vaso de plantas é maceta. Vaso sanguíneo tem o mesmo sentido nas duas línguas."
         },
         {
           "es": "pena",
           "kind": "igual",
           "meaning": "pena / dó",
-          "tip": "¡Qué pena! = que pena. Atenção: vergonha é \"vergüenza\".",
-          "pt": "pena"
+          "tip": "Aqui pena expressa dó ou tristeza, como em português. Em partes da América, também pode significar vergonha.",
+          "pt": "pena",
+          "context": "¡Qué pena quemar algo tan bonito!"
         },
         {
           "es": "cartón",
-          "kind": "armadilha",
-          "meaning": "papelão",
-          "tip": "Cartón = papelão (os monumentos das Hogueras são de cartón). Cartão é \"tarjeta\"."
+          "kind": "quase",
+          "meaning": "papelão / cartão (material)",
+          "tip": "Cartón e cartão compartilham o sentido de papel grosso. Cartão bancário ou de identificação, por sua vez, é tarjeta.",
+          "pt": "cartão",
+          "context": "La caja es de cartón."
         }
       ]
     },
@@ -164,26 +168,26 @@
         }
       ],
       "speaker": "Lino",
-      "pt": "Sim, na noite do dia vinte e quatro. Antes lançam uma palmeira de fogos do castelo.",
+      "pt": "Sim, na noite de vinte e quatro para vinte e cinco de junho. Antes lançam uma palmeira de fogos do castelo.",
       "options": [
-        "Sí, la noche del veinticuatro. Antes lanzan una palmera de fuegos desde el castillo.",
-        "Es la tradición: el fuego purifica y empieza el verano.",
+        "Sí, la noche del veinticuatro al veinticinco de junio. Antes lanzan una palmera de fuegos desde el castillo.",
+        "Es la tradición: el fuego simboliza la renovación y celebramos la llegada del verano.",
         "¡Qué pena quemar algo tan bonito!"
       ],
       "correct": 0,
-      "explanation": "Lino diz: \"Sí, la noche del veinticuatro. Antes lanzan una palmera de fuegos desde el castillo.\" = \"Sim, na noite do dia vinte e quatro. Antes lançam uma palmeira de fogos do castelo.\"."
+      "explanation": "Lino diz: \"Sí, la noche del veinticuatro al veinticinco de junio. Antes lanzan una palmera de fuegos desde el castillo.\" = \"Sim, na noite de vinte e quatro para vinte e cinco de junho. Antes lançam uma palmeira de fogos do castelo.\"."
     },
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Que pena!",
+      "portuguese": "Que pena! (expressando tristeza)",
       "answer": [
         "¡Qué",
         "pena!"
       ],
       "distractors": [
         "penha",
-        "vergüenza"
+        "penar"
       ],
       "explanation": "Também se diz \"¡qué lástima!\"."
     },
@@ -191,14 +195,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Es la tradición: el fuego purifica y empieza el verano.",
+      "spanish": "Es la tradición: el fuego simboliza la renovación y celebramos la llegada del verano.",
       "options": [
-        "É a tradição: o fogo purifica e começa o verão.",
+        "É a tradição: o fogo simboliza a renovação e celebramos a chegada do verão.",
         "É para esquentar no inverno.",
         "É só para turistas."
       ],
       "correct": 0,
-      "explanation": "A noite de San Juan marca o início do verão."
+      "explanation": "A festa celebra a chegada do verão. A cremà de Alicante ocorre na noite de 24 para 25 de junho, não na data exata do solstício."
     },
     {
       "type": "boss",
@@ -224,13 +228,13 @@
           "joke": "Vergüenza = vergonha."
         },
         {
-          "spanish": "¡Qué pena que te vas!",
+          "spanish": "¡Qué pena que te vayas!",
           "options": [
             "Que pena que você vai embora!",
-            "Que vergonha que você vai embora!"
+            "Que bom que você vai embora!"
           ],
           "correct": 0,
-          "joke": "Pena = tristeza."
+          "joke": "Neste lamento, usa-se o subjuntivo: que te vayas. Pena expressa tristeza pela partida."
         },
         {
           "spanish": "Mira la palmera de fuegos.",
@@ -252,13 +256,13 @@
           "emoji": "🔥",
           "title": "Hogueras de San Juan",
           "es": "Las Hogueras de Alicante.",
-          "pt": "Festa de Alicante (Comunidade Valenciana) de 20 a 24 de junho, com monumentos queimados na noite de 24 (la cremà). É Festa de Interesse Turístico Internacional. Em valenciano: \"Fogueres de Sant Joan\"."
+          "pt": "Festa de Alicante (Comunidade Valenciana), com atos principais de 20 a 24 de junho. A cremà acontece na noite de 24 para 25. Os monumentos usam madeira, papelão e outros materiais. Em valenciano: \"Fogueres de Sant Joan\"."
         },
         {
           "emoji": "🎆",
           "title": "Palmera",
           "es": "La palmera desde el castillo.",
-          "pt": "À meia-noite, uma grande palmeira de fogos sai do Castillo de Santa Bárbara e dá início à queima das hogueras."
+          "pt": "À meia-noite de 24 para 25 de junho, uma grande palmeira de fogos sai do monte Benacantil, onde fica o Castillo de Santa Bárbara, e dá início à queima das hogueras."
         }
       ]
     }

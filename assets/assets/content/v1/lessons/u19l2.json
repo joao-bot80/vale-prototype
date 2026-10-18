@@ -109,7 +109,7 @@
         "Sim, e ninguém usa proteção."
       ],
       "correct": 0,
-      "explanation": "Desde 2006 as crianças do topo usam capacete."
+      "explanation": "\"Llevar casco\" = usar capacete. As crianças do topo dos castells usam essa proteção, que não elimina o risco de quedas."
     },
     {
       "type": "swipe",
@@ -132,8 +132,9 @@
         {
           "es": "pegar",
           "kind": "armadilha",
-          "meaning": "bater / grudar",
-          "tip": "Pegar = bater ou colar. Em português, pegar é agarrar (\"coger\")."
+          "meaning": "bater (em alguém)",
+          "tip": "Nesta frase, \"pegar\" = bater em alguém. Também pode significar colar, conforme o contexto. Para pegar um objeto com a mão, na Espanha é comum \"coger\".",
+          "context": "No debes pegar a nadie."
         },
         {
           "es": "pólvora",
@@ -179,17 +180,17 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Põe roupa velha.",
+      "portuguese": "Vista roupa velha.",
       "answer": [
         "Ponte",
         "ropa",
         "vieja."
       ],
       "distractors": [
-        "pon",
+        "ponéis",
         "vella"
       ],
-      "explanation": "\"Vieja\" = velha. \"Vella\" é catalão."
+      "explanation": "\"Ponte\" = vista / ponha em você: pon + te. \"Vieja\" = velha; \"vella\" é catalão."
     },
     {
       "type": "listening",
@@ -202,7 +203,7 @@
         "Uma corrida. Leve tênis."
       ],
       "correct": 0,
-      "explanation": "Faíscas queimam roupa: proteja-se."
+      "explanation": "Para o correfoc, roupa velha não basta: use algodão com mangas e calças compridas, cubra a cabeça e siga as orientações da organização."
     },
     {
       "type": "boss",
@@ -262,7 +263,7 @@
           "emoji": "🔥",
           "title": "Correfoc",
           "es": "¡Corre, que viene el fuego!",
-          "pt": "\"Correr o fogo\" em catalão: grupos vestidos de diabos dançam com fogos de artifício pelas ruas. Use roupa de algodão, mangas longas e proteja a cabeça."
+          "pt": "No correfoc, grupos vestidos de diabos dançam com fogos de artifício pelas ruas. Para participar, use algodão com mangas e calças compridas, proteja a cabeça e use calçado fechado. Siga as orientações da organização."
         }
       ]
     }

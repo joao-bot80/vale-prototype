@@ -16,7 +16,7 @@
         {
           "speaker": "Dani",
           "es": "Es el Puente Nuevo de Ronda, sobre el Tajo. Tiene casi cien metros de altura.",
-          "pt": "É a Ponte Nova de Ronda, sobre o Tajo. Tem quase cem metros de altura."
+          "pt": "É a Ponte Nova de Ronda, sobre o desfiladeiro do Tajo. Tem quase cem metros de altura."
         },
         {
           "speaker": "Lu",
@@ -92,10 +92,10 @@
         "coche."
       ],
       "distractors": [
-        "carro",
+        "coches",
         "alugamos"
       ],
-      "explanation": "Na Espanha: coche."
+      "explanation": "Na Espanha, \"coche\" é o termo habitual para carro. \"Carro\" também é espanhol válido para automóvel em vários países da América Latina."
     },
     {
       "type": "listening",
@@ -117,7 +117,7 @@
         {
           "speaker": "Dani",
           "es": "Es el Puente Nuevo de Ronda, sobre el Tajo. Tiene casi cien metros de altura.",
-          "pt": "É a Ponte Nova de Ronda, sobre o Tajo. Tem quase cem metros de altura."
+          "pt": "É a Ponte Nova de Ronda, sobre o desfiladeiro do Tajo. Tem quase cem metros de altura."
         },
         {
           "speaker": "Lu",
@@ -157,10 +157,10 @@
         "aparcar?"
       ],
       "distractors": [
-        "parcar",
-        "parquear"
+        "aparcado",
+        "aparcas"
       ],
-      "explanation": "Na Espanha: aparcar."
+      "explanation": "Na Espanha, \"aparcar\" e \"estacionar\" são válidos. \"Parquear\" é usado na América Latina. Depois de \"puedo\", usamos o infinitivo: puedo aparcar."
     },
     {
       "type": "listening",
@@ -201,11 +201,11 @@
         {
           "spanish": "Tengo vértigo.",
           "options": [
-            "Tenho medo de altura.",
+            "Tenho vertigem.",
             "Tenho vertical."
           ],
           "correct": 0,
-          "joke": "Vértigo = vertigem."
+          "joke": "\"Vértigo\" = vertigem. Neste passeio em altura, também pode expressar medo de olhar para baixo; a palavra não se limita a esse contexto."
         },
         {
           "spanish": "Pintan las paredes con cal.",

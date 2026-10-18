@@ -16,12 +16,12 @@
         {
           "speaker": "Lu",
           "es": "Una ración de pulpo a la gallega y unos pimientos de Padrón.",
-          "pt": "Uma porção de polvo à galega e uns pimentões de Padrón."
+          "pt": "Uma porção de polvo à galega e uns pimentinhos de Padrón."
         },
         {
           "speaker": "Camarera",
           "es": "Los pimientos, unos pican y otros no. ¡Es una lotería!",
-          "pt": "Os pimentões, uns ardem e outros não. É uma loteria!"
+          "pt": "Os pimentinhos, uns ardem e outros não. É uma loteria!"
         },
         {
           "speaker": "Lino",
@@ -31,7 +31,7 @@
         {
           "speaker": "Camarera",
           "es": "Percebes, nécoras y navajas. Todo de la lonja de esta mañana.",
-          "pt": "Percebes, caranguejos e navalhas. Tudo do leilão de peixe desta manhã."
+          "pt": "Percebes (crustáceos das rochas), nécoras (caranguejos) e navalhas (moluscos). Tudo do mercado de pescado desta manhã."
         },
         {
           "speaker": "Lu",
@@ -73,7 +73,7 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Unos pican y otros no\" significa:",
+      "prompt": "Falando dos pimentinhos, \"unos pican y otros no\" significa:",
       "options": [
         "Uns ardem e outros não",
         "Uns picam como abelha",
@@ -98,7 +98,7 @@
         "porção",
         "polvo"
       ],
-      "explanation": "\"Ración\" = porção grande."
+      "explanation": "Ración = porção. O tamanho depende do estabelecimento."
     },
     {
       "type": "listening",
@@ -106,12 +106,12 @@
       "prompt": "O que você ouviu?",
       "spanish": "Percebes, nécoras y navajas. Todo de la lonja de esta mañana.",
       "options": [
-        "Percebes, caranguejos e navalhas. Tudo do leilão de peixe desta manhã.",
+        "Percebes (crustáceos das rochas), nécoras (caranguejos) e navalhas (moluscos). Tudo do mercado de pescado desta manhã.",
         "Só peixe congelado.",
         "Carne e batatas."
       ],
       "correct": 0,
-      "explanation": "Lonja = mercado onde se leiloa o peixe."
+      "explanation": "Aqui, lonja é o mercado de pescado onde se realizam leilões."
     },
     {
       "type": "swipe",
@@ -121,8 +121,9 @@
         {
           "es": "percebe",
           "kind": "armadilha",
-          "meaning": "percebe (marisco das rochas)",
-          "tip": "Percebe = um marisco das rochas da Galícia. Em português, \"percebe\" é do verbo perceber."
+          "meaning": "percebe (crustáceo)",
+          "tip": "Aqui, percebe é um crustáceo das rochas. Esse substantivo também existe em português, mas no Brasil a forma mais familiar é a do verbo perceber.",
+          "context": "El percebe vive pegado a las rocas."
         },
         {
           "es": "marisco",
@@ -134,20 +135,24 @@
         {
           "es": "navaja",
           "kind": "quase",
-          "meaning": "navalha (marisco)",
-          "tip": "Navaja = navalha (o marisco) e também canivete."
+          "meaning": "navalha (molusco)",
+          "tip": "Navaja e navalha podem nomear esse molusco. No pedido de comida, é esse o sentido; as palavras também podem designar instrumentos de corte.",
+          "pt": "navalha",
+          "context": "Las navajas se sirven a la plancha."
         },
         {
           "es": "lonja",
           "kind": "armadilha",
-          "meaning": "leilão de peixe",
-          "tip": "Não é loja!"
+          "meaning": "mercado de pescado",
+          "tip": "Aqui, lonja é o mercado de pescado onde há leilões. A palavra espanhola tem outros sentidos; não corresponde simplesmente a qualquer loja.",
+          "context": "El pescado se subasta en la lonja."
         },
         {
           "es": "ración",
           "kind": "armadilha",
           "meaning": "porção",
-          "tip": "Ración = porção. Em português, ração é comida de bicho."
+          "tip": "No restaurante, ración é uma porção. No Brasil, ração costuma lembrar alimento de animais, mas também pode designar uma porção de alimento para pessoas.",
+          "context": "Pedimos una ración de pulpo."
         }
       ]
     },
@@ -158,12 +163,12 @@
         {
           "speaker": "Lu",
           "es": "Una ración de pulpo a la gallega y unos pimientos de Padrón.",
-          "pt": "Uma porção de polvo à galega e uns pimentões de Padrón."
+          "pt": "Uma porção de polvo à galega e uns pimentinhos de Padrón."
         },
         {
           "speaker": "Camarera",
           "es": "Los pimientos, unos pican y otros no. ¡Es una lotería!",
-          "pt": "Os pimentões, uns ardem e outros não. É uma loteria!"
+          "pt": "Os pimentinhos, uns ardem e outros não. É uma loteria!"
         }
       ],
       "speaker": "Lino",
@@ -199,9 +204,9 @@
       "prompt": "O que você ouviu?",
       "spanish": "Los pimientos, unos pican y otros no. ¡Es una lotería!",
       "options": [
-        "Os pimentões, uns ardem e outros não. É uma loteria!",
-        "Os pimentões são todos doces.",
-        "Não temos pimentões."
+        "Os pimentinhos, uns ardem e outros não. É uma loteria!",
+        "Os pimentinhos são todos doces.",
+        "Não temos pimentinhos."
       ],
       "correct": 0,
       "explanation": "Dito famoso: \"uns pican e outros non\" (em galego)."
@@ -221,31 +226,31 @@
           "joke": "Picar = arder."
         },
         {
-          "spanish": "Compran en la lonja.",
+          "spanish": "El pescado se vende en la lonja.",
           "options": [
-            "Compram no leilão de peixe.",
-            "Compram na loja."
+            "O pescado é vendido no mercado de pescado.",
+            "O pescado é vendido na farmácia."
           ],
           "correct": 0,
-          "joke": "Lonja = leilão de peixe, não loja!"
+          "joke": "Neste contexto, lonja é o mercado de pescado, frequentemente com venda em leilão."
         },
         {
-          "spanish": "Pedimos navajas.",
+          "spanish": "Pedimos navajas a la plancha.",
           "options": [
-            "Pedimos navalhas (marisco).",
-            "Pedimos canivetes."
+            "Pedimos navalhas (moluscos) grelhadas.",
+            "Pedimos camarões grelhados."
           ],
           "correct": 0,
-          "joke": "Navaja = navalha."
+          "joke": "A la plancha seleciona aqui o sentido de molusco. Navaja também pode significar canivete ou navalha de corte."
         },
         {
           "spanish": "Una ración para compartir.",
           "options": [
             "Uma porção para dividir.",
-            "Uma ração para compartilhar."
+            "Uma porção só para mim."
           ],
           "correct": 0,
-          "joke": "Ración = porção."
+          "joke": "Ración = porção; para compartir = para dividir. Ração também pode designar uma porção de alimento em português."
         }
       ]
     },
@@ -256,7 +261,7 @@
       "items": [
         {
           "emoji": "🐙",
-          "title": "Pulpo á feira",
+          "title": "Polbo á feira",
           "es": "Pulpo a la gallega.",
           "pt": "Polvo cozido, cortado com tesoura, com azeite, sal grosso e páprica, servido em prato de madeira. Em galego: \"polbo á feira\". Melide é famosa por ele."
         },
@@ -264,7 +269,7 @@
           "emoji": "🦐",
           "title": "Marisco",
           "es": "Marisco gallego.",
-          "pt": "A Galícia é famosa por percebes, nécoras, vieiras e navalhas. Preço por quilo: pergunte antes de pedir."
+          "pt": "A Galícia é famosa por percebes, nécoras, vieiras e navalhas. Os frutos do mar podem ser cobrados por peso ou por porção; confirme o preço e a quantidade antes de pedir."
         }
       ]
     }

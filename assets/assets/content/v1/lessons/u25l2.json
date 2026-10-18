@@ -158,9 +158,9 @@
       ],
       "distractors": [
         "pie",
-        "caminando a"
+        "andamos"
       ],
-      "explanation": "\"Andando\" ou \"a pie\"."
+      "explanation": "\"Andando\", \"caminando\" e \"a pie\" são formas válidas de dizer a pé. Aqui montamos a frase com \"andando\"."
     },
     {
       "type": "listening",
@@ -227,13 +227,13 @@
           "emoji": "🏟️",
           "title": "Barcelona 92",
           "es": "Los Juegos Olímpicos de 1992.",
-          "pt": "Montjuïc recebeu as principais instalações dos Jogos Olímpicos de 1992, que mudaram a cara da cidade e abriram as praias ao público."
+          "pt": "Montjuïc abrigou importantes instalações dos Jogos Olímpicos de 1992, como o estádio e piscinas. Os preparativos também transformaram a orla e recuperaram áreas de praia para a cidade."
         },
         {
           "emoji": "⛲",
           "title": "Font Màgica",
           "es": "La Fuente Mágica de Montjuïc.",
-          "pt": "Fonte com espetáculos de água, luz e música em certos dias. Em catalão: \"Font Màgica\". Confira horários antes de ir."
+          "pt": "Fonte conhecida pelos espetáculos de água, luz e música. Em catalão: \"Font Màgica\". A programação pode mudar ou ser suspensa; confira o funcionamento e os horários no site da prefeitura antes de ir."
         }
       ]
     }

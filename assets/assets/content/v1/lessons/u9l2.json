@@ -31,7 +31,7 @@
         {
           "speaker": "Médica",
           "es": "Le voy a recetar algo para la fiebre. Vaya a la farmacia con la tarjeta.",
-          "pt": "Vou receitar algo para a febre. Vá à farmácia com o cartão."
+          "pt": "Vou lhe receitar algo para a febre. Vá à farmácia com o cartão."
         },
         {
           "speaker": "Lu",
@@ -47,17 +47,19 @@
         {
           "es": "la fiebre",
           "pt": "a febre",
-          "emoji": "🤒"
+          "emoji": "🤒",
+          "image": "assets/vocab/fiebre.png"
         },
         {
           "es": "la tos",
           "pt": "a tosse",
-          "emoji": "😷"
+          "emoji": "😷",
+          "image": "assets/vocab/tos.png"
         },
         {
           "es": "la receta",
-          "pt": "a receita",
-          "emoji": "📝",
+          "pt": "a receita (médica)",
+          "emoji": "📋",
           "image": "assets/vocab/receta.png"
         },
         {
@@ -113,7 +115,7 @@
         "Deixe a receita aqui, por favor."
       ],
       "correct": 0,
-      "explanation": "A \"tarjeta sanitaria\" (SIP na Comunitat Valenciana) dá acesso à saúde pública."
+      "explanation": "A tarjeta sanitaria SIP identifica o usuário da saúde pública na Comunitat Valenciana. O acesso às prestações depende do direito à assistência reconhecido."
     },
     {
       "type": "swipe",
@@ -133,6 +135,14 @@
           "tip": "Curtinho: tos = tosse."
         },
         {
+          "es": "receta",
+          "kind": "quase",
+          "meaning": "receita",
+          "tip": "Perde o \"i\". Como no Brasil, receta é tanto a receita médica (do médico para a farmácia) quanto a receita culinária.",
+          "pt": "receita",
+          "context": "Vaya a la farmacia con la receta."
+        },
+        {
           "es": "médico",
           "kind": "igual",
           "meaning": "médico",
@@ -143,13 +153,16 @@
           "es": "venda",
           "kind": "armadilha",
           "meaning": "atadura / faixa",
-          "tip": "Venda = atadura. Em português, venda é o ato de vender (\"venta\")."
+          "tip": "Aqui venda = atadura para o braço. Em português, venda também é a faixa que cobre os olhos, além do ato de vender; este último é venta em espanhol.",
+          "context": "Necesito una venda para el brazo."
         },
         {
           "es": "pastilla",
-          "kind": "armadilha",
-          "meaning": "comprimido",
-          "tip": "Pastilla = comprimido. Em português, pastilha é bala de menta ou de freio."
+          "kind": "quase",
+          "meaning": "pastilha / comprimido medicinal",
+          "tip": "Pastilla e pastilha compartilham o sentido de medicamento em forma sólida. Em espanhol, pastilla é muito usada para comprimido; não se limita a balas ou pastilhas de freio em português.",
+          "pt": "pastilha",
+          "context": "El médico me ha recetado estas pastillas."
         }
       ]
     },
@@ -181,7 +194,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Vou receitar algo para a febre.",
+      "portuguese": "Vou lhe receitar algo para a febre.",
       "answer": [
         "Le",
         "voy",
@@ -263,13 +276,13 @@
           "emoji": "🏥",
           "title": "Centro de salud",
           "es": "Pide cita en tu centro de salud.",
-          "pt": "Na saúde pública espanhola, você é atendido primeiro no \"centro de salud\" do bairro, pelo médico de família. Para emergências: \"urgencias\" ou o 112."
+          "pt": "Para consultas de atenção primária, procure o centro de salud e confira seu cadastro e a cobertura de saúde. Médico de cabecera é médico de família. Em emergências, o número é 112."
         },
         {
           "emoji": "💊",
           "title": "Farmàcia",
           "es": "La farmacia de guardia está abierta.",
-          "pt": "Farmácias têm uma cruz verde. Sempre há uma \"de guardia\" aberta à noite. Em valenciano: \"farmàcia\"."
+          "pt": "Farmacia de guardia é a farmácia de plantão. Consulte a escala local para saber qual atende e em que horário; nem toda farmácia abre à noite. Em valenciano: \"farmàcia\"."
         }
       ]
     }

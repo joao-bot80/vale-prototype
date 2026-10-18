@@ -36,7 +36,7 @@
         {
           "speaker": "Camarero",
           "es": "Marchando. ¿Os pongo también unos boquerones?",
-          "pt": "Saindo. Querem também uns boquerones (manjubinhas fritas)?"
+          "pt": "Saindo. Querem também uns boquerones (anchovas frescas)?"
         }
       ]
     },
@@ -140,14 +140,14 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Cuidado con las espinas\" significa:",
+      "prompt": "Durante a refeição de peixe, \"Cuidado con las espinas\" significa:",
       "options": [
         "Cuidado com as espinhas (do peixe)",
         "Cuidado com as costas",
         "Cuidado com os espinhos da rosa"
       ],
       "correct": 0,
-      "explanation": "Espina = espinha de peixe."
+      "explanation": "Aqui, \"espinas\" são as espinhas do peixe. A palavra também pode indicar espinhos de plantas em outro contexto."
     },
     {
       "type": "build",
@@ -170,7 +170,7 @@
       "prompt": "O que você ouviu?",
       "spanish": "Marchando. ¿Os pongo también unos boquerones?",
       "options": [
-        "Saindo. Querem também uns boquerones (manjubinhas fritas)?",
+        "Saindo. Querem também uns boquerones (anchovas frescas)?",
         "Acabou o peixe.",
         "Não servimos peixe."
       ],
@@ -204,7 +204,7 @@
           "spanish": "Abre la sombrilla.",
           "options": [
             "Abre o guarda-sol.",
-            "Abre a sombrinha de chuva."
+            "Abre a janela."
           ],
           "correct": 0,
           "joke": "Sombrilla = guarda-sol."
@@ -234,7 +234,7 @@
         {
           "emoji": "☀️",
           "title": "Costa del Sol",
-          "es": "Málaga tiene más de 300 días de sol.",
+          "es": "En Málaga hay muchos días de sol.",
           "pt": "A costa de Málaga é famosa pelo clima. Malagueño/a = de Málaga. Ouve-se muito \"¡quillo!\" (rapaz); só reconheça."
         }
       ]

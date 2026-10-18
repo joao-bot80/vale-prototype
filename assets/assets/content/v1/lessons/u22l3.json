@@ -25,8 +25,8 @@
         },
         {
           "speaker": "Dependiente",
-          "es": "Sí, doce meses. Si te das de baja antes, pagas una penalización.",
-          "pt": "Sim, doze meses. Se cancelar antes, paga uma multa."
+          "es": "Sí, doce meses. Si te das de baja antes, revisamos si corresponde algún cargo según el contrato.",
+          "pt": "Sim, doze meses. Se cancelar antes, verificamos se há algum valor a cobrar conforme o contrato."
         },
         {
           "speaker": "Lu",
@@ -53,7 +53,8 @@
         {
           "es": "la tarifa",
           "pt": "o plano",
-          "emoji": "📶"
+          "emoji": "📶",
+          "image": "assets/vocab/tarifa.png"
         },
         {
           "es": "el router",
@@ -79,7 +80,7 @@
         "Garantia do aparelho"
       ],
       "correct": 0,
-      "explanation": "Se sair antes, paga penalização."
+      "explanation": "Permanencia = compromisso de permanência ou fidelidade. Confira duração, benefícios vinculados e condições de saída no contrato."
     },
     {
       "type": "build",
@@ -90,7 +91,7 @@
         "permanencia?"
       ],
       "distractors": [
-        "fidelidad",
+        "permanecer",
         "tem"
       ],
       "explanation": "\"Permanencia\" = fidelidade."
@@ -99,14 +100,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Sí, doce meses. Si te das de baja antes, pagas una penalización.",
+      "spanish": "Sí, doce meses. Si te das de baja antes, revisamos si corresponde algún cargo según el contrato.",
       "options": [
-        "Sim, doze meses. Se cancelar antes, paga uma multa.",
+        "Sim, doze meses. Se cancelar antes, verificamos se há algum valor a cobrar conforme o contrato.",
         "Não, pode sair quando quiser.",
         "Sim, vinte e quatro meses e não pode sair."
       ],
       "correct": 0,
-      "explanation": "Darse de baja = cancelar."
+      "explanation": "Dar-se de baixa é cancelar o serviço. Cobranças por saída antecipada dependem das condições contratuais e dos direitos legais do consumidor."
     },
     {
       "type": "complete",
@@ -124,19 +125,19 @@
         }
       ],
       "speaker": "Dependiente",
-      "pt": "Sim, doze meses. Se cancelar antes, paga uma multa.",
+      "pt": "Sim, doze meses. Se cancelar antes, verificamos se há algum valor a cobrar conforme o contrato.",
       "options": [
         "Claro. Y el técnico te instala el router en dos o tres días.",
         "¿Puedo mantener mi número? Hago la portabilidad.",
-        "Sí, doce meses. Si te das de baja antes, pagas una penalización."
+        "Sí, doce meses. Si te das de baja antes, revisamos si corresponde algún cargo según el contrato."
       ],
       "correct": 2,
-      "explanation": "Dependiente diz: \"Sí, doce meses. Si te das de baja antes, pagas una penalización.\" = \"Sim, doze meses. Se cancelar antes, paga uma multa.\"."
+      "explanation": "Dependiente diz: \"Sí, doce meses. Si te das de baja antes, revisamos si corresponde algún cargo según el contrato.\" = \"Sim, doze meses. Se cancelar antes, verificamos se há algum valor a cobrar conforme o contrato.\"."
     },
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"No tengo cobertura\" significa:",
+      "prompt": "No celular, \"no tengo cobertura\" significa:",
       "options": [
         "Estou sem sinal",
         "Não tenho seguro",
@@ -180,22 +181,22 @@
       "bossName": "Falso Amigo",
       "questions": [
         {
-          "spanish": "Me he dado de baja.",
+          "spanish": "Me he dado de baja de la compañía telefónica.",
           "options": [
-            "Cancelei (o serviço).",
-            "Fiquei de licença médica."
+            "Cancelei meu serviço na operadora de telefonia.",
+            "Contratei um novo serviço de telefonia."
           ],
           "correct": 0,
-          "joke": "Darse de baja = cancelar."
+          "joke": "Darse de baja de la compañía telefónica = cancelar o serviço; baja pode ter outros sentidos em outros contextos."
         },
         {
-          "spanish": "Aquí no hay cobertura.",
+          "spanish": "Aquí mi móvil no tiene cobertura.",
           "options": [
-            "Aqui não tem sinal.",
-            "Aqui não tem cobertura de seguro."
+            "Aqui meu celular está sem sinal.",
+            "Aqui meu celular está sem bateria."
           ],
           "correct": 0,
-          "joke": "Cobertura = sinal."
+          "joke": "Cobertura aqui é cobertura da rede móvel, não o nível da bateria."
         },
         {
           "spanish": "Es sin permanencia.",
@@ -226,13 +227,13 @@
           "emoji": "📶",
           "title": "Fidelidade",
           "es": "¿Cuánto es la permanencia?",
-          "pt": "Muitas ofertas de fibra e celular têm fidelidade (permanencia), que costuma ser de até 12 meses, com multa se cancelar antes. Leia o contrato e peça o resumo por escrito. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "Ofertas podem exigir permanencia em troca de um benefício, como instalação ou desconto. Cancelar continua sendo possível; verifique eventuais valores vinculados ao benefício, seu cálculo proporcional e a devolução de equipamentos. Peça o resumo do contrato e confira seus direitos antes de aceitar. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "📱",
           "title": "Portabilidade",
           "es": "Hago la portabilidad.",
-          "pt": "Você pode trocar de operadora mantendo o número; a portabilidade é gratuita e costuma levar poucos dias úteis. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "Na Espanha, é possível mudar de operadora conservando o número espanhol por portabilidade. Isso não transfere um número brasileiro para uma linha espanhola. Confirme o prazo, os serviços incluídos e o encerramento de contratos vinculados. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         }
       ]
     }

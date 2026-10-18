@@ -65,7 +65,8 @@
         {
           "es": "la medianoche",
           "pt": "a meia-noite",
-          "emoji": "🌙"
+          "emoji": "🌙",
+          "image": "assets/vocab/medianoche.png"
         }
       ]
     },

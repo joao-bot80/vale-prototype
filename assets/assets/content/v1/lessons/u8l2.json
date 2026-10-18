@@ -31,7 +31,7 @@
         {
           "speaker": "Camarera",
           "es": "Los fartons se mojan en la horchata. ¡Ya verás!",
-          "pt": "Os fartons se molham na horchata. Você vai ver!"
+          "pt": "A gente molha os fartons na horchata. Você vai ver!"
         },
         {
           "speaker": "Lu",
@@ -171,7 +171,7 @@
       "prompt": "O que você ouviu?",
       "spanish": "Los fartons se mojan en la horchata. ¡Ya verás!",
       "options": [
-        "Os fartons se molham na horchata. Você vai ver!",
+        "A gente molha os fartons na horchata. Você vai ver!",
         "Os fartons são vendidos separados.",
         "A horchata já acabou."
       ],
@@ -187,37 +187,37 @@
           "spanish": "¿Me das una pajita?",
           "options": [
             "Me dá um canudo?",
-            "Me dá uma palhinha de cadeira?"
+            "Me dá um prato?"
           ],
           "correct": 0,
-          "joke": "Pajita = canudo."
+          "joke": "Neste pedido de bebida, pajita é canudo; em Portugal, também se diz palhinha."
         },
         {
           "spanish": "Quiero un helado de chocolate.",
           "options": [
             "Quero um sorvete de chocolate.",
-            "Quero um gelado de chocolate frio."
+            "Quero um chocolate quente."
           ],
           "correct": 0,
-          "joke": "Helado = sorvete."
+          "joke": "Helado aqui é sorvete; gelado também é uma tradução válida em português."
         },
         {
           "spanish": "Mi abuela hace un bizcocho buenísimo.",
           "options": [
             "Minha avó faz um bolo ótimo.",
-            "Minha avó faz um biscoito ótimo."
+            "Minha avó faz uma sopa ótima."
           ],
           "correct": 0,
-          "joke": "Bizcocho = bolo simples."
+          "joke": "Aqui bizcocho é um bolo fofo, uso habitual na Espanha. A palavra também nomeia outras preparações conforme a região."
         },
         {
           "spanish": "A las seis tomamos la merienda.",
           "options": [
             "Às seis fazemos o lanche da tarde.",
-            "Às seis tomamos a merenda escolar."
+            "Às seis tomamos o café da manhã."
           ],
           "correct": 0,
-          "joke": "Merienda = lanche da tarde."
+          "joke": "Merienda = lanche da tarde. Merenda também pode ser um lanche em português; não é necessariamente escolar."
         }
       ]
     },

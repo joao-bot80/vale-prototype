@@ -10,8 +10,8 @@
       "lines": [
         {
           "speaker": "Lu",
-          "es": "¡Qué plaza tan enorme! Todos los peregrinos se tumban en el suelo.",
-          "pt": "Que praça enorme! Todos os peregrinos deitam no chão."
+          "es": "¡Qué plaza tan enorme! Hay muchos peregrinos tumbados en el suelo.",
+          "pt": "Que praça enorme! Há muitos peregrinos deitados no chão."
         },
         {
           "speaker": "Lino",
@@ -194,10 +194,10 @@
           "spanish": "Siéntate en el suelo.",
           "options": [
             "Senta no chão.",
-            "Senta no solo do jardim."
+            "Senta na cadeira."
           ],
           "correct": 0,
-          "joke": "Suelo = chão."
+          "joke": "Suelo pode ser traduzido como chão ou solo, conforme o contexto."
         },
         {
           "spanish": "Tira de la cuerda.",

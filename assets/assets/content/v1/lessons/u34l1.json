@@ -10,8 +10,8 @@
       "lines": [
         {
           "speaker": "Lino",
-          "es": "Aquí los pintxos están en la barra. Coges un plato y te sirves.",
-          "pt": "Aqui os pintxos (petiscos bascos) ficam no balcão. Você pega um prato e se serve."
+          "es": "Aquí hay pintxos en la barra. Pregunta al camarero si puedes servirte.",
+          "pt": "Aqui há pintxos (petiscos bascos) no balcão. Pergunte ao garçom se você pode se servir."
         },
         {
           "speaker": "Lu",
@@ -20,8 +20,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Se lo dices al final. Aquí funciona la confianza.",
-          "pt": "Você diz no final. Aqui funciona a confiança."
+          "es": "En este bar se lo dices al final; en otros, el camarero lleva la cuenta.",
+          "pt": "Neste bar você conta no final; em outros, o garçom anota o consumo."
         },
         {
           "speaker": "Lu",
@@ -101,14 +101,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Se lo dices al final. Aquí funciona la confianza.",
+      "spanish": "En este bar se lo dices al final; en otros, el camarero lleva la cuenta.",
       "options": [
-        "Você diz no final. Aqui funciona a confiança.",
+        "Neste bar você conta no final; em outros, o garçom anota o consumo.",
         "Uma câmera filma tudo.",
         "Você paga antes de pegar."
       ],
       "correct": 0,
-      "explanation": "Sistema de confiança nos bares de pintxos."
+      "explanation": "A forma de pedir e acertar a conta varia de um bar para outro."
     },
     {
       "type": "complete",
@@ -121,8 +121,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Se lo dices al final. Aquí funciona la confianza.",
-          "pt": "Você diz no final. Aqui funciona a confiança."
+          "es": "En este bar se lo dices al final; en otros, el camarero lleva la cuenta.",
+          "pt": "Neste bar você conta no final; em outros, o garçom anota o consumo."
         }
       ],
       "speaker": "Lu",
@@ -173,7 +173,7 @@
         "Esses acabaram."
       ],
       "correct": 0,
-      "explanation": "Pintxos quentes são feitos na hora."
+      "explanation": "Os pintxos quentes são pedidos ao garçom; muitos são preparados na hora."
     },
     {
       "type": "boss",
@@ -201,11 +201,11 @@
         {
           "spanish": "La gilda pica un poco.",
           "options": [
-            "A gilda arde um pouco.",
+            "A gilda (petisco de azeitona, anchova e pimenta) arde um pouco.",
             "A gilda pica como inseto."
           ],
           "correct": 0,
-          "joke": "Picar = arder."
+          "joke": "A gilda é um pintxo. Aqui, picar é arder na boca por causa da pimenta."
         },
         {
           "spanish": "Sírvete tú mismo.",
@@ -227,13 +227,13 @@
           "emoji": "🍢",
           "title": "Pintxos",
           "es": "Ir de pintxos.",
-          "pt": "Em Donostia e Bilbao, \"ir de pintxos\" (em castelhano padrão: pincho): um ou dois por bar com um vinho ou zurito (cerveja pequena). Os frios ficam no balcão; os quentes se pedem na hora."
+          "pt": "Ir de pintxos é passar de bar em bar provando pequenos petiscos, muitas vezes com uma bebida. Zurito é uma cerveja pequena. Os frios costumam estar no balcão; os quentes são pedidos ao garçom. Confirme como o bar atende antes de se servir. Pintxo é a grafia basca, muito usada localmente; em castelhano, pincho."
         },
         {
           "emoji": "🗣️",
           "title": "Euskera",
           "es": "Donostia = San Sebastián.",
-          "pt": "No País Basco fala-se também o euskera (basco), língua cooficial sem parentesco com o espanhol. \"Donostia\" é o nome basco da cidade. Só para reconhecer."
+          "pt": "Na Comunidade Autônoma do País Basco, euskera e castelhano são cooficiais. O euskera é uma língua isolada: não tem parentesco genealógico demonstrado com outra língua viva. Donostia é o nome basco de San Sebastián; o espanhol continua sendo a língua praticada aqui."
         }
       ]
     }

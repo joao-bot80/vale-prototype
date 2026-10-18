@@ -207,7 +207,7 @@
             "Um suco concentrado de caixinha."
           ],
           "correct": 0,
-          "joke": "Zumo natural = suco natural, feito na hora."
+          "joke": "\"Zumo\" = suco. Se quiser confirmar que foi espremido na hora, pergunte: \"¿Está recién exprimido?\"; \"natural\" sozinho não garante isso."
         },
         {
           "spanish": "¿Quién es el último?",
@@ -235,7 +235,7 @@
           "emoji": "🙋",
           "title": "Pedir a vez",
           "es": "¿Quién es el último?",
-          "pt": "Nos mercados espanhóis, quem chega pergunta quem é o último e guarda a vez mentalmente."
+          "pt": "Em muitas bancas de mercado, quem chega pergunta \"¿Quién es el último?\" e acompanha sua vez. Outras usam senha: observe como a fila funciona naquele local."
         }
       ]
     }

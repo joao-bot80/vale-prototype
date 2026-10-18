@@ -20,8 +20,8 @@
         },
         {
           "speaker": "Lu",
-          "es": "¿Dónde puedo recargar la tarjeta?",
-          "pt": "Onde posso recarregar o cartão?"
+          "es": "¿Dónde puedo recargar la tarjeta SUMA?",
+          "pt": "Onde posso recarregar o cartão SUMA?"
         },
         {
           "speaker": "Señor",
@@ -95,10 +95,10 @@
         "playa?"
       ],
       "distractors": [
-        "cuál",
+        "cuántos",
         "praia"
       ],
-      "explanation": "\"¿Qué línea...?\" = qual linha...?"
+      "explanation": "¿Qué línea...? é habitual na Espanha. ¿Cuál línea...? também existe, especialmente na América, e não é um erro."
     },
     {
       "type": "listening",
@@ -111,7 +111,7 @@
         "O ônibus 19 não vai para a praia."
       ],
       "correct": 0,
-      "explanation": "EMT = empresa de ônibus urbanos de Valencia. A linha 19 vai da Estació del Nord (Xàtiva) até a Malvarrosa."
+      "explanation": "EMT é a empresa de ônibus urbanos de Valencia. A linha 19 liga o centro à Malvarrosa; confira as paradas, o sentido e eventuais desvios no mapa da EMT."
     },
     {
       "type": "complete",
@@ -124,8 +124,8 @@
         },
         {
           "speaker": "Lu",
-          "es": "¿Dónde puedo recargar la tarjeta?",
-          "pt": "Onde posso recarregar o cartão?"
+          "es": "¿Dónde puedo recargar la tarjeta SUMA?",
+          "pt": "Onde posso recarregar o cartão SUMA?"
         }
       ],
       "speaker": "Señor",
@@ -153,19 +153,20 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Onde posso recarregar o cartão?",
+      "portuguese": "Onde posso recarregar o cartão SUMA?",
       "answer": [
         "¿Dónde",
         "puedo",
         "recargar",
         "la",
-        "tarjeta?"
+        "tarjeta",
+        "SUMA?"
       ],
       "distractors": [
         "cartón",
         "adónde"
       ],
-      "explanation": "\"Tarjeta\" = cartão. Cartón = papelão!"
+      "explanation": "Tarjeta é cartão de transporte. Cartón é o material papelão, também chamado cartão em português."
     },
     {
       "type": "listening",
@@ -178,7 +179,7 @@
         "Só pelo aplicativo."
       ],
       "correct": 0,
-      "explanation": "O cartão SUMA se recarrega nas máquinas do metrô, em estancos (tabacarias) e quiosques."
+      "explanation": "Os títulos SUMA podem ser recarregados nas máquinas de Metrovalencia e nos estancos e quiosques credenciados. Confira os pontos de venda da ATMV."
     },
     {
       "type": "boss",
@@ -232,7 +233,7 @@
           "emoji": "🚇",
           "title": "Metrovalencia",
           "es": "Me bajo en la parada de la playa.",
-          "pt": "Valencia tem metrô e bonde (Metrovalencia) e ônibus urbanos da EMT. Com o cartão SUMA você usa todos eles e pode fazer baldeação. Os nomes de estações aparecem em valenciano, por exemplo \"Xàtiva\" e \"Platja de la Malva-rosa\" (praia)."
+          "pt": "Metrovalencia reúne metrô e bonde; a EMT opera ônibus urbanos. Os títulos SUMA integram transportes conforme as zonas e condições do bilhete, incluindo regras de baldeação. Xàtiva é uma estação; platja é a palavra valenciana para praia, vista em placas."
         },
         {
           "emoji": "🏖️",

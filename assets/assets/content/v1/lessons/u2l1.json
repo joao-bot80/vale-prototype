@@ -71,7 +71,8 @@
         {
           "es": "el camarero",
           "pt": "o garçom",
-          "emoji": "🧑‍🍳"
+          "emoji": "🛎️",
+          "image": "assets/vocab/camarero.png"
         }
       ]
     },
@@ -198,13 +199,13 @@
           "joke": "\"Copa\" = taça. E \"ir de copas\" = sair pra beber!"
         },
         {
-          "spanish": "Este pastel está buenísimo.",
+          "spanish": "Este pastel de chocolate está buenísimo.",
           "options": [
-            "Este bolo está ótimo.",
-            "Este pastel está ótimo."
+            "Este bolo de chocolate está ótimo.",
+            "Este pastel frito de feira está ótimo."
           ],
           "correct": 0,
-          "joke": "Pastel em espanhol é bolo ou doce. Bem mais doce que o da feira!"
+          "joke": "Aqui, \"pastel de chocolate\" é bolo de chocolate. \"Pastel\" também pode ser salgado, como \"pastel de carne\"; não equivale automaticamente ao pastel frito de feira do Brasil."
         },
         {
           "spanish": "Nos quedamos de sobremesa.",

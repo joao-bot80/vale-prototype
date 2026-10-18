@@ -65,7 +65,8 @@
         {
           "es": "alquilar",
           "pt": "alugar",
-          "emoji": "🏷️"
+          "emoji": "🏷️",
+          "image": "assets/vocab/alquilar.png"
         },
         {
           "es": "la rueda",
@@ -98,10 +99,10 @@
         "bici?"
       ],
       "distractors": [
-        "de",
-        "bike"
+        "a",
+        "del"
       ],
-      "explanation": "Em espanhol: ir EN bici, EN coche (mas \"a pie\")."
+      "explanation": "Para indicar o meio de transporte, pratique ir en bici e ir en coche. Para caminhar: ir a pie."
     },
     {
       "type": "listening",
@@ -125,7 +126,8 @@
           "es": "rodilla",
           "kind": "armadilha",
           "meaning": "joelho",
-          "tip": "Rodilla = joelho. Rodilha (rodela de pano) não tem nada a ver."
+          "tip": "Na frase, rodilla = joelho. A palavra espanhola também pode designar um pano ou uma rodilha para apoiar peso; o contexto seleciona a parte do corpo.",
+          "context": "Me duele la rodilla."
         },
         {
           "es": "patinete",
@@ -136,9 +138,11 @@
         },
         {
           "es": "peatón",
-          "kind": "armadilha",
-          "meaning": "pedestre",
-          "tip": "Peatón = pedestre. Em português, peão é o do xadrez ou da obra (\"peón\")."
+          "kind": "quase",
+          "meaning": "pedestre / peão",
+          "tip": "Peatón = pedestre. Peão também significa pessoa que anda a pé, uso corrente em Portugal; no Brasil, é mais comum pedestre.",
+          "pt": "peão",
+          "context": "¡Cuidado con los peatones!"
         },
         {
           "es": "inundación",
@@ -191,7 +195,7 @@
       ],
       "distractors": [
         "pedestres",
-        "peones"
+        "peatón"
       ],
       "explanation": "Peatón = pedestre."
     },
@@ -217,7 +221,7 @@
           "spanish": "Aparca la bici en la estación.",
           "options": [
             "Estaciona a bike na estação.",
-            "Para a bike na estação de trem."
+            "Aluga a bike na estação."
           ],
           "correct": 0,
           "joke": "Aparcar = estacionar."
@@ -232,10 +236,10 @@
           "joke": "Alquilar = alugar."
         },
         {
-          "spanish": "No hay cuestas en Valencia.",
+          "spanish": "Hay pocas cuestas en esta ruta.",
           "options": [
-            "Não há ladeiras em Valencia.",
-            "Não há custos em Valencia."
+            "Há poucas ladeiras neste trajeto.",
+            "Há poucas bicicletas neste trajeto."
           ],
           "correct": 0,
           "joke": "Cuesta = ladeira."
@@ -260,7 +264,7 @@
           "emoji": "🌳",
           "title": "Jardín del Turia",
           "es": "Vamos por el antiguo cauce.",
-          "pt": "Depois da grande enchente de 1957, o rio Turia foi desviado para fora da cidade. O antigo leito virou um parque de uns 9 km que termina na Ciudad de las Artes y las Ciencias."
+          "pt": "Depois da grande enchente de 1957, o rio Turia foi desviado para fora da cidade. O antigo leito virou um parque de cerca de 9 km, ligando a área do Parque de Cabecera à Ciudad de las Artes y las Ciencias."
         },
         {
           "emoji": "🚲",

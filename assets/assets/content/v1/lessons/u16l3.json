@@ -15,8 +15,8 @@
         },
         {
           "speaker": "Gestora",
-          "es": "Depende. Con un solo pagador, si ganas menos de veintidós mil euros, en general no estás obligada.",
-          "pt": "Depende. Com uma só fonte pagadora, se ganha menos de vinte e dois mil euros, em geral não é obrigada."
+          "es": "Depende del tipo y la cuantía de tus ingresos y de tu situación personal.",
+          "pt": "Depende do tipo e do valor dos seus rendimentos e da sua situação pessoal."
         },
         {
           "speaker": "Lu",
@@ -35,8 +35,8 @@
         },
         {
           "speaker": "Gestora",
-          "es": "Normalmente de abril a finales de junio. Este año, hasta el treinta de junio.",
-          "pt": "Normalmente de abril ao fim de junho. Este ano, até trinta de junho."
+          "es": "Hay que consultar el calendario de la campaña y el plazo para domiciliar el pago.",
+          "pt": "É preciso consultar o calendário da campanha e o prazo para pagar por débito automático."
         }
       ]
     },
@@ -47,22 +47,26 @@
         {
           "es": "Hacienda",
           "pt": "a Receita",
-          "emoji": "🏛️"
+          "emoji": "🏛️",
+          "image": "assets/vocab/hacienda.png"
         },
         {
           "es": "el borrador",
           "pt": "o rascunho",
-          "emoji": "📝"
+          "emoji": "📝",
+          "image": "assets/vocab/borrador.png"
         },
         {
           "es": "la devolución",
           "pt": "a restituição",
-          "emoji": "💸"
+          "emoji": "💸",
+          "image": "assets/vocab/devolucion.png"
         },
         {
           "es": "el plazo",
           "pt": "o prazo",
-          "emoji": "⏳"
+          "emoji": "⏳",
+          "image": "assets/vocab/plazo.png"
         }
       ]
     },
@@ -114,8 +118,8 @@
       "context": [
         {
           "speaker": "Gestora",
-          "es": "Depende. Con un solo pagador, si ganas menos de veintidós mil euros, en general no estás obligada.",
-          "pt": "Depende. Com uma só fonte pagadora, se ganha menos de vinte e dois mil euros, em geral não é obrigada."
+          "es": "Depende del tipo y la cuantía de tus ingresos y de tu situación personal.",
+          "pt": "Depende do tipo e do valor dos seus rendimentos e da sua situação pessoal."
         },
         {
           "speaker": "Lu",
@@ -126,7 +130,7 @@
       "speaker": "Gestora",
       "pt": "Exato. Por isso convém revisar o rascunho no Renta WEB.",
       "options": [
-        "Normalmente de abril a finales de junio. Este año, hasta el treinta de junio.",
+        "Hay que consultar el calendario de la campaña y el plazo para domiciliar el pago.",
         "¿Hasta cuándo hay plazo?",
         "Exacto. Por eso conviene revisar el borrador en Renta WEB."
       ],
@@ -165,14 +169,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Normalmente de abril a finales de junio. Este año, hasta el treinta de junio.",
+      "spanish": "Hay que consultar el calendario de la campaña y el plazo para domiciliar el pago.",
       "options": [
-        "Normalmente de abril ao fim de junho. Este ano, até trinta de junho.",
+        "É preciso consultar o calendário da campanha e o prazo para pagar por débito automático.",
         "Só em janeiro.",
         "Durante o ano todo, sem prazo."
       ],
       "correct": 0,
-      "explanation": "Campanha da Renta 2025: de 8 de abril a 30 de junho de 2026."
+      "explanation": "O prazo de apresentação e o de débito automático podem ser diferentes. Confira o calendário da campanha e da modalidade de pagamento."
     },
     {
       "type": "boss",
@@ -180,13 +184,13 @@
       "bossName": "Falso Amigo",
       "questions": [
         {
-          "spanish": "Revisa el borrador.",
+          "spanish": "Revisa el borrador de la declaración.",
           "options": [
-            "Revise o rascunho.",
-            "Revise a borracha."
+            "Revise o rascunho da declaração.",
+            "Apague a declaração."
           ],
           "correct": 0,
-          "joke": "Borrador = rascunho."
+          "joke": "Borrador aqui é rascunho. Também pode ser apagador; o complemento elimina a ambiguidade."
         },
         {
           "spanish": "Se acaba el plazo.",
@@ -224,15 +228,15 @@
       "items": [
         {
           "emoji": "🗓️",
-          "title": "Campanha 2026",
-          "es": "Renta 2025: del 8 de abril al 30 de junio.",
-          "pt": "A campanha da Renta 2025 vai de 8 de abril a 30 de junho de 2026 (até 25 de junho se pagar por débito automático). Faça pelo Renta WEB com Cl@ve, certificado ou número de referência. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "title": "Renta 2025 · campanha de 2026",
+          "es": "Renta 2025: del 8 de abril al 30 de junio de 2026.",
+          "pt": "No regime comum da AEAT, a Renta 2025 foi apresentada de 8 de abril a 30 de junho de 2026; o prazo geral de domiciliação foi 25 de junho, com regras próprias para parcelas. Navarra e os territórios históricos bascos têm regimes próprios. Consulte o calendário do exercício correspondente. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "⚖️",
           "title": "Quem é obrigado?",
           "es": "¿Estoy obligada a declarar?",
-          "pt": "Em geral não é obrigado quem só tem salário até 22.000 €/ano de um pagador (ou 15.876 € com vários, se do segundo em diante passar de 1.500 €). Mesmo assim pode valer a pena para receber restituição. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "No regime comum, a obrigação depende do conjunto de rendimentos e da situação pessoal, não só do salário. Para 2025 há limites gerais de 22.000 € de rendimentos do trabalho e, em certos casos com vários pagadores, 15.876 €, além de outras regras e obrigações. Consulte a AEAT: ficar abaixo de um limite não dispensa todos os contribuintes nem significa isenção do imposto. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         }
       ]
     }

@@ -21,7 +21,7 @@
         {
           "speaker": "Lino",
           "es": "Sí, el bacalao al pil-pil y a la vizcaína son clásicos de Bilbao.",
-          "pt": "Sim, o bacalhau ao pil-pil e à biscainha são clássicos de Bilbao."
+          "pt": "Sim, o bacalhau ao pil-pil (molho emulsionado com azeite) e à biscainha são clássicos de Bilbao."
         },
         {
           "speaker": "Pescadera",
@@ -103,7 +103,7 @@
       "prompt": "O que você ouviu?",
       "spanish": "Sí, el bacalao al pil-pil y a la vizcaína son clásicos de Bilbao.",
       "options": [
-        "Sim, o bacalhau ao pil-pil e à biscainha são clássicos de Bilbao.",
+        "Sim, o bacalhau ao pil-pil (molho emulsionado com azeite) e à biscainha são clássicos de Bilbao.",
         "Não, aqui só se come carne.",
         "Sim, mas só no Natal."
       ],
@@ -129,9 +129,11 @@
         },
         {
           "es": "ligar",
-          "kind": "armadilha",
-          "meaning": "emulsionar (molho) / paquerar",
-          "tip": "Ligar = dar liga / paquerar. Em português, ligar é telefonar ou acender."
+          "kind": "igual",
+          "meaning": "ligar / dar liga",
+          "tip": "Na cozinha, ligar é unir os ingredientes e dar liga ao molho, sentido compartilhado com o português. Em outro contexto espanhol, ligar pode ser paquerar.",
+          "pt": "ligar",
+          "context": "La salsa empieza a ligar."
         },
         {
           "es": "merluza",
@@ -144,7 +146,8 @@
           "es": "casco viejo",
           "kind": "armadilha",
           "meaning": "centro histórico",
-          "tip": "Casco (urbano) = centro. Em português, casco é a pata do cavalo ou o do navio."
+          "tip": "Casco viejo é a parte antiga ou o centro histórico da cidade. Casco urbano indica a área construída, expressão que também existe em português. Casco não significa sempre centro; pode ser capacete ou casco de navio em espanhol.",
+          "context": "Paseamos por el casco viejo."
         }
       ]
     },
@@ -160,7 +163,7 @@
         {
           "speaker": "Lino",
           "es": "Sí, el bacalao al pil-pil y a la vizcaína son clásicos de Bilbao.",
-          "pt": "Sim, o bacalhau ao pil-pil e à biscainha são clássicos de Bilbao."
+          "pt": "Sim, o bacalhau ao pil-pil (molho emulsionado com azeite) e à biscainha são clássicos de Bilbao."
         }
       ],
       "speaker": "Pescadera",
@@ -201,7 +204,7 @@
         "No micro-ondas, cinco minutos."
       ],
       "correct": 0,
-      "explanation": "\"Ligar\" = emulsionar."
+      "explanation": "Aqui, ligar é dar liga ao molho, formando uma emulsão. Ligar também pode significar unir em ambas as línguas."
     },
     {
       "type": "boss",
@@ -255,7 +258,7 @@
           "emoji": "🐟",
           "title": "Mercado de la Ribera",
           "es": "El Mercado de la Ribera.",
-          "pt": "Mercado coberto à beira da ria de Bilbao, no Casco Viejo; é um dos maiores mercados cobertos da Europa."
+          "pt": "Mercado coberto junto à ria de Bilbao, no Casco Viejo, a parte antiga da cidade. Reúne bancas de alimentos e espaços de gastronomia."
         },
         {
           "emoji": "🥘",

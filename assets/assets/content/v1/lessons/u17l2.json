@@ -25,8 +25,8 @@
         },
         {
           "speaker": "Empleado",
-          "es": "Comprensión de lectura, comprensión auditiva, expresión escrita y expresión oral.",
-          "pt": "Compreensão de leitura, compreensão auditiva, expressão escrita e expressão oral."
+          "es": "Comprensión de lectura, comprensión auditiva, expresión e interacción escritas y expresión e interacción orales.",
+          "pt": "Compreensão de leitura, compreensão auditiva, expressão e interação escritas e expressão e interação orais."
         },
         {
           "speaker": "Lu",
@@ -47,22 +47,26 @@
         {
           "es": "el examen",
           "pt": "a prova",
-          "emoji": "📝"
+          "emoji": "📝",
+          "image": "assets/vocab/examen.png"
         },
         {
           "es": "aprobar",
           "pt": "passar (na prova)",
-          "emoji": "✅"
+          "emoji": "✅",
+          "image": "assets/vocab/aprobar.png"
         },
         {
           "es": "suspender",
           "pt": "ser reprovado",
-          "emoji": "❌"
+          "emoji": "❌",
+          "image": "assets/vocab/suspender.png"
         },
         {
           "es": "la nota",
           "pt": "a nota",
-          "emoji": "💯"
+          "emoji": "💯",
+          "image": "assets/vocab/nota.png"
         }
       ]
     },
@@ -99,9 +103,9 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Comprensión de lectura, comprensión auditiva, expresión escrita y expresión oral.",
+      "spanish": "Comprensión de lectura, comprensión auditiva, expresión e interacción escritas y expresión e interacción orales.",
       "options": [
-        "Compreensão de leitura, compreensão auditiva, expressão escrita e expressão oral.",
+        "Compreensão de leitura, compreensão auditiva, expressão e interação escritas e expressão e interação orais.",
         "Só uma prova oral.",
         "Gramática e tradução."
       ],
@@ -124,14 +128,14 @@
         }
       ],
       "speaker": "Empleado",
-      "pt": "Compreensão de leitura, compreensão auditiva, expressão escrita e expressão oral.",
+      "pt": "Compreensão de leitura, compreensão auditiva, expressão e interação escritas e expressão e interação orais.",
       "options": [
-        "Comprensión de lectura, comprensión auditiva, expresión escrita y expresión oral.",
+        "Comprensión de lectura, comprensión auditiva, expresión e interacción escritas y expresión e interacción orales.",
         "No, el DELE no caduca. Es para toda la vida.",
         "¿El certificado caduca?"
       ],
       "correct": 0,
-      "explanation": "Empleado diz: \"Comprensión de lectura, comprensión auditiva, expresión escrita y expresión oral.\" = \"Compreensão de leitura, compreensão auditiva, expressão escrita e expressão oral.\"."
+      "explanation": "Empleado diz: \"Comprensión de lectura, comprensión auditiva, expresión e interacción escritas y expresión e interacción orales.\" = \"Compreensão de leitura, compreensão auditiva, expressão e interação escritas e expressão e interação orais.\"."
     },
     {
       "type": "choice",
@@ -198,13 +202,13 @@
           "joke": "Calificación = nota."
         },
         {
-          "spanish": "Hay convocatoria en mayo.",
+          "spanish": "Hay una convocatoria del DELE en mayo.",
           "options": [
-            "Tem prova em maio.",
+            "Tem uma edição do DELE em maio.",
             "Tem convocação militar em maio."
           ],
           "correct": 0,
-          "joke": "Convocatoria = edição do exame."
+          "joke": "Convocatoria aqui é uma edição do exame, com data e prazo de inscrição."
         },
         {
           "spanish": "Soy apta.",
@@ -225,8 +229,8 @@
         {
           "emoji": "🎓",
           "title": "DELE A2",
-          "es": "El DELE A2 cuesta 138 euros en España.",
-          "pt": "Para a nacionalidade, brasileiros precisam do DELE A2 ou superior. Em 2026 a inscrição custa 138 € na Espanha. O diploma DELE não tem validade limitada. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "es": "En 2026, el DELE A2 cuesta 138 euros en España.",
+          "pt": "Em geral, o pedido de nacionalidade exige DELE A2 ou superior; a nacionalidade brasileira não gera dispensa automática, mas existem outras hipóteses de dispensa. A inscrição no DELE A2 na Espanha custa 138 € em 2026. O diploma não caduca. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "🗓️",

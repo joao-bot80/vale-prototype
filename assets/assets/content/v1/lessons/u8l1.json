@@ -86,7 +86,7 @@
         "Custa uns vinte euros"
       ],
       "correct": 0,
-      "explanation": "\"Tardar\" = demorar. Paella boa é feita na hora."
+      "explanation": "\"Tardar\" = demorar. Aqui o garçom estima o tempo de preparo do pedido."
     },
     {
       "type": "build",
@@ -125,7 +125,7 @@
           "es": "pimienta",
           "kind": "quase",
           "meaning": "pimenta-do-reino",
-          "tip": "Pimienta = pimenta-do-reino. A pimenta ardida é \"guindilla\"."
+          "tip": "Pimienta = pimenta-do-reino. Guindilla é um tipo de pimenta picante, como a malagueta; não é o nome de toda pimenta que arde."
         },
         {
           "es": "grasa",
@@ -137,13 +137,14 @@
           "es": "conejo",
           "kind": "quase",
           "meaning": "coelho",
-          "tip": "\"J\" no lugar de \"lh\"."
+          "tip": "Conejo = coelho. Compare as palavras inteiras: a mudança não é só de uma letra."
         },
         {
           "es": "judía",
           "kind": "armadilha",
-          "meaning": "feijão",
-          "tip": "Judía = feijão (verde ou branco). Em português, judia é a mulher judia."
+          "meaning": "vagem (judía verde)",
+          "tip": "Aqui judías verdes são vagens. Judía também pode ser feijão ou uma mulher judia, conforme o contexto.",
+          "context": "Me encantan las judías verdes."
         },
         {
           "es": "caldo",
@@ -268,7 +269,7 @@
           "emoji": "🍚",
           "title": "Arroz ao meio-dia",
           "es": "Los domingos comemos paella.",
-          "pt": "Arroz se come no almoço, não no jantar. A Albufera, lagoa ao sul da cidade, é cercada de plantações de arroz."
+          "pt": "A paella é tradicionalmente uma refeição de almoço, muitas vezes compartilhada aos domingos; isso não proíbe comer arroz no jantar. A Albufera, ao sul da cidade, é cercada de arrozais."
         }
       ]
     }

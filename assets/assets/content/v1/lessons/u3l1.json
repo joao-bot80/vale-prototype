@@ -65,12 +65,14 @@
         {
           "es": "a la izquierda",
           "pt": "à esquerda",
-          "emoji": "⬅️"
+          "emoji": "⬅️",
+          "image": "assets/vocab/izquierda.png"
         },
         {
           "es": "a la derecha",
           "pt": "à direita",
-          "emoji": "➡️"
+          "emoji": "➡️",
+          "image": "assets/vocab/derecha.png"
         }
       ]
     },
@@ -147,7 +149,8 @@
           "es": "cerca",
           "kind": "armadilha",
           "meaning": "perto",
-          "tip": "Cerca = perto. Em português, cerca é a grade/muro (\"valla\")."
+          "tip": "Nesta frase, \"cerca\" significa perto. Como substantivo, \"una cerca\" também é uma cerca ou um muro; \"valla\" é outra palavra para cerca.",
+          "context": "La parada está muy cerca."
         },
         {
           "es": "tirar",

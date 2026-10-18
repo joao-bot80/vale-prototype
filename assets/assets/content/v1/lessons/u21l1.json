@@ -10,8 +10,8 @@
       "lines": [
         {
           "speaker": "Lino",
-          "es": "Hoy hacemos arroz al horno, el arroz de los lunes en muchas casas valencianas.",
-          "pt": "Hoje fazemos arroz de forno, o arroz de segunda-feira em muitas casas valencianas."
+          "es": "Hoy hacemos arroz al horno, un plato tradicional valenciano.",
+          "pt": "Hoje fazemos arroz de forno, um prato tradicional valenciano."
         },
         {
           "speaker": "Lu",
@@ -26,7 +26,7 @@
         {
           "speaker": "Lu",
           "es": "¿Y se hace en la paella?",
-          "pt": "E se faz na paella?"
+          "pt": "E se faz na panela de paella?"
         },
         {
           "speaker": "Lino",
@@ -125,14 +125,14 @@
         }
       ],
       "speaker": "Lu",
-      "pt": "E se faz na paella?",
+      "pt": "E se faz na panela de paella?",
       "options": [
         "¿Y se hace en la paella?",
         "Entonces compramos los garbanzos ya cocidos para ir más rápido.",
         "No, en una cazuela de barro, dentro del horno."
       ],
       "correct": 0,
-      "explanation": "Lu diz: \"¿Y se hace en la paella?\" = \"E se faz na paella?\"."
+      "explanation": "Lu diz: \"¿Y se hace en la paella?\" = \"E se faz na panela de paella?\"."
     },
     {
       "type": "choice",
@@ -183,7 +183,7 @@
           "spanish": "Me encantan los garbanzos.",
           "options": [
             "Adoro grão-de-bico.",
-            "Adoro garbanços."
+            "Adoro ervilhas."
           ],
           "correct": 0,
           "joke": "Garbanzo = grão-de-bico."
@@ -204,7 +204,7 @@
             "Põe a caçula no forno."
           ],
           "correct": 0,
-          "joke": "Cazuela = panela de barro."
+          "joke": "Cazuela = panela ou caçarola. Nesta receita, é de barro; a palavra sozinha não especifica o material."
         },
         {
           "spanish": "Hoy comemos las sobras.",

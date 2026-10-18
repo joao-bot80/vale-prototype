@@ -25,13 +25,13 @@
         },
         {
           "speaker": "Lino",
-          "es": "Paciencia. Inténtalo otro día, a primera hora de la mañana.",
-          "pt": "Paciência. Tenta outro dia, logo cedo."
+          "es": "Paciencia. Vuelve a intentarlo y consulta las indicaciones de la oficina.",
+          "pt": "Paciência. Tente novamente e consulte as orientações do órgão."
         },
         {
           "speaker": "Lu",
-          "es": "¡Ya está! Lo he intentado esta mañana y tengo cita el martes a las nueve y media.",
-          "pt": "Pronto! Tentei hoje cedo e tenho horário na terça às nove e meia."
+          "es": "¡Ya está! He vuelto a intentarlo y tengo cita el martes a las nueve y media.",
+          "pt": "Pronto! Tentei novamente e tenho horário na terça às nove e meia."
         },
         {
           "speaker": "Lino",
@@ -53,31 +53,34 @@
         {
           "es": "la cita previa",
           "pt": "o agendamento",
-          "emoji": "📅"
+          "emoji": "📅",
+          "image": "assets/vocab/cita_previa.png"
         },
         {
           "es": "el correo",
           "pt": "o e-mail",
-          "emoji": "📧"
+          "emoji": "📧",
+          "image": "assets/vocab/correo.png"
         },
         {
           "es": "la contraseña",
           "pt": "a senha",
-          "emoji": "🔒"
+          "emoji": "🔒",
+          "image": "assets/vocab/contrasena.png"
         }
       ]
     },
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Pedir cita\" significa:",
+      "prompt": "Neste atendimento, \"pedir cita\" significa:",
       "options": [
         "Marcar um horário (agendamento)",
         "Pedir um encontro romântico",
         "Citar uma frase"
       ],
       "correct": 0,
-      "explanation": "\"Cita previa\" = agendamento prévio. Quase tudo na Espanha precisa de cita!"
+      "explanation": "Cita previa = agendamento prévio. Confira se o seu atendimento exige agendamento."
     },
     {
       "type": "build",
@@ -92,10 +95,10 @@
         "huellas."
       ],
       "distractors": [
-        "marcar",
+        "marcando",
         "digitales"
       ],
-      "explanation": "\"Huellas\" = impressões digitais."
+      "explanation": "Neste trâmite, huellas são as impressões digitais (huellas dactilares)."
     },
     {
       "type": "listening",
@@ -126,14 +129,14 @@
         }
       ],
       "speaker": "Lino",
-      "pt": "Paciência. Tenta outro dia, logo cedo.",
+      "pt": "Paciência. Tente novamente e consulte as orientações do órgão.",
       "options": [
-        "¡Ya está! Lo he intentado esta mañana y tengo cita el martes a las nueve y media.",
-        "Paciencia. Inténtalo otro día, a primera hora de la mañana.",
+        "¡Ya está! He vuelto a intentarlo y tengo cita el martes a las nueve y media.",
+        "Paciencia. Vuelve a intentarlo y consulta las indicaciones de la oficina.",
         "Perfecto. Y recuerda: la cita es gratis. Nunca pagues por ella."
       ],
       "correct": 1,
-      "explanation": "Lino diz: \"Paciencia. Inténtalo otro día, a primera hora de la mañana.\" = \"Paciência. Tenta outro dia, logo cedo.\"."
+      "explanation": "Lino diz: \"Paciencia. Vuelve a intentarlo y consulta las indicaciones de la oficina.\" = \"Paciência. Tente novamente e consulte as orientações do órgão.\"."
     },
     {
       "type": "choice",
@@ -150,7 +153,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Tenho horário na terça.",
+      "portuguese": "Tenho um agendamento na terça.",
       "answer": [
         "Tengo",
         "cita",
@@ -167,9 +170,9 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "¡Ya está! Lo he intentado esta mañana y tengo cita el martes a las nueve y media.",
+      "spanish": "¡Ya está! He vuelto a intentarlo y tengo cita el martes a las nueve y media.",
       "options": [
-        "Pronto! Tentei hoje cedo e tenho horário na terça às nove e meia.",
+        "Pronto! Tentei novamente e tenho horário na terça às nove e meia.",
         "Já era! Perdi a cita de terça.",
         "Pronto! A cita é na quarta às nove."
       ],
@@ -185,19 +188,19 @@
           "spanish": "Tengo una cita en extranjería.",
           "options": [
             "Tenho um agendamento na extranjería.",
-            "Tenho uma citação na extranjería."
+            "Tenho uma consulta médica."
           ],
           "correct": 0,
           "joke": "Cita = agendamento."
         },
         {
-          "spanish": "El plazo para pedir la TIE es de un mes.",
+          "spanish": "El plazo indicado en la resolución es de un mes.",
           "options": [
-            "O prazo para pedir a TIE é de um mês.",
-            "A praça para pedir a TIE fica a um mês."
+            "O prazo indicado na decisão é de um mês.",
+            "O prazo indicado na decisão é de um ano."
           ],
           "correct": 0,
-          "joke": "Plazo = prazo."
+          "joke": "Plazo = prazo; resolución = decisão administrativa. O prazo depende do procedimento."
         },
         {
           "spanish": "Rellena este impreso, por favor.",
@@ -209,13 +212,13 @@
           "joke": "Impreso = formulário."
         },
         {
-          "spanish": "Necesito tus huellas.",
+          "spanish": "Necesito tus huellas dactilares.",
           "options": [
-            "Preciso das suas digitais.",
+            "Preciso das suas impressões digitais.",
             "Preciso das suas pegadas na areia."
           ],
           "correct": 0,
-          "joke": "Huellas = impressões digitais."
+          "joke": "Huellas dactilares = impressões digitais. Huellas também pode significar pegadas."
         }
       ]
     },
@@ -228,7 +231,7 @@
           "emoji": "📅",
           "title": "Cita previa",
           "es": "Hay que pedir cita previa.",
-          "pt": "Para trâmites de extranjería, a cita se pede na sede eletrônica oficial (sede.administracionespublicas.gob.es), escolhendo província e trâmite. É gratuita: desconfie de quem vende citas. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "Para o agendamento de digitais da TIE, consulte a sede oficial (sede.administracionespublicas.gob.es), selecione a província e o procedimento e leia as instruções da unidade. O agendamento é gratuito; não há um horário único garantido de abertura de vagas. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "🗂️",

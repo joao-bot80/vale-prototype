@@ -20,8 +20,8 @@
         },
         {
           "speaker": "Lu",
-          "es": "Trae hielo y unas patatas. Marta trae la tortilla.",
-          "pt": "Traz gelo e umas batatinhas. A Marta traz a tortilha."
+          "es": "Trae hielo y unas patatas fritas de bolsa. Marta trae una tortilla de patatas.",
+          "pt": "Traga gelo e batatas chips. A Marta traz uma omelete espanhola de batatas."
         },
         {
           "speaker": "Dani",
@@ -47,7 +47,8 @@
         {
           "es": "la fiesta",
           "pt": "a festa",
-          "emoji": "🎉"
+          "emoji": "🎉",
+          "image": "assets/vocab/fiesta.png"
         },
         {
           "es": "la tarta",
@@ -64,7 +65,8 @@
         {
           "es": "los invitados",
           "pt": "os convidados",
-          "emoji": "👥"
+          "emoji": "👥",
+          "image": "assets/vocab/invitados.png"
         },
         {
           "es": "la servilleta",
@@ -89,24 +91,27 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "O que eu levo?",
+      "portuguese": "O que eu levo para a festa?",
       "answer": [
         "¿Qué",
-        "llevo?"
+        "llevo",
+        "a",
+        "la",
+        "fiesta?"
       ],
       "distractors": [
-        "traigo",
+        "llevas",
         "levo"
       ],
-      "explanation": "\"Llevar\" = levar para outro lugar."
+      "explanation": "Dani pergunta o que levar para a festa de Lu. Na resposta, a anfitriã usa trae: traga para cá. A escolha entre llevar e traer depende do ponto de referência."
     },
     {
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Trae hielo y unas patatas. Marta trae la tortilla.",
+      "spanish": "Trae hielo y unas patatas fritas de bolsa. Marta trae una tortilla de patatas.",
       "options": [
-        "Traz gelo e umas batatinhas. A Marta traz a tortilha.",
+        "Traga gelo e batatas chips. A Marta traz uma omelete espanhola de batatas.",
         "Não traga nada.",
         "Traz o bolo e o refrigerante."
       ],
@@ -135,7 +140,8 @@
           "es": "tarta",
           "kind": "armadilha",
           "meaning": "bolo (de aniversário)",
-          "tip": "Tarta = bolo (de aniversário). Em português, torta costuma ser outro preparo, com massa e recheio, muitas vezes salgada."
+          "tip": "Aqui, tarta de cumpleaños é bolo de aniversário. Tarta também pode ser torta doce, como tarta de manzana. Em português, torta pode ser doce ou salgada.",
+          "context": "La tarta de cumpleaños lleva velas."
         },
         {
           "es": "debate",
@@ -148,7 +154,8 @@
           "es": "cumplido",
           "kind": "armadilha",
           "meaning": "elogio",
-          "tip": "Cumplido = elogio. Em português, cumprido é algo realizado."
+          "tip": "Aqui, un cumplido é um elogio ou uma gentileza verbal. Cumplido também pode ser o particípio de cumplir, como em un sueño cumplido: um sonho realizado.",
+          "context": "Gracias por el cumplido."
         }
       ]
     },
@@ -163,8 +170,8 @@
         },
         {
           "speaker": "Lu",
-          "es": "Trae hielo y unas patatas. Marta trae la tortilla.",
-          "pt": "Traz gelo e umas batatinhas. A Marta traz a tortilha."
+          "es": "Trae hielo y unas patatas fritas de bolsa. Marta trae una tortilla de patatas.",
+          "pt": "Traga gelo e batatas chips. A Marta traz uma omelete espanhola de batatas."
         }
       ],
       "speaker": "Dani",
@@ -190,9 +197,9 @@
       ],
       "distractors": [
         "brinde",
-        "dar un"
+        "hacéis"
       ],
-      "explanation": "\"Hacer un brindis\" = fazer um brinde."
+      "explanation": "Hacer un brindis = fazer um brinde, como em uma comemoração."
     },
     {
       "type": "listening",
@@ -216,10 +223,10 @@
           "spanish": "Tráeme un vaso, por favor.",
           "options": [
             "Me traz um copo, por favor.",
-            "Me leva um copo, por favor."
+            "Afaste o copo de mim, por favor."
           ],
           "correct": 0,
-          "joke": "Traer = trazer."
+          "joke": "Tráeme pede que a pessoa traga algo até quem fala. Vaso é copo."
         },
         {
           "spanish": "Hay muchos invitados.",
@@ -265,7 +272,7 @@
           "emoji": "🎉",
           "title": "Festas em casa",
           "es": "Una fiesta en el piso.",
-          "pt": "Em festas em casa, cada convidado costuma levar algo. Avise os vizinhos e respeite o horário de silêncio da comunidade."
+          "pt": "Ao ser convidado para uma festa em casa, combine com quem organiza se deve levar comida ou bebida. Considere os vizinhos e respeite as regras de convivência do prédio."
         }
       ]
     }

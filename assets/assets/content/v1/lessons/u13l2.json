@@ -36,7 +36,7 @@
         {
           "speaker": "Marta",
           "es": "Buena idea. Hay muchos restaurantes con terraza.",
-          "pt": "Boa ideia. Tem muitos restaurantes com varanda."
+          "pt": "Boa ideia. Tem muitos restaurantes com mesas ao ar livre."
         }
       ]
     },
@@ -93,10 +93,10 @@
         "móvil."
       ],
       "distractors": [
-        "celular",
-        "celu"
+        "móviles",
+        "telemóvel"
       ],
-      "explanation": "Na Espanha: \"móvil\"."
+      "explanation": "Na Espanha, \"móvil\" é o termo habitual para celular. \"Celular\" também é espanhol válido, comum na América Latina."
     },
     {
       "type": "listening",
@@ -211,13 +211,13 @@
           "joke": "Medusa = água-viva."
         },
         {
-          "spanish": "¿Nos bañamos?",
+          "spanish": "¿Nos bañamos en el mar?",
           "options": [
-            "Vamos entrar na água?",
+            "Vamos entrar no mar?",
             "Vamos tomar banho de banheira?"
           ],
           "correct": 0,
-          "joke": "Bañarse (na praia) = entrar no mar."
+          "joke": "\"Bañarse en el mar\" = tomar banho de mar. \"Bañarse\" sozinho também pode ser tomar banho; o contexto decide."
         }
       ]
     },

@@ -30,8 +30,8 @@
         },
         {
           "speaker": "Pediatra",
-          "es": "De momento no. Paracetamol, mucho líquido y si sigue con fiebre en tres días, vuelve.",
-          "pt": "Por enquanto não. Paracetamol, muito líquido e, se continuar com febre em três dias, volte."
+          "es": "De momento no. Te explicaré los cuidados y cuándo hay que volver a consultar.",
+          "pt": "Por enquanto não. Vou explicar os cuidados e quando é preciso procurar atendimento novamente."
         },
         {
           "speaker": "Lu",
@@ -73,14 +73,14 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Las anginas\" são:",
+      "prompt": "Em \"tiene las anginas inflamadas\", o que está inflamado?",
       "options": [
         "As amígdalas",
         "Angina do coração",
         "As gengivas"
       ],
       "correct": 0,
-      "explanation": "Tener anginas = amigdalite."
+      "explanation": "Las anginas aqui são as amígdalas. Tener anginas pode significar estar com amigdalite; angina de pecho é outra expressão, ligada ao coração."
     },
     {
       "type": "build",
@@ -102,14 +102,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "De momento no. Paracetamol, mucho líquido y si sigue con fiebre en tres días, vuelve.",
+      "spanish": "De momento no. Te explicaré los cuidados y cuándo hay que volver a consultar.",
       "options": [
-        "Por enquanto não. Paracetamol, muito líquido e, se continuar com febre em três dias, volte.",
+        "Por enquanto não. Vou explicar os cuidados e quando é preciso procurar atendimento novamente.",
         "Sim, antibiótico já.",
         "Leve ao hospital agora."
       ],
       "correct": 0,
-      "explanation": "\"De momento\" = por enquanto."
+      "explanation": "A pediatra explica os cuidados para este caso. O diálogo ensina a comunicação na consulta, sem indicar um tratamento geral."
     },
     {
       "type": "swipe",
@@ -131,9 +131,11 @@
         },
         {
           "es": "anginas",
-          "kind": "armadilha",
-          "meaning": "amígdalas / amigdalite",
-          "tip": "Anginas = amígdalas. Em português, angina é dor no peito (coração)."
+          "kind": "igual",
+          "meaning": "anginas / amigdalite",
+          "tip": "No sentido de inflamação da garganta, anginas existe nas duas línguas. Em espanhol, las anginas também pode nomear as amígdalas. Angina de peito é um sentido diferente.",
+          "pt": "anginas",
+          "context": "Tiene anginas."
         },
         {
           "es": "pediatra",
@@ -146,7 +148,8 @@
           "es": "cartilla de vacunación",
           "kind": "armadilha",
           "meaning": "carteira de vacinação",
-          "tip": "Cartilla = caderneta. Em português, cartilha é o livrinho de alfabetização."
+          "tip": "Cartilla de vacunación = caderneta ou carteira de vacinação. Cartilla também pode ser uma cartilha de alfabetização; é o complemento que seleciona o sentido.",
+          "context": "Trae tu cartilla."
         }
       ]
     },
@@ -178,7 +181,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "A garganta dói.",
+      "portuguese": "Ela está com dor de garganta.",
       "answer": [
         "Le",
         "duele",
@@ -222,10 +225,10 @@
           "spanish": "Tiene anginas.",
           "options": [
             "Está com amigdalite.",
-            "Está com angina de peito."
+            "Está com uma fratura."
           ],
           "correct": 0,
-          "joke": "Anginas = amígdalas."
+          "joke": "Tener anginas = estar com amigdalite. Em português, anginas também pode ter esse sentido."
         },
         {
           "spanish": "Tómate el jarabe.",
@@ -239,11 +242,11 @@
         {
           "spanish": "Tiene muchos mocos.",
           "options": [
-            "Está com muito catarro.",
+            "Está com muita secreção nasal.",
             "Tem muitos moços."
           ],
           "correct": 0,
-          "joke": "Mocos = catarro."
+          "joke": "Mocos = muco ou secreção nasal; não são moços."
         }
       ]
     },
@@ -262,7 +265,7 @@
           "emoji": "💉",
           "title": "Vacinas",
           "es": "Calendario de vacunación.",
-          "pt": "A Espanha tem um calendário comum de vacinação infantil (Consejo Interterritorial). As vacinas do calendário são gratuitas na rede pública. Leve a carteira de vacinação do Brasil. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "Há um calendário comum de vacinação, aplicado pelas comunidades autônomas. As vacinas incluídas no programa público são gratuitas. Leve o registro brasileiro para a equipe conferir as doses e orientar o calendário adequado à criança. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         }
       ]
     }

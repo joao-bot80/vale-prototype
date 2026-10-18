@@ -31,12 +31,12 @@
         {
           "speaker": "Lino",
           "es": "Tortilla de bacalao, chuletón y de postre queso con membrillo y nueces.",
-          "pt": "Omelete de bacalhau, bisteca grande e, de sobremesa, queijo com marmelada e nozes."
+          "pt": "Omelete de bacalhau, um grande bife bovino com osso e, de sobremesa, queijo com marmelada e nozes."
         },
         {
           "speaker": "Lu",
-          "es": "¡Se come de pie y se bebe mucho! Me encanta.",
-          "pt": "Se come em pé e se bebe muito! Adoro."
+          "es": "¡Aquí se come de pie! Me encanta el ambiente.",
+          "pt": "Aqui se come em pé! Adoro o ambiente."
         }
       ]
     },
@@ -79,14 +79,14 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Dejar sitio\" significa:",
+      "prompt": "Na fila do barril, \"dejar sitio al siguiente\" significa:",
       "options": [
-        "Dar lugar",
-        "Deixar o sítio",
-        "Sair do sítio"
+        "Dar lugar ao próximo",
+        "Passar na frente do próximo",
+        "Impedir a passagem"
       ],
       "correct": 0,
-      "explanation": "Sitio = lugar."
+      "explanation": "Aqui, dejar sitio é dar espaço. Sitio pode ser lugar em espanhol; sítio também tem esse sentido em português."
     },
     {
       "type": "build",
@@ -110,12 +110,12 @@
       "prompt": "O que você ouviu?",
       "spanish": "Tortilla de bacalao, chuletón y de postre queso con membrillo y nueces.",
       "options": [
-        "Omelete de bacalhau, bisteca grande e, de sobremesa, queijo com marmelada e nozes.",
+        "Omelete de bacalhau, um grande bife bovino com osso e, de sobremesa, queijo com marmelada e nozes.",
         "Paella e sangria.",
         "Só pão e vinho."
       ],
       "correct": 0,
-      "explanation": "O menu clássico de sidrería."
+      "explanation": "Chuletón é um grande bife bovino com osso, habitual no menu de sidrería."
     },
     {
       "type": "complete",
@@ -137,7 +137,7 @@
       "options": [
         "Cuando el sidrero grita «¡txotx!», vamos todos a la kupela.",
         "¿Y el menú?",
-        "¡Se come de pie y se bebe mucho! Me encanta."
+        "¡Aquí se come de pie! Me encanta el ambiente."
       ],
       "correct": 1,
       "explanation": "Lu diz: \"¿Y el menú?\" = \"E o cardápio?\"."
@@ -145,14 +145,14 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Hay sitio\" significa:",
+      "prompt": "Na pergunta \"¿Hay sitio para nosotros en la mesa?\", hay sitio significa:",
       "options": [
         "Há lugar",
-        "Há um sítio",
-        "Há um site"
+        "Há comida",
+        "Há uma conta para pagar"
       ],
       "correct": 0,
-      "explanation": "Sitio = lugar, espaço."
+      "explanation": "Nesta pergunta, sitio é espaço disponível à mesa."
     },
     {
       "type": "build",
@@ -181,7 +181,7 @@
         "Você bebe direto do barril."
       ],
       "correct": 0,
-      "explanation": "Pouca quantidade e muitas vezes."
+      "explanation": "Recolhe-se uma pequena quantidade no copo e dá-se lugar à próxima pessoa."
     },
     {
       "type": "boss",
@@ -189,22 +189,22 @@
       "bossName": "Falso Amigo",
       "questions": [
         {
-          "spanish": "No hay sitio.",
+          "spanish": "No hay sitio en la mesa.",
           "options": [
-            "Não tem lugar.",
-            "Não tem sítio."
+            "Não há lugar à mesa.",
+            "Não há comida na mesa."
           ],
           "correct": 0,
-          "joke": "Sitio = lugar."
+          "joke": "Sitio = lugar ou espaço; sítio também pode ter esse sentido em português."
         },
         {
-          "spanish": "Me encanta el membrillo.",
+          "spanish": "De postre, queso con dulce de membrillo.",
           "options": [
-            "Adoro marmelada.",
-            "Adoro mamilo."
+            "De sobremesa, queijo com marmelada.",
+            "De sobremesa, queijo com doce de morango."
           ],
           "correct": 0,
-          "joke": "Membrillo = marmelo; no cardápio, é o doce de marmelo."
+          "joke": "Membrillo é marmelo; dulce de membrillo é o doce de marmelo, a marmelada."
         },
         {
           "spanish": "Comemos de pie.",
@@ -235,13 +235,13 @@
           "emoji": "🍏",
           "title": "Txotx",
           "es": "¡Txotx!",
-          "pt": "Na temporada de sidrería (mais ou menos de janeiro a abril), ao grito de \"txotx\" todos vão ao barril encher o copo. Astigarraga e Hernani são famosas. \"Kupela\" = barril em basco; só para reconhecer."
+          "pt": "A temporada tradicional do txotx vai do inverno à primavera, com datas que variam por sidrería; algumas abrem o ano todo. Ao chamado txotx, prova-se uma pequena quantidade de sidra diretamente do barril, dando lugar à próxima pessoa. Astigarraga e Hernani são conhecidas por essa tradição. Kupela é barril em basco."
         },
         {
           "emoji": "🥩",
           "title": "Menú de sidrería",
           "es": "Menú de sidrería.",
-          "pt": "Menu clássico: omelete de bacalhau, bacalhau frito com pimentões, chuletón e queijo Idiazabal com marmelada e nozes."
+          "pt": "O menu tradicional costuma incluir omelete de bacalhau, bacalhau com pimentões, chuletón (grande bife bovino com osso) e queijo com marmelada e nozes. O menu e a possibilidade de comer sentado ou em pé variam por estabelecimento."
         }
       ]
     }

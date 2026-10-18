@@ -53,7 +53,8 @@
         {
           "es": "el concierto",
           "pt": "o show",
-          "emoji": "🎤"
+          "emoji": "🎤",
+          "image": "assets/vocab/concierto.png"
         },
         {
           "es": "el farolillo",
@@ -64,7 +65,8 @@
         {
           "es": "la verbena",
           "pt": "a festa de rua",
-          "emoji": "🎉"
+          "emoji": "🎉",
+          "image": "assets/vocab/verbena.png"
         }
       ]
     },
@@ -74,7 +76,7 @@
       "prompt": "\"¡Qué currada!\" significa:",
       "options": [
         "Que trabalheira! (muito esforço)",
-        "Que curra!",
+        "Que preguiça!",
         "Que corrida!"
       ],
       "correct": 0,
@@ -93,9 +95,9 @@
       ],
       "distractors": [
         "perdas",
-        "shows"
+        "concierto"
       ],
-      "explanation": "\"Perderse algo\" = perder (um evento)."
+      "explanation": "\"Perderse algo\" = deixar de assistir ou participar. \"Concierto\" é uma apresentação musical; \"show\" também existe em espanhol, mas aqui praticamos \"conciertos\"."
     },
     {
       "type": "listening",
@@ -146,7 +148,8 @@
           "es": "verbena",
           "kind": "armadilha",
           "meaning": "festa de rua",
-          "tip": "Verbena = festa de bairro. Em português, verbena é só uma planta."
+          "tip": "Aqui, \"verbena\" = festa popular, geralmente noturna e ao ar livre. Em espanhol, a palavra também nomeia a planta chamada verbena em português.",
+          "context": "Esta noche hay una verbena en la plaza."
         }
       ]
     },

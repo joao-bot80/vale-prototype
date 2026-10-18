@@ -146,10 +146,11 @@
           "pt": "casa natal"
         },
         {
-          "es": "hacer falta",
+          "es": "largo",
           "kind": "armadilha",
-          "meaning": "ser preciso",
-          "tip": "Hace falta = é preciso. Em português, \"fazer falta\" é mais sentir a ausência (\"echar de menos\")."
+          "meaning": "comprido",
+          "tip": "Aqui, \"largo\" = comprido, no sentido do comprimento. Para largo no sentido de largura, usamos \"ancho\" em espanhol.",
+          "context": "El pasillo del museo es muy largo."
         }
       ]
     },
@@ -214,11 +215,11 @@
         {
           "spanish": "Mi hijo ve dibujos.",
           "options": [
-            "Meu filho vê desenho animado.",
+            "Meu filho vê desenhos.",
             "Meu filho vê dívidas."
           ],
           "correct": 0,
-          "joke": "Dibujos = desenhos."
+          "joke": "\"Dibujos\" = desenhos; também pode ser uma forma abreviada de \"dibujos animados\" (desenhos animados), conforme o contexto."
         },
         {
           "spanish": "Me cuesta madrugar.",
@@ -233,10 +234,10 @@
           "spanish": "Hace falta paciencia.",
           "options": [
             "É preciso paciência.",
-            "Falta paciência."
+            "Paciência é desnecessária."
           ],
           "correct": 0,
-          "joke": "Hace falta = é preciso."
+          "joke": "\"Hace falta paciencia\" = é preciso paciência. A ideia de algo que falta ou é necessário também existe no português \"fazer falta\"."
         },
         {
           "spanish": "Hizo un boceto rápido.",

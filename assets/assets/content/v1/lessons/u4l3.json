@@ -47,12 +47,14 @@
         {
           "es": "la fianza",
           "pt": "a caução",
-          "emoji": "💰"
+          "emoji": "💰",
+          "image": "assets/vocab/fianza.png"
         },
         {
           "es": "la firma",
           "pt": "a assinatura",
-          "emoji": "✍️"
+          "emoji": "✍️",
+          "image": "assets/vocab/firma.png"
         },
         {
           "es": "las llaves",
@@ -63,7 +65,8 @@
         {
           "es": "el contrato",
           "pt": "o contrato",
-          "emoji": "📄"
+          "emoji": "📄",
+          "image": "assets/vocab/contrato.png"
         }
       ]
     },
@@ -77,7 +80,7 @@
         "assinar"
       ],
       "correct": 0,
-      "explanation": "\"Firmar\" = assinar; \"la firma\" = a assinatura. \"Asinar\" e \"assinar\" não existem em espanhol."
+      "explanation": "Para assinar um contrato, usamos \"firmar\"; \"la firma\" = a assinatura. Atenção à grafia espanhola."
     },
     {
       "type": "build",
@@ -137,7 +140,8 @@
           "es": "firma",
           "kind": "armadilha",
           "meaning": "assinatura",
-          "tip": "Firma = assinatura. Em português, firma é uma empresa (\"empresa\")."
+          "tip": "Aqui, \"firma\" = assinatura. A palavra também pode ser empresa em espanhol. Em português, além de empresa, aparece com o sentido de assinatura em \"reconhecer firma\".",
+          "context": "Falta tu firma en la última página."
         },
         {
           "es": "escoba",
@@ -213,7 +217,7 @@
             "Falta sua empresa na última página."
           ],
           "correct": 0,
-          "joke": "Firma = assinatura. A empresa é \"empresa\"."
+          "joke": "Nesta frase, \"firma\" = assinatura. Em outros contextos, também pode ser empresa."
         },
         {
           "spanish": "Gano poco: mi renta anual es baja.",
@@ -222,7 +226,7 @@
             "Ganho pouco: meu aluguel anual é baixo."
           ],
           "correct": 0,
-          "joke": "Renta = renda (ganhos). Aluguel é \"alquiler\". E a declaração de IR é \"la declaración de la renta\"."
+          "joke": "Aqui, \"renta anual\" = renda anual, os ganhos da pessoa. Em contratos, \"renta\" também pode ser o valor do aluguel."
         },
         {
           "spanish": "Hemos acordado el precio.",
@@ -253,7 +257,7 @@
           "emoji": "📝",
           "title": "NIE, nómina e fianza",
           "es": "¿Me enseñas tu NIE?",
-          "pt": "Para alugar costumam pedir NIE, contrato de trabalho ou nóminas e uma \"fianza\" (caução): por lei é 1 mês de aluguel, e na Catalunha o proprietário deve depositá-la no INCASÒL. Em contratos de moradia de até 5 anos (7 se o proprietário for empresa), a garantia adicional é de no máximo 2 meses. Desde a Lei de Moradia de 2023, os honorários da imobiliária devem ser pagos pelo proprietário, não pelo inquilino."
+          "pt": "Para alugar, costumam pedir documentos de identidade e comprovantes de renda, como nóminas (holerites). No aluguel de moradia habitual, a fianza legal é de 1 mês; na Catalunha, o proprietário a deposita no INCASÒL. Em contratos de até 5 anos (7 se o proprietário for pessoa jurídica), a garantia adicional tem limite de 2 meses. Os gastos de gestão imobiliária e formalização do contrato não podem ser repassados ao inquilino. Um prazo inicial de 1 ano não resume os direitos de prorrogação."
         },
         {
           "emoji": "🎉",

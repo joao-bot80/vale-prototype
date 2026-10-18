@@ -47,17 +47,20 @@
         {
           "es": "hoy",
           "pt": "hoje",
-          "emoji": "📆"
+          "emoji": "📆",
+          "image": "assets/vocab/hoy.png"
         },
         {
           "es": "ayer",
           "pt": "ontem",
-          "emoji": "⏪"
+          "emoji": "⏪",
+          "image": "assets/vocab/ayer.png"
         },
         {
           "es": "el paseo",
           "pt": "o passeio",
-          "emoji": "🚶"
+          "emoji": "🚶",
+          "image": "assets/vocab/paseo.png"
         },
         {
           "es": "el río",
@@ -77,7 +80,7 @@
         "O que você faz todo dia?"
       ],
       "correct": 0,
-      "explanation": "Pretérito perfecto: haber + particípio, para coisas de hoje ou deste período: \"he visitado\", \"has hecho\"."
+      "explanation": "Pretérito perfecto compuesto: haber + particípio. Aqui, \"has hecho\" fala de algo já feito hoje, dentro de um período ligado ao presente."
     },
     {
       "type": "build",
@@ -94,7 +97,7 @@
         "visitei",
         "tengo"
       ],
-      "explanation": "Na Espanha, com \"hoy\" se usa muito \"he + particípio\"."
+      "explanation": "Aqui praticamos \"he + particípio\": hoy he visitado. O uso de \"he visitado\" e \"visité\" varia com a região e o contexto; \"hoy visité\" também pode ser correto."
     },
     {
       "type": "listening",
@@ -144,7 +147,8 @@
           "es": "todavía",
           "kind": "armadilha",
           "meaning": "ainda",
-          "tip": "Não é \"todavia\" (porém)! Porém = \"sin embargo\"."
+          "tip": "Aqui, \"todavía\" = ainda. Em outros contextos, pode expressar contraste, como \"mesmo assim\". Para o português \"todavia\" no sentido de porém, \"sin embargo\" é uma opção comum.",
+          "context": "Todavía no he terminado."
         }
       ]
     },
@@ -213,7 +217,7 @@
             "Porém não terminei."
           ],
           "correct": 0,
-          "joke": "Todavía = ainda."
+          "joke": "Nesta frase, \"todavía no\" = ainda não."
         },
         {
           "spanish": "Ya he comido, gracias.",
@@ -253,13 +257,13 @@
           "emoji": "⛪",
           "title": "Catedral e Giralda",
           "es": "Desde la Giralda se ve toda Sevilla.",
-          "pt": "A Giralda era o minarete da antiga mesquita e virou a torre da catedral. Sobe-se por rampas, não escadas."
+          "pt": "A Giralda conserva o antigo minarete, transformado em torre da catedral. A subida é feita principalmente por rampas, mas há também um trecho de escadas no final."
         },
         {
           "emoji": "🗣️",
           "title": "\"Hoy he comido\" ou \"hoy comí\"?",
           "es": "¿Qué has hecho hoy?",
-          "pt": "Em Madrid e no centro da Espanha, para coisas de hoje se usa \"he comido\". Em boa parte da Andaluzia (e na América Latina), muita gente diz \"hoy comí\". Ensinamos a forma padrão, mas você vai ouvir as duas."
+          "pt": "Nesta lição praticamos \"hoy he comido\", comum em grande parte da Espanha para um passado ligado ao presente. \"Hoy comí\" também é correto em outros usos regionais e contextos. A escolha entre as formas varia; nenhuma delas torna um sotaque inferior."
         }
       ]
     }

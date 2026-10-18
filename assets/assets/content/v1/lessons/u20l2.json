@@ -64,22 +64,23 @@
         },
         {
           "es": "la chirigota",
-          "pt": "o grupo de carnaval",
-          "emoji": "🎶"
+          "pt": "o grupo de carnaval com canções satíricas",
+          "emoji": "🎶",
+          "image": "assets/vocab/chirigota.png"
         }
       ]
     },
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Ir disfrazado\" significa:",
+      "prompt": "Neste Carnaval, \"ir disfrazado\" significa:",
       "options": [
         "Estar fantasiado",
-        "Estar disfarçado de espião",
+        "Estar de pijama, pronto para dormir",
         "Estar desarrumado"
       ],
       "correct": 0,
-      "explanation": "Disfraz = fantasia."
+      "explanation": "Aqui, \"disfraz\" é a fantasia de carnaval. Em outro contexto, pode ser um disfarce para esconder a identidade."
     },
     {
       "type": "build",
@@ -187,19 +188,19 @@
           "spanish": "Me pongo un disfraz de pirata.",
           "options": [
             "Visto uma fantasia de pirata.",
-            "Uso um disfarce de pirata secreto."
+            "Compro um barco pirata."
           ],
           "correct": 0,
-          "joke": "Disfraz = fantasia."
+          "joke": "Neste Carnaval, \"disfraz de pirata\" = fantasia de pirata. \"Disfraz\" também pode ser disfarce."
         },
         {
           "spanish": "Es un chico muy gracioso.",
           "options": [
             "É um menino muito engraçado.",
-            "É um menino muito delicado e elegante."
+            "É um menino muito entediado."
           ],
           "correct": 0,
-          "joke": "Gracioso = engraçado. Em português, gracioso é mais \"delicado, elegante\"."
+          "joke": "Aqui praticamos \"gracioso\" = engraçado. Em outros contextos, também pode ser agradável ou gracioso; o contexto define o sentido."
         },
         {
           "spanish": "Llevo una peluca rosa.",
@@ -234,9 +235,9 @@
         },
         {
           "emoji": "🗣️",
-          "title": "Sotaque gaditano",
+          "title": "Jeitos de falar",
           "es": "¡Mi arma!",
-          "pt": "Em Cádiz o sotaque andaluz é fortíssimo. \"¡Mi arma!\" (de \"mi alma\") é carinhoso; só para reconhecer."
+          "pt": "Os sotaques variam dentro da Andaluzia e entre falantes da mesma cidade. \"Mi arma\" representa uma pronúncia popular de \"mi alma\", usada como tratamento carinhoso em partes da região. Não é uma regra de escrita nem um traço exclusivo de Cádiz."
         }
       ]
     }

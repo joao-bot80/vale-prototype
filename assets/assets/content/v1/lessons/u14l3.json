@@ -16,7 +16,7 @@
         {
           "speaker": "Lu",
           "es": "¡Qué ilusión! ¿Hay que llevar ropa especial?",
-          "pt": "Que animação! Precisa levar roupa especial?"
+          "pt": "Que animação! Precisa vestir roupa especial?"
         },
         {
           "speaker": "Dani",
@@ -58,7 +58,8 @@
         {
           "es": "el cante",
           "pt": "o canto",
-          "emoji": "🎤"
+          "emoji": "🎤",
+          "image": "assets/vocab/cante.png"
         },
         {
           "es": "las palmas",
@@ -84,12 +85,12 @@
         "Que decepção"
       ],
       "correct": 0,
-      "explanation": "\"Ilusión\" = animação, expectativa boa. Falso amigo!"
+      "explanation": "Neste diálogo, \"¡Qué ilusión!\" expressa entusiasmo ou uma expectativa boa. \"Ilusión\" também pode significar ilusão ou engano em outros contextos."
     },
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Precisa levar roupa especial?",
+      "portuguese": "Precisa vestir roupa especial?",
       "answer": [
         "¿Hay",
         "que",
@@ -98,10 +99,10 @@
         "especial?"
       ],
       "distractors": [
-        "tiene",
-        "precisa"
+        "está",
+        "llevando"
       ],
-      "explanation": "\"Llevar\" = levar ou vestir."
+      "explanation": "Aqui, \"llevar ropa\" = usar ou vestir roupa. \"Llevar\" também pode ser levar algo a algum lugar."
     },
     {
       "type": "listening",
@@ -123,7 +124,7 @@
         {
           "speaker": "Lu",
           "es": "¡Qué ilusión! ¿Hay que llevar ropa especial?",
-          "pt": "Que animação! Precisa levar roupa especial?"
+          "pt": "Que animação! Precisa vestir roupa especial?"
         },
         {
           "speaker": "Dani",
@@ -148,10 +149,10 @@
       "options": [
         "Fiquei arrepiada",
         "Virei galinha",
-        "Fiquei com frio de verdade"
+        "Senti calor."
       ],
       "correct": 0,
-      "explanation": "Literalmente \"pele de galinha\". Em português dizemos \"fiquei arrepiada\"."
+      "explanation": "A expressão descreve ficar arrepiado. Aqui é pela emoção do cante; em outros contextos, também pode acontecer por frio ou medo."
     },
     {
       "type": "build",
@@ -165,10 +166,10 @@
         "cante."
       ],
       "distractors": [
-        "encantó",
+        "encantados",
         "adorei"
       ],
-      "explanation": "\"Me ha encantado\" = adorei."
+      "explanation": "\"Me ha encantado\" = adorei. \"Me encantó el cante\" também seria uma frase válida; aqui praticamos a forma composta com ha."
     },
     {
       "type": "listening",
@@ -192,10 +193,10 @@
           "spanish": "¡Qué ilusión verte!",
           "options": [
             "Que alegria te ver!",
-            "Que ilusão te ver!"
+            "Que decepção te ver!"
           ],
           "correct": 0,
-          "joke": "Ilusión = alegria, animação."
+          "joke": "Nesta exclamação, \"ilusión\" expressa alegria ou entusiasmo. O sentido de ilusão também existe em espanhol."
         },
         {
           "spanish": "Me ha encantado el cante.",

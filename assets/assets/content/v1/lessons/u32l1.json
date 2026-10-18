@@ -15,8 +15,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Bienvenida a Galicia. Aquí hay mil palabras para la lluvia.",
-          "pt": "Bem-vinda à Galícia. Aqui há mil palavras para a chuva."
+          "es": "Bienvenida a Galicia. Aquí tenemos muchas palabras para la lluvia.",
+          "pt": "Bem-vinda à Galícia. Aqui temos muitas palavras para a chuva."
         },
         {
           "speaker": "Lu",
@@ -25,8 +25,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "En castellano decimos llovizna, chaparrón, aguacero... y en gallego, muchas más.",
-          "pt": "Em castelhano dizemos garoa, pancada de chuva, aguaceiro... e em galego, muitas mais."
+          "es": "En castellano decimos llovizna, chaparrón, aguacero... y en gallego también hay varias.",
+          "pt": "Em castelhano dizemos garoa, pancada de chuva, aguaceiro... e em galego também há várias."
         },
         {
           "speaker": "Lu",
@@ -110,14 +110,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "En castellano decimos llovizna, chaparrón, aguacero... y en gallego, muchas más.",
+      "spanish": "En castellano decimos llovizna, chaparrón, aguacero... y en gallego también hay varias.",
       "options": [
-        "Em castelhano dizemos garoa, pancada de chuva, aguaceiro... e em galego, muitas mais.",
+        "Em castelhano dizemos garoa, pancada de chuva, aguaceiro... e em galego também há várias.",
         "Aqui nunca chove.",
         "Só existe uma palavra para chuva."
       ],
       "correct": 0,
-      "explanation": "O galego tem um vocabulário enorme para a chuva."
+      "explanation": "Llovizna é garoa; chaparrón é uma pancada de chuva; aguacero é um aguaceiro."
     },
     {
       "type": "complete",
@@ -125,8 +125,8 @@
       "context": [
         {
           "speaker": "Lino",
-          "es": "Bienvenida a Galicia. Aquí hay mil palabras para la lluvia.",
-          "pt": "Bem-vinda à Galícia. Aqui há mil palavras para a chuva."
+          "es": "Bienvenida a Galicia. Aquí tenemos muchas palabras para la lluvia.",
+          "pt": "Bem-vinda à Galícia. Aqui temos muitas palavras para a chuva."
         },
         {
           "speaker": "Lu",
@@ -135,14 +135,14 @@
         }
       ],
       "speaker": "Lino",
-      "pt": "Em castelhano dizemos garoa, pancada de chuva, aguaceiro... e em galego, muitas mais.",
+      "pt": "Em castelhano dizemos garoa, pancada de chuva, aguaceiro... e em galego também há várias.",
       "options": [
         "Pues necesito unas botas de agua.",
-        "En castellano decimos llovizna, chaparrón, aguacero... y en gallego, muchas más.",
+        "En castellano decimos llovizna, chaparrón, aguacero... y en gallego también hay varias.",
         "Y un chubasquero. ¡Por eso todo está tan verde!"
       ],
       "correct": 1,
-      "explanation": "Lino diz: \"En castellano decimos llovizna, chaparrón, aguacero... y en gallego, muchas más.\" = \"Em castelhano dizemos garoa, pancada de chuva, aguaceiro... e em galego, muitas mais.\"."
+      "explanation": "Lino diz: \"En castellano decimos llovizna, chaparrón, aguacero... y en gallego también hay varias.\" = \"Em castelhano dizemos garoa, pancada de chuva, aguaceiro... e em galego também há várias.\"."
     },
     {
       "type": "choice",
@@ -166,9 +166,9 @@
       ],
       "distractors": [
         "empapado",
-        "encharcada"
+        "empaparse"
       ],
-      "explanation": "Empapado = completamente molhado."
+      "explanation": "Empapada = completamente molhada, no feminino. Encharcado também existe em espanhol, sobretudo para algo coberto de água, como um terreno."
     },
     {
       "type": "listening",
@@ -210,10 +210,10 @@
           "spanish": "Hay niebla en la ría.",
           "options": [
             "Tem névoa na ria.",
-            "Tem uma nébula na ria."
+            "Tem neve na ria."
           ],
           "correct": 0,
-          "joke": "Niebla = névoa."
+          "joke": "Niebla = névoa ou nevoeiro. Nébula também pode significar névoa em português, embora seja menos usual."
         },
         {
           "spanish": "Se me ha roto el paraguas.",
@@ -241,7 +241,7 @@
           "emoji": "💬",
           "title": "Palavras de chuva",
           "es": "Orballo, chuvisca, treboada.",
-          "pt": "O galego tem dezenas de palavras para chuva, como \"orballo\" (garoa fina). Só para reconhecer; em castelhano diga \"llovizna\"."
+          "pt": "O galego tem vários termos para chuva e tempestades, como orballo (garoa fina) e treboada (tempestade). São exemplos em galego para reconhecer; em castelhano, garoa pode ser llovizna."
         }
       ]
     }

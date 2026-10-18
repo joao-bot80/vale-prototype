@@ -15,8 +15,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Es la Ciudad de las Artes y las Ciencias, del arquitecto Santiago Calatrava.",
-          "pt": "É a Cidade das Artes e das Ciências, do arquiteto Santiago Calatrava."
+          "es": "Es la Ciudad de las Artes y las Ciencias, con edificios de Santiago Calatrava y Félix Candela.",
+          "pt": "É a Cidade das Artes e das Ciências, com prédios de Santiago Calatrava e Félix Candela."
         },
         {
           "speaker": "Lu",
@@ -94,7 +94,7 @@
       ],
       "distractors": [
         "tubarones",
-        "mirar los"
+        "viendo"
       ],
       "explanation": "Tiburón = tubarão."
     },
@@ -142,10 +142,11 @@
           "pt": "medusa"
         },
         {
-          "es": "falda",
+          "es": "carpeta",
           "kind": "armadilha",
-          "meaning": "saia",
-          "tip": "Falda = saia. Fralda é \"pañal\"."
+          "context": "Guarda las entradas en una carpeta.",
+          "meaning": "pasta para documentos",
+          "tip": "Carpeta é pasta para guardar documentos. Carpete ou tapete é alfombra; não confunda com carpeta."
         }
       ]
     },
@@ -155,8 +156,8 @@
       "context": [
         {
           "speaker": "Lino",
-          "es": "Es la Ciudad de las Artes y las Ciencias, del arquitecto Santiago Calatrava.",
-          "pt": "É a Cidade das Artes e das Ciências, do arquiteto Santiago Calatrava."
+          "es": "Es la Ciudad de las Artes y las Ciencias, con edificios de Santiago Calatrava y Félix Candela.",
+          "pt": "É a Cidade das Artes e das Ciências, com prédios de Santiago Calatrava e Félix Candela."
         },
         {
           "speaker": "Lu",
@@ -179,7 +180,9 @@
       "title": "Monte a frase",
       "portuguese": "O bilhete sai mais barato.",
       "answer": [
-        "Sale",
+        "El",
+        "billete",
+        "sale",
         "más",
         "barato."
       ],
@@ -187,7 +190,7 @@
         "barata",
         "sai"
       ],
-      "explanation": "Masculino aqui: el billete sale más barato."
+      "explanation": "El billete é masculino: sale más barato. Com la entrada, a concordância é sale más barata."
     },
     {
       "type": "listening",
@@ -258,9 +261,9 @@
         },
         {
           "emoji": "🏛️",
-          "title": "Calatrava",
+          "title": "Calatrava e Candela",
           "es": "Arquitectura de Santiago Calatrava.",
-          "pt": "O complexo, desenhado em grande parte pelo valenciano Santiago Calatrava, fica no antigo leito do rio Turia."
+          "pt": "O complexo fica no antigo leito do Turia. Calatrava projetou grande parte dos edifícios; Félix Candela desenhou as coberturas dos principais prédios do Oceanogràfic."
         }
       ]
     }

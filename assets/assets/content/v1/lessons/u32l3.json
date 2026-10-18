@@ -10,18 +10,18 @@
       "lines": [
         {
           "speaker": "Lu",
-          "es": "Dos billetes de barco para las Cíes, por favor.",
-          "pt": "Duas passagens de barco para as Cíes, por favor."
+          "es": "Venimos a recoger los billetes para las Cíes.",
+          "pt": "Viemos retirar as passagens para as Cíes."
         },
         {
           "speaker": "Taquillera",
-          "es": "¿Tenéis la autorización del Parque Nacional? En verano es obligatoria.",
-          "pt": "Vocês têm a autorização do Parque Nacional? No verão é obrigatória."
+          "es": "¿Tenéis la autorización de visita? Hay que mostrarla al embarcar.",
+          "pt": "Vocês têm a autorização de visita? É preciso mostrá-la ao embarcar."
         },
         {
           "speaker": "Lino",
-          "es": "Sí, la pedimos por internet la semana pasada.",
-          "pt": "Sim, pedimos pela internet na semana passada."
+          "es": "Sí, aquí la tenemos. Reservamos por internet la semana pasada.",
+          "pt": "Sim, aqui está. Reservamos pela internet na semana passada."
         },
         {
           "speaker": "Lu",
@@ -36,7 +36,7 @@
         {
           "speaker": "Lu",
           "es": "No pasa nada. Me baño rapidito.",
-          "pt": "Não tem problema. Tomo banho rapidinho."
+          "pt": "Não tem problema. Entro no mar rapidinho."
         }
       ]
     },
@@ -85,7 +85,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Pedimos pela internet.",
+      "portuguese": "Pedimos a autorização pela internet.",
       "answer": [
         "La",
         "pedimos",
@@ -96,20 +96,20 @@
         "pela",
         "na"
       ],
-      "explanation": "\"Por internet\" = pela internet."
+      "explanation": "La retoma la autorización. Por internet = pela internet."
     },
     {
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "¿Tenéis la autorización del Parque Nacional? En verano es obligatoria.",
+      "spanish": "¿Tenéis la autorización de visita? Hay que mostrarla al embarcar.",
       "options": [
-        "Vocês têm a autorização do Parque Nacional? No verão é obrigatória.",
+        "Vocês têm a autorização de visita? É preciso mostrá-la ao embarcar.",
         "Não precisa de nada.",
         "Só podem ir no inverno."
       ],
       "correct": 0,
-      "explanation": "As Cíes limitam o número de visitantes."
+      "explanation": "As Cíes têm limite de visitantes. Para embarcar, é preciso apresentar a autorização e a passagem correspondentes à visita."
     },
     {
       "type": "complete",
@@ -117,13 +117,13 @@
       "context": [
         {
           "speaker": "Taquillera",
-          "es": "¿Tenéis la autorización del Parque Nacional? En verano es obligatoria.",
-          "pt": "Vocês têm a autorização do Parque Nacional? No verão é obrigatória."
+          "es": "¿Tenéis la autorización de visita? Hay que mostrarla al embarcar.",
+          "pt": "Vocês têm a autorização de visita? É preciso mostrá-la ao embarcar."
         },
         {
           "speaker": "Lino",
-          "es": "Sí, la pedimos por internet la semana pasada.",
-          "pt": "Sim, pedimos pela internet na semana passada."
+          "es": "Sí, aquí la tenemos. Reservamos por internet la semana pasada.",
+          "pt": "Sim, aqui está. Reservamos pela internet na semana passada."
         }
       ],
       "speaker": "Lu",
@@ -198,10 +198,10 @@
           "spanish": "Seguimos el sendero.",
           "options": [
             "Seguimos a trilha.",
-            "Seguimos o sendeiro."
+            "Saímos da trilha."
           ],
           "correct": 0,
-          "joke": "Sendero = trilha."
+          "joke": "Sendero = trilha ou caminho estreito."
         },
         {
           "spanish": "Quiero un helado de fresa.",
@@ -210,7 +210,7 @@
             "Quero um gelado de framboesa."
           ],
           "correct": 0,
-          "joke": "Helado = sorvete."
+          "joke": "Helado = sorvete (também gelado em português). Fresa é morango; frambuesa é framboesa."
         },
         {
           "spanish": "Hay muchas gaviotas.",
@@ -232,13 +232,13 @@
           "emoji": "🏝️",
           "title": "Illas Cíes",
           "es": "Parque Nacional de las Islas Atlánticas.",
-          "pt": "As Cíes, em frente a Vigo, fazem parte do Parque Nacional das Illas Atlánticas. Em alta temporada é preciso pedir autorização online antes de comprar o barco."
+          "pt": "As Cíes fazem parte do Parque Nacional das Illas Atlánticas. Na alta temporada (Semana Santa e de 15 de maio a 15 de setembro), a visita de um dia exige solicitar um código provisório e comprar a passagem de barco em até duas horas. Só então é emitida a autorização definitiva. Fora desse período, as visitas de barco são em grupos guiados, e a empresa solicita a autorização. Confira as condições atuais no site oficial do parque."
         },
         {
           "emoji": "🗣️",
           "title": "Illas",
           "es": "Illas Cíes.",
-          "pt": "Em galego \"illas\" = ilhas. Nas placas você verá os dois idiomas; responda sempre em castelhano."
+          "pt": "Illas é galego para ilhas. Galego e castelhano são cooficiais na Galícia; o nome Illas Cíes está em galego. Aqui praticamos castelhano e reconhecemos também o nome galego."
         }
       ]
     }

@@ -10,8 +10,8 @@
       "lines": [
         {
           "speaker": "Lu",
-          "es": "Buenos días. Quiero matricular a mi sobrina. Tiene siete años.",
-          "pt": "Bom dia. Quero matricular minha sobrinha. Ela tem sete anos."
+          "es": "Buenos días. Soy la tutora legal de mi sobrina y quiero matricularla. Tiene siete años.",
+          "pt": "Bom dia. Sou a responsável legal pela minha sobrinha e quero matriculá-la. Ela tem sete anos."
         },
         {
           "speaker": "Secretaria",
@@ -25,8 +25,8 @@
         },
         {
           "speaker": "Secretaria",
-          "es": "El plazo ordinario es en primavera, pero si llegáis a mitad de curso hay plaza fuera de plazo.",
-          "pt": "O prazo normal é na primavera, mas se chegarem no meio do ano há vaga fora do prazo."
+          "es": "El plazo ordinario es en primavera. Si llegáis a mitad de curso, hay un procedimiento extraordinario de admisión.",
+          "pt": "O prazo normal é na primavera. Se chegarem no meio do ano letivo, há um procedimento extraordinário de admissão."
         },
         {
           "speaker": "Lu",
@@ -35,8 +35,8 @@
         },
         {
           "speaker": "Secretaria",
-          "es": "Sí. Solo se pagan el comedor, las excursiones y el material.",
-          "pt": "Sim. Só se paga o refeitório, as excursões e o material."
+          "es": "La enseñanza es gratuita. El comedor, el material y algunas actividades pueden tener coste.",
+          "pt": "O ensino é gratuito. O refeitório, o material e algumas atividades podem ter custo."
         }
       ]
     },
@@ -103,14 +103,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "El plazo ordinario es en primavera, pero si llegáis a mitad de curso hay plaza fuera de plazo.",
+      "spanish": "El plazo ordinario es en primavera. Si llegáis a mitad de curso, hay un procedimiento extraordinario de admisión.",
       "options": [
-        "O prazo normal é na primavera, mas se chegarem no meio do ano há vaga fora do prazo.",
+        "O prazo normal é na primavera. Se chegarem no meio do ano letivo, há um procedimento extraordinário de admissão.",
         "Só dá para matricular em setembro.",
         "Não aceitam alunos estrangeiros."
       ],
       "correct": 0,
-      "explanation": "Toda criança tem direito à escola, chegue quando chegar."
+      "explanation": "Existe um procedimento para quem chega fora do prazo normal. Isso não garante vaga na escola escolhida; a administração organiza a escolarização."
     },
     {
       "type": "complete",
@@ -128,14 +128,14 @@
         }
       ],
       "speaker": "Secretaria",
-      "pt": "O prazo normal é na primavera, mas se chegarem no meio do ano há vaga fora do prazo.",
+      "pt": "O prazo normal é na primavera. Se chegarem no meio do ano letivo, há um procedimento extraordinário de admissão.",
       "options": [
-        "Sí. Solo se pagan el comedor, las excursiones y el material.",
-        "Buenos días. Quiero matricular a mi sobrina. Tiene siete años.",
-        "El plazo ordinario es en primavera, pero si llegáis a mitad de curso hay plaza fuera de plazo."
+        "La enseñanza es gratuita. El comedor, el material y algunas actividades pueden tener coste.",
+        "Buenos días. Soy la tutora legal de mi sobrina y quiero matricularla. Tiene siete años.",
+        "El plazo ordinario es en primavera. Si llegáis a mitad de curso, hay un procedimiento extraordinario de admisión."
       ],
       "correct": 2,
-      "explanation": "Secretaria diz: \"El plazo ordinario es en primavera, pero si llegáis a mitad de curso hay plaza fuera de plazo.\" = \"O prazo normal é na primavera, mas se chegarem no meio do ano há vaga fora do prazo.\"."
+      "explanation": "Secretaria diz: \"El plazo ordinario es en primavera. Si llegáis a mitad de curso, hay un procedimiento extraordinario de admisión.\" = \"O prazo normal é na primavera. Se chegarem no meio do ano letivo, há um procedimento extraordinário de admissão.\"."
     },
     {
       "type": "choice",
@@ -164,20 +164,20 @@
         "escuela",
         "grátis"
       ],
-      "explanation": "\"Colegio\" é o mais usado para escola primária."
+      "explanation": "El colegio público = a escola pública. Também se diz la escuela pública, com artigo e adjetivo no feminino."
     },
     {
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Sí. Solo se pagan el comedor, las excursiones y el material.",
+      "spanish": "La enseñanza es gratuita. El comedor, el material y algunas actividades pueden tener coste.",
       "options": [
-        "Sim. Só se paga o refeitório, as excursões e o material.",
+        "O ensino é gratuito. O refeitório, o material e algumas atividades podem ter custo.",
         "Não, custa 500 euros por mês.",
         "Sim, e tudo é grátis, até o almoço."
       ],
       "correct": 0,
-      "explanation": "Algumas comunidades dão bolsas para refeitório e livros."
+      "explanation": "O ensino público é gratuito. Serviços complementares e materiais podem ter custo ou ajuda financeira, conforme as regras locais."
     },
     {
       "type": "boss",
@@ -203,22 +203,22 @@
           "joke": "Primaria = ensino fundamental I."
         },
         {
-          "spanish": "Va al instituto.",
+          "spanish": "Estudia la ESO en el instituto.",
           "options": [
-            "Vai à escola secundária (12 a 18 anos).",
-            "Vai ao instituto de pesquisa."
+            "Estuda o ensino secundário obrigatório no instituto.",
+            "Trabalha em um instituto de pesquisa."
           ],
           "correct": 0,
-          "joke": "Instituto = escola pública de ensino secundário (ESO e bachillerato)."
+          "joke": "Neste contexto, instituto é a escola secundária. ESO = Educación Secundaria Obligatoria; não corresponde exatamente a uma única etapa brasileira."
         },
         {
-          "spanish": "Este curso empieza en septiembre.",
+          "spanish": "El curso escolar empieza en septiembre.",
           "options": [
-            "Este ano letivo começa em setembro.",
-            "Este curso de inglês começa em setembro."
+            "O ano letivo começa em setembro.",
+            "O ano letivo começa em janeiro."
           ],
           "correct": 0,
-          "joke": "Curso = ano letivo."
+          "joke": "Curso escolar = ano letivo; curso também pode designar um curso ou uma série."
         }
       ]
     },
@@ -237,7 +237,7 @@
           "emoji": "📋",
           "title": "Admissão",
           "es": "Solicitud de admisión en primavera.",
-          "pt": "O pedido de vaga costuma ser na primavera, com datas de cada comunidade autônoma. O padrón e irmãos na escola dão pontos. Quem chega no meio do ano pede vaga fora de prazo. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "As datas e os critérios de admissão são definidos pela administração educacional. Proximidade do domicílio ou trabalho e irmãos no centro podem contar na pontuação. Quem chega durante o ano usa o procedimento extraordinário; morar no bairro não garante a escola escolhida. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         }
       ]
     }

@@ -11,12 +11,12 @@
         {
           "speaker": "Lu",
           "es": "¿Por qué el camarero sirve el txakoli desde tan alto?",
-          "pt": "Por que o garçom serve o txakoli (vinho branco basco) de tão alto?"
+          "pt": "Por que o garçom serve o txakoli (vinho basco) de tão alto?"
         },
         {
           "speaker": "Lino",
-          "es": "Para que coja burbujas. Es un vino blanco joven y un poco ácido.",
-          "pt": "Para que pegue bolhinhas. É um vinho branco jovem e um pouco ácido."
+          "es": "Es una forma tradicional de servirlo. Este vino conserva algo de gas de la fermentación.",
+          "pt": "É uma forma tradicional de servi-lo. Este vinho conserva um pouco de gás da fermentação."
         },
         {
           "speaker": "Lu",
@@ -31,7 +31,7 @@
         {
           "speaker": "Lu",
           "es": "Huele a rodaballo... ¡Qué hambre!",
-          "pt": "Cheira a pregado... Que fome!"
+          "pt": "Cheira a pregado (peixe)... Que fome!"
         },
         {
           "speaker": "Lino",
@@ -101,14 +101,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Para que coja burbujas. Es un vino blanco joven y un poco ácido.",
+      "spanish": "Es una forma tradicional de servirlo. Este vino conserva algo de gas de la fermentación.",
       "options": [
-        "Para que pegue bolhinhas. É um vinho branco jovem e um pouco ácido.",
+        "É uma forma tradicional de servi-lo. Este vinho conserva um pouco de gás da fermentação.",
         "Porque está quente.",
         "Para fazer show para turistas."
       ],
       "correct": 0,
-      "explanation": "O txakoli se serve do alto."
+      "explanation": "Nem todo txakoli é servido do alto. O gás já pode estar presente no vinho; a altura do serviço não produz gás de fermentação."
     },
     {
       "type": "swipe",
@@ -119,7 +119,8 @@
           "es": "cubo",
           "kind": "armadilha",
           "meaning": "balde",
-          "tip": "Cubo = balde. Em português, cubo é a figura geométrica (ou de gelo)."
+          "tip": "Aqui, cubo = balde. Em espanhol, cubo também pode ser a figura geométrica ou um cubo de gelo, sentidos compartilhados com o português.",
+          "context": "Trae un cubo con hielo."
         },
         {
           "es": "vino blanco",
@@ -144,7 +145,8 @@
           "es": "tapón",
           "kind": "armadilha",
           "meaning": "rolha / tampa",
-          "tip": "Tapón = rolha ou tampa. Em português, tampão é o absorvente interno ou o curativo."
+          "tip": "Aqui, tapón é a tampa ou rolha da garrafa. Tampão também pode ser uma peça que fecha uma abertura em português; não se limita a curativo ou absorvente.",
+          "context": "Quita el tapón de la botella."
         }
       ]
     },
@@ -154,8 +156,8 @@
       "context": [
         {
           "speaker": "Lino",
-          "es": "Para que coja burbujas. Es un vino blanco joven y un poco ácido.",
-          "pt": "Para que pegue bolhinhas. É um vinho branco jovem e um pouco ácido."
+          "es": "Es una forma tradicional de servirlo. Este vino conserva algo de gas de la fermentación.",
+          "pt": "É uma forma tradicional de servi-lo. Este vinho conserva um pouco de gás da fermentação."
         },
         {
           "speaker": "Lu",
@@ -185,10 +187,10 @@
         "pescado."
       ],
       "distractors": [
-        "dividir",
-        "pez"
+        "comparte",
+        "pescar"
       ],
-      "explanation": "Pescado = peixe para comer."
+      "explanation": "Compartir = compartilhar ou dividir. Dividir também existe em espanhol; aqui praticamos compartilhar o peixe como refeição. Pescado é a palavra habitual para peixe destinado à alimentação."
     },
     {
       "type": "listening",
@@ -236,13 +238,13 @@
           "joke": "Burbuja = bolha."
         },
         {
-          "spanish": "Lo compartimos.",
+          "spanish": "Compartimos el pescado entre los dos.",
           "options": [
-            "Dividimos.",
-            "Compartilhamos nas redes."
+            "Dividimos o peixe entre nós dois.",
+            "Cada um come um peixe inteiro."
           ],
           "correct": 0,
-          "joke": "Compartir = dividir."
+          "joke": "Compartir pode ser dividir comida ou compartilhar algo, inclusive nas redes. A frase indica a refeição."
         }
       ]
     },
@@ -255,7 +257,7 @@
           "emoji": "🍾",
           "title": "Txakoli",
           "es": "Un txakoli, por favor.",
-          "pt": "Vinho branco jovem e levemente ácido da costa basca; Getaria tem a DO Getariako Txakolina. Serve-se de certa altura para ganhar bolhinhas."
+          "pt": "Txakoli é um vinho basco, sobretudo branco, mas também há rosados e tintos. A DO Getariako Txakolina abrange Gipuzkoa. Alguns estilos conservam gás da fermentação; servir do alto não é uma regra universal. O conselho regulador recomenda servir em taça, fresco, para apreciar os aromas."
         },
         {
           "emoji": "🐟",

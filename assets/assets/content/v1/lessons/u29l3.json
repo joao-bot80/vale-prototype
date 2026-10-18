@@ -15,28 +15,28 @@
         },
         {
           "speaker": "Lu",
-          "es": "Aquí están la TIE, el padrón, el contrato de trabajo y las nóminas.",
-          "pt": "Aqui estão a TIE, o padrón, o contrato de trabalho e os holerites."
+          "es": "Aquí están la TIE, el certificado de empadronamiento, el contrato de trabajo y las nóminas.",
+          "pt": "Aqui estão a TIE (carteira de identidade de estrangeiro), o certificado de registro municipal, o contrato de trabalho e os holerites."
         },
         {
           "speaker": "Lino",
           "es": "¿Y la declaración de la renta?",
-          "pt": "E a declaração da renda?"
+          "pt": "E a declaração do imposto de renda?"
         },
         {
           "speaker": "Lu",
           "es": "Hecha. Me salió a devolver.",
-          "pt": "Feita. Tive restituição."
+          "pt": "Feita. Deu imposto a restituir."
         },
         {
           "speaker": "Lino",
-          "es": "¡Qué bien! ¿Y qué te falta para la nacionalidad?",
-          "pt": "Que bom! E o que falta para a nacionalidade?"
+          "es": "¡Qué bien! ¿Y qué te falta para solicitar la nacionalidad?",
+          "pt": "Que bom! E o que falta para solicitar a nacionalidade?"
         },
         {
           "speaker": "Lu",
-          "es": "Aprobar el DELE y el CCSE. ¡Ya estoy estudiando el manual!",
-          "pt": "Passar no DELE e no CCSE. Já estou estudando o manual!"
+          "es": "En mi caso, aprobar el DELE A2 y el CCSE. Ya estoy estudiando el manual del CCSE.",
+          "pt": "No meu caso, passar no DELE A2 e no CCSE. Já estou estudando o manual do CCSE."
         }
       ]
     },
@@ -59,7 +59,8 @@
         {
           "es": "la fotocopia",
           "pt": "a cópia",
-          "emoji": "📠"
+          "emoji": "📠",
+          "image": "assets/vocab/fotocopia.png"
         },
         {
           "es": "el original",
@@ -74,11 +75,11 @@
       "prompt": "\"Recoge tu habitación\" significa:",
       "options": [
         "Arruma seu quarto",
-        "Recolhe seu quarto",
-        "Pega seu quarto"
+        "Deixa seu quarto bagunçado",
+        "Sai do seu quarto"
       ],
       "correct": 0,
-      "explanation": "Recoger = arrumar (e também buscar alguém)."
+      "explanation": "Nesta frase, recoger é arrumar. Em outros contextos, pode ser recolher objetos ou buscar alguém."
     },
     {
       "type": "build",
@@ -101,14 +102,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Aquí están la TIE, el padrón, el contrato de trabajo y las nóminas.",
+      "spanish": "Aquí están la TIE, el certificado de empadronamiento, el contrato de trabajo y las nóminas.",
       "options": [
-        "Aqui estão a TIE, o padrón, o contrato de trabalho e os holerites.",
+        "Aqui estão a TIE (carteira de identidade de estrangeiro), o certificado de registro municipal, o contrato de trabalho e os holerites.",
         "Perdi todos os documentos.",
         "Só tenho o passaporte."
       ],
       "correct": 0,
-      "explanation": "Revisão Papelada (u10–u17)."
+      "explanation": "Padrón é o registro municipal; o certificado de empadronamiento é um documento que comprova a inscrição. Nóminas são holerites."
     },
     {
       "type": "complete",
@@ -116,24 +117,24 @@
       "context": [
         {
           "speaker": "Lu",
-          "es": "Aquí están la TIE, el padrón, el contrato de trabajo y las nóminas.",
-          "pt": "Aqui estão a TIE, o padrón, o contrato de trabalho e os holerites."
+          "es": "Aquí están la TIE, el certificado de empadronamiento, el contrato de trabajo y las nóminas.",
+          "pt": "Aqui estão a TIE (carteira de identidade de estrangeiro), o certificado de registro municipal, o contrato de trabalho e os holerites."
         },
         {
           "speaker": "Lino",
           "es": "¿Y la declaración de la renta?",
-          "pt": "E a declaração da renda?"
+          "pt": "E a declaração do imposto de renda?"
         }
       ],
       "speaker": "Lu",
-      "pt": "Feita. Tive restituição.",
+      "pt": "Feita. Deu imposto a restituir.",
       "options": [
         "Hecha. Me salió a devolver.",
-        "Aprobar el DELE y el CCSE. ¡Ya estoy estudiando el manual!",
-        "¡Qué bien! ¿Y qué te falta para la nacionalidad?"
+        "En mi caso, aprobar el DELE A2 y el CCSE. Ya estoy estudiando el manual del CCSE.",
+        "¡Qué bien! ¿Y qué te falta para solicitar la nacionalidad?"
       ],
       "correct": 0,
-      "explanation": "Lu diz: \"Hecha. Me salió a devolver.\" = \"Feita. Tive restituição.\"."
+      "explanation": "Me salió a devolver indica que a declaração resultou em imposto a restituir; a frase não afirma que o dinheiro já foi pago."
     },
     {
       "type": "choice",
@@ -159,22 +160,22 @@
       ],
       "distractors": [
         "venceu",
-        "caduco"
+        "caducada"
       ],
-      "explanation": "\"Caducado\" = vencido."
+      "explanation": "Caducado indica validade expirada. Concorda com pasaporte, masculino; com tarjeta, usa-se caducada. Vencido também pode ter esse sentido em espanhol."
     },
     {
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Aprobar el DELE y el CCSE. ¡Ya estoy estudiando el manual!",
+      "spanish": "En mi caso, aprobar el DELE A2 y el CCSE. Ya estoy estudiando el manual del CCSE.",
       "options": [
-        "Passar no DELE e no CCSE. Já estou estudando o manual!",
+        "No meu caso, passar no DELE A2 e no CCSE. Já estou estudando o manual do CCSE.",
         "Nada, já sou espanhola.",
         "Só pagar a taxa."
       ],
       "correct": 0,
-      "explanation": "Revisão: u17."
+      "explanation": "Lu fala do próprio caso. Para nacionalidade por residência, os requisitos vão além dos exames, e há hipóteses de isenção ou dispensa. O manual citado é o do CCSE."
     },
     {
       "type": "boss",
@@ -194,10 +195,10 @@
           "spanish": "Recoge tu habitación.",
           "options": [
             "Arruma seu quarto.",
-            "Recolhe seu quarto."
+            "Deixa seu quarto bagunçado."
           ],
           "correct": 0,
-          "joke": "Recoger = arrumar."
+          "joke": "Aqui, recoger é arrumar; não é o único sentido do verbo."
         },
         {
           "spanish": "Necesito una grapa.",
@@ -212,10 +213,10 @@
           "spanish": "Tengo la TIE caducada.",
           "options": [
             "Estou com a TIE vencida.",
-            "Estou com a TIE caduca, velha."
+            "Minha TIE ainda está válida."
           ],
           "correct": 0,
-          "joke": "Caducado = vencido."
+          "joke": "Caducada indica validade expirada. Caduca também pode ter esse sentido em português. A frase se refere à validade do cartão."
         }
       ]
     },
@@ -228,13 +229,13 @@
           "emoji": "📁",
           "title": "Papelada em dia",
           "es": "Tu carpeta de papeles.",
-          "pt": "Guarde originais e cópias de TIE, padrón, contratos, holerites e declarações. Muitos trâmites pedem esses documentos. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "Organize os documentos que se aplicam ao seu caso: TIE, certificado de empadronamiento, contratos, holerites e declarações do imposto de renda. Cada trâmite pode pedir documentos diferentes. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "✅",
           "title": "O que você já sabe",
           "es": "Cita, TIE, padrón, nómina, renta, DELE, CCSE.",
-          "pt": "Você aprendeu o vocabulário dos principais trâmites de quem mora na Espanha. Use-o e confira sempre a fonte oficial."
+          "pt": "Você revisou vocabulário de documentos e trâmites. Na nacionalidade por residência, DELE A2 ou superior e CCSE são exigidos em determinados casos; há outros requisitos e possíveis isenções ou dispensas. Consulte o Ministério da Justiça e o Instituto Cervantes. ℹ️ Informação educativa, não é assessoria jurídica."
         }
       ]
     }

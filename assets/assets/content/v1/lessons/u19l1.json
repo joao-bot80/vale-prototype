@@ -108,7 +108,7 @@
         "Não, e ninguém sai de casa."
       ],
       "correct": 0,
-      "explanation": "Sant Jordi não é feriado, mas a cidade vira uma festa."
+      "explanation": "Sant Jordi não é, por si só, feriado geral em Barcelona; a celebração costuma acontecer mesmo em dia de trabalho."
     },
     {
       "type": "complete",
@@ -212,10 +212,10 @@
           "spanish": "El caballero mató al dragón.",
           "options": [
             "O cavaleiro matou o dragão.",
-            "O cavalheiro matou o dragão."
+            "O cavalo matou o dragão."
           ],
           "correct": 0,
-          "joke": "Caballero = cavaleiro."
+          "joke": "Na lenda de Sant Jordi, \"caballero\" = cavaleiro. A palavra também pode significar cavalheiro em outros contextos; \"caballo\" = cavalo."
         }
       ]
     },
@@ -234,7 +234,7 @@
           "emoji": "📚",
           "title": "Dia do Livro",
           "es": "El 23 de abril es el Día del Libro.",
-          "pt": "A data coincide com o Dia Internacional do Livro (morte de Cervantes e Shakespeare em 1616). Autores autografam livros nas ruas."
+          "pt": "O 23 de abril também é o Dia Mundial do Livro e do Direito de Autor, celebrado pela UNESCO. Em Sant Jordi, muitos autores autografam livros nas ruas."
         }
       ]
     }

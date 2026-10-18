@@ -15,8 +15,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Para los brasileños, dos años de residencia legal y continuada.",
-          "pt": "Para os brasileiros, dois anos de residência legal e contínua."
+          "es": "Para los brasileños de origen, el plazo general es de dos años de residencia legal y continuada.",
+          "pt": "Para os brasileiros de origem, o prazo geral é de dois anos de residência legal e contínua."
         },
         {
           "speaker": "Lu",
@@ -25,18 +25,18 @@
         },
         {
           "speaker": "Lino",
-          "es": "Aprobar dos exámenes: el DELE A2 y el CCSE, y pagar una tasa.",
-          "pt": "Passar em duas provas: o DELE A2 e o CCSE, e pagar uma taxa."
+          "es": "En general, aprobar el DELE A2 o superior y el CCSE. También hay otros requisitos.",
+          "pt": "Em geral, passar no DELE A2 ou superior e no CCSE. Também há outros requisitos."
         },
         {
           "speaker": "Lu",
-          "es": "¿Pero los brasileños no hablamos ya casi español?",
-          "pt": "Mas nós brasileiros já não falamos quase espanhol?"
+          "es": "¿Los brasileños estamos exentos del DELE?",
+          "pt": "Nós brasileiros estamos dispensados do DELE?"
         },
         {
           "speaker": "Lino",
-          "es": "Casi, pero Brasil no está exento del DELE. ¡Hay que estudiar!",
-          "pt": "Quase, mas o Brasil não está isento do DELE. Tem que estudar!"
+          "es": "No por ser brasileños. Hay excepciones, pero debemos comprobar los requisitos.",
+          "pt": "Não por sermos brasileiros. Há exceções, mas precisamos verificar os requisitos."
         }
       ]
     },
@@ -47,7 +47,8 @@
         {
           "es": "la nacionalidad",
           "pt": "a nacionalidade",
-          "emoji": "🇪🇸"
+          "emoji": "🇪🇸",
+          "image": "assets/vocab/nacionalidad.png"
         },
         {
           "es": "el pasaporte",
@@ -58,26 +59,28 @@
         {
           "es": "el juramento",
           "pt": "o juramento",
-          "emoji": "✋"
+          "emoji": "✋",
+          "image": "assets/vocab/juramento.png"
         },
         {
           "es": "el expediente",
           "pt": "o processo",
-          "emoji": "📁"
+          "emoji": "📁",
+          "image": "assets/vocab/expediente.png"
         }
       ]
     },
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "Para brasileiros, a residência legal exigida é de:",
+      "prompt": "Para brasileiros de origem, qual é o prazo geral reduzido de residência legal para pedir a nacionalidade?",
       "options": [
         "2 anos",
         "10 anos",
         "5 anos"
       ],
       "correct": 0,
-      "explanation": "Países ibero-americanos têm prazo reduzido de 2 anos (Código Civil, art. 22)."
+      "explanation": "São dois anos de residência legal, contínua e imediatamente anterior ao pedido, além dos demais requisitos. Há outras hipóteses legais com prazos próprios."
     },
     {
       "type": "build",
@@ -99,14 +102,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Aprobar dos exámenes: el DELE A2 y el CCSE, y pagar una tasa.",
+      "spanish": "En general, aprobar el DELE A2 o superior y el CCSE. También hay otros requisitos.",
       "options": [
-        "Passar em duas provas: o DELE A2 e o CCSE, e pagar uma taxa.",
+        "Em geral, passar no DELE A2 ou superior e no CCSE. Também há outros requisitos.",
         "Fazer uma entrevista na embaixada.",
         "Só pagar uma taxa."
       ],
       "correct": 0,
-      "explanation": "\"Aprobar\" = ser aprovado."
+      "explanation": "Os exames são parte dos requisitos de integração, com hipóteses de dispensa. Passar nas provas não garante a concessão da nacionalidade."
     },
     {
       "type": "swipe",
@@ -135,7 +138,8 @@
           "es": "expediente",
           "kind": "armadilha",
           "meaning": "processo",
-          "tip": "Expediente = processo (administrativo). Expediente (horário de trabalho) é \"horario\" ou \"jornada\"."
+          "tip": "Aqui, expediente é o processo administrativo. Em português também pode ser documentação administrativa; o expediente como horário de trabalho corresponde a horario ou jornada.",
+          "context": "Mi expediente de nacionalidad sigue en trámite."
         },
         {
           "es": "prejuicio",
@@ -151,8 +155,8 @@
       "context": [
         {
           "speaker": "Lino",
-          "es": "Para los brasileños, dos años de residencia legal y continuada.",
-          "pt": "Para os brasileiros, dois anos de residência legal e contínua."
+          "es": "Para los brasileños de origen, el plazo general es de dos años de residencia legal y continuada.",
+          "pt": "Para os brasileiros de origem, o prazo geral é de dois anos de residência legal e contínua."
         },
         {
           "speaker": "Lu",
@@ -161,14 +165,14 @@
         }
       ],
       "speaker": "Lino",
-      "pt": "Passar em duas provas: o DELE A2 e o CCSE, e pagar uma taxa.",
+      "pt": "Em geral, passar no DELE A2 ou superior e no CCSE. Também há outros requisitos.",
       "options": [
-        "Casi, pero Brasil no está exento del DELE. ¡Hay que estudiar!",
-        "¿Pero los brasileños no hablamos ya casi español?",
-        "Aprobar dos exámenes: el DELE A2 y el CCSE, y pagar una tasa."
+        "No por ser brasileños. Hay excepciones, pero debemos comprobar los requisitos.",
+        "¿Los brasileños estamos exentos del DELE?",
+        "En general, aprobar el DELE A2 o superior y el CCSE. También hay otros requisitos."
       ],
       "correct": 2,
-      "explanation": "Lino diz: \"Aprobar dos exámenes: el DELE A2 y el CCSE, y pagar una tasa.\" = \"Passar em duas provas: o DELE A2 e o CCSE, e pagar uma taxa.\"."
+      "explanation": "Lino diz: \"En general, aprobar el DELE A2 o superior y el CCSE. También hay otros requisitos.\" = \"Em geral, passar no DELE A2 ou superior e no CCSE. Também há outros requisitos.\"."
     },
     {
       "type": "build",
@@ -181,23 +185,23 @@
         "examen!"
       ],
       "distractors": [
-        "pasado",
+        "pasando",
         "suspendido"
       ],
-      "explanation": "\"Aprobar\" = passar."
+      "explanation": "Aprobar un examen = passar na prova. Pasar un examen também pode ter esse sentido; pasando não combina com o auxiliar he."
     },
     {
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Casi, pero Brasil no está exento del DELE. ¡Hay que estudiar!",
+      "spanish": "No por ser brasileños. Hay excepciones, pero debemos comprobar los requisitos.",
       "options": [
-        "Quase, mas o Brasil não está isento do DELE. Tem que estudar!",
+        "Não por sermos brasileiros. Há exceções, mas precisamos verificar os requisitos.",
         "Sim, o Brasil é isento.",
         "Não precisa de prova nenhuma."
       ],
       "correct": 0,
-      "explanation": "Ser brasileiro não isenta do DELE: a isenção é para nacionais de países de língua oficial espanhola (e alguns outros casos, como quem estudou o ensino médio na Espanha)."
+      "explanation": "A nacionalidade brasileira, por si só, não dispensa o DELE. Há outras hipóteses de dispensa a verificar no Ministerio de Justicia."
     },
     {
       "type": "boss",
@@ -205,13 +209,13 @@
       "bossName": "Falso Amigo",
       "questions": [
         {
-          "spanish": "He suspendido el CCSE.",
+          "spanish": "He suspendido el CCSE por un punto.",
           "options": [
-            "Fui reprovada no CCSE.",
-            "Suspendi o CCSE."
+            "Fui reprovada no CCSE por um ponto.",
+            "Cancelei minha inscrição no CCSE."
           ],
           "correct": 0,
-          "joke": "Suspender = reprovar."
+          "joke": "Suspender un examen aqui é ser reprovada. O verbo também pode significar suspender ou cancelar algo."
         },
         {
           "spanish": "Paga la tasa.",
@@ -235,10 +239,10 @@
           "spanish": "Presento la solicitud.",
           "options": [
             "Apresento o requerimento.",
-            "Apresento a solicitude."
+            "Retiro o requerimento."
           ],
           "correct": 0,
-          "joke": "Solicitud = pedido."
+          "joke": "Presentar la solicitud = apresentar o requerimento ou pedido."
         }
       ]
     },
@@ -250,14 +254,14 @@
         {
           "emoji": "🇪🇸",
           "title": "Dois anos",
-          "es": "Brasileños: dos años de residencia.",
-          "pt": "Brasileiros (e outros ibero-americanos) podem pedir a nacionalidade por residência após 2 anos de residência legal, contínua e imediatamente anterior ao pedido. O pedido costuma ser feito online no Ministerio de Justicia. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "es": "Brasileños de origen: dos años de residencia legal y continuada.",
+          "pt": "O prazo geral reduzido de dois anos vale para nacionais de origem de países ibero-americanos, como o Brasil. A residência deve ser legal, contínua e imediatamente anterior ao pedido. Também se exige boa conduta cívica e integração, além da documentação aplicável; cumprir o prazo não torna a concessão automática. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "✋",
           "title": "A jura",
-          "es": "Juro fidelidad al Rey y obediencia a la Constitución.",
-          "pt": "Depois da resolução favorável, há o juramento de fidelidade ao Rei e obediência à Constituição. A Espanha em geral pede renúncia à nacionalidade anterior, mas isso não se aplica a países ibero-americanos como o Brasil. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "es": "Juro fidelidad al rey y obediencia a la Constitución y a las leyes.",
+          "pt": "Após a concessão, quem está sujeito ao ato pode jurar ou prometer fidelidade ao rei e obediência à Constituição e às leis. Os naturais dos países abrangidos pelo art. 23 do Código Civil, incluindo os ibero-americanos, são dispensados da declaração de renúncia à nacionalidade anterior. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         }
       ]
     }

@@ -59,13 +59,19 @@
         {
           "es": "el alquiler",
           "pt": "o aluguel",
-          "emoji": "🏷️"
+          "emoji": "🏷️",
+          "image": "assets/vocab/alquiler.png"
         },
         {
           "es": "el ascensor",
           "pt": "o elevador",
           "emoji": "🛗",
           "image": "assets/vocab/ascensor.png"
+        },
+        {
+          "es": "ático",
+          "pt": "cobertura / apartamento no último andar",
+          "emoji": "🏙️"
         }
       ]
     },
@@ -76,10 +82,10 @@
       "options": [
         "el alquiler",
         "el aluguel",
-        "la locación"
+        "la mudanza"
       ],
       "correct": 0,
-      "explanation": "\"Alquiler\" = aluguel; \"alquilar\" = alugar. \"Locación\" é usado em partes da América Latina. Na Espanha, \"renta\" costuma ser renda (ganhos), mas em contratos também aparece como o valor do aluguel."
+      "explanation": "\"Alquiler\" = aluguel; \"alquilar\" = alugar. \"Renta\" também pode ser o valor do aluguel, sobretudo em contratos. \"Mudanza\" = mudança de casa."
     },
     {
       "type": "build",
@@ -94,9 +100,9 @@
       ],
       "distractors": [
         "cuartos",
-        "departamento"
+        "departamentos"
       ],
-      "explanation": "Na Espanha, o apartamento comum é o \"piso\". \"Departamento\" é da América Latina."
+      "explanation": "Em Barcelona, \"piso\" é muito comum para apartamento. \"Departamento\" também é espanhol válido, mais frequente na América Latina. \"Habitaciones\" é feminino: cuántas habitaciones."
     },
     {
       "type": "listening",
@@ -138,14 +144,16 @@
         {
           "es": "piso",
           "kind": "armadilha",
-          "meaning": "apartamento / andar",
-          "tip": "Piso = apartamento. Em português, piso é o chão (\"suelo\")."
+          "meaning": "apartamento",
+          "tip": "Aqui, \"piso\" = apartamento. Em espanhol, também pode significar andar ou chão, conforme o contexto. Para chão, \"suelo\" também é comum.",
+          "context": "Vivo en un piso en el Eixample."
         },
         {
-          "es": "ático",
-          "kind": "armadilha",
-          "meaning": "cobertura (último andar)",
-          "tip": "Ático = cobertura. Em português, ático é o sótão (\"desván\")."
+          "es": "visita",
+          "kind": "igual",
+          "meaning": "visita",
+          "tip": "Igual! Uma visita ao apartamento antes de alugar.",
+          "pt": "visita"
         }
       ]
     },
@@ -200,7 +208,7 @@
         "Cem euros por semana."
       ],
       "correct": 0,
-      "explanation": "\"Al mes\" = por mês. \"Mil setecientos\" = 1.700. Valor realista para 2 quartos no Eixample em 2026 (~25 €/m²)."
+      "explanation": "\"Al mes\" = por mês. \"Mil setecientos\" = 1.700. O valor faz parte deste diálogo fictício; não é uma cotação atual de aluguel."
     },
     {
       "type": "boss",
@@ -214,13 +222,13 @@
             "Moro num chão no Eixample."
           ],
           "correct": 0,
-          "joke": "Piso = apartamento (e também andar). O chão é \"suelo\"."
+          "joke": "Aqui, \"piso\" = apartamento. A palavra também pode significar andar ou chão; \"suelo\" é outra palavra para chão."
         },
         {
           "spanish": "El ático tiene vistas al mar.",
           "options": [
             "A cobertura tem vista para o mar.",
-            "O sótão tem vista para o mar."
+            "O porão tem vista para o mar."
           ],
           "correct": 0,
           "joke": "Ático = último andar, muitas vezes com terraço."
@@ -238,10 +246,10 @@
           "spanish": "El salón es muy luminoso.",
           "options": [
             "A sala de estar é muito iluminada.",
-            "O salão é muito luminoso."
+            "A sala de estar é muito escura."
           ],
           "correct": 0,
-          "joke": "Salón = sala de estar. Nos anúncios você vai ler muito \"salón-comedor\"."
+          "joke": "Neste anúncio, \"salón\" = sala de estar. Em outros contextos, também pode ser um salão. \"Luminoso\" = iluminado, com bastante luz."
         }
       ]
     },
@@ -252,9 +260,9 @@
       "items": [
         {
           "emoji": "🗣️",
-          "title": "Catalão: duas línguas oficiais",
+          "title": "Catalão e castelhano",
           "es": "En Barcelona se habla castellano y catalán.",
-          "pt": "Na Catalunha, catalão e castelhano são oficiais. Você vai ver placas em catalão, mas todo mundo entende castelhano, que é o que você está aprendendo. Reconheça: \"Bon dia\" (bom dia), \"Gràcies\" (obrigado), \"Si us plau\" (por favor)."
+          "pt": "Catalão e castelhano são línguas oficiais da Catalunha; o occitano, chamado aranês no Aran, também é oficial. Em Barcelona você verá muito catalão e poderá usar o castelhano que está aprendendo. Reconheça: \"Bon dia\" (bom dia), \"Gràcies\" (obrigado), \"Si us plau\" (por favor)."
         },
         {
           "emoji": "🏠",

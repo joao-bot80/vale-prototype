@@ -15,8 +15,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Se pide con el modelo TA.1 y tu NIE.",
-          "pt": "Pede-se com o modelo TA.1 e seu NIE."
+          "es": "Se solicita a la Tesorería General de la Seguridad Social.",
+          "pt": "Solicita-se à Tesorería General de la Seguridad Social."
         },
         {
           "speaker": "Lu",
@@ -25,8 +25,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Puedes ir con cita o hacerlo online en Import@ss.",
-          "pt": "Você pode ir com agendamento ou fazer online no Import@ss."
+          "es": "Puedes solicitarlo por internet en Importass.",
+          "pt": "Você pode solicitar pela internet no Importass."
         },
         {
           "speaker": "Lu",
@@ -35,8 +35,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Con Cl@ve, certificado digital o una foto tuya con el documento.",
-          "pt": "Com Cl@ve, certificado digital ou uma selfie com o documento."
+          "es": "Con Cl@ve o certificado digital. Sin ellos, puedes enviar tu documento y una foto para verificar tu identidad.",
+          "pt": "Com Cl@ve ou certificado digital. Sem eles, você pode enviar seu documento e uma foto para verificar sua identidade."
         }
       ]
     },
@@ -47,36 +47,40 @@
         {
           "es": "el trabajo",
           "pt": "o trabalho",
-          "emoji": "💼"
+          "emoji": "💼",
+          "image": "assets/vocab/trabajo.png"
         },
         {
           "es": "el sueldo",
           "pt": "o salário",
-          "emoji": "💶"
+          "emoji": "💶",
+          "image": "assets/vocab/sueldo.png"
         },
         {
           "es": "el jefe",
           "pt": "o chefe",
-          "emoji": "👔"
+          "emoji": "👔",
+          "image": "assets/vocab/jefe.png"
         },
         {
           "es": "el paro",
           "pt": "o desemprego",
-          "emoji": "📉"
+          "emoji": "📉",
+          "image": "assets/vocab/paro.png"
         }
       ]
     },
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "Para pedir o número da Seguridad Social você usa:",
+      "prompt": "Qual formulário é usado para solicitar o NUSS em papel?",
       "options": [
         "O modelo TA.1",
         "O modelo 790-012",
         "O formulário EX-17"
       ],
       "correct": 0,
-      "explanation": "TA.1 = solicitação de número da Seguridad Social. O 790-012 é a taxa da Polícia."
+      "explanation": "TA.1 é o formulário de afiliação ou atribuição do número. O serviço online do Importass orienta o pedido e a identificação, sem exigir sempre o envio desse impresso."
     },
     {
       "type": "build",
@@ -97,14 +101,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Puedes ir con cita o hacerlo online en Import@ss.",
+      "spanish": "Puedes solicitarlo por internet en Importass.",
       "options": [
-        "Você pode ir com agendamento ou fazer online no Import@ss.",
+        "Você pode solicitar pela internet no Importass.",
         "Só dá para fazer pessoalmente.",
         "Só a empresa pode pedir."
       ],
       "correct": 0,
-      "explanation": "Import@ss é o portal da Seguridad Social para cidadãos."
+      "explanation": "Importass é o portal da Tesorería General de la Seguridad Social (TGSS)."
     },
     {
       "type": "complete",
@@ -112,8 +116,8 @@
       "context": [
         {
           "speaker": "Lino",
-          "es": "Se pide con el modelo TA.1 y tu NIE.",
-          "pt": "Pede-se com o modelo TA.1 e seu NIE."
+          "es": "Se solicita a la Tesorería General de la Seguridad Social.",
+          "pt": "Solicita-se à Tesorería General de la Seguridad Social."
         },
         {
           "speaker": "Lu",
@@ -122,19 +126,19 @@
         }
       ],
       "speaker": "Lino",
-      "pt": "Você pode ir com agendamento ou fazer online no Import@ss.",
+      "pt": "Você pode solicitar pela internet no Importass.",
       "options": [
-        "Con Cl@ve, certificado digital o una foto tuya con el documento.",
+        "Con Cl@ve o certificado digital. Sin ellos, puedes enviar tu documento y una foto para verificar tu identidad.",
         "¿Y online cómo me identifico?",
-        "Puedes ir con cita o hacerlo online en Import@ss."
+        "Puedes solicitarlo por internet en Importass."
       ],
       "correct": 2,
-      "explanation": "Lino diz: \"Puedes ir con cita o hacerlo online en Import@ss.\" = \"Você pode ir com agendamento ou fazer online no Import@ss.\"."
+      "explanation": "Lino diz: \"Puedes solicitarlo por internet en Importass.\" = \"Você pode solicitar pela internet no Importass.\"."
     },
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Estoy de baja\" significa:",
+      "prompt": "Em contexto de licença médica, \"estoy de baja\" significa:",
       "options": [
         "Estou afastado (licença médica)",
         "Estou de folga no sábado",
@@ -170,14 +174,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Con Cl@ve, certificado digital o una foto tuya con el documento.",
+      "spanish": "Con Cl@ve o certificado digital. Sin ellos, puedes enviar tu documento y una foto para verificar tu identidad.",
       "options": [
-        "Com Cl@ve, certificado digital ou uma selfie com o documento.",
+        "Com Cl@ve ou certificado digital. Sem eles, você pode enviar seu documento e uma foto para verificar sua identidade.",
         "Só com o passaporte original.",
         "Com a senha do banco."
       ],
       "correct": 0,
-      "explanation": "Cl@ve é o sistema de identificação digital do governo."
+      "explanation": "Sem identificação digital, o serviço pede documento e foto conforme suas instruções; a TGSS verifica a identidade. Uma selfie isolada não basta."
     },
     {
       "type": "boss",
@@ -215,10 +219,10 @@
           "spanish": "Mi sueldo llega el día uno.",
           "options": [
             "Meu salário chega no dia primeiro.",
-            "Meu soldo militar chega no dia um."
+            "Meu salário chega no dia quinze."
           ],
           "correct": 0,
-          "joke": "Sueldo = salário."
+          "joke": "Sueldo = salário; soldo também pode designar a remuneração militar em português."
         }
       ]
     },
@@ -231,7 +235,7 @@
           "emoji": "🧾",
           "title": "Número da Seguridad Social",
           "es": "Tu número de la Seguridad Social es para toda la vida.",
-          "pt": "O NUSS identifica você na Seguridad Social e é o mesmo a vida toda. Pede-se com o modelo TA.1 e o NIE, na Tesorería (TGSS) ou online pelo Import@ss. Quando você começa a trabalhar, a empresa dá a \"alta\". ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "O NUSS identifica você na Seguridad Social por toda a vida. Solicite-o à TGSS, inclusive pelo Importass, com a identificação admitida pelo serviço. Ter o número não concede autorização de trabalho. No emprego por conta de outrem, a empresa deve comunicar a alta antes do início do trabalho. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "🔐",

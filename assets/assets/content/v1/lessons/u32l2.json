@@ -20,8 +20,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Es un valle de río inundado por el mar. Por eso hay tanto marisco.",
-          "pt": "É um vale de rio inundado pelo mar. Por isso há tantos frutos do mar."
+          "es": "Es un valle de río inundado por el mar. En estas rías se cría mucho marisco.",
+          "pt": "É um vale de rio inundado pelo mar. Nestas rias se criam muitos frutos do mar."
         },
         {
           "speaker": "Bodeguero",
@@ -30,8 +30,8 @@
         },
         {
           "speaker": "Lu",
-          "es": "Sí, pero solo una copa, que luego conduce Lino.",
-          "pt": "Sim, mas só uma taça, que depois o Lino dirige."
+          "es": "Sí, una copa para mí. Lino va a conducir.",
+          "pt": "Sim, uma taça para mim. Lino vai dirigir."
         },
         {
           "speaker": "Lino",
@@ -101,9 +101,9 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Es un valle de río inundado por el mar. Por eso hay tanto marisco.",
+      "spanish": "Es un valle de río inundado por el mar. En estas rías se cría mucho marisco.",
       "options": [
-        "É um vale de rio inundado pelo mar. Por isso há tantos frutos do mar.",
+        "É um vale de rio inundado pelo mar. Nestas rias se criam muitos frutos do mar.",
         "É um lago de montanha.",
         "É um rio muito longo."
       ],
@@ -126,13 +126,14 @@
           "es": "albariño",
           "kind": "quase",
           "meaning": "alvarinho (uva/vinho)",
-          "tip": "Em português é alvarinho: a uva e o vinho branco das Rías Baixas."
+          "tip": "Albariño é a uva chamada alvarinho em português e também o vinho feito com ela. É uma variedade importante da denominação Rías Baixas, que admite outras uvas."
         },
         {
           "es": "catar",
           "kind": "armadilha",
           "meaning": "degustar",
-          "tip": "Não é catar do chão!"
+          "tip": "Aqui, catar é degustar o vinho. Em português brasileiro, catar é mais comum no sentido de procurar ou recolher.",
+          "context": "Vamos a catar el albariño."
         },
         {
           "es": "afrutado",
@@ -142,9 +143,11 @@
         },
         {
           "es": "bodeguero",
-          "kind": "armadilha",
-          "meaning": "produtor de vinho",
-          "tip": "Bodeguero = produtor de vinho. Em português, bodegueiro é dono de boteco."
+          "kind": "quase",
+          "meaning": "bodegueiro / taberneiro",
+          "tip": "Bodeguero e bodegueiro podem ser o dono ou responsável por uma bodega, aqui uma taberna. No diálogo do vinho, bodeguero se refere ao responsável pela vinícola.",
+          "pt": "bodegueiro",
+          "context": "El bodeguero atiende su taberna."
         }
       ]
     },
@@ -159,14 +162,14 @@
         },
         {
           "speaker": "Lino",
-          "es": "Es un valle de río inundado por el mar. Por eso hay tanto marisco.",
-          "pt": "É um vale de rio inundado pelo mar. Por isso há tantos frutos do mar."
+          "es": "Es un valle de río inundado por el mar. En estas rías se cría mucho marisco.",
+          "pt": "É um vale de rio inundado pelo mar. Nestas rias se criam muitos frutos do mar."
         }
       ],
       "speaker": "Bodeguero",
       "pt": "Querem provar o albariño? É fresco e frutado.",
       "options": [
-        "Sí, pero solo una copa, que luego conduce Lino.",
+        "Sí, una copa para mí. Lino va a conducir.",
         "¿Queréis probar el albariño? Es fresco y afrutado.",
         "¡Yo agua, como siempre!"
       ],
@@ -183,23 +186,23 @@
         "Lino."
       ],
       "distractors": [
-        "dirige",
+        "dirigiendo",
         "logo"
       ],
-      "explanation": "\"Conducir\" = dirigir."
+      "explanation": "Conducir é o verbo habitual na Espanha para dirigir um veículo. Dirigir também pode ter esse sentido, mas dirigiendo é gerúndio e não cabe sozinho nesta frase."
     },
     {
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Sí, pero solo una copa, que luego conduce Lino.",
+      "spanish": "Sí, una copa para mí. Lino va a conducir.",
       "options": [
-        "Sim, mas só uma taça, que depois o Lino dirige.",
+        "Sim, uma taça para mim. Lino vai dirigir.",
         "Sim, a garrafa toda.",
         "Não bebo nada."
       ],
       "correct": 0,
-      "explanation": "Álcool e direção: tolerância baixa na Espanha."
+      "explanation": "A taça é para Lu. Lino escolhe água porque vai dirigir."
     },
     {
       "type": "boss",
@@ -210,19 +213,19 @@
           "spanish": "Una copa de albariño.",
           "options": [
             "Uma taça de albariño.",
-            "Uma copa de albariño."
+            "Uma garrafa de albariño."
           ],
           "correct": 0,
           "joke": "Copa = taça."
         },
         {
-          "spanish": "Yo conduzco.",
+          "spanish": "Yo conduzco el coche.",
           "options": [
-            "Eu dirijo.",
-            "Eu conduzo a orquestra."
+            "Eu dirijo o carro.",
+            "Eu conserto o carro."
           ],
           "correct": 0,
-          "joke": "Conducir = dirigir."
+          "joke": "Conducir el coche = dirigir o carro. Conducir também pode significar conduzir ou guiar em outros contextos."
         },
         {
           "spanish": "Paseamos por el viñedo.",
@@ -253,7 +256,7 @@
           "emoji": "🍇",
           "title": "Albariño",
           "es": "Albariño de las Rías Baixas.",
-          "pt": "Vinho branco da denominação de origem Rías Baixas; Cambados celebra a Festa do Albariño todo verão."
+          "pt": "Albariño é a variedade de uva conhecida como alvarinho em português. É importante nos vinhos brancos da denominação de origem Rías Baixas, que também admite outras uvas e misturas. Cambados celebra a Festa do Albariño no verão."
         },
         {
           "emoji": "🌊",

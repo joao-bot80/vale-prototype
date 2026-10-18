@@ -10,13 +10,13 @@
       "lines": [
         {
           "speaker": "Lu",
-          "es": "Lino, en el metro todo está en dos idiomas. No entiendo la mitad.",
-          "pt": "Lino, no metrô tudo está em dois idiomas. Não entendo metade."
+          "es": "Lino, en este cartel del metro hay dos idiomas. No entiendo la mitad.",
+          "pt": "Lino, nesta placa do metrô há dois idiomas. Não entendo metade."
         },
         {
           "speaker": "Lino",
-          "es": "Es euskera, la lengua vasca. Pero siempre está también en castellano.",
-          "pt": "É euskera, a língua basca. Mas sempre está também em castelhano."
+          "es": "Es euskera, la lengua vasca. En este cartel también está el texto en castellano.",
+          "pt": "É euskera, a língua basca. Nesta placa o texto também está em castelhano."
         },
         {
           "speaker": "Lu",
@@ -25,8 +25,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Nada. Es una lengua muy antigua y no tiene relación con el latín.",
-          "pt": "Nada. É uma língua muito antiga e não tem relação com o latim."
+          "es": "Es muy diferente. No deriva del latín, aunque tiene palabras tomadas del latín y del castellano.",
+          "pt": "É muito diferente. Não deriva do latim, embora tenha palavras emprestadas do latim e do castelhano."
         },
         {
           "speaker": "Lu",
@@ -102,14 +102,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Nada. Es una lengua muy antigua y no tiene relación con el latín.",
+      "spanish": "Es muy diferente. No deriva del latín, aunque tiene palabras tomadas del latín y del castellano.",
       "options": [
-        "Nada. É uma língua muito antiga e não tem relação com o latim.",
+        "É muito diferente. Não deriva do latim, embora tenha palavras emprestadas do latim e do castelhano.",
         "Sim, é quase igual.",
         "É um dialeto do catalão."
       ],
       "correct": 0,
-      "explanation": "O euskera é uma língua isolada."
+      "explanation": "O euskera é uma língua isolada, sem parentesco genealógico demonstrado com outra língua viva. Isso não impede empréstimos de vocabulário."
     },
     {
       "type": "complete",
@@ -117,8 +117,8 @@
       "context": [
         {
           "speaker": "Lino",
-          "es": "Es euskera, la lengua vasca. Pero siempre está también en castellano.",
-          "pt": "É euskera, a língua basca. Mas sempre está também em castelhano."
+          "es": "Es euskera, la lengua vasca. En este cartel también está el texto en castellano.",
+          "pt": "É euskera, a língua basca. Nesta placa o texto também está em castelhano."
         },
         {
           "speaker": "Lu",
@@ -127,14 +127,14 @@
         }
       ],
       "speaker": "Lino",
-      "pt": "Nada. É uma língua muito antiga e não tem relação com o latim.",
+      "pt": "É muito diferente. Não deriva do latim, embora tenha palavras emprestadas do latim e do castelhano.",
       "options": [
         "Entonces leo la parte en castellano: «Salida».",
-        "Nada. Es una lengua muy antigua y no tiene relación con el latín.",
+        "Es muy diferente. No deriva del latín, aunque tiene palabras tomadas del latín y del castellano.",
         "Exacto. Y si quieres ser amable, aprende a decir gracias en euskera."
       ],
       "correct": 1,
-      "explanation": "Lino diz: \"Nada. Es una lengua muy antigua y no tiene relación con el latín.\" = \"Nada. É uma língua muito antiga e não tem relação com o latim.\"."
+      "explanation": "Lino diz: \"Es muy diferente. No deriva del latín, aunque tiene palabras tomadas del latín y del castellano.\" = \"É muito diferente. Não deriva do latim, embora tenha palavras emprestadas do latim e do castelhano.\"."
     },
     {
       "type": "choice",
@@ -146,7 +146,7 @@
         "As escadas"
       ],
       "correct": 0,
-      "explanation": "Aseos = banheiros públicos."
+      "explanation": "Numa placa, aseos indica banheiros; a palavra também se usa fora de espaços públicos."
     },
     {
       "type": "build",
@@ -175,7 +175,7 @@
         "Exato, mas ninguém fala euskera."
       ],
       "correct": 0,
-      "explanation": "Uma palavrinha em euskera é sempre bem recebida."
+      "explanation": "Aprender uma expressão de cortesia pode ajudar na interação com falantes de euskera."
     },
     {
       "type": "boss",
@@ -204,19 +204,19 @@
           "spanish": "El cartel está en dos lenguas.",
           "options": [
             "A placa está em duas línguas.",
-            "O cartel está em duas línguas de boi."
+            "A placa está em uma só língua."
           ],
           "correct": 0,
-          "joke": "Cartel = placa."
+          "joke": "Aqui, cartel é placa ou cartaz. Cartel também existe em português com esse sentido, além do uso econômico mais comum no Brasil."
         },
         {
           "spanish": "Es muy amable.",
           "options": [
             "É muito gentil.",
-            "É muito amável de amar."
+            "É muito grosseiro."
           ],
           "correct": 0,
-          "joke": "Amable = gentil."
+          "joke": "Amable = amável ou gentil. Os sentidos se sobrepõem nas duas línguas."
         }
       ]
     },
@@ -229,13 +229,13 @@
           "emoji": "🪧",
           "title": "Placas bilíngues",
           "es": "Irteera = salida. Sarrera = entrada.",
-          "pt": "Nas placas bascas: \"irteera\" (saída), \"sarrera\" (entrada), \"komunak\" (banheiros). Só para reconhecer: sempre há o texto em castelhano."
+          "pt": "Em euskera, irteera é saída, sarrera é entrada e komunak indica banheiros. Muitas placas trazem também o castelhano, mas não se deve presumir que todas sejam bilíngues. São palavras bascas para reconhecer."
         },
         {
           "emoji": "🙏",
           "title": "Palavras de cortesia",
           "es": "Kaixo, agur, eskerrik asko.",
-          "pt": "\"Kaixo\" (oi), \"agur\" (tchau), \"eskerrik asko\" (obrigado). Usar uma delas é simpático, mas no app respondemos sempre em castelhano."
+          "pt": "Kaixo (oi), agur (tchau) e eskerrik asko (obrigado) são expressões de cortesia em euskera. Nesta lição elas aparecem para reconhecimento; os exercícios de espanhol praticam castelhano."
         }
       ]
     }

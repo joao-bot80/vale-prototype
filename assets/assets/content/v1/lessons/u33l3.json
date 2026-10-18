@@ -46,7 +46,7 @@
       "words": [
         {
           "es": "la queimada",
-          "pt": "a queimada",
+          "pt": "a queimada (bebida flambada)",
           "emoji": "🔥",
           "image": "assets/vocab/queimada.png"
         },
@@ -80,7 +80,7 @@
         "Apagar o fogo"
       ],
       "correct": 0,
-      "explanation": "Prender = acender (fogo)."
+      "explanation": "Prender fuego = pôr fogo. Prender também tem outros sentidos, como segurar ou deter, compartilhados com o português."
     },
     {
       "type": "build",
@@ -125,7 +125,8 @@
           "es": "llama",
           "kind": "armadilha",
           "meaning": "chama (de fogo)",
-          "tip": "Llama = chama (de fogo). Na escrita lembra \"lama\" (barro), mas o \"ll\" soa diferente."
+          "tip": "Aqui, llama = chama de fogo. A escrita lembra lama (barro), mas a pronúncia é diferente. Llama também pode designar o animal lhama ou ser uma forma de llamar.",
+          "context": "La llama de la vela se mueve."
         },
         {
           "es": "piel",
@@ -137,7 +138,8 @@
           "es": "prender",
           "kind": "armadilha",
           "meaning": "acender (fogo)",
-          "tip": "Prender = acender. Em português, prender é deter alguém ou fixar."
+          "tip": "Aqui, prender é acender a vela. Espanhol e português também compartilham sentidos como segurar ou deter; a frase seleciona o uso ligado ao fogo.",
+          "context": "Prende la vela con una cerilla."
         },
         {
           "es": "apagar",
@@ -210,31 +212,31 @@
       "bossName": "Falso Amigo",
       "questions": [
         {
-          "spanish": "Prende la vela.",
+          "spanish": "Prende la vela con una cerilla.",
           "options": [
-            "Acende a vela.",
-            "Prende a vela."
+            "Acende a vela com um fósforo.",
+            "Apaga a vela com um sopro."
           ],
           "correct": 0,
-          "joke": "Prender = acender."
+          "joke": "Nesta frase, prender = acender; cerilla = fósforo."
         },
         {
           "spanish": "Quita la piel a la naranja.",
           "options": [
             "Tira a casca da laranja.",
-            "Tira a pele da laranja com cuidado."
+            "Esprema a laranja."
           ],
           "correct": 0,
-          "joke": "Piel = casca."
+          "joke": "Aqui, piel é a casca da fruta. Pele também pode ser usado para o revestimento de frutas em português."
         },
         {
           "spanish": "Pásame el cazo.",
           "options": [
-            "Me passa a concha.",
+            "Me passa a concha de servir.",
             "Me passa o caso."
           ],
           "correct": 0,
-          "joke": "Cazo = concha de servir."
+          "joke": "Cazo pode ser uma concha de servir ou uma pequena panela com cabo. Aqui, é o utensílio para servir a bebida."
         },
         {
           "spanish": "Las brujas no existen.",
@@ -256,7 +258,7 @@
           "emoji": "🔥",
           "title": "Queimada",
           "es": "Hacemos una queimada.",
-          "pt": "Bebida quente de aguardente (orujo), açúcar, casca de limão e café, flambada em tigela de barro enquanto se recita o \"conxuro\". É tradição festiva moderna, popular em festas e na noite de San Juan."
+          "pt": "Bebida de aguardente de bagaço de uva (orujo), açúcar e casca cítrica, flambada em recipiente de barro. As receitas podem levar grãos de café. O ritual costuma incluir a recitação do conxuro, em tom festivo, e aparece também nas celebrações de San Juan."
         },
         {
           "emoji": "🧙",

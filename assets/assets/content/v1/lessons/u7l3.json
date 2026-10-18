@@ -21,17 +21,17 @@
         {
           "speaker": "Lu",
           "es": "Sí, uno para compartir. Y dos tintos de verano.",
-          "pt": "Sim, um para dividir. E dois tintos de verão."
+          "pt": "Sim, um para dividir. E dois tintos de verano (vinho tinto com refrigerante)."
         },
         {
           "speaker": "Camarera",
           "es": "¿Con limón o con gaseosa?",
-          "pt": "Com limão ou com soda?"
+          "pt": "Com refrigerante de limão ou com gaseosa (soda doce)?"
         },
         {
           "speaker": "Lu",
           "es": "Con limón, por favor. ¿Dónde puedo comprar crema solar?",
-          "pt": "Com limão, por favor. Onde posso comprar protetor solar?"
+          "pt": "Com refrigerante de limão, por favor. Onde posso comprar protetor solar?"
         },
         {
           "speaker": "Camarera",
@@ -101,10 +101,10 @@
         "compartir."
       ],
       "distractors": [
-        "dividir",
+        "dividimos",
         "sardinhas"
       ],
-      "explanation": "\"Compartir\" = dividir, compartilhar."
+      "explanation": "\"Compartir\" = compartilhar. Aqui, dividir a porção entre as pessoas. \"Dividir\" também existe em espanhol, mas não é a palavra praticada neste exercício."
     },
     {
       "type": "listening",
@@ -112,7 +112,7 @@
       "prompt": "O que você ouviu?",
       "spanish": "¿Con limón o con gaseosa?",
       "options": [
-        "Com limão ou com soda?",
+        "Com refrigerante de limão ou com gaseosa (soda doce)?",
         "Com gelo ou sem gelo?",
         "Com limão ou com laranja?"
       ],
@@ -135,13 +135,14 @@
           "es": "playa",
           "kind": "quase",
           "meaning": "praia",
-          "tip": "\"Pl\" no lugar de \"pr\"."
+          "tip": "Playa = praia: compare pl/pr e y/i nas duas grafias."
         },
         {
           "es": "arena",
           "kind": "armadilha",
           "meaning": "areia",
-          "tip": "Arena = areia. Em português, arena é o estádio/recinto (a de touros, na Espanha, é a \"plaza de toros\")."
+          "tip": "Aqui, \"arena\" = areia. Para a arena de um estádio ou outro recinto, a tradução depende do local; arena de touradas é \"plaza de toros\".",
+          "context": "Tengo arena en los pies."
         },
         {
           "es": "ola",
@@ -151,9 +152,10 @@
         },
         {
           "es": "sombrilla",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "guarda-sol",
-          "tip": "Sombrilla = guarda-sol. Em português, sombrinha é o guarda-chuva pequeno (\"paraguas\")."
+          "tip": "Sombrilla e sombrinha se parecem e podem servir para proteger do sol. Na praia espanhola, \"sombrilla\" é o guarda-sol. Para chuva, na Espanha usamos normalmente \"paraguas\".",
+          "context": "Llevamos una sombrilla a la playa."
         }
       ]
     },
@@ -169,18 +171,18 @@
         {
           "speaker": "Lu",
           "es": "Sí, uno para compartir. Y dos tintos de verano.",
-          "pt": "Sim, um para dividir. E dois tintos de verão."
+          "pt": "Sim, um para dividir. E dois tintos de verano (vinho tinto com refrigerante)."
         }
       ],
       "speaker": "Camarera",
-      "pt": "Com limão ou com soda?",
+      "pt": "Com refrigerante de limão ou com gaseosa (soda doce)?",
       "options": [
         "Hay una farmacia en el paseo marítimo.",
         "Con limón, por favor. ¿Dónde puedo comprar crema solar?",
         "¿Con limón o con gaseosa?"
       ],
       "correct": 2,
-      "explanation": "Camarera diz: \"¿Con limón o con gaseosa?\" = \"Com limão ou com soda?\"."
+      "explanation": "Camarera diz: \"¿Con limón o con gaseosa?\" = \"Com refrigerante de limão ou com gaseosa (soda doce)?\"."
     },
     {
       "type": "build",
@@ -227,10 +229,10 @@
           "joke": "Ola = onda."
         },
         {
-          "spanish": "La arena está muy caliente.",
+          "spanish": "La arena de la playa está muy caliente.",
           "options": [
-            "A areia está muito quente.",
-            "A arena está muito quente."
+            "A areia da praia está muito quente.",
+            "A água da praia está muito quente."
           ],
           "correct": 0,
           "joke": "Arena = areia."
@@ -248,7 +250,7 @@
           "spanish": "¿Compartimos la sombrilla?",
           "options": [
             "Dividimos o guarda-sol?",
-            "Dividimos a sombrinha de chuva?"
+            "Dividimos a toalha?"
           ],
           "correct": 0,
           "joke": "Sombrilla = guarda-sol de praia."

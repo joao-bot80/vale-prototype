@@ -53,12 +53,14 @@
         {
           "es": "las lágrimas",
           "pt": "as lágrimas",
-          "emoji": "😢"
+          "emoji": "😢",
+          "image": "assets/vocab/lagrimas.png"
         },
         {
           "es": "el abrazo",
           "pt": "o abraço",
-          "emoji": "🤗"
+          "emoji": "🤗",
+          "image": "assets/vocab/abrazo.png"
         },
         {
           "es": "gracias",
@@ -70,19 +72,19 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Me voy a emocionar\" significa:",
+      "prompt": "Durante o discurso de agradecimento, \"me voy a emocionar\" significa:",
       "options": [
-        "Vou me emocionar (quase chorar)",
-        "Vou ficar animada",
+        "Vou me emocionar",
+        "Vou fazer um discurso amanhã",
         "Vou embora"
       ],
       "correct": 0,
-      "explanation": "Emocionarse = se emocionar."
+      "explanation": "Emocionarse é sentir emoção; aqui, ficar tocada pelo discurso. A expressão não exige que a pessoa chore."
     },
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Quero agradecer a todos.",
+      "portuguese": "Quero agradecer a todos vocês (informal).",
       "answer": [
         "Quiero",
         "daros",
@@ -92,10 +94,10 @@
         "todos."
       ],
       "distractors": [
-        "agradezer",
+        "damos",
         "agradezco"
       ],
-      "explanation": "\"Daros\" = dar a vocês."
+      "explanation": "Na fala de Lu aos amigos, os se refere a vosotros. Dar las gracias é agradecer: daros las gracias = agradecer a vocês."
     },
     {
       "type": "listening",
@@ -161,7 +163,7 @@
         "foi",
         "prazer"
       ],
-      "explanation": "Pretérito perfeito: ha sido."
+      "explanation": "Ha sido é o pretérito perfecto compuesto, formado com haber + particípio. Aqui, a experiência é avaliada ao terminar, e a tradução natural é foi um prazer."
     },
     {
       "type": "listening",
@@ -228,13 +230,13 @@
           "emoji": "🥂",
           "title": "Brindar",
           "es": "¡Por Lu!",
-          "pt": "Para brindar a alguém: \"¡Por + nome!\". E no fim: \"¡Salud!\"."
+          "pt": "Para brindar em homenagem a alguém, pode-se dizer ¡Por + nome!: ¡Por Lu! Outra expressão comum nos brindes é ¡Salud!"
         },
         {
           "emoji": "🎓",
           "title": "Seu nível",
           "es": "Hacia el B1.",
-          "pt": "Depois de 39 unidades você tem vocabulário de sobrevivência e do dia a dia: uma base sólida rumo ao B1. Para provar seu nível oficialmente, existem os exames DELE do Instituto Cervantes."
+          "pt": "Depois de 39 unidades, você praticou vocabulário e estruturas do dia a dia para continuar avançando rumo ao B1. O carimbo registra a conclusão do curso, sem certificar um nível de proficiência. Para comprovar seu espanhol oficialmente, consulte os exames DELE do Instituto Cervantes."
         }
       ]
     }

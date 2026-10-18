@@ -59,19 +59,21 @@
         {
           "es": "¡Socorro!",
           "pt": "Socorro!",
-          "emoji": "🆘"
+          "emoji": "🆘",
+          "image": "assets/vocab/socorro.png"
         },
         {
           "es": "herido",
           "pt": "ferido",
-          "emoji": "🤕"
+          "emoji": "🤕",
+          "image": "assets/vocab/herido.png"
         }
       ]
     },
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"No cuelgue\" significa:",
+      "prompt": "Durante esta ligação, \"no cuelgue\" significa:",
       "options": [
         "Não desligue (o telefone)",
         "Não pendure",
@@ -119,7 +121,8 @@
           "es": "embarazo",
           "kind": "armadilha",
           "meaning": "gravidez",
-          "tip": "Embarazo = gravidez. Embaraço é \"vergüenza\" ou \"apuro\"."
+          "tip": "Aqui, embarazo = gravidez. Em outros contextos também pode significar impedimento ou dificuldade. Embaraço como vergonha costuma ser vergüenza ou apuro.",
+          "context": "Estoy en el tercer mes de embarazo."
         },
         {
           "es": "sangrar",
@@ -178,7 +181,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Não desligue.",
+      "portuguese": "Não desligue a chamada.",
       "answer": [
         "No",
         "cuelgue."
@@ -208,13 +211,13 @@
       "bossName": "Falso Amigo",
       "questions": [
         {
-          "spanish": "No cuelgue, por favor.",
+          "spanish": "No cuelgue el teléfono, por favor.",
           "options": [
-            "Não desligue, por favor.",
-            "Não pendure, por favor."
+            "Não desligue o telefone, por favor.",
+            "Não fale ao telefone, por favor."
           ],
           "correct": 0,
-          "joke": "Colgar = desligar."
+          "joke": "Colgar el teléfono = desligar a chamada. Colgar também significa pendurar."
         },
         {
           "spanish": "Me siento mareada.",
@@ -254,7 +257,7 @@
           "emoji": "🚨",
           "title": "112",
           "es": "Llama al 112.",
-          "pt": "O 112 é o número único de emergências na Espanha e na UE: grátis, 24h, de qualquer telefone, mesmo sem saldo. Em muitas regiões atendem em vários idiomas. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "O 112 é o número europeu de emergências e funciona gratuitamente, 24 horas por dia, na Espanha. No celular, é possível ligar sem saldo, desde que haja rede disponível para a chamada. Diga onde está, explique o ocorrido e siga as instruções do atendimento. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "☎️",

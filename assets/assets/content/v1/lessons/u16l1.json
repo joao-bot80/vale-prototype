@@ -47,12 +47,14 @@
         {
           "es": "el contrato",
           "pt": "o contrato",
-          "emoji": "📄"
+          "emoji": "📄",
+          "image": "assets/vocab/contrato.png"
         },
         {
           "es": "firmar",
           "pt": "assinar",
-          "emoji": "✍️"
+          "emoji": "✍️",
+          "image": "assets/vocab/firma.png"
         },
         {
           "es": "el bolígrafo",
@@ -63,7 +65,8 @@
         {
           "es": "el despido",
           "pt": "a demissão",
-          "emoji": "📤"
+          "emoji": "📤",
+          "image": "assets/vocab/despido.png"
         }
       ]
     },
@@ -77,7 +80,7 @@
         "Contrato provisório"
       ],
       "correct": 0,
-      "explanation": "Indefinido = sem data de fim. Temporal = com data de fim."
+      "explanation": "Indefinido = por tempo indeterminado. Temporal = de duração limitada, nas situações permitidas pela lei."
     },
     {
       "type": "build",
@@ -90,7 +93,7 @@
         "prueba?"
       ],
       "distractors": [
-        "experiencia",
+        "experiência",
         "tem"
       ],
       "explanation": "\"Periodo de prueba\" = período de experiência."
@@ -106,7 +109,7 @@
         "Sim, recebe tudo em dezembro."
       ],
       "correct": 0,
-      "explanation": "Na Espanha, as pagas extra podem vir à parte ou divididas (prorrateadas) nos 12 meses."
+      "explanation": "Neste contrato, as extras vêm em junho e dezembro. O convenio colectivo aplicável pode prever sua distribuição nos 12 meses (pagas prorrateadas)."
     },
     {
       "type": "complete",
@@ -136,14 +139,14 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Despido\" significa:",
+      "prompt": "Como substantivo no contexto trabalhista, \"despido\" significa:",
       "options": [
         "Demissão (pela empresa)",
         "Sem roupa",
         "Despedida"
       ],
       "correct": 0,
-      "explanation": "Despedida = \"despedida\"; despido = ser demitido."
+      "explanation": "El despido = a demissão por iniciativa do empregador. Como verbo, despido pode ser \"eu despeço\"; o contexto importa."
     },
     {
       "type": "build",
@@ -187,16 +190,16 @@
           "spanish": "Firma el contrato.",
           "options": [
             "Assine o contrato.",
-            "Firme o contrato com a mão."
+            "Rasgue o contrato."
           ],
           "correct": 0,
-          "joke": "Firmar = assinar."
+          "joke": "Firmar = assinar. Firmar um contrato também existe em português."
         },
         {
-          "spanish": "Le han dado el despido.",
+          "spanish": "Le han comunicado el despido.",
           "options": [
-            "Ele foi demitido.",
-            "Ele ficou pelado."
+            "Comunicaram a demissão a ele.",
+            "Comunicaram a promoção a ele."
           ],
           "correct": 0,
           "joke": "Despido = demissão."
@@ -230,13 +233,13 @@
           "emoji": "📝",
           "title": "Tipos de contrato",
           "es": "¿Es indefinido o temporal?",
-          "pt": "Desde a reforma trabalhista de 2022, o contrato indefinido é a regra; o temporal só vale para casos concretos. Leia sempre o convenio colectivo do seu setor. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "O contrato indefinido é a regra; a contratação temporal exige uma causa legal. Consulte o convenio colectivo aplicável à empresa e à atividade: ele regula condições como salário e período de experiência. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "💶",
           "title": "Pagas extra",
           "es": "Cobro catorce pagas.",
-          "pt": "Por lei há pelo menos duas pagas extraordinárias por ano (normalmente junho/julho e dezembro). O convênio pode permitir dividi-las nos 12 meses. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "O Estatuto de los Trabajadores prevê duas gratificações extraordinárias anuais: uma no Natal e outra no mês fixado por convênio coletivo ou acordo com representantes dos trabalhadores. O convênio coletivo pode prever sua distribuição nos 12 meses. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         }
       ]
     }

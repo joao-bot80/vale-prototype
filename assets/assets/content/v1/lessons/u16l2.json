@@ -25,8 +25,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Con contrato indefinido, en 2026 el trabajador paga un seis coma cinco por ciento.",
-          "pt": "Com contrato indefinido, em 2026 o trabalhador paga seis vírgula cinco por cento."
+          "es": "La cuota depende de las bases de cotización y del tipo de contrato.",
+          "pt": "A contribuição depende das bases de cálculo e do tipo de contrato."
         },
         {
           "speaker": "Lu",
@@ -47,22 +47,26 @@
         {
           "es": "la nómina",
           "pt": "o holerite",
-          "emoji": "🧾"
+          "emoji": "🧾",
+          "image": "assets/vocab/nomina.png"
         },
         {
           "es": "el sueldo bruto",
           "pt": "o salário bruto",
-          "emoji": "💶"
+          "emoji": "💶",
+          "image": "assets/vocab/sueldo_bruto.png"
         },
         {
           "es": "el sueldo neto",
           "pt": "o salário líquido",
-          "emoji": "💵"
+          "emoji": "💵",
+          "image": "assets/vocab/sueldo_neto.png"
         },
         {
           "es": "la paga extra",
           "pt": "o pagamento extra",
-          "emoji": "➕"
+          "emoji": "➕",
+          "image": "assets/vocab/paga_extra.png"
         }
       ]
     },
@@ -136,13 +140,15 @@
           "es": "Hacienda",
           "kind": "quase",
           "meaning": "Fazenda (o fisco espanhol)",
-          "tip": "Como \"Fazenda\" em Ministério/Receita da Fazenda: na Espanha, Hacienda é o fisco, não uma propriedade rural."
+          "tip": "Com maiúscula, Hacienda designa a Fazenda pública, como em português. Hacienda também pode ser uma propriedade rural; a frase seleciona o sentido fiscal.",
+          "context": "Tengo que pagar a Hacienda."
         },
         {
           "es": "ingreso",
           "kind": "armadilha",
-          "meaning": "entrada / depósito",
-          "tip": "Ingreso = depósito / entrada de dinheiro. Ingresso (de show) é \"entrada\"."
+          "meaning": "depósito bancário",
+          "tip": "Nesta frase, ingreso é um depósito bancário. Também pode ser entrada ou admissão, sentidos compartilhados com ingresso. O ingresso de um espetáculo costuma ser entrada.",
+          "context": "He hecho un ingreso en el banco."
         }
       ]
     },
@@ -162,14 +168,14 @@
         }
       ],
       "speaker": "Lino",
-      "pt": "Com contrato indefinido, em 2026 o trabalhador paga seis vírgula cinco por cento.",
+      "pt": "A contribuição depende das bases de cálculo e do tipo de contrato.",
       "options": [
         "Depende de tu sueldo y tu situación. Lo que cobras al final es el líquido.",
         "Lino, mi sueldo bruto es más alto. ¿Por qué cobro menos?",
-        "Con contrato indefinido, en 2026 el trabajador paga un seis coma cinco por ciento."
+        "La cuota depende de las bases de cotización y del tipo de contrato."
       ],
       "correct": 2,
-      "explanation": "Lino diz: \"Con contrato indefinido, en 2026 el trabajador paga un seis coma cinco por ciento.\" = \"Com contrato indefinido, em 2026 o trabalhador paga seis vírgula cinco por cento.\"."
+      "explanation": "Lino diz: \"La cuota depende de las bases de cotización y del tipo de contrato.\" = \"A contribuição depende das bases de cálculo e do tipo de contrato.\"."
     },
     {
       "type": "build",
@@ -195,14 +201,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Con contrato indefinido, en 2026 el trabajador paga un seis coma cinco por ciento.",
+      "spanish": "La cuota depende de las bases de cotización y del tipo de contrato.",
       "options": [
-        "Com contrato indefinido, em 2026 o trabalhador paga seis vírgula cinco por cento.",
+        "A contribuição depende das bases de cálculo e do tipo de contrato.",
         "O trabalhador não paga nada.",
         "A empresa desconta vinte e cinco por cento."
       ],
       "correct": 0,
-      "explanation": "4,70 + 1,55 + 0,10 + 0,15 = 6,50 %."
+      "explanation": "Base de cotización = base de cálculo da contribuição. Não é correto aplicar uma porcentagem única a qualquer salário ou contrato."
     },
     {
       "type": "boss",
@@ -237,13 +243,13 @@
           "joke": "Ingreso = depósito."
         },
         {
-          "spanish": "Mira la nómina de marzo.",
+          "spanish": "Mira las deducciones en la nómina de marzo.",
           "options": [
-            "Olha o holerite de março.",
-            "Olha a lista de nomes de março."
+            "Olha os descontos no holerite de março.",
+            "Olha os descontos na fatura do cartão de março."
           ],
           "correct": 0,
-          "joke": "Nómina = holerite."
+          "joke": "Nómina aqui é o holerite. A palavra também pode designar uma lista de nomes."
         }
       ]
     },
@@ -254,9 +260,9 @@
       "items": [
         {
           "emoji": "🧾",
-          "title": "Cotização 2026",
-          "es": "4,70 + 1,55 + 0,10 + 0,15",
-          "pt": "Com contrato indefinido (regime geral, salário abaixo do teto de cotização, sem horas extras), o trabalhador cotiza 6,50 % à Seguridad Social em 2026: contingências comuns 4,70 %, desemprego 1,55 %, formação 0,10 % e MEI 0,15 %. A empresa paga uma parte bem maior. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "title": "Contribuição à Seguridad Social",
+          "es": "Las cuotas se calculan sobre las bases de cotización.",
+          "pt": "As contribuições são calculadas sobre bases de cotização, que podem diferir do salário bruto. Alíquotas, limites e parcelas variam conforme o regime, o contrato e o ano. Consulte as tabelas vigentes da Seguridad Social e os conceitos do seu holerite. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "📋",

@@ -26,7 +26,7 @@
         {
           "speaker": "Lino",
           "es": "Son los ninots de la falla. El último día los queman.",
-          "pt": "São os ninots (bonecos gigantes) da falla. No último dia eles são queimados."
+          "pt": "São os ninots (figuras do monumento) da falla. No último dia eles são queimados."
         },
         {
           "speaker": "Lu",
@@ -36,7 +36,7 @@
         {
           "speaker": "Lino",
           "es": "Sí, es la cremà. Esa noche vamos a verla juntos.",
-          "pt": "Sim, é a cremà (a queima das fallas). Nessa noite vamos ver juntos."
+          "pt": "Sim, é a cremà (a queima das fallas). Nessa noite vamos vê-la juntos."
         }
       ]
     },
@@ -71,7 +71,8 @@
         {
           "es": "marzo",
           "pt": "março",
-          "emoji": "🗓️"
+          "emoji": "🗓️",
+          "image": "assets/vocab/marzo.png"
         }
       ]
     },
@@ -90,7 +91,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Nessa noite vamos ver juntos.",
+      "portuguese": "Nessa noite vamos vê-la juntos.",
       "answer": [
         "Esa",
         "noche",
@@ -100,10 +101,10 @@
         "juntos."
       ],
       "distractors": [
-        "veremos",
+        "viendo",
         "noite"
       ],
-      "explanation": "\"Vamos a verla\" = vamos vê-la."
+      "explanation": "\"Vamos a verla\" = vamos vê-la. O pronome la retoma a cremà, a queima das fallas."
     },
     {
       "type": "listening",
@@ -116,7 +117,7 @@
         "É a mascletà, às dez da noite."
       ],
       "correct": 0,
-      "explanation": "De 1 a 19 de março, há uma mascletà todo dia às 14h na Plaza del Ayuntamiento."
+      "explanation": "A programação tradicional inclui mascletà às 14h na Plaza del Ayuntamiento de 1 a 19 de março. Consulte o programa e eventuais alterações."
     },
     {
       "type": "swipe",
@@ -145,8 +146,9 @@
         {
           "es": "morro",
           "kind": "armadilha",
-          "meaning": "focinho; cara de pau",
-          "tip": "Morro = focinho, e \"¡qué morro!\" = que cara de pau! Morro é \"cerro\" ou \"colina\"."
+          "meaning": "focinho",
+          "tip": "Aqui morro = focinho. ¡Qué morro! expressa cara de pau. A palavra também pode nomear uma elevação do terreno, como em português.",
+          "context": "El perro tiene el morro mojado."
         },
         {
           "es": "gigante",
@@ -173,14 +175,14 @@
         }
       ],
       "speaker": "Lino",
-      "pt": "São os ninots (bonecos gigantes) da falla. No último dia eles são queimados.",
+      "pt": "São os ninots (figuras do monumento) da falla. No último dia eles são queimados.",
       "options": [
         "¿Los queman? ¡Pero son preciosos!",
         "Son los ninots de la falla. El último día los queman.",
         "Sí, es la cremà. Esa noche vamos a verla juntos."
       ],
       "correct": 1,
-      "explanation": "Lino diz: \"Son los ninots de la falla. El último día los queman.\" = \"São os ninots (bonecos gigantes) da falla. No último dia eles são queimados.\"."
+      "explanation": "Lino diz: \"Son los ninots de la falla. El último día los queman.\" = \"São os ninots (figuras do monumento) da falla. No último dia eles são queimados.\"."
     },
     {
       "type": "build",
@@ -195,9 +197,9 @@
       ],
       "distractors": [
         "barulho",
-        "esto"
+        "esos"
       ],
-      "explanation": "\"Eso\" = isso (longe de quem fala)."
+      "explanation": "Eso é um demonstrativo neutro: \"isso\". Aqui retoma algo que Lu percebe e ainda não identifica."
     },
     {
       "type": "listening",
@@ -205,12 +207,12 @@
       "prompt": "O que você ouviu?",
       "spanish": "Son los ninots de la falla. El último día los queman.",
       "options": [
-        "São os ninots (bonecos gigantes) da falla. No último dia eles são queimados.",
+        "São os ninots (figuras do monumento) da falla. No último dia eles são queimados.",
         "Os ninots são guardados num museu.",
         "Hoje é o primeiro dia da falla."
       ],
       "correct": 0,
-      "explanation": "Os \"ninots\" são as figuras. Um deles, escolhido por votação, é salvo do fogo."
+      "explanation": "Ninots são as figuras da falla. Por votação popular, um ninot adulto e um infantil são indultados e preservados no Museu Fallero."
     },
     {
       "type": "boss",
@@ -264,7 +266,7 @@
           "emoji": "🔥",
           "title": "Falles",
           "es": "¡Vamos a ver las Fallas!",
-          "pt": "As Fallas vão até 19 de março (São José). Os bairros montam monumentos enormes de papelão e madeira, e na última noite tudo é queimado (la cremà), menos o \"ninot indultat\", salvo pelo voto do público. Em valenciano: \"falles\"."
+          "pt": "As Fallas culminam em 19 de março, com a cremà dos monumentos. Eles usam madeira, papelão e outros materiais. Entre as figuras poupadas estão o ninot indultat adulto e o infantil, escolhidos pelo público. Em valenciano: \"falles\"."
         },
         {
           "emoji": "💐",

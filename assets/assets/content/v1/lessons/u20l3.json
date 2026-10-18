@@ -119,13 +119,14 @@
           "es": "procesión",
           "kind": "quase",
           "meaning": "procissão",
-          "tip": "Com c."
+          "tip": "Procesión = procissão. Compare as grafias: procesión / procissão."
         },
         {
           "es": "paso",
           "kind": "armadilha",
           "meaning": "andor",
-          "tip": "Paso = andor da procissão. Em português, passo é o movimento do pé."
+          "tip": "Nesta procissão, \"paso\" = andor. Em outros contextos, a palavra espanhola também significa passo, como o movimento dos pés.",
+          "context": "Mira el paso de la Virgen."
         },
         {
           "es": "hermandad",
@@ -144,7 +145,8 @@
           "es": "saeta",
           "kind": "armadilha",
           "meaning": "canto religioso",
-          "tip": "Saeta = canto de procissão. Em português, seta é flecha."
+          "tip": "Aqui, \"saeta\" é um canto religioso dedicado às imagens da procissão. Em espanhol, a palavra também pode significar flecha ou ponteiro, sentidos próximos de seta.",
+          "context": "Se oye una saeta desde un balcón."
         }
       ]
     },
@@ -184,9 +186,9 @@
       ],
       "distractors": [
         "mucho",
-        "pesao"
+        "pesados"
       ],
-      "explanation": "Antes de adjetivo: muy."
+      "explanation": "Antes de \"pesado\", usamos \"muy\". Na fala informal, você pode ouvir \"pesao\", com queda do d; a grafia usual é \"pesado\"."
     },
     {
       "type": "listening",
@@ -199,7 +201,7 @@
         "Os nazarenos, nos ombros."
       ],
       "correct": 0,
-      "explanation": "Costal = saco que protege o pescoço."
+      "explanation": "Os costaleros carregam o andor por baixo. O costal é uma peça de tecido usada com acolchoamento para proteger a região do pescoço durante o transporte."
     },
     {
       "type": "boss",
@@ -259,7 +261,7 @@
           "emoji": "🎶",
           "title": "Saeta",
           "es": "Se oye una saeta desde un balcón.",
-          "pt": "Canto flamenco religioso, improvisado de uma sacada quando passa o paso. Todos fazem silêncio."
+          "pt": "Canto religioso dirigido às imagens da procissão, muitas vezes com formas do flamenco. Pode ser cantado da rua ou de uma varanda; nem toda saeta é improvisada. Respeite quem canta e quem acompanha a procissão."
         }
       ]
     }

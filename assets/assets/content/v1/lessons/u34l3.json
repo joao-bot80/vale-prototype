@@ -73,14 +73,14 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Las entradas vuelan\" significa:",
+      "prompt": "Falando da venda de ingressos, a expressão \"las entradas vuelan\" significa:",
       "options": [
         "Os ingressos esgotam rápido",
         "Os ingressos voam com o vento",
         "Os ingressos são de avião"
       ],
       "correct": 0,
-      "explanation": "Volar = acabar rapidinho."
+      "explanation": "Aqui, volar é figurado: os ingressos esgotam rapidamente. O sentido literal é voar."
     },
     {
       "type": "build",
@@ -139,7 +139,7 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Una película doblada\" é:",
+      "prompt": "No cinema, \"una película doblada\" é:",
       "options": [
         "Um filme dublado",
         "Um filme dobrado",
@@ -159,9 +159,9 @@
       ],
       "distractors": [
         "legendas",
-        "leyendas"
+        "leyendo"
       ],
-      "explanation": "Subtítulos = legendas."
+      "explanation": "Subtítulos = legendas de um filme. Leyenda pode ser lenda ou uma inscrição explicativa, como a legenda de uma imagem."
     },
     {
       "type": "listening",
@@ -174,7 +174,7 @@
         "Sim, são grátis e sobram."
       ],
       "correct": 0,
-      "explanation": "Compre assim que abrir a venda."
+      "explanation": "Algumas sessões esgotam rapidamente; consulte o calendário de venda de ingressos do festival."
     },
     {
       "type": "boss",
@@ -191,13 +191,13 @@
           "joke": "Estreno = estreia."
         },
         {
-          "spanish": "Es una película francesa.",
+          "spanish": "La película francesa dura dos horas.",
           "options": [
-            "É um filme francês.",
-            "É uma película francesa de plástico."
+            "O filme francês dura duas horas.",
+            "O filme francês dura dois minutos."
           ],
           "correct": 0,
-          "joke": "Película = filme."
+          "joke": "Aqui, película é filme de cinema. A palavra também pode indicar uma camada fina de material."
         },
         {
           "spanish": "Mi butaca es la doce.",
@@ -228,13 +228,13 @@
           "emoji": "🎬",
           "title": "Zinemaldia",
           "es": "Festival de Cine de San Sebastián.",
-          "pt": "Festival internacional de cinema que acontece todo setembro em Donostia, com sede no Kursaal. O prêmio máximo é a Concha de Oro. Em basco: \"Zinemaldia\"."
+          "pt": "Festival internacional realizado em setembro em Donostia, com o Kursaal entre suas principais sedes e projeções em outros espaços. A Concha de Oro premia o melhor filme da competição oficial. Em basco, o festival é conhecido como Zinemaldia."
         },
         {
           "emoji": "🎟️",
           "title": "Público",
           "es": "Entradas para todos.",
-          "pt": "Grande parte das sessões é aberta ao público, com venda online. Os ingressos acabam rápido."
+          "pt": "Há sessões com venda de ingressos para o público. Algumas esgotam rapidamente; consulte a programação, as condições e o calendário de venda no site oficial do festival."
         }
       ]
     }

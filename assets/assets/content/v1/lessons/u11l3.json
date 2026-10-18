@@ -15,8 +15,8 @@
         },
         {
           "speaker": "Administrativa",
-          "es": "Normalmente, el empadronamiento, tu documento y estar dado de alta en la Seguridad Social.",
-          "pt": "Normalmente, o empadronamiento (inscrição no padrón), seu documento e estar inscrito na Seguridad Social."
+          "es": "Tu documento y los datos de domicilio. También comprobaremos tu derecho a la asistencia sanitaria.",
+          "pt": "Seu documento e os dados de endereço. Também verificaremos seu direito à assistência à saúde."
         },
         {
           "speaker": "Lu",
@@ -25,8 +25,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Sí, pero solo seis meses desde que eres residente. Después hay que hacer el canje.",
-          "pt": "Sim, mas só durante os primeiros seis meses depois que você vira residente. Depois é preciso fazer a troca."
+          "es": "Si tu permiso es válido, puedes usarlo hasta seis meses desde que adquieres la residencia normal. Tramita el canje antes de que deje de ser válido.",
+          "pt": "Se sua carteira for válida, você pode usá-la por até seis meses a partir da aquisição da residência normal. Solicite a troca antes que ela deixe de valer na Espanha."
         },
         {
           "speaker": "Lu",
@@ -65,7 +65,8 @@
         {
           "es": "la multa",
           "pt": "a multa",
-          "emoji": "🧾"
+          "emoji": "🧾",
+          "image": "assets/vocab/multa.png"
         }
       ]
     },
@@ -94,23 +95,23 @@
         "brasileño?"
       ],
       "distractors": [
-        "dirigir",
+        "dirigido",
         "carteira"
       ],
-      "explanation": "\"Conducir\" = dirigir. \"Carné de conducir\" = carteira de motorista."
+      "explanation": "Conducir é o verbo habitual na Espanha para dirigir um veículo. Dirigir também pode ter esse sentido em espanhol. Carné de conducir = carteira de motorista."
     },
     {
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Sí, pero solo seis meses desde que eres residente. Después hay que hacer el canje.",
+      "spanish": "Si tu permiso es válido, puedes usarlo hasta seis meses desde que adquieres la residencia normal. Tramita el canje antes de que deje de ser válido.",
       "options": [
-        "Sim, mas só durante os primeiros seis meses depois que você vira residente. Depois é preciso fazer a troca.",
+        "Se sua carteira for válida, você pode usá-la por até seis meses a partir da aquisição da residência normal. Solicite a troca antes que ela deixe de valer na Espanha.",
         "Sim, pode dirigir para sempre.",
         "Não, precisa tirar outra carteira já."
       ],
       "correct": 0,
-      "explanation": "A carteira estrangeira vale só durante os primeiros 6 meses de residência normal; depois é preciso fazer o canje."
+      "explanation": "O prazo máximo é de seis meses desde a aquisição da residência normal, se a carteira cumprir os requisitos de validade. Pedir o canje não prorroga automaticamente esse prazo."
     },
     {
       "type": "swipe",
@@ -121,13 +122,14 @@
           "es": "conducir",
           "kind": "quase",
           "meaning": "dirigir",
-          "tip": "Conducir = dirigir. No Brasil, \"conduzir veículo\" existe (está no Código de Trânsito), mas no dia a dia se diz \"dirigir\". Na Espanha, conducir é a palavra normal."
+          "tip": "Conducir = dirigir ou conduzir um veículo. Conduzir também existe no português brasileiro; na Espanha, conducir é o verbo habitual nesse contexto."
         },
         {
           "es": "coche",
           "kind": "armadilha",
           "meaning": "carro",
-          "tip": "Coche = carro. Em português, coche é a carruagem antiga."
+          "tip": "Aqui, coche = carro. Coche também pode designar uma carruagem, sentido compartilhado com o português; no Brasil, carro é a palavra usual para o automóvel.",
+          "context": "Aparca el coche ahí."
         },
         {
           "es": "gasolina",
@@ -156,8 +158,8 @@
       "context": [
         {
           "speaker": "Administrativa",
-          "es": "Normalmente, el empadronamiento, tu documento y estar dado de alta en la Seguridad Social.",
-          "pt": "Normalmente, o empadronamiento (inscrição no padrón), seu documento e estar inscrito na Seguridad Social."
+          "es": "Tu documento y los datos de domicilio. También comprobaremos tu derecho a la asistencia sanitaria.",
+          "pt": "Seu documento e os dados de endereço. Também verificaremos seu direito à assistência à saúde."
         },
         {
           "speaker": "Lu",
@@ -166,14 +168,14 @@
         }
       ],
       "speaker": "Lino",
-      "pt": "Sim, mas só durante os primeiros seis meses depois que você vira residente. Depois é preciso fazer a troca.",
+      "pt": "Se sua carteira for válida, você pode usá-la por até seis meses a partir da aquisição da residência normal. Solicite a troca antes que ela deixe de valer na Espanha.",
       "options": [
         "Para coche, no. Brasil tiene convenio con España.",
         "¿Tengo que hacer el examen otra vez?",
-        "Sí, pero solo seis meses desde que eres residente. Después hay que hacer el canje."
+        "Si tu permiso es válido, puedes usarlo hasta seis meses desde que adquieres la residencia normal. Tramita el canje antes de que deje de ser válido."
       ],
       "correct": 2,
-      "explanation": "Lino diz: \"Sí, pero solo seis meses desde que eres residente. Después hay que hacer el canje.\" = \"Sim, mas só durante os primeiros seis meses depois que você vira residente. Depois é preciso fazer a troca.\"."
+      "explanation": "Lino diz: \"Si tu permiso es válido, puedes usarlo hasta seis meses desde que adquieres la residencia normal. Tramita el canje antes de que deje de ser válido.\" = \"Se sua carteira for válida, você pode usá-la por até seis meses a partir da aquisição da residência normal. Solicite a troca antes que ela deixe de valer na Espanha.\"."
     },
     {
       "type": "build",
@@ -204,7 +206,7 @@
         "O Brasil não tem convênio."
       ],
       "correct": 0,
-      "explanation": "Para carro e moto (A e B), o canje da carteira brasileira é sem prova; para caminhão e ônibus há provas."
+      "explanation": "Se cumprir os requisitos do canje, a carteira brasileira das categorias de carro e moto pode ser trocada sem prova. A DGT verifica a habilitação; caminhão e ônibus têm exigências adicionais."
     },
     {
       "type": "boss",
@@ -221,13 +223,13 @@
           "joke": "Aparcar = estacionar; coche = carro."
         },
         {
-          "spanish": "Conduzco todos los días.",
+          "spanish": "Conduzco al trabajo todos los días.",
           "options": [
-            "Dirijo todos os dias.",
-            "Conduzo uma orquestra todos os dias."
+            "Dirijo até o trabalho todos os dias.",
+            "Vou a pé ao trabalho todos os dias."
           ],
           "correct": 0,
-          "joke": "Conducir = dirigir (carro)."
+          "joke": "Conducir aqui é dirigir um veículo."
         },
         {
           "spanish": "Necesito el volante de empadronamiento.",
@@ -239,13 +241,13 @@
           "joke": "Volante = comprovante (no padrón)."
         },
         {
-          "spanish": "Hay mucho tráfico hoy.",
+          "spanish": "Hay mucho tráfico en esta carretera.",
           "options": [
-            "Tem muito trânsito hoje.",
-            "Tem muito tráfico de drogas hoje."
+            "Tem muito trânsito nesta estrada.",
+            "Tem pouco trânsito nesta estrada."
           ],
           "correct": 0,
-          "joke": "Tráfico = trânsito."
+          "joke": "Tráfico aqui é trânsito de veículos; tráfico de drogas também existe em espanhol."
         }
       ]
     },
@@ -258,13 +260,13 @@
           "emoji": "🩺",
           "title": "Tarjeta sanitaria",
           "es": "Pide tu tarjeta sanitaria en el centro de salud.",
-          "pt": "Para ter médico de família na saúde pública, em geral é preciso empadronamiento e estar inscrito na Seguridad Social (ou ter outro direito reconhecido). O procedimento muda por comunidade autônoma. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "A tarjeta sanitaria depende do reconhecimento do direito à assistência e das regras da comunidade autônoma. Não é necessário estar trabalhando em todos os casos. Consulte o centro de saúde sobre a via aplicável, a identificação e a comprovação de endereço exigidas. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "🚗",
           "title": "Canje da carteira",
           "es": "Brasil tiene convenio de canje con España.",
-          "pt": "A carteira brasileira vale só 6 meses a partir da residência normal. Depois, faça o canje na DGT: para carro/moto é sem prova, mas a DGT primeiro verifica a carteira com o Brasil e há exame médico (psicotécnico) e taxa. Só vale para carteiras tiradas antes de virar residente. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "Uma CNH válida e admitida pela DGT pode ser usada por até seis meses desde a aquisição da residência normal. Verifique o canje antes do fim desse prazo. Em regra, exige carteira obtida antes da residência legal na Espanha ou antes do convênio; há verificação, exame médico e taxa. Para carro e moto, o canje elegível dispensa prova. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         }
       ]
     }

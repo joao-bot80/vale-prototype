@@ -95,7 +95,7 @@
       ],
       "distractors": [
         "tem",
-        "precisa"
+        "hayas"
       ],
       "explanation": "\"Hay que\" + infinitivo = é preciso."
     },
@@ -147,7 +147,7 @@
         "Neutro"
       ],
       "correct": 0,
-      "explanation": "Brasileiros erram: é \"el puente\"."
+      "explanation": "Compare o gênero: em português, a ponte; em espanhol, el puente."
     },
     {
       "type": "build",
@@ -186,10 +186,10 @@
           "spanish": "Paseamos por el bosque.",
           "options": [
             "Passeamos pela floresta.",
-            "Passeamos pelo bosque urbano da praça."
+            "Passeamos pelo deserto."
           ],
           "correct": 0,
-          "joke": "Bosque = floresta."
+          "joke": "\"Bosque\" pode ser traduzido por bosque ou floresta; não precisa ser uma floresta distante da cidade."
         },
         {
           "spanish": "Habla bajito, por favor.",
@@ -229,7 +229,7 @@
           "emoji": "🕌",
           "title": "Mezquita-Catedral",
           "es": "La Mezquita de Córdoba es Patrimonio de la Humanidad.",
-          "pt": "Grande mesquita da Córdoba islâmica (séculos VIII–X), com uma catedral construída no interior no século XVI. Patrimônio Mundial da UNESCO."
+          "pt": "A grande mesquita foi construída e ampliada entre os séculos VIII e X. Tornou-se catedral em 1236; a nave catedralícia renascentista foi construída no interior a partir do século XVI. Integra o patrimônio mundial de Córdoba reconhecido pela UNESCO."
         },
         {
           "emoji": "🌉",

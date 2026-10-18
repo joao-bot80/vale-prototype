@@ -11,7 +11,7 @@
         {
           "speaker": "Lino",
           "es": "Pide papas arrugadas. Se cuecen con mucha sal.",
-          "pt": "Peça papas arrugadas. São cozidas com muito sal."
+          "pt": "Peça papas arrugadas (batatinhas com casca enrugada). São cozidas com muito sal."
         },
         {
           "speaker": "Lu",
@@ -30,8 +30,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "El rojo, el picón. El verde lleva cilantro.",
-          "pt": "O vermelho, o picón (picante). O verde leva coentro."
+          "es": "Este rojo es picón. Este verde lleva cilantro.",
+          "pt": "Este vermelho é picante. Este verde leva coentro."
         },
         {
           "speaker": "Lu",
@@ -73,14 +73,14 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Papa\" nas Canárias significa:",
+      "prompt": "Na expressão \"papas arrugadas\", papa significa:",
       "options": [
         "Batata",
         "Papai",
         "Mingau"
       ],
       "correct": 0,
-      "explanation": "Nas Canárias e na América Latina: papa. Na Espanha peninsular: patata."
+      "explanation": "Papa é a palavra habitual nas Canárias e em muitos países americanos. Patata é comum na Espanha peninsular. Papá, com acento, significa papai."
     },
     {
       "type": "build",
@@ -102,9 +102,9 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "El rojo, el picón. El verde lleva cilantro.",
+      "spanish": "Este rojo es picón. Este verde lleva cilantro.",
       "options": [
-        "O vermelho, o picón (picante). O verde leva coentro.",
+        "Este vermelho é picante. Este verde leva coentro.",
         "O verde arde mais.",
         "Os dois são doces."
       ],
@@ -131,7 +131,7 @@
       "options": [
         "¿Cuál pica más?",
         "Entonces el verde para mí, por favor.",
-        "El rojo, el picón. El verde lleva cilantro."
+        "Este rojo es picón. Este verde lleva cilantro."
       ],
       "correct": 0,
       "explanation": "Lu diz: \"¿Cuál pica más?\" = \"Qual arde mais?\"."
@@ -139,14 +139,14 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Pica mucho\" significa:",
+      "prompt": "Falando do molho, \"pica mucho\" significa:",
       "options": [
         "Arde muito",
         "Pica como inseto",
         "Corta muito"
       ],
       "correct": 0,
-      "explanation": "Picar = arder."
+      "explanation": "Aqui, picar é arder na boca por causa da pimenta. O verbo tem outros sentidos, como picar ou cortar em pedaços."
     },
     {
       "type": "build",
@@ -170,12 +170,12 @@
       "prompt": "O que você ouviu?",
       "spanish": "Pide papas arrugadas. Se cuecen con mucha sal.",
       "options": [
-        "Peça papas arrugadas. São cozidas com muito sal.",
+        "Peça papas arrugadas (batatinhas com casca enrugada). São cozidas com muito sal.",
         "Peça batata frita.",
         "Sem sal, por favor."
       ],
       "correct": 0,
-      "explanation": "Antigamente com água do mar."
+      "explanation": "As papas arrugadas são cozidas com casca e bastante sal."
     },
     {
       "type": "boss",
@@ -183,22 +183,22 @@
       "bossName": "Falso Amigo",
       "questions": [
         {
-          "spanish": "Esto pica mucho.",
+          "spanish": "Este mojo pica mucho.",
           "options": [
-            "Isto arde muito.",
-            "Isto pica como agulha."
+            "Este molho arde muito.",
+            "Este molho é muito doce."
           ],
           "correct": 0,
-          "joke": "Picar = arder."
+          "joke": "Falando de molho, picar indica ardência."
         },
         {
-          "spanish": "Tiene la piel arrugada.",
+          "spanish": "La papa tiene la piel arrugada.",
           "options": [
-            "Tem a casca enrugada.",
-            "Tem a pele arranhada."
+            "A batata tem a casca enrugada.",
+            "A batata tem a casca lisa."
           ],
           "correct": 0,
-          "joke": "Arrugada."
+          "joke": "Piel pode ser pele ou casca. Nesta frase, é a casca da batata."
         },
         {
           "spanish": "Lleva cilantro.",
@@ -229,7 +229,7 @@
           "emoji": "🥔",
           "title": "Papas arrugadas",
           "es": "Papas arrugadas con mojo.",
-          "pt": "Batatinhas cozidas com muito sal até a casca enrugar, servidas com mojo rojo (pimentão, alho, cominho) ou mojo verde (coentro ou salsa)."
+          "pt": "Batatinhas cozidas com casca e bastante sal, servidas com mojo. As receitas variam: o vermelho pode levar pimenta ou pimentão, alho e cominho; o verde pode levar coentro ou salsa. Nem todo mojo vermelho é igualmente picante."
         },
         {
           "emoji": "🍷",

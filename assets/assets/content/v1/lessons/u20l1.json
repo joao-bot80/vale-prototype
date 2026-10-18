@@ -11,7 +11,7 @@
         {
           "speaker": "Lu",
           "es": "Dos tintos de verano, por favor.",
-          "pt": "Dois tintos de verano, por favor."
+          "pt": "Dois tintos de verano (vinho tinto com refrigerante), por favor."
         },
         {
           "speaker": "Camarero",
@@ -53,7 +53,8 @@
         {
           "es": "gratis",
           "pt": "de graça",
-          "emoji": "🆓"
+          "emoji": "🆓",
+          "image": "assets/vocab/gratis.png"
         },
         {
           "es": "la croqueta",
@@ -96,7 +97,7 @@
         "pidamos",
         "comemos"
       ],
-      "explanation": "Pretérito perfeito: hemos pedido."
+      "explanation": "Pretérito perfecto compuesto: hemos pedido. Aqui significa \"pedimos\", uma ação passada ligada à situação presente."
     },
     {
       "type": "listening",
@@ -120,7 +121,8 @@
           "es": "ronda",
           "kind": "armadilha",
           "meaning": "rodada",
-          "tip": "Ronda = rodada (de bebida). Em português, ronda é a patrulha do vigia."
+          "tip": "Nesta frase, \"ronda\" = rodada de bebidas. Em espanhol, também pode significar patrulha ou ronda de vigilância, como em português.",
+          "context": "Pedimos otra ronda de bebidas."
         },
         {
           "es": "vino",
@@ -145,7 +147,8 @@
           "es": "estofado",
           "kind": "armadilha",
           "meaning": "ensopado (de carne)",
-          "tip": "Estofado = ensopado, guisado. Estofado (de sofá) é \"tapizado\"."
+          "tip": "Aqui, \"estofado\" é um guisado cozido lentamente: estufado, com u, ou ensopado em português. O revestimento estofado de um sofá é \"tapizado\" em espanhol.",
+          "context": "Hoy hay estofado de ternera."
         }
       ]
     },
@@ -201,7 +204,7 @@
         "Agora tem que pagar a tapa."
       ],
       "correct": 0,
-      "explanation": "\"Distinto\" = diferente."
+      "explanation": "\"Distinto\" = diferente. Neste bar, a tapa está incluída no preço da bebida; a fala \"se cena gratis\" é uma maneira informal de descrever isso."
     },
     {
       "type": "boss",
@@ -209,13 +212,13 @@
       "bossName": "Falso Amigo",
       "questions": [
         {
-          "spanish": "Pedimos otra ronda.",
+          "spanish": "Pedimos otra ronda de bebidas.",
           "options": [
-            "Pedimos outra rodada.",
+            "Pedimos outra rodada de bebidas.",
             "Pedimos outra ronda policial."
           ],
           "correct": 0,
-          "joke": "Ronda = rodada."
+          "joke": "Aqui, \"ronda\" = rodada de bebidas. A palavra também pode indicar uma ronda policial em outro contexto."
         },
         {
           "spanish": "Es un plato distinto.",
@@ -255,13 +258,13 @@
           "emoji": "🍤",
           "title": "Tapa incluída",
           "es": "Con cada bebida, una tapa.",
-          "pt": "Em Granada (e em outras cidades como Jaén e Almería) muitos bares servem uma tapa grátis com cada bebida. Não é lei, é costume."
+          "pt": "Em Granada e em outras cidades, muitos bares incluem uma tapa no preço de certas bebidas. As condições variam conforme o bar e a bebida; não é uma regra universal. Pergunte o que está incluído."
         },
         {
           "emoji": "🍷",
           "title": "Tinto de verano",
           "es": "Un tinto de verano, por favor.",
-          "pt": "Vinho tinto com gaseosa ou refrigerante de limão, com gelo. Muito mais comum entre espanhóis que a sangria."
+          "pt": "Vinho tinto com gaseosa (soda doce) ou refrigerante de limão, geralmente com gelo. É uma bebida muito comum no verão espanhol."
         }
       ]
     }

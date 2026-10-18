@@ -47,12 +47,14 @@
         {
           "es": "la cuenta",
           "pt": "a conta",
-          "emoji": "🧾"
+          "emoji": "🧾",
+          "image": "assets/vocab/cuenta.png"
         },
         {
           "es": "la propina",
           "pt": "a gorjeta",
-          "emoji": "💶"
+          "emoji": "💶",
+          "image": "assets/vocab/propina.png"
         },
         {
           "es": "la tarjeta",

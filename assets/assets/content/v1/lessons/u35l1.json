@@ -15,8 +15,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Es el Guggenheim, de Frank Gehry. Está cubierto de titanio.",
-          "pt": "É o Guggenheim, de Frank Gehry. É coberto de titânio."
+          "es": "Es el Guggenheim, de Frank Gehry. Su fachada combina titanio, piedra y cristal.",
+          "pt": "É o Guggenheim, de Frank Gehry. Sua fachada combina titânio, pedra e vidro."
         },
         {
           "speaker": "Lu",
@@ -30,8 +30,8 @@
         },
         {
           "speaker": "Lu",
-          "es": "¿Desde cuándo está el museo?",
-          "pt": "Desde quando existe o museu?"
+          "es": "¿Desde cuándo está abierto el museo?",
+          "pt": "Desde quando o museu está aberto?"
         },
         {
           "speaker": "Lino",
@@ -73,14 +73,14 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Según la estación\" significa:",
+      "prompt": "Na fala sobre as flores do Puppy, \"según la estación\" significa:",
       "options": [
         "Conforme a estação do ano",
         "Segundo a estação de trem",
         "Na segunda estação"
       ],
       "correct": 0,
-      "explanation": "Según = conforme."
+      "explanation": "Según = conforme. Neste contexto, estación é a estação do ano; a palavra também pode indicar uma estação de trem."
     },
     {
       "type": "build",
@@ -97,7 +97,7 @@
         "metal de",
         "barcu"
       ],
-      "explanation": "Igual ao português!"
+      "explanation": "A estrutura é parecida com a do português: un = um."
     },
     {
       "type": "listening",
@@ -128,7 +128,8 @@
           "es": "batido",
           "kind": "armadilha",
           "meaning": "vitamina / milk-shake",
-          "tip": "Batido = vitamina/milk-shake. Em português, batido é surrado, gasto (\"gastado\")."
+          "tip": "Aqui, batido é uma bebida de leite e fruta, como uma vitamina ou milk-shake. Esse nome também é usado em Portugal; no Brasil, batido costuma ser o particípio de bater. O espanhol batido também pode ser particípio de batir.",
+          "context": "Quiero un batido de fresa."
         },
         {
           "es": "metal",
@@ -148,8 +149,9 @@
           "es": "chapa",
           "kind": "igual",
           "meaning": "chapa / placa de metal",
-          "tip": "Mesma palavra: chapa de metal (e também tampinha).",
-          "pt": "chapa"
+          "tip": "Nesta frase, chapa de metal tem o mesmo sentido nas duas línguas. Chapa também tem outros sentidos em espanhol, como tampinha de garrafa.",
+          "pt": "chapa",
+          "context": "La fachada tiene una chapa de metal."
         }
       ]
     },
@@ -159,8 +161,8 @@
       "context": [
         {
           "speaker": "Lino",
-          "es": "Es el Guggenheim, de Frank Gehry. Está cubierto de titanio.",
-          "pt": "É o Guggenheim, de Frank Gehry. É coberto de titânio."
+          "es": "Es el Guggenheim, de Frank Gehry. Su fachada combina titanio, piedra y cristal.",
+          "pt": "É o Guggenheim, de Frank Gehry. Sua fachada combina titânio, pedra e vidro."
         },
         {
           "speaker": "Lu",
@@ -171,7 +173,7 @@
       "speaker": "Lino",
       "pt": "É o Puppy, de Jeff Koons. Trocam as flores conforme a estação.",
       "options": [
-        "¿Desde cuándo está el museo?",
+        "¿Desde cuándo está abierto el museo?",
         "Es Puppy, de Jeff Koons. Cambian las flores según la estación.",
         "Desde 1997. Cambió la imagen de Bilbao por completo."
       ],
@@ -218,10 +220,10 @@
           "spanish": "Tengo un perro.",
           "options": [
             "Tenho um cachorro.",
-            "Tenho um perro."
+            "Tenho um gato."
           ],
           "correct": 0,
-          "joke": "Perro = cão."
+          "joke": "Perro = cachorro ou cão."
         },
         {
           "spanish": "La perra tuvo cachorros.",
@@ -242,13 +244,13 @@
           "joke": "Araña = aranha."
         },
         {
-          "spanish": "Depende de la estación.",
+          "spanish": "Las flores cambian según la estación del año.",
           "options": [
-            "Depende da estação do ano.",
-            "Depende do horário do museu."
+            "As flores mudam conforme a estação do ano.",
+            "As flores mudam conforme o horário do museu."
           ],
           "correct": 0,
-          "joke": "Estación = estação (aqui, do ano: as flores mudam)."
+          "joke": "Estación del año = estação do ano."
         }
       ]
     },
@@ -261,13 +263,13 @@
           "emoji": "🏛️",
           "title": "Guggenheim Bilbao",
           "es": "El Museo Guggenheim Bilbao.",
-          "pt": "Museu de arte contemporânea projetado por Frank Gehry, inaugurado em 1997, coberto de placas de titânio. Fora estão Puppy (Jeff Koons) e a aranha Maman (Louise Bourgeois)."
+          "pt": "Museu de arte moderna e contemporânea projetado por Frank Gehry e inaugurado em 1997. O edifício combina titânio, pedra e vidro. No exterior ficam Puppy, de Jeff Koons, e Maman, a aranha de Louise Bourgeois."
         },
         {
           "emoji": "⚙️",
           "title": "Efeito Guggenheim",
           "es": "El efecto Guggenheim.",
-          "pt": "O museu virou exemplo mundial de como a arquitetura pode transformar uma cidade industrial."
+          "pt": "O museu tornou-se um símbolo da transformação de Bilbao. O chamado efeito Guggenheim é associado ao turismo e à renovação urbana; o museu fez parte de um processo mais amplo de transformação da cidade."
         }
       ]
     }

@@ -65,7 +65,8 @@
         {
           "es": "regar",
           "pt": "regar",
-          "emoji": "🚿"
+          "emoji": "🚿",
+          "image": "assets/vocab/regar.png"
         }
       ]
     },
@@ -95,7 +96,7 @@
         "tiro",
         "fotografia"
       ],
-      "explanation": "Na Espanha o mais comum é \"hacer una foto\" (também se ouve \"sacar\" ou \"tirar una foto\"). Cuidado: \"tirar\" é, antes de tudo, jogar fora!"
+      "explanation": "Na Espanha, \"hacer una foto\" é muito comum; \"sacar\", \"tomar\" e \"tirar una foto\" também são válidos. Em outros contextos, \"tirar\" pode ser jogar ou jogar fora."
     },
     {
       "type": "listening",
@@ -119,7 +120,8 @@
           "es": "maceta",
           "kind": "armadilha",
           "meaning": "vaso de planta",
-          "tip": "Maceta = vaso de planta. Em português, marreta/maceta é martelo de pedreiro (\"mazo\")."
+          "tip": "Aqui, \"maceta\" = vaso de planta. A palavra também pode nomear um martelo de pedreiro em espanhol, sentido que existe em português; a frase seleciona o uso de jardinagem.",
+          "context": "Pon la maceta al sol."
         },
         {
           "es": "jarra",
@@ -186,8 +188,8 @@
         "plantas."
       ],
       "distractors": [
-        "en",
-        "tocas"
+        "nas",
+        "tocando"
       ],
       "explanation": "Imperativo negativo: no toques."
     },
@@ -262,7 +264,7 @@
           "emoji": "🌡️",
           "title": "Calor cordobês",
           "es": "En verano, Córdoba es un horno.",
-          "pt": "No verão Córdoba passa fácil dos 40 °C. Pátios com água e plantas ajudam a refrescar a casa."
+          "pt": "Córdoba tem verões muito quentes. A organização das casas em torno de pátios, muitas vezes com fontes e plantas, ajuda a criar espaços mais frescos."
         }
       ]
     }

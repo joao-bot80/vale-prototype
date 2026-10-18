@@ -15,18 +15,18 @@
         },
         {
           "speaker": "Lu",
-          "es": "La Alhambra, el flamenco en Córdoba y las tapas gratis de Granada.",
-          "pt": "A Alhambra, o flamenco em Córdoba e as tapas grátis de Granada."
+          "es": "La Alhambra, el flamenco en Córdoba y las tapas que venían con la bebida en Granada.",
+          "pt": "A Alhambra, o flamenco em Córdoba e as tapas que vinham incluídas com a bebida em Granada."
         },
         {
           "speaker": "Dani",
-          "es": "¿Y ya entiendes a los andaluces?",
-          "pt": "E você já entende os andaluzes?"
+          "es": "¿Y ahora entiendes mejor los acentos andaluces?",
+          "pt": "E agora você entende melhor os sotaques andaluzes?"
         },
         {
           "speaker": "Lu",
-          "es": "Casi siempre. Aunque yo hablo castellano estándar, ya reconozco el acento.",
-          "pt": "Quase sempre. Embora eu fale castelhano padrão, já reconheço o sotaque."
+          "es": "Sí, cada vez mejor. Escuchar a gente de distintos lugares me ayuda mucho.",
+          "pt": "Sim, cada vez melhor. Ouvir pessoas de lugares diferentes me ajuda muito."
         },
         {
           "speaker": "Dani",
@@ -35,8 +35,8 @@
         },
         {
           "speaker": "Lu",
-          "es": "Las Fallas, el arroz al horno y pasear en bici por el Turia.",
-          "pt": "As Fallas, o arroz de forno e passear de bicicleta pelo Turia."
+          "es": "Las Fallas, el arroz al horno y pasear en bici por el Jardín del Turia.",
+          "pt": "As Fallas, o arroz de forno e passear de bicicleta pelo Jardim do Turia."
         }
       ]
     },
@@ -47,22 +47,26 @@
         {
           "es": "la videollamada",
           "pt": "a videochamada",
-          "emoji": "📹"
+          "emoji": "📹",
+          "image": "assets/vocab/videollamada.png"
         },
         {
           "es": "el acento",
           "pt": "o sotaque",
-          "emoji": "🗣️"
+          "emoji": "🗣️",
+          "image": "assets/vocab/acento.png"
         },
         {
           "es": "lejos",
           "pt": "longe",
-          "emoji": "🗺️"
+          "emoji": "🗺️",
+          "image": "assets/vocab/lejos.png"
         },
         {
           "es": "cerca",
           "pt": "perto",
-          "emoji": "📍"
+          "emoji": "📍",
+          "image": "assets/vocab/cerca.png"
         }
       ]
     },
@@ -71,17 +75,17 @@
       "title": "Escolha a resposta",
       "prompt": "\"Lo mejor\" significa:",
       "options": [
-        "O melhor (coisa)",
+        "O melhor / aquilo que é melhor",
         "Os melhores",
         "Melhorar"
       ],
       "correct": 0,
-      "explanation": "Lo + adjetivo = o que é..."
+      "explanation": "Lo + adjetivo pode formar uma expressão abstrata: lo mejor del viaje é a melhor parte da viagem."
     },
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "O que foi o melhor?",
+      "portuguese": "Qual foi a melhor parte?",
       "answer": [
         "¿Qué",
         "ha",
@@ -99,14 +103,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Casi siempre. Aunque yo hablo castellano estándar, ya reconozco el acento.",
+      "spanish": "Sí, cada vez mejor. Escuchar a gente de distintos lugares me ayuda mucho.",
       "options": [
-        "Quase sempre. Embora eu fale castelhano padrão, já reconheço o sotaque.",
+        "Sim, cada vez melhor. Ouvir pessoas de lugares diferentes me ajuda muito.",
         "Nunca entendo nada.",
         "Agora falo com sotaque andaluz."
       ],
       "correct": 0,
-      "explanation": "Reconhecer sotaques, falar o padrão."
+      "explanation": "Escutar pessoas de lugares diferentes ajuda a reconhecer a diversidade de pronúncias do espanhol. Sotaque regional não é erro."
     },
     {
       "type": "swipe",
@@ -129,7 +133,8 @@
           "es": "extrañar",
           "kind": "armadilha",
           "meaning": "sentir falta",
-          "tip": "Extrañar = sentir saudade. Em português, estranhar é achar esquisito (\"sorprender\")."
+          "tip": "Aqui, extrañar é sentir falta ou saudade. O espanhol também usa extrañar para achar algo estranho ou surpreender-se, sentido próximo ao português estranhar.",
+          "context": "Extraño a mi familia."
         },
         {
           "es": "norte",
@@ -153,24 +158,24 @@
       "context": [
         {
           "speaker": "Lu",
-          "es": "La Alhambra, el flamenco en Córdoba y las tapas gratis de Granada.",
-          "pt": "A Alhambra, o flamenco em Córdoba e as tapas grátis de Granada."
+          "es": "La Alhambra, el flamenco en Córdoba y las tapas que venían con la bebida en Granada.",
+          "pt": "A Alhambra, o flamenco em Córdoba e as tapas que vinham incluídas com a bebida em Granada."
         },
         {
           "speaker": "Dani",
-          "es": "¿Y ya entiendes a los andaluces?",
-          "pt": "E você já entende os andaluzes?"
+          "es": "¿Y ahora entiendes mejor los acentos andaluces?",
+          "pt": "E agora você entende melhor os sotaques andaluzes?"
         }
       ],
       "speaker": "Lu",
-      "pt": "Quase sempre. Embora eu fale castelhano padrão, já reconheço o sotaque.",
+      "pt": "Sim, cada vez melhor. Ouvir pessoas de lugares diferentes me ajuda muito.",
       "options": [
         "¿Y de Valencia?",
-        "Casi siempre. Aunque yo hablo castellano estándar, ya reconozco el acento.",
-        "Las Fallas, el arroz al horno y pasear en bici por el Turia."
+        "Sí, cada vez mejor. Escuchar a gente de distintos lugares me ayuda mucho.",
+        "Las Fallas, el arroz al horno y pasear en bici por el Jardín del Turia."
       ],
       "correct": 1,
-      "explanation": "Lu diz: \"Casi siempre. Aunque yo hablo castellano estándar, ya reconozco el acento.\" = \"Quase sempre. Embora eu fale castelhano padrão, já reconheço o sotaque.\"."
+      "explanation": "Lu diz: \"Sí, cada vez mejor. Escuchar a gente de distintos lugares me ayuda mucho.\" = \"Sim, cada vez melhor. Ouvir pessoas de lugares diferentes me ajuda muito.\"."
     },
     {
       "type": "build",
@@ -186,20 +191,20 @@
         "saudade",
         "sinto"
       ],
-      "explanation": "Na Espanha: echar de menos."
+      "explanation": "Echar de menos = sentir falta ou saudade, expressão habitual na Espanha. Extrañar também pode ter esse sentido."
     },
     {
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Las Fallas, el arroz al horno y pasear en bici por el Turia.",
+      "spanish": "Las Fallas, el arroz al horno y pasear en bici por el Jardín del Turia.",
       "options": [
-        "As Fallas, o arroz de forno e passear de bicicleta pelo Turia.",
+        "As Fallas, o arroz de forno e passear de bicicleta pelo Jardim do Turia.",
         "A praia de Málaga e o Prado.",
         "A Sagrada Família."
       ],
       "correct": 0,
-      "explanation": "Revisão: Valencia (u8, u15, u21)."
+      "explanation": "Lu recorda as festas, a comida e o passeio pelo Jardim do Turia, em Valencia."
     },
     {
       "type": "boss",
@@ -231,7 +236,7 @@
             "Ainda chove, vamos."
           ],
           "correct": 0,
-          "joke": "Aunque + subjuntivo = mesmo que."
+          "joke": "Aqui, aunque llueva = mesmo que chova. O subjuntivo apresenta a chuva como uma possibilidade que não muda a decisão de ir."
         },
         {
           "spanish": "¿Hacemos una videollamada?",
@@ -259,7 +264,7 @@
           "emoji": "🗣️",
           "title": "Sotaques",
           "es": "Escuchar todos los acentos.",
-          "pt": "Ouvir sotaques diferentes (andaluz, valenciano, catalão falando castelhano) treina o ouvido. Para falar, continue com o castelhano padrão que você aprendeu."
+          "pt": "Ouvir pessoas de regiões diferentes treina a compreensão. Há vários sotaques andaluzes e outras formas regionais legítimas de falar espanhol. O curso usa uma referência de pronúncia do centro e norte da Espanha; ela não torna os outros sotaques incorretos."
         }
       ]
     }

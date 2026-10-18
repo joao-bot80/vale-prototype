@@ -65,12 +65,14 @@
         {
           "es": "la reunión",
           "pt": "a reunião",
-          "emoji": "👥"
+          "emoji": "👥",
+          "image": "assets/vocab/reunion.png"
         },
         {
           "es": "el despacho",
           "pt": "o escritório (sala de trabalho)",
-          "emoji": "🚪"
+          "emoji": "🚪",
+          "image": "assets/vocab/despacho.png"
         }
       ]
     },

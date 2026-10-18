@@ -21,12 +21,12 @@
         {
           "speaker": "Lu",
           "es": "Por eso la radio dice \"una hora menos en Canarias\".",
-          "pt": "Por isso o rádio diz \"uma hora menos em Canárias\"."
+          "pt": "Por isso o rádio diz \"uma hora a menos nas Canárias\"."
         },
         {
           "speaker": "Lino",
-          "es": "Exacto. Y aquí el clima es suave todo el año.",
-          "pt": "Exato. E aqui o clima é ameno o ano todo."
+          "es": "Exacto. En la costa el clima suele ser suave.",
+          "pt": "Exato. No litoral o clima costuma ser ameno."
         },
         {
           "speaker": "Lu",
@@ -35,8 +35,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Casi nunca en la costa. Por eso las llaman islas de la eterna primavera.",
-          "pt": "Quase nunca na costa. Por isso as chamam de ilhas da eterna primavera."
+          "es": "Puede hacer fresco. Y en las zonas altas hace mucho más frío.",
+          "pt": "Pode fazer fresquinho. E nas áreas altas faz muito mais frio."
         }
       ]
     },
@@ -47,7 +47,8 @@
         {
           "es": "la hora",
           "pt": "a hora",
-          "emoji": "🕐"
+          "emoji": "🕐",
+          "image": "assets/vocab/hora.png"
         },
         {
           "es": "el sol",
@@ -64,7 +65,8 @@
         {
           "es": "temprano",
           "pt": "cedo",
-          "emoji": "🌅"
+          "emoji": "🌅",
+          "image": "assets/vocab/temprano.png"
         }
       ]
     },
@@ -83,21 +85,22 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "O clima é ameno o ano todo.",
+      "portuguese": "O clima costuma ser ameno no litoral.",
       "answer": [
         "El",
         "clima",
-        "es",
+        "suele",
+        "ser",
         "suave",
-        "todo",
-        "el",
-        "año."
+        "en",
+        "la",
+        "costa."
       ],
       "distractors": [
-        "amenu",
-        "ano"
+        "suelen",
+        "del"
       ],
-      "explanation": "Suave = ameno."
+      "explanation": "Soler + infinitivo indica algo habitual: suele ser = costuma ser. Suave, falando do clima, é ameno."
     },
     {
       "type": "listening",
@@ -110,7 +113,7 @@
         "Duas horas a mais."
       ],
       "correct": 0,
-      "explanation": "Igual a Lisboa/Londres."
+      "explanation": "Quando são onze horas na Espanha peninsular, são dez nas Canárias."
     },
     {
       "type": "complete",
@@ -124,30 +127,30 @@
         {
           "speaker": "Lu",
           "es": "Por eso la radio dice \"una hora menos en Canarias\".",
-          "pt": "Por isso o rádio diz \"uma hora menos em Canárias\"."
+          "pt": "Por isso o rádio diz \"uma hora a menos nas Canárias\"."
         }
       ],
       "speaker": "Lino",
-      "pt": "Exato. E aqui o clima é ameno o ano todo.",
+      "pt": "Exato. No litoral o clima costuma ser ameno.",
       "options": [
-        "Exacto. Y aquí el clima es suave todo el año.",
-        "Casi nunca en la costa. Por eso las llaman islas de la eterna primavera.",
+        "Exacto. En la costa el clima suele ser suave.",
+        "Puede hacer fresco. Y en las zonas altas hace mucho más frío.",
         "¿Nunca hace frío?"
       ],
       "correct": 0,
-      "explanation": "Lino diz: \"Exacto. Y aquí el clima es suave todo el año.\" = \"Exato. E aqui o clima é ameno o ano todo.\"."
+      "explanation": "Lino diz: \"Exacto. En la costa el clima suele ser suave.\" = \"Exato. No litoral o clima costuma ser ameno.\"."
     },
     {
       "type": "choice",
       "title": "Escolha a resposta",
       "prompt": "\"Hay calima\" significa:",
       "options": [
-        "Tem poeira do Saara no ar",
+        "Há poeira em suspensão no ar",
         "Está calmo",
         "Está calor úmido"
       ],
       "correct": 0,
-      "explanation": "Calima = névoa de poeira."
+      "explanation": "Calima é uma névoa de partículas em suspensão. Nas Canárias, é frequente a poeira vinda do Saara; não significa calma."
     },
     {
       "type": "build",
@@ -170,14 +173,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Casi nunca en la costa. Por eso las llaman islas de la eterna primavera.",
+      "spanish": "Puede hacer fresco. Y en las zonas altas hace mucho más frío.",
       "options": [
-        "Quase nunca na costa. Por isso as chamam de ilhas da eterna primavera.",
+        "Pode fazer fresquinho. E nas áreas altas faz muito mais frio.",
         "Sempre neva.",
         "Faz muito frio na praia."
       ],
       "correct": 0,
-      "explanation": "Clima ameno."
+      "explanation": "O clima varia com a altitude e a localização. Nas áreas altas pode fazer bastante frio."
     },
     {
       "type": "boss",
@@ -187,11 +190,11 @@
         {
           "spanish": "Hoy hay calima.",
           "options": [
-            "Hoje tem poeira do Saara.",
+            "Hoje há poeira em suspensão no ar.",
             "Hoje está calmo."
           ],
           "correct": 0,
-          "joke": "Calima."
+          "joke": "Calima é uma névoa de partículas em suspensão, frequentemente poeira do Saara nas Canárias."
         },
         {
           "spanish": "Atrasa el reloj.",
@@ -237,7 +240,7 @@
           "emoji": "🌤️",
           "title": "Clima",
           "es": "Islas de la eterna primavera.",
-          "pt": "Ventos alísios e corrente das Canárias deixam a costa amena o ano todo; às vezes chega a calima do Saara."
+          "pt": "Eterna primavera é um apelido turístico. O oceano e os ventos alísios ajudam a moderar as temperaturas, mas o clima varia com a ilha, a altitude e a orientação. Pode fazer frio nas áreas altas; também há episódios de calor e de calima, com poeira em suspensão."
         }
       ]
     }

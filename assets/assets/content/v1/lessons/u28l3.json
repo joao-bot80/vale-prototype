@@ -47,29 +47,33 @@
         {
           "es": "los deberes",
           "pt": "a lição de casa",
-          "emoji": "📚"
+          "emoji": "📚",
+          "image": "assets/vocab/deberes.png"
         },
         {
           "es": "la tutora",
           "pt": "a professora da turma",
-          "emoji": "👩‍🏫"
+          "emoji": "👩‍🏫",
+          "image": "assets/vocab/tutora.png"
         },
         {
           "es": "el recreo",
           "pt": "o recreio",
-          "emoji": "⚽"
+          "emoji": "⚽",
+          "image": "assets/vocab/recreo.png"
         },
         {
           "es": "las notas",
           "pt": "as notas",
-          "emoji": "💯"
+          "emoji": "💯",
+          "image": "assets/vocab/notas.png"
         }
       ]
     },
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Apuntarse\" significa:",
+      "prompt": "\"Apuntarse a una actividad extraescolar\" significa:",
       "options": [
         "Inscrever-se",
         "Apontar com o dedo",
@@ -181,10 +185,10 @@
           "spanish": "Termina los deberes.",
           "options": [
             "Termina a lição de casa.",
-            "Cumpra suas obrigações."
+            "Esquece a lição de casa."
           ],
           "correct": 0,
-          "joke": "Deberes = lição de casa."
+          "joke": "Deberes aqui são tarefas escolares; a palavra também significa deveres ou obrigações."
         },
         {
           "spanish": "¿Te apuntas al teatro?",
@@ -199,19 +203,19 @@
           "spanish": "No me apetece salir.",
           "options": [
             "Não estou a fim de sair.",
-            "Não tenho apetite para sair."
+            "Estou com muita vontade de sair."
           ],
           "correct": 0,
-          "joke": "Apetecer = estar a fim."
+          "joke": "No me apetece = não estou com vontade; apetecer pode expressar desejo, inclusive de comer."
         },
         {
-          "spanish": "Hoy dan las notas.",
+          "spanish": "Hoy dan las notas del trimestre.",
           "options": [
-            "Hoje entregam o boletim.",
-            "Hoje dão os bilhetes."
+            "Hoje divulgam as notas do trimestre.",
+            "Hoje começam as férias."
           ],
           "correct": 0,
-          "joke": "Notas = boletim."
+          "joke": "Notas aqui são as notas escolares. O boletim que as reúne é o boletín de notas."
         }
       ]
     },
@@ -224,13 +228,13 @@
           "emoji": "👩‍🏫",
           "title": "Tutoria",
           "es": "La tutora de tu hijo.",
-          "pt": "Cada turma tem um tutor ou tutora, a pessoa de contato com a família. Peça uma tutoría (reunião) quando precisar. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "O tutor ou a tutora da turma é um professor de referência para acompanhar o aluno e falar com a família. Tutoría pode ser a reunião com ele. Esse papel é diferente do tutor legal da criança. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "🤝",
           "title": "AMPA",
           "es": "Hazte socio de la AMPA.",
-          "pt": "A associação de mães e pais organiza atividades e ajuda famílias novas. Muitas escolas também têm programas de apoio ao idioma para alunos recém-chegados. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "AMPA é a associação de mães e pais de alunos. Pode organizar atividades e apoiar famílias; o nome e as iniciativas variam por escola. Consulte o centro sobre apoio de língua para alunos recém-chegados. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         }
       ]
     }

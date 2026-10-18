@@ -153,7 +153,8 @@
           "es": "plátano",
           "kind": "armadilha",
           "meaning": "banana",
-          "tip": "Plátano = banana. Em português, plátano é uma árvore de praça."
+          "tip": "Aqui, \"plátano\" = banana. Em espanhol, \"plátano\" também pode ser a árvore chamada plátano em português; o contexto da compra indica a fruta.",
+          "context": "¿Me pones un kilo de plátanos?"
         }
       ]
     },
@@ -246,10 +247,10 @@
           "spanish": "Este chico es muy guapo.",
           "options": [
             "Este rapaz é muito bonito.",
-            "Este rapaz é muito valente."
+            "Este rapaz é muito velho."
           ],
           "correct": 0,
-          "joke": "Guapo = bonito. Valente é \"valiente\"."
+          "joke": "Aqui praticamos o uso mais comum de \"guapo\" para a aparência: bonito. A palavra também pode ter o sentido de valente em outros contextos."
         }
       ]
     },

@@ -15,8 +15,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "El de Santa Cruz es de los más grandes del mundo.",
-          "pt": "O de Santa Cruz é dos maiores do mundo."
+          "es": "El de Santa Cruz es muy famoso por sus desfiles y sus concursos.",
+          "pt": "O de Santa Cruz é muito famoso por seus desfiles e concursos."
         },
         {
           "speaker": "Lu",
@@ -59,7 +59,8 @@
         {
           "es": "la murga",
           "pt": "o grupo satírico",
-          "emoji": "🎺"
+          "emoji": "🎺",
+          "image": "assets/vocab/murga.png"
         },
         {
           "es": "las plumas",
@@ -72,7 +73,7 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "\"Disfrazarse\" significa:",
+      "prompt": "No carnaval, \"disfrazarse\" significa:",
       "options": [
         "Fantasiar-se",
         "Disfarçar uma mentira",
@@ -103,14 +104,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "El de Santa Cruz es de los más grandes del mundo.",
+      "spanish": "El de Santa Cruz es muy famoso por sus desfiles y sus concursos.",
       "options": [
-        "O de Santa Cruz é dos maiores do mundo.",
+        "O de Santa Cruz é muito famoso por seus desfiles e concursos.",
         "O de Santa Cruz é pequeno.",
         "O de Santa Cruz acabou."
       ],
       "correct": 0,
-      "explanation": "Um dos maiores carnavais."
+      "explanation": "Desfiles e concursos fazem parte do carnaval de Santa Cruz de Tenerife."
     },
     {
       "type": "complete",
@@ -118,8 +119,8 @@
       "context": [
         {
           "speaker": "Lino",
-          "es": "El de Santa Cruz es de los más grandes del mundo.",
-          "pt": "O de Santa Cruz é dos maiores do mundo."
+          "es": "El de Santa Cruz es muy famoso por sus desfiles y sus concursos.",
+          "pt": "O de Santa Cruz é muito famoso por seus desfiles e concursos."
         },
         {
           "speaker": "Lu",
@@ -196,19 +197,19 @@
           "spanish": "¡Qué disfraz tan bueno!",
           "options": [
             "Que fantasia boa!",
-            "Que disfarce de espião!"
+            "Que fantasia ruim!"
           ],
           "correct": 0,
-          "joke": "Disfraz = fantasia."
+          "joke": "Neste contexto, disfraz é fantasia de carnaval."
         },
         {
-          "spanish": "Es un traje precioso.",
+          "spanish": "Es un traje de carnaval precioso.",
           "options": [
-            "É uma fantasia linda.",
-            "É um trajeto lindo."
+            "É uma fantasia de carnaval linda.",
+            "É um trajeto de carnaval lindo."
           ],
           "correct": 0,
-          "joke": "Traje = roupa, fantasia."
+          "joke": "Traje é roupa ou vestimenta; nesta frase, uma fantasia. Trajeto é trayecto."
         },
         {
           "spanish": "Canta en una murga.",
@@ -230,13 +231,13 @@
           "emoji": "🎭",
           "title": "Carnaval",
           "es": "El Carnaval de Santa Cruz.",
-          "pt": "Um dos maiores carnavais do mundo, em fevereiro/março, com murgas, comparsas e a eleição da Rainha. Termina com o \"Entierro de la Sardina\"."
+          "pt": "O carnaval de Santa Cruz de Tenerife tem desfiles, murgas e eleição da rainha. As datas variam a cada ano. O Entierro de la Sardina acontece na Quarta-feira de Cinzas, mas a festa continua depois, com o fim de semana de Piñata; não é o último evento da programação."
         },
         {
           "emoji": "🇧🇷",
           "title": "Rio",
-          "es": "Hermanados por el carnaval.",
-          "pt": "Brasileiros costumam se sentir em casa: ritmo, fantasias e rua cheia."
+          "es": "Carnaval en la calle.",
+          "pt": "Santa Cruz de Tenerife e o Rio de Janeiro têm festas de rua e fantasias marcantes, cada uma com tradições próprias. Em Santa Cruz, as murgas apresentam canções satíricas e as comparsas combinam música e dança."
         }
       ]
     }

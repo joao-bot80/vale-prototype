@@ -35,8 +35,8 @@
         },
         {
           "speaker": "Lu",
-          "es": "Y una foto no, ¿verdad? En Brasil a veces se pone.",
-          "pt": "E foto não, né? No Brasil às vezes se coloca."
+          "es": "¿Hace falta poner una foto en el currículum?",
+          "pt": "É preciso colocar uma foto no currículo?"
         }
       ]
     },
@@ -47,22 +47,26 @@
         {
           "es": "el currículum",
           "pt": "o currículo",
-          "emoji": "📄"
+          "emoji": "📄",
+          "image": "assets/vocab/curriculum.png"
         },
         {
           "es": "los idiomas",
           "pt": "os idiomas",
-          "emoji": "🗣️"
+          "emoji": "🗣️",
+          "image": "assets/vocab/idiomas.png"
         },
         {
           "es": "la carrera",
-          "pt": "a faculdade",
-          "emoji": "🎓"
+          "pt": "o curso superior",
+          "emoji": "🎓",
+          "image": "assets/vocab/carrera.png"
         },
         {
           "es": "las prácticas",
           "pt": "o estágio",
-          "emoji": "🧑‍💻"
+          "emoji": "🧑‍💻",
+          "image": "assets/vocab/practicas.png"
         }
       ]
     },
@@ -91,7 +95,7 @@
         "organizé",
         "organizei"
       ],
-      "explanation": "Na Espanha, para experiências gerais, usa-se muito \"he + particípio\"."
+      "explanation": "He organizado é o pretérito perfecto compuesto, frequente ao falar de experiências. No tempo simples, a grafia correta é organicé, com c."
     },
     {
       "type": "listening",
@@ -125,7 +129,7 @@
       "pt": "Sim, trabalhei seis meses numa loja.",
       "options": [
         "Sí, he trabajado seis meses en una tienda.",
-        "Y una foto no, ¿verdad? En Brasil a veces se pone.",
+        "¿Hace falta poner una foto en el currículum?",
         "Pon también los idiomas: portugués nativo y español."
       ],
       "correct": 0,
@@ -224,7 +228,7 @@
           "emoji": "📄",
           "title": "CV na Espanha",
           "es": "Adjunto mi currículum.",
-          "pt": "Na Espanha o currículo costuma ter 1–2 páginas, com experiência, formação e idiomas. A foto é opcional e cada vez menos comum; muitas empresas preferem sem."
+          "pt": "Um currículo claro costuma ter 1–2 páginas, com experiência, formação e idiomas. Pode incluir foto, mas as práticas variam: adapte o documento à vaga e às instruções da empresa."
         },
         {
           "emoji": "🗣️",

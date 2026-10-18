@@ -120,9 +120,11 @@
       "cards": [
         {
           "es": "laguna",
-          "kind": "armadilha",
-          "meaning": "lagoa",
-          "tip": "Laguna = lagoa. Em português, lacuna é um vazio, algo que falta."
+          "kind": "igual",
+          "meaning": "laguna / lagoa costeira",
+          "tip": "Laguna também existe em português para uma massa de água costeira como a Albufera. Em espanhol, laguna ainda pode significar uma lacuna de informação.",
+          "pt": "laguna",
+          "context": "La Albufera es una laguna junto al mar."
         },
         {
           "es": "embarcadero",
@@ -188,7 +190,7 @@
         "logo",
         "depois"
       ],
-      "explanation": "\"Luego\" = depois."
+      "explanation": "Aqui luego = depois. O sentido depende do contexto; não indica necessariamente algo imediato."
     },
     {
       "type": "listening",

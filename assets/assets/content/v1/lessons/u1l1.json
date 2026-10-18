@@ -71,7 +71,8 @@
         {
           "es": "el retraso",
           "pt": "o atraso",
-          "emoji": "⏰"
+          "emoji": "⏰",
+          "image": "assets/vocab/retraso.png"
         }
       ]
     },
@@ -196,7 +197,7 @@
         "son",
         "brasileiros"
       ],
-      "explanation": "Na Espanha, \"vocês\" (informal) é \"vosotros sois\". Em Madri e Barcelona, \"ustedes\" costuma ser formal (em partes da Andaluzia e nas Canárias é usado também entre amigos)."
+      "explanation": "Em Madri, \"vocês\" (informal) é \"vosotros sois\". Em Madri e Barcelona, \"ustedes\" costuma ser formal (em partes da Andaluzia e nas Canárias é usado também entre amigos)."
     },
     {
       "type": "listening",

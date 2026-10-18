@@ -76,11 +76,11 @@
       "prompt": "\"Abrígate bien\" significa:",
       "options": [
         "Agasalhe-se bem",
-        "Abrigue-se da chuva",
+        "Tire o casaco",
         "Abra bem"
       ],
       "correct": 0,
-      "explanation": "Abrigo = casaco."
+      "explanation": "Aqui, abrigarse bien é agasalhar-se bem contra o frio. O verbo também pode ter o sentido mais amplo de proteger-se."
     },
     {
       "type": "build",
@@ -150,7 +150,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Põe o casaco.",
+      "portuguese": "Vista o casaco.",
       "answer": [
         "Ponte",
         "el",
@@ -158,9 +158,9 @@
       ],
       "distractors": [
         "casaco",
-        "pon"
+        "ponerse"
       ],
-      "explanation": "Abrigo = casaco."
+      "explanation": "Ponerse uma peça de roupa = vesti-la. Ponte é o imperativo de tú com o pronome te."
     },
     {
       "type": "listening",
@@ -181,22 +181,22 @@
       "bossName": "Falso Amigo",
       "questions": [
         {
-          "spanish": "Coge el abrigo.",
+          "spanish": "Coge el abrigo del perchero.",
           "options": [
-            "Pega o casaco.",
-            "Pega o abrigo antiaéreo."
+            "Pega o casaco do cabideiro.",
+            "Pega o guarda-chuva do cabideiro."
           ],
           "correct": 0,
-          "joke": "Abrigo = casaco."
+          "joke": "Aqui, abrigo é uma peça de roupa. A palavra espanhola também pode significar proteção ou lugar abrigado."
         },
         {
-          "spanish": "Se ha roto el cristal.",
+          "spanish": "Se ha roto el cristal de la ventana.",
           "options": [
-            "Quebrou o vidro.",
-            "Quebrou o cristal Swarovski."
+            "Quebrou o vidro da janela.",
+            "Quebrou a moldura da janela."
           ],
           "correct": 0,
-          "joke": "Cristal = vidro."
+          "joke": "Cristal pode designar o vidro de uma janela; também pode significar cristal em outros contextos."
         },
         {
           "spanish": "Me he dejado la bufanda.",
@@ -227,7 +227,7 @@
           "emoji": "🗼",
           "title": "Torre de Hércules",
           "es": "La Torre de Hércules.",
-          "pt": "Farol de origem romana (séc. I–II) ainda em funcionamento, Patrimônio Mundial da UNESCO desde 2009."
+          "pt": "Farol de origem romana, do fim do século I, ainda em funcionamento e Patrimônio Mundial da UNESCO desde 2009. A estrutura conserva o núcleo romano, com reformas e ampliações do século XVIII."
         },
         {
           "emoji": "🪟",

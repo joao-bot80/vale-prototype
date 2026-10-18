@@ -15,8 +15,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Es el flysch. Cada capa son miles de años de historia de la Tierra.",
-          "pt": "É o flysch. Cada camada são milhares de anos de história da Terra."
+          "es": "Es el flysch. Estas capas de roca conservan parte de la historia de la Tierra.",
+          "pt": "É o flysch. Estas camadas de rocha conservam parte da história da Terra."
         },
         {
           "speaker": "Lu",
@@ -25,8 +25,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Solo con la marea baja. Hay que mirar la tabla de mareas.",
-          "pt": "Só com a maré baixa. Tem que olhar a tábua de marés."
+          "es": "Depende del estado del mar y de los accesos. Consultemos las mareas y los avisos del geoparque.",
+          "pt": "Depende das condições do mar e dos acessos. Vamos consultar as marés e os avisos do geoparque."
         },
         {
           "speaker": "Lu",
@@ -35,8 +35,8 @@
         },
         {
           "speaker": "Lino",
-          "es": "Sí, salen en muchas películas y series. ¡Pero no toques nada!",
-          "pt": "Sim, aparecem em muitos filmes e séries. Mas não toque em nada!"
+          "es": "Sí, estos paisajes aparecen en películas y series. ¡Pero no te lleves rocas ni fósiles!",
+          "pt": "Sim, estas paisagens aparecem em filmes e séries. Mas não leve rochas nem fósseis!"
         }
       ]
     },
@@ -103,14 +103,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Solo con la marea baja. Hay que mirar la tabla de mareas.",
+      "spanish": "Depende del estado del mar y de los accesos. Consultemos las mareas y los avisos del geoparque.",
       "options": [
-        "Só com a maré baixa. Tem que olhar a tábua de marés.",
+        "Depende das condições do mar e dos acessos. Vamos consultar as marés e os avisos do geoparque.",
         "A qualquer hora.",
         "Nunca, é proibido."
       ],
       "correct": 0,
-      "explanation": "A maré sobe rápido: cuidado."
+      "explanation": "Maré baixa, sozinha, não garante acesso seguro. É preciso considerar o estado do mar e respeitar a sinalização e os avisos locais."
     },
     {
       "type": "complete",
@@ -118,8 +118,8 @@
       "context": [
         {
           "speaker": "Lino",
-          "es": "Es el flysch. Cada capa son miles de años de historia de la Tierra.",
-          "pt": "É o flysch. Cada camada são milhares de anos de história da Terra."
+          "es": "Es el flysch. Estas capas de roca conservan parte de la historia de la Tierra.",
+          "pt": "É o flysch. Estas camadas de rocha conservam parte da história da Terra."
         },
         {
           "speaker": "Lu",
@@ -128,14 +128,14 @@
         }
       ],
       "speaker": "Lino",
-      "pt": "Só com a maré baixa. Tem que olhar a tábua de marés.",
+      "pt": "Depende das condições do mar e dos acessos. Vamos consultar as marés e os avisos do geoparque.",
       "options": [
-        "Solo con la marea baja. Hay que mirar la tabla de mareas.",
-        "Sí, salen en muchas películas y series. ¡Pero no toques nada!",
+        "Depende del estado del mar y de los accesos. Consultemos las mareas y los avisos del geoparque.",
+        "Sí, estos paisajes aparecen en películas y series. ¡Pero no te lleves rocas ni fósiles!",
         "¿Y aquí no grabaron una serie famosa?"
       ],
       "correct": 0,
-      "explanation": "Lino diz: \"Solo con la marea baja. Hay que mirar la tabla de mareas.\" = \"Só com a maré baixa. Tem que olhar a tábua de marés.\"."
+      "explanation": "Lino diz: \"Depende del estado del mar y de los accesos. Consultemos las mareas y los avisos del geoparque.\" = \"Depende das condições do mar e dos acessos. Vamos consultar as marés e os avisos do geoparque.\"."
     },
     {
       "type": "choice",
@@ -168,9 +168,9 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Sí, salen en muchas películas y series. ¡Pero no toques nada!",
+      "spanish": "Sí, estos paisajes aparecen en películas y series. ¡Pero no te lleves rocas ni fósiles!",
       "options": [
-        "Sim, aparecem em muitos filmes e séries. Mas não toque em nada!",
+        "Sim, estas paisagens aparecem em filmes e séries. Mas não leve rochas nem fósseis!",
         "Não, ninguém vem aqui.",
         "Sim, e pode levar pedras de lembrança."
       ],
@@ -204,10 +204,10 @@
           "spanish": "Hay muchas capas de roca.",
           "options": [
             "Há muitas camadas de rocha.",
-            "Há muitas capas de rocha."
+            "Há muitas camadas de gelo."
           ],
           "correct": 0,
-          "joke": "Capa = camada."
+          "joke": "Aqui, capas são camadas. Capa também pode designar uma camada em português; não é uma tradução necessariamente errada."
         },
         {
           "spanish": "Es un acantilado alto.",
@@ -229,7 +229,7 @@
           "emoji": "🪨",
           "title": "Flysch",
           "es": "El flysch de Zumaia.",
-          "pt": "Camadas de rocha empilhadas como folhas de livro entre Mutriku, Deba e Zumaia, dentro do Geoparque da Costa Basca (Geoparque Mundial da UNESCO). Visite com maré baixa."
+          "pt": "Entre Mutriku, Deba e Zumaia, o flysch conserva camadas de sedimentos transformados em rocha, hoje expostas na costa do Geoparque Mundial da UNESCO. É possível observá-lo por mirantes e trilhas. Para acessar a zona entre marés, consulte o estado do mar, as marés e os avisos locais; respeite os percursos sinalizados e não retire rochas ou fósseis."
         },
         {
           "emoji": "🎥",

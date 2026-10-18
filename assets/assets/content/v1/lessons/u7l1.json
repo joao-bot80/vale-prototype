@@ -133,19 +133,21 @@
           "es": "caballo",
           "kind": "quase",
           "meaning": "cavalo",
-          "tip": "\"Ll\" no lugar de \"l\"."
+          "tip": "Caballo = cavalo: compare b/v e ll/l nas duas grafias."
         },
         {
           "es": "guitarra",
           "kind": "armadilha",
           "meaning": "violão",
-          "tip": "Guitarra = violão. A guitarra elétrica é \"guitarra eléctrica\"."
+          "tip": "Aqui, \"guitarra española\" = violão. \"Guitarra\" é o nome geral do instrumento em espanhol; \"guitarra eléctrica\" corresponde à guitarra elétrica.",
+          "context": "Toca muy bien la guitarra española."
         },
         {
           "es": "brinco",
           "kind": "armadilha",
           "meaning": "pulo",
-          "tip": "Brinco = pulo (pular a fogueira). Brinco (joia) é \"pendiente\"."
+          "tip": "Nesta frase, \"brinco\" = pulo. O brinco usado na orelha é normalmente \"pendiente\" em espanhol.",
+          "context": "El caballo dio un brinco."
         }
       ]
     },
@@ -241,10 +243,10 @@
           "spanish": "¿Quieres un refresco?",
           "options": [
             "Quer um refrigerante?",
-            "Quer um suco natural?"
+            "Quer uma sopa quente?"
           ],
           "correct": 0,
-          "joke": "Refresco = refrigerante."
+          "joke": "No bar, \"refresco\" costuma ser refrigerante. A palavra também pode designar outras bebidas refrescantes sem álcool."
         }
       ]
     },
@@ -257,7 +259,7 @@
           "emoji": "💃",
           "title": "Feria de Abril",
           "es": "¡Vamos a la Feria!",
-          "pt": "Uma semana de festa em Sevilla, com casetas, cavalos, trajes de flamenca e sevillanas a noite toda. Acontece na primavera, depois da Semana Santa."
+          "pt": "Uma festa de vários dias em Sevilla, com casetas, cavalos, trajes de flamenca e sevillanas a noite toda. Acontece na primavera, depois da Semana Santa."
         },
         {
           "emoji": "🕯️",

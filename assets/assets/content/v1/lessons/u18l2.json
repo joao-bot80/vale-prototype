@@ -30,7 +30,7 @@
         },
         {
           "speaker": "Lu",
-          "es": "Vale, trato hecho. ¿Aceptas tarjeta?",
+          "es": "Vale, trato hecho. ¿Acepta tarjeta?",
           "pt": "Beleza, fechado. Aceita cartão?"
         },
         {
@@ -47,22 +47,26 @@
         {
           "es": "el puesto",
           "pt": "a barraca",
-          "emoji": "🛍️"
+          "emoji": "🛍️",
+          "image": "assets/vocab/puesto_mercado.png"
         },
         {
           "es": "regatear",
           "pt": "pechinchar",
-          "emoji": "🤝"
+          "emoji": "🤝",
+          "image": "assets/vocab/regatear.png"
         },
         {
           "es": "barato",
           "pt": "barato",
-          "emoji": "🏷️"
+          "emoji": "🏷️",
+          "image": "assets/vocab/barato.png"
         },
         {
           "es": "caro",
           "pt": "caro",
-          "emoji": "💰"
+          "emoji": "💰",
+          "image": "assets/vocab/caro.png"
         }
       ]
     },
@@ -127,7 +131,7 @@
       "pt": "Vinte e cinco e é sua.",
       "options": [
         "Solo efectivo, guapa. Hay un cajero en la esquina.",
-        "Vale, trato hecho. ¿Aceptas tarjeta?",
+        "Vale, trato hecho. ¿Acepta tarjeta?",
         "Veinticinco y es tuya."
       ],
       "correct": 2,

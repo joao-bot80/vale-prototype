@@ -26,7 +26,7 @@
         {
           "speaker": "Lino",
           "es": "Con leche, en caldo o amasado. Mi abuela lo pone en todo.",
-          "pt": "Com leite, no caldo ou amassado. Minha avó põe em tudo."
+          "pt": "Com leite, no caldo ou amassado. Minha avó põe gofio em tudo."
         },
         {
           "speaker": "Lu",
@@ -36,7 +36,7 @@
         {
           "speaker": "Lino",
           "es": "Queso de flor de Guía. Pruébalo con miel de palma.",
-          "pt": "Queijo de flor de Guía. Prova com mel de palma."
+          "pt": "Queijo de flor de Guía. Prove com miel de palma, um xarope de seiva de palmeira."
         }
       ]
     },
@@ -85,7 +85,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Minha avó põe em tudo.",
+      "portuguese": "Minha avó põe gofio em tudo.",
       "answer": [
         "Mi",
         "abuela",
@@ -98,7 +98,7 @@
         "avó",
         "põe"
       ],
-      "explanation": "Poner = pôr."
+      "explanation": "Poner = pôr. Aqui, lo retoma o gofio, citado no diálogo."
     },
     {
       "type": "listening",
@@ -111,7 +111,7 @@
         "É café moído."
       ],
       "correct": 0,
-      "explanation": "Gofio tem IGP."
+      "explanation": "Gofio é feito com grãos torrados e moídos. Gofio Canario é o nome de uma Indicação Geográfica Protegida (IGP)."
     },
     {
       "type": "complete",
@@ -129,14 +129,14 @@
         }
       ],
       "speaker": "Lino",
-      "pt": "Com leite, no caldo ou amassado. Minha avó põe em tudo.",
+      "pt": "Com leite, no caldo ou amassado. Minha avó põe gofio em tudo.",
       "options": [
         "Con leche, en caldo o amasado. Mi abuela lo pone en todo.",
         "Queso de flor de Guía. Pruébalo con miel de palma.",
         "¿Y ese queso?"
       ],
       "correct": 0,
-      "explanation": "Lino diz: \"Con leche, en caldo o amasado. Mi abuela lo pone en todo.\" = \"Com leite, no caldo ou amassado. Minha avó põe em tudo.\"."
+      "explanation": "Lino diz: \"Con leche, en caldo o amasado. Mi abuela lo pone en todo.\" = \"Com leite, no caldo ou amassado. Minha avó põe gofio em tudo.\"."
     },
     {
       "type": "choice",
@@ -153,7 +153,7 @@
     {
       "type": "build",
       "title": "Monte a frase",
-      "portuguese": "Prova com mel.",
+      "portuguese": "Prove-o com mel.",
       "answer": [
         "Pruébalo",
         "con",
@@ -163,7 +163,7 @@
         "prova",
         "mel"
       ],
-      "explanation": "Probar = provar."
+      "explanation": "Probar = provar. Em pruébalo, lo retoma o queijo. Miel é mel; a expressão miel de palma designa um xarope de seiva de palmeira."
     },
     {
       "type": "listening",
@@ -171,7 +171,7 @@
       "prompt": "O que você ouviu?",
       "spanish": "Con leche, en caldo o amasado. Mi abuela lo pone en todo.",
       "options": [
-        "Com leite, no caldo ou amassado. Minha avó põe em tudo.",
+        "Com leite, no caldo ou amassado. Minha avó põe gofio em tudo.",
         "Só com sal.",
         "Ninguém come mais."
       ],
@@ -205,10 +205,10 @@
           "spanish": "Ese puesto vende queso.",
           "options": [
             "Essa barraca vende queijo.",
-            "Esse posto vende queijo."
+            "Essa barraca vende flores."
           ],
           "correct": 0,
-          "joke": "Puesto = barraca, banca de mercado."
+          "joke": "Puesto indica aqui uma banca ou posto de venda no mercado; posto não é sempre uma tradução errada."
         },
         {
           "spanish": "Amasa el gofio.",
@@ -230,13 +230,13 @@
           "emoji": "🌾",
           "title": "Gofio",
           "es": "El gofio canario.",
-          "pt": "Farinha de cereais torrados (milho, trigo) herdada dos aborígenes; tem IGP \"Gofio Canario\"."
+          "pt": "Gofio é uma farinha de grãos torrados e moídos. Hoje há variedades de milho, trigo e outros cereais, além de misturas que podem incluir leguminosas. O nome Gofio Canario é protegido por uma IGP."
         },
         {
           "emoji": "🧀",
           "title": "Queso de flor",
           "es": "Queso de flor de Guía.",
-          "pt": "Queijo de Gran Canaria coalhado com flor de cardo, com DOP Queso de Flor de Guía."
+          "pt": "O Queso de Flor de Guía, de Gran Canaria, usa flor de cardo como coagulante vegetal e integra uma DOP com os queijos de Media Flor de Guía e de Guía. Miel de palma é um xarope obtido da seiva da palmeira, tradicional de La Gomera; não é mel de abelhas."
         }
       ]
     }

@@ -53,7 +53,8 @@
         {
           "es": "la dirección",
           "pt": "o endereço",
-          "emoji": "📍"
+          "emoji": "📍",
+          "image": "assets/vocab/direccion.png"
         },
         {
           "es": "el sello",
@@ -160,9 +161,9 @@
       ],
       "distractors": [
         "en",
-        "departamento"
+        "departamentos"
       ],
-      "explanation": "\"A mi nombre\" = no meu nome."
+      "explanation": "Piso = apartamento, uso habitual na Espanha. Departamento também é espanhol correto, sobretudo na América; aqui o plural não combina com a frase."
     },
     {
       "type": "listening",
@@ -229,7 +230,7 @@
           "emoji": "🏛️",
           "title": "El padrón",
           "es": "Pide el volante de empadronamiento.",
-          "pt": "O empadronamiento é o registro no padrón municipal da cidade onde você mora. O \"volante\" ou \"certificado\" comprova seu endereço e é pedido para TIE, centro de saúde, escola etc. Documentos e prazos variam por prefeitura. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "O empadronamiento registra onde você mora habitualmente; não comprova residência legal na Espanha. Volante e certificado de empadronamiento não são sempre intercambiáveis: peça o documento exigido pelo trâmite. Requisitos e emissão variam por prefeitura. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "🏠",
