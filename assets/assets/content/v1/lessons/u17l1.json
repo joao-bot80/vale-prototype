@@ -124,9 +124,10 @@
         },
         {
           "es": "suspender",
-          "kind": "quase",
-          "meaning": "suspender / ser reprovado",
-          "tip": "Suspender = suspender; na escola, reprovar."
+          "kind": "armadilha",
+          "meaning": "ser reprovado (na prova)",
+          "tip": "Nesta frase, suspender é ser reprovado na prova, não cancelar o exame. Em outros contextos, também pode significar suspender ou interromper, como em português.",
+          "context": "He suspendido el CCSE. Tengo que repetirlo."
         },
         {
           "es": "nacionalidad",

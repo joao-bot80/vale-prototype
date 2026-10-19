@@ -77,6 +77,16 @@
           "pt": "o voto",
           "emoji": "🗳️",
           "image": "assets/vocab/voto.png"
+        },
+        {
+          "es": "alcalde",
+          "pt": "prefeito",
+          "emoji": "🏛️"
+        },
+        {
+          "es": "comunidad autónoma",
+          "pt": "comunidade autônoma",
+          "emoji": "🗺️"
         }
       ]
     },
@@ -141,18 +151,18 @@
           "context": "Las Cortes Generales aprueban las leyes."
         },
         {
-          "es": "comunidad autónoma",
-          "kind": "quase",
-          "meaning": "região autônoma",
-          "tip": "São 17 comunidades autônomas, mais 2 cidades autônomas (Ceuta e Melilla)."
+          "es": "provincia",
+          "kind": "igual",
+          "meaning": "província",
+          "pt": "província",
+          "tip": "Provincia = província. A palavra tem o mesmo sentido em português; só o acento muda."
         },
         {
-          "es": "alcalde",
-          "kind": "quase",
-          "meaning": "alcaide / prefeito",
-          "tip": "Alcaide também pode designar o chefe de um município espanhol em português. No Brasil, prefeito é a tradução mais habitual; os sentidos históricos de alcaide não anulam esse uso.",
-          "pt": "alcaide",
-          "context": "El alcalde dirige el ayuntamiento."
+          "es": "Senado",
+          "kind": "igual",
+          "meaning": "Senado",
+          "pt": "Senado",
+          "tip": "Senado tem a mesma escrita e o mesmo sentido em português: uma das câmaras do Parlamento."
         },
         {
           "es": "asignatura",
@@ -238,7 +248,7 @@
             "O governador da comunidade de Madrid."
           ],
           "correct": 0,
-          "joke": "Alcalde = prefeito; alcaide também é uma tradução possível em português."
+          "joke": "Alcalde = prefeito: é quem dirige o governo municipal."
         },
         {
           "spanish": "El Congreso de los Diputados está en Madrid.",
@@ -265,6 +275,12 @@
       "title": "Pílula cultural",
       "region": "Papelada",
       "items": [
+        {
+          "emoji": "🗺️",
+          "title": "Comunidades autônomas",
+          "es": "comunidad autónoma",
+          "pt": "Uma comunidade autônoma é uma divisão territorial da Espanha com instituições próprias de governo. A Espanha tem 17 comunidades autônomas e 2 cidades autônomas: Ceuta e Melilla. Compare com os estados brasileiros para se orientar no mapa, mas lembre que são organizações políticas diferentes."
+        },
         {
           "emoji": "📘",
           "title": "CCSE",
