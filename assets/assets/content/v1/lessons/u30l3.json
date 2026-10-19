@@ -136,9 +136,9 @@
         },
         {
           "es": "volver",
-          "kind": "armadilha",
+          "kind": "quase",
           "meaning": "voltar",
-          "tip": "Aqui, volver = voltar ou regressar. Volver também existe em português com esse sentido, além de virar; voltar é a forma mais habitual no Brasil.",
+          "tip": "Quase! Volver = voltar. Vuelvo mañana = volto amanhã.",
           "context": "Vuelvo a España mañana."
         },
         {
