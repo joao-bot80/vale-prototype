@@ -122,10 +122,10 @@
         },
         {
           "es": "cima",
-          "kind": "igual",
+          "kind": "armadilha",
           "meaning": "cume / topo",
-          "tip": "Cima pode significar topo ou cume em ambas as línguas, inclusive o ponto mais alto de uma montanha.",
-          "pt": "cima"
+          "tip": "Armadilha! Em espanhol, la cima é o cume, o topo da montanha. Em português, \"cima\" só aparece em expressões como \"em cima\", \"lá de cima\" e \"para cima\". \"Em cima\" em espanhol é \"encima\" (encima de la mesa) ou \"arriba\".",
+          "context": "Llegamos a la cima del Teide."
         },
         {
           "es": "lava",
@@ -237,7 +237,7 @@
             "Estamos no pé da montanha."
           ],
           "correct": 0,
-          "joke": "Cima = topo ou cume, sentido que também existe em português."
+          "joke": "Armadilha! La cima = o cume, o topo. \"Em cima\" em espanhol é \"encima\"."
         },
         {
           "spanish": "¿Cuánto mide el Teide?",
