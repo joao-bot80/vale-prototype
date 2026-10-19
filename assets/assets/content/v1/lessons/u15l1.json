@@ -133,9 +133,9 @@
         },
         {
           "es": "vacante",
-          "kind": "quase",
-          "meaning": "vaga aberta",
-          "tip": "Vacante = vaga (de emprego): \"hay una vacante\" = tem uma vaga aberta."
+          "kind": "armadilha",
+          "meaning": "vaga (de emprego)",
+          "tip": "Armadilha! Em espanhol, una vacante é uma vaga de emprego: \"hay una vacante\" = tem uma vaga aberta. Em português, vacante só aparece como adjetivo formal (\"cargo vacante\"); o substantivo que usamos é vaga."
         },
         {
           "es": "contratar",

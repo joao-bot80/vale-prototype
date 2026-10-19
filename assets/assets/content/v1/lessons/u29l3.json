@@ -162,7 +162,7 @@
         "venceu",
         "caducada"
       ],
-      "explanation": "Caducado indica validade expirada. Concorda com pasaporte, masculino; com tarjeta, usa-se caducada. Vencido também pode ter esse sentido em espanhol."
+      "explanation": "Caducado = vencido (validade expirada). Concorda com pasaporte, masculino; com tarjeta, usa-se caducada. Vencido também pode ter esse sentido em espanhol."
     },
     {
       "type": "listening",
@@ -216,7 +216,7 @@
             "Minha TIE ainda está válida."
           ],
           "correct": 0,
-          "joke": "Caducada indica validade expirada. Caduca também pode ter esse sentido em português. A frase se refere à validade do cartão."
+          "joke": "Armadilha! Caducada = vencida (validade expirada). No Brasil, dizemos cartão vencido."
         }
       ]
     },

@@ -143,10 +143,9 @@
         },
         {
           "es": "bodeguero",
-          "kind": "quase",
-          "meaning": "bodegueiro / taberneiro",
-          "tip": "Bodeguero e bodegueiro podem ser o dono ou responsável por uma bodega, aqui uma taberna. No diálogo do vinho, bodeguero se refere ao responsável pela vinícola.",
-          "pt": "bodegueiro",
+          "kind": "armadilha",
+          "meaning": "dono da bodega / produtor de vinho",
+          "tip": "Armadilha! Bodeguero é o dono ou responsável por uma bodega: a taberna ou a vinícola. No Brasil, bodegueiro quase não se usa; dizemos dono do bar, taberneiro ou produtor de vinho.",
           "context": "El bodeguero atiende su taberna."
         }
       ]

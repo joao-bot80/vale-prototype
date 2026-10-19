@@ -134,10 +134,9 @@
         },
         {
           "es": "caducado",
-          "kind": "igual",
-          "meaning": "caducado / vencido",
-          "tip": "Caducado existe nas duas línguas para um documento que perdeu a validade. No Brasil também se diz vencido.",
-          "pt": "caducado",
+          "kind": "armadilha",
+          "meaning": "vencido",
+          "tip": "Armadilha! Caducado = vencido: \"mi pasaporte está caducado\" = meu passaporte está vencido. No Brasil, para documento dizemos vencido; caduco costuma ser lei ou prazo que perdeu efeito, ou pessoa que já não raciocina bem.",
           "context": "Mi pasaporte está caducado."
         },
         {

@@ -134,10 +134,9 @@
         },
         {
           "es": "bodega",
-          "kind": "igual",
-          "meaning": "bar / taberna",
-          "tip": "Neste uso, \"bodega\" é um bar ou taberna, sentido que também existe em português. Em espanhol, a palavra ainda pode indicar adega ou vinícola; em português, também pode ser uma mercearia ou ter usos depreciativos.",
-          "pt": "bodega",
+          "kind": "armadilha",
+          "meaning": "adega / bar de vinhos",
+          "tip": "Armadilha! Na Espanha, bodega é uma adega ou vinícola, ou um bar tradicional de vinho e vermute. No Brasil, bodega é um boteco ou uma venda simples, e \"uma bodega\" na gíria é coisa ruim.",
           "context": "En esta bodega sirven vermut."
         },
         {

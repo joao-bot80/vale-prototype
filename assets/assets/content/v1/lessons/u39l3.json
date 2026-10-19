@@ -137,10 +137,9 @@
         },
         {
           "es": "diseñar",
-          "kind": "quase",
-          "meaning": "projetar / desenhar",
-          "tip": "Diseñar é conceber ou projetar, sentido que desenhar também pode ter em português. Dibujar costuma se referir a representar por traços ou fazer um desenho.",
-          "pt": "desenhar",
+          "kind": "armadilha",
+          "meaning": "projetar / criar o design",
+          "tip": "Armadilha! Diseñar = projetar, criar o design: \"diseñó un edificio\" = projetou um prédio. O desenhar brasileiro, fazer um desenho, em espanhol é dibujar.",
           "context": "Diseñó un edificio."
         },
         {

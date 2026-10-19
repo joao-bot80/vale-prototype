@@ -129,10 +129,9 @@
         },
         {
           "es": "ligar",
-          "kind": "igual",
-          "meaning": "ligar / dar liga",
-          "tip": "Na cozinha, ligar é unir os ingredientes e dar liga ao molho, sentido compartilhado com o português. Em outro contexto espanhol, ligar pode ser paquerar.",
-          "pt": "ligar",
+          "kind": "armadilha",
+          "meaning": "dar liga (ao molho) / paquerar",
+          "tip": "Armadilha! Na cozinha, ligar é dar liga ao molho (emulsionar). Na Espanha, ligar também é paquerar: \"ligar con alguien\". O nosso ligar é outro: telefonar = llamar; ligar a luz ou a TV = encender.",
           "context": "La salsa empieza a ligar."
         },
         {
@@ -204,7 +203,7 @@
         "No micro-ondas, cinco minutos."
       ],
       "correct": 0,
-      "explanation": "Aqui, ligar é dar liga ao molho, formando uma emulsão. Ligar também pode significar unir em ambas as línguas."
+      "explanation": "Aqui, ligar é dar liga ao molho, formando uma emulsão. Atenção: o nosso ligar (telefonar) em espanhol é llamar."
     },
     {
       "type": "boss",

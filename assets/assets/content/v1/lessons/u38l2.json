@@ -142,10 +142,9 @@
         },
         {
           "es": "cacho",
-          "kind": "igual",
-          "meaning": "pedaço / bocado",
-          "tip": "Cacho significa pedaço em espanhol. Em português também pode ser uma pequena porção ou bocado, embora esse uso seja menos comum no Brasil. Cacho de uvas é racimo de uvas em espanhol.",
-          "pt": "cacho",
+          "kind": "armadilha",
+          "meaning": "pedaço",
+          "tip": "Armadilha! Na Espanha, un cacho é um pedaço: \"un cacho de pan\" = um pedaço de pão. No Brasil, cacho é de uva ou de banana (em espanhol, racimo) ou de cabelo (rizo).",
           "context": "Quiero un cacho de pan."
         }
       ]

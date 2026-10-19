@@ -132,10 +132,9 @@
         },
         {
           "es": "ampolla",
-          "kind": "quase",
-          "meaning": "bolha / ampola (na pele)",
-          "tip": "Ampolla e ampola podem designar uma bolha na pele; no Brasil, bolha é mais usual. As duas palavras também podem indicar o frasco de medicamento.",
-          "pt": "ampola",
+          "kind": "armadilha",
+          "meaning": "bolha (na pele)",
+          "tip": "Armadilha! Ampolla = bolha na pele, como a que sai no pé de tanto andar. No Brasil, ampola é o frasquinho de remédio ou de injeção; na pele, dizemos bolha.",
           "context": "Me ha salido una ampolla en el talón."
         },
         {
@@ -219,7 +218,7 @@
             "Apareceu uma mancha no meu calcanhar."
           ],
           "correct": 0,
-          "joke": "Ampolla = bolha na pele. Ampola também tem esse sentido em português."
+          "joke": "Armadilha! Ampolla = bolha na pele. No Brasil, ampola é o frasquinho de remédio."
         },
         {
           "spanish": "Llevo un bastón.",

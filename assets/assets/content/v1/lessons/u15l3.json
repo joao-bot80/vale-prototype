@@ -138,10 +138,9 @@
         },
         {
           "es": "peatón",
-          "kind": "quase",
-          "meaning": "pedestre / peão",
-          "tip": "Peatón = pedestre. Peão também significa pessoa que anda a pé, uso corrente em Portugal; no Brasil, é mais comum pedestre.",
-          "pt": "peão",
+          "kind": "armadilha",
+          "meaning": "pedestre",
+          "tip": "Armadilha! Peatón = pedestre, quem anda a pé. No Brasil, peão é o trabalhador do campo ou da obra, ou a peça do xadrez (em espanhol, peón).",
           "context": "¡Cuidado con los peatones!"
         },
         {

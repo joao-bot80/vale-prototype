@@ -131,10 +131,9 @@
         },
         {
           "es": "anginas",
-          "kind": "igual",
-          "meaning": "anginas / amigdalite",
-          "tip": "No sentido de inflamação da garganta, anginas existe nas duas línguas. Em espanhol, las anginas também pode nomear as amígdalas. Angina de peito é um sentido diferente.",
-          "pt": "anginas",
+          "kind": "armadilha",
+          "meaning": "amigdalite / amígdalas",
+          "tip": "Armadilha! Na Espanha, \"tener anginas\" = estar com amigdalite, e las anginas também são as amígdalas. No Brasil, angina lembra logo a dor no peito (angina do coração); para a garganta dizemos amigdalite.",
           "context": "Tiene anginas."
         },
         {
@@ -228,7 +227,7 @@
             "Está com uma fratura."
           ],
           "correct": 0,
-          "joke": "Tener anginas = estar com amigdalite. Em português, anginas também pode ter esse sentido."
+          "joke": "Armadilha! Tener anginas = estar com amigdalite. No Brasil, angina lembra a dor no peito."
         },
         {
           "spanish": "Tómate el jarabe.",
