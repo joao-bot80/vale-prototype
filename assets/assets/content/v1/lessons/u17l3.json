@@ -20,6 +20,16 @@
         },
         {
           "speaker": "Lu",
+          "es": "¿Y me dan una nota?",
+          "pt": "E eu recebo uma nota?"
+        },
+        {
+          "speaker": "Lino",
+          "es": "No. Solo te dicen apto o no apto. Puedes fallar diez preguntas y aprobar igual.",
+          "pt": "Não. Só dizem apto ou não apto. Você pode errar dez perguntas e passar mesmo assim."
+        },
+        {
+          "speaker": "Lu",
           "es": "¿Y qué preguntan?",
           "pt": "E o que perguntam?"
         },
@@ -159,8 +169,8 @@
       "context": [
         {
           "speaker": "Lino",
-          "es": "Son veinticinco preguntas tipo test. Necesitas quince respuestas correctas.",
-          "pt": "São vinte e cinco perguntas com alternativas. Você precisa de quinze respostas certas."
+          "es": "No. Solo te dicen apto o no apto. Puedes fallar diez preguntas y aprobar igual.",
+          "pt": "Não. Só dizem apto ou não apto. Você pode errar dez perguntas e passar mesmo assim."
         },
         {
           "speaker": "Lu",
@@ -198,14 +208,14 @@
       "type": "listening",
       "title": "Ouça e escolha",
       "prompt": "O que você ouviu?",
-      "spanish": "Sí, el Instituto Cervantes publica un manual con todas las preguntas.",
+      "spanish": "No. Solo te dicen apto o no apto. Puedes fallar diez preguntas y aprobar igual.",
       "options": [
-        "Sim, o Instituto Cervantes publica um manual com todas as perguntas.",
-        "Não, as perguntas são secretas.",
-        "Sim, mas só em inglês."
+        "Não. Só dizem apto ou não apto. Você pode errar dez perguntas e passar mesmo assim.",
+        "Sim, uma nota de 0 a 10.",
+        "Sim, mas só se você passar."
       ],
       "correct": 0,
-      "explanation": "O manual é atualizado a cada ano."
+      "explanation": "No CCSE, a certificação diz só APTO, NO APTO ou NO PRESENTADO, sem a pontuação. É preciso acertar 15 das 25 perguntas; erros e respostas em branco não descontam."
     },
     {
       "type": "boss",
@@ -259,7 +269,7 @@
           "emoji": "📘",
           "title": "CCSE",
           "es": "Veinticinco preguntas, quince aciertos.",
-          "pt": "O CCSE tem 25 perguntas e exige 15 acertos. Em 2026, a inscrição custa 85 € e inclui até duas oportunidades, nas condições e no prazo definidos pelo Instituto Cervantes. O certificado de aprovação vale quatro anos para o pedido de nacionalidade. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "O CCSE tem 25 perguntas, dura 45 minutos e exige 15 acertos. O resultado é só APTO ou NO APTO: a pontuação não é informada. Em 2026, a inscrição custa 85 € e inclui até duas oportunidades, nas condições e no prazo definidos pelo Instituto Cervantes. O certificado de aprovação vale quatro anos para o pedido de nacionalidade. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "🏛️",

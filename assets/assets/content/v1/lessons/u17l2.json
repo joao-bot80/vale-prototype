@@ -30,6 +30,16 @@
         },
         {
           "speaker": "Lu",
+          "es": "¿Y qué calificación me dan?",
+          "pt": "E que nota eu recebo?"
+        },
+        {
+          "speaker": "Empleado",
+          "es": "Cada prueba tiene una nota sobre veinticinco. Necesitas treinta de cincuenta en cada grupo de dos pruebas para ser apta.",
+          "pt": "Cada prova recebe uma nota de 0 a 25. Você precisa de trinta de cinquenta em cada grupo de duas provas para ficar apta (aprovada)."
+        },
+        {
+          "speaker": "Lu",
           "es": "¿El certificado caduca?",
           "pt": "O certificado vence?"
         },
@@ -140,14 +150,14 @@
     {
       "type": "choice",
       "title": "Escolha a resposta",
-      "prompt": "No DELE e no CCSE, o resultado é:",
+      "prompt": "No DELE A2, o que vem no resultado?",
       "options": [
-        "Apto ou no apto",
-        "Uma nota de 0 a 1000",
-        "Bom, ruim ou ótimo"
+        "A nota de cada prova e o resultado final: apto ou no apto",
+        "Só apto ou no apto, sem nenhuma nota",
+        "Uma nota única de 0 a 10"
       ],
       "correct": 0,
-      "explanation": "\"Apto\" = aprovado."
+      "explanation": "Cada uma das 4 provas vale 25 pontos. Elas formam 2 grupos: leitura + expressão escrita, e compreensão auditiva + expressão oral. É preciso tirar pelo menos 30 de 50 em cada grupo. A certificação mostra os pontos e o resultado final: apto (aprovado) ou no apto."
     },
     {
       "type": "build",
@@ -217,7 +227,7 @@
             "Fui reprovada."
           ],
           "correct": 0,
-          "joke": "No DELE o resultado é apto (aprovado) ou no apto (reprovado)."
+          "joke": "Apto/apta = aprovado(a). No DELE, é o resultado final, que vem junto com a nota de cada prova."
         }
       ]
     },
@@ -230,7 +240,7 @@
           "emoji": "🎓",
           "title": "DELE A2",
           "es": "En 2026, el DELE A2 cuesta 138 euros en España.",
-          "pt": "Em geral, o pedido de nacionalidade exige DELE A2 ou superior; a nacionalidade brasileira não gera dispensa automática, mas existem outras hipóteses de dispensa. A inscrição no DELE A2 na Espanha custa 138 € em 2026. O diploma não caduca. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
+          "pt": "Em geral, o pedido de nacionalidade exige DELE A2 ou superior; a nacionalidade brasileira não gera dispensa automática, mas existem outras hipóteses de dispensa. A inscrição no DELE A2 na Espanha custa 138 € em 2026. Cada prova vale 25 pontos, e é preciso 30 de 50 em cada um dos dois grupos; o resultado mostra as notas e diz apto ou no apto. O diploma não caduca. ℹ️ Informação educativa, não é assessoria jurídica: regras e taxas mudam, confira sempre a fonte oficial."
         },
         {
           "emoji": "🗓️",

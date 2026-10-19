@@ -209,13 +209,13 @@
       "bossName": "Falso Amigo",
       "questions": [
         {
-          "spanish": "He suspendido el CCSE por un punto.",
+          "spanish": "He suspendido el CCSE. Tengo que repetirlo.",
           "options": [
-            "Fui reprovada no CCSE por um ponto.",
-            "Cancelei minha inscrição no CCSE."
+            "Fui reprovada no CCSE. Tenho que fazer de novo.",
+            "Cancelei minha inscrição no CCSE. Tenho que repetir."
           ],
           "correct": 0,
-          "joke": "Suspender un examen aqui é ser reprovada. O verbo também pode significar suspender ou cancelar algo."
+          "joke": "Suspender un examen aqui é ser reprovada. O verbo também pode significar suspender ou cancelar algo. No CCSE não se informa a pontuação: o resultado é só apto ou no apto."
         },
         {
           "spanish": "Paga la tasa.",

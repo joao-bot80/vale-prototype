@@ -35,8 +35,8 @@
         },
         {
           "speaker": "Lu",
-          "es": "Perfecto. Quiero leer bien las cláusulas antes de firmar.",
-          "pt": "Perfeito. Quero ler bem as cláusulas antes de assinar."
+          "es": "Perfecto. Quiero leer bien las cláusulas y ver si el piso tiene desperfectos antes de firmar.",
+          "pt": "Perfeito. Quero ler bem as cláusulas e ver se o apartamento tem danos antes de assinar."
         }
       ]
     },
@@ -129,7 +129,7 @@
       "speaker": "Lu",
       "pt": "Quanto dura o contrato?",
       "options": [
-        "Perfecto. Quiero leer bien las cláusulas antes de firmar.",
+        "Perfecto. Quiero leer bien las cláusulas y ver si el piso tiene desperfectos antes de firmar.",
         "El propietario es una persona física: un año, con prórrogas hasta cinco según la ley.",
         "¿Cuánto dura el contrato?"
       ],

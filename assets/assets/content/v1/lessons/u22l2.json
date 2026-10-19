@@ -35,8 +35,8 @@
         },
         {
           "speaker": "Lu",
-          "es": "Perfecto. ¿Y la factura llega cada mes?",
-          "pt": "Perfeito. E a conta chega todo mês?"
+          "es": "Perfecto. ¿Y si se va la luz, a quién llamo?",
+          "pt": "Perfeito. E se a luz cair (acabar a energia), para quem eu ligo?"
         }
       ]
     },
@@ -173,7 +173,7 @@
       "pt": "Beleza. E quanta potência tenho contratada?",
       "options": [
         "Vale. ¿Y cuánta potencia tengo contratada?",
-        "Perfecto. ¿Y la factura llega cada mes?",
+        "Perfecto. ¿Y si se va la luz, a quién llamo?",
         "Tres coma cuatro kilovatios. Antes de cambiarla, conviene revisar cuánta necesitas."
       ],
       "correct": 0,
