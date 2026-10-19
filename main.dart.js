@@ -106053,13 +106053,15 @@ if(A.b6E(a0,o,b)&&s.h(0,o.a)===0)c.B(0,o.a)}m=c}l=A.b6F(a0,a1,b,a)
 k=A.aZP(a1,a2)
 c=l==null
 j=c&&A.arN(a0,a1)
-e.aqG(!c||j)
-r=a1.z
-q=t.p
-r=A.cc(A.b([B.KM,A.jF(d,d,new A.Qc(B.ao,B.aD,A.a8(""+r.gG(r),d,d,d,d,d,d,d,d),B.Ms,d),d,d,new A.aDF(e),d,d,"Passaporte"),A.jF(d,d,B.Mm,d,d,new A.aDG(e),d,d,"Configura\xe7\xf5es")],q),B.t,B.l,B.n,0)
+r=!c||j
+q=a1.y
+e.aqG(r,q.gV(q))
+q=a1.z
+r=t.p
+q=A.cc(A.b([B.KM,A.jF(d,d,new A.Qc(B.ao,B.aD,A.a8(""+q.gG(q),d,d,d,d,d,d,d,d),B.Ms,d),d,d,new A.aDF(e),d,d,"Passaporte"),A.jF(d,d,B.Mm,d,d,new A.aDG(e),d,d,"Configura\xe7\xf5es")],r),B.t,B.l,B.n,0)
 n=a1.f
 n=n!=null&&A.aSJ(n,a2)===0
-n=A.oe(B.cC,A.b([A.IQ(new A.za("\ud83d\udd25",""+k+" dias",B.c3,!n,d),"Sequ\xeancia de estudo: conclua uma li\xe7\xe3o ou revis\xe3o a cada dia."),A.IQ(new A.za("\ud83e\uddca",""+a1.r,B.aI,!1,d),"Prote\xe7\xf5es de sequ\xeancia: uma a cada 7 dias de estudo, at\xe9 2 acumuladas."),A.IQ(new A.za("\u2b50",""+a1.d+" XP",B.aC,!1,d),"XP: pontos pelos acertos e pela pr\xe1tica.")],q),B.cD,6,14)
+n=A.oe(B.cC,A.b([A.IQ(new A.za("\ud83d\udd25",""+k+" dias",B.c3,!n,d),"Sequ\xeancia de estudo: conclua uma li\xe7\xe3o ou revis\xe3o a cada dia."),A.IQ(new A.za("\ud83e\uddca",""+a1.r,B.aI,!1,d),"Prote\xe7\xf5es de sequ\xeancia: uma a cada 7 dias de estudo, at\xe9 2 acumuladas."),A.IQ(new A.za("\u2b50",""+a1.d+" XP",B.aC,!1,d),"XP: pontos pelos acertos e pela pr\xe1tica.")],r),B.cD,6,14)
 if(!c)i=new A.aDI(e,a0,l)
 else i=a?new A.aDJ(e):new A.aDK(e)
 h=A.tf(c?B.mq:B.rs,d,d,d)
@@ -106067,16 +106069,16 @@ if(c)g=a?"Escolher uma li\xe7\xe3o para revisar":"Conhecer o curso completo"
 else{g=a1.grB()
 g=g==null?d:g.a
 g=g===l.a?"Continuar de onde parei":"Continuar"
-g=g+" \xb7 "+l.b}i=A.b([B.U0,new A.aG(B.fM,A.aXm(h,B.a7q,new A.aG(B.lD,A.a8(g,d,d,d,d,d,d,d,d),d),i,d),d)],q)
+g=g+" \xb7 "+l.b}i=A.b([B.U0,new A.aG(B.fM,A.aXm(h,B.a7q,new A.aG(B.lD,A.a8(g,d,d,d,d,d,d,d,d),d),i,d),d)],r)
 if(!a)i.push(new A.aG(B.Kn,A.dJ(A.a8(""+A.b6D(a0,b)+" li\xe7\xf5es gr\xe1tis: chegada a Madrid, tapas e uma amostra de Papelada.\nCurso completo: "+a0.gnq().length+" li\xe7\xf5es para estudar na ordem que quiser.",d,d,d,d,d,B.a1p,d,d),B.a7h,new A.aDL(e),d),d))
 h=e.w
-i.push(new A.aG(B.Kh,A.oe(B.cC,A.b([A.QF(B.a70,B.a54,new A.aDM(e),!h),A.QF(B.a72,B.a58,new A.aDN(e),h)],q),B.cD,8,8),d))
+i.push(new A.aG(B.Kh,A.oe(B.cC,A.b([A.QF(B.a70,B.a54,new A.aDM(e),!h),A.QF(B.a72,B.a58,new A.aDN(e),h)],r),B.cD,8,8),d))
 if(e.w)B.b.J(i,e.ahR(a0,a1,b,a))
-else{s=A.b([new A.aG(B.fM,new A.X2(a0,a1,m,s,new A.aDO(e),d),d),B.TW],q)
+else{s=A.b([new A.aG(B.fM,new A.X2(a0,a1,m,s,new A.aDO(e),d),d),B.TW],r)
 for(f=0;f<a0.ge2().length;++f)B.b.J(s,e.atA(a0,a1,b,a,f,c?d:l.a))
 c=j?e.as:d
 s.push(new A.iP(new A.Tj(a0,a1,new A.aDP(e),new A.aDH(e,a0),d),c))
-B.b.J(i,s)}return A.bh(A.b([new A.aG(B.Kg,r,d),new A.aG(B.Kd,n,d),A.cO(A.j7(A.bh(i,B.ap,B.l,B.n),e.Q,B.a7f,B.JT,B.af),1)],q),B.t,B.l,B.n)},
+B.b.J(i,s)}return A.bh(A.b([new A.aG(B.Kg,q,d),new A.aG(B.Kd,n,d),A.cO(A.j7(A.bh(i,B.ap,B.l,B.n),e.Q,B.a7f,B.JT,B.af),1)],r),B.t,B.l,B.n)},
 ahR(a,b,a0,a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=this,d=null,c=A.b([],t.LB)
 for(s=a.ge2(),r=s.length,q=0;q<s.length;s.length===r||(0,A.w)(s),++q){p=s[q]
 o=e.x
@@ -106115,7 +106117,7 @@ p=!f||B.b.cJ(q.d,new A.aE2(a,c))
 p=A.b([new A.XP("Unidade "+j+" \xb7 "+q.b+" "+q.c,p,h)],l)
 for(i=0;q=o[k].d,i<q.length;++i)if(q[i].c)p.push(new A.d3(new A.aE3(this,g,k,i,d,a,c,b,a1),h))
 B.b.J(r,p)}return r},
-aqG(a){var s,r,q,p=this
+aqG(a,b){var s,r,q,p=this
 if(p.w)return
 s=p.c
 s.toString
@@ -106124,8 +106126,9 @@ if(r!=null&&!r.gh2())return
 q=$.aS2
 if(p.at&&!q)return
 p.at=!0
-$.aS2=!1
+s=$.aS2=!1
 if(!a)return
+if(!q?b:s)return
 $.a_.am$.push(new A.aDY(p,q))},
 auu(a){var s,r,q,p,o,n,m=$.a_.az$.x.h(0,this.as),l=m==null?null:m.ga4()
 if(l==null||l.y==null||this.Q.f.length===0)return
